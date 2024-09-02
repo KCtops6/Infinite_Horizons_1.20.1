@@ -897,4 +897,5 @@ Updated "Lootr (Forge & NeoForge)" from "lootr-forge-1.20-0.7.34.86.jar" to "loo
 Updated "ProbeJS" from "probejs-7.0.1-forge.jar" to "probejs-6.0.1-forge.jar"
 
 1.20.1-6.4
-Updated "Waystones"
+removed MoreMekanismProcessing-1.20.1-4.0.jar.
+updated waystones-forge-1.20-14.1.5.jar from waystones-forge-1.20-14.1.4.jar
