@@ -58,4 +58,6 @@ JEIEvents.hideItems((event) => {
     event.hide('#forge:ores_in_ground/sand')
     event.hide('#forge:ores_in_ground/stone')
     event.hide('#forge:ores_in_ground/tuff')
+
+    event.hide('create:andesite_alloy')
 });
