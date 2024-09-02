@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "notable_villager_trades"
+	group: "0CC079818F07D50F"
+	icon: "minecraft:emerald"
+	id: "199D983ACB38CE1B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5D69AD5E1BAB0F9F"
+			tasks: [{
+				id: "75C1C46C55DB8059"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D69AD5E1BAB0F9F"]
+			id: "0F3E3401DCA6D466"
+			rewards: [{
+				id: "03B86E70C1A95F3B"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2709A3B4983A5F86"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D69AD5E1BAB0F9F"]
+			id: "5607F369395917D7"
+			tasks: [{
+				id: "0593079D4D6DAA3A"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "6EA399742F8C544A"
+			tasks: [{
+				id: "2A89895F6E5F5520"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EA399742F8C544A"]
+			id: "6B6CB23D39BAD646"
+			tasks: [{
+				id: "37779F1E54F2B217"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EA399742F8C544A"]
+			id: "043C3E0B59D25377"
+			tasks: [{
+				id: "128AC4B0740A0D04"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "45A87DF231894D3B"
+			tasks: [{
+				icon: "villagertools:contract"
+				id: "356B5974AC06C8FC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:wandering_trader"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45A87DF231894D3B"]
+			id: "117C43667F68CED5"
+			optional: true
+			tasks: [{
+				id: "593D234CF85718FE"
+				item: "kubejs:explorer_map"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["117C43667F68CED5"]
+			id: "491A7194A042F99C"
+			optional: true
+			tasks: [{
+				id: "1D70A2797971237C"
+				item: "kubejs:desert_temple_dungeon_key"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["491A7194A042F99C"]
+			id: "5D454D98012452C5"
+			optional: true
+			tasks: [{
+				id: "37441D2ACE3A3258"
+				item: "minecraft:dune_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["117C43667F68CED5"]
+			id: "05C016BE9674A17A"
+			optional: true
+			tasks: [{
+				id: "258598CFCF976F48"
+				item: "kubejs:jungle_temple_dungeon_key"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05C016BE9674A17A"]
+			id: "47D6DCE5CEA56F1F"
+			optional: true
+			tasks: [{
+				id: "257AB8886EA8C679"
+				item: "minecraft:wild_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45A87DF231894D3B"]
+			id: "6F1D6EFFD00523F1"
+			optional: true
+			tasks: [{
+				id: "798755EFCAA137E2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:decorated_pot_sherds"
+					}
+				}
+				title: "Any #minecraft:decorated_pot_sherds"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45A87DF231894D3B"]
+			id: "0F8C26787725599D"
+			tasks: [{
+				id: "1B07E4B44F0E6ED9"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F8C26787725599D"]
+			id: "017CADBB2F0D0159"
+			tasks: [{
+				id: "1B28C0BF71451E89"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0F8C26787725599D"]
+			id: "127989FDBD98D9C4"
+			optional: true
+			tasks: [{
+				id: "343873164A06A193"
+				item: "minecraft:wayfinder_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0F8C26787725599D"]
+			id: "17401C1DA6C90C4C"
+			optional: true
+			tasks: [{
+				id: "278F5E5AF52490FA"
+				item: "minecraft:raiser_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F8C26787725599D"]
+			id: "05A689F98AE49834"
+			optional: true
+			tasks: [{
+				id: "571B7821895B8131"
+				item: "minecraft:shaper_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F8C26787725599D"]
+			id: "0C2DE6CF680555D9"
+			optional: true
+			tasks: [{
+				id: "27D606963CA18410"
+				item: "minecraft:host_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["117C43667F68CED5"]
+			id: "4B55DE8004B91D8D"
+			tasks: [{
+				id: "6F5ED325807B9822"
+				item: "kubejs:stronghold_dungeon_key"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B55DE8004B91D8D"]
+			id: "66DF9D8A447AF365"
+			tasks: [{
+				id: "64FE6A30BF4A8ACB"
+				item: "minecraft:eye_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+	]
+	title: "Villager Trading"
+}

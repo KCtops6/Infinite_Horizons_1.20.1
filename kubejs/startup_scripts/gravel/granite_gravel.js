@@ -1,0 +1,10 @@
+StartupEvents.registry("block", (event) => {
+    event.create("granite_gravel")
+    .displayName("Granite Gravel")
+    .hardness(0.6)
+    .resistance(0.6)
+    .gravelSoundType()
+    .requiresTool(false)
+    .tagBlock("mineable/shovel")
+    .textureAll('kubejs:block/granite_gravel')
+})

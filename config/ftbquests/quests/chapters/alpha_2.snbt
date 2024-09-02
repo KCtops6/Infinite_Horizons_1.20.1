@@ -1,0 +1,553 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alpha_2"
+	group: "6F4C25734B575319"
+	icon: "minecraft:oak_log"
+	id: "1F0402920128C0A0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Complete the quest to gather wood from the village's trees. Follow the tasks to find and harvest the precious resource. Use the collected wood to advance in your superflat world adventure."]
+			id: "2410A2F2F4822D70"
+			rewards: [
+				{
+					id: "1F092EA7773FCA9A"
+					item: "minecraft:apple"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "68EBC7A2F4703F08"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Collect Wood from the Village Tree"
+			tasks: [{
+				id: "244FBCB95F5C35F5"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Village Timber Hunt"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2410A2F2F4822D70"]
+			description: ["Collect wood from the village tree and use it to craft your very first crafting table. This essential tool will enable you to create a variety of items and tools, helping you progress in your superflat world."]
+			id: "1095B567B96DDCF3"
+			rewards: [
+				{
+					id: "24E230D597018576"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+				{
+					id: "513602A39F736A78"
+					item: "jecalculation:item_calculator_craft"
+					type: "item"
+				}
+				{
+					id: "6044135E137BA7CA"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Gather Wood and Build Your First Crafting Table"
+			tasks: [{
+				id: "68585B1BC5DA6CCF"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Crafting Table Creation"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "4276F0ED03C3F87D"
+			rewards: [{
+				id: "6D70CB058DD52A2F"
+				item: {
+					Count: 1
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{}"
+					}
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				icon: "bountiful:bountyboard"
+				id: "6F2C4D171C6A5D95"
+				observe_type: 0
+				timer: 0L
+				to_observe: "bountiful:bountyboard"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "31BBE9DCB2EB7E5D"
+			rewards: [{
+				id: "61D5D98D506F7A47"
+				item: "minecraft:emerald"
+				random_bonus: 15
+				type: "item"
+			}]
+			tasks: [{
+				id: "7649903ED9393A46"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1095B567B96DDCF3"]
+			description: ["Gather wood to craft a cutting board from the Farmer's Delight mod. This handy tool will allow you to process and prepare various resources, providing you with a solid foundation for your survival and growth in the superflat world."]
+			id: "107C7B47643CFDF0"
+			rewards: [
+				{
+					id: "545D9C6642372BC0"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BDC71F33194702F"
+					item: "farmersdelight:cooked_chicken_cuts"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Cutting Board for Early Game Resources"
+			tasks: [{
+				id: "51195BE44643C7B4"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "Cutting Board Creation"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "21AEB9240306B778"
+			rewards: [{
+				id: "6CDFAF37F3FAAE9D"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "3B8B8F1D27B0B128"
+				observe_type: 0
+				timer: 0L
+				to_observe: "waystones:waystone"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1095B567B96DDCF3"]
+			description: ["Learn to obtain tree bark from logs, a valuable early game resource. Gain bark by either breaking logs with an axe for a chance drop or stripping logs on a cutting board for a guaranteed yield. Use the collected bark for crafting paper and other essential items to aid your survival and progress in the superflat world."]
+			id: "537C4411B628FDE7"
+			rewards: [{
+				id: "2B2BC30E3D536DDB"
+				item: "pamhc2trees:paperbark_sapling"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Obtain Tree Bark for Early Game Resources"
+			tasks: [{
+				id: "2B3D8216BDFE5551"
+				item: "farmersdelight:tree_bark"
+				type: "item"
+			}]
+			title: "Bark Harvesting"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "7A65E98B9FE221A7"
+			rewards: [{
+				id: "46830940B0B721E8"
+				item: "minecraft:emerald"
+				random_bonus: 15
+				type: "item"
+			}]
+			tasks: [{
+				id: "67EAD6541B4F606C"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1095B567B96DDCF3"]
+			description: ["Collect pebbles by breaking dirt or grass blocks with a shovel for a small chance of finding them, or by processing dirt on a cutting board for a higher yield. Use these pebbles to craft cobblestone, an essential resource for building and crafting in the early stages of your superflat world adventure."]
+			id: "27BBBF57700A3F23"
+			rewards: [
+				{
+					id: "3E972F2A0CD0481A"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "721604EB0F7D29E5"
+					item: "pamhc2foodextended:blackberrycobbleritem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Gather Pebbles for Early Game Cobblestone"
+			tasks: [{
+				id: "04D9E1265479FA37"
+				item: "twigs:pebble"
+				type: "item"
+			}]
+			title: "Pebble Collection"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27BBBF57700A3F23"]
+			id: "1BD5834C4A3D2A7A"
+			rewards: [
+				{
+					count: 16
+					id: "318D95D078E1A1D2"
+					item: "minecraft:cobblestone"
+					random_bonus: 48
+					type: "item"
+				}
+				{
+					id: "473E56D9A33C7E80"
+					item: "pamhc2foodextended:peachcobbleritem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29F48776F1FC3891"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"107C7B47643CFDF0"
+				"1BD5834C4A3D2A7A"
+			]
+			id: "6A6C399AB9F1BBE0"
+			tasks: [{
+				id: "580089421C677A09"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A6C399AB9F1BBE0"]
+			id: "3949B38795D8BB00"
+			tasks: [{
+				id: "57A2C0AE6FB07BEF"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			id: "423A4884BBF1FFFA"
+			rewards: [
+				{
+					id: "17D7866082389DC3"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "0B83B365E40C3F5A"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1541E0BD8386CCF7"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A6C399AB9F1BBE0"]
+			id: "133BCE410E613A4F"
+			tasks: [{
+				id: "745430BB654AFC51"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["423A4884BBF1FFFA"]
+			id: "2F9B0013A2D20BA3"
+			rewards: [{
+				id: "055C52A9285B76B8"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BE3B6E3C6BBA451"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["423A4884BBF1FFFA"]
+			id: "1AC649402EA13EB3"
+			tasks: [{
+				id: "3C176D81103AD394"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AC649402EA13EB3"
+				"2F9B0013A2D20BA3"
+			]
+			id: "37C31E5A1FB0A120"
+			rewards: [{
+				id: "27FB68A717FD117C"
+				item: "create:belt_connector"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "57B271F6ADBB360D"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1AC649402EA13EB3"
+				"2F9B0013A2D20BA3"
+			]
+			id: "0AC851170B41AD02"
+			rewards: [{
+				id: "110E5CD4C35434DF"
+				item: "create:belt_connector"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B0576D20D1FD6F3"
+				item: "createsifter:sifter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "382896245CF5A881"
+			tasks: [{
+				id: "0A97846B3C08DE36"
+				item: {
+					Count: 1
+					id: "createsifter:string_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AC649402EA13EB3"
+				"2F9B0013A2D20BA3"
+			]
+			id: "3CB2BFF30BA3EF65"
+			tasks: [{
+				id: "075510E234CCDD0B"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"037B4AE6DF4451D4"
+				"3CB2BFF30BA3EF65"
+			]
+			id: "110517F6B8116C24"
+			tasks: [{
+				id: "0761D8C186E7C127"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			id: "722C7C33D23EB25A"
+			tasks: [{
+				id: "0BC4691EEF3B4065"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"110517F6B8116C24"
+				"722C7C33D23EB25A"
+			]
+			id: "32AEAE8653EF3DA0"
+			tasks: [{
+				id: "52CC35DA6AB72A0F"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"110517F6B8116C24"
+				"722C7C33D23EB25A"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "305CAD4BB78423E7"
+			tasks: [
+				{
+					id: "21989353EB8C3050"
+					item: {
+						Count: 1
+						id: "create_sa:blazing_cleaver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73E47E61C19018DE"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32AEAE8653EF3DA0"]
+			id: "2E72C56136631B60"
+			tasks: [{
+				id: "00447991C929CF23"
+				item: "create_mechanical_extruder:mechanical_extruder"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2E72C56136631B60"
+				"382896245CF5A881"
+			]
+			icon: "minecraft:raw_iron"
+			id: "0862E7449CD041FD"
+			tasks: [{
+				id: "2B6B80232DEDE079"
+				title: "Automatic Resources!"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["133BCE410E613A4F"]
+			id: "3872CFE5FFB7C9F2"
+			tasks: [{
+				id: "621095FFBCBA8CED"
+				item: "createsifter:dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: ["Infinite Horizons has what I call \"Integration Quests\", which are optional cross-mod compatibilities that make gameplay less tedious.  They are are the small-sized quests that branch from main quests.  Make sure to check them out during your gameplay."]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "4926DA2655814A7C"
+			rewards: [{
+				id: "04745CFD8E1D3225"
+				item: "minecraft:emerald"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Helpful Workarounds"
+			tasks: [{
+				id: "369068DF9C004ADC"
+				title: "Integration Quests"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "Alpha"
+}

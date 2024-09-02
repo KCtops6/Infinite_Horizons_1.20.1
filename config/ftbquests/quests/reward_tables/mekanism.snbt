@@ -1,0 +1,23 @@
+{
+	icon: "kubejs:mekanism_mystery_box"
+	id: "342B11D375556FCB"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "mekanism:alloy_infused" }
+		{ item: "mekanism:alloy_reinforced", weight: 0.5f }
+		{ item: "mekanism:alloy_atomic", weight: 0.25f }
+		{ item: "mekanism:basic_control_circuit" }
+		{ item: "mekanism:advanced_control_circuit", weight: 0.16666667f }
+		{ item: "mekanism:elite_control_circuit", weight: 0.104166664f }
+		{ item: "mekanism:ultimate_control_circuit", weight: 0.05729f }
+		{ item: "mekanism:basic_tier_installer", weight: 0.25f }
+		{ item: "mekanism:advanced_tier_installer", weight: 0.0425f }
+		{ item: "mekanism:elite_tier_installer", weight: 0.05f }
+		{ item: "mekanism:ultimate_tier_installer", weight: 0.03f }
+		{ item: "mekanism:upgrade_speed", weight: 0.25f }
+		{ item: "mekanism:upgrade_energy", weight: 0.25f }
+		{ item: "mekanism:upgrade_gas", weight: 0.25f }
+	]
+	title: "Mekanism"
+}

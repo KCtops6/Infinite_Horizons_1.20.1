@@ -1,0 +1,349 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_grinding_utilities"
+	group: "126A1C64F6AE129F"
+	icon: "mob_grinding_utils:saw"
+	id: "71A22C196CB5FF27"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59050EEE06091B5C"
+			tasks: [{
+				id: "68AC2881F4B4CD82"
+				item: "mob_grinding_utils:spikes"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59050EEE06091B5C"]
+			id: "17276EC11B868A81"
+			tasks: [{
+				id: "61AF6F63DF595508"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17276EC11B868A81"]
+			id: "3B2EBE06E52FB0F6"
+			optional: true
+			tasks: [{
+				id: "2A3D65FA44436D7A"
+				item: "mob_grinding_utils:saw_upgrade_fire"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17276EC11B868A81"]
+			id: "345238B6E2DBD08C"
+			optional: true
+			tasks: [{
+				id: "2C14823944A4806E"
+				item: "mob_grinding_utils:saw_upgrade_smite"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17276EC11B868A81"]
+			id: "73B0FC23D56BA717"
+			optional: true
+			tasks: [{
+				id: "62BEA8C377369838"
+				item: "mob_grinding_utils:saw_upgrade_arthropod"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17276EC11B868A81"]
+			id: "4F4B8E2A80D7D485"
+			optional: true
+			tasks: [{
+				id: "2CE8655D46E9E246"
+				item: "mob_grinding_utils:saw_upgrade_beheading"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17276EC11B868A81"]
+			id: "77338C4ADFD0B0BA"
+			optional: true
+			tasks: [{
+				id: "24BF4023AAB68F42"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17276EC11B868A81"]
+			id: "3F8B4BAD22ADD62C"
+			optional: true
+			tasks: [{
+				id: "2CD590A3FF3F7B75"
+				item: "mob_grinding_utils:saw_upgrade_sharpness"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "139022785A20D2A5"
+			tasks: [{
+				id: "379AC8DA9B25A716"
+				item: "mob_grinding_utils:absorption_hopper"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["139022785A20D2A5"]
+			id: "7B36B772BFC8D530"
+			tasks: [{
+				id: "5918BB333594FC6B"
+				item: "mob_grinding_utils:tank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B36B772BFC8D530"]
+			id: "49635976A8199AE1"
+			tasks: [{
+				id: "6FD2A782866562AD"
+				item: "mob_grinding_utils:tank_sink"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B36B772BFC8D530"]
+			id: "137937440D794D09"
+			tasks: [{
+				id: "44B175AE95D2D242"
+				item: "mob_grinding_utils:jumbo_tank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B36B772BFC8D530"]
+			id: "2F0002164A5954FE"
+			tasks: [{
+				id: "455032E740635809"
+				item: "mob_grinding_utils:xp_tap"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["139022785A20D2A5"]
+			id: "21D5E40C99E87517"
+			optional: true
+			tasks: [{
+				id: "296DD16C697CB40F"
+				item: "mob_grinding_utils:absorption_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B36B772BFC8D530"]
+			id: "5433E1985B8AB741"
+			tasks: [{
+				id: "6D343BF1BB6A5495"
+				item: "mob_grinding_utils:nutritious_chicken_feed"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B36B772BFC8D530"]
+			id: "3B49D8DB2E4BCFF5"
+			tasks: [{
+				id: "7C93CFD18124D44F"
+				item: "mob_grinding_utils:gm_chicken_feed"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B36B772BFC8D530"]
+			id: "65F4538733348DD3"
+			tasks: [{
+				id: "0D18B622D751C2A5"
+				item: "mob_grinding_utils:gm_chicken_feed_cursed"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5433E1985B8AB741"]
+			id: "7EC946A8CB853469"
+			tasks: [{
+				id: "111F402C7594A6FE"
+				item: "mob_grinding_utils:golden_egg"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65F4538733348DD3"]
+			id: "405CF659F5D82B5C"
+			tasks: [{
+				id: "28663FC9EE730D6C"
+				item: "mob_grinding_utils:rotten_egg"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "4CFF6DFC249B8238"
+			tasks: [{
+				id: "2C24BB2AB8134664"
+				item: "mob_grinding_utils:wither_muffler"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "28DB630DBE4AC381"
+			tasks: [{
+				id: "19BA2F7DA83E6078"
+				item: "mob_grinding_utils:tinted_glass"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "2FB8E038FD9F7E98"
+			tasks: [{
+				id: "75F13406EB89EB8F"
+				item: "mob_grinding_utils:ender_inhibitor_on"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B49D8DB2E4BCFF5"]
+			icon: "mob_grinding_utils:solid_xp_baby"
+			id: "362EF01E25E48B59"
+			tasks: [
+				{
+					id: "20DF3FE6A2484CF9"
+					item: "mob_grinding_utils:xpsolidifier"
+					type: "item"
+				}
+				{
+					id: "39D62A0BE9A4E3A1"
+					item: "mob_grinding_utils:solid_xp_mould_baby"
+					type: "item"
+				}
+				{
+					id: "3082FDC0731082A5"
+					item: "mob_grinding_utils:solid_xp_baby"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["362EF01E25E48B59"]
+			id: "41EFBF819611A9C8"
+			tasks: [{
+				id: "3F9D0608DA0BC31F"
+				item: "mob_grinding_utils:entity_spawner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "0123131BC5DC865C"
+			tasks: [{
+				id: "57348663CF0839D4"
+				item: "mob_grinding_utils:fan"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "64D09F71954E7AEB"
+			optional: true
+			tasks: [{
+				id: "756F6A8016032CCC"
+				item: "mob_grinding_utils:entity_conveyor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0123131BC5DC865C"]
+			id: "1ED4953FC23656FC"
+			optional: true
+			tasks: [{
+				id: "4793143823020086"
+				item: "mob_grinding_utils:fan_upgrade_height"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0123131BC5DC865C"]
+			id: "5CFDAA2479A0D7E1"
+			optional: true
+			tasks: [{
+				id: "1A4D82032BD779AC"
+				item: "mob_grinding_utils:fan_upgrade_width"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0123131BC5DC865C"]
+			id: "6FA5199C68AE2A42"
+			optional: true
+			tasks: [{
+				id: "095E3A35AE54FD9E"
+				item: "mob_grinding_utils:fan_upgrade_speed"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+	]
+	title: "Mob_Grinding_Utilities"
+}

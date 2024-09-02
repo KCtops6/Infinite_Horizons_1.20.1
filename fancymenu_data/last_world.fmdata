@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Kyle/curseforge/minecraft/Instances/Infinite Horizons 1.20.1/saves/New World
+}
+

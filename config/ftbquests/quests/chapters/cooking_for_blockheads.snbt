@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cooking_for_blockheads"
+	group: "126A1C64F6AE129F"
+	icon: "cookingforblockheads:crafting_book"
+	id: "3724810DE658BE63"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "324200D8B3EC3E06"
+			tasks: [{
+				id: "38D8ECB09E6834EE"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["324200D8B3EC3E06"]
+			id: "6110DA7F466AC4B6"
+			tasks: [{
+				id: "1497C879866D64F4"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6110DA7F466AC4B6"]
+			id: "0BF8B11F416C9F88"
+			tasks: [{
+				id: "4F70A061CB265532"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6110DA7F466AC4B6"]
+			id: "1AC604B4485E8CF8"
+			tasks: [{
+				id: "3A74FD792779BEB1"
+				item: "cookingforblockheads:toaster"
+				type: "item"
+			}]
+			title: "All Toasters Toast Toast"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6110DA7F466AC4B6"]
+			id: "5CF9E62365A3014A"
+			tasks: [{
+				count: 2L
+				id: "6E8F6E7B053FB976"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6110DA7F466AC4B6"]
+			id: "3D5D9906465F238D"
+			tasks: [{
+				id: "4FCEEFCE352158E7"
+				item: "cookingforblockheads:counter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6110DA7F466AC4B6"]
+			id: "230FF67FC825E8EF"
+			tasks: [{
+				id: "55222E465B794BDF"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BF8B11F416C9F88"]
+			id: "51FE248AACA74E33"
+			tasks: [{
+				id: "235CBE991CED0AE8"
+				item: "cookingforblockheads:heating_unit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CF9E62365A3014A"]
+			id: "31968CA23A85E26B"
+			tasks: [{
+				id: "0F983779CC9932AD"
+				item: "cookingforblockheads:ice_unit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CF9E62365A3014A"]
+			id: "5878CB8AA40780E5"
+			tasks: [{
+				id: "26714444356599BF"
+				item: "cookingforblockheads:preservation_chamber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6110DA7F466AC4B6"]
+			id: "333F52E1DAB34020"
+			tasks: [{
+				id: "04A0C1450885FC49"
+				item: "cookingforblockheads:tool_rack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Cooking for Blockheads"
+}

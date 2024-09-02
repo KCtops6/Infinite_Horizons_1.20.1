@@ -1,0 +1,400 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beta_2"
+	group: "6F4C25734B575319"
+	icon: "summoningrituals:altar"
+	id: "3D585413F8D3FC72"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["305CAD4BB78423E7"]
+			id: "51751DE96026D275"
+			tasks: [{
+				id: "0041A9D5993E89CD"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			icon: "kubejs:axolotl_catalyst"
+			id: "7D5F9BA4DBBDFD54"
+			optional: true
+			tasks: [
+				{
+					id: "43717ABCE49CF9A0"
+					item: "kubejs:axolotl_catalyst"
+					type: "item"
+				}
+				{
+					icon: "minecraft:axolotl_spawn_egg"
+					id: "7CC5D4781D807440"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:axolotl"
+					type: "observation"
+				}
+			]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "59C561446EE0BF55"
+			tasks: [{
+				id: "588BB7861699CC40"
+				item: "kubejs:blaze_catalyst"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "4F9BBB9D35E92F1C"
+			optional: true
+			tasks: [{
+				id: "6EEEC69C3BA63A6F"
+				item: "kubejs:hoglin_catalyst"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "72EB290FD8B877EF"
+			tasks: [{
+				id: "240446998599BDE7"
+				item: "kubejs:wither_skeleton_catalyst"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "0D05E078B9F15986"
+			tasks: [{
+				id: "52D661614EC0773C"
+				item: "kubejs:piglin_catalyst"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D05E078B9F15986"]
+			id: "0276667B0F560FB1"
+			optional: true
+			tasks: [{
+				id: "44FD87C1EABB3D10"
+				item: "minecraft:snout_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D05E078B9F15986"]
+			id: "6A91BBB9347F6BB1"
+			tasks: [{
+				id: "51FD4AD0E1216CBA"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"51751DE96026D275"
+				"6A7FF4A09986C53B"
+			]
+			id: "1CE5E5BE156218DB"
+			tasks: [{
+				id: "5278542C4CFBA36B"
+				item: "kubejs:warden_catalyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			icon: "kubejs:pillager_catalyst"
+			id: "26AE471B110A8110"
+			tasks: [
+				{
+					id: "6FF2D660A3A2F1C5"
+					item: "kubejs:pillager_catalyst"
+					type: "item"
+				}
+				{
+					icon: "minecraft:pillager_spawn_egg"
+					id: "23B663E5244E37BC"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:pillager"
+					type: "observation"
+				}
+				{
+					icon: "minecraft:allay_spawn_egg"
+					id: "5A977C2CDE84FA5B"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:allay"
+					type: "observation"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26AE471B110A8110"]
+			id: "6BCFA39290835276"
+			optional: true
+			tasks: [{
+				id: "0C55FB853B6C1786"
+				item: "minecraft:sentry_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26AE471B110A8110"]
+			icon: "kubejs:evoker_catalyst"
+			id: "3A26B77C0E4EA640"
+			tasks: [
+				{
+					id: "588D86F5A2866560"
+					item: "kubejs:evoker_catalyst"
+					type: "item"
+				}
+				{
+					icon: "minecraft:evoker_spawn_egg"
+					id: "39FB8574288C0004"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:evoker"
+					type: "observation"
+				}
+			]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A26B77C0E4EA640"]
+			id: "530F592C63C9A6F4"
+			optional: true
+			tasks: [{
+				id: "21D043669CEB4ACB"
+				item: "minecraft:vex_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			icon: "kubejs:drowned_catalyst"
+			id: "4287D6BE9B7731B1"
+			tasks: [
+				{
+					id: "182B66775F01844E"
+					item: "kubejs:drowned_catalyst"
+					type: "item"
+				}
+				{
+					icon: "minecraft:drowned_spawn_egg"
+					id: "47B96D01512F939C"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:drowned"
+					type: "observation"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4287D6BE9B7731B1"]
+			id: "78D91E2B0F14D2E0"
+			optional: true
+			tasks: [{
+				id: "64E3DBD5C716015A"
+				item: "minecraft:coast_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "17540AC1D997220C"
+			tasks: [{
+				id: "5052E23ABFFE94A3"
+				item: "kubejs:guardian_catalyst"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["17540AC1D997220C"]
+			id: "5BD396916D6099D6"
+			tasks: [{
+				id: "7F7BABB50FFE06B0"
+				item: "kubejs:elder_guardian_catalyst"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5BD396916D6099D6"]
+			id: "3AEC9623845E7085"
+			tasks: [{
+				id: "3B5BD8145C95B232"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BD396916D6099D6"]
+			id: "68C3E67ED4A8045D"
+			optional: true
+			tasks: [{
+				id: "6705A764CE565789"
+				item: "minecraft:tide_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "1530B58DD9F1DAE2"
+			tasks: [{
+				id: "7A5CF297EE383980"
+				item: "kubejs:shulker_catalyst"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1530B58DD9F1DAE2"]
+			id: "15EA6ED17929162A"
+			optional: true
+			tasks: [{
+				id: "35F2AA626B078ADD"
+				item: "minecraft:spire_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CE5E5BE156218DB"]
+			id: "5F19350DE6C155EE"
+			optional: true
+			tasks: [{
+				id: "7BB4FB469865B41B"
+				item: "minecraft:silence_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CE5E5BE156218DB"]
+			id: "7D274A021BD332D3"
+			optional: true
+			tasks: [{
+				id: "6E61CE5BFBA2D738"
+				item: "minecraft:ward_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CE5E5BE156218DB"]
+			id: "16506EBF31DF97DF"
+			optional: true
+			tasks: [{
+				id: "04D2ABF5518498D2"
+				item: "minecraft:music_disc_5"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["59C561446EE0BF55"]
+			id: "20D9480B21DF654A"
+			optional: true
+			tasks: [{
+				id: "3F252C2420D5CCCA"
+				item: "minecraft:rib_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "588D5CEF39A19451"
+			tasks: [{
+				id: "650E181B1BEF5BB3"
+				item: "kubejs:basalz_catalyst"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "037F934A0DC1D983"
+			tasks: [{
+				id: "3A6D66E98CDB7451"
+				item: "kubejs:blitz_catalyst"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "73F7866DC7159FF1"
+			tasks: [{
+				id: "0C190B46D08ABA56"
+				item: "kubejs:blizz_catalyst"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69C5D6B5C0992B1D"]
+			id: "6A7FF4A09986C53B"
+			tasks: [{
+				id: "5A698C08BAC233B5"
+				item: "kubejs:dark_matter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	subtitle: ["Mob Summoning and Rare Items"]
+	title: "Gamma"
+}

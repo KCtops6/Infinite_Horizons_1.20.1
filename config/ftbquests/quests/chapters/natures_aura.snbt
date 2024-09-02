@@ -1,0 +1,925 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: "126A1C64F6AE129F"
+	icon: "naturesaura:gold_leaf"
+	id: "03DB5E8822946F6A"
+	images: [{
+		height: 0.25d
+		image: "ftblibrary:icons/star"
+		rotation: 0.0d
+		width: 0.25d
+		x: 10.25d
+		y: 0.25d
+	}]
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0862E7449CD041FD"]
+			description: [""]
+			id: "039B72F9E91D628A"
+			rewards: [
+				{
+					advancement: "naturesaura:root"
+					criterion: ""
+					id: "1CF0093E20F08AC6"
+					type: "advancement"
+				}
+				{
+					id: "003212503B422123"
+					item: "naturesaura:gold_fiber"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "6A8EE607F3CD7B14"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "562467CBD43257EB"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["039B72F9E91D628A"]
+			description: ["Check out its crafting recipe on JEI with brilliant fiber."]
+			id: "74196138E033D59E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "430CEFEEA80D8EE9"
+				item: "mysticalagriculture:wood_essence"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["039B72F9E91D628A"]
+			id: "0F43AB42B30D16C4"
+			rewards: [
+				{
+					advancement: "naturesaura:gold_leaf"
+					criterion: ""
+					id: "71B044F124CD3254"
+					type: "advancement"
+				}
+				{
+					id: "3CFA1124446DC9F2"
+					item: "minecraft:golden_carrot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07C37EF0AAD27F5F"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F43AB42B30D16C4"]
+			id: "47AFDB7DB7FE144F"
+			rewards: [
+				{
+					id: "0C76A88915BBEBD6"
+					item: "naturesaura:gold_powder"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "66770DDCB3443513"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A25D90CC178CB7B"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47AFDB7DB7FE144F"]
+			description: ["Check out the pulverizer processing recipe with gold leaf to gold dust."]
+			id: "7A45BA697EE1D3BB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				icon: "thermal:machine_pulverizer"
+				id: "1ED0BF3CC9F0F8E3"
+				observe_type: 0
+				timer: 0L
+				to_observe: "thermal:machine_pulverizer"
+				type: "observation"
+			}]
+			title: "Thermal Integration"
+			x: 1.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["47AFDB7DB7FE144F"]
+			id: "6C124550D6958600"
+			rewards: [
+				{
+					advancement: "naturesaura:wood_stand"
+					criterion: ""
+					id: "25A661E8A003DF20"
+					type: "advancement"
+				}
+				{
+					id: "235A45E4E9AA4BF4"
+					item: "minecraft:oak_sapling"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3EEA5E31F9438ACC"
+					item: "pamhc2foodcore:caramelappleitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "6D3F722C3101E986"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C124550D6958600"]
+			id: "29E760C7440A66B9"
+			tasks: [{
+				id: "4160C71BD38E2051"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6C124550D6958600"
+				"4D8C16662420211F"
+			]
+			id: "3809CB846AA65A7C"
+			tasks: [{
+				id: "4319F1C033477CD5"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C124550D6958600"
+				"626844B531C63D7F"
+			]
+			id: "2B91784BB61814A1"
+			tasks: [{
+				id: "20C0102ADD022E9C"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29E760C7440A66B9"]
+			description: ["Can still be used in summoning altar."]
+			id: "5F00240F58AF4962"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "147A8EA08F92D899"
+				item: "naturesaura:outpost_finder"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["3809CB846AA65A7C"]
+			description: ["Can still be used in the summoning altar."]
+			id: "4268A701798A4EBF"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0E9895A86B5CB1DC"
+				item: "naturesaura:fortress_finder"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2B91784BB61814A1"]
+			description: ["Can still be used in the summoning altar."]
+			id: "58777965AA911D49"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3538C2FF15D67D7F"
+				item: "naturesaura:end_city_finder"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["29E760C7440A66B9"]
+			id: "3B2423B46FFC0B99"
+			tasks: [{
+				id: "2E010230FB73633A"
+				item: "naturesaura:token_joy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3809CB846AA65A7C"]
+			id: "28E243D6B7948022"
+			tasks: [{
+				id: "39D6DA20172F9F81"
+				item: "naturesaura:token_fear"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3809CB846AA65A7C"]
+			id: "1ED565CECF3925AF"
+			tasks: [{
+				id: "57B43F8D8750F6B5"
+				item: "naturesaura:token_anger"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29E760C7440A66B9"]
+			id: "28F8E27E8D5704DB"
+			tasks: [{
+				id: "4BD4B8C4359A5285"
+				item: "naturesaura:token_sorrow"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B2423B46FFC0B99"]
+			id: "78D45728FB3FE4B3"
+			tasks: [{
+				id: "74FA2FFDDAB949AB"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78D45728FB3FE4B3"]
+			id: "769E144C8D3C24C3"
+			tasks: [{
+				id: "4A9621EE16BC50C3"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["769E144C8D3C24C3"]
+			id: "7145C72014B8A5D9"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1DBA38F738962DC8"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:infused_iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["78D45728FB3FE4B3"]
+			id: "4AFD945537D275AD"
+			tasks: [{
+				id: "5E9E3D4879EDB7C1"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AFD945537D275AD"]
+			id: "7152E105C7342333"
+			size: 0.5d
+			tasks: [{
+				id: "6BA0898EA1CC8658"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tainted_gold"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6C124550D6958600"]
+			id: "12836867A54D2963"
+			rewards: [{
+				id: "3106F2D2D9AED36F"
+				item: "naturesaura:ancient_sapling"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "52939A46F94D89EA"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"769E144C8D3C24C3"
+				"12836867A54D2963"
+			]
+			id: "1CFC25C21EB81099"
+			optional: true
+			tasks: [
+				{
+					id: "6FEAC84C0F961AF9"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5ED2D70709FF7ED1"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B0B8AED37839847"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7840BD14E59AC824"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4458F64920AAD021"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"12836867A54D2963"
+				"769E144C8D3C24C3"
+			]
+			id: "7425A59B005831D2"
+			optional: true
+			tasks: [
+				{
+					id: "5C7AB7EDDBE156FB"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70309A7EF4F2D8FE"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D9C3558A153CFDC"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "371A975E52C01852"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"28E243D6B7948022"
+				"28F8E27E8D5704DB"
+				"769E144C8D3C24C3"
+			]
+			id: "30066DD8E0911B66"
+			tasks: [{
+				id: "5299648616367161"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4AFD945537D275AD"
+				"30066DD8E0911B66"
+			]
+			id: "25982AC66C993C7D"
+			tasks: [{
+				id: "746A3B1C7284FB60"
+				item: "naturesaura:calling_spirit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25982AC66C993C7D"]
+			id: "79FF866EB743B923"
+			tasks: [{
+				id: "0E83000FD30981A4"
+				item: "naturesaura:token_euphoria"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25982AC66C993C7D"]
+			id: "2EC50BAC8F39E25E"
+			tasks: [{
+				id: "783B3E3F55377221"
+				item: "naturesaura:token_terror"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"25982AC66C993C7D"
+				"1ED565CECF3925AF"
+			]
+			id: "513B48147E3C83F3"
+			tasks: [{
+				id: "79F71B90927DA5E6"
+				item: "naturesaura:token_rage"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25982AC66C993C7D"]
+			id: "39CC9689B103BB73"
+			tasks: [{
+				id: "6CF2D69C64CC998F"
+				item: "naturesaura:token_grief"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25982AC66C993C7D"]
+			id: "2501AB55C87D3450"
+			tasks: [{
+				id: "56597CE15B7F2E92"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7145C72014B8A5D9"
+				"2501AB55C87D3450"
+			]
+			id: "569CE225E201A35C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3282C934C190C50D"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sky_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"2501AB55C87D3450"
+				"12836867A54D2963"
+			]
+			id: "2FCD4FE8A4FB91E2"
+			optional: true
+			tasks: [
+				{
+					id: "2B4FC5EE3527762A"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "279E33DCE8FB8BF2"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6140E11B3BA2F402"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69191B76EF946534"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02F05398331EB12E"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2501AB55C87D3450"
+				"12836867A54D2963"
+			]
+			id: "06A2FF1332FEA3A3"
+			optional: true
+			tasks: [
+				{
+					id: "0D02E05021954066"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06E07BE3DB92CFC8"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52B9C68C5EB00823"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F7376C179E2E08C"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2501AB55C87D3450"]
+			id: "602AB32D66804F43"
+			rewards: [{
+				id: "68F5B59549B602A0"
+				item: "naturesaura:birth_spirit"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3848AAE87BA476C0"
+				item: "naturesaura:animal_spawner"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2501AB55C87D3450"]
+			id: "3E7A78636DF03BA0"
+			tasks: [{
+				id: "0C3EC2E2A411A2CE"
+				item: "naturesaura:depth_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B91784BB61814A1"]
+			description: ["Nature's Aura is one of the mods that you can use to make Dragon's Breath."]
+			id: "53514660F2929706"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "34C542AAFC2804CC"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"3E7A78636DF03BA0"
+				"12836867A54D2963"
+			]
+			id: "4B4B17B695095EB8"
+			tasks: [
+				{
+					id: "7C44EAD1315B7D42"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "044E3B4499D6DC7E"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "194064755D860A67"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "333F96A9EACFF0A4"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D71BE3BB01C9054"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E7A78636DF03BA0"
+				"12836867A54D2963"
+			]
+			id: "561CDB4101258095"
+			tasks: [
+				{
+					id: "78DDF370A22A0D4D"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F4CB03BF10B82F9"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19C86AC8F95766E5"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3497F413B7054AB1"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+	]
+	title: "Nature's Aura"
+}

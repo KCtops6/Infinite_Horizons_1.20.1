@@ -1,0 +1,897 @@
+1.20.1-1.4
+Added Quests for getting started.
+Updated "Create Crafts & Additions"
+Updated "Cucumber Library"
+Updated "Mystical Agriculture"
+
+1.20.1-1.5
+Added Villager trading recipes for some essences.
+Added Quests for the above.
+
+1.20.1-1.6
+Updated "Collective"
+Updated "Cucumber Library"
+Updated "Villager Names"
+Deleted "Gateways to Eternity"
+
+1.20.1-1.7
+Updated "AttributeFix"
+Updated "Corpse"
+Updated "Create Crafts & Additions"
+Updated "Curios API (Forge)"
+Updated "Enchantment Descriptions"
+Updated "Placebo"
+Updated "Sophisticated Backpacks"
+Updated "Sophisticated Core"
+Updated "Supplementaries"
+
+1.20.1-1.8
+Updated "Supplementaries"
+
+1.20.1-1.9
+Updated "Moonlight Lib"
+Updated "Supplementaries"
+
+1.20.1-2.0
+Added "Ars Creo"
+Added "Ars Elemental"
+Added "Ars Nouveau"
+Added "Too Many Glyphs"
+Updated "Harvest with ease"
+Updated "Supplementaries"
+Added Villager method to obtain amethyst.
+Added Quests for Ars Nouveau.
+
+1.20.1-2.1
+Updated "Ars Nouveau"
+Updated "Create Encased"
+Updated "Easy Villagers"
+Updated "FTB Chunks (Forge)"
+Updated "FTB Quests (Forge)"
+Updated "Harvest with ease"
+Updated "Supplementaries"
+
+1.20.1-2.2
+Updated "Collective"
+Updated "Create Crafts & Additions"
+Updated "Kotlin for Forge"
+Updated "KubeJS"
+Updated "LootJS: KubeJS Addon"
+
+1.20.1-2.3
+Added Level 5 Cleric Trade for Prosperity Shards.
+
+1.20.1-2.4
+Thank you bigalzbub for your suggestions!
+
+Added "Botany Pots Tiers"
+Added "Carry On"
+Added "Inventory Profiles Next"
+Added "Light Overlay (Rift/Forge/Fabric)"
+Added "Minecolonies"
+Added "Tom's Simple Storage Mod"
+
+Added Level 2 Farmer Trade for Squid Ink.
+Added quest for "Create: Low Heated" "Charcoal Burner"
+
+1.20.1-2.5
+Updated "Crafting Tweaks"
+Updated "KubeJS"
+Updated "Structurize"
+
+1.20.1-2.5b
+Disabled carrying of Villagers from "Carry On" mod due to confliction with "Easy Villagers"
+
+1.20.1-2.6
+Added "Farming for Blockheads"
+Updated "Ars Nouveau"
+Updated "Easy Villagers"
+Added ability to buy bee, chicken, cow, pig, and sheep eggs from the "Farming for Blockheads" 
+
+1.20.1-2.7
+Added "Konkrete"
+Added "Drippy Loading Screen [Forge]"
+Added "FancyMenu [Forge]"
+Used above mods to create new title menu.
+Worked on "Create" and "Getting Started" quests.
+Added "Cooking for Blockheads" and "Farmers Delight" quests.
+
+1.20.1-2.8
+Added "Better Advancements"
+Added "Chef's Delight [Forge]"
+Added "Cosmetic Armor Reworked"
+Added "Eating Animation [Forge]"
+Added "Entity Culling Fabric/Forge"
+Added "FerriteCore (Forge)"
+Added "Functional Storage"
+Added "Jade"
+Added "ModernFix"
+Added "Spice of Life: Apple Pie Edition"
+Added "Titanium"
+Removed "Ender's Delight"
+Removed "Nether's Delight"
+Removed "Spice of Life: Carrot Edition"
+Removed "The One Probe"
+
+1.20.1-2.9
+Thank you for 3000 downloads!
+Added "Just Zoom [Forge]"
+Added "Loot Bundles"
+Added "Mystical Agradditions"
+Added "Mystical Agriculture Tiered Crystals"
+Added "Trading Post [Forge & Fabric]"
+Added "Villagers Respawn (Now with FORGE and FABRIC versions)"
+Updated "Ars Nouveau"
+Updated "Balm (Forge Edition)"
+Updated "Collective"
+Updated "Infinite Trading"
+Updated "MoreJS"
+Updated "Rhino"
+Updated "Structurize"
+Updated "Supplementaries"
+Updated "Titanium"
+Updated "Waystones"
+Removed "Create: Ore Execvation"
+Removed "Easy Piglins"
+Added quests for "Botany Pots" and its addons "Botany Pots Tiers" and "Botany Trees"
+Added quests for "Functional Storage"
+Added quests for "Sophisticated Backpacks" and "Sophisticated Storage"
+Added way to obtain "Sweet Berries" from "Farming for Blockheads" "Market"
+Changed recipe for "Cooking for Blockheads" "Cooking for Blockheads II" book to be available more early game.
+Configured "Waystones" to spawn in every biome.  Ensures easy exploration in order to find all village structures you need.
+
+1.20.1-3.0
+Added "Botania"
+Updated "KubeJS"
+Updated "ProbeJS"
+Updated "Waystones"
+
+1.20.1-3.1
+Added "BisectHosting Server Integration Menu [FORGE]"
+Added "Chipped"
+Updated "Apothic Attributes (AttributesLib)"
+Updated "ModernFix"
+Updated "Sophisticated Backpacks"
+Updated "Sophisticated Core"
+Updated "Sophisticated Storage"
+
+1.20.1-3.2
+Added "KubeJS Ars Nouveau"
+Added "Yeetus Experimentus"
+Updated "Ars Nouveau"
+Updated "Bookshelf"
+Updated "Botany Pots"
+Updated "Collective"
+Updated "Curios API (Forge)"
+Updated "Create Enchantment Industry"
+Updated "Kotlin for Forge"
+Updated "MineColonies"
+Updated "Supplementaries"
+Updated "Waystones"
+Added recipe to obtain sourceberries via Ars Nouveau imbeument chamber.
+
+1.20.1-3.3
+Added "KubeJS Botania"
+Updated "Ars Elemental"
+Updated "Ars Nouveau"
+Updated "Bookshelf"
+Updated "Cloth Config API (Fabric/Forge/NeoForge)"
+Updated "Collective"
+Updated "Create: Liquid Fuel"
+Updated "Enchantment Descriptions"
+Updated "Infinite Trading"
+Updated "Jade 🔍"
+Updated "Kotlin for Forge"
+Updated "ModernFix"
+Updated "Moonlight Lib"
+Updated "Patchouli"
+Updated "Resourceful Lib"
+Updated "Structurize"
+Updated "Superflat World No Slimes"
+Updated "Supplementaries"
+Updated "Village Spawn Point"
+Updated "Villager Names"
+Added recipe to obtain ender air bottles from Botania runic altar.
+Added recipe to obtain dragons breath from Botania elven trading.
+
+1.20.1-3.4
+Updated "Curios API (Forge/NeoForge)"
+Updated "Jade 🔍"
+Updated "Structurize"
+Updated "Supplementaries"
+Updated "Titanium"
+Added level 5 cleric trade for end essence.
+
+1.20.1-3.5
+Updated "Collective"
+Updated "Domum Ornamentum"
+Updated "Moonlight Lib"
+Updated "Mystical Agriculture"
+Added ability to obtain rabbit spawn eggs from Farming for Blockheads market.
+
+1.20.1-3.6
+Updated "Botania"
+Updated "Collective"
+Updated "Cucumber Library"
+Updated "Domum Ornamentum"
+Updated "FTB Chunks (Forge)"
+Updated "Functional Storage"
+Updated "Moonlight Lib"
+Updated "Sophisticated Backpacks"
+Updated "Sophisticated Core"
+Updated "Sophisticated Storage"
+Updated "Structurize"
+Updated "Supplementaries"
+Updated "Twigs"
+
+1.20.1-3.7
+Thank you for 4000 downloads!
+Added "Iron Furnaces [FORGE]"
+Updated "Domum Ornamentum"
+Updated "Enchantment Descriptions"
+Updated "FTB Ultimine (Forge)"
+Updated "KubeJS"
+Updated "Puzzles Lib [Forge & Fabric]"
+Updated "Supplementaries"
+
+1.20.1-3.8
+Updated "FancyMenu [Forge]"
+Updated "ModernFix"
+Updated "Moonlight Lib"
+Updated "Pam's HarvestCraft 2 - Food Core"
+Updated "ProbeJS"
+Updated "Puzzles Lib [Forge & Fabric]"
+Changed "Mega Torch" recipe to be available early game.
+
+1.20.1-3.8b
+Updated "Konkrete [Forge]" (To Fix Oversight in 1.20.1-3.8)
+
+1.20.1-3.9
+Updated "Botany Pots"
+Updated "Harvest with ease"
+Updated "KubeJS"
+Updated "MineColonies"
+Updated "Moonlight Lib"
+Updated "Structurize"
+Updated "Supplementaries"
+Overhauled Create Sifter recipes
+
+1.20.1-4.0
+Thank you to BisectHosting for the new main menu!
+Added "Applied Botanics Addon"
+Added "Applied Cooking"
+Added "Applied Energistics 2"
+Added "Applied Energistics 2 Wireless Terminals"
+Added "Ars Énergistique"
+Added "CoFH Core"
+Added "ExtendedAE"
+Added "Glodium"
+Added "GregTechCEu Modern"
+Added "MEGA Cells"
+Added "Thermal Cultivation"
+Added "Thermal Dynamics"
+Added "Thermal Expansion"
+Added "Thermal Foundation"
+Added "Thermal Innovation"
+Updated "Ars Elemental"
+Updated "Ars Nouveau"
+Updated "BlockUI"
+Updated "Curios API (Forge/NeoForge)"
+Updated "Farmer's Delight"
+Updated "FTB Library (Forge)"
+Updated "FTB Quests (Forge)"
+Updated "Moonlight Lib"
+Updated "ProbeJS"
+Updated "Supplementaries"
+Disabled items from "Chipped" mod to be able to appear in loot bundles.
+
+NOTE:  Obtaining the Gregtech raw ores will be tweaked over the next few versions from your feedback.  The JEI page is currently hard to read.
+
+1.20.1-4.1
+Thank you for 5000 downloads!
+Added "Create Crafts & Additions"
+Added "Eccentric Tome"
+Added "GregTechCEu Modern"
+Added "Hostile Neural Networks"
+Added "Overworld Piglins"
+Added "Summoning Rituals"
+Updated "BlockUI"
+Updated "BucketLib"
+Updated "Comforts (Fabric/Forge/Quilt)"
+Updated "Curios API (Forge/NeoForge)"
+Updated "Domum Ornamentum"
+Updated "ExtendedAE"
+Updated "Just Enough Resources (JER)"
+Updated "KubeJS"
+Updated "Lootr (Forge & NeoForge)"
+Updated "MineColonies"
+Updated "Moonlight Lib"
+Updated "Puzzles Lib [Forge & Fabric]"
+Updated "Resourceful Lib"
+Updated "Structurize"
+Updated "Supplementaries"
+Updated "Trading Post [Forge & Fabric]"
+Removed "Create: Netherless"
+Removed "Create Low-Heated"
+Removed Gregtech's harder recipes
+Added recipe to obtain netherite smithing template.
+Added recipe to obtain soulium from sifting soul sand.
+Added recipe to obtain cobbled soulstone from stone and nether essences.
+Disabled Create settings menu on main menu.
+Fixed Mystical Agriculture Seeds
+Added villager trades for elemental Mystical Agriculture seeds.
+Added Summoning Altar recipes for other basic Mystical Agriculture seeds.
+Added wandering trader trades for pottery sherds.
+Added wandering trader trades for rare discs.
+Added wandering trader trades for sniffer egg.
+Rewrote soul sand sifting recipes.
+Rewrote netherrack gravel sifting recipes.
+Added recipe for enchanted golden apple.
+
+1.20.1-4.2
+Updated "Architectury API (Fabric/Forge/NeoForge)"
+Updated "Bookshelf"
+Updated "Botany Pots"
+Updated "Botany Trees"
+Updated "Chipped"
+Updated "Create Encased"
+Updated "Curios API (Forge/NeoForge)"
+Updated "Domum Ornamentum"
+Updated "ExtendedAE"
+Updated "FTB Quests (Forge)"
+Updated "GregTechCEu Modern"
+Updated "Just Enough Items (JEI)"
+Updated "KubeJS"
+Updated "Lootr (Forge & NeoForge)"
+Updated "MEGA Cells"
+Updated "MineColonies"
+Updated "ModernFix"
+Updated "MoreJS"
+Updated "Moonlight Lib"
+Updated "Mystical Agriculture"
+Updated "Puzzles Lib [Forge & Fabric]"
+Updated "Resourceful Lib"
+Updated "Sophisticated Backpacks"
+Updated "Sophisticated Core"
+Updated "Sophisticated Storage"
+Updated "Structurize"
+Updated "Supplementaries"
+Ensured crushing/milling way to obtain dust.
+
+1.20.1-4.3
+Updated "BucketLib"
+Updated "Create Crafts & Additions"
+Updated "ExtendedAE"
+Updated "GregTechCEu Modern"
+Updated "Just Enough Items (JEI)"
+Updated "MEGA Cells"
+Updated "Moonlight Lib"
+Updated "Pam's HarvestCraft 2 - Food Core"
+Updated "Placebo"
+Updated "Sophisticated Backpacks"
+Updated "Sophisticated Core"
+Updated "Sophisticated Storage"
+Updated "Supplementaries"
+Added sifting recipe for netherite scrap.
+
+1.20.1-4.4
+Thank you for 5000 downloads!
+Thank you Alexander653 for the mod suggestion!
+Added "Default World Type [Forge]"
+Updated "Domum Ornamentum"
+Updated "ExtendedAE"
+Updated "Iron Furnaces [FORGE]"
+Updated "Moonlight Lib"
+Updated "Puzzles Lib [Forge & Fabric]"
+Set default superflat world generation (From "Default World Type [Forge]") to have more dirt layers for Minecolonies players.
+
+1.20.1-4.5
+Thank you BisectHosting for New Discord Page!
+Updated "Applied Energistics 2"
+Updated "Architectury API (Fabric/Forge/NeoForge)"
+Updated "Balm (Forge Edition)"
+Updated "Botany Pots"
+Updated "Botany Trees"
+Updated "BucketLib"
+Updated "Collective"
+Updated "Cooking for Blockheads"
+Updated "Crafting Tweaks"
+Updated "Create Enchantment Industry"
+Updated "Delightful"
+Updated "Domum Ornamentum"
+Updated "Drippy Loading Screen"
+Updated "Enchantment Descriptions"
+Updated "ExtendedAE"
+Updated "FancyMenu"
+Updated "Guard Villagers"
+Updated "Hostile Neural Networks"
+Updated "KubeJS"
+Updated "MEGA Cells"
+Updated "Moonlight Lib"
+Updated "Structurize"
+Updated "Supplementaries"
+Updated "Tips"
+
+1.20.1-4.6
+Added "Advanced Generators"
+Added "Amendments"
+Updated "Apothic Attributes (AttributesLib)"
+Updated "Applied Energistics 2"
+Updated "Applied Energistics 2 Wireless Terminals"
+Updated "Ars Creo"
+Updated "Athena"
+Updated "BlockUI"
+Updated "Botany Pots"
+Updated "Collective"
+Updated "Corpse"
+Updated "Curios API (Forge/NeoForge)"
+Updated "Delightful"
+Updated "Domum Ornamentum"
+Updated "ExtendedAE"
+Updated "FancyMenu"
+Updated "FTB Chunks (Forge)"
+Updated "FTB Teams (Forge)"
+Updated "Hostile Neural Networks"
+Updated "Iron Furnaces [FORGE]"
+Updated "JourneyMap"
+Updated "Lootr (Forge & NeoForge)"
+Updated "MineColonies"
+Updated "ModernFix"
+Updated "Moonlight Lib"
+Updated "Pam's HarvestCraft 2 - Food Extended"
+Updated "Sophisticated Backpacks"
+Updated "Sophisticated Core"
+Updated "Sophisticated Storage"
+Updated "Structurize"
+Updated "Supplementaries"
+Updated "Titanium"
+Added quests for "Advanced Generators"
+Added quests for "Hostile Neural Networks"
+
+1.20.1-4.7
+Added "Almost Unified"
+Added "FramedBlocks"
+Added "Handcrafted"
+Updated "Amendments"
+Updated "Apothic Attributes (AttributesLib)"
+Updated "Ars Nouveau"
+Updated "Collective"
+Updated "Domum Ornamentum"
+Updated "ExtendedAE"
+Updated "FTB Quests (Forge)"
+Updated "Lootr (Forge & NeoForge)"
+Updated "ModernFix"
+Updated "Moonlight Lib"
+Updated "MoreJS"
+Updated "Mystical Agriculture"
+Updated "PolyLib"
+Updated "Puzzles Lib [Forge & Fabric]"
+Updated "Sophisticated Backpacks"
+Updated "Sophisticated Core"
+Updated "Sophisticated Storage"
+Updated "Structurize"
+Added new create extruder recipies.
+Added new quests in getting started chapter.
+
+1.20.1-4.8
+Updated "Domum Ornamentum"
+Updated "Multi-Piston"
+Added quests in getting started chapter.
+Added new recipe for mystical agriculture elemental essences.
+Added new recipe for wooden lava bucket.
+
+1.20.1-4.9
+Added "Just Enough Calculation"
+Added "Ore Tree:Reborn"
+Added "Sneaky Tree Growing [Forge]"
+Updated "Apothic Attributes (AttributesLib)"
+Updated "Domum Ornamentum"
+Updated "FTB Chunks (Forge)"
+Updated "GregTechCEu Modern"
+Updated "Inventory Profiles Next"
+Updated "JourneyMap"
+Updated "libIPN"
+Updated "Resourceful Lib"
+Updated "Sophisticated Core"
+Updated "Sophisticated Storage"
+Added new recipes for ore trees.
+Fixed blaze burner recipe.
+Fixed blaze catalyst recipe.
+Added quests in getting started chapter to make blaze progression more clear.
+
+1.20.1-5.0
+My apologies for the wait!  Had a busy second half of my semester!
+
+Added the following mods:
+"Just Enough Mekanism Multiblocks"
+"KubeJS Thermal"
+"Mekanism"
+"Mekanism Additions"
+"Mekanism Generators"
+"Mekanism Tools"
+"Mob Grinding Utils"
+
+Updated the following mods:
+"Almost Unified"
+"Amendments"
+"Applied Energistics 2"
+"Applied Energistics 2 Wireless Terminals"
+"Ars Elemental"
+"BlockUI"
+"Bookshelf"
+"Botany Pots"
+"Chipped"
+"Clumps"
+"Collective"
+"Cooking for Blockheads"
+"Create Enchantment Industry"
+"Create: Liquid Fuel"
+"Create: Steam 'n' Rails"
+"Cucumber Library"
+"Curios API (Forge/NeoForge)"
+"Delightful"
+"Domum Ornamentum"
+"ExtendedAE"
+"FancyMenu"
+"FLIB"
+"FramedBlocks"
+"FTB Library (Forge)"
+"FTB Quests (Forge)"
+"Functional Storage"
+"Glodium"
+"GregTechCEu Modern"
+"Guard Villagers"
+"Jade 🔍"
+"JourneyMap"
+"KubeJS"
+"Lootr (Forge & NeoForge)"
+"MEGA Cells"
+"MineColonies"
+"ModernFix"
+"Moonlight Lib"
+"MoreJS"
+"Mystical Agradditions"
+"Mystical Agriculture"
+"PolyLib"
+"ProbeJS"
+"Searchables"
+"Sophisticated Backpacks"
+"Sophisticated Core"
+"Sophisticated Storage"
+"Structurize"
+"Supplementaries"
+"Tom's Simple Storage Mod"
+"Torchmaster"
+
+Added new recipies for new catalyst items
+
+Made config changes to "Almost Unified" to unify various items.
+
+Added new recipies to items only attainable in the end.
+
+1.20.1-5.0b
+Added "Load My F***ing Tags"
+Updated Forge from 47.2.0 to 47.2.6
+Updated "Amendments"
+Updated "Applied Energistics 2"
+Updated "BucketLib"
+Updated "Collective"
+Updated "Create Enchantment Industry"
+Updated "Create: Steam 'n' Rails"
+Updated "Delightful"
+Updated "ExtendedAE"
+Updated "FancyMenu"
+Updated "GregTechCEu Modern"
+Updated "MEGA Cells"
+Updated "Puzzles Lib [Forge & Fabric]"
+Updated "Sophisticated Core"
+Updated "Sophisticated Storage"
+Updated "Structurize"
+Fixed recipe for andesite alloy.
+Fixed recipies for various items/blocks that have stone as a recipe.
+Fixed cutting board recipe that gives sand from gravel.
+Fixed the pickaxe not being able to work by the "Load My F***ing Tags" mod.
+
+1.20.1-5.0c
+Fixed cutting board recipe that gives iron nuggets from gravel.
+
+1.20.1-5.1
+Updated "Amendments"
+Updated "Apothic Attributes (AttributesLib)"
+Updated "Botania"
+Updated "FancyMenu"
+Updated "Moonlight Lib"
+Updated "Mouse Tweaks"
+Updated "Supplementaries"
+Added the popular recipe for chests and hoppers using logs.
+Fixed precision mechanism crafting recipe.
+Ensured all smithing templates have recipe and quest.
+Added some textures to existing items.
+Fixed all custom gravel recipes.
+
+1.20.1-5.1b
+Thank you for 8000 downloads!
+
+Removed "Environmental Materials" (may be back in a later update)
+Updated "Amendments"
+Updated "Delightful"
+Updated "Moonlight Lib"
+Updated "PolyLib"
+Updated "TownTalk"
+Fixed all wool recipes
+Added alternative recipes for deepslate and nether seeds.
+Added mechanical extruder recipe for deepslate.
+Added recipe for stone alloy.
+
+1.20.1-5.2
+Added "Building Gadgets"
+Added "Crafting on a Stick"
+Added "Gadgets Against Grind"
+Updated "Amendments"
+Updated "Ars Nouveau"
+Updated "Botany Pots"
+Updated "CoFH Core"
+Updated "Collective"
+Updated "Curios API (Forge/NeoForge)"
+Updated "Enchantment Descriptions"
+Updated "Entity Culling Fabric/Forge"
+Updated "ExtendedAE"
+Updated "Fast Leaf Decay"
+Updated "FLIB"
+Updated "GregTechCEu Modern"
+Updated "Moonlight Lib"
+Updated "Puzzles Lib [Forge & Fabric]"
+Updated "Redstone Arsenal"
+Updated "Thermal Cultivation"
+Updated "Thermal Dynamics"
+Updated "Thermal Expansion"
+Updated "Thermal Foundation"
+Updated "Thermal Innovation"
+Updated "Resourceful Lib"
+Updated "Titanium"
+
+1.20.1-5.3
+Added "CobbleForDays"
+Updated "Amendments"
+Updated "Ars Énergistique"
+Updated "Balm (Forge Edition)"
+Updated "Bookshelf"
+Updated "Cooking for Blockheads"
+Updated "Crafting Tweaks"
+Updated "Create Encased"
+Updated "Enchantment Descriptions"
+Updated "ExtendedAE"
+Updated "GeckoLib"
+Updated "Jade 🔍"
+Updated "JourneyMap"
+Updated "Lootr (Forge & NeoForge)"
+Updated "Mekanism"
+Updated "Mekanism Additions"
+Updated "Mekanism Generators"
+Updated "Mekanism Tools"
+Changed "CobbleForDays" recipes to be later game.
+Created "CobbleForDays" quests.
+
+1.20.1-5.4
+Thank you for 9000 downloads!
+Updated "Forge" to 4.7.30
+Added "Extended Crafting"
+Added "Kubejs Extended Crafting"
+Added "KubeJS Nature's Aura"
+Added "Nature's Aura"
+Added "Quests Additions (Forge)"
+Updated "Applied Energistics 2"
+Updated "FramedBlocks"
+Updated "JourneyMap"
+Updated "Just Zoom"
+Updated "Kotlin for Forge"
+Updated "LootJS: KubeJS Addon"
+Updated "ModernFix"
+Updated "Supplementaries"
+Updated "Thermal Foundation"
+Removed "Thermal Cultivation" (Reduntant mod)
+Finally updated textures for custom meshes.
+Added custom recipes for following "Nature's Aura" items:
+- "Gold Leaf"
+- "Gold Powder"
+- "Bottled Ghosts"
+- "Bottled Darkness"
+- "Rose of Oblivion"
+- "Ingot of the Depths"
+Added custom recipes for following "Mystical Agriculture" items:
+- "Prosperity Ingot"
+- "Inferium Ingot"
+- "Prudentium Ingot"
+- "Tertium Ingot"
+- "Imperium Ingot"
+- "Supremium Ingot"
+- "Insanium Ingot"
+
+1.20.1-5.5
+Added "Blood Magic"
+Added "KubeJS Addon - Blood Magic"
+Added "Tome of Blood: Rebirth"
+Updated "Amendments"
+Updated "Applied Energistics 2"
+Updated "Ars Énergistique"
+Updated "Ars Nouveau"
+Updated "Balm (Forge Edition)"
+Updated "Bookshelf"
+Updated "Collective"
+Updated "Crafting on a stick"
+Updated "Create Crafts & Additions"
+Updated "Create Encased"
+Updated "Delightful"
+Updated "Entity Culling Fabric/Forge"
+Updated "ExtendedAE"
+Updated "GeckoLib"
+Updated "GregTechCEu Modern"
+Updated "Guard Villagers"
+Updated "Infinite Trading"
+Updated "JourneyMap"
+Updated "Just Enough Items (JEI)"
+Updated "KubeJS"
+Updated "Lootr (Forge & NeoForge)"
+Updated "ModernFix"
+Updated "Moonlight Lib"
+Updated "Placebo"
+Updated "Summoning Rituals"
+Updated "Supplementaries"
+Updated "Thermal Foundation"
+Updated "Tom's Simple Storage Mod"
+
+1.20.1-5.6
+Thank you for 10,000 downloads!
+
+Added "Custom Villager Professions (Forge)"
+Added "Embeddium"
+
+Added the "Agronomacer" villager to assist with early game Mystical Agriculture progression!
+
+Updated "Applied Energistics 2"
+Updated "Botany Pots"
+Updated "BucketLib"
+Updated "Collective"
+Updated "Create Crafts & Additions"
+Updated "FLIB"
+Updated "GregTechCEu Modern"
+Updated "Harvest with ease"
+Updated "KubeJS Addon - Blood Magic"
+Updated "Moonlight Lib"
+Updated "ProbeJS"
+Updated "Puzzles Lib [Forge & Fabric]"
+Updated "Villager Names"
+
+Removed "Loot Bundles"
+
+Fixed the obtaining of pebbles (to be only shovels only) and tree bark (to be only axes only).
+Added the obtaining of "Ars Nouevau" "Bastion Fruit", "Bombegranate", "Flashpine", "Frostaya", and "Mendosteen" by breaking respective leaves.
+Added "Summoning Altar" recipes for "Wolf Catalyst" and summon wolf.
+Utilized the "Almost Unified" mod to unify rice and onion.
+
+1.20.1-5.7
+Updated "Waystones"
+
+Removed "Extra Trades" (Fixes a few exploits)
+
+Added/Fixed the ability to obtain blaze essence from the "Agronomancer" villager.
+Updated quests to illustrate change from obtaining blaze burner from "Toolsmith" villager.
+Changed the "Agronomancer" villager's workstation to be a new custom one.
+Added "Turtle Catalyst" and respective ability to summon turtles.
+Added quests to better highlight the early game essences the "Agronomancer" offers.
+
+1.20.1-5.8
+Added "Productive Bees"
+
+Updated "Forge"
+Updated "Almost Unified"
+Updated "Apothic Attributes (AttributesLib)"
+Updated "Applied Energistics 2"
+Updated "Ars Énergistique"
+Updated "Botania"
+Updated "Botany Pots"
+Updated "Collective"
+Updated "Comforts (Fabric/Forge/Quilt)"
+Updated "Create Crafts & Additions"
+Updated "Cucumber Library"
+Updated "Delightful"
+Updated "Easy Villagers"
+Updated "Embeddium"
+Updated "ExtendedAE"
+Updated "MineColonies"
+Updated "ModernFix"
+Updated "Structurize"
+Updated "Tips"
+Updated "Titanium"
+
+Revamped the "Alpha" quest line to make it much more straightforward and simple.  Stuff originally in there that was removed will be added to other sections.
+
+1.20.1-5.9
+Updated "Delightful" from "Delightful-1.20.1-3.5.7.jar" to "Delightful-1.20.1-3.5.8.jar"
+Updated "Easy Villagers" from "easy-villagers-forge-1.20.1-1.1.14.jar" to "easy-villagers-forge-1.20.1-1.1.15.jar"
+Updated "JourneyMap" from "journeymap-1.20.1-5.10.0-forge.jar" to "journeymap-1.20.1-5.10.1-forge.jar"
+
+Fixed obtaining fluorite from sifting deepslate gravel.
+
+1.20.1-6.0
+Added "Industrial Foregoing" version "industrial-foregoing-1.20.1-3.5.17.jar"
+
+Added the "Apiarist" villager to reduce AFK time with "Productive Bees" nests.
+Added the "Apiarist's Workbench" block that only functions as the above's workstation.
+Added quests regarding the above to make progression clear.
+
+1.20.1-6.1
+Added "Liberty's Villagers" "libertyvillagers-2.0.0+forge+1.20.1.jar"
+Added "Villager Workers: Traveling Merchant Update!" "workers-1.20.1-1.7.8.jar"
+
+Updated "Ars Nouveau" from "ars_nouveau-1.20.1-4.12.1-all.jar" to "ars_nouveau-1.20.1-4.12.2-all.jar"
+Updated "Collective" from "collective-1.20.1-7.71.jar" to "collective-1.20.1-7.73.jar"
+Updated "FTB Chunks (Forge)" from "ftb-chunks-forge-2001.2.7.jar" to "ftb-chunks-forge-2001.3.1.jar"
+Updated "FTB Quests (Forge)" from "ftb-quests-forge-2001.3.5.jar" to "ftb-quests-forge-2001.4.8.jar"
+Updated "FTB Library (Forge)" from "ftb-library-forge-2001.1.5.jar" to "ftb-library-forge-2001.2.3.jar"
+Updated "FTB Teams (Forge)" from "ftb-teams-forge-2001.2.0.jar" to "ftb-teams-forge-2001.3.0.jar"
+Updated "FTB Ultimine (Forge)" from "ftb-ultimine-forge-2001.1.4.jar" to "ftb-ultimine-forge-2001.1.5.jar"
+Updated "Moonlight Lib" from "moonlight-1.20-2.12.6-forge.jar" to "moonlight-1.20-2.12.9-forge.jar"
+Updated "Tips" from "Tips-Forge-1.20.1-12.1.7.jar" to "Tips-Forge-1.20.1-12.1.8.jar"
+Updated "Tom's Simple Storage Mod" from "toms_storage-1.20-1.6.7.jar" to "toms_storage-1.20-1.6.8.jar"
+
+Made "Industrial Foregoing" questline.
+Changed "Create" questline.
+Changed "Omega" questline.
+Edited "Extended Crafting" Recipes/Progression.
+Changed "Nature's Aura" questline.
+Changed "Botania" questline.
+
+Added trade for "Oily Bee"
+
+Hid fascades and ore blocks to take up less room on JEI (under kubejs/client_scripts/hiding_from_JEI.js).
+
+Added recipes for "Pam's HarvestCraft" gardens from nature essence.
+
+1.20.1-6.2
+Updated "Forge" from "forge-47.3.0" to "forge-47.3.5"
+
+Updated "Applied Energistics 2" from "appliedenergistics2-forge-15.2.10.jar" to "appliedenergistics2-forge-15.2.11.jar"
+Updated "Ars Elemental" from "ars_elemental-1.20.1-0.6.5.jar" to "ars_elemental-1.20.1-0.6.5.0.1.jar"
+Updated "Ars Nouveau" from "ars_nouveau-1.20.1-4.12.1-all.jar" to "ars_nouveau-1.20.1-4.12.4-all.jar"
+Updated "Botania" from "Botania-1.20.1-445-FORGE.jar" to "Botania-1.20.1-446-FORGE.jar"
+Updated "Botany Pots" from "BotanyPots-Forge-1.20.1-13.0.36.jar" to "BotanyPots-Forge-1.20.1-13.0.38.jar"
+Updated "Botany Trees" from "BotanyTrees-Forge-1.20.1-9.0.11.jar" to "BotanyTrees-Forge-1.20.1-9.0.15.jar"
+Updated "Collective" from "collective-1.20.1-7.73.jar" to "collective-1.20.1-7.81.jar"
+Updated "Create Encased" from "CreateCasing-1.20.1-1.6.1.jar" to "CreateCasing-1.20.1-1.6.1-fix1.jar"
+Updated "Cucumber Library" from "Cucumber-1.20.1-7.0.9.jar" to "Cucumber-1.20.1-7.0.11.jar"
+Updated "Delightful" from "Delightful-1.20.1-3.5.8.jar" to "Delightful-1.20.1-3.5.9.jar"
+Updated "Eating Animation [Neo/Forge]" from "eatinganimation-1.20-5.0.0.jar" to "eatinganimation-1.20-5.1.0.jar"
+Updated "Embeddium" from "embeddium-0.3.25+mc1.20.1.jar" to "embeddium-0.3.28+mc1.20.1.jar"
+Updated "Enchantment Descriptions" from "EnchantmentDescriptions-Forge-1.20.1-17.0.16.jar" to "EnchantmentDescriptions-Forge-1.20.1-17.0.18.jar"
+Updated "ExtendedAE" from "ExtendedAE-1.20-1.1.11-forge.jar" to "ExtendedAE-1.20-1.1.12-forge.jar"
+Updated "FTB Library (Forge)" from "ftb-library-forge-2001.2.3.jar" to "ftb-library-forge-2001.2.4.jar"
+Updated "Infinite Trading" from "infinitetrading-1.20.1-4.4.jar" to "infinitetrading-1.20.1-4.5.jar"
+Updated "Mystical Agriculture" from "MysticalAgriculture-1.20.1-7.0.11.jar" to "MysticalAgriculture-1.20.1-7.0.12.jar"
+Updated "Overworld Piglins" from "overworldpiglins-1.20.1-1.4.jar" to "overworldpiglins-1.20.1-1.5.jar"
+Updated "Productive Bees" from "productivebees-1.20.1-12.5.3.jar" to "productivebees-1.20.1-12.6.0.jar"
+Updated "Resourceful Lib" from "resourcefullib-forge-1.20.1-2.1.25.jar" to "resourcefullib-forge-1.20.1-2.1.28.jar"
+Updated "Superflat World No Slimes" from "superflatworldnoslimes-1.20.1-3.2.jar" to "superflatworldnoslimes-1.20.1-3.4.jar"
+Updated "Villager Spawn Point" from "villagespawnpoint-1.20.1-4.2.jar" to "villagespawnpoint-1.20.1-4.4.jar"
+Updated "Villager Names" from "villagernames-1.20.1-8.0.jar" to "villagernames-1.20.1-8.1.jar"
+
+Added new Gregtech-Thermal recipies.
+Added new Gregtech-Redstone Arsenal recipies.
+Added new Gregtech-Create recipies.
+"Unified" honey (Create and Productive Bees).
+
+1.20.1-6.3
+Added "ProjectE" version "ProjectE-1.20.1-PE1.0.1.jar"
+
+Updated "Apothic Attributes (AttributesLib)" from "ApothicAttributes-1.20.1-1.3.6.jar" to ""ApothicAttributes-1.20.1-1.3.6.jar"
+Updated "Applied Energistics 2" from "appliedenergistics2-forge-15.2.11.jar" to "appliedenergistics2-forge-15.2.11.jar"
+Updated "Balm (Forge Edition)" from "balm-forge-1.20.1-7.3.6-all.jar"
+Updated "Collective" from "collective-1.20.1-7.81.jar"
+Updated "Crafting Tweaks" from "craftingtweaks-forge-1.20.1-18.2.4.jar"
+Updated "Easy Villagers" from "easy-villagers-forge-1.20.1-1.1.15.jar" to "easy-villagers-forge-1.20.1-1.1.15.jar"
+Updated "Embeddium" from "embeddium-0.3.28+mc1.20.1.jar" to "embeddium-0.3.28+mc1.20.1.jar"
+Updated "FramedBlocks" from "FramedBlocks-9.3.0.jar" to "FramedBlocks-9.3.1.jar"
+Updated "Guard Villagers" from "guardvillagers-1.20.1-1.6.6.jar"
+Updated "Hostile Neural Networks" from "HostileNeuralNetworks-1.20.1-5.3.0.jar" to "HostileNeuralNetworks-1.20.1-5.3.1.jar"
+Updated "Lootr (Forge & NeoForge)" from "lootr-forge-1.20-0.7.34.86.jar" to "lootr-forge-1.20-0.7.34.89.jar"
+Updated "ProbeJS" from "probejs-7.0.1-forge.jar" to "probejs-6.0.1-forge.jar"

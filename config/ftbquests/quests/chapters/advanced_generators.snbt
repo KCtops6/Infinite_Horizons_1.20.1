@@ -1,0 +1,452 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_generators"
+	group: "126A1C64F6AE129F"
+	icon: "advgenerators:iron_tubing"
+	id: "3525503A155E497D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6BAA1667BAB410FA"
+			tasks: [{
+				id: "0E869236465BBFD0"
+				title: "Enter:  Advanced Generators"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BAA1667BAB410FA"]
+			id: "55B1570D9D2AD961"
+			tasks: [{
+				id: "78A3BE8F6682373E"
+				item: "advgenerators:iron_tubing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BAA1667BAB410FA"]
+			id: "084887121BE34931"
+			tasks: [{
+				id: "6874F64E3D0F58FA"
+				item: "advgenerators:iron_wiring"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BAA1667BAB410FA"]
+			id: "201BA10DFA3534B5"
+			tasks: [{
+				id: "493527CFC63BCCCA"
+				item: "advgenerators:iron_frame"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6BAA1667BAB410FA"]
+			id: "6630AFB351FB4474"
+			tasks: [{
+				id: "2B52345BAD611D07"
+				item: "advgenerators:controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"78C9FCAA63CC8DBF"
+				"6630AFB351FB4474"
+				"4669076BE6E89179"
+				"66ED07DD53410E27"
+			]
+			id: "1AFC9430E264BE42"
+			tasks: [{
+				id: "3D97C417C4CA84D4"
+				item: "advgenerators:syngas_controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55B1570D9D2AD961"]
+			id: "59077C7B5B22A885"
+			tasks: [{
+				id: "39434C09CE0E1AD3"
+				item: "advgenerators:pressure_valve"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"59077C7B5B22A885"
+				"201BA10DFA3534B5"
+			]
+			id: "78C9FCAA63CC8DBF"
+			tasks: [{
+				id: "1007AC1F0FB77E10"
+				item: "advgenerators:mixing_chamber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E3C9174218D85FA"]
+			id: "5DD4757F63884F6D"
+			tasks: [{
+				id: "0066C41796A4A4E2"
+				item: "advgenerators:turbine_rotor_tier1"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DD4757F63884F6D"]
+			id: "44D5C2FE3601DC95"
+			optional: true
+			tasks: [{
+				id: "66D224B2C958C719"
+				item: "advgenerators:turbine_rotor_tier2"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44D5C2FE3601DC95"]
+			id: "5B25F341813280EA"
+			optional: true
+			tasks: [{
+				id: "79A1F6D202822B82"
+				item: "advgenerators:turbine_rotor_tier3"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B25F341813280EA"]
+			id: "3C2B88A1D1D747E9"
+			optional: true
+			tasks: [{
+				id: "342E270A6AC67872"
+				item: "advgenerators:turbine_rotor_tier4"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C2B88A1D1D747E9"]
+			id: "2C8F14A99AD5E0F1"
+			optional: true
+			tasks: [{
+				id: "73246422CB86F25B"
+				item: "advgenerators:turbine_rotor_tier5"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C8F14A99AD5E0F1"]
+			id: "49A8F94BA0439309"
+			optional: true
+			tasks: [{
+				id: "0D01A74F00EEF306"
+				item: "advgenerators:turbine_tier5"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5DD4757F63884F6D"]
+			id: "0732D03DB2A4E833"
+			tasks: [{
+				id: "782FF83E79998750"
+				item: "advgenerators:turbine_tier1"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44D5C2FE3601DC95"]
+			id: "57182F8D4F8781A6"
+			optional: true
+			tasks: [{
+				id: "6BA58AE565C28F3C"
+				item: "advgenerators:turbine_tier2"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B25F341813280EA"]
+			id: "0B561EDC85EEBCD9"
+			optional: true
+			tasks: [{
+				id: "3D817C5119667202"
+				item: "advgenerators:turbine_tier3"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C2B88A1D1D747E9"]
+			id: "23070B1AACE2E3E5"
+			optional: true
+			tasks: [{
+				id: "160DF8492D45D7D6"
+				item: "advgenerators:turbine_tier4"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0732D03DB2A4E833"]
+			id: "3094E8DBFDA2744B"
+			tasks: [{
+				id: "58C1A008D6FFCE15"
+				item: "advgenerators:fuel_turbine_controller"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3094E8DBFDA2744B"
+				"1D07AA8E8ADD0A2B"
+			]
+			dependency_requirement: "one_completed"
+			id: "259EAAA15CBF69DC"
+			optional: true
+			tasks: [{
+				id: "26023237EF9DAD92"
+				item: "advgenerators:power_capacitor_tier1"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["259EAAA15CBF69DC"]
+			id: "1C6E50EEAA8CD73E"
+			optional: true
+			tasks: [{
+				id: "4208E5F53D944101"
+				item: "advgenerators:power_capacitor_tier2"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C6E50EEAA8CD73E"]
+			id: "34829310C6EF3428"
+			optional: true
+			tasks: [{
+				id: "1AD050FF447452B1"
+				item: "advgenerators:power_capacitor_tier3"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61DCD3E18F39C3E6"]
+			id: "4E3C9174218D85FA"
+			tasks: [{
+				id: "339F58C67D8209E6"
+				item: "advgenerators:fe_output"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0732D03DB2A4E833"]
+			id: "1D07AA8E8ADD0A2B"
+			tasks: [{
+				id: "040EF453ADCA16D1"
+				item: "advgenerators:steam_turbine_controller"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"434711FFAC08C2F4"
+				"084887121BE34931"
+				"6630AFB351FB4474"
+				"4669076BE6E89179"
+				"66ED07DD53410E27"
+			]
+			id: "2B16722D5CAD3F89"
+			tasks: [{
+				id: "4927EC62F36842BB"
+				item: "advgenerators:exchanger_controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"201BA10DFA3534B5"
+				"55B1570D9D2AD961"
+			]
+			id: "434711FFAC08C2F4"
+			tasks: [{
+				id: "2C3CBCE73492FC90"
+				item: "advgenerators:heat_exchanger"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"201BA10DFA3534B5"
+				"55B1570D9D2AD961"
+			]
+			id: "4669076BE6E89179"
+			tasks: [
+				{
+					id: "29AABBB79D3AF961"
+					item: "advgenerators:fluid_input"
+					type: "item"
+				}
+				{
+					id: "1C9025ED2C108610"
+					item: "advgenerators:fluid_output_select"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["201BA10DFA3534B5"]
+			id: "66ED07DD53410E27"
+			tasks: [{
+				id: "71080455399A451D"
+				item: "advgenerators:item_input"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B16722D5CAD3F89"]
+			id: "41B1627969966B46"
+			tasks: [{
+				id: "3D9EAFE10C7FBCA8"
+				item: "advgenerators:item_output"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1AFC9430E264BE42"
+				"2B16722D5CAD3F89"
+			]
+			dependency_requirement: "one_completed"
+			id: "61DCD3E18F39C3E6"
+			tasks: [{
+				id: "55CEEFADEFB8955A"
+				item: "advgenerators:power_io"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3094E8DBFDA2744B"]
+			id: "5EDCF92DC2334860"
+			optional: true
+			tasks: [{
+				id: "3F4652E30FD899B9"
+				item: "advgenerators:fuel_tank"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AFC9430E264BE42"]
+			id: "3EC8B9D75E58FF6D"
+			optional: true
+			tasks: [{
+				id: "4C3300C12229BE11"
+				item: "advgenerators:control"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3094E8DBFDA2744B"]
+			id: "047AA4B77137740A"
+			optional: true
+			tasks: [{
+				id: "1D2017AD89850B50"
+				item: "advgenerators:efficiency_upgrade_tier1"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1AFC9430E264BE42"
+				"2B16722D5CAD3F89"
+			]
+			dependency_requirement: "one_completed"
+			id: "74FC2D73CAB10CCE"
+			optional: true
+			tasks: [{
+				id: "60993E23FB75575F"
+				item: "advgenerators:sensor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["047AA4B77137740A"]
+			id: "1A4BC27EFA22AD3C"
+			optional: true
+			tasks: [{
+				id: "4C24F2F813B5CFF9"
+				item: "advgenerators:efficiency_upgrade_tier2"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+	]
+	title: "Advanced Generators"
+}

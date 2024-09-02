@@ -1,0 +1,244 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "126A1C64F6AE129F"
+	icon: "create:wrench"
+	id: "2ADA033421616CB3"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0862E7449CD041FD"]
+			id: "5333031050591845"
+			tasks: [{
+				id: "0D60950274ABD09E"
+				item: "kubejs:brass_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5333031050591845"
+				"63633CC04C394FAF"
+			]
+			id: "0AAAF7750E5C03F5"
+			tasks: [{
+				id: "4BB890F0309FA8A7"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0862E7449CD041FD"]
+			icon: "create:polished_rose_quartz"
+			id: "63633CC04C394FAF"
+			tasks: [
+				{
+					id: "0A04BE36DD82D49C"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1811BF734F23BC6E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:sandpaper"
+						}
+					}
+					title: "Any #create:sandpaper"
+					type: "item"
+				}
+				{
+					id: "3CEFABD6ED1D9443"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0AAAF7750E5C03F5"]
+			id: "7E153E4F6D7A8F27"
+			tasks: [{
+				id: "1A1E9B878B8228FD"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E153E4F6D7A8F27"]
+			id: "56CCA84143D075B0"
+			tasks: [{
+				id: "543D966A031311BA"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56CCA84143D075B0"]
+			id: "196C0239DCDAE5C0"
+			tasks: [{
+				id: "7457B4307821B9CA"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14E46EEFB27056E4"]
+			id: "4F153B3B148FC31C"
+			tasks: [{
+				id: "3A3C0BF0DAC91D07"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"63633CC04C394FAF"
+				"5333031050591845"
+			]
+			id: "14E46EEFB27056E4"
+			tasks: [{
+				id: "6BA9F7D61CDBF206"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F153B3B148FC31C"]
+			id: "3E149E9C00B032B8"
+			tasks: [{
+				id: "56DDF63183C2E735"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E149E9C00B032B8"
+				"02118CFAF86718F8"
+			]
+			id: "69C5D6B5C0992B1D"
+			tasks: [{
+				id: "5E84CD6F647F4F65"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0862E7449CD041FD"]
+			id: "02118CFAF86718F8"
+			tasks: [{
+				id: "03D516519093E173"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63633CC04C394FAF"]
+			id: "5DACBD0FAF7D778A"
+			optional: true
+			tasks: [
+				{
+					id: "29E1627A0B391B53"
+					item: {
+						Count: 1
+						id: "create_sa:rose_quartz_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F5762748AB0952A"
+					item: {
+						Count: 1
+						id: "create_sa:rose_quartz_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "277A18C6C994F706"
+					item: {
+						Count: 1
+						id: "create_sa:rose_quartz_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B278A575AE3097F"
+					item: {
+						Count: 1
+						id: "create_sa:rose_quartz_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63633CC04C394FAF"]
+			id: "6DAAE426B8FBD5EB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "091FBA20E1A79611"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:rose_quartz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -0.75d
+		}
+	]
+	title: "Create"
+}

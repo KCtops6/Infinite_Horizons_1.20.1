@@ -1,0 +1,103 @@
+{
+    "groupOverrides": {
+      "Vanilla Seeds": {
+        "enabled": true
+      },
+      "Vanilla Saplings": {
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 1
+        }
+      }
+    },
+    "entryOverrides": {
+      "minecraft:oak_sapling": {
+        "enabled": true
+      },
+      "minecraft:bone_meal": {
+        "amount": 12 
+      }
+    },
+    "customCategories": {
+      "misc": {
+        "name": "Spawn Eggs",
+        "icon": {
+          "item": "minecraft:egg"
+        }
+      }
+    },
+    "customEntries": [
+      {
+        "output": {
+          "item": "minecraft:bee_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:chicken_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:cow_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:pig_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:sheep_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:sheep_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:rabbit_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:sweet_berries"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      }
+    ]
+  }

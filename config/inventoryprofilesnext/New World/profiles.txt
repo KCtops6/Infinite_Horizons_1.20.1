@@ -1,0 +1,48 @@
+
+
+
+
+profile Saved activate HOT9
+	HOT1
+		"ars_nouveau:sourcestone"
+	HOT2
+		"ars_nouveau:sourcestone_mosaic"
+	HOT3
+		"ars_nouveau:sourcestone_large_bricks"
+	HOT4
+		"ars_nouveau:sourcestone_small_bricks"
+	HOT5
+		"ars_nouveau:smooth_sourcestone_large_bricks"
+	HOT6
+		"ars_nouveau:smooth_sourcestone"
+	HOT7
+		"ars_nouveau:smooth_sourcestone_small_bricks"
+	HOT8
+		"ars_nouveau:purple_archwood_log"
+	HOT9
+		"ars_nouveau:archwood_planks"
+
+profile Saved activate HOT5
+	HOT1
+		"minecraft:ender_eye"
+	HOT2
+		"minecraft:ender_pearl"
+	HOT3
+		"minecraft:end_rod"
+	HOT4
+		"botania:ender_eye_block"
+	HOT5
+		"minecraft:end_stone"
+
+profile Saved activate HOT1
+	
+
+profile Saved activate HOT5
+	HOT1
+		"productivebees:jungle_wood_nest"
+	HOT2
+		"productivebees:honey_treat"
+
+profile Saved activate HOT1
+	
+

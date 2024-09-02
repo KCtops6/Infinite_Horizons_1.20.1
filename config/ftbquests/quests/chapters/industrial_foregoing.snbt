@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "126A1C64F6AE129F"
+	id: "652C865B2CDD0A1D"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0862E7449CD041FD"]
+			id: "2882A42805E374D4"
+			tasks: [{
+				id: "106081B6192B8E41"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2882A42805E374D4"]
+			id: "05E58EA5DCD7831E"
+			tasks: [{
+				id: "681C0CB88FB9F4F6"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05E58EA5DCD7831E"]
+			id: "315D3F62A88A7532"
+			tasks: [{
+				id: "758EFB2A6AF3AE58"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["315D3F62A88A7532"]
+			id: "11420255961C2341"
+			tasks: [{
+				id: "076FBDE1827D9A81"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11420255961C2341"]
+			id: "6F7FAD992235885A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4D8577886F1C1CF2"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:plastic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["11420255961C2341"]
+			id: "211DC9C3BF149997"
+			tasks: [{
+				id: "5C70D442D7FC38C3"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["211DC9C3BF149997"]
+			id: "61146406AFBEE409"
+			tasks: [{
+				id: "20518A7FA7275F38"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2882A42805E374D4"]
+			id: "0CC999F5C877629B"
+			tasks: [{
+				id: "3C184636F36CA687"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CC999F5C877629B"]
+			id: "35D3F07B4D336C95"
+			tasks: [{
+				id: "41E7E0C78E27390A"
+				item: "industrialforegoing:pink_slime"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["35D3F07B4D336C95"]
+			id: "6B05ED9DD78C261A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "060DE4D80A4DC4A5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:pink_slimy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"61146406AFBEE409"
+				"35D3F07B4D336C95"
+			]
+			id: "5B9A6C05D1753895"
+			tasks: [{
+				id: "0EDB23686165B087"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0862E7449CD041FD"
+				"5B9A6C05D1753895"
+			]
+			id: "2465DBD16F3EC4D3"
+			tasks: [{
+				id: "0A758885EC9ECC80"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2465DBD16F3EC4D3"]
+			id: "04C68C18D62B7E09"
+			tasks: [{
+				amount: 1000L
+				fluid: "industrialforegoing:ether_gas"
+				icon: "industrialforegoing:ether_gas_bucket"
+				id: "296BBDD3479464B2"
+				type: "fluid"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04C68C18D62B7E09"]
+			id: "0913AFADF9735228"
+			tasks: [{
+				id: "7711C72E07373887"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"04C68C18D62B7E09"
+				"6B05ED9DD78C261A"
+			]
+			id: "4E936F944FE9C7C9"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "312E0BB70482547E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ether_gas"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["5B9A6C05D1753895"]
+			id: "7EDEB18D48730DB0"
+			tasks: [{
+				id: "5B6EF786849B7197"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EDEB18D48730DB0"]
+			id: "68049EBDABFD1BB8"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1E83EB6E61F9180D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:experience"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: -0.25d
+		}
+	]
+	title: "Industrial Foregoing"
+}

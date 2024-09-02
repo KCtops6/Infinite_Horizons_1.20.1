@@ -1,0 +1,201 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beta"
+	group: "6F4C25734B575319"
+	icon: "mysticalagriculture:inferium_essence"
+	id: "6E3DAE0C813455AE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["382896245CF5A881"]
+			id: "7392426B0F3550A6"
+			tasks: [{
+				id: "4E15E6D3EEC436B5"
+				item: "kubejs:agronomancer_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "58BF596101EB652D"
+			tasks: [{
+				id: "44C55CF03FE38C96"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58BF596101EB652D"
+				"7392426B0F3550A6"
+			]
+			id: "008F9617AD4A757B"
+			tasks: [{
+				id: "7114A66025317D68"
+				item: "mysticalagriculture:air_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"58BF596101EB652D"
+				"7392426B0F3550A6"
+			]
+			id: "7B406340704F0524"
+			tasks: [{
+				id: "3D4DBF94AAE610C7"
+				item: "mysticalagriculture:earth_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58BF596101EB652D"
+				"7392426B0F3550A6"
+			]
+			id: "592D609D6A6C686C"
+			tasks: [{
+				id: "1AFE324C02F89B5E"
+				item: "mysticalagriculture:water_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"58BF596101EB652D"
+				"7392426B0F3550A6"
+			]
+			id: "64FE1369D9DA79FF"
+			tasks: [{
+				id: "320FBC3DCB1D0BD7"
+				item: "mysticalagriculture:fire_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["592D609D6A6C686C"]
+			id: "32ED54E13343E996"
+			tasks: [{
+				id: "6CEC74008A72EFD3"
+				item: "mysticalagriculture:ice_essence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["64FE1369D9DA79FF"]
+			id: "0F7904AFEA14F4A4"
+			tasks: [{
+				id: "71E025ED7E4AB5CF"
+				item: "mysticalagriculture:deepslate_essence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0F7904AFEA14F4A4"]
+			id: "4D8C16662420211F"
+			tasks: [{
+				id: "6524C3F3293434C8"
+				item: "mysticalagriculture:nether_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D8C16662420211F"]
+			id: "626844B531C63D7F"
+			tasks: [{
+				id: "40D8C9E635759097"
+				item: "mysticalagriculture:end_essence"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"592D609D6A6C686C"
+				"7B406340704F0524"
+			]
+			id: "24AB91EB9A74B02F"
+			tasks: [{
+				id: "4E28E4B655DB59A4"
+				item: "mysticalagriculture:nature_essence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24AB91EB9A74B02F"]
+			id: "4631F74FCFBA86C9"
+			tasks: [{
+				id: "4E583D5880320CC3"
+				item: "mysticalagriculture:coral_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"008F9617AD4A757B"
+				"24AB91EB9A74B02F"
+			]
+			id: "0EE75EE2E5340ADF"
+			rewards: [{
+				id: "123BD93F9CAE5304"
+				item: "minecraft:bee_spawn_egg"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "2080A05C28B751E8"
+				item: "mysticalagriculture:honey_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["008F9617AD4A757B"]
+			id: "7438B052BDA879EA"
+			tasks: [{
+				id: "6EE76CBB10260CBB"
+				item: "mysticalagriculture:limestone_essence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D8C16662420211F"]
+			id: "037B4AE6DF4451D4"
+			tasks: [{
+				id: "545862031B1BE8B5"
+				item: "mysticalagriculture:blaze_essence"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "Beta"
+}

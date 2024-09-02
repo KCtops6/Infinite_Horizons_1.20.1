@@ -1,0 +1,392 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "omega"
+	group: "6F4C25734B575319"
+	icon: "minecraft:nether_star"
+	id: "7FC5992E6E109C96"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["69C5D6B5C0992B1D"]
+			id: "64A5F87B83220C96"
+			tasks: [{
+				id: "1FF76FABF7AA651A"
+				item: "extendedcrafting:luminessence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69C5D6B5C0992B1D"]
+			id: "2C884CE1513AD930"
+			tasks: [{
+				id: "6C1026BFF483C5A4"
+				item: "kubejs:infinitium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C884CE1513AD930"]
+			id: "1139A56D278BDBC7"
+			tasks: [{
+				id: "1669DA506E0F1422"
+				item: "kubejs:infinitium_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1139A56D278BDBC7"
+				"64A5F87B83220C96"
+			]
+			id: "5536426F337E84B5"
+			tasks: [{
+				id: "72946EBBA1214FDF"
+				item: "extendedcrafting:basic_component"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5536426F337E84B5"]
+			id: "681FE46669E75DB4"
+			tasks: [{
+				id: "17659A8096803656"
+				item: "extendedcrafting:basic_catalyst"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["681FE46669E75DB4"]
+			id: "63F47F2436ECEB83"
+			tasks: [{
+				id: "7174F050D447C6A2"
+				item: "extendedcrafting:basic_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2243575A17540BE5"]
+			id: "5C465C6881B98676"
+			tasks: [{
+				id: "48CB75CF9C37E58C"
+				item: "extendedcrafting:advanced_catalyst"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"64A5F87B83220C96"
+				"1139A56D278BDBC7"
+			]
+			id: "2243575A17540BE5"
+			tasks: [{
+				id: "343651A825B573EC"
+				item: "extendedcrafting:advanced_component"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5C465C6881B98676"
+				"63F47F2436ECEB83"
+			]
+			id: "416C0D3EA9F2A2FA"
+			tasks: [{
+				id: "1E86D2716C869A9A"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"64A5F87B83220C96"
+				"1139A56D278BDBC7"
+			]
+			id: "459C67AFBCDC881F"
+			tasks: [{
+				id: "51BD3E7B8D73EB27"
+				item: "extendedcrafting:elite_component"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"64A5F87B83220C96"
+				"0862E7449CD041FD"
+				"1139A56D278BDBC7"
+			]
+			id: "1E5C763635B866BA"
+			tasks: [{
+				id: "6A5B8C880F9B8BF6"
+				item: "extendedcrafting:ultimate_component"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["459C67AFBCDC881F"]
+			id: "185EDB2CCDB3498A"
+			tasks: [{
+				id: "4C04CA09CC37AFA2"
+				item: "extendedcrafting:elite_catalyst"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"416C0D3EA9F2A2FA"
+				"185EDB2CCDB3498A"
+			]
+			id: "22B4639B9B97F8FF"
+			tasks: [{
+				id: "67B49EFFFB8954F2"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0862E7449CD041FD"]
+			id: "3698AEF2511597CC"
+			tasks: [{
+				id: "1D4AF7B2F8A07102"
+				item: "extendedcrafting:redstone_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3698AEF2511597CC"]
+			id: "43D5CAB8C6E2D7F1"
+			tasks: [{
+				id: "1BDB4EECBBDCCAC5"
+				item: "extendedcrafting:redstone_component"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0862E7449CD041FD"
+				"1E5C763635B866BA"
+			]
+			id: "19D031C39461430F"
+			tasks: [{
+				id: "0E9B61BC3EAEF398"
+				item: "extendedcrafting:ultimate_catalyst"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19D031C39461430F"]
+			id: "7940CC71F91F8CA3"
+			tasks: [{
+				id: "435AD3C6DE72C05B"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22B4639B9B97F8FF"]
+			id: "51B483AA29B52E0D"
+			tasks: [{
+				id: "0DCA89ABA7A4AC46"
+				item: "extendedcrafting:crystaltine_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51B483AA29B52E0D"]
+			id: "4904F2083D6EE283"
+			tasks: [{
+				id: "191E9092B79C02C7"
+				item: "extendedcrafting:crystaltine_component"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4904F2083D6EE283"
+				"43D5CAB8C6E2D7F1"
+				"63F47F2436ECEB83"
+			]
+			id: "342E9786010A756F"
+			tasks: [{
+				id: "4606E619F242F2C6"
+				item: "extendedcrafting:basic_auto_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4904F2083D6EE283"
+				"416C0D3EA9F2A2FA"
+				"43D5CAB8C6E2D7F1"
+			]
+			id: "26F5B945184B9EF8"
+			tasks: [{
+				id: "09429EDCE4FA0A6A"
+				item: "extendedcrafting:advanced_auto_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4904F2083D6EE283"
+				"22B4639B9B97F8FF"
+				"43D5CAB8C6E2D7F1"
+			]
+			id: "7E53AC88BCDF9A3E"
+			tasks: [{
+				id: "491CC6A33776E8BD"
+				item: "extendedcrafting:elite_auto_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4904F2083D6EE283"
+				"7940CC71F91F8CA3"
+				"43D5CAB8C6E2D7F1"
+			]
+			id: "02E6790AB4B114B1"
+			tasks: [{
+				id: "2B3CB7AEC4824A71"
+				item: "extendedcrafting:ultimate_auto_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["185EDB2CCDB3498A"]
+			icon: "extendedcrafting:crafting_core"
+			id: "3F473B650E6B1D60"
+			require_sequential_tasks: false
+			rewards: [{
+				id: "56C6FBD37B7644E0"
+				item: "extendedcrafting:pedestal"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1C85B77248D16646"
+					item: "extendedcrafting:crafting_core"
+					type: "item"
+				}
+				{
+					id: "36F72FFACAE3A159"
+					item: "extendedcrafting:pedestal"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "586753081760FEA7"
+			tasks: [{
+				id: "7F394DC2708E970F"
+				item: "kubejs:bomb"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "0AE747D48D80D4A5"
+			tasks: [{
+				id: "50A854687C3DBC90"
+				item: {
+					Count: 1
+					id: "kubejs:red_candle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "7F868D8AE8BF639E"
+			tasks: [{
+				id: "484B02B9A4F6194E"
+				item: "kubejs:sword"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F868D8AE8BF639E"]
+			id: "211E4CAE8B177F1D"
+			tasks: [{
+				id: "3BDC9FE2C2D0D801"
+				item: "kubejs:white_sword"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["211E4CAE8B177F1D"]
+			id: "4F6D546B244A04C5"
+			tasks: [{
+				id: "0D38AD45FAE7E4FE"
+				item: "kubejs:magical_sword"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["End Game Items"]
+	title: "Omega"
+}

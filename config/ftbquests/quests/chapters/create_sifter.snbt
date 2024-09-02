@@ -1,0 +1,711 @@
+{
+	autofocus_id: "24DB9017D4A29064"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_sifter"
+	group: "0CC079818F07D50F"
+	icon: {
+		Count: 1
+		id: "createsifter:brass_mesh"
+		tag: { }
+	}
+	id: "14A5807AAC572428"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0862E7449CD041FD"]
+			id: "36C094D24A04C501"
+			tasks: [{
+				id: "6B6FCE4889812B6A"
+				title: "Automated Resources"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36C094D24A04C501"]
+			id: "7BD16635BED65AC0"
+			tasks: [{
+				id: "1A8ABA9E31125A1C"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "3B5297EF6E94033F"
+			tasks: [{
+				id: "67F6281C27B60C04"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "6F14BC829815DDFE"
+			tasks: [{
+				id: "456C7387DBA2650C"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "5DC622349C745244"
+			tasks: [{
+				id: "0D8341EBB50D067F"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "0A922308FC71597D"
+			tasks: [{
+				id: "187FCFA44F6B44A7"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "0D2217C80C944C8C"
+			tasks: [{
+				id: "1B0EF11BAA0FF048"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "2A249FD3C5F74475"
+			tasks: [{
+				id: "2D5BB44D75B0037F"
+				item: "mekanism:raw_osmium"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "1B3785494BCA4245"
+			tasks: [{
+				id: "56E2BDA853C671B4"
+				item: "mekanism:raw_uranium"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "65429205B673FD9A"
+			tasks: [{
+				id: "044B77E1C72389B4"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "0917C7999CD4B92C"
+			tasks: [{
+				id: "36C76C51F9A8DDAF"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "2A0761E89AFFA417"
+			tasks: [{
+				id: "08779A2BBA807097"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BD16635BED65AC0"]
+			id: "6F86DFAFF30CA5AB"
+			tasks: [{
+				id: "1D0F7B6C58B6D370"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "24DB9017D4A29064"
+			tasks: [{
+				id: "28B19BB968775A01"
+				item: "gtceu:raw_diatomite"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "66490B8A57B8A1C0"
+			tasks: [{
+				id: "41C60EDF16F99357"
+				item: "gtceu:raw_oilsands"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "74C3E353A38B7B8C"
+			tasks: [{
+				id: "562BF86658DE6FED"
+				item: "gtceu:raw_rock_salt"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "7EE48DBA6758E1AA"
+			tasks: [{
+				id: "0CFA9B0C0E0E9E96"
+				item: "gtceu:raw_salt"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "5B0700FD4AE09574"
+			tasks: [{
+				id: "1E68904E34AA809B"
+				item: "gtceu:raw_lepidolite"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "1FB2D791756206D3"
+			tasks: [{
+				id: "21977D7759B698CA"
+				item: "gtceu:raw_spodumene"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "29B8F39C88B95499"
+			tasks: [{
+				id: "7717305460F27ED7"
+				item: "gtceu:raw_basaltic_mineral_sand"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "1B29467BFC9D520C"
+			tasks: [{
+				id: "2EDFEF8D94241EB2"
+				item: "gtceu:raw_granitic_mineral_sand"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "13AB0502DB942F25"
+			tasks: [{
+				id: "23801F81AD09AD88"
+				item: "gtceu:raw_fullers_earth"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "776B634290E49A30"
+			tasks: [{
+				id: "734CF647CCD5D06A"
+				item: "gtceu:raw_gypsum"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "2C2409D6AD8A705A"
+			tasks: [{
+				id: "1766FB9083FC99A8"
+				item: "gtceu:raw_cassiterite_sand"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "067F661D14B0E40B"
+			tasks: [{
+				id: "7249E016C96286BF"
+				item: "gtceu:raw_garnet_sand"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "73CF4DE0591BF458"
+			tasks: [{
+				id: "27631C4C007E3E96"
+				item: "gtceu:raw_asbestos"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36C094D24A04C501"]
+			id: "532F35FE7CB7F686"
+			tasks: [{
+				id: "73B0230DBA561B39"
+				item: "kubejs:andesite_gravel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "1EEDAE1FF971EADE"
+			tasks: [{
+				id: "1662436405571A16"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1EEDAE1FF971EADE"]
+			id: "667251DCCA8C8DBF"
+			tasks: [{
+				id: "7DE1E1310CF3E61E"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1EEDAE1FF971EADE"]
+			id: "28B64E5DDEEC12D1"
+			tasks: [{
+				id: "6737C933D3B253E4"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1EEDAE1FF971EADE"]
+			id: "65F15F14D749D6E6"
+			tasks: [{
+				id: "2920F4E461532988"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "60C582A619B0C733"
+			tasks: [{
+				id: "31A12E53056CCB76"
+				item: "gtceu:raw_soapstone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "07FB3AF46D56C4B6"
+			tasks: [{
+				id: "283A87BCCA6FC69D"
+				item: "gtceu:raw_talc"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "52744BF99EEA344A"
+			tasks: [{
+				id: "035691F131D3D4A6"
+				item: "gtceu:raw_pentlandite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "7C0D735F4AD4C0F1"
+			tasks: [{
+				id: "5A08418FC0E61448"
+				item: "gtceu:raw_glauconite_sand"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "75A916928D7BFB42"
+			tasks: [{
+				id: "74E66D4ECF6DBD8A"
+				item: "gtceu:raw_vanadium_magnetite"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "7165584FD684FE58"
+			tasks: [{
+				id: "18569D262CB840B7"
+				item: "gtceu:raw_magnetite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "24401E5DB2415354"
+			tasks: [{
+				id: "0C7A1215DE1A6CED"
+				item: "gtceu:raw_tin"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "35D4948E6E31DB50"
+			tasks: [{
+				id: "4D484AC82746CF4D"
+				item: "gtceu:raw_cassiterite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "338FF44F7FC3BD44"
+			tasks: [{
+				id: "2E4ECB051F0976D6"
+				item: "gtceu:raw_goethite"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "618DF18FF2612A93"
+			tasks: [{
+				id: "5205F415759ABB92"
+				item: "gtceu:raw_hematite"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "73CD7606E9ED94B8"
+			tasks: [{
+				id: "79727927F868337E"
+				item: "gtceu:raw_yellow_limonite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "1827FF7D3287AE3C"
+			tasks: [{
+				id: "3CB6545B0A414FB6"
+				item: "gtceu:raw_apatite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "2D67FEC4767B006E"
+			tasks: [{
+				id: "1BF4E419F1C5DB64"
+				item: "gtceu:raw_tricalcium_phosphate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "18D21A336FDCE487"
+			tasks: [{
+				id: "5705369172DB779A"
+				item: "gtceu:raw_pyrochlore"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "0DD65BEA0AE6B3A2"
+			tasks: [{
+				id: "4FD4E05CD2504345"
+				item: "gtceu:raw_beryllium"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["532F35FE7CB7F686"]
+			id: "68E0EE1A01B4FAB9"
+			tasks: [{
+				id: "2436BA4576D2A882"
+				item: "gtceu:raw_emerald"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["36C094D24A04C501"]
+			id: "410E5AE591C410CA"
+			tasks: [{
+				id: "1389D1E133C4351F"
+				item: "kubejs:granite_gravel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["410E5AE591C410CA"]
+			id: "095388DFF6D3F2BE"
+			tasks: [{
+				id: "2B2BC0AB0EACF799"
+				item: "gtceu:raw_chalcopyrite"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["410E5AE591C410CA"]
+			id: "119504BFF7058BFC"
+			tasks: [{
+				id: "0EE1A1861F0B9EFB"
+				item: "gtceu:raw_pyrite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["410E5AE591C410CA"]
+			id: "108B31DF8310C572"
+			tasks: [{
+				id: "213F1DA700E9EC88"
+				item: "gtceu:raw_kyanite"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["410E5AE591C410CA"]
+			id: "737B72BADB843B4F"
+			tasks: [{
+				id: "087946603F508B9A"
+				item: "gtceu:raw_mica"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["410E5AE591C410CA"]
+			id: "0813049F77DF5D34"
+			tasks: [{
+				id: "36B5C25D3AA5B079"
+				item: "gtceu:raw_bauxite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["410E5AE591C410CA"]
+			id: "642640FF7E8DCA71"
+			tasks: [{
+				id: "6BB8CCB017B40C9A"
+				item: "gtceu:raw_pollucite"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["410E5AE591C410CA"]
+			id: "61D6615677BF7EA1"
+			tasks: [{
+				id: "62563A8B453DFBAF"
+				item: "gtceu:raw_bastnasite"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["410E5AE591C410CA"]
+			id: "2D5E60B14C5A9250"
+			tasks: [{
+				id: "6762AFE782159D52"
+				item: "gtceu:raw_molybdenum"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["410E5AE591C410CA"]
+			id: "0502DBCA0659DF5D"
+			tasks: [{
+				id: "77159E057448AB87"
+				item: "gtceu:raw_neodymium"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6F86DFAFF30CA5AB"]
+			id: "7E981322987C6394"
+			tasks: [{
+				id: "066AB26ED0F27723"
+				item: "createsifter:dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E981322987C6394"]
+			id: "7C175710E5231611"
+			tasks: [{
+				id: "4661DC9277FD2FF6"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E981322987C6394"]
+			id: "1C119EBFD269368E"
+			tasks: [{
+				id: "6051B30B5A8EC203"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EEDAE1FF971EADE"]
+			id: "6F5305E8660FB8C1"
+			tasks: [{
+				id: "6FE233D49F75ED51"
+				item: "mysticalagriculture:soulium_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1EEDAE1FF971EADE"]
+			id: "6D5F7048B6DB70C8"
+			tasks: [{
+				id: "339E6E39A4794E00"
+				item: "mysticalagriculture:soul_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36C094D24A04C501"]
+			id: "512D2A2646780CC6"
+			tasks: [{
+				id: "5538FCEFC1BC8A4D"
+				item: "kubejs:limestone_gravel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+	]
+	title: "Resource Generation"
+}
