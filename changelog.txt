@@ -901,3 +901,5 @@ Removed More Mekanism Processing
 Updated Amendments (amendments-1.20-1.2.8.jar to amendments-1.20-1.2.10.jar)
 Updated Waystones (waystones-forge-1.20-14.1.4.jar to waystones-forge-1.20-14.1.5.jar)
 
+Added recipe for honey treats with create filling.
+
