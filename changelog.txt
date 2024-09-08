@@ -899,6 +899,7 @@ Updated "ProbeJS" from "probejs-7.0.1-forge.jar" to "probejs-6.0.1-forge.jar"
 1.20.1-6.4
 Removed More Mekanism Processing
 Updated Amendments (amendments-1.20-1.2.8.jar to amendments-1.20-1.2.10.jar)
+Updated Better Advancements
 Updated Waystones (waystones-forge-1.20-14.1.4.jar to waystones-forge-1.20-14.1.5.jar)
 
 Added recipe for honey treats with create filling.
