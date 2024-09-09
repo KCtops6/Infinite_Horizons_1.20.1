@@ -1,4 +1,4 @@
 ServerEvents.recipes(event => {
-    // ['minecraft:tuff', 'kubejs:tuff_gravel']
+    event.remove({output: 'minecraft:flint', input: 'minecraft:tuff' })
     event.recipes.createCrushing(['kubejs:tuff_gravel'], 'minecraft:tuff')
 });
