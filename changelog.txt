@@ -906,5 +906,7 @@ Added recipe for honey treats with create filling.
 Fixed tuff gravel recipe.
 
 1.20.1-6.5
+Updated Corpse.
 Fixed stone alloy recipe.
+Fixed stone alloy quest.
 

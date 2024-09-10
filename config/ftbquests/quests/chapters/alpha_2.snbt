@@ -311,8 +311,8 @@
 				}
 			]
 			tasks: [{
-				id: "1541E0BD8386CCF7"
-				item: "create:andesite_alloy"
+				id: "1992E654BB8A2469"
+				item: "kubejs:stone_alloy"
 				type: "item"
 			}]
 			x: 5.0d
