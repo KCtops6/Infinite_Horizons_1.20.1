@@ -903,4 +903,8 @@ Updated Better Advancements
 Updated Waystones (waystones-forge-1.20-14.1.4.jar to waystones-forge-1.20-14.1.5.jar)
 
 Added recipe for honey treats with create filling.
+Fixed tuff gravel recipe.
+
+1.20.1-6.5
+Fixed stone alloy recipe.
 

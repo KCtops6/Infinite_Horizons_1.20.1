@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     event.remove({ output: 'create:andesite_alloy', input: 'minecraft:andesite' })  
-    event.shaped('create:andesite_alloy', [
+    event.shaped('kubejs:stone_alloy', [
         'AB ', 
         'BA ',
         '   '  
