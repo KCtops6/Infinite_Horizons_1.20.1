@@ -1,0 +1,557 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "genesis"
+	group: "126A1C64F6AE129F"
+	icon: {
+		Count: 1
+		id: "gtceu:bronze_wrench"
+		tag: {
+			DisallowContainerItem: 0b
+			GT.Behaviours: {
+				Mode: 2b
+			}
+			GT.Tool: {
+				Damage: 0
+				HarvestLevel: 2
+				MaxDamage: 191
+				ToolSpeed: 7.0f
+			}
+			HideFlags: 2
+		}
+	}
+	id: "55DB4E6066DE121F"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5C2F224F565110DC"
+				"69006F22E80E8070"
+			]
+			hide_dependency_lines: false
+			id: "135640C05AFA154C"
+			subtitle: "Now you're cooking with steam! Now that you've entered the steam age, you have access to new processing recipes and can take a break from a lot of the tedious crafting. Just make sure this thing has water in it though.  "
+			tasks: [{
+				id: "0F62C09620C3A0A6"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Boiler"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "5C2F224F565110DC"
+			subtitle: "You're going need one of these for a while."
+			tasks: [{
+				id: "3E5ED63844745542"
+				item: {
+					Count: 1
+					id: "gtceu:iron_wrench"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							Mode: 2b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Wrenches"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3EDC2ED070F6EA35"
+				"3FB91D34CDFA8CFC"
+			]
+			id: "69006F22E80E8070"
+			subtitle: "You're going to need many stacks of these, but for now, you just need five."
+			tasks: [{
+				count: 5L
+				id: "7E1CC7EA331C1270"
+				item: { Count: 5, id: "gtceu:bronze_plate" }
+				type: "item"
+			}]
+			title: "Bronze Plates"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "3EDC2ED070F6EA35"
+			subtitle: "Smashing"
+			tasks: [{
+				id: "47F9800F2DBD98A6"
+				item: {
+					Count: 1
+					id: "gtceu:iron_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Hammers"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["135640C05AFA154C"]
+			id: "363AD8F69743C275"
+			subtitle: "The first machine you'll need for crafting advanced components. The most important right now: Glass. You thought you would be able to smelt it? Welcome to Greg."
+			tasks: [{
+				id: "21F92326B04D6C62"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			title: "Steam Alloy Smelter"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["363AD8F69743C275"]
+			id: "730381182161A8F8"
+			optional: true
+			subtitle: "Good for if you want to quit that annoying business of feeding fuel to your boilers."
+			tasks: [{
+				id: "308F990898B5EBE5"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			title: "Solar Boiler"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["363AD8F69743C275"]
+			id: "58E83ED83E7D6AE7"
+			subtitle: "This is technically the only thing keeping you from LV. You need this for processing rubber."
+			tasks: [{
+				id: "7F937E6DB73E161E"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			title: "Extractor"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["363AD8F69743C275"]
+			id: "4C0D24F4A00D03A6"
+			optional: true
+			subtitle: "Cheap plates."
+			tasks: [{
+				id: "1714F7EADF173883"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			title: "forge hammer"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["363AD8F69743C275"]
+			icon: "gtceu:steam_grinder"
+			id: "51D876461178F4BE"
+			optional: true
+			subtitle: "Macerate Faster! A good option for when you don't care about byproducts."
+			tasks: [
+				{
+					id: "0BBBD36549D25B67"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					id: "33327E7D053235E4"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+				{
+					id: "0F2BAADBD47238CC"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "1AC5CE9D3F5A82BB"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "6939D81E4EA0C441"
+					item: { Count: 22, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+			]
+			title: "Steam Grinder"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74D03D0F1889D88C"]
+			id: "3FB91D34CDFA8CFC"
+			subtitle: "The basic alloy for the Steam Age."
+			tasks: [{
+				id: "0C3426D32DEEA70C"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "74D03D0F1889D88C"
+			subtitle: "Used for making dusts"
+			tasks: [{
+				id: "6439C98DCBB501CF"
+				item: {
+					Count: 1
+					id: "gtceu:iron_mortar"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"74D03D0F1889D88C"
+				"3FB91D34CDFA8CFC"
+			]
+			id: "3FAAE8C02E84BC27"
+			subtitle: "Main component of the Primitive blas furnace. Requires a combination of clay dust and brick dust"
+			tasks: [{
+				id: "5A4CE3ED346A17CE"
+				item: "gtceu:firebrick"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FAAE8C02E84BC27"]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "050BB750EDC25195"
+			subtitle: "With this you can steel yourself for what's ahead. This is going to be your main source of steel for a while"
+			tasks: [
+				{
+					id: "0C94C1DFE24B75AB"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "01A697DD29367A6E"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["050BB750EDC25195"]
+			id: "30A06638384776CD"
+			subtitle: "The Basis for LV!"
+			tasks: [{
+				id: "02D84DDC15D71A03"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"58E83ED83E7D6AE7"
+				"4AA9FB5FDAD040F1"
+			]
+			id: "36D0BC6E25AC9C5C"
+			subtitle: "Extractedfrom Sticky Resin"
+			tasks: [{
+				id: "4B2516BA2621CDF7"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EEBA79CD24C60F4"]
+			id: "4AA9FB5FDAD040F1"
+			subtitle: "Sourced from Rubber trees."
+			tasks: [{
+				id: "6FA9375257B58117"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "3EEBA79CD24C60F4"
+			tasks: [{
+				icon: "gtceu:rubber_log"
+				id: "49C2DEB06A32258E"
+				observe_type: 0
+				timer: 0L
+				title: "Rubber Tree"
+				to_observe: "gtceu:rubber_log"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "6B98B24C3DC3107B"
+			subtitle: "Ingredient of Rubber"
+			tasks: [{
+				id: "5BB35C33FB29A10C"
+				item: "thermal:sulfur_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"36D0BC6E25AC9C5C"
+				"6B98B24C3DC3107B"
+			]
+			id: "499172A387E5D177"
+			subtitle: "The main form of rubber you'll be using for now."
+			tasks: [{
+				id: "62DB0B8875E5FE70"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "62A091A44CB2AD40"
+			subtitle: "You'll need versions of these for other crafting recipes."
+			tasks: [
+				{
+					id: "1B8380B13E933CC1"
+					item: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B6486DA93DDAD4F"
+					item: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "779538A08409C081"
+					item: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Other basic tools"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"62A091A44CB2AD40"
+				"3EDC2ED070F6EA35"
+			]
+			id: "445538B30C4A639B"
+			subtitle: "For making your first wire. Please use this as sparingly as possible"
+			tasks: [{
+				id: "40EA66540EC691BC"
+				item: {
+					Count: 1
+					id: "gtceu:iron_wire_cutter"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Wire Cutter"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "0D502A7FB377E34A"
+			subtitle: "Made from copper and redstone. A necessary material for your first circuit."
+			tasks: [{
+				id: "495ED2BA76A84310"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"499172A387E5D177"
+				"30A06638384776CD"
+				"0D502A7FB377E34A"
+				"445538B30C4A639B"
+			]
+			icon: "gtceu:resin_printed_circuit_board"
+			id: "4FBBB14BD27997A6"
+			subtitle: "The parts you need to make your first circuit. I would suggest making enough of each of these for a few circuits. You'll need them."
+			tasks: [
+				{
+					count: 2L
+					id: "3B38CD672E67F2E3"
+					item: { Count: 2, id: "gtceu:resistor" }
+					type: "item"
+				}
+				{
+					id: "4CFF0401B7985B99"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "47F3596E13DA5D2A"
+					item: { Count: 3, id: "gtceu:red_alloy_single_cable" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "189FCBA6754453B1"
+					item: { Count: 2, id: "gtceu:vacuum_tube" }
+					type: "item"
+				}
+			]
+			title: "Circuit parts"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FBBB14BD27997A6"]
+			id: "58296351FA9E24AD"
+			subtitle: "Your first circuit at last! Now you can begin looking into electricity and LV machines."
+			tasks: [{
+				id: "16614D815774AD4E"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "Your first circuit"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"499172A387E5D177"
+				"30A06638384776CD"
+				"445538B30C4A639B"
+			]
+			icon: "gtceu:lv_electric_motor"
+			id: "3FAD3D8E26675C81"
+			subtitle: "The main parts, other than your circuit, which you need to make for a steam turbine. You can magnetize iron by putting it in a crafting table with four redstone dust."
+			tasks: [
+				{
+					count: 2L
+					id: "30186CB768749FAC"
+					item: { Count: 2, id: "gtceu:lv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "48D63E4821C72E3E"
+					item: { Count: 2, id: "gtceu:tin_rotor" }
+					type: "item"
+				}
+			]
+			title: "Revving up"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3FAD3D8E26675C81"
+				"58296351FA9E24AD"
+			]
+			id: "2008657CAB0C1303"
+			subtitle: "Electricity at last! But first you'll need to make electric machines to replace your steam ones and make some new machines, like the wiremill, to do a lot less crafting."
+			tasks: [{
+				id: "52C53402950E3A6D"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "Go for a spin"
+			x: 1.0d
+			y: 6.0d
+		}
+	]
+	title: "Gregtech I"
+}
