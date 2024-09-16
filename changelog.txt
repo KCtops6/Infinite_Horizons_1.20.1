@@ -916,6 +916,10 @@ Changed nether and ender air recipes so they could be completed in overworld.
 
 1.20.1-6.7
 Updated "Gregtech I" quest line.
+Updated Mekanism.
+Updated Mekanism Additions.
+Updated Mekanism Generators.
+Updated Mekanism Tools.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
