@@ -822,6 +822,8 @@ ServerEvents.recipes(event => {
      * 
      * NETHER QUARTZ VEIN
      * 'gtceu:raw_nether_quartz'    80  3   240
+     *
+     * 'gtceu:raw_monazite' 30  1   30
      */
     event.recipes.createsifterSifting([
         Item.of('minecraft:netherite_scrap').withChance(0.025),
@@ -838,6 +840,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_certus_quartz').withChance(80 / 500 / 5),
         Item.of('gtceu:raw_barite').withChance(40 / 500 / 5),
         Item.of('gtceu:raw_nether_quartz').withChance(240 / 500 / 5),
+        Item.of('gtceu:raw_monazite').withChance(30/500/5)
     ], ['kubejs:netherrack_gravel','createsifter:string_mesh']);
     event.recipes.createsifterSifting([
         Item.of('minecraft:netherite_scrap').withChance(0.025 + 0.05),
@@ -854,6 +857,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_certus_quartz').withChance(80 / 500 / 4),
         Item.of('gtceu:raw_barite').withChance(40 / 500 / 4),
         Item.of('gtceu:raw_nether_quartz').withChance(240 / 500 / 4),
+        Item.of('gtceu:raw_monazite').withChance(30/500/4)
     ], ['kubejs:netherrack_gravel','kubejs:copper_mesh']);
     event.recipes.createsifterSifting([
         Item.of('minecraft:netherite_scrap').withChance(0.025 + 0.05 + 0.1),
@@ -870,6 +874,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_certus_quartz').withChance(80 / 500 / 3),
         Item.of('gtceu:raw_barite').withChance(40 / 500 / 3),
         Item.of('gtceu:raw_nether_quartz').withChance(240 / 500 / 3),
+        Item.of('gtceu:raw_monazite').withChance(30/500/3)
     ], ['kubejs:netherrack_gravel','kubejs:iron_mesh']);
     event.recipes.createsifterSifting([
         Item.of('minecraft:netherite_scrap').withChance(0.025 + 0.05 + 0.1 + 0.15),
@@ -885,7 +890,8 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_quartzite').withChance(120 / 500 / 2),
         Item.of('gtceu:raw_certus_quartz').withChance(80 / 500 / 2),
         Item.of('gtceu:raw_barite').withChance(40 / 500 / 2),
-        Item.of('gtceu:raw_nether_quartz').withChance(240 / 500 / 2), 
+        Item.of('gtceu:raw_nether_quartz').withChance(240 / 500 / 2),
+        Item.of('gtceu:raw_monazite').withChance(30/500/2)
     ], ['kubejs:netherrack_gravel','createsifter:brass_mesh']);
     event.recipes.createsifterSifting([
         Item.of('minecraft:netherite_scrap').withChance(0.025 + 0.05 + 0.1 + 0.15 + 0.2),
@@ -902,6 +908,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_certus_quartz').withChance(80 / 500),
         Item.of('gtceu:raw_barite').withChance(40 / 500),
         Item.of('gtceu:raw_nether_quartz').withChance(240 / 500),
+        Item.of('gtceu:raw_monazite').withChance(30/500)
     ], ['kubejs:netherrack_gravel','kubejs:netherite_mesh']);
 
     /**

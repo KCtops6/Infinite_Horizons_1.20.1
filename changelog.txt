@@ -912,10 +912,10 @@ Fixed stone alloy quest.
 
 1.20.1-6.6
 Updated Supplementaries.
+
 Changed nether and ender air recipes so they could be completed in overworld.
 
 1.20.1-6.7
-Updated "Gregtech I" quest line.
 Updated Botany Pots.
 Updated Botany Trees.
 Updated Mekanism.
@@ -925,3 +925,6 @@ Updated Mekanism Tools.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
+
+Updated "Gregtech I" quest line.
+Added raw monazite to netherrack gravel sifting drops.
