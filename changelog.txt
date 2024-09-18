@@ -928,3 +928,12 @@ Updated Sophisticated Storage.
 
 Updated "Gregtech I" quest line.
 Added raw monazite to netherrack gravel sifting drops.
+
+1.20.1-6.8
+Updated Delightful.
+Updated Easy Villagers.
+Updated Entity Culling Fabric/Forge.
+Updated Mystical Agriculture.
+Updated Sophisticated Backpacks.
+
+Added raw naquadah and raw plutonium to end stone gravel sifting drops.

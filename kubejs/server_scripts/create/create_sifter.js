@@ -1016,8 +1016,8 @@ ServerEvents.recipes(event => {
      * 'gtceu:raw_uraninite'    30  2   60
      */
     event.recipes.createsifterSifting([
-        Item.of('gtceu:raw_aluminium').withChance(90 / 500 / 5),
-        Item.of('gtceu:raw_lithium').withChance(30 / 500 / 5),
+        Item.of('gtceu:raw_naquadah').withChance(90 / 500 / 5),
+        Item.of('gtceu:raw_plutonium').withChance(30 / 500 / 5),
         Item.of('gtceu:raw_magnetite').withChance(90 / 500 / 5),
         Item.of('gtceu:raw_vanadium_magnetite').withChance(60 / 500 / 5),
         Item.of('gtceu:raw_chromite').withChance(60 / 500 / 5),
@@ -1035,8 +1035,8 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_uraninite').withChance(60 / 500 / 5)
     ], ['kubejs:end_stone_gravel','createsifter:string_mesh']);
     event.recipes.createsifterSifting([
-        Item.of('gtceu:raw_aluminium').withChance(90 / 500 / 4),
-        Item.of('gtceu:raw_lithium').withChance(30 / 500 / 4),
+        Item.of('gtceu:raw_naquadah').withChance(90 / 500 / 4),
+        Item.of('gtceu:raw_plutonium').withChance(30 / 500 / 4),
         Item.of('gtceu:raw_magnetite').withChance(90 / 500 / 4),
         Item.of('gtceu:raw_vanadium_magnetite').withChance(60 / 500 / 4),
         Item.of('gtceu:raw_chromite').withChance(60 / 500 / 4),
@@ -1054,8 +1054,8 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_uraninite').withChance(60 / 500 / 4)
     ], ['kubejs:end_stone_gravel','kubejs:copper_mesh']);
     event.recipes.createsifterSifting([
-        Item.of('gtceu:raw_aluminium').withChance(90 / 500 / 3),
-        Item.of('gtceu:raw_lithium').withChance(30 / 500 / 3),
+        Item.of('gtceu:raw_naquadah').withChance(90 / 500 / 3),
+        Item.of('gtceu:raw_plutonium').withChance(30 / 500 / 3),
         Item.of('gtceu:raw_magnetite').withChance(90 / 500 / 3),
         Item.of('gtceu:raw_vanadium_magnetite').withChance(60 / 500 / 3),
         Item.of('gtceu:raw_chromite').withChance(60 / 500 / 3),
@@ -1073,8 +1073,8 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_uraninite').withChance(60 / 500 / 3)
     ], ['kubejs:end_stone_gravel','kubejs:iron_mesh']);
     event.recipes.createsifterSifting([
-        Item.of('gtceu:raw_aluminium').withChance(90 / 500 / 2),
-        Item.of('gtceu:raw_lithium').withChance(30 / 500 / 2),
+        Item.of('gtceu:raw_naquadah').withChance(90 / 500 / 2),
+        Item.of('gtceu:raw_plutonium').withChance(30 / 500 / 2),
         Item.of('gtceu:raw_magnetite').withChance(90 / 500 / 2),
         Item.of('gtceu:raw_vanadium_magnetite').withChance(60 / 500 / 2),
         Item.of('gtceu:raw_chromite').withChance(60 / 500 / 2),
@@ -1092,8 +1092,8 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_uraninite').withChance(60 / 500 / 2)
     ], ['kubejs:end_stone_gravel','createsifter:brass_mesh']);
     event.recipes.createsifterSifting([
-        Item.of('gtceu:raw_aluminium').withChance(90 / 500),
-        Item.of('gtceu:raw_lithium').withChance(30 / 500),
+        Item.of('gtceu:raw_naquadah').withChance(90 / 500),
+        Item.of('gtceu:raw_plutonium').withChance(30 / 500),
         Item.of('gtceu:raw_magnetite').withChance(90 / 500),
         Item.of('gtceu:raw_vanadium_magnetite').withChance(60 / 500),
         Item.of('gtceu:raw_chromite').withChance(60 / 500),
