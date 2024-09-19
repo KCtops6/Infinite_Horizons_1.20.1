@@ -937,3 +937,10 @@ Updated Mystical Agriculture.
 Updated Sophisticated Backpacks.
 
 Added raw naquadah and raw plutonium to end stone gravel sifting drops.
+
+1.20.1-6.9
+Updated Cooking for Blockheads.
+Updated ExtendedAE.
+Updated Harvest with ease.
+
+Fixed osmium quest in Mekanism quest line.

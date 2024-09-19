@@ -12,8 +12,16 @@
 			dependencies: ["0862E7449CD041FD"]
 			id: "0C4CA525236854D3"
 			tasks: [{
+				icon: "mekanism:ingot_osmium"
 				id: "3D9DE463DA9C9764"
-				item: "gtceu:osmium_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/osmium"
+					}
+				}
+				title: "Any #forge:ingots/osmium"
 				type: "item"
 			}]
 			x: 0.0d
