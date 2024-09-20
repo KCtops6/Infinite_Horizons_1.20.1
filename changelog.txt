@@ -955,5 +955,9 @@ Updated Create Encased.
 Updated Create Mechanical Extruder.
 Updated Create Sifting.
 Updated Create: Steam 'n' Rails.
+Updated Cucumber Library.
+Updated Curios API (Forge/NeoForge).
+Updated Gadgets Against Grind.
+Updated Jade 🔍.
 Updated Rhino.
 
