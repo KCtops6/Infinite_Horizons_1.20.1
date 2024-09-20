@@ -947,5 +947,7 @@ Fixed osmium quest in Mekanism quest line.
 
 1.20.1-7.0
 Updated Balm (Forge Edition).
+Updated BucketLib.
+
 Updated Rhino.
 
