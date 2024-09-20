@@ -962,6 +962,7 @@ Updated Gadgets Against Grind.
 Updated GeckoLib.
 Updated Jade 🔍.
 Updated JourneyMap.
+Updated ModernFix.
 Updated Moonlight Lib.
 Updated Puzzles Lib [Forge & Fabric].
 Updated Quests Additions (Forge).
