@@ -957,11 +957,14 @@ Updated Create Sifting.
 Updated Create: Steam 'n' Rails.
 Updated Cucumber Library.
 Updated Curios API (Forge/NeoForge).
+Updated Embeddium.
 Updated Gadgets Against Grind.
+Updated GeckoLib.
 Updated Jade 🔍.
 Updated JourneyMap.
 Updated Moonlight Lib.
 Updated Puzzles Lib [Forge & Fabric].
 Updated Quests Additions (Forge).
+Updated Resourceful Lib.
 Updated Rhino.
 
