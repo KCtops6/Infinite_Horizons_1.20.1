@@ -961,6 +961,7 @@ Updated Embeddium.
 Updated Gadgets Against Grind.
 Updated GeckoLib.
 Updated Jade 🔍.
+Updated Just Enough Items (JEI).
 Updated JourneyMap.
 Updated ModernFix.
 Updated Moonlight Lib.
