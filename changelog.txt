@@ -959,5 +959,9 @@ Updated Cucumber Library.
 Updated Curios API (Forge/NeoForge).
 Updated Gadgets Against Grind.
 Updated Jade 🔍.
+Updated JourneyMap.
+Updated Moonlight Lib.
+Updated Puzzles Lib [Forge & Fabric].
+Updated Quests Additions (Forge).
 Updated Rhino.
 
