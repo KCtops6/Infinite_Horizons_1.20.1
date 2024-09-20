@@ -949,5 +949,11 @@ Fixed osmium quest in Mekanism quest line.
 Updated Balm (Forge Edition).
 Updated BucketLib.
 Updated Cloth Config API (Fabric/Forge/NeoForge).
+Updated Create.
+Updated Create Crafts & Additions.
+Updated Create Encased.
+Updated Create Mechanical Extruder.
+Updated Create Sifting.
+Updated Create: Steam 'n' Rails.
 Updated Rhino.
 
