@@ -972,6 +972,5 @@ Updated Quests Additions (Forge).
 Updated Resourceful Lib.
 Updated Rhino.
 Updated Sophisticated Backpacks.
-Updated Sophisticated Core.
 Updated Sophisticated Storage.
 
