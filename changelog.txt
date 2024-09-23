@@ -974,3 +974,4 @@ Updated Rhino.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Storage.
 
+Fixed steel ingot quest in Mekanism quest line.

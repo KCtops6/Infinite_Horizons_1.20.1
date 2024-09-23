@@ -86,6 +86,11 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
   "refinedcooking": {
     "kitchen_access_point": true,
     "kitchen_station": true
