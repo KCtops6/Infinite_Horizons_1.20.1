@@ -81,8 +81,16 @@
 			dependencies: ["5B7978924FCF72A8"]
 			id: "4E07A0D216E8462E"
 			tasks: [{
+				icon: "mekanism:ingot_steel"
 				id: "521DA4FE5328565E"
-				item: "gtceu:steel_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
 				type: "item"
 			}]
 			title: "Steel City"
