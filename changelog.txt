@@ -946,6 +946,9 @@ Updated Harvest with ease.
 Fixed osmium quest in Mekanism quest line.
 
 1.20.1-7.0
+Added Apotheosis.
+
+Updated Ars Elemental.
 Updated Balm (Forge Edition).
 Updated BucketLib.
 Updated Cloth Config API (Fabric/Forge/NeoForge).
@@ -960,6 +963,7 @@ Updated Curios API (Forge/NeoForge).
 Updated Embeddium.
 Updated Gadgets Against Grind.
 Updated GeckoLib.
+Updated Harvest with ease.
 Updated Jade 🔍.
 Updated JourneyMap.
 Updated Moonlight Lib.
@@ -967,4 +971,7 @@ Updated Puzzles Lib [Forge & Fabric].
 Updated Quests Additions (Forge).
 Updated Resourceful Lib.
 Updated Rhino.
+Updated Sophisticated Backpacks.
+Updated Sophisticated Core.
+Updated Sophisticated Storage.
 
