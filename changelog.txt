@@ -978,3 +978,5 @@ Fixed steel ingot quest in Mekanism quest line.
 
 1.20.1-7.1
 Updated Apotheosis.
+
+Added quests for all Gregtech FE/EU converters.
