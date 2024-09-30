@@ -982,4 +982,5 @@ Updated Apotheosis.
 Added quests for all Gregtech FE/EU converters.
 
 1.20.1-7.2
+Added Apotheotic Creation.
 Updated BisectHosting Server Integration Menu [FORGE].
