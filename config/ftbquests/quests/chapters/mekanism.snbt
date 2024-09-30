@@ -5,7 +5,7 @@
 	group: "126A1C64F6AE129F"
 	icon: "mekanism:basic_control_circuit"
 	id: "509F428733091A41"
-	order_index: 20
+	order_index: 21
 	quest_links: [ ]
 	quests: [
 		{
