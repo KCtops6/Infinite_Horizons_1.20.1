@@ -980,3 +980,6 @@ Fixed steel ingot quest in Mekanism quest line.
 Updated Apotheosis.
 
 Added quests for all Gregtech FE/EU converters.
+
+1.20.1-7.2
+Updated BisectHosting Server Integration Menu [FORGE].
