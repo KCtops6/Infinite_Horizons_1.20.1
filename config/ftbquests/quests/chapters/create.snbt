@@ -30,7 +30,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -68,8 +68,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -1.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0AAAF7750E5C03F5"]
@@ -79,7 +79,7 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -90,7 +90,7 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -101,7 +101,7 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -113,7 +113,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -127,7 +127,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4F153B3B148FC31C"]
@@ -138,7 +138,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -152,7 +152,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0862E7449CD041FD"]
@@ -162,13 +162,14 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["63633CC04C394FAF"]
 			id: "5DACBD0FAF7D778A"
 			optional: true
+			size: 0.5d
 			tasks: [
 				{
 					id: "29E1627A0B391B53"
@@ -215,8 +216,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -2.0d
+			x: 2.75d
+			y: -1.75d
 		}
 		{
 			dependencies: ["63633CC04C394FAF"]
@@ -236,8 +237,29 @@
 				}
 				type: "item"
 			}]
-			x: 1.75d
-			y: -0.75d
+			x: 2.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5333031050591845"]
+			id: "64CB84886237A305"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "340CE05BD5AE574F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brass"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: -0.25d
 		}
 	]
 	title: "Create"
