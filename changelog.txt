@@ -986,3 +986,7 @@ Added Apotheotic Creation.
 Added Paxi (Forge).
 Added YUNG's API (Forge).
 Updated BisectHosting Server Integration Menu [FORGE].
+Updated BucketLib.
+Updated Moonlight Lib.
+Updated Mystical Agradditions.
+Updated Mystical Agriculture.
