@@ -983,7 +983,15 @@ Added quests for all Gregtech FE/EU converters.
 
 1.20.1-7.2
 Added Apotheotic Creation.
+Added Caelus API (Forge/NeoForge).
+Added Forbidden and Arcanus.
+Added Iron's Spells 'n Spellbooks.
+Added Modonomicon.
+Added Occultism.
 Added Paxi (Forge).
+Added playerAnimator.
+Added SmartBrainLib (Forge/Fabric/Quilt).
+Added Valhelsia Core.
 Added YUNG's API (Forge).
 Updated BisectHosting Server Integration Menu [FORGE].
 Updated BucketLib.
