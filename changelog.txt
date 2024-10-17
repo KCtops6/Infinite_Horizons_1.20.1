@@ -1002,3 +1002,6 @@ Updated Mystical Agradditions.
 Updated Mystical Agriculture.
 Updated Puzzles Lib [Forge & Fabric].
 Updated Torchmaster.
+
+Added new recipe for stone alloy.
+Added new quests noting above.
