@@ -996,13 +996,9 @@ Added YUNG's API (Forge).
 Updated BisectHosting Server Integration Menu [FORGE].
 Updated BucketLib.
 Updated Corpse.
-Updated Create Encased.
 Updated Drippy Loading Screen.
 Updated Moonlight Lib.
 Updated Mystical Agradditions.
 Updated Mystical Agriculture.
 Updated Puzzles Lib [Forge & Fabric].
 Updated Torchmaster.
-
-Added crafting components for Forbidden and Arcanus items.
-Added Forbidden and Arcanus questline.
