@@ -1,9 +1,4 @@
-/**
- * 'mysticalagriculture:nether_essence'
- * 'mysticalagriculture:coal_essence'
- * 'mysticalagriculture:skeleton_essence'
- * 'mysticalagriculture:wither_skeleton_essence'
- */
+// https://kubejs.com/wiki/addons/create#mixing
 ServerEvents.recipes(event => {
     event.recipes.createMixing('mysticalagriculture:wither_skeleton_essence',
         ['mysticalagriculture:nether_essence',

@@ -1,3 +1,4 @@
+// https://kubejs.com/wiki/addons/create#mixing
 ServerEvents.recipes(event => {
     /**
      * ['kubejs:infinitium_ingot', 'minecraft:netherite_ingot', 'mysticalagradditions:insanium_ingot']

@@ -1,3 +1,4 @@
+// https://kubejs.com/wiki/addons/create#mixing
 ServerEvents.recipes(event => {
     /**
      * 'gtceu:ender_pearl_dust'
