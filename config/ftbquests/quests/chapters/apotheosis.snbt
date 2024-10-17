@@ -1,0 +1,292 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "126A1C64F6AE129F"
+	id: "1177FFADD67E1D8B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["382896245CF5A881"]
+			id: "7585E627F8C20301"
+			tasks: [{
+				id: "0AF792F3C4E09E1D"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7585E627F8C20301"]
+			id: "6CE64A8D7446F9F7"
+			tasks: [{
+				id: "40498AB3CFE3447E"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CE64A8D7446F9F7"]
+			id: "13043585CEAD557E"
+			tasks: [{
+				id: "3ED647979BA845DA"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13043585CEAD557E"]
+			id: "2E44193310735283"
+			tasks: [{
+				id: "2A75D0925E8362B7"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2E44193310735283"
+				"1C8D0F0392AECC75"
+				"07E9A206491850F6"
+			]
+			dependency_requirement: "one_completed"
+			id: "25DB14E4D579A6EF"
+			tasks: [{
+				id: "1EF75043C0F40B90"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E44193310735283"]
+			id: "544B4CDB5E56E108"
+			tasks: [{
+				id: "4E39BE796E99B316"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E44193310735283"]
+			id: "4C5BB2916C082BF1"
+			tasks: [{
+				id: "2368390C60CC4BC1"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E44193310735283"]
+			id: "34E3855006826538"
+			tasks: [{
+				id: "5C8AFF0AB34D4787"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["544B4CDB5E56E108"]
+			id: "7A07F8E2B0DBB6BA"
+			tasks: [{
+				id: "5D1C9620F49F2975"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CE64A8D7446F9F7"]
+			id: "596107DCB0479EBB"
+			tasks: [{
+				id: "65E9C65E5899FD28"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["596107DCB0479EBB"]
+			id: "1C8D0F0392AECC75"
+			tasks: [{
+				id: "75E6E9F9204D0BAD"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C8D0F0392AECC75"]
+			id: "772BA6157759380B"
+			tasks: [{
+				id: "59A53568698210F1"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C8D0F0392AECC75"]
+			id: "5F1C9338CEE7532D"
+			tasks: [{
+				id: "06F7383287336051"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C8D0F0392AECC75"]
+			id: "13441FF3C6E74F6A"
+			tasks: [{
+				id: "21F714310E261EAF"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13441FF3C6E74F6A"]
+			id: "5CAE0D4DBF39EF86"
+			tasks: [{
+				id: "3ABBDD7EBC75DF73"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CAE0D4DBF39EF86"]
+			id: "73894A0558DC0C90"
+			tasks: [{
+				id: "5B6350797B226723"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1C8D0F0392AECC75"]
+			id: "449758BD6DA165D3"
+			tasks: [{
+				id: "0CBEF28EDA511F1B"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7585E627F8C20301"]
+			id: "5DD29D3C2DC4295B"
+			tasks: [{
+				id: "748F8454EABD27AC"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DD29D3C2DC4295B"]
+			id: "07E9A206491850F6"
+			tasks: [{
+				id: "0D54258630B09709"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07E9A206491850F6"]
+			id: "7EC55B1344632F17"
+			tasks: [{
+				id: "117C6904AB12BD26"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07E9A206491850F6"]
+			id: "27B13E9ABA44DAC3"
+			tasks: [{
+				id: "2165B0574091BD76"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27B13E9ABA44DAC3"]
+			id: "7607E494184C605D"
+			tasks: [{
+				id: "4E569621B43EF840"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07E9A206491850F6"]
+			id: "7301581DD52CEF06"
+			tasks: [{
+				id: "0DB47D854C802CBC"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7301581DD52CEF06"]
+			id: "6ABDFD7BE758CA34"
+			tasks: [{
+				id: "546B52FBDE34037B"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25DB14E4D579A6EF"]
+			id: "0934A99132BEC965"
+			tasks: [{
+				id: "274312C22E54EE1C"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Apotheosis"
+}
