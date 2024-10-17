@@ -1,5 +1,4 @@
-// https://wiki.latvian.dev/books/kubejs/page/kubejs-create
-// Syntax: create pressing(output[], input)
+// https://kubejs.com/wiki/addons/create#filling
 ServerEvents.recipes(e => {
     e.recipes.createFilling(
         'productivebees:honey_treat',   // output
