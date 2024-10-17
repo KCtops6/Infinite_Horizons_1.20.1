@@ -462,7 +462,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -490,7 +490,7 @@
 				}
 			]
 			x: 6.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["32AEAE8653EF3DA0"]
@@ -501,7 +501,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -515,8 +515,8 @@
 				title: "Automatic Resources!"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["133BCE410E613A4F"]
@@ -547,6 +547,33 @@
 			}]
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["722C7C33D23EB25A"]
+			description: ["Notably used in more easily creating stone alloy."]
+			icon: "createlowheated:basic_burner"
+			id: "0FC21F3D0BB23F33"
+			optional: true
+			tasks: [
+				{
+					id: "70F60B70306E4EB8"
+					item: "createlowheated:basic_burner"
+					type: "item"
+				}
+				{
+					id: "5CF5E2B38589833F"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
 		}
 	]
 	title: "Alpha"
