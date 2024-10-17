@@ -1,3 +1,4 @@
+// https://kubejs.com/wiki/addons/create#milling
 ServerEvents.recipes(event => {
     const meats = ['rabbit', 'mutton', 'pork', 'beef', 'chicken'];
     meats.forEach(meat => {

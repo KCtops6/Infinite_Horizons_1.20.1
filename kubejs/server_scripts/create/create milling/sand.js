@@ -1,3 +1,4 @@
+// https://kubejs.com/wiki/addons/create#milling
 ServerEvents.recipes(event => {
-    event.recipes.createCrushing(['minecraft:sand'], 'minecraft:gravel')
+    event.recipes.createMilling(['minecraft:sand'], 'minecraft:gravel')
 });
