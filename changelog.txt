@@ -995,6 +995,7 @@ Added Valhelsia Core.
 Added YUNG's API (Forge).
 Updated BisectHosting Server Integration Menu [FORGE].
 Updated BucketLib.
+Updated Chipped.
 Updated Corpse.
 Updated Drippy Loading Screen.
 Updated Moonlight Lib.
