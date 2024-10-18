@@ -1007,3 +1007,4 @@ Updated Torchmaster.
 
 Added new recipe for stone alloy.
 Added new quests noting above.
+Added Pam's Harvestcraft level one farmer villager trades.
