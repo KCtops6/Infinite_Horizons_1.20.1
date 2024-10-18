@@ -545,8 +545,8 @@
 				title: "Integration Quests"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["722C7C33D23EB25A"]
