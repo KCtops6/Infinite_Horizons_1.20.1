@@ -994,12 +994,11 @@ Added playerAnimator.
 Added SmartBrainLib (Forge/Fabric/Quilt).
 Added Valhelsia Core.
 Added YUNG's API (Forge).
+Updated Amendments.
 Updated BisectHosting Server Integration Menu [FORGE].
 Updated BucketLib.
-Updated Chipped.
 Updated Corpse.
 Updated Drippy Loading Screen.
-Updated Just Enough Items (JEI).
 Updated Moonlight Lib.
 Updated Mystical Agradditions.
 Updated Mystical Agriculture.
