@@ -8,12 +8,25 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0862E7449CD041FD"]
+			icon: "bloodmagic:altar"
 			id: "5FC58230DEEE116D"
-			tasks: [{
-				id: "4D4AB7A3D5A567C5"
-				item: "bloodmagic:altar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D4AB7A3D5A567C5"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+				{
+					id: "68C872ABC1141CB4"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -96,11 +109,14 @@
 				item: "bloodmagic:alchemytable"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["15C30A95C21A54A3"]
+			dependencies: [
+				"15C30A95C21A54A3"
+				"76B56CE5EED7DEE5"
+			]
 			id: "6BCD750097202DD3"
 			tasks: [{
 				id: "4D58D36029F4A48E"
@@ -113,8 +129,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6BCD750097202DD3"]
@@ -126,8 +142,8 @@
 				item: "bloodmagic:watersigil"
 				type: "item"
 			}]
-			x: -0.75d
-			y: 1.75d
+			x: -2.25d
+			y: 1.25d
 		}
 		{
 			dependencies: ["6BCD750097202DD3"]
@@ -139,21 +155,608 @@
 				item: "bloodmagic:lavasigil"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.25d
+			x: -2.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["6BCD750097202DD3"]
 			id: "432AE9740EC2A85D"
-			optional: true
 			size: 0.5d
 			tasks: [{
 				id: "3531F22A93FB89A3"
 				item: "bloodmagic:divinationsigil"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["432AE9740EC2A85D"]
+			id: "34E86C9D1EF8A102"
+			size: 0.5d
+			tasks: [{
+				id: "73C6C497AEAB78C5"
+				item: "bloodmagic:seersigil"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["78CFE3734DD583C5"]
+			id: "66DFC8C3F99114B3"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6B7A95E3EB378D68"
+				item: "bloodmagic:woodbrickpath"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["66DFC8C3F99114B3"]
+			id: "30CCA861D30B38F1"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "407276BE28E12688"
+				item: "bloodmagic:stonebrickpath"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["30CCA861D30B38F1"]
+			id: "06F4E3BF8020B382"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "07C2D88225EB4974"
+				item: "bloodmagic:wornstonebrickpath"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["06F4E3BF8020B382"]
+			id: "3D03AF326709F946"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "778FB19DBB2952FF"
+				item: "bloodmagic:obsidianbrickpath"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["04F90805FF26763A"]
+			id: "12AEC77EB9506242"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1DEF351CF5C76052"
+				item: "bloodmagic:sacrificerune"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["04F90805FF26763A"]
+			id: "29E0B7A64C067F89"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "10D91ABAA602667D"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["04F90805FF26763A"]
+			id: "75DB30190CF5B3D0"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "28F2B88D4FC2A170"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["5840B0B3B3C3E3D9"]
+			id: "4AC782A42C79D85A"
+			tasks: [{
+				id: "1846746DEC2FAB0C"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AC782A42C79D85A"]
+			id: "1AACEC494495FD58"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5BE1F36F98E3C76E"
+				item: "bloodmagic:dislocationrune"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["4AC782A42C79D85A"]
+			id: "712F1216ECE2CEEA"
+			size: 0.5d
+			tasks: [{
+				id: "43E960BAD1CC3BD4"
+				item: "bloodmagic:altarcapacityrune"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5840B0B3B3C3E3D9"]
+			id: "38F22558ECF53F59"
+			tasks: [{
+				id: "4D72E71243F24C15"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38F22558ECF53F59"]
+			id: "6BBD80F4B1FB4B41"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7BF1BBD10B282BB4"
+				item: "bloodmagic:voidsigil"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["38F22558ECF53F59"]
+			id: "67E25FA0D808E7D5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0C55827DA47F0EB6"
+				item: {
+					Count: 1
+					id: "bloodmagic:growthsigil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["38F22558ECF53F59"]
+			id: "1C7EB6BBB2A0C8C2"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6F35E4A1B4201216"
+				item: {
+					Count: 1
+					id: "bloodmagic:miningsigil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -5.25d
+		}
+		{
+			dependencies: ["38F22558ECF53F59"]
+			id: "06E614459795DC7B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "068E1282F74978CE"
+				item: {
+					Count: 1
+					id: "bloodmagic:sigilofholding"
+					tag: {
+						currentSigil: 5
+					}
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["38F22558ECF53F59"]
+			id: "15B187D824D5AB9A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "624D7C0D35A1705A"
+				item: "bloodmagic:airsigil"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["5840B0B3B3C3E3D9"]
+			id: "08BB4365BAF03607"
+			tasks: [{
+				id: "7723AC7E67EF20F1"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"04F90805FF26763A"
+				"08BB4365BAF03607"
+			]
+			icon: "bloodmagic:masterritualstone"
+			id: "624B6693FABF5A5D"
+			tasks: [
+				{
+					id: "61E14B2C5A44FA7E"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "2B687C7703FE8074"
+					item: "bloodmagic:ritualstone"
+					type: "item"
+				}
+				{
+					id: "29C1AF084F14B890"
+					item: "bloodmagic:ritualdiviner"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["624B6693FABF5A5D"]
+			icon: "bloodmagic:strong_tau"
+			id: "6A9C09AE3784AF45"
+			tasks: [
+				{
+					dimension: "bloodmagic:dungeon"
+					id: "6E6B4C58967F65F2"
+					type: "dimension"
+				}
+				{
+					id: "5FB5F968BAC3883F"
+					item: "bloodmagic:strong_tau"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4AC782A42C79D85A"
+				"08BB4365BAF03607"
+			]
+			id: "40B0A523EFE3D1D9"
+			tasks: [{
+				id: "5065A6D881F87008"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"40B0A523EFE3D1D9"
+				"535E8FBA01AFA005"
+			]
+			id: "2F9B609F997C3378"
+			tasks: [{
+				id: "3ADF6A760ECF43FB"
+				item: {
+					Count: 1
+					id: "bloodmagic:sanguinereverter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6067486B01988BAA"]
+			icon: "bloodmagic:soulforge"
+			id: "5590A39C52B5C98C"
+			rewards: [{
+				id: "00F21F50BAB73BBE"
+				item: "bloodmagic:soulsnare"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0AEB38CA1D67BB71"
+					item: "bloodmagic:soulforge"
+					type: "item"
+				}
+				{
+					id: "3B33E8C434C237B7"
+					item: "bloodmagic:soulsnare"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5590A39C52B5C98C"]
+			id: "49FC51C453DE57C6"
+			tasks: [{
+				id: "61614167FFBAB9E5"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						souls: 64.0d
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49FC51C453DE57C6"]
+			id: "0A07EF86DA1680BE"
+			tasks: [{
+				id: "38939651790F8E2A"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A07EF86DA1680BE"]
+			id: "258B517B1861500F"
+			tasks: [{
+				id: "16E083DD7F0DC208"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: {
+						souls: 256.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["258B517B1861500F"]
+			id: "535E8FBA01AFA005"
+			tasks: [{
+				id: "1676060175458005"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 1024.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F9B609F997C3378"
+				"6A9C09AE3784AF45"
+			]
+			id: "42996D913279D332"
+			tasks: [{
+				id: "0B938671A53D214D"
+				item: "bloodmagic:weakbloodshard"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["49FC51C453DE57C6"]
+			id: "15D2B033F1146E25"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "10DBAF9F24A89CB9"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["49FC51C453DE57C6"]
+			id: "79D8DFAF53EE9A3A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "27084C31874EC002"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulpickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["49FC51C453DE57C6"]
+			id: "146E9DCF9F742143"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1FBDFE60E1B8992C"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulshovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["49FC51C453DE57C6"]
+			id: "3A5C8E06BE3E8138"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7157530D524CCB35"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulscythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["0A07EF86DA1680BE"]
+			id: "67488672A83B3B16"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5C5E8A2702819889"
+				item: "tomeofblood:glyph_sentient_harm"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["49FC51C453DE57C6"]
+			id: "673A86CBFED67956"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "36D42BF26A518881"
+				item: "bloodmagic:throwing_dagger"
+				type: "item"
+			}]
+			x: 6.75d
 			y: 2.25d
+		}
+		{
+			dependencies: [
+				"673A86CBFED67956"
+				"3A5C8E06BE3E8138"
+			]
+			id: "6E04F3C4FC82F1B4"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "60284670028E0BD2"
+				item: "tomeofblood:glyph_sentient_wrath"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["49FC51C453DE57C6"]
+			id: "55E4AA0AFF3660B4"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "07386699FD06227A"
+				item: "bloodmagic:shaped_charge"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["42996D913279D332"]
+			id: "38C220C089F10F89"
+			tasks: [{
+				id: "006374EAF191A4BC"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38C220C089F10F89"]
+			id: "76E47D045B0A9D28"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "67752E09912FF8A2"
+				item: {
+					Count: 1
+					id: "bloodmagic:sigilofmagnetism"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.75d
+			y: -4.75d
 		}
 	]
 	title: "Blood Magic"
