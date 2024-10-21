@@ -1003,6 +1003,9 @@ Updated Moonlight Lib.
 Updated Mystical Agradditions.
 Updated Mystical Agriculture.
 Updated Puzzles Lib [Forge & Fabric].
+Updated Sophisticated Backpacks.
+Updated Sophisticated Core.
+Updated Sophisticated Storage.
 Updated Torchmaster.
 
 Added new recipe for stone alloy.
