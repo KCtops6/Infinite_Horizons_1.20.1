@@ -98,8 +98,8 @@
 				item: "bloodmagic:speedrune"
 				type: "item"
 			}]
-			x: 1.75d
-			y: -2.75d
+			x: 1.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6067486B01988BAA"]
@@ -142,8 +142,8 @@
 				item: "bloodmagic:watersigil"
 				type: "item"
 			}]
-			x: -2.25d
-			y: 1.25d
+			x: -2.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["6BCD750097202DD3"]
@@ -155,8 +155,8 @@
 				item: "bloodmagic:lavasigil"
 				type: "item"
 			}]
-			x: -2.25d
-			y: 0.75d
+			x: -2.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["6BCD750097202DD3"]
@@ -167,8 +167,8 @@
 				item: "bloodmagic:divinationsigil"
 				type: "item"
 			}]
-			x: -1.75d
-			y: 0.75d
+			x: -2.75d
+			y: -0.25d
 		}
 		{
 			dependencies: ["432AE9740EC2A85D"]
@@ -179,8 +179,8 @@
 				item: "bloodmagic:seersigil"
 				type: "item"
 			}]
-			x: -1.75d
-			y: 1.25d
+			x: -2.75d
+			y: 0.25d
 		}
 		{
 			dependencies: ["78CFE3734DD583C5"]
@@ -569,7 +569,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["258B517B1861500F"]
+			dependencies: [
+				"258B517B1861500F"
+				"4AC782A42C79D85A"
+			]
 			id: "535E8FBA01AFA005"
 			tasks: [{
 				id: "1676060175458005"
@@ -582,7 +585,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -685,7 +688,7 @@
 				item: "tomeofblood:glyph_sentient_harm"
 				type: "item"
 			}]
-			x: 7.25d
+			x: 8.0d
 			y: 1.25d
 		}
 		{
@@ -739,7 +742,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["38C220C089F10F89"]
@@ -756,7 +759,326 @@
 				type: "item"
 			}]
 			x: 11.75d
+			y: -6.75d
+		}
+		{
+			dependencies: ["49FC51C453DE57C6"]
+			id: "34AFEAC09CF89450"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3D226F225A92A295"
+				item: "bloodmagic:deforester_charge"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["49FC51C453DE57C6"]
+			id: "154DAA205706AB4F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "19A4BC968F7E6FBC"
+				item: "bloodmagic:veinmine_charge"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["258B517B1861500F"]
+			id: "25A2101153ADA855"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "19FC13D13B0547D0"
+				item: "bloodmagic:aug_shaped_charge"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["258B517B1861500F"]
+			id: "071D671983BC0EDC"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "28A8CB5C201C60E7"
+				item: "bloodmagic:deforester_charge_2"
+				type: "item"
+			}]
+			x: 10.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["258B517B1861500F"]
+			id: "48C143C4E4645E0C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "02514F94DE081FFA"
+				item: "bloodmagic:veinmine_charge_2"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["258B517B1861500F"]
+			id: "6A652A0AB7A687B2"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1CB3181854727E83"
+				item: "bloodmagic:shaped_charge_deep"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"42996D913279D332"
+				"520977C50DBFA0F9"
+				"7D10A48AAFB258F4"
+			]
+			id: "30389D7EFDC85B00"
+			tasks: [{
+				id: "2A773977B91CA91B"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 4096.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42996D913279D332"]
+			id: "520977C50DBFA0F9"
+			tasks: [{
+				id: "0F729C65C698F4D3"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["535E8FBA01AFA005"]
+			id: "7D10A48AAFB258F4"
+			tasks: [
+				{
+					id: "70A7AAA6402B85F2"
+					item: "bloodmagic:demoncrucible"
+					type: "item"
+				}
+				{
+					id: "3022DBCE59303D8D"
+					item: "bloodmagic:demoncrystallizer"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D10A48AAFB258F4"]
+			id: "3B15195FC107F16B"
+			tasks: [{
+				id: "71CA2445DD6973FD"
+				item: "bloodmagic:demonpylon"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["520977C50DBFA0F9"]
+			id: "63307AF68C20A28B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "20A2CB2EC76C27DE"
+				item: "bloodmagic:chargingrune"
+				type: "item"
+			}]
+			x: 11.25d
 			y: -4.75d
+		}
+		{
+			dependencies: ["520977C50DBFA0F9"]
+			id: "111A6F23AA795920"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5C2A2F2DE4C68963"
+				item: "bloodmagic:accelerationrune"
+				type: "item"
+			}]
+			x: 11.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["38C220C089F10F89"]
+			id: "6BED43B00DC2DF18"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2383AA603C3486EB"
+				item: "bloodmagic:orbcapacityrune"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["520977C50DBFA0F9"]
+			id: "50170AD8A614F473"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "60B5259A6D45153D"
+				item: "bloodmagic:bettercapacityrune"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["520977C50DBFA0F9"]
+			id: "59B16CD9262DAD72"
+			tasks: [{
+				id: "06624A6E3D774DB7"
+				item: "bloodmagic:ritualdivinerdusk"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5840B0B3B3C3E3D9"]
+			id: "532C4F9BB1E6999A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "338C2845EC2D5060"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:hematophagous"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["520977C50DBFA0F9"]
+			id: "271F7A0FB4E23577"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4D88C8DE3574AD09"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:regenerative"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.75d
+			y: -4.75d
+		}
+		{
+			dependencies: [
+				"30389D7EFDC85B00"
+				"00EE96F824E16E79"
+			]
+			id: "4FC0E504BDC4351D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "30A6BD3F3DFE7E81"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:hellfire"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59B16CD9262DAD72"]
+			id: "00EE96F824E16E79"
+			tasks: [{
+				id: "00D6E62A568BDA12"
+				item: "bloodmagic:hellforgedparts"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00EE96F824E16E79"]
+			description: ["You only need to craft one of these for the quest."]
+			id: "30D5B021A68FD3A2"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "50DB174C07F7A639"
+					item: "bloodmagic:speedrune2"
+					type: "item"
+				}
+				{
+					id: "36C19FFC68CFE4F7"
+					item: "bloodmagic:sacrificerune2"
+					type: "item"
+				}
+			]
+			title: "Reinforced Runes"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40B0A523EFE3D1D9"]
+			id: "6CB15D58CDD56454"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "00A4F0103573AA6E"
+				item: {
+					Count: 1
+					id: "bloodmagic:primitive_hydration_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.75d
 		}
 	]
 	title: "Blood Magic"
