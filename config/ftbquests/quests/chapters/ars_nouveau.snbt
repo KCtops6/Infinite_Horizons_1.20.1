@@ -9,14 +9,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0862E7449CD041FD"]
 			id: "0E4B0D5D516F0EAF"
 			tasks: [{
 				id: "5BD10E24F3056FC1"
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0E4B0D5D516F0EAF"]
@@ -26,8 +27,8 @@
 				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7B41C4B844B8A6B8"]
@@ -443,8 +444,8 @@
 				item: "ars_nouveau:ritual_wilden_summon"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -518,8 +519,8 @@
 				item: "ars_nouveau:wilden_tribute"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -532,8 +533,8 @@
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1F726F04A7D98FB3"]
@@ -567,6 +568,383 @@
 			}]
 			x: 2.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "2B78690356514C58"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3C4DFD5BD717ECC7"
+				item: "toomanyglyphs:glyph_lay_on_hands"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "6C367ACA43D5B6A7"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "04D63EED919CB272"
+				item: "ars_nouveau:glyph_projectile"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "2BAC83B811C07FE8"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "43AE1A400D998056"
+				item: "toomanyglyphs:glyph_ray"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "4AB504B5B7822744"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2736FD4EF66A8C49"
+				item: "ars_nouveau:glyph_underfoot"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "109989242518804A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6C501D4B926C60D6"
+				item: "ars_nouveau:glyph_randomize"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "40BE89AC9561CC71"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "74A49227ECA9B13D"
+				item: "ars_nouveau:glyph_touch"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "7C0E088D79574861"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2D9B7D67748ADD30"
+				item: "ars_nouveau:glyph_amplify"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "59C4D0DBE5D99F36"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0E2C454DAE997AB2"
+				item: "ars_nouveau:glyph_sensitive"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "0D49E4162657D298"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "528CE998E34EF9C7"
+				item: "ars_nouveau:glyph_bounce"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "246811DFB035A3A6"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1FF044DCC9975AD7"
+				item: "ars_nouveau:glyph_phantom_block"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "14922971D6C55F2C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "50FE0DC144853AFC"
+				item: "ars_elemental:glyph_conjure_terrain"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "6C5E910320ACD289"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1CD9F29669B4EA0C"
+				item: "ars_nouveau:glyph_self"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "7AB4A6617ABED38E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "77420E8082B55BE9"
+				item: "ars_nouveau:glyph_break"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "76C62B955AB90EC8"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "56AEA52EDCC7356C"
+				item: "ars_nouveau:glyph_light"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "62B6F7BD21F74020"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3C1AD6CAFD7F8491"
+				item: "ars_nouveau:glyph_dispel"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "0739A57489A8124E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "02852A5D73755FD8"
+				item: "ars_nouveau:glyph_delay"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "757B8D1592598A6D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5D9B100004E7147A"
+				item: "ars_nouveau:glyph_craft"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "59841146D05E8DC7"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1CA31D6872C2103B"
+				item: "ars_nouveau:glyph_cut"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "4C59E34C1224FAD0"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "43BA5C470D0E88D6"
+				item: "toomanyglyphs:glyph_filter_animal"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "738C4CCAB5781316"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0760CFA42E165A2F"
+				item: "ars_nouveau:glyph_evaporate"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "3538771F61107E65"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5FCD79AC71F67102"
+				item: "toomanyglyphs:glyph_filter_block"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "4326776F6B50DF08"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "68E3430570872A4A"
+				item: "toomanyglyphs:glyph_filter_player"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "3E2739586588B7DD"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "39E143D67F5CD20C"
+				item: "toomanyglyphs:glyph_filter_entity"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "78F4BC429D8214DF"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4B05A3368AD9BD26"
+				item: "ars_nouveau:glyph_fell"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "19C6E91F7FDB8CC3"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0C43763B975AA80D"
+				item: "toomanyglyphs:glyph_filter_living"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "5DCC63F962302343"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4490BB351CB88172"
+				item: "toomanyglyphs:glyph_filter_living_not_monster"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "031BA19C311FAE8B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "763E7B4DED6529D9"
+				item: "toomanyglyphs:glyph_filter_living_not_player"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 9.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "158E5217174752EF"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "55DAC06934232A16"
+				item: "toomanyglyphs:glyph_filter_monster"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 9.25d
+		}
+		{
+			dependencies: ["0E4B0D5D516F0EAF"]
+			id: "14871BFC2A2105D3"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7FC5F5AA72B91B92"
+				item: "toomanyglyphs:glyph_filter_item"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 8.75d
 		}
 	]
 	title: "Ars Nouveau"

@@ -111,6 +111,7 @@
 			}
 			id: "01D39F27014D8939"
 			optional: true
+			size: 0.5d
 			tasks: [
 				{
 					id: "7174AC4819FD1F74"
@@ -129,8 +130,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -1.0d
+			x: 6.0d
+			y: -1.25d
 		}
 		{
 			dependencies: [
@@ -267,7 +268,7 @@
 				item: "forbidden_arcanus:dragon_scale"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
@@ -279,7 +280,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["47958B03F6CEA5D2"]
@@ -290,75 +291,13 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"4C1C2A1D14FB74DE"
-				"6723187015C6C9CB"
-			]
-			icon: {
-				Count: 1
-				id: "forbidden_arcanus:tyr_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "743ED08EE27D4075"
-			optional: true
-			tasks: [
-				{
-					id: "5597A0243AFC9DC2"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7661BA0E6D890A85"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "088EDAC198929938"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "06CA7BEF1A0CCB04"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["47958B03F6CEA5D2"]
 			id: "121C1E5B35C5A36E"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "55DC198E4AA79E32"
 				item: {
@@ -370,13 +309,28 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 8.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["47958B03F6CEA5D2"]
 			id: "524968F85E42E629"
 			optional: true
+			rewards: [
+				{
+					id: "0660B32228763FB7"
+					item: "forbidden_arcanus:obsidian_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3F360BD1FB1056FC"
+					item: "forbidden_arcanus:dragon_scale"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
 			tasks: [{
 				id: "4E075AD634AD9E4E"
 				item: {
@@ -388,13 +342,14 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.0d
+			x: 9.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["47958B03F6CEA5D2"]
 			id: "1E18ED6C95775652"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "751525A26FEF18C9"
 				item: {
@@ -406,13 +361,14 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 9.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["47958B03F6CEA5D2"]
 			id: "5FA8AAC8AF11BC2A"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "46DD139E5B42A847"
 				item: {
@@ -424,13 +380,14 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 10.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["47958B03F6CEA5D2"]
 			id: "063D4862570B2823"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "0EE0867B38846465"
 				item: {
@@ -442,13 +399,14 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.0d
+			x: 8.75d
+			y: -0.25d
 		}
 		{
 			dependencies: ["47958B03F6CEA5D2"]
 			id: "1455FE1B5F43BF79"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "17D3494933CF4A64"
 				item: {
@@ -460,20 +418,21 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: 10.25d
+			y: -0.25d
 		}
 		{
 			dependencies: ["47958B03F6CEA5D2"]
 			id: "30F3C5B9AFD9F12E"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "37B407B5EFCB590F"
 				item: "forbidden_arcanus:draco_arcanus_scepter"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.0d
+			x: 8.75d
+			y: 0.25d
 		}
 		{
 			dependencies: ["47958B03F6CEA5D2"]
@@ -486,54 +445,20 @@
 			}
 			id: "65C22DA4BABEF7E0"
 			optional: true
-			tasks: [
-				{
-					id: "7179963CA05F4BB8"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:draco_arcanus_helmet"
-						tag: {
-							Damage: 0
-						}
+			size: 0.5d
+			tasks: [{
+				id: "7179963CA05F4BB8"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:draco_arcanus_helmet"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					id: "2C9F32C969134FA9"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:draco_arcanus_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "509F5854319C3027"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:draco_arcanus_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "030CA1B836093BED"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:draco_arcanus_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 11.0d
-			y: 1.0d
+				type: "item"
+			}]
+			x: 8.75d
+			y: 0.75d
 		}
 		{
 			dependencies: ["5A181C16AED07281"]
@@ -652,6 +577,194 @@
 			}]
 			x: 10.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["47958B03F6CEA5D2"]
+			id: "1FC7F3527DF04735"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "373A5F4E15820074"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:draco_arcanus_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["47958B03F6CEA5D2"]
+			id: "5F08F2C8FDF0FE2C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "42E06F919E536F71"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:draco_arcanus_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["47958B03F6CEA5D2"]
+			id: "2E120E8C5133B88C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6C4E1E861CC5F5F9"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:draco_arcanus_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.25d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"4C1C2A1D14FB74DE"
+				"6723187015C6C9CB"
+			]
+			id: "5E924AC15EC43843"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1453F153ED6FA437"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:tyr_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"4C1C2A1D14FB74DE"
+				"6723187015C6C9CB"
+			]
+			id: "7C6D43E7D5AD4F7F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "411F36F33FC63A78"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:tyr_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"4C1C2A1D14FB74DE"
+				"6723187015C6C9CB"
+			]
+			id: "05E429D5780C2301"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5219A26E2154248F"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:tyr_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"4C1C2A1D14FB74DE"
+				"6723187015C6C9CB"
+			]
+			id: "4AC71169B79C25FC"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4540AEE7441430BF"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:tyr_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["6207427922EFFA05"]
+			id: "1F588C852958E438"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "37080FBF17AEF407"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6207427922EFFA05"]
+			id: "1C77FF74D3CB0BEB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "37D8302C335ABF47"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:spectral_eye_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5A181C16AED07281"]
+			id: "729D1CD71A3F7B8E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "16927F6991D6E27E"
+				item: "forbidden_arcanus:runic_glass"
+				type: "item"
+			}]
+			x: 11.25d
+			y: -2.25d
 		}
 	]
 	title: "Forbidden and Arcanus"

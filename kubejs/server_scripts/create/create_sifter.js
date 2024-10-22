@@ -338,23 +338,28 @@ ServerEvents.recipes(event => {
      */
     event.recipes.createsifterSifting([
         Item.of('minecraft:redstone').withChance(0.2),
-        Item.of('mysticalagriculture:prosperity_shard').withChance(0.15)
+        Item.of('mysticalagriculture:prosperity_shard').withChance(0.15),
+        Item.of('minecraft:bone_meal').withChance(0.15)
     ], ['createsifter:dust','createsifter:string_mesh']);
     event.recipes.createsifterSifting([
         Item.of('minecraft:redstone').withChance(0.2 + 0.05),
-        Item.of('mysticalagriculture:prosperity_shard').withChance(0.15 + 0.05)
+        Item.of('mysticalagriculture:prosperity_shard').withChance(0.15 + 0.05),
+        Item.of('minecraft:bone_meal').withChance(0.15 + 0.1)
     ], ['createsifter:dust','kubejs:copper_mesh']);
     event.recipes.createsifterSifting([
         Item.of('minecraft:redstone').withChance(0.2 + 0.05 + 0.1),
-        Item.of('mysticalagriculture:prosperity_shard').withChance(0.15 + 0.05 + 0.1)
+        Item.of('mysticalagriculture:prosperity_shard').withChance(0.15 + 0.05 + 0.1),
+        Item.of('minecraft:bone_meal').withChance(0.15 + 0.1 + 0.15)
     ], ['createsifter:dust','kubejs:iron_mesh']);
     event.recipes.createsifterSifting([
         Item.of('minecraft:redstone').withChance(0.2 + 0.05 + 0.1 + 0.15),
-        Item.of('mysticalagriculture:prosperity_shard').withChance(0.15 + 0.05 + 0.1 + 0.15)
+        Item.of('mysticalagriculture:prosperity_shard').withChance(0.15 + 0.05 + 0.1 + 0.15),
+        Item.of('minecraft:bone_meal').withChance(0.15 + 0.1 + 0.15 + 0.2)
     ], ['createsifter:dust','createsifter:brass_mesh']);
     event.recipes.createsifterSifting([
         Item.of('minecraft:redstone').withChance(0.2 + 0.05 + 0.1 + 0.15 + 0.2),
-        Item.of('mysticalagriculture:prosperity_shard').withChance(0.15 + 0.05 + 0.1 + 0.15 + 0.2)
+        Item.of('mysticalagriculture:prosperity_shard').withChance(0.15 + 0.05 + 0.1 + 0.15 + 0.2),
+        Item.of('minecraft:bone_meal').withChance(0.15 + 0.1 + 0.15 + 0.2 + 0.25)
     ], ['createsifter:dust','kubejs:netherite_mesh']);
     /**
      * -----------------------
