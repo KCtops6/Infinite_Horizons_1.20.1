@@ -56,7 +56,7 @@ MoreJSEvents.villagerTrades((event) => {
         TradeItem.of('mysticalagriculture:honey_essence', 1, 7)   // Output item.
     );
     event.addTrade( // Limestone essence
-        "spacecatcustomprofessions:agronomancer", 3,    // Profession and level.
+        "spacecatcustomprofessions:agronomancer", 2,    // Profession and level.
         [TradeItem.of('mysticalagriculture:stone_essence', 1, 5), TradeItem.of('mysticalagriculture:air_essence', 1, 5)],  // Input item(s).
         TradeItem.of('mysticalagriculture:limestone_essence', 1, 7)   // Output item.
     );
