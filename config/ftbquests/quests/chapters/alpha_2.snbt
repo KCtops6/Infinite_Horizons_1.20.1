@@ -5,6 +5,15 @@
 	group: "6F4C25734B575319"
 	icon: "minecraft:oak_log"
 	id: "1F0402920128C0A0"
+	images: [{
+		click: "https://kctops100.github.io/infinitehorizons.html#generating-resources"
+		height: 0.5d
+		image: "minecraft:item/book"
+		rotation: 0.0d
+		width: 0.5d
+		x: 8.75d
+		y: 1.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -508,6 +517,7 @@
 				"2E72C56136631B60"
 				"382896245CF5A881"
 			]
+			description: ["Check out the website (book icon) for more information."]
 			icon: "minecraft:raw_iron"
 			id: "0862E7449CD041FD"
 			tasks: [{
