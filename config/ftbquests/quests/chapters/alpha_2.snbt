@@ -5,15 +5,6 @@
 	group: "6F4C25734B575319"
 	icon: "minecraft:oak_log"
 	id: "1F0402920128C0A0"
-	images: [{
-		click: "https://kctops100.github.io/infinitehorizons.html#generating-resources"
-		height: 0.5d
-		image: "minecraft:item/book"
-		rotation: 0.0d
-		width: 0.5d
-		x: 8.75d
-		y: 1.0d
-	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -383,7 +374,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -403,7 +394,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -431,7 +422,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -445,7 +436,7 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -456,7 +447,7 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -470,7 +461,7 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: 3.0d
 		}
 		{
@@ -498,7 +489,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -509,7 +500,7 @@
 				item: "create_mechanical_extruder:mechanical_extruder"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -525,7 +516,7 @@
 				title: "Automatic Resources!"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: 1.0d
 		}
 		{
@@ -582,7 +573,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.0d
 			y: 2.0d
 		}
 	]
