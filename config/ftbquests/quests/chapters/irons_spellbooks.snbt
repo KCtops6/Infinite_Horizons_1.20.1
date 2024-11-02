@@ -1,0 +1,300 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "126A1C64F6AE129F"
+	id: "1A9C03C93B0D7777"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "08971F6A8389375C"
+			tasks: [{
+				id: "016EC46C00CBFF30"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08971F6A8389375C"]
+			id: "470D6CF992BB0315"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "71D23CC382903D8A"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:arcane_essence"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["08971F6A8389375C"]
+			id: "3DF953463AAA64BD"
+			tasks: [{
+				id: "743BCBE9B7539B5E"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DF953463AAA64BD"]
+			id: "22869AC1ED51A523"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "25C77082B2BD21C2"
+				item: "irons_spellbooks:mana_ring"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"3DF953463AAA64BD"
+				"0E8A24843AD29391"
+			]
+			id: "61E4670DA9359B56"
+			tasks: [{
+				id: "463521E69AA7A52E"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51751DE96026D275"]
+			id: "0E2E4440654D0AAB"
+			tasks: [{
+				id: "3AFF5317EC2A5EFD"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"08971F6A8389375C"
+				"51751DE96026D275"
+			]
+			id: "5D16CCAF8D1C1B04"
+			tasks: [{
+				id: "21FD76905E6B9091"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5D16CCAF8D1C1B04"
+				"0E2E4440654D0AAB"
+			]
+			id: "22E11F019EC53576"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "340094F0123E4B42"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:plagued_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5D16CCAF8D1C1B04"
+				"0E2E4440654D0AAB"
+			]
+			id: "074623A7849BB968"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "72B034A2B22ED49C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:plagued_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5D16CCAF8D1C1B04"
+				"0E2E4440654D0AAB"
+			]
+			id: "4D35B7040491A006"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "49BD9255A76F1146"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:plagued_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5D16CCAF8D1C1B04"
+				"0E2E4440654D0AAB"
+			]
+			id: "2B692703833871AA"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "53DCAEE73D60D44A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:plagued_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "3EF058C054F2C916"
+			tasks: [{
+				id: "6C6C8D11EACFE617"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "383804D0B7332A77"
+			optional: true
+			size: 0.5d
+			x: -0.75d
+			y: 1.25d
+		}
+		{
+			id: "0A67C5D2AFB5A5A7"
+			optional: true
+			size: 0.5d
+			x: -0.75d
+			y: 0.75d
+		}
+		{
+			id: "3B5C3802C7D38291"
+			optional: true
+			size: 0.5d
+			x: -1.25d
+			y: 0.75d
+		}
+		{
+			id: "15F6333D4BCED478"
+			optional: true
+			size: 0.5d
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			id: "36DC421CEF63166B"
+			tasks: [{
+				id: "76BFDA41D7A33787"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F164BB577C1979A"]
+			id: "6F88DB242B57C780"
+			tasks: [{
+				id: "7499999F1E66DB18"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "3F164BB577C1979A"
+			tasks: [{
+				id: "4D3A9D1EE6FAEF2C"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "73F7AA1FFB1B0524"
+			tasks: [{
+				id: "478870FE03E5C4EA"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "33C05FDC7AF75C3A"
+			tasks: [{
+				id: "0C07A54C02A95262"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "0E8A24843AD29391"
+			tasks: [{
+				id: "4C9CB787D7BC720F"
+				item: "irons_spellbooks:arcane_salvage"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	title: "Iron's Spellbooks"
+}

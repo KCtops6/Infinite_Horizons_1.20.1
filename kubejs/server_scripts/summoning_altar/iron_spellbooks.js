@@ -50,6 +50,14 @@ ServerEvents.recipes(event => {
     recipes.forEach(recipe => {
         event.recipes.summoningrituals.altar(recipe.catalyst)
             .mobOutput(SummoningOutput.mob(recipe.mob).count(3).offset(5, 2, 3).spread(3, 0, 3))
-            .input(...recipe.inputs);
-    });
+            .input(recipe.inputs[0])
+            .input(recipe.inputs[1])
+            .input(recipe.inputs[2])
+            .input(recipe.inputs[3])
+            .input(recipe.inputs[4])
+            .input(recipe.inputs[5])
+            .input(recipe.inputs[6])
+            .input(recipe.inputs[7])
+            .input(recipe.inputs[8])
+    })
 });
