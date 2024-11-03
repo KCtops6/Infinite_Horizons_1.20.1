@@ -59,5 +59,5 @@ ServerEvents.recipes(event => {
             .input(recipe.inputs[6])
             .input(recipe.inputs[7])
             .input(recipe.inputs[8])
-    })////
+    })
 });
