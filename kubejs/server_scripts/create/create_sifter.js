@@ -416,6 +416,7 @@ ServerEvents.recipes(event => {
      * 'minecraft:amethyst_shard'
      * 'forbidden_arcanus:arcane_crystal'
      * 'mekanism:fluorite_gem'
+     * 'irons_spellbooks:arcane_salvage'
      * 
      * IRON VEIN
      * 'gtceu:raw_goethite'         100 5
@@ -445,6 +446,7 @@ ServerEvents.recipes(event => {
         Item.of('mekanism:fluorite_gem').withChance(0.1),
         Item.of('minecraft:amethyst_shard').withChance(0.1),
         Item.of('forbidden_arcanus:arcane_crystal').withChance(0.15),
+        Item.of('irons_spellbooks:arcane_salvage').withChance(0.025),
         Item.of('gtceu:raw_goethite').withChance(1 / 5),
         Item.of('gtceu:raw_yellow_limonite').withChance(200 / 500 / 5),
         Item.of('gtceu:raw_hematite').withChance(200 / 500 / 5),
@@ -465,6 +467,7 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:diamond').withChance(0.05 + 0.05),
         Item.of('mekanism:fluorite_gem').withChance(0.1 + 0.05),
         Item.of('minecraft:amethyst_shard').withChance(0.1 + 0.05),
+        Item.of('irons_spellbooks:arcane_salvage').withChance(0.025 + 0.05),
         Item.of('gtceu:raw_goethite').withChance(1 / 4),
         Item.of('gtceu:raw_yellow_limonite').withChance(200 / 500 / 4),
         Item.of('gtceu:raw_hematite').withChance(200 / 500 / 4),
@@ -485,6 +488,7 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:diamond').withChance(0.05 + 0.05 + 0.1),
         Item.of('mekanism:fluorite_gem').withChance(0.1 + 0.05 + 0.1),
         Item.of('minecraft:amethyst_shard').withChance(0.1 + 0.05 + 0.1),
+        Item.of('irons_spellbooks:arcane_salvage').withChance(0.025 + 0.05 + 0.1),
         Item.of('gtceu:raw_goethite').withChance(1 / 3),
         Item.of('gtceu:raw_yellow_limonite').withChance(200 / 500 / 3),
         Item.of('gtceu:raw_hematite').withChance(200 / 500 / 3),
@@ -505,6 +509,7 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:diamond').withChance(0.05 + 0.05 + 0.1 + 0.15),
         Item.of('mekanism:fluorite_gem').withChance(0.1 + 0.05 + 0.1 + 0.15),
         Item.of('minecraft:amethyst_shard').withChance(0.1 + 0.05 + 0.1 + 0.15),
+        Item.of('irons_spellbooks:arcane_salvage').withChance(0.025 + 0.05 + 0.1 + 0.15),
         Item.of('gtceu:raw_goethite').withChance(1 / 2),
         Item.of('gtceu:raw_yellow_limonite').withChance(200 / 500 / 2),
         Item.of('gtceu:raw_hematite').withChance(200 / 500 / 2),
@@ -525,6 +530,7 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:diamond').withChance(0.05 + 0.05 + 0.1 + 0.15 + 0.2),
         Item.of('mekanism:fluorite_gem').withChance(0.1 + 0.05 + 0.1 + 0.15 + 0.2),
         Item.of('minecraft:amethyst_shard').withChance(0.1 + 0.05 + 0.1 + 0.15 + 0.2),
+        Item.of('irons_spellbooks:arcane_salvage').withChance(0.025 + 0.05 + 0.1 + 0.15 + 0.2),
         Item.of('gtceu:raw_goethite').withChance(1),
         Item.of('gtceu:raw_yellow_limonite').withChance(200 / 500),
         Item.of('gtceu:raw_hematite').withChance(200 / 500),

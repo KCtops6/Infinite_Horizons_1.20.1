@@ -207,34 +207,6 @@
 			y: 1.0d
 		}
 		{
-			id: "383804D0B7332A77"
-			optional: true
-			size: 0.5d
-			x: -0.75d
-			y: 1.25d
-		}
-		{
-			id: "0A67C5D2AFB5A5A7"
-			optional: true
-			size: 0.5d
-			x: -0.75d
-			y: 0.75d
-		}
-		{
-			id: "3B5C3802C7D38291"
-			optional: true
-			size: 0.5d
-			x: -1.25d
-			y: 0.75d
-		}
-		{
-			id: "15F6333D4BCED478"
-			optional: true
-			size: 0.5d
-			x: -1.25d
-			y: 1.25d
-		}
-		{
 			id: "36DC421CEF63166B"
 			tasks: [{
 				id: "76BFDA41D7A33787"
