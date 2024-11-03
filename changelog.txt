@@ -1017,6 +1017,7 @@ Added Pam's Harvestcraft level one farmer villager trades.
 1.20.1-7.3
 Removed Just Enough Items (JEI).
 
+Added Immersive Aircraft [Fabric/Forge].
 Added Roughly Enough Items Fabric/Forge/NeoForge (REI).
 
 Updated Chipped.
@@ -1035,3 +1036,5 @@ Updated Occultism.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
+
+Created questline for Iron's Spells 'n Spellbooks.
