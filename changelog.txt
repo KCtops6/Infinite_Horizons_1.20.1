@@ -1019,4 +1019,19 @@ Removed Just Enough Items (JEI).
 
 Added Roughly Enough Items Fabric/Forge/NeoForge (REI).
 
+Updated Chipped.
+Updated Create Encased.
+Updated Enchantment Descriptions.
 Updated Entity Culling Fabric/Forge.
+Updated ExtendedAE.
+Updated FTB Chunks (Forge).
+Updated FTB Quests (Forge).
+Updated GregTechCEu Modern.
+Updated Industrial Foregoing.
+Updated JourneyMap.
+Updated KubeJS.
+Updated Mystical Agradditions.
+Updated Occultism.
+Updated Sophisticated Backpacks.
+Updated Sophisticated Core.
+Updated Sophisticated Storage.
