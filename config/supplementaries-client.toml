@@ -155,6 +155,8 @@
 	config_button_y_offset = 0
 	#Disables Amendments suggestion screen
 	no_amendments_screen = false
+	#Disable incompatible mods warning screen
+	no_incompatible_mods_screen = false
 
 #Game tweaks
 [tweaks]

@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "126A1C64F6AE129F"
+	id: "4256A068D412F50F"
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0862E7449CD041FD"]
+			icon: "occultism:datura"
+			id: "5B1DAADF15E0C9A0"
+			tasks: [
+				{
+					id: "01B3E8E8573A6680"
+					item: "occultism:datura_seeds"
+					type: "item"
+				}
+				{
+					id: "0EA61A6BEC53999F"
+					item: "occultism:datura"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B1DAADF15E0C9A0"]
+			id: "1B7BFC5EEBBC2259"
+			tasks: [{
+				icon: "occultism:spirit_fire"
+				id: "6D2F0F494D50FC21"
+				observe_type: 0
+				timer: 0L
+				title: "Observe Spiritfire"
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B7BFC5EEBBC2259"]
+			id: "68D23069AA442D29"
+			tasks: [{
+				id: "0DAAF0D096186C31"
+				item: "occultism:taboo_book"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B7BFC5EEBBC2259"]
+			id: "4B214B342C8B87A8"
+			tasks: [{
+				id: "1AFE30AB585C8C44"
+				item: "occultism:purified_ink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B7BFC5EEBBC2259"]
+			id: "0A1BC1E3D5347BB7"
+			tasks: [{
+				id: "1D8BEA8C5E319A0A"
+				item: "occultism:awakened_feather"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4B214B342C8B87A8"
+				"68D23069AA442D29"
+				"0A1BC1E3D5347BB7"
+			]
+			id: "51392DAD0A4F3A20"
+			tasks: [{
+				id: "1D5F74CCBE8FF940"
+				item: "occultism:book_of_binding_empty"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B7BFC5EEBBC2259"]
+			id: "131A8C8841C6E559"
+			tasks: [{
+				id: "7810250B26662AB7"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B7BFC5EEBBC2259"]
+			id: "6F57121EC8089B80"
+			tasks: [{
+				id: "1ADE5DA09AC1D988"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_sapling_natural"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B7BFC5EEBBC2259"]
+			id: "65AED9E93176D1A5"
+			tasks: [{
+				id: "7D2BEAFA3E38B4F5"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			id: "792EF180C091E7A2"
+			tasks: [{
+				id: "0FA1F55E7A7A6C96"
+				item: {
+					Count: 1
+					id: "occultism:butcher_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["792EF180C091E7A2"]
+			id: "0353AEF74BA8AE06"
+			tasks: [{
+				id: "3B83FE45B156E6B4"
+				item: "occultism:tallow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0353AEF74BA8AE06"]
+			id: "6CF17ABADA83F654"
+			tasks: [{
+				id: "0F185F9599DC2A11"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6F57121EC8089B80"
+				"131A8C8841C6E559"
+			]
+			icon: {
+				Count: 1
+				id: "occultism:chalk_white"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "206C093EAC140537"
+			tasks: [
+				{
+					id: "59A8F7980206A3E9"
+					item: "occultism:otherworld_ashes"
+					type: "item"
+				}
+				{
+					id: "7DA981A414DAF40D"
+					item: "occultism:burnt_otherstone"
+					type: "item"
+				}
+				{
+					id: "704AA0676D69B81F"
+					item: "occultism:chalk_white_impure"
+					type: "item"
+				}
+				{
+					id: "79D0E44557707669"
+					item: {
+						Count: 1
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "White Chalk"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["206C093EAC140537"]
+			id: "7CD94B9D2AD2AC0D"
+			tasks: [{
+				id: "3D062EE13CD43B3C"
+				item: "occultism:brush"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["206C093EAC140537"]
+			id: "1ED57C81D298D1BC"
+			tasks: [
+				{
+					id: "1E4E2498B353A2E6"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "32E752E3845B1E00"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51392DAD0A4F3A20"]
+			id: "08985FB391859249"
+			tasks: [{
+				id: "62A53FEDB059CE6D"
+				item: "occultism:book_of_binding_foliot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["206C093EAC140537"]
+			icon: {
+				Count: 1
+				id: "occultism:chalk_gold"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51B59874438305F7"
+			tasks: [
+				{
+					id: "061676F907BD9743"
+					item: "occultism:chalk_gold_impure"
+					type: "item"
+				}
+				{
+					id: "67255A5DDC01E580"
+					item: {
+						Count: 1
+						id: "occultism:chalk_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Golden Chalk"
+			x: 1.0d
+			y: -4.0d
+		}
+	]
+	title: "Occultism"
+}

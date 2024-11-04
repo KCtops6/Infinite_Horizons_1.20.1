@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "functional_storage"
 	group: "126A1C64F6AE129F"
+	icon: "functionalstorage:oak_1"
 	id: "0898990C7D01675F"
 	order_index: 11
 	quest_links: [ ]
@@ -39,7 +40,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]
@@ -50,7 +51,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]
@@ -60,7 +61,7 @@
 				item: "functionalstorage:copper_upgrade"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -71,7 +72,7 @@
 				item: "functionalstorage:gold_upgrade"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -82,7 +83,7 @@
 				item: "functionalstorage:diamond_upgrade"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -93,8 +94,118 @@
 				item: "functionalstorage:netherite_upgrade"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["20E0FABC537D5222"]
+			id: "0CF1F1C992F9B7BA"
+			tasks: [{
+				id: "4B00CCD23F5CE08D"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20E0FABC537D5222"]
+			id: "410DF9B557C2629A"
+			tasks: [{
+				id: "22594BF9068D6FA8"
+				item: "functionalstorage:simple_compacting_drawer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20E0FABC537D5222"]
+			id: "1F2CE5F2A05AE4E9"
+			tasks: [{
+				id: "0AC8933E10716780"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20E0FABC537D5222"]
+			id: "513850642014600E"
+			tasks: [{
+				id: "09EC534EBCC0C5E1"
+				item: "functionalstorage:iron_downgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20E0FABC537D5222"]
+			id: "5AB52E630DA5D20A"
+			tasks: [{
+				id: "19C6493917EFDAD7"
+				item: "functionalstorage:collector_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20E0FABC537D5222"]
+			id: "5F08649D9F33F316"
+			tasks: [{
+				id: "3A55CC52CFE3E10D"
+				item: "functionalstorage:puller_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20E0FABC537D5222"]
+			id: "0D810759E0CB2AB1"
+			tasks: [{
+				id: "697784BC8E9801CC"
+				item: "functionalstorage:pusher_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20E0FABC537D5222"]
+			id: "13B290A065BE71B7"
+			tasks: [{
+				id: "7E2EB4D465696F93"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20E0FABC537D5222"]
+			id: "6DDBFC1AF67A6C30"
+			tasks: [{
+				id: "69AAEE3AAC70D586"
+				item: "functionalstorage:redstone_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20E0FABC537D5222"]
+			id: "7DDFF99CD6977B55"
+			tasks: [{
+				id: "4D48508EF9BB6D4D"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 	title: "Functional Storage"

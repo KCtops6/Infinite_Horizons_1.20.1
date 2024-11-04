@@ -1046,5 +1046,13 @@ Added Cherished Worlds (Fabric/Forge/NeoForge/Quilt).
 Added FastFurnace.
 Added FastWorkbench.
 
+Updated Supplementaries.
+
 Added Arcane Salvage to Create Sifting.
 Updated questline for Iron's Spells 'n Spellbooks.
+Added questline for Occultism.
+Updated Alpha questline to include Botany Pots, Botany Pots Tiers, and Botany Trees.
+Updated Alpha questline to include Crafting on a stick.
+Updated Alpha questline to include Easy Villagers.
+Updated Alpha questline rewards to give you Eccentric Tome upon competing first quest.
+Updated questline for Functional Storage.

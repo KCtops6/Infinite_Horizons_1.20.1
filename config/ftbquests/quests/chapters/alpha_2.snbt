@@ -29,6 +29,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3D563FC8A6991359"
+					item: {
+						Count: 1
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": { }
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "Collect Wood from the Village Tree"
 			tasks: [{
@@ -285,17 +296,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["6A6C399AB9F1BBE0"]
-			id: "3949B38795D8BB00"
-			tasks: [{
-				id: "57A2C0AE6FB07BEF"
-				item: "minecraft:iron_nugget"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["3949B38795D8BB00"]
 			id: "423A4884BBF1FFFA"
 			rewards: [
@@ -546,7 +546,7 @@
 				title: "Integration Quests"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -575,6 +575,97 @@
 			]
 			x: 5.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["6A6C399AB9F1BBE0"]
+			id: "3949B38795D8BB00"
+			tasks: [{
+				id: "57A2C0AE6FB07BEF"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			id: "33A3E11BD0EB479B"
+			tasks: [{
+				id: "3B62CD8A29419FAC"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"133BCE410E613A4F"
+				"33A3E11BD0EB479B"
+			]
+			id: "433391CE678F39BF"
+			tasks: [{
+				id: "15A8622ABB86CF27"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["433391CE678F39BF"]
+			id: "30307DBA1412BFE5"
+			tasks: [{
+				icon: "botanypots:terracotta_botany_pot"
+				id: "173C35BAF5E46247"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:basic_botany_pots"
+					}
+				}
+				title: "Craft a Botany Pot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1095B567B96DDCF3"]
+			id: "2BC5ADF88B75563B"
+			optional: true
+			tasks: [{
+				icon: "crafting_on_a_stick:crafting_table"
+				id: "14EA17B1DF02070E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:crafting_on_a_stick"
+					}
+				}
+				title: "Craft any item from \"Crafting on a stick\" mod."
+				type: "item"
+			}]
+			title: "Portable Crafting"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			description: ["Craft a trading hall to make your trading experience easier!  Check out other features of the \"Easy Villagers\" mod as well."]
+			icon: "easy_villagers:villager"
+			id: "0E41A3A7120F4CD4"
+			subtitle: "No More Worring About Villager AI!"
+			tasks: [{
+				id: "636CBF279FCBFC35"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			title: "Easier Trading Halls"
+			x: 4.0d
+			y: -3.0d
 		}
 	]
 	title: "Alpha"
