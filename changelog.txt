@@ -1045,3 +1045,6 @@ Added Chat Heads.
 Added Cherished Worlds (Fabric/Forge/NeoForge/Quilt).
 Added FastFurnace.
 Added FastWorkbench.
+
+Added Arcane Salvage to Create Sifting.
+Updated questline for Iron's Spells 'n Spellbooks.
