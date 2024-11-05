@@ -1046,6 +1046,8 @@ Added Cherished Worlds (Fabric/Forge/NeoForge/Quilt).
 Added FastFurnace.
 Added FastWorkbench.
 
+Updated FTB Library (Forge).
+Updated ModernFix.
 Updated Supplementaries.
 
 Added Arcane Salvage to Create Sifting.
