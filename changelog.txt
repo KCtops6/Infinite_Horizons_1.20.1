@@ -1043,6 +1043,7 @@ Created questline for Iron's Spells 'n Spellbooks.
 Added AI Improvments.
 Added Chat Heads.
 Added Cherished Worlds (Fabric/Forge/NeoForge/Quilt).
+Added Create: Better Villager.
 Added FastFurnace.
 Added FastWorkbench.
 
