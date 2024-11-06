@@ -667,6 +667,30 @@
 			x: 4.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "700D0FB31E0D600E"
+			tasks: [{
+				id: "725FEE07380F662C"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["700D0FB31E0D600E"]
+			id: "59F865C54F9AC89B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "70673D04D59897DD"
+				item: "jecalculation:item_calculator_craft"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -1.75d
+		}
 	]
 	title: "Alpha"
 }
