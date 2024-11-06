@@ -32,7 +32,10 @@
         "agronomancer": [],
         "blood_mage": [],
         "beekeeper": [],
-        "apiarist": []
+        "apiarist": [],
+        "create_better_villagers:andesite_worker": [],
+        "create_better_villagers:brassworker": [],
+        "create_better_villagers:copperworker": []
     },
     "globalBookmarks1": {
         "armorer": [],
@@ -57,7 +60,10 @@
         "agronomancer": [],
         "blood_mage": [],
         "beekeeper": [],
-        "apiarist": []
+        "apiarist": [],
+        "create_better_villagers:andesite_worker": [],
+        "create_better_villagers:brassworker": [],
+        "create_better_villagers:copperworker": []
     },
     "globalBookmarks2": {
         "armorer": [],
@@ -82,6 +88,9 @@
         "agronomancer": [],
         "blood_mage": [],
         "beekeeper": [],
-        "apiarist": []
+        "apiarist": [],
+        "create_better_villagers:andesite_worker": [],
+        "create_better_villagers:brassworker": [],
+        "create_better_villagers:copperworker": []
     }
 }
