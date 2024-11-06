@@ -60,4 +60,9 @@ JEIEvents.hideItems((event) => {
     event.hide('#forge:ores_in_ground/tuff')
 
     event.hide('create:andesite_alloy')
+    /**
+     * MEKANISM
+     * Hides Digital Miner as that is unused.
+     */
+    event.hide('mekanism:digital_miner')
 });

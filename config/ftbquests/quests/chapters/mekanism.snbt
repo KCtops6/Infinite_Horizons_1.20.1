@@ -294,7 +294,7 @@
 				item: "mekanism:purification_chamber"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: -3.0d
 		}
 		{
@@ -308,7 +308,7 @@
 				item: "mekanism:chemical_injection_chamber"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: -3.0d
 		}
 		{
@@ -352,7 +352,7 @@
 				item: "mekanism:ultimate_tier_installer"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.0d
 			y: -5.0d
 		}
 		{
@@ -392,7 +392,7 @@
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -403,7 +403,7 @@
 				item: "mekanism:combiner"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: -5.0d
 		}
 		{
@@ -572,20 +572,6 @@
 			}]
 			x: 14.0d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"628090DBC616ABAE"
-				"63D4AB3AC9CD11D7"
-			]
-			id: "42468C36608DA853"
-			tasks: [{
-				id: "2AED35BE898C8C65"
-				item: "mekanism:solar_neutron_activator"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -2.0d
 		}
 	]
 	title: "Mekanism"
