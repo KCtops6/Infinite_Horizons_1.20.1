@@ -1040,13 +1040,22 @@ Updated Sophisticated Storage.
 Created questline for Iron's Spells 'n Spellbooks.
 
 1.20.1-7.4
+Removed Fast Leaf Decay.
+
 Added AI Improvments.
 Added Chat Heads.
 Added Cherished Worlds (Fabric/Forge/NeoForge/Quilt).
 Added Create: Better Villager.
+Added Easy Anvils [Forge & Fabric].
+Added Easy Magic [Forge & Fabric].
 Added FastFurnace.
 Added FastWorkbench.
+Added Leaves Be Gone [Forge & Fabric].
+Added Overflowing Bars [Forge & Fabric].
+Added Pick Up Notifier [Forge & Fabric].
+Added Visual Workbench [Forge & Fabric].
 
+Updated Farmer's Delight.
 Updated FTB Library (Forge).
 Updated ModernFix.
 Updated Supplementaries.
