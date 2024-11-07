@@ -1079,6 +1079,7 @@ Removed Mekanism Digital Miner as it is unused in the modpack.
 1.20.1-7.5
 Added Double Doors.
 Added Fish On The Line.
+Added Healing Campfire.
 Added Stack Refill.
 Added Starter Kit.
 Added Tree Harvester.
