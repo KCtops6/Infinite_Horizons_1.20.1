@@ -1081,6 +1081,7 @@ Added Double Doors.
 Added Ender IO.
 Added Fish On The Line.
 Added Healing Campfire.
+Added No Chat Reports.
 Added Stack Refill.
 Added Starter Kit.
 Added Tree Harvester.

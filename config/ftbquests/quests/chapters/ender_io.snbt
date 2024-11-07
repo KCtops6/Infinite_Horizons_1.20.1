@@ -416,7 +416,7 @@
 				type: "item"
 			}]
 			x: 4.75d
-			y: -0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -500,7 +500,7 @@
 				type: "item"
 			}]
 			x: 1.25d
-			y: -1.75d
+			y: -2.0d
 		}
 		{
 			dependencies: ["04E0285D1BDA2650"]
@@ -657,7 +657,7 @@
 				item: "mysticalagriculture:copper_alloy_seeds"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: 5.75d
 		}
 		{
@@ -798,8 +798,19 @@
 				item: "mysticalagriculture:redstone_alloy_seeds"
 				type: "item"
 			}]
-			x: -0.25d
-			y: -1.75d
+			x: -1.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30BBC7FD7DC283E6"]
+			id: "0D0AE2A21FBC8712"
+			tasks: [{
+				id: "286C264DC33A146A"
+				item: "enderio:redstone_conduit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
 		}
 	]
 	title: "Ender IO"
