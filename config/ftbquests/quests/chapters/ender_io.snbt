@@ -1,0 +1,806 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_io"
+	group: "126A1C64F6AE129F"
+	icon: "enderio:ender_resonator"
+	id: "748CB85047FCA19D"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["352C1AA348A4FDB9"]
+			id: "0C7B8AE1E77C29AF"
+			tasks: [{
+				id: "33E42BB8FB6BE7DC"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"19DAAEE48B76E40B"
+				"644FFA061CE0F228"
+				"0C7B8AE1E77C29AF"
+			]
+			id: "50F3AA063996D023"
+			tasks: [{
+				id: "112E87ABE459C74A"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"50F3AA063996D023"
+				"353BA5991D363836"
+			]
+			id: "2C59A8A850A9AF46"
+			tasks: [{
+				id: "41EEE44224C0465E"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["352C1AA348A4FDB9"]
+			id: "2A54D6F634571364"
+			tasks: [{
+				id: "7E2AB61CC3CB5E7C"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79A1C49DCA5A913E"]
+			id: "726D12A03C52D262"
+			tasks: [{
+				id: "0B3E6EBC4408262E"
+				item: "enderio:end_steel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2A54D6F634571364"
+				"79A1C49DCA5A913E"
+				"0C7B8AE1E77C29AF"
+			]
+			id: "1FF7567E2C20063F"
+			tasks: [{
+				id: "798E3C715FFDB1FA"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			id: "352C1AA348A4FDB9"
+			tasks: [{
+				id: "75656BEEA4628DD7"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["352C1AA348A4FDB9"]
+			id: "71691EC96FC119DE"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "468BC8A4E2D1C879"
+				item: "mysticalagriculture:grains_of_infinity_seeds"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["352C1AA348A4FDB9"]
+			id: "1B728B6A6A47A7BB"
+			tasks: [{
+				id: "22F14142A7CC392B"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "79A1C49DCA5A913E"
+			tasks: [{
+				id: "1AF38B6C314AEA95"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FF7567E2C20063F"]
+			id: "644FFA061CE0F228"
+			tasks: [{
+				id: "0630A1C6C9C5C6A0"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FF7567E2C20063F"]
+			id: "287BFA2D7171FFA6"
+			tasks: [{
+				id: "4A10345A818C520C"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["287BFA2D7171FFA6"]
+			id: "19DAAEE48B76E40B"
+			tasks: [{
+				id: "6C6035B6657C6932"
+				item: "mekanism:dust_coal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["644FFA061CE0F228"]
+			id: "353BA5991D363836"
+			tasks: [{
+				id: "22B18D53BFB29AAE"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "3BD55728F5E81CC9"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "20BFDCBA6AC9B8C5"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:energetic_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["3BD55728F5E81CC9"]
+			id: "496D32AE34779788"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5A02856EA7B51B0F"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:vibrant_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "274DDC9DFECA3B93"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "120F5B346060F553"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:dark_steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["274DDC9DFECA3B93"]
+			id: "70100A7AAF4439B1"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "727A41CE016520C7"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:end_steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["79A1C49DCA5A913E"]
+			id: "716632E10490DCA3"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "130BBAC009BEBB05"
+				item: "mysticalagriculture:dark_steel_seeds"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["726D12A03C52D262"]
+			id: "0E519330BDB7FC3F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "57A9EDF9C9C73A6E"
+				item: "mysticalagriculture:end_steel_seeds"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["644FFA061CE0F228"]
+			id: "39237DD46FBEEE86"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7B623D74E43DA9F8"
+				item: "mysticalagriculture:energetic_alloy_seeds"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["353BA5991D363836"]
+			id: "616F85A5AF683B18"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7823277A032B7FC7"
+				item: "mysticalagriculture:vibrant_alloy_seeds"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"1E9BD311314EEEC1"
+				"644FFA061CE0F228"
+				"7F38A3D75208AB95"
+			]
+			id: "68CA9EB55DB3C979"
+			tasks: [{
+				id: "678B6A2A5F15C0F2"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "1E9BD311314EEEC1"
+			tasks: [{
+				id: "70BBDFF53CECD08C"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["287BFA2D7171FFA6"]
+			id: "1A1424AF3FB1A2AD"
+			tasks: [{
+				id: "57E5A276F4F3A7CA"
+				item: "mekanism:dust_quartz"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68CA9EB55DB3C979"]
+			id: "2B391FB0B99D723C"
+			tasks: [{
+				id: "026D16C38C7DB2A3"
+				item: "enderio:z_logic_controller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2B391FB0B99D723C"
+				"192113734FDEC9D0"
+			]
+			id: "4A7E637EFA960909"
+			tasks: [{
+				id: "6B9420A8E4D0E888"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E9BD311314EEEC1"]
+			id: "192113734FDEC9D0"
+			tasks: [{
+				id: "37621AF15AB1872C"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "77A1B9BC4224AFCA"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "240C361DE397D730"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:soularium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1E9BD311314EEEC1"]
+			id: "2CB01928002F6C61"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1839E61F50E210E4"
+				item: "mysticalagriculture:soularium_seeds"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"644FFA061CE0F228"
+				"1E9BD311314EEEC1"
+			]
+			id: "1EFAF7443935E593"
+			tasks: [{
+				id: "776B31E6E40FDF02"
+				item: "enderio:experience_rod"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1EFAF7443935E593"
+				"04E0285D1BDA2650"
+			]
+			id: "2C388A0F274DC0F7"
+			tasks: [{
+				id: "42434542395B7199"
+				item: "enderio:xp_vacuum"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "418C4C765AC0B171"
+			tasks: [{
+				id: "4F95A6882E29EA55"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["418C4C765AC0B171"]
+			id: "04E0285D1BDA2650"
+			tasks: [{
+				id: "60A1A951231BD913"
+				item: "enderio:pulsating_crystal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "07854A90A5A4AFD9"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5EEBDE309CE78893"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:pulsating_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["418C4C765AC0B171"]
+			id: "385718A5BBCD176B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "268F7C245CCD4C29"
+				item: "mysticalagriculture:pulsating_alloy_seeds"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["04E0285D1BDA2650"]
+			id: "28FFD098E04560D1"
+			tasks: [{
+				id: "2FBCBAB3ADDEF44A"
+				item: "enderio:vacuum_chest"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04E0285D1BDA2650"]
+			id: "490985775451449B"
+			tasks: [{
+				id: "4E5E5D3C57B31F4A"
+				item: "enderio:travel_anchor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A1424AF3FB1A2AD"]
+			id: "7F38A3D75208AB95"
+			tasks: [{
+				id: "380D7523D37E85D5"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7F38A3D75208AB95"
+				"1EFAF7443935E593"
+			]
+			id: "65883E30A87DCCF6"
+			tasks: [{
+				id: "60C42D8093CF647A"
+				item: "enderio:xp_obelisk"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["353BA5991D363836"]
+			id: "4D911C5EF79FB2B7"
+			tasks: [{
+				id: "1BCAD815BE207907"
+				item: "enderio:vibrant_crystal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4D911C5EF79FB2B7"
+				"2B391FB0B99D723C"
+				"192113734FDEC9D0"
+			]
+			id: "2ADBD62A8A440E10"
+			tasks: [{
+				id: "1283636A7ABD6661"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4D911C5EF79FB2B7"
+				"7767F0C5A3227D3B"
+				"2015883799B26409"
+			]
+			id: "223D9D4CA5306E9E"
+			tasks: [{
+				id: "26E21220F271ACED"
+				item: {
+					Count: 1
+					id: "enderio:electromagnet"
+					tag: {
+						Energy: {
+							EnergyStored: 0
+							MaxEnergyStored: 100000
+							MaxEnergyUse: 100000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "7767F0C5A3227D3B"
+			tasks: [{
+				id: "1CFCA9D78C1DC9A1"
+				item: "enderio:copper_alloy_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7767F0C5A3227D3B"]
+			id: "2015883799B26409"
+			tasks: [{
+				id: "17B659202C5317BF"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "246ECED1A2E53E00"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "43DF7E66096EAFA6"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7767F0C5A3227D3B"]
+			id: "4F0657763450A8BF"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "49D45992D75EEE43"
+				item: "mysticalagriculture:copper_alloy_seeds"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["246ECED1A2E53E00"]
+			id: "4F8326F3339F7C38"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2A9C6D152F07725B"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:conductive_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2015883799B26409"]
+			id: "3C60840A46A8F7BB"
+			tasks: [{
+				id: "0966BDF9B155F290"
+				item: "enderio:energy_conduit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79A1C49DCA5A913E"]
+			id: "72D61C3E43DE4563"
+			tasks: [{
+				id: "035BAEF17DA6891B"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C7B8AE1E77C29AF"]
+			id: "43A92E4ABB904B52"
+			tasks: [{
+				id: "506B813E08F4524E"
+				item: "enderio:basic_capacitor_bank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"50F3AA063996D023"
+				"43A92E4ABB904B52"
+			]
+			dependency_requirement: "one_completed"
+			id: "0C194BDE9EA57ECC"
+			tasks: [{
+				id: "16726738B6337FCC"
+				item: "enderio:advanced_capacitor_bank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4D911C5EF79FB2B7"
+				"2C59A8A850A9AF46"
+				"0C194BDE9EA57ECC"
+			]
+			id: "0441B77108DFA7A8"
+			min_required_dependencies: 2
+			tasks: [{
+				id: "11A2F150D463844D"
+				item: "enderio:vibrant_capacitor_bank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A54D6F634571364"]
+			id: "4B17B103BAB60988"
+			tasks: [{
+				id: "212DEC312C985171"
+				item: "enderio:crafter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "30BBC7FD7DC283E6"
+			tasks: [{
+				id: "11BA3413973DB922"
+				item: "enderio:redstone_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B728B6A6A47A7BB"]
+			id: "54111888A09FBEC0"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "73AB59114B9AEDB6"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone_alloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["30BBC7FD7DC283E6"]
+			id: "5515400FAF99E9E2"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "12CD8D5CAD5EED55"
+				item: "mysticalagriculture:redstone_alloy_seeds"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -1.75d
+		}
+	]
+	title: "Ender IO"
+}
