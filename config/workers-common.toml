@@ -11,7 +11,7 @@ Version = 7
 	#	
 	#Should the key to open the command screen be toggled instead of held?""
 	#default: false
-	CommandScreenToggle = false
+	CommandScreenToggle = true
 	#
 	#----Should Workers Make Villager Huh? sound?----
 	#	(takes effect after restart)
