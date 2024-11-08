@@ -1082,10 +1082,14 @@ Added Ender IO.
 Added Fish On The Line.
 Added Healing Campfire.
 Added Just Enough Breeding (JEBr).
+Added McJtyLib.
 Added No Chat Reports.
+Added RFTools Base.
 Added Stack Refill.
 Added Starter Kit.
 Added Tree Harvester.
+Added XNet.
+Added XNet Gases.
 
 Updated Moonlight Lib.
 

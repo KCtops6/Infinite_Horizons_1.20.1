@@ -5,7 +5,7 @@
 	group: "6F4C25734B575319"
 	icon: "summoningrituals:altar"
 	id: "3D585413F8D3FC72"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -395,5 +395,5 @@
 		}
 	]
 	subtitle: ["Mob Summoning and Rare Items"]
-	title: "Gamma"
+	title: "Delta"
 }

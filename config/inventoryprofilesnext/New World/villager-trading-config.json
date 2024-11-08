@@ -29,7 +29,12 @@
         "delightchef": [],
         "delightcook": [],
         "shady_wizard": [],
-        "agronomancer": [],
+        "agronomancer": [
+            {
+                "resultItem": "mysticalagriculture:inferium_essence",
+                "priceItem1": "minecraft:emerald"
+            }
+        ],
         "blood_mage": [],
         "beekeeper": [],
         "apiarist": [],

@@ -5,7 +5,7 @@
 	group: "6F4C25734B575319"
 	icon: "mysticalagriculture:inferium_essence"
 	id: "6E3DAE0C813455AE"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -197,5 +197,5 @@
 			y: 1.0d
 		}
 	]
-	title: "Beta"
+	title: "Gamma"
 }

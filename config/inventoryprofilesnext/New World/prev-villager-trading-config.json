@@ -29,12 +29,18 @@
         "delightchef": [],
         "delightcook": [],
         "shady_wizard": [],
-        "agronomancer": [],
+        "agronomancer": [
+            {
+                "resultItem": "mysticalagriculture:inferium_essence",
+                "priceItem1": "minecraft:emerald"
+            }
+        ],
         "blood_mage": [],
         "beekeeper": [],
         "apiarist": [],
         "create_better_villagers:andesite_worker": [],
-        "create_better_villagers:brassworker": []
+        "create_better_villagers:brassworker": [],
+        "create_better_villagers:copperworker": []
     },
     "globalBookmarks1": {
         "armorer": [],
@@ -61,7 +67,8 @@
         "beekeeper": [],
         "apiarist": [],
         "create_better_villagers:andesite_worker": [],
-        "create_better_villagers:brassworker": []
+        "create_better_villagers:brassworker": [],
+        "create_better_villagers:copperworker": []
     },
     "globalBookmarks2": {
         "armorer": [],
@@ -88,6 +95,7 @@
         "beekeeper": [],
         "apiarist": [],
         "create_better_villagers:andesite_worker": [],
-        "create_better_villagers:brassworker": []
+        "create_better_villagers:brassworker": [],
+        "create_better_villagers:copperworker": []
     }
 }

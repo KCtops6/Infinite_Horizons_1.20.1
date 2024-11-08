@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beta_3"
+	group: "6F4C25734B575319"
+	icon: "create:experience_nugget"
+	id: "586D9DC484439963"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5634771853597075"
+			tasks: [{
+				id: "3B1E13C41B0C22D6"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5634771853597075"]
+			id: "677CBE8BF1624C8B"
+			tasks: [{
+				id: "0DB0EF67AD2094D0"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["677CBE8BF1624C8B"]
+			id: "2FDCA1C128CEA903"
+			tasks: [{
+				id: "76876156EECE1E67"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FDCA1C128CEA903"]
+			id: "66B0A4D2C95AA15C"
+			tasks: [{
+				id: "010C6AD06E49FC3B"
+				item: "createsifter:dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FDCA1C128CEA903"]
+			id: "6C052EAA47AD0243"
+			tasks: [{
+				id: "2E3B9676EB256F53"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C052EAA47AD0243"]
+			id: "54486422B5B75826"
+			tasks: [{
+				id: "2336F1E0DF6CC5B6"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+	]
+	title: "Beta"
+}
