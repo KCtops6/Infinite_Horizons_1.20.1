@@ -1095,3 +1095,6 @@ Added XNet Gases.
 Updated Moonlight Lib.
 
 Added questline for Ender IO.
+
+1.20.1-7.6
+Modified Recipe for Industrial Foregoing Animal Feeder.
