@@ -1077,6 +1077,7 @@ Updated Alpha questline to include Mekanism (and addons Mekanism Additions, Meka
 Removed Mekanism Digital Miner as it is unused in the modpack.
 
 1.20.1-7.5
+Added Create: Trading Floor.
 Added Double Doors.
 Added Ender IO.
 Added Fish On The Line.
