@@ -1097,4 +1097,6 @@ Updated Moonlight Lib.
 Added questline for Ender IO.
 
 1.20.1-7.6
+Updated Supplementaries.
+
 Modified Recipe for Industrial Foregoing Animal Feeder.

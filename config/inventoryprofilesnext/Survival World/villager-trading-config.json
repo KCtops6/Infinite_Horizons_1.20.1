@@ -4,7 +4,12 @@
         "butcher": [],
         "cartographer": [],
         "cleric": [],
-        "farmer": [],
+        "farmer": [
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:wheat"
+            }
+        ],
         "fisherman": [],
         "fletcher": [
             {
@@ -21,7 +26,8 @@
         "nitwit": [],
         "none": [],
         "delightcook": [],
-        "___+++___ wandering ___+++___": []
+        "___+++___ wandering ___+++___": [],
+        "agronomancer": []
     },
     "globalBookmarks1": {
         "armorer": [],
@@ -40,7 +46,8 @@
         "nitwit": [],
         "none": [],
         "delightcook": [],
-        "___+++___ wandering ___+++___": []
+        "___+++___ wandering ___+++___": [],
+        "agronomancer": []
     },
     "globalBookmarks2": {
         "armorer": [],
@@ -59,6 +66,7 @@
         "nitwit": [],
         "none": [],
         "delightcook": [],
-        "___+++___ wandering ___+++___": []
+        "___+++___ wandering ___+++___": [],
+        "agronomancer": []
     }
 }
