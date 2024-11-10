@@ -1100,6 +1100,7 @@ Added questline for Ender IO.
 Thank you for 17000 downloads!
 
 Updated Ars Elemental.
+Updated Create: Better Villager.
 Updated Supplementaries.
 
 Modified Recipe for Industrial Foregoing Animal Feeder.
