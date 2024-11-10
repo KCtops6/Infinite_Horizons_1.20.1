@@ -9,7 +9,6 @@ JEIEvents.hideItems((event) => {
      * CREATE SIFTER
      * Hiding all unused items from create sifter.
      */
-    event.hide('createsifter:string_mesh');
     event.hide('createsifter:andesite_mesh');
     event.hide('createsifter:zinc_mesh');
     event.hide('createsifter:custom_mesh');
