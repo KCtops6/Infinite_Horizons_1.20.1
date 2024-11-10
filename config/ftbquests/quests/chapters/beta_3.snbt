@@ -3,19 +3,434 @@
 	default_quest_shape: ""
 	filename: "beta_3"
 	group: "6F4C25734B575319"
-	icon: "create:experience_nugget"
+	icon: "create:wrench"
 	id: "586D9DC484439963"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "1DBDB3B2C49FA325"
-		tasks: [{
-			id: "41E67C7A8B340A40"
-			item: "kubejs:brass_ingot"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"423A4884BBF1FFFA"
+				"1AC649402EA13EB3"
+			]
+			description: ["The Water Wheel allows you to harness flowing water to generate kinetic energy, powering your Create mod machinery efficiently and sustainably."]
+			id: "2F9B0013A2D20BA3"
+			rewards: [{
+				id: "055C52A9285B76B8"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			subtitle: "Power Machines with Water-Driven Energy"
+			tasks: [{
+				id: "7BE3B6E3C6BBA451"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Turning the Tides"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["423A4884BBF1FFFA"]
+			id: "1AC649402EA13EB3"
+			tasks: [{
+				id: "3C176D81103AD394"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9B0013A2D20BA3"]
+			id: "3CB2BFF30BA3EF65"
+			tasks: [{
+				id: "075510E234CCDD0B"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37C31E5A1FB0A120"]
+			description: [
+				"The Sifter allows you to separate valuable materials from raw resources, enhancing your ability to gather refined components with ease."
+				""
+				"You can get all possible resources from the lowest level string mesh, but more rare items are much easily accessible with a higher level of mesh."
+				""
+				"You should automate sieving gravel, sand, and dust at the very least before proceeding."
+			]
+			icon: "createsifter:sifter"
+			id: "0AC851170B41AD02"
+			rewards: [{
+				id: "110E5CD4C35434DF"
+				item: "create:belt_connector"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Efficient Resource Sorting"
+			tasks: [
+				{
+					id: "4B0576D20D1FD6F3"
+					item: "createsifter:sifter"
+					type: "item"
+				}
+				{
+					id: "25F26D577A9AE659"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createsifter:string_mesh"
+								}
+								{
+									Count: 1b
+									id: "kubejs:copper_mesh"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "kubejs:iron_mesh"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "createsifter:brass_mesh"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "kubejs:netherite_mesh"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Craft a Mesh"
+					type: "item"
+				}
+			]
+			title: "Separating the Essentials"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E72C56136631B60"]
+			description: ["The Millstone grinds down raw materials, transforming them into valuable components for further crafting and refinement.  At the very least, you should automate gravel, sand, and dust before proceeding."]
+			id: "37C31E5A1FB0A120"
+			rewards: [{
+				id: "27FB68A717FD117C"
+				item: "create:belt_connector"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Processing Resources with the Millstone"
+			tasks: [{
+				id: "57B271F6ADBB360D"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Grinding Gears"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "700D0FB31E0D600E"
+			tasks: [{
+				id: "725FEE07380F662C"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2F9B0013A2D20BA3"]
+			description: ["The Mechanical Extruder simplifies resource gathering by producing cobblestone efficiently, providing a steady supply for your construction and crafting needs.  You want to automate cobblestone and the other blocks this machine generates."]
+			id: "2E72C56136631B60"
+			subtitle: "Automated Cobblestone Generation"
+			tasks: [{
+				id: "00447991C929CF23"
+				item: "create_mechanical_extruder:mechanical_extruder"
+				type: "item"
+			}]
+			title: "Stone on Demand"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["110517F6B8116C24"]
+			id: "32AEAE8653EF3DA0"
+			tasks: [{
+				id: "52CC35DA6AB72A0F"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			id: "722C7C33D23EB25A"
+			tasks: [{
+				id: "0BC4691EEF3B4065"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"037B4AE6DF4451D4"
+				"722C7C33D23EB25A"
+			]
+			id: "110517F6B8116C24"
+			tasks: [{
+				id: "0761D8C186E7C127"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["722C7C33D23EB25A"]
+			description: ["Notably used in more easily creating stone alloy."]
+			icon: "createlowheated:basic_burner"
+			id: "0FC21F3D0BB23F33"
+			optional: true
+			tasks: [
+				{
+					id: "70F60B70306E4EB8"
+					item: "createlowheated:basic_burner"
+					type: "item"
+				}
+				{
+					id: "5CF5E2B38589833F"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["110517F6B8116C24"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "305CAD4BB78423E7"
+			tasks: [
+				{
+					id: "21989353EB8C3050"
+					item: {
+						Count: 1
+						id: "create_sa:blazing_cleaver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73E47E61C19018DE"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			id: "33A3E11BD0EB479B"
+			tasks: [{
+				id: "3B62CD8A29419FAC"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"133BCE410E613A4F"
+				"33A3E11BD0EB479B"
+			]
+			id: "433391CE678F39BF"
+			tasks: [{
+				id: "15A8622ABB86CF27"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["433391CE678F39BF"]
+			id: "30307DBA1412BFE5"
+			tasks: [{
+				icon: "botanypots:terracotta_botany_pot"
+				id: "173C35BAF5E46247"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:basic_botany_pots"
+					}
+				}
+				title: "Craft a Botany Pot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "2260AD2796A36C0F"
+			tasks: [{
+				id: "2DD3AD2DB0436BE7"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2260AD2796A36C0F"]
+			id: "7C0E83F2ABFD39A1"
+			tasks: [{
+				id: "1279BAAAFF645977"
+				item: "farmingforblockheads:feeding_trough"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "22A166C0303A6C2C"
+			tasks: [{
+				id: "455BACB89AFD4547"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "2DEA6DE1B9DFC162"
+			tasks: [{
+				id: "38BE629B39BEDC4E"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2DEA6DE1B9DFC162"
+				"22A166C0303A6C2C"
+				"722C7C33D23EB25A"
+			]
+			id: "7C92DF666D71EF2C"
+			tasks: [{
+				id: "6B0CD946B88BBD04"
+				item: "kubejs:brass_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37C31E5A1FB0A120"]
+			description: ["By washing down Soul Sand, you can uncover valuable Nether Quartz, a resource essential for advanced crafting and technology."]
+			id: "7B2DCE5368BC4D89"
+			subtitle: "Nether Quartz from the Depths"
+			tasks: [{
+				count: 16L
+				id: "2CDD7113A06009EE"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			title: "Shifting Sands"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7B2DCE5368BC4D89"]
+			id: "69385CCE6FF31DEB"
+			tasks: [{
+				id: "5AED953FDCC10BC6"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"33A3E11BD0EB479B"
+				"1B22CB0F2ADB7639"
+			]
+			id: "5018E720C03A7EF8"
+			tasks: [{
+				icon: "minecraft:soul_campfire"
+				id: "57C6D4AB2BF46166"
+				observe_type: 0
+				timer: 0L
+				title: "Observe Soul Fire"
+				to_observe: "minecraft:soul_fire"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5018E720C03A7EF8"
+				"2E27C65E12B61E06"
+			]
+			icon: "minecraft:prismarine_shard"
+			id: "1CD2B2DAD30A3AF8"
+			tasks: [
+				{
+					id: "5C6F10793D7D0B77"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					id: "29A3F708A965ABA7"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "2E27C65E12B61E06"
+			tasks: [{
+				id: "23D1E2E574234AD6"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
 	title: "Beta"
 }

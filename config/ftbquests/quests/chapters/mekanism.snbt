@@ -4,14 +4,11 @@
 	filename: "mekanism"
 	group: "126A1C64F6AE129F"
 	id: "7E8BD6C6DB519882"
-	order_index: 24
+	order_index: 23
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"382896245CF5A881"
-				"12336F02D7B96A2A"
-			]
+			dependencies: ["12336F02D7B96A2A"]
 			id: "418B59D5AC2B522A"
 			tasks: [{
 				id: "0FECADBF493EEFD7"
@@ -22,7 +19,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["382896245CF5A881"]
 			id: "6551C7B584F3DB74"
 			optional: true
 			size: 0.5d

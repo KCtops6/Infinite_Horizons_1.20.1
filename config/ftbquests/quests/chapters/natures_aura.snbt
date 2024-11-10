@@ -13,11 +13,10 @@
 		x: 10.25d
 		y: 0.25d
 	}]
-	order_index: 25
+	order_index: 24
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0862E7449CD041FD"]
 			description: [""]
 			id: "039B72F9E91D628A"
 			rewards: [

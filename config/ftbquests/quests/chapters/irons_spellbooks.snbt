@@ -4,7 +4,7 @@
 	filename: "irons_spellbooks"
 	group: "126A1C64F6AE129F"
 	id: "1A9C03C93B0D7777"
-	order_index: 16
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{
@@ -92,7 +92,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["0862E7449CD041FD"]
 			id: "0E8A24843AD29391"
 			tasks: [{
 				id: "4C9CB787D7BC720F"

@@ -4,11 +4,10 @@
 	filename: "industrial_foregoing"
 	group: "126A1C64F6AE129F"
 	id: "652C865B2CDD0A1D"
-	order_index: 14
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0862E7449CD041FD"]
 			id: "2882A42805E374D4"
 			tasks: [{
 				id: "106081B6192B8E41"
@@ -152,10 +151,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"0862E7449CD041FD"
-				"5B9A6C05D1753895"
-			]
+			dependencies: ["5B9A6C05D1753895"]
 			id: "2465DBD16F3EC4D3"
 			tasks: [{
 				id: "0A758885EC9ECC80"

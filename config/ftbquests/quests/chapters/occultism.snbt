@@ -4,11 +4,10 @@
 	filename: "occultism"
 	group: "126A1C64F6AE129F"
 	id: "4256A068D412F50F"
-	order_index: 26
+	order_index: 25
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0862E7449CD041FD"]
 			icon: "occultism:datura"
 			id: "5B1DAADF15E0C9A0"
 			tasks: [

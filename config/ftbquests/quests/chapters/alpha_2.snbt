@@ -89,6 +89,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["The Bounty Board offers quests and rewards for the daring adventurer—take a closer look to find new ways to earn valuable resources and test your skills."]
 			id: "4276F0ED03C3F87D"
 			rewards: [{
 				id: "6D70CB058DD52A2F"
@@ -102,14 +103,17 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			subtitle: "Discover the World of Bounties"
 			tasks: [{
 				icon: "bountiful:bountyboard"
 				id: "6F2C4D171C6A5D95"
 				observe_type: 0
 				timer: 0L
+				title: "Look at a Bounty Board"
 				to_observe: "bountiful:bountyboard"
 				type: "observation"
 			}]
+			title: "Opportunities Await"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -316,7 +320,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6A6C399AB9F1BBE0"]
@@ -328,196 +332,6 @@
 			}]
 			x: 3.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["423A4884BBF1FFFA"]
-			id: "2F9B0013A2D20BA3"
-			rewards: [{
-				id: "055C52A9285B76B8"
-				item: "create:stressometer"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7BE3B6E3C6BBA451"
-				item: "create:water_wheel"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["423A4884BBF1FFFA"]
-			id: "1AC649402EA13EB3"
-			tasks: [{
-				id: "3C176D81103AD394"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"1AC649402EA13EB3"
-				"2F9B0013A2D20BA3"
-			]
-			id: "37C31E5A1FB0A120"
-			rewards: [{
-				id: "27FB68A717FD117C"
-				item: "create:belt_connector"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "57B271F6ADBB360D"
-				item: "create:millstone"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"1AC649402EA13EB3"
-				"2F9B0013A2D20BA3"
-			]
-			id: "0AC851170B41AD02"
-			rewards: [{
-				id: "110E5CD4C35434DF"
-				item: "create:belt_connector"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "4B0576D20D1FD6F3"
-				item: "createsifter:sifter"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0AC851170B41AD02"]
-			id: "382896245CF5A881"
-			tasks: [{
-				id: "0A97846B3C08DE36"
-				item: {
-					Count: 1
-					id: "createsifter:string_mesh"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"1AC649402EA13EB3"
-				"2F9B0013A2D20BA3"
-			]
-			id: "3CB2BFF30BA3EF65"
-			tasks: [{
-				id: "075510E234CCDD0B"
-				item: "create:mechanical_press"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"037B4AE6DF4451D4"
-				"3CB2BFF30BA3EF65"
-			]
-			id: "110517F6B8116C24"
-			tasks: [{
-				id: "0761D8C186E7C127"
-				item: "create:blaze_burner"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3CB2BFF30BA3EF65"]
-			id: "722C7C33D23EB25A"
-			tasks: [{
-				id: "0BC4691EEF3B4065"
-				item: "create:mechanical_mixer"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"110517F6B8116C24"
-				"722C7C33D23EB25A"
-			]
-			id: "32AEAE8653EF3DA0"
-			tasks: [{
-				id: "52CC35DA6AB72A0F"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"110517F6B8116C24"
-				"722C7C33D23EB25A"
-			]
-			icon: "minecraft:wither_skeleton_skull"
-			id: "305CAD4BB78423E7"
-			tasks: [
-				{
-					id: "21989353EB8C3050"
-					item: {
-						Count: 1
-						id: "create_sa:blazing_cleaver"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "73E47E61C19018DE"
-					item: "minecraft:wither_skeleton_skull"
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["32AEAE8653EF3DA0"]
-			id: "2E72C56136631B60"
-			tasks: [{
-				id: "00447991C929CF23"
-				item: "create_mechanical_extruder:mechanical_extruder"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"2E72C56136631B60"
-				"382896245CF5A881"
-			]
-			description: ["Check out the website (book icon) for more information."]
-			icon: "minecraft:raw_iron"
-			id: "0862E7449CD041FD"
-			tasks: [{
-				id: "2B6B80232DEDE079"
-				title: "Automatic Resources!"
-				type: "checkmark"
-			}]
-			x: 7.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["133BCE410E613A4F"]
@@ -550,86 +364,23 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["722C7C33D23EB25A"]
-			description: ["Notably used in more easily creating stone alloy."]
-			icon: "createlowheated:basic_burner"
-			id: "0FC21F3D0BB23F33"
-			optional: true
+			dependencies: ["6A6C399AB9F1BBE0"]
+			icon: "minecraft:iron_ingot"
+			id: "3949B38795D8BB00"
 			tasks: [
 				{
-					id: "70F60B70306E4EB8"
-					item: "createlowheated:basic_burner"
+					id: "57A2C0AE6FB07BEF"
+					item: "minecraft:iron_nugget"
 					type: "item"
 				}
 				{
-					id: "5CF5E2B38589833F"
-					item: {
-						Count: 1
-						id: "minecraft:flint_and_steel"
-						tag: {
-							Damage: 0
-						}
-					}
+					id: "061CFAB4F8372123"
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6A6C399AB9F1BBE0"]
-			id: "3949B38795D8BB00"
-			tasks: [{
-				id: "57A2C0AE6FB07BEF"
-				item: "minecraft:iron_nugget"
-				type: "item"
-			}]
 			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3CB2BFF30BA3EF65"]
-			id: "33A3E11BD0EB479B"
-			tasks: [{
-				id: "3B62CD8A29419FAC"
-				item: "create:encased_fan"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"133BCE410E613A4F"
-				"33A3E11BD0EB479B"
-			]
-			id: "433391CE678F39BF"
-			tasks: [{
-				id: "15A8622ABB86CF27"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["433391CE678F39BF"]
-			id: "30307DBA1412BFE5"
-			tasks: [{
-				icon: "botanypots:terracotta_botany_pot"
-				id: "173C35BAF5E46247"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "botanypots:basic_botany_pots"
-					}
-				}
-				title: "Craft a Botany Pot"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -665,18 +416,18 @@
 			}]
 			title: "Easier Trading Halls"
 			x: 4.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["0AC851170B41AD02"]
-			id: "700D0FB31E0D600E"
+			dependencies: ["133BCE410E613A4F"]
+			id: "1584AEAD06AB2580"
 			tasks: [{
-				id: "725FEE07380F662C"
-				item: "minecraft:redstone"
+				id: "3E8E5123A96BAEF1"
+				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 	title: "Alpha"

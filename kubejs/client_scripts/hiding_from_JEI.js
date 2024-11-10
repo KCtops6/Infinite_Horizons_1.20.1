@@ -1,4 +1,4 @@
-JEIEvents.hideItems((event) => {
+RecipeViewerEvents.removeEntries('item', event => {
     // event.hide();
     /**
      * APPLIED ENERGISTICS 2

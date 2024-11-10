@@ -4,11 +4,10 @@
 	filename: "forbidden__arcanus"
 	group: "126A1C64F6AE129F"
 	id: "28C526AADDAFA452"
-	order_index: 11
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0862E7449CD041FD"]
 			id: "5D3B08E08C06BAB8"
 			tasks: [{
 				id: "1C32992B5297E5E1"
@@ -19,10 +18,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"5D3B08E08C06BAB8"
-				"0862E7449CD041FD"
-			]
+			dependencies: ["5D3B08E08C06BAB8"]
 			id: "48EB03102CD69805"
 			tasks: [{
 				id: "73DE8FAD71F96247"
@@ -208,7 +204,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0862E7449CD041FD"]
 			icon: "forbidden_arcanus:obsidian_ingot"
 			id: "2B07FCC00FBA7F8E"
 			tasks: [
@@ -472,7 +467,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0862E7449CD041FD"]
 			id: "5A181C16AED07281"
 			tasks: [{
 				id: "5087249CA9EFF914"
@@ -483,10 +477,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"0862E7449CD041FD"
-				"5A181C16AED07281"
-			]
+			dependencies: ["5A181C16AED07281"]
 			id: "3D8AD407A5EE7C7B"
 			tasks: [{
 				id: "31B8D784A9A052A0"

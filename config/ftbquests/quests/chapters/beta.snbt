@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["382896245CF5A881"]
 			id: "7392426B0F3550A6"
 			tasks: [{
 				id: "4E15E6D3EEC436B5"
@@ -195,6 +194,28 @@
 			}]
 			x: 4.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["4D8C16662420211F"]
+			id: "507CEA8B4B575B69"
+			tasks: [{
+				id: "729D092E1E5FEBC4"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D8C16662420211F"]
+			id: "1B22CB0F2ADB7639"
+			tasks: [{
+				id: "401BE9B92C38180A"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
 		}
 	]
 	title: "Gamma"
