@@ -1104,6 +1104,7 @@ Updated Create: Better Villager.
 Updated Hostile Neural Networks.
 Updated Moonlight Lib.
 Updated Sophisticated Core.
+Updated Sophisticated Storage.
 Updated Supplementaries.
 
 Modified Recipe for Industrial Foregoing Animal Feeder.
