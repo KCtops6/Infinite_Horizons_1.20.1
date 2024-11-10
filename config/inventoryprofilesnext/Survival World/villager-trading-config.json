@@ -15,6 +15,10 @@
             {
                 "resultItem": "minecraft:emerald",
                 "priceItem1": "minecraft:stick"
+            },
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:flint"
             }
         ],
         "leatherworker": [],
