@@ -1101,6 +1101,7 @@ Thank you for 17000 downloads!
 
 Updated Ars Elemental.
 Updated Create: Better Villager.
+Updated Hostile Neural Networks.
 Updated Supplementaries.
 
 Modified Recipe for Industrial Foregoing Animal Feeder.
