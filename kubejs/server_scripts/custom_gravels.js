@@ -20,10 +20,6 @@ ServerEvents.recipes(event => {
         'kubejs:deepslate_gravel'],
         'minecraft:deepslate'
     )
-    event.recipes.createMilling([
-        'kubejs:deepslate_gravel'],
-        'minecraft:deepslate'
-    )
     /**
      * End Stone Gravel
      */

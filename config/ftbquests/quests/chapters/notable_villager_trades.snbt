@@ -46,16 +46,6 @@
 			y: -1.0d
 		}
 		{
-			id: "6EA399742F8C544A"
-			tasks: [{
-				id: "2A89895F6E5F5520"
-				item: "minecraft:brewing_stand"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["6EA399742F8C544A"]
 			id: "6B6CB23D39BAD646"
 			tasks: [{

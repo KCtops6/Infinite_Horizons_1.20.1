@@ -269,6 +269,7 @@
 			]
 			id: "433391CE678F39BF"
 			tasks: [{
+				count: 64L
 				id: "15A8622ABB86CF27"
 				item: "minecraft:clay_ball"
 				type: "item"
@@ -575,6 +576,31 @@
 			}]
 			x: 13.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"65309454388885A3"
+				"0E950E1B0283143A"
+			]
+			id: "5D848CC085077117"
+			tasks: [{
+				id: "4EC86680543BF073"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A09937381BB310B"]
+			id: "0E950E1B0283143A"
+			tasks: [{
+				id: "3EC0CDE20B1F8BB2"
+				item: "kubejs:deepslate_gravel"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
 		}
 	]
 	title: "Beta"

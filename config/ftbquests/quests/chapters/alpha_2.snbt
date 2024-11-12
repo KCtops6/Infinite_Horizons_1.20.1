@@ -439,6 +439,48 @@
 			x: 2.0d
 			y: -4.0d
 		}
+		{
+			id: "6EA399742F8C544A"
+			tasks: [{
+				id: "2A89895F6E5F5520"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "43A0045BA51BDADE"
+			tasks: [{
+				id: "05986C2AEF6071B4"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43A0045BA51BDADE"]
+			id: "21EC3E863C731F5F"
+			tasks: [{
+				id: "5DBE802373FF99AE"
+				item: "workers:cattle_farmer_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43A0045BA51BDADE"]
+			id: "57926C25D6CBD186"
+			tasks: [{
+				id: "404AD7BAA3CAB928"
+				item: "workers:chicken_farmer_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
 	]
 	title: "Alpha"
 }

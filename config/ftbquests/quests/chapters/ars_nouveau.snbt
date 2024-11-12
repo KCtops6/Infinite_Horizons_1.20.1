@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3949B38795D8BB00"]
 			id: "0E4B0D5D516F0EAF"
 			tasks: [{
 				id: "5BD10E24F3056FC1"
@@ -43,34 +44,12 @@
 		{
 			dependencies: ["6EA399742F8C544A"]
 			id: "7B41C4B844B8A6B8"
-			tasks: [
-				{
-					id: "0252C6681DD4E321"
-					item: "ars_nouveau:blue_archwood_sapling"
-					type: "item"
-				}
-				{
-					id: "60D545157EA0E72E"
-					item: "ars_nouveau:red_archwood_sapling"
-					type: "item"
-				}
-				{
-					id: "19C04380A4FC6488"
-					item: "ars_nouveau:purple_archwood_sapling"
-					type: "item"
-				}
-				{
-					id: "6996189BB1913B48"
-					item: "ars_nouveau:green_archwood_sapling"
-					type: "item"
-				}
-				{
-					id: "725853E0CACAF769"
-					item: "ars_elemental:yellow_archwood_sapling"
-					type: "item"
-				}
-			]
-			x: 0.0d
+			tasks: [{
+				id: "657914FB8EF25E71"
+				item: "ars_nouveau:red_archwood_sapling"
+				type: "item"
+			}]
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -85,7 +64,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["27697B9F1C2AFC01"]
+			dependencies: ["6C397E8A25E2D226"]
 			id: "1F726F04A7D98FB3"
 			tasks: [{
 				id: "6222B298C4230199"
@@ -295,13 +274,15 @@
 				"04547DBE9F5728C4"
 			]
 			id: "41F82B5DFBB7D915"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "7FEE7493C1089ADD"
 				item: "ars_nouveau:ritual_forestation"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 1.75d
+			y: 2.75d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
@@ -554,8 +535,8 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["28999ED06E4B69A8"]
@@ -565,8 +546,8 @@
 				item: "ars_nouveau:alteration_table"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0E4B0D5D516F0EAF"]
@@ -944,6 +925,81 @@
 			}]
 			x: 2.75d
 			y: 8.75d
+		}
+		{
+			dependencies: ["2260AD2796A36C0F"]
+			id: "4332BD62B7CF622F"
+			tasks: [{
+				id: "6122373CB2FD1C48"
+				item: "ars_nouveau:starbuncle_shards"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4332BD62B7CF622F"
+				"2260AD2796A36C0F"
+				"78E04C488ED7B83D"
+			]
+			id: "2995A993C3A2E349"
+			tasks: [{
+				id: "6D32D891B3CBD82F"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6C397E8A25E2D226"
+				"5D848CC085077117"
+				"1F726F04A7D98FB3"
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "78E04C488ED7B83D"
+			tasks: [
+				{
+					id: "4D5C42AA2D1CCCBA"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "39D502EDB20221BE"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27697B9F1C2AFC01"]
+			id: "6C397E8A25E2D226"
+			tasks: [{
+				id: "2EF31D3D21219827"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B41C4B844B8A6B8"]
+			id: "31730E74BF4A3F7A"
+			tasks: [{
+				id: "57353450099C6B05"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
 		}
 	]
 	title: "Ars Nouveau"

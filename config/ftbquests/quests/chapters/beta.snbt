@@ -217,6 +217,17 @@
 			x: 4.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["0F7904AFEA14F4A4"]
+			id: "65309454388885A3"
+			tasks: [{
+				id: "77CE9C42AAD01112"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
 	]
 	title: "Gamma"
 }

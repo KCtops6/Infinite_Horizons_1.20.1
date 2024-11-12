@@ -31,7 +31,9 @@
         "none": [],
         "delightcook": [],
         "___+++___ wandering ___+++___": [],
-        "agronomancer": []
+        "agronomancer": [],
+        "create_better_villagers:andesite_worker": [],
+        "create_better_villagers:miner": []
     },
     "globalBookmarks1": {
         "armorer": [],
@@ -51,7 +53,9 @@
         "none": [],
         "delightcook": [],
         "___+++___ wandering ___+++___": [],
-        "agronomancer": []
+        "agronomancer": [],
+        "create_better_villagers:andesite_worker": [],
+        "create_better_villagers:miner": []
     },
     "globalBookmarks2": {
         "armorer": [],
@@ -71,6 +75,8 @@
         "none": [],
         "delightcook": [],
         "___+++___ wandering ___+++___": [],
-        "agronomancer": []
+        "agronomancer": [],
+        "create_better_villagers:andesite_worker": [],
+        "create_better_villagers:miner": []
     }
 }

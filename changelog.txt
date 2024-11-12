@@ -1122,3 +1122,9 @@ Updated Beta questline to include more of Create mod and general progression.
 
 1.20.1-7.8
 Updated Ars Nouveau.
+Updated Immersive Aircraft [Fabric/Forge].
+
+Updated Alpha questline.
+Updated Beta questline.
+Updated Gamma questline.
+Updated Ars Nouveau questline.
