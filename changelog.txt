@@ -1109,4 +1109,12 @@ Updated Supplementaries.
 Modified Recipe for Industrial Foregoing Animal Feeder.
 
 1.20.1-7.7
+Removed Roughly Enough Items Fabric/Forge/NeoForge (REI).
+
+Added Just Enough Items (JEI).
+Added Just Enough Professions (JEP)
+Added Just Enough Resources (JER).
+
 Updated Supplementaries.
+
+Updated Beta questline to include more of Create mod and general progression.

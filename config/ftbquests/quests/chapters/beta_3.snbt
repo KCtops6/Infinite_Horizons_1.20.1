@@ -333,7 +333,7 @@
 			id: "2DEA6DE1B9DFC162"
 			tasks: [{
 				id: "38BE629B39BEDC4E"
-				item: "create:zinc_ingot"
+				item: "kubejs:zinc_ingot"
 				type: "item"
 			}]
 			x: 8.0d
@@ -355,7 +355,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["37C31E5A1FB0A120"]
+			dependencies: [
+				"37C31E5A1FB0A120"
+				"5018E720C03A7EF8"
+			]
 			description: ["By washing down Soul Sand, you can uncover valuable Nether Quartz, a resource essential for advanced crafting and technology."]
 			id: "7B2DCE5368BC4D89"
 			subtitle: "Nether Quartz from the Depths"
