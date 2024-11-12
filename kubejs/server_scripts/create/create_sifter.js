@@ -442,11 +442,6 @@ ServerEvents.recipes(event => {
      * 'gtceu:raw_pentlandite'  40  1   40
      */
     event.recipes.createsifterSifting([
-        Item.of('minecraft:diamond').withChance(0.05),
-        Item.of('mekanism:fluorite_gem').withChance(0.1),
-        Item.of('minecraft:amethyst_shard').withChance(0.1),
-        Item.of('forbidden_arcanus:arcane_crystal').withChance(0.15),
-        Item.of('irons_spellbooks:arcane_salvage').withChance(0.025),
         Item.of('gtceu:raw_goethite').withChance(1 / 5),
         Item.of('gtceu:raw_yellow_limonite').withChance(200 / 500 / 5),
         Item.of('gtceu:raw_hematite').withChance(200 / 500 / 5),

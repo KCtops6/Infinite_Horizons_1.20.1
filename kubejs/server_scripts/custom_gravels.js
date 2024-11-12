@@ -17,10 +17,7 @@ ServerEvents.recipes(event => {
      * Deepslate Gravel
      */
     event.recipes.createCrushing([
-        'kubejs:deepslate_gravel',
-        Item.of('gtceu:deepslate_dust').withChance(0.125),
-        Item.of('gtceu:small_deepslate_dust').withChance(0.25),
-        Item.of('gtceu:tiny_deepslate_dust').withChance(0.5)],
+        'kubejs:deepslate_gravel'],
         'minecraft:deepslate'
     )
     event.recipes.createMilling([
@@ -31,10 +28,7 @@ ServerEvents.recipes(event => {
      * End Stone Gravel
      */
     event.recipes.createCrushing([
-        'kubejs:end_stone_gravel',
-        Item.of('gtceu:endstone_dust').withChance(0.125),
-        Item.of('gtceu:small_endstone_dust').withChance(0.25),
-        Item.of('gtceu:tiny_endstone_dust').withChance(0.5)],
+        'kubejs:end_stone_gravel'],
         'minecraft:end_stone'
     )
     event.recipes.createMilling([

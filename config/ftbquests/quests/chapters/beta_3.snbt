@@ -146,8 +146,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2F9B0013A2D20BA3"]
@@ -430,6 +430,148 @@
 			}]
 			x: 4.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2509EFD6B376DEAF"
+				"7FF3C4BE6D0A1645"
+			]
+			id: "2EA259532C16E78A"
+			tasks: [{
+				id: "060878A1B36A52DB"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C92DF666D71EF2C"]
+			id: "2509EFD6B376DEAF"
+			tasks: [{
+				id: "7F70CBECA6AAB453"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"700D0FB31E0D600E"
+				"69385CCE6FF31DEB"
+			]
+			icon: "create:polished_rose_quartz"
+			id: "10D4FE2EBC3230F9"
+			tasks: [
+				{
+					id: "447567D9E5FC8607"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2043E394313D9E5B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:sandpaper"
+						}
+					}
+					title: "Any #create:sandpaper"
+					type: "item"
+				}
+				{
+					id: "74AA9C225035B291"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["10D4FE2EBC3230F9"]
+			id: "7FF3C4BE6D0A1645"
+			tasks: [{
+				id: "178AF0ABD64EB7FE"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2EA259532C16E78A"]
+			id: "1A09937381BB310B"
+			tasks: [{
+				count: 2L
+				id: "4AE0216707747A82"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7FF3C4BE6D0A1645"
+				"7C92DF666D71EF2C"
+			]
+			id: "0F1560030AAF6516"
+			tasks: [{
+				id: "100D58180372333F"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F1560030AAF6516"]
+			id: "1616F0FD5A80DD57"
+			tasks: [{
+				id: "2C8AF6CCB6BC16D4"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2509EFD6B376DEAF"
+				"1616F0FD5A80DD57"
+			]
+			id: "15A6AA83CF1F3C26"
+			tasks: [{
+				id: "2A4F29F8D2E19ED3"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2509EFD6B376DEAF"
+				"1616F0FD5A80DD57"
+			]
+			id: "2C98519E298BAA42"
+			tasks: [{
+				id: "22030472126560CD"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
 		}
 	]
 	title: "Beta"

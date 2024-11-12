@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","gtceu:dynamic_assets","builtin/towntalk","Moonlight Mods Dynamic Assets","file/MSS_custom_villagers"]
+incompatibleResourcePacks:["builtin/towntalk"]
 lastServer:
 lang:en_us
 soundDevice:""
