@@ -1117,4 +1117,5 @@ Added Just Enough Resources (JER).
 
 Updated Supplementaries.
 
+Updated Alpha questline to add Mega Torch.
 Updated Beta questline to include more of Create mod and general progression.

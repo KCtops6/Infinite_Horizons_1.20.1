@@ -429,6 +429,16 @@
 			x: 4.0d
 			y: 0.0d
 		}
+		{
+			id: "1239D7413CD6DF9A"
+			tasks: [{
+				id: "246E50DB581795CA"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
 	]
 	title: "Alpha"
 }
