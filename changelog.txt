@@ -1128,6 +1128,7 @@ Updated GregTechCEu Modern.
 Updated Harvest with ease.
 Updated Hostile Neural Networks.
 Updated Immersive Aircraft [Fabric/Forge].
+Updated Just Enough Items (JEI).
 Updated Supplementaries.
 
 Updated Alpha questline.
