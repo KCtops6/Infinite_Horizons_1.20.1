@@ -16,7 +16,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			id: "58BF596101EB652D"
@@ -25,22 +25,19 @@
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"58BF596101EB652D"
-				"7392426B0F3550A6"
-			]
+			dependencies: ["58BF596101EB652D"]
 			id: "008F9617AD4A757B"
 			tasks: [{
 				id: "7114A66025317D68"
 				item: "mysticalagriculture:air_essence"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -53,7 +50,7 @@
 				item: "mysticalagriculture:earth_essence"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -67,8 +64,8 @@
 				item: "mysticalagriculture:water_essence"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -81,7 +78,7 @@
 				item: "mysticalagriculture:fire_essence"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -93,10 +90,13 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["64FE1369D9DA79FF"]
+			dependencies: [
+				"64FE1369D9DA79FF"
+				"7FF4CC850ECC3EB8"
+			]
 			id: "0F7904AFEA14F4A4"
 			tasks: [{
 				id: "71E025ED7E4AB5CF"
@@ -104,7 +104,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0F7904AFEA14F4A4"]
@@ -114,11 +114,14 @@
 				item: "mysticalagriculture:nether_essence"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["4D8C16662420211F"]
+			dependencies: [
+				"4D8C16662420211F"
+				"008F9617AD4A757B"
+			]
 			id: "626844B531C63D7F"
 			tasks: [{
 				id: "40D8C9E635759097"
@@ -126,7 +129,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -139,8 +142,8 @@
 				item: "mysticalagriculture:nature_essence"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["24AB91EB9A74B02F"]
@@ -150,8 +153,8 @@
 				item: "mysticalagriculture:coral_essence"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -170,8 +173,8 @@
 				item: "mysticalagriculture:honey_essence"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["008F9617AD4A757B"]
@@ -181,8 +184,8 @@
 				item: "mysticalagriculture:limestone_essence"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4D8C16662420211F"]
@@ -192,8 +195,8 @@
 				item: "mysticalagriculture:blaze_essence"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4D8C16662420211F"]
@@ -203,8 +206,8 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4D8C16662420211F"]
@@ -214,8 +217,8 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0F7904AFEA14F4A4"]
@@ -225,8 +228,104 @@
 				item: "minecraft:deepslate"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1FE1CE8D6DFD3C3B"
+				"58BF596101EB652D"
+			]
+			icon: "mysticalagriculture:infusion_altar"
+			id: "1BA42E7FC0C302FD"
+			tasks: [
+				{
+					id: "41E93831908065CA"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0E61686896B683F3"
+					item: "mysticalagriculture:infusion_pedestal"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58BF596101EB652D"]
+			id: "7DCFBDBE3BBD15A6"
+			tasks: [{
+				id: "3D9BCFAD18EE1F99"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "1FE1CE8D6DFD3C3B"
+			tasks: [{
+				id: "0E52518E64F0E7A7"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "7AA798018009205D"
+			tasks: [{
+				id: "5077CE0F39F52B6F"
+				item: "mysticalagriculture:air_seeds"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			id: "727AEB3EC7576938"
+			tasks: [{
+				id: "14E00ABB75A0348B"
+				item: "mysticalagriculture:earth_seeds"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			id: "64E0C72CBDB2339A"
+			tasks: [{
+				id: "0ECF44C102A2A24B"
+				item: "mysticalagriculture:water_seeds"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			id: "0F78B0255D7DA2DD"
+			tasks: [{
+				id: "33ADF1B4CBC67FD0"
+				item: "mysticalagriculture:fire_seeds"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1BA42E7FC0C302FD"]
+			id: "7FF4CC850ECC3EB8"
+			tasks: [{
+				id: "7DD9EA559D5E246B"
+				item: "mysticalagriculture:stone_seeds"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
 		}
 	]
 	title: "Gamma"
