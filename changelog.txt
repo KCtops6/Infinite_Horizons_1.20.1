@@ -1124,6 +1124,7 @@ Updated Beta questline to include more of Create mod and general progression.
 Added Pipez.
 
 Updated Ars Nouveau.
+Updated GregTechCEu Modern.
 Updated Harvest with ease.
 Updated Hostile Neural Networks.
 Updated Immersive Aircraft [Fabric/Forge].
