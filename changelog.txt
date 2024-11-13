@@ -1121,6 +1121,8 @@ Updated Alpha questline to add Mega Torch
 Updated Beta questline to include more of Create mod and general progression.
 
 1.20.1-7.8
+Added Pipez.
+
 Updated Ars Nouveau.
 Updated Immersive Aircraft [Fabric/Forge].
 
