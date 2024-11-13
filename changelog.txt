@@ -1125,6 +1125,7 @@ Added Pipez.
 
 Updated Ars Nouveau.
 Updated Harvest with ease.
+Updated Hostile Neural Networks.
 Updated Immersive Aircraft [Fabric/Forge].
 
 Updated Alpha questline.
