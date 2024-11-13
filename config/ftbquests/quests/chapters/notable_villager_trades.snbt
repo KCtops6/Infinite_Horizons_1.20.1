@@ -46,28 +46,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["6EA399742F8C544A"]
-			id: "6B6CB23D39BAD646"
-			tasks: [{
-				id: "37779F1E54F2B217"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["6EA399742F8C544A"]
-			id: "043C3E0B59D25377"
-			tasks: [{
-				id: "128AC4B0740A0D04"
-				item: "minecraft:experience_bottle"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
 			id: "45A87DF231894D3B"
 			tasks: [{
 				icon: "villagertools:contract"

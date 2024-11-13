@@ -8,6 +8,10 @@
             {
                 "resultItem": "minecraft:emerald",
                 "priceItem1": "minecraft:wheat"
+            },
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:carrot"
             }
         ],
         "fisherman": [],
@@ -34,7 +38,8 @@
         "agronomancer": [],
         "create_better_villagers:andesite_worker": [],
         "create_better_villagers:miner": [],
-        "shady_wizard": []
+        "shady_wizard": [],
+        "create_better_villagers:brassworker": []
     },
     "globalBookmarks1": {
         "armorer": [],
@@ -57,7 +62,8 @@
         "agronomancer": [],
         "create_better_villagers:andesite_worker": [],
         "create_better_villagers:miner": [],
-        "shady_wizard": []
+        "shady_wizard": [],
+        "create_better_villagers:brassworker": []
     },
     "globalBookmarks2": {
         "armorer": [],
@@ -80,6 +86,7 @@
         "agronomancer": [],
         "create_better_villagers:andesite_worker": [],
         "create_better_villagers:miner": [],
-        "shady_wizard": []
+        "shady_wizard": [],
+        "create_better_villagers:brassworker": []
     }
 }
