@@ -1124,6 +1124,7 @@ Updated Beta questline to include more of Create mod and general progression.
 Added Pipez.
 
 Updated Ars Nouveau.
+Updated Harvest with ease.
 Updated Immersive Aircraft [Fabric/Forge].
 
 Updated Alpha questline.
