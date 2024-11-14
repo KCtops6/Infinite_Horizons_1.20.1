@@ -39,7 +39,8 @@
         "create_better_villagers:andesite_worker": [],
         "create_better_villagers:miner": [],
         "shady_wizard": [],
-        "create_better_villagers:brassworker": []
+        "create_better_villagers:brassworker": [],
+        "apiarist": []
     },
     "globalBookmarks1": {
         "armorer": [],
@@ -63,7 +64,8 @@
         "create_better_villagers:andesite_worker": [],
         "create_better_villagers:miner": [],
         "shady_wizard": [],
-        "create_better_villagers:brassworker": []
+        "create_better_villagers:brassworker": [],
+        "apiarist": []
     },
     "globalBookmarks2": {
         "armorer": [],
@@ -87,6 +89,7 @@
         "create_better_villagers:andesite_worker": [],
         "create_better_villagers:miner": [],
         "shady_wizard": [],
-        "create_better_villagers:brassworker": []
+        "create_better_villagers:brassworker": [],
+        "apiarist": []
     }
 }
