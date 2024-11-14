@@ -1124,6 +1124,7 @@ Updated Beta questline to include more of Create mod and general progression.
 Removed Create: Better Villager (Will readd when trades work as intended).
 Removed Create: Trading Floor.
 
+Added OpenBlocks Elevator.
 Added Pipez.
 
 Updated Ars Nouveau.
