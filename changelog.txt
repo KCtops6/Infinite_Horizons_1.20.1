@@ -1132,6 +1132,7 @@ Updated Harvest with ease.
 Updated Hostile Neural Networks.
 Updated Immersive Aircraft [Fabric/Forge].
 Updated Just Enough Items (JEI).
+Updated Sophisticated Core.
 Updated Supplementaries.
 
 Updated Alpha questline.
