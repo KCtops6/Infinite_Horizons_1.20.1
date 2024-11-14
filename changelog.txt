@@ -1148,3 +1148,5 @@ Updated GregTechCEu Modern.
 
 1.20.1-8.0
 Added Powah! (Rearchitected).
+
+Added Powah! (Rearchitected) questline.

@@ -1,0 +1,373 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "126A1C64F6AE129F"
+	id: "454AF185636D187A"
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"32AEAE8653EF3DA0"
+				"433391CE678F39BF"
+			]
+			id: "73914482B96A28BB"
+			rewards: [
+				{
+					id: "6154B300D9317644"
+					item: "powah:book"
+					type: "item"
+				}
+				{
+					id: "703766A39515D1F5"
+					item: {
+						Count: 1
+						id: "powah:wrench"
+						tag: {
+							PowahWrenchNBT: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "738B79DC5E0985C3"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73914482B96A28BB"]
+			id: "73946C1A23F3852D"
+			tasks: [{
+				id: "543967EA06D13F4E"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3418E356BA888A7E"]
+			id: "7C5EB8071E64881D"
+			tasks: [{
+				id: "2BA26D304FC514BF"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73946C1A23F3852D"
+				"69385CCE6FF31DEB"
+				"0B02C2CF06E35D0C"
+			]
+			id: "3418E356BA888A7E"
+			tasks: [{
+				id: "775DDB3876B75397"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3418E356BA888A7E"]
+			hide_dependency_lines: true
+			id: "59D6C996D9A5FAC4"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "59488BF13C26C673"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"6551C7B584F3DB74"
+				"00AE38E4FD7997BB"
+			]
+			dependency_requirement: "one_completed"
+			id: "0B02C2CF06E35D0C"
+			tasks: [{
+				icon: "thermal:lightning_charge"
+				id: "7686F88D4BE731E9"
+				max_input: 1000L
+				title: "Generate energy for Powah machines."
+				type: "forge_energy"
+				value: 1000L
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"73946C1A23F3852D"
+				"07BEF4B69BF6ECF6"
+			]
+			id: "00AE38E4FD7997BB"
+			tasks: [{
+				id: "1E244DE0011FF81F"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73914482B96A28BB"]
+			id: "07BEF4B69BF6ECF6"
+			tasks: [{
+				id: "660FBCCBB097F678"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C5EB8071E64881D"]
+			id: "4A998FEAA714CFA4"
+			tasks: [{
+				id: "497C937EBE794342"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C5EB8071E64881D"]
+			id: "603EB590FEB70BDB"
+			tasks: [{
+				id: "7088F478B1AC2319"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C5EB8071E64881D"]
+			id: "2AED91EE2560B012"
+			tasks: [{
+				id: "477DF375158FD23D"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C5EB8071E64881D"]
+			id: "343CAC4CE1235C0A"
+			tasks: [{
+				id: "71806D320B695B8B"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["603EB590FEB70BDB"]
+			id: "540329442EDB4177"
+			tasks: [{
+				id: "2FAFAF2E5DDB1EEF"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C5EB8071E64881D"]
+			hide_dependency_lines: true
+			id: "454A3ED924D78183"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "73DFA84BD15634EA"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:energized_steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["454A3ED924D78183"]
+			hide_dependency_lines: true
+			id: "22FA2ABE3CCD9DAB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "42C6F8F563E29D20"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blazing_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["22FA2ABE3CCD9DAB"]
+			hide_dependency_lines: true
+			id: "4AF5AAF53C39B9A9"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1B54DAC06669F278"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:niotic_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2A26526CB1E59048"]
+			hide_dependency_lines: true
+			id: "427EFA67D49D5B2D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4EE5FA1E08310E15"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:nitro_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4AF5AAF53C39B9A9"]
+			hide_dependency_lines: true
+			id: "2A26526CB1E59048"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "20DA3E13D5E1511B"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:spirited_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4A998FEAA714CFA4"]
+			hide_dependency_lines: true
+			id: "55430AA1A7357150"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6C672B0FDBF8C0A5"
+				item: "mysticalagriculture:energized_steel_seeds"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["603EB590FEB70BDB"]
+			hide_dependency_lines: true
+			id: "2E6A30075DF7872E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "20B9800585ECA1AE"
+				item: "mysticalagriculture:blazing_crystal_seeds"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AED91EE2560B012"]
+			hide_dependency_lines: true
+			id: "45D632FE8F2382B1"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "209076A3FE6FB28B"
+				item: "mysticalagriculture:niotic_crystal_seeds"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["343CAC4CE1235C0A"]
+			hide_dependency_lines: true
+			id: "756BDC996CB86C28"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "09A7385804FA4192"
+				item: "mysticalagriculture:spirited_crystal_seeds"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["540329442EDB4177"]
+			hide_dependency_lines: true
+			id: "4F835E5D00CEF294"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4F1E518EF58184A7"
+				item: "mysticalagriculture:nitro_crystal_seeds"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -1.0d
+		}
+	]
+	title: "Powah!"
+}
