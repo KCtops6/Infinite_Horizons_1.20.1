@@ -1121,6 +1121,9 @@ Updated Alpha questline to add Mega Torch
 Updated Beta questline to include more of Create mod and general progression.
 
 1.20.1-7.8
+Removed Create: Better Villager (Will readd when trades work as intended).
+Removed Create: Trading Floor.
+
 Added Pipez.
 
 Updated Ars Nouveau.
