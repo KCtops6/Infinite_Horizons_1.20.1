@@ -1144,3 +1144,4 @@ Updated Ars Nouveau questline.
 1.20.1-7.9
 Updated Ars Elemental.
 Updated Chat Heads.
+Updated GregTechCEu Modern.
