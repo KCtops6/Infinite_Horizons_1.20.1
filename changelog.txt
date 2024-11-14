@@ -1140,3 +1140,6 @@ Updated Alpha questline.
 Updated Beta questline.
 Updated Gamma questline.
 Updated Ars Nouveau questline.
+
+1.20.1-7.9
+Updated Ars Elemental.
