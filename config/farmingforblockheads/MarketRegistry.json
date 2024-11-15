@@ -98,6 +98,15 @@
           "item": "minecraft:emerald"
         },
         "category": "misc"
+      },
+      {
+        "output": {
+          "item": "gtceu:rubber_sapling"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
       }
     ]
   }

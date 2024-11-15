@@ -5,7 +5,7 @@
 	group: "27094FD64355E5E1"
 	icon: "gtceu:steel_gear"
 	id: "488C756FB0557BCC"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -424,7 +424,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["3DD33E15D60501E5"]
 			id: "4ECDDD1105D0E529"
 			tasks: [{
 				id: "0C15A1A0BE82D27C"
@@ -571,7 +570,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3DD33E15D60501E5"]
 			id: "457367F920778FDB"
 			tasks: [{
 				id: "1F996D572C02080D"

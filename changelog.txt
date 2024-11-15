@@ -1160,3 +1160,4 @@ Blacklisted Easy Villagers from Carry On mod to address bug.
 Blacklisted Workers from Carry On mod to address annoying behavior when interacting with workers NPCs.
 Added Raw Tin to Create Sifting.
 Overhauled Gregtech Questline (Just made it a chapter group instead).
+Added Gregtech rubber sapling to Farming for Blockheads stall.

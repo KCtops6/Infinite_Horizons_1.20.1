@@ -5,7 +5,7 @@
 	group: "27094FD64355E5E1"
 	icon: "gtceu:bronze_gear"
 	id: "40EE543225D74FFF"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -141,6 +141,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["318E38B25CBCD41A"]
 			id: "533858BFB4238AD0"
 			subtitle: "Sourced from Rubber trees."
 			tasks: [{
@@ -163,7 +164,7 @@
 				type: "observation"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 8.0d
 		}
 		{
 			id: "40684B2692B35B3A"
@@ -248,11 +249,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"47EC4DDFE478DF2B"
-				"0CB7E6225AC5BDAA"
-				"218B710FC785F1BA"
-			]
+			dependencies: ["47EC4DDFE478DF2B"]
 			id: "2475A724188A23D6"
 			tasks: [{
 				id: "73C724D632F3B7DD"
@@ -333,10 +330,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"2173563E02EA8418"
-				"774133CA03EC0A64"
-			]
+			dependencies: ["2173563E02EA8418"]
 			description: ["Coal, but better"]
 			id: "126953FFAF23AFB3"
 			tasks: [{
@@ -479,10 +473,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"150BDCF763F12A5E"
-				"5FAB65126537CBBA"
-			]
+			dependencies: ["150BDCF763F12A5E"]
 			id: "087B67D19167A2E5"
 			tasks: [{
 				id: "2CF43125CBC7584E"
@@ -550,7 +541,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["34C33FAADE45D3FA"]
+			dependencies: ["3949B38795D8BB00"]
 			description: ["Wrought iron is one of the basic materials of the early game. Its primary use is in steel production, and steel is the building block of your future."]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "7B5357A3DDD2ED56"
@@ -609,68 +600,6 @@
 			y: 0.0d
 		}
 		{
-			id: "34C33FAADE45D3FA"
-			subtitle: "Believe it or not, you'll probably be getting most of this from zombies."
-			tasks: [{
-				id: "534B1FE942E1DDB0"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			description: ["This is minecraft. I don't think coal needs any explanation."]
-			id: "774133CA03EC0A64"
-			tasks: [{
-				id: "57E46CB83F9BFD37"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			id: "218B710FC785F1BA"
-			tasks: [{
-				id: "5A0F09327D6FEAB5"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			id: "0CB7E6225AC5BDAA"
-			tasks: [{
-				icon: "minecraft:sand"
-				id: "78098EAF3839EB28"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:sand"
-					}
-				}
-				title: "Any #forge:sand"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0CB7E6225AC5BDAA"]
-			id: "5FAB65126537CBBA"
-			tasks: [{
-				id: "4F8808153DFBF879"
-				item: "minecraft:glass"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["218B710FC785F1BA"]
 			id: "431327BFC049F56F"
 			tasks: [{
 				id: "4D57FD74F2216F79"
@@ -681,28 +610,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"596C2DC6A2BCD233"
-				"492687CE93251551"
-				"21716EEF4952BAD2"
-			]
-			dependency_requirement: "one_completed"
-			description: ["Early game alloy."]
-			id: "3DD33E15D60501E5"
-			tasks: [{
-				id: "4C8CFEB0874EDA80"
-				item: "gtceu:brass_ingot"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
 			description: ["You won't need much Zinc in the early game in comparison to the other metals, but I would suggest getting a few stacks of ore sooner rather than later, as it can't be automated as easily as the other basic metals."]
 			id: "596C2DC6A2BCD233"
 			tasks: [{
 				id: "1B4E58F46C05FD11"
-				item: "gtceu:zinc_ingot"
+				item: "kubejs:zinc_ingot"
 				type: "item"
 			}]
 			x: -2.0d

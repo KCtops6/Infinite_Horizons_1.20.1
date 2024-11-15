@@ -19,7 +19,7 @@
 		}
 	}
 	id: "0255AD078CA16F6B"
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -58,7 +58,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["00A76B540544D718"]
+			dependencies: [
+				"00A76B540544D718"
+				"3CB2BFF30BA3EF65"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Plates are key components in various crafting recipes, providing the structural integrity needed for advanced machinery and construction."]
 			id: "57EE2444C7EC30F4"
 			subtitle: "Essential for Building and Crafting"
