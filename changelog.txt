@@ -1150,6 +1150,7 @@ Updated GregTechCEu Modern.
 Added Powah! (Rearchitected).
 
 Updated GregTechCEu Modern.
+Updated Puzzles Lib [Forge & Fabric].
 
 Added Powah! (Rearchitected) questline.
 
