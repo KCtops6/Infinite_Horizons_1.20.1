@@ -1147,6 +1147,7 @@ Updated Chat Heads.
 Updated GregTechCEu Modern.
 
 1.20.1-8.0
+Added ImmediatelyFast.
 Added Powah! (Rearchitected).
 
 Updated GregTechCEu Modern.
