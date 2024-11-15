@@ -1150,3 +1150,5 @@ Updated GregTechCEu Modern.
 Added Powah! (Rearchitected).
 
 Added Powah! (Rearchitected) questline.
+
+Blacklisted Sophisticated Storage and Sophisticated Backpacks from Carry On mod to address bug.
