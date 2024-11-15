@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "energy_revolution"
+	group: "27094FD64355E5E1"
+	icon: "gtceu:titanium_gear"
+	id: "0F364628CDEF4E1E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6E8F24281A37A38F"
+				"74C92C4654C18D7A"
+			]
+			id: "6226F21C53AA3E2C"
+			tasks: [{
+				id: "07105409287280A9"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6226F21C53AA3E2C"]
+			icon: "gtceu:tungsten_steel_ingot"
+			id: "459EC4386593E18C"
+			tasks: [
+				{
+					id: "2DE05B55E30F6FBC"
+					item: "gtceu:tungsten_steel_dust"
+					type: "item"
+				}
+				{
+					id: "4FBC09F67E99264C"
+					item: "gtceu:hot_tungsten_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "7F9FA37E672638E5"
+					item: "gtceu:tungsten_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "Tungsten Triumph"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "389362FBBB1AD10C"
+			size: 3.5d
+			tasks: [{
+				id: "2F8EC8553AAEEDCB"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["490E54D7DEF7F070"]
+			icon: "gtceu:ev_machine_hull"
+			id: "6E8F24281A37A38F"
+			tasks: [
+				{
+					id: "416B48615472F3E3"
+					item: "gtceu:ev_machine_casing"
+					type: "item"
+				}
+				{
+					id: "30613DB98D0327BC"
+					item: "gtceu:ev_machine_hull"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["490E54D7DEF7F070"]
+			id: "74C92C4654C18D7A"
+			tasks: [{
+				id: "0FCC0519129E8EE9"
+				item: "gtceu:ev_electric_motor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6226F21C53AA3E2C"]
+			icon: "gtceu:rtm_alloy_ingot"
+			id: "1DAA80E1B1104EC0"
+			tasks: [
+				{
+					id: "5909BB2C5AA133C4"
+					item: "gtceu:rtm_alloy_dust"
+					type: "item"
+				}
+				{
+					id: "72592363AFF92E77"
+					item: "gtceu:hot_rtm_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "3AC72ACC4FF2AA21"
+					item: "gtceu:rtm_alloy_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1DAA80E1B1104EC0"
+				"3F1DB85492EB4850"
+			]
+			id: "0BAA5924ABF7C60E"
+			tasks: [{
+				id: "532E61DD8F613C02"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2F88EABEED32AABF"
+				"04C53CFD22475890"
+				"6E8F24281A37A38F"
+			]
+			id: "3F1DB85492EB4850"
+			tasks: [{
+				id: "48CD2D8E34723E95"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BA4A3E2852F3567"]
+			id: "2F88EABEED32AABF"
+			tasks: [{
+				id: "3524CC4D5F1946AE"
+				item: "gtceu:ev_robot_arm"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74C92C4654C18D7A"]
+			id: "6BA4A3E2852F3567"
+			tasks: [{
+				id: "3ABCABE9FC2551BF"
+				item: "gtceu:ev_electric_piston"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74C92C4654C18D7A"]
+			id: "04C53CFD22475890"
+			tasks: [{
+				id: "110F30847A76FAC9"
+				item: "gtceu:ev_conveyor_module"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+	]
+	title: "Energy Revolution"
+}

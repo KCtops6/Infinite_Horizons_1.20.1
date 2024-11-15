@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_cutting_edge"
+	group: "27094FD64355E5E1"
+	icon: "gtceu:small_rhodium_plated_palladium_gear"
+	id: "7B86CF438B41081C"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["06756BF1AC5D0FDC"]
+		icon: "gtceu:luv_machine_hull"
+		id: "63F85907746C942C"
+		tasks: [
+			{
+				id: "7086BAF2F22CEF78"
+				item: "gtceu:luv_machine_casing"
+				type: "item"
+			}
+			{
+				id: "7E1FC17953143CD9"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "The Cutting Edge"
+}

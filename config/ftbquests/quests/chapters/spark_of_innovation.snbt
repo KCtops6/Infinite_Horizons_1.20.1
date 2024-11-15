@@ -1,0 +1,674 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spark_of_innovation"
+	group: "27094FD64355E5E1"
+	icon: "gtceu:steel_gear"
+	id: "488C756FB0557BCC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "gtceu:lv_electric_motor"
+			id: "1B3FC09F76931D02"
+			subtitle: "The main parts, other than your circuit, which you need to make for a steam turbine. You can magnetize iron by putting it in a crafting table with four redstone dust."
+			tasks: [
+				{
+					count: 2L
+					id: "04C3A4216B64C520"
+					item: { Count: 2, id: "gtceu:lv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "188EF12E042AD3A7"
+					item: { Count: 2, id: "gtceu:tin_rotor" }
+					type: "item"
+				}
+			]
+			title: "Revving up"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1475F0E7ADCDEAF7"]
+			id: "65915A7EEC9EA403"
+			subtitle: "Electricity at last! But first you'll need to make electric machines to replace your steam ones and make some new machines, like the wiremill, to do a lot less crafting."
+			tasks: [{
+				id: "5438D63F8979637B"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "Go for a spin"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"A Brief Description of Gregtech Power:"
+				""
+				"Each single-block power generator produces one amp of power at a particular voltage, and each single-block machine consumes one amp of power at a particular voltage. For now, that voltage is Low Voltage (LV). Each kind of wire has a size, a max voltage rating, and power loss. Power loss means that the longer your cable is, the more power is wasted in transporting that power through the wire. The higher the cable loss, on the tooltip, the more power will be lost. The size of a wire determines the maximum amperage that can go through the wire (1x = 1 amp, 2x = 2 amps, and so on). Do NOT overload the wire or it will catch on fire, and if that fire spreads to the machines, they can explode. Similarly, do NOT exceed the maximum voltage on a wire, or the results will be the same as exceeding the maximum amperage. "
+			]
+			icon: "gtceu:high_voltage_hazard_sign_block"
+			id: "666F57295207056F"
+			size: 1.3d
+			subtitle: "A brief summary."
+			tasks: [{
+				id: "6D974F1E6732E9AC"
+				title: "Gregtech Power"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B5357A3DDD2ED56"]
+			description: ["The first machine casing, the primary ingredient in GregTech machines."]
+			icon: "gtceu:lv_machine_hull"
+			id: "1475F0E7ADCDEAF7"
+			tasks: [
+				{
+					id: "5F5C9AEF696DB2FB"
+					item: "gtceu:lv_machine_casing"
+					type: "item"
+				}
+				{
+					id: "10785A5177BD1EC1"
+					item: "gtceu:lv_machine_hull"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1899E6C86E351D49"
+				"62EF81453EA35985"
+				"03432D325D08F141"
+			]
+			id: "2A2466DB69F16358"
+			size: 3.5d
+			subtitle: "This is expensive, for now, but you only need it for the circuit assembler before mv circuits become cheaper."
+			tasks: [{
+				id: "5FE04322027E68C9"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "First tier 2 circuit"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"282383215617BCF8"
+				"0E73900B7BC74CCF"
+			]
+			description: ["An advanced circuit component."]
+			id: "1899E6C86E351D49"
+			tasks: [{
+				id: "25877158003D649B"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2769D04D1EC38C7D"]
+			id: "0E73900B7BC74CCF"
+			tasks: [{
+				id: "4C9EFCEB8ABD4CA3"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			description: ["Essential for mixing the dusts of advanced alloys."]
+			id: "2769D04D1EC38C7D"
+			tasks: [{
+				id: "049D3DA78EEFB215"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["666F57295207056F"]
+			id: "104DC0EEBEB141B8"
+			subtitle: "Making wire sucks, right? Well not anymore! This machine does it for you. You should begin to process as much as possible in machines."
+			tasks: [{
+				id: "602932BE73E080AE"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			title: "Wiremill"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"282383215617BCF8"
+				"736E39E1CFF1E0E3"
+			]
+			description: ["A better circuit board."]
+			icon: "gtceu:phenolic_printed_circuit_board"
+			id: "62EF81453EA35985"
+			tasks: [
+				{
+					id: "420D438E2CF56754"
+					item: "gtceu:phenolic_circuit_board"
+					type: "item"
+				}
+				{
+					id: "4199519758216E15"
+					item: "gtceu:phenolic_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3146103A8276B095"
+				"0F545B0AF79100FC"
+			]
+			id: "282383215617BCF8"
+			subtitle: "This machine is necessary for making advanced items."
+			tasks: [{
+				id: "2EFBCF4AFC432EC4"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "0F545B0AF79100FC"
+			tasks: [{
+				id: "06F649AE883DDEE3"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EFE87646A3A978E"]
+			description: ["Crafting component as well as a way to feed items into machine when used as a cover."]
+			id: "3146103A8276B095"
+			tasks: [{
+				id: "0C603530C1FE8D00"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["198F9235D3061A31"]
+			description: ["Cheaper rods and screws."]
+			id: "7EFE87646A3A978E"
+			tasks: [{
+				id: "297BA794E74130C4"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "198F9235D3061A31"
+			tasks: [{
+				id: "37AAE74D5954D4CA"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FDB77CAEF1B2D3D"]
+			id: "736E39E1CFF1E0E3"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:glue"
+				id: "29D06B099EA72CCB"
+				type: "fluid"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			description: ["Go take it for a spin."]
+			id: "5FDB77CAEF1B2D3D"
+			tasks: [{
+				id: "405BBD838F221D93"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			description: ["Both a recycler and a way to cook some materials much more quickly than in a furncce."]
+			id: "14C2F80723575693"
+			tasks: [{
+				id: "125C4491A035DD81"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "34B872F5BD2AF614"
+			tasks: [{
+				id: "1E13E7812AAC4A50"
+				item: "gtceu:lv_alloy_smelter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"34B872F5BD2AF614"
+				"2769D04D1EC38C7D"
+			]
+			dependency_requirement: "one_completed"
+			id: "1B541BD95B987FD3"
+			tasks: [{
+				id: "5A5D056438614968"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1B04D2A2FA236B65"
+				"198F9235D3061A31"
+			]
+			id: "493C4DC08B67D755"
+			tasks: [{
+				id: "747D4DD3AC1688B3"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "1B04D2A2FA236B65"
+			tasks: [{
+				id: "73A55FFE687F1087"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["198F9235D3061A31"]
+			description: ["Cheap plates!"]
+			id: "201744E822796650"
+			tasks: [{
+				id: "7FC12D7EE5A68DC9"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F259F2288EF01E9"]
+			id: "39ADF2F429BEEBCB"
+			tasks: [{
+				id: "66B130BF9B138DBD"
+				item: "gtceu:heatproof_machine_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"39ADF2F429BEEBCB"
+				"7675990FCC654CF4"
+			]
+			description: ["You'll want a lot of these, but one is fine for now. With it you can make Aluminum as well as a host of other metals. It's a slow machine though, so make sure you automate it."]
+			id: "71D4517175C40F02"
+			tasks: [{
+				id: "79F3B5122947D2F1"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7D24A1439F48FC6B"
+				"1B541BD95B987FD3"
+				"201744E822796650"
+				"493C4DC08B67D755"
+			]
+			description: ["The first tier of electronic blast furnace coils. As you get access to higher tiers of coil, you'll want to switch them out for efficiency reasons, as well as processing more advanced materials."]
+			id: "7675990FCC654CF4"
+			tasks: [{
+				count: 16L
+				id: "00FB348B7A20EBF8"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["71D4517175C40F02"]
+			description: ["The basic material for MV."]
+			id: "4508FC26C8FF9312"
+			tasks: [{
+				id: "77765ED082F76490"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["71D4517175C40F02"]
+			icon: "gtceu:chromium_ingot"
+			id: "7902E74CC506134E"
+			tasks: [
+				{
+					id: "5B310E788C5C4521"
+					item: "gtceu:chromium_dust"
+					type: "item"
+				}
+				{
+					id: "6E324295A607759D"
+					item: "gtceu:chromium_ingot"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0F545B0AF79100FC"
+				"3146103A8276B095"
+				"4ECDDD1105D0E529"
+			]
+			description: ["The machine for making circuits. You don't need a cleanroom yet, but that will become essential for higher tier circuits."]
+			id: "03432D325D08F141"
+			tasks: [{
+				id: "7B73DC032A40505E"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3DD33E15D60501E5"]
+			id: "4ECDDD1105D0E529"
+			tasks: [{
+				id: "0C15A1A0BE82D27C"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "58491485CC04AC86"
+			tasks: [{
+				id: "487F88E459BE1FAE"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14C2F80723575693"]
+			id: "616A41F6A769D473"
+			tasks: [{
+				id: "5DB0ABEB92C82547"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1DF40AB89C63437B"
+				"1B04D2A2FA236B65"
+			]
+			icon: "gtceu:lv_gas_collector"
+			id: "3EC40280BEEDD143"
+			tasks: [
+				{
+					id: "704ECE355BD4C1B5"
+					item: "gtceu:lv_gas_collector"
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:air"
+					icon: "gtceu:air_bucket"
+					id: "5F1AEF88F268BDA5"
+					type: "fluid"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["201744E822796650"]
+			id: "1DF40AB89C63437B"
+			tasks: [{
+				id: "5456DB51DCC75B92"
+				item: "gtceu:fluid_filter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C6E976FFF235627"]
+			description: ["Power storage"]
+			id: "347D449CDB23BBF7"
+			tasks: [{
+				id: "6D7284AA7C7716A6"
+				item: "gtceu:lv_battery_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B04D2A2FA236B65"]
+			id: "3D467C07CD5C98F0"
+			tasks: [{
+				id: "4A76AE142A71B5F6"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"347D449CDB23BBF7"
+				"3D467C07CD5C98F0"
+			]
+			description: ["Its nice to have reusable power storage."]
+			id: "4B72A4B3D055F13B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:lv_sodium_battery"
+					tag: {
+						Charge: 80000L
+					}
+				}
+				id: "279C7973E51BD8CC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/lv"
+					}
+				}
+				type: "item"
+			}]
+			title: "Small rechargable batteries"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7EFE87646A3A978E"]
+			description: ["Easily magnetize your parts."]
+			id: "7E6786A419D6D1F1"
+			tasks: [{
+				id: "0B36D05CBD4E63A5"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7E6786A419D6D1F1"
+				"4B72A4B3D055F13B"
+			]
+			description: ["Picks up items in a larger radius than normal."]
+			id: "6540E0AE8E69A1A9"
+			tasks: [{
+				id: "46A0DFC9CA8D2290"
+				item: "gtceu:lv_item_magnet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DD33E15D60501E5"]
+			id: "457367F920778FDB"
+			tasks: [{
+				id: "1F996D572C02080D"
+				item: "gtceu:lv_sensor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4ECDDD1105D0E529"
+				"457367F920778FDB"
+				"644B42E6620EB785"
+				"4B72A4B3D055F13B"
+			]
+			id: "2E809C8E132CCB47"
+			tasks: [{
+				id: "73C4582927B74EE8"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.lv"
+					tag: {
+						Charge: 100000L
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["201744E822796650"]
+			id: "751496BCF6A43279"
+			tasks: [{
+				id: "43F8C65C62A48D08"
+				item: "gtceu:item_filter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1B04D2A2FA236B65"
+				"282383215617BCF8"
+			]
+			id: "5CFA1E736D4BCBD1"
+			tasks: [{
+				id: "081D8BF85152E7C3"
+				item: "gtceu:lv_fluid_regulator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C6E976FFF235627"]
+			description: ["Power storage, but bigger"]
+			id: "6B4D32E70C14BE6E"
+			tasks: [{
+				id: "24203C60A3644269"
+				item: "gtceu:mv_battery_hull"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6B4D32E70C14BE6E"
+				"3D467C07CD5C98F0"
+			]
+			description: ["What it says on the tin."]
+			id: "740DDF08286126C0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:mv_sodium_battery"
+					tag: {
+						Charge: 360000L
+					}
+				}
+				id: "6E126E33CF3B2F4E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/mv"
+					}
+				}
+				type: "item"
+			}]
+			title: "Medium rechargable batteries"
+			x: 5.0d
+			y: 1.0d
+		}
+	]
+	title: "Spark of Innovation"
+}

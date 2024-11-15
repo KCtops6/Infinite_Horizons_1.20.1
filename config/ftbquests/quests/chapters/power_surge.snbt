@@ -1,0 +1,406 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_surge"
+	group: "27094FD64355E5E1"
+	icon: "gtceu:aluminium_gear"
+	id: "379516D7C3D4ABB7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4508FC26C8FF9312"]
+			icon: "gtceu:mv_machine_hull"
+			id: "6D6D7042220BC8E0"
+			tasks: [
+				{
+					id: "7C8A2F5A629C1CFC"
+					item: "gtceu:mv_machine_casing"
+					type: "item"
+				}
+				{
+					id: "3D430F0B96C55B03"
+					item: "gtceu:mv_machine_hull"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0C71012B81CD5612"
+				"6D6D7042220BC8E0"
+			]
+			id: "08E4BE30CBF658FF"
+			tasks: [{
+				id: "30BED5B649E88DEC"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08E4BE30CBF658FF"]
+			icon: "gtceu:vanadium_steel_ingot"
+			id: "40DD52FC3C2ECD90"
+			tasks: [
+				{
+					id: "3B9D29951F88C606"
+					item: "gtceu:vanadium_steel_dust"
+					type: "item"
+				}
+				{
+					id: "236C8611CC854BFA"
+					item: "gtceu:vanadium_steel_ingot"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4508FC26C8FF9312"]
+			id: "0C71012B81CD5612"
+			tasks: [{
+				id: "72501EAF0368DB36"
+				item: "gtceu:mv_electric_motor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C71012B81CD5612"]
+			id: "11F704F1111A775E"
+			tasks: [{
+				id: "3EF2C3BBE15EF3CD"
+				item: "gtceu:mv_conveyor_module"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"11F704F1111A775E"
+				"40DD52FC3C2ECD90"
+			]
+			id: "26E68DB3F2F38055"
+			tasks: [{
+				id: "1E26188C64606EEE"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26E68DB3F2F38055"]
+			icon: "gtceu:silicon_wafer"
+			id: "73495113C8FF1953"
+			tasks: [
+				{
+					id: "5D643A874A214164"
+					item: "gtceu:silicon_boule"
+					type: "item"
+				}
+				{
+					id: "6E8C176A93297825"
+					item: "gtceu:silicon_wafer"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"73495113C8FF1953"
+				"295BF0FBED18AFAE"
+			]
+			icon: "gtceu:ilc_chip"
+			id: "3B3E487D4F52B56E"
+			tasks: [
+				{
+					id: "5F46CB8CC58AE0C5"
+					item: "gtceu:ilc_wafer"
+					type: "item"
+				}
+				{
+					id: "6B2EAA023FACFB1E"
+					item: "gtceu:ilc_chip"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B3E487D4F52B56E"]
+			id: "13C714CDD596A253"
+			tasks: [{
+				id: "6EC368AEA676C45E"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			title: "The Second Tier 1 Circuit"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["13C714CDD596A253"]
+			id: "7319AB473A67321D"
+			subtitle: "MV circuits should be less torturous to make now."
+			tasks: [{
+				id: "673E5BB7B795B991"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			title: "The Second Tier 2 Circuit"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"295BF0FBED18AFAE"
+				"73495113C8FF1953"
+			]
+			icon: "gtceu:ram_chip"
+			id: "4B010AC94EA92D43"
+			tasks: [
+				{
+					id: "05566B86EC375597"
+					item: "gtceu:ram_wafer"
+					type: "item"
+				}
+				{
+					id: "5E0AFB6B01A674A2"
+					item: "gtceu:ram_chip"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1BC2D31CE870936F"
+				"377882C9199042DD"
+			]
+			id: "295BF0FBED18AFAE"
+			tasks: [{
+				id: "4FFC83DBE7D6D14C"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2A2466DB69F16358"
+				"13CE2C7E2DDECF87"
+			]
+			id: "1BC2D31CE870936F"
+			tasks: [{
+				id: "64FE5BD9999DBB46"
+				item: "gtceu:mv_emitter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C71012B81CD5612"]
+			id: "377882C9199042DD"
+			tasks: [{
+				id: "3ED03F70A5EA4CC2"
+				item: "gtceu:mv_electric_piston"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["377882C9199042DD"]
+			id: "21763463E06D128F"
+			tasks: [{
+				id: "4024374B55C12347"
+				item: "gtceu:mv_robot_arm"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C71012B81CD5612"]
+			id: "4DEF582EBDC57856"
+			tasks: [{
+				id: "7FFA056345665A79"
+				item: "gtceu:mv_electric_pump"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2663FA7EC0D5D8D3"
+				"08E4BE30CBF658FF"
+			]
+			id: "18AAA5656C12177C"
+			tasks: [{
+				id: "1F2745EDB46ACB08"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08E4BE30CBF658FF"]
+			icon: "gtceu:stainless_steel_ingot"
+			id: "41AD7999FA7A0C9F"
+			tasks: [
+				{
+					id: "2369D830D1CB1C95"
+					item: "gtceu:stainless_steel_dust"
+					type: "item"
+				}
+				{
+					id: "00502236531C4C9A"
+					item: "gtceu:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"11F704F1111A775E"
+				"21763463E06D128F"
+			]
+			id: "7B7D400B9162868B"
+			tasks: [{
+				id: "6868431067BF6207"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7B7D400B9162868B"
+				"18AAA5656C12177C"
+			]
+			id: "302B33F84C8A395A"
+			tasks: [{
+				id: "72B36A739BEACD50"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["302B33F84C8A395A"]
+			id: "78B4A91E76458A0A"
+			tasks: [{
+				id: "657B51D4036E4265"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"11F704F1111A775E"
+				"4DEF582EBDC57856"
+			]
+			id: "2663FA7EC0D5D8D3"
+			tasks: [{
+				id: "1BFDC677FD0A1BB1"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["78B4A91E76458A0A"]
+			id: "575334973365021F"
+			tasks: [{
+				id: "27A60ECDBB35A732"
+				item: "gtceu:silicon_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7319AB473A67321D"
+				"4B010AC94EA92D43"
+				"392BCEBE07EE3CC3"
+			]
+			id: "7D39F0145D3C1A88"
+			size: 3.5d
+			tasks: [{
+				id: "323E66BD4E78E160"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["575334973365021F"]
+			id: "392BCEBE07EE3CC3"
+			tasks: [{
+				id: "10A04BD763709013"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1BC2D31CE870936F"
+				"11F704F1111A775E"
+				"6D6D7042220BC8E0"
+				"21763463E06D128F"
+			]
+			id: "482C32A62AE8173F"
+			tasks: [{
+				id: "1E30DE66F329B604"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4DEF582EBDC57856"
+				"6D6D7042220BC8E0"
+				"377882C9199042DD"
+				"2A2466DB69F16358"
+			]
+			id: "648A672A10D40DDB"
+			tasks: [{
+				id: "40353897EF9F25A7"
+				item: "gtceu:mv_extractor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "Power Surge"
+}

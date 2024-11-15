@@ -1,0 +1,998 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_of_the_trade"
+	group: "27094FD64355E5E1"
+	icon: {
+		Count: 1
+		id: "gtceu:wrought_iron_hammer"
+		tag: {
+			DisallowContainerItem: 0b
+			GT.Behaviours: { }
+			GT.Tool: {
+				Damage: 0
+				HarvestLevel: 2
+				MaxDamage: 383
+				ToolSpeed: 6.0f
+			}
+			HideFlags: 2
+		}
+	}
+	id: "0255AD078CA16F6B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The GregTech Hammer is a fundamental tool for crafting and refining materials, essential for your industrial journey."]
+			id: "00A76B540544D718"
+			subtitle: "The Essential Tool for Shaping Metal"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "4B70A74C64D47A27"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hammers"
+					}
+				}
+				title: "Craft a Gregtech Hammer"
+				type: "item"
+			}]
+			title: "First Impact"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00A76B540544D718"]
+			description: ["Plates are key components in various crafting recipes, providing the structural integrity needed for advanced machinery and construction."]
+			id: "57EE2444C7EC30F4"
+			subtitle: "Essential for Building and Crafting"
+			tasks: [{
+				icon: "gtceu:iron_plate"
+				id: "649D524E0C9745E4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates"
+					}
+				}
+				title: "Craft a Gregtech Plate"
+				type: "item"
+			}]
+			title: "Flat Foundations"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57EE2444C7EC30F4"]
+			description: ["The File is essential for finishing touches on metal components, ensuring smooth edges and precise fits in your assemblies."]
+			id: "18C2DE07B655DAE5"
+			subtitle: "Smoothing and Shaping Metal with Precision"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_file"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				id: "1095F482DEFB0A40"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/files"
+					}
+				}
+				type: "item"
+			}]
+			title: "Edge Refinement"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["The Scythe is designed for quickly harvesting crops and clearing large areas of vegetation, maximizing your agricultural efficiency."]
+			id: "3640168A954720AC"
+			subtitle: "A Tool for Efficient Gathering"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_scythe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 2
+							AoELayer: 2
+							AoERow: 2
+							MaxAoEColumn: 2
+							MaxAoELayer: 2
+							MaxAoERow: 2
+						}
+						GT.Tool: {
+							AttackDamage: 7.0f
+							AttackSpeed: -3.0f
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 767
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "48C6149AB0CD4DFE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/scythes"
+					}
+				}
+				title: "Craft a Gregtech Scythe"
+				type: "item"
+			}]
+			title: "Harvesting the Fields"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: ["The Mortar is a key tool for grinding down raw materials, allowing you to access finer components for crafting."]
+			id: "21716EEF4952BAD2"
+			subtitle: "Breaking Down Materials for Advanced Processing"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_mortar"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				id: "44752A469DC9784A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/mortars"
+					}
+				}
+				title: "Craft a Gregtech Mortar"
+				type: "item"
+			}]
+			title: "Powdered Precision"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["The Pickaxe is crucial for mining valuable ores and resources from the earth, allowing you to expand your technological capabilities."]
+			id: "15D90AE2E14087EF"
+			subtitle: "Your Essential Tool for Mineral Extraction"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_pickaxe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "033BEE90ED783AC7"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "minecraft:pickaxes"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "gtceu"
+								}
+							}
+						]
+					}
+				}
+				title: "Craft a Gregtech Pickaxe"
+				type: "item"
+			}]
+			title: "Digging Deeper"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["The Shovel is essential for digging and moving soil, gravel, and sand, helping you prepare your environment for construction and resource collection."]
+			id: "0B8CC62429BBB836"
+			subtitle: "The Tool for Efficient Excavation"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_shovel"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "020BBC2BC8D351CA"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "gtceu"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "minecraft:shovels"
+								}
+							}
+						]
+					}
+				}
+				title: "Craft a Gregtech Shovel"
+				type: "item"
+			}]
+			title: "Unearthing Potential"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["The GregTech Axe is designed for high durability, making resource gathering faster and more efficient."]
+			id: "591C26765A5132E0"
+			subtitle: "Efficient Woodcutting for Industrial Needs"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_axe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							DisableShields: 1b
+							TreeFelling: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 4.0f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "7314CAE2724F28D8"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "gtceu"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "minecraft:axes"
+								}
+							}
+						]
+					}
+				}
+				title: "Craft a Gregtech Axe"
+				type: "item"
+			}]
+			title: "Cut Above the Rest"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["Rods serve as fundamental building blocks in construction and machinery, providing strength and support to your creations."]
+			id: "0A995312F8694AC5"
+			subtitle: "Versatile Component for Various Applications"
+			tasks: [{
+				icon: "gtceu:iron_rod"
+				id: "3024C07160B534F9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:rods"
+					}
+				}
+				title: "Craft a Gregtech Rod"
+				type: "item"
+			}]
+			title: "Strength in Structure"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["The Knife is vital for cutting and preparing various materials, enhancing your efficiency in crafting and resource management."]
+			id: "0ACD3291054D03E3"
+			subtitle: "An Essential Tool for Resource Processing"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_knife"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 2.0f
+							AttackSpeed: 3.0f
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				id: "21CEDA2BA2A8FD5A"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "gtceu"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "forge:tools/knives"
+								}
+							}
+						]
+					}
+				}
+				title: "Craft a Gregtech Knife"
+				type: "item"
+			}]
+			title: "Sharp Precision"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["The Saw is essential for crafting and refining wood materials, allowing for precise cuts and efficient resource utilization."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_saw"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						HarvestIce: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 255
+					}
+					HideFlags: 2
+				}
+			}
+			id: "5FB916CCD96867A0"
+			subtitle: "Shaping Materials with Accuracy"
+			tasks: [{
+				id: "3FFCD90E591062B9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/saws"
+					}
+				}
+				title: "Craft a Gregtech Saw"
+				type: "item"
+			}]
+			title: "Precision Cuts"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A995312F8694AC5"]
+			description: ["The Screwdriver is vital for assembling and fine-tuning machinery, allowing you to secure and adjust fasteners with ease."]
+			id: "4F1572D488861ABC"
+			subtitle: "Precision Tool for Securing Components"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_screwdriver"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				id: "45E3DED1B70038A7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/screwdrivers"
+					}
+				}
+				title: "Craft a Gregtech Screwdriver"
+				type: "item"
+			}]
+			title: "Fine Adjustments"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0A995312F8694AC5"
+				"5FB916CCD96867A0"
+			]
+			description: ["Bolts are crucial for assembling machinery and structures, ensuring that your creations remain secure and functional."]
+			id: "6E29B3B5BE33159A"
+			subtitle: "Fastening Components with Reliability"
+			tasks: [{
+				icon: "gtceu:iron_bolt"
+				id: "453CDD0AD2598F84"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bolts"
+					}
+				}
+				title: "Craft a Gregtech Bolt"
+				type: "item"
+			}]
+			title: "Locked in Place"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E29B3B5BE33159A"]
+			description: ["Screws play a vital role in securing parts together, ensuring that your machinery operates smoothly and efficiently."]
+			id: "2A6B0E7FADD52577"
+			subtitle: "The Essential Fastener for Every Project"
+			tasks: [{
+				icon: "gtceu:iron_screw"
+				id: "065453944379D89B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:screws"
+					}
+				}
+				type: "item"
+			}]
+			title: "Turning Point"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2A6B0E7FADD52577"
+				"4F1572D488861ABC"
+			]
+			description: ["Wire Cutters are essential for managing and shaping wires, facilitating the creation of complex electrical systems."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wire_cutter"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "1778856E931F27D7"
+			subtitle: "Precision Cutting for Electrical Needs"
+			tasks: [{
+				id: "4B2CC30500F85B33"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/wire_cutters"
+					}
+				}
+				title: "Craft Gregtech Wire Cutters"
+				type: "item"
+			}]
+			title: "Connections Made"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["The GregTech Sword provides the strength and durability needed to defend yourself in hostile environments."]
+			id: "1B1382779DE7A9FF"
+			subtitle: "Reliable Defense and Offense"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_sword"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 5.0f
+							AttackSpeed: -2.4f
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				id: "7CEF0381B1A02C80"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "gtceu"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "minecraft:swords"
+								}
+							}
+						]
+					}
+				}
+				title: "Craft a Gregtech Sword"
+				type: "item"
+			}]
+			title: "Edge of Precision"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57EE2444C7EC30F4"]
+			description: ["The Wrench is essential for assembling machines and maintaining precision in your industrial setup."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wrench"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "3C5E3F0D1178E5E1"
+			subtitle: "The Tool for Adjustments and Assembly"
+			tasks: [{
+				id: "19C28878B19A8539"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/wrench"
+					}
+				}
+				title: "Craft a Gregtech Wrench"
+				type: "item"
+			}]
+			title: "Torque and Tension"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["The Mining Hammer’s wide impact allows you to clear large areas quickly, making resource gathering more efficient."]
+			id: "3787F4D2D69336C3"
+			subtitle: "Efficient Mining on a Larger Scale"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 767
+							ToolSpeed: 4.8f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "33A069DEAADA56F1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/mining_hammers"
+					}
+				}
+				title: "Craft a Gregtech Mining Hammer"
+				type: "item"
+			}]
+			title: "Groundbreaker"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["The Spade’s wide reach enables rapid excavation, perfect for clearing large areas of dirt, sand, and gravel."]
+			id: "3D3EE5985F0FB421"
+			subtitle: "Clearing Terrain with Ease"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_spade"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 767
+							ToolSpeed: 4.8f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "2700D9B2CAE565A0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/spades"
+					}
+				}
+				title: "Craft a Gregtech Spade"
+				type: "item"
+			}]
+			title: "Earthmover"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A995312F8694AC5"]
+			description: ["The Butchery Knife, imbued with looting III, ensures that each harvest yields maximum returns, making it an invaluable tool for resource collection."]
+			id: "3BD9917C49A8E92E"
+			subtitle: "Enhancing Resource Gathering with Every Slice"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_butchery_knife"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:looting"
+							lvl: 3s
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 3.5f
+							AttackSpeed: -1.3f
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				id: "37D8FAB888DB033D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/butchery_knives"
+					}
+				}
+				title: "Craft a Gregtech Butchery Knife"
+				type: "item"
+			}]
+			title: "Fortunate Cuts"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A995312F8694AC5"]
+			description: ["The Crowbar is essential for prying apart structures and dismantling components, providing you with the leverage needed for efficient deconstruction."]
+			id: "444165732980B396"
+			subtitle: "A Tool for Manipulating the Environment"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_crowbar"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "289A4F2B32CAC420"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/crowbars"
+					}
+				}
+				title: "Craft a Gregtech Crowbar"
+				type: "item"
+			}]
+			title: "Forceful Leverage"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18C2DE07B655DAE5"]
+			description: ["The Hoe is essential for preparing soil for planting, enabling you to cultivate crops and maximize your agricultural yield."]
+			id: "0AF217CFE5DBA320"
+			subtitle: "Cultivating the Land for Abundant Harvests"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_hoe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				id: "37E954526167BE47"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "gtceu"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "minecraft:hoes"
+								}
+							}
+						]
+					}
+				}
+				title: "Craft a Gregtech Hoe"
+				type: "item"
+			}]
+			title: "Tilling the Earth"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57EE2444C7EC30F4"]
+			description: ["Foil is crucial for creating lightweight structures and components, enabling innovative designs in your technological advancements."]
+			id: "41AC184710EF09B1"
+			subtitle: "Versatile Material for Various Applications"
+			tasks: [{
+				icon: "gtceu:tin_foil"
+				id: "43200512BA1BD957"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:foils"
+					}
+				}
+				title: "Craft Gregtech Foil"
+				type: "item"
+			}]
+			title: "Thin Layers"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A995312F8694AC5"]
+			description: ["Rings serve as fundamental components in machinery and crafting, providing essential connections that enhance structural stability."]
+			id: "5787020220B334FA"
+			subtitle: "Essential for Connection and Support"
+			tasks: [{
+				icon: "gtceu:iron_ring"
+				id: "14B909DC8EEA761A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:rings"
+					}
+				}
+				title: "Craft Gregtech Ring"
+				type: "item"
+			}]
+			title: "Circular Strength"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2A6B0E7FADD52577"
+				"4F1572D488861ABC"
+				"5787020220B334FA"
+			]
+			description: ["Rotors are vital for converting energy into motion, playing a crucial role in the operation of various machines and devices."]
+			id: "5881A8F3C001BA90"
+			subtitle: "Key Component for Rotational Mechanics"
+			tasks: [{
+				icon: "gtceu:tin_rotor"
+				id: "48CCC1E3DE1D1EF7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:rotors"
+					}
+				}
+				title: "Craft Gregtech Rotor"
+				type: "item"
+			}]
+			title: "Spinning Power"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0A995312F8694AC5"
+				"3C5E3F0D1178E5E1"
+			]
+			description: ["Gears are essential for transmitting motion and force, making them critical components in the functioning of complex machines."]
+			id: "3CD3D033CFE595DC"
+			subtitle: "The Heart of Machinery"
+			tasks: [{
+				icon: "gtceu:iron_gear"
+				id: "5CA1A600BFF43D19"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:gears"
+					}
+				}
+				type: "item"
+			}]
+			title: "Mechanical Precision"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"41AC184710EF09B1"
+				"1778856E931F27D7"
+			]
+			description: ["Fine Wire is crucial for crafting intricate electrical components, enabling efficient transmission of energy in your technological creations."]
+			id: "33A4E9921DEF0BCA"
+			subtitle: "Essential for Electrical Applications"
+			tasks: [{
+				icon: "gtceu:fine_tin_wire"
+				id: "13B82FE9F8E7190B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:fine_wires"
+					}
+				}
+				title: "Craft Gregtech Fine Wire"
+				type: "item"
+			}]
+			title: "Delicate Connections"
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+	title: "Tools of the Trade"
+}
