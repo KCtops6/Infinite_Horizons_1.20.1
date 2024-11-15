@@ -77,20 +77,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3418E356BA888A7E"]
-			hide_dependency_lines: true
-			id: "59D6C996D9A5FAC4"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "59488BF13C26C673"
-				item: "powah:energizing_rod_basic"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -0.75d
-		}
-		{
 			dependencies: [
 				"6551C7B584F3DB74"
 				"00AE38E4FD7997BB"
