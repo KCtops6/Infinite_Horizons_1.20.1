@@ -352,12 +352,27 @@
 		}
 		{
 			dependencies: ["51751DE96026D275"]
+			icon: "kubejs:basalz_catalyst"
 			id: "588D5CEF39A19451"
-			tasks: [{
-				id: "650E181B1BEF5BB3"
-				item: "kubejs:basalz_catalyst"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "650E181B1BEF5BB3"
+					item: "kubejs:basalz_catalyst"
+					type: "item"
+				}
+				{
+					entity: "thermal:basalz"
+					icon: "thermal:basalz_spawn_egg"
+					id: "67A680F8ED851BC2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "482D1DF199F4BE16"
+					item: "thermal:basalz_rod"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -2.5d
 		}
@@ -384,6 +399,10 @@
 			y: -4.5d
 		}
 		{
+			dependencies: [
+				"507CEA8B4B575B69"
+				"1A09937381BB310B"
+			]
 			id: "6A7FF4A09986C53B"
 			tasks: [{
 				id: "5A698C08BAC233B5"
@@ -392,6 +411,39 @@
 			}]
 			x: 2.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["588D5CEF39A19451"]
+			id: "0DD52833D4451C3E"
+			tasks: [{
+				id: "3434BA262D9112E1"
+				item: "mysticalagriculture:basalz_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["037F934A0DC1D983"]
+			id: "0E748CF949971E32"
+			tasks: [{
+				id: "0A5F330253BFAFCC"
+				item: "mysticalagriculture:blitz_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["73F7866DC7159FF1"]
+			id: "262F9605CA1DB5A4"
+			tasks: [{
+				id: "5339CA45BDEBF6AC"
+				item: "mysticalagriculture:blizz_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Mob Summoning and Rare Items"]
