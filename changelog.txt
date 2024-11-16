@@ -1167,6 +1167,7 @@ Added Better Compatibility Checker.
 Added [EMF] Entity Model Features [Fabric & Forge].
 Added [ETF] Entity Texture Features - [Fabric & Forge].
 Added fix GPU memory leak[Forge/Fabric].
+Added Productive Trees.
 
 Updated GregTechCEu Modern.
 Updated Sophisticated Backpacks.
