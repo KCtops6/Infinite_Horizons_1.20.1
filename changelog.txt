@@ -1179,3 +1179,4 @@ Added Create Mixing Recipes for Bronze, Constantan, Electrum, Invar Ingots.
 Added Bronze, Constantan, Electrum, Invar, Lead, Nickel, Silver, and Tin Plates to better unify the plates.
 Added Create Pressing recipes for the plates above.
 Added Create Haunting recipe for the Iesnium Ingot (recipe probably going to change in the future).
+Fixed Deepslate Gravel Create Sifting.
