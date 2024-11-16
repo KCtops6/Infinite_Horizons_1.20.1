@@ -1182,3 +1182,5 @@ Added Create Pressing recipes for the plates above.
 Added Create Haunting recipe for the Iesnium Ingot (recipe probably going to change in the future).
 Fixed Deepslate Gravel Create Sifting.
 Added Create Mixing recipe for Powah dielectric paste.
+
+1.20.1-8.2
