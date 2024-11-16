@@ -7,6 +7,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:ingots/lead', 'kubejs:lead_ingot');
   event.add('forge:ingots/nickel', 'kubejs:nickel_ingot');
   event.add('forge:ingots/silver', 'kubejs:silver_ingot');
+  event.add('forge:ingots/steel', 'kubejs:steel_ingot');
   event.add('forge:ingots/tin', 'kubejs:tin_ingot');
   event.add('forge:ingots/zinc', 'kubejs:zinc_ingot');
 });

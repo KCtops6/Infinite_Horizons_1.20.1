@@ -7,6 +7,7 @@ StartupEvents.registry('item', e => {
     e.create('lead_ingot').displayName('Lead Ingot');
     e.create('nickel_ingot').displayName('Nickel Ingot');
     e.create('silver_ingot').displayName('Silver Ingot');
+    e.create('steel_ingot').displayName('Steel Ingot');
     e.create('tin_ingot').displayName('Tin Ingot');
     e.create('zinc_ingot').displayName('Zinc Ingot');
 });

@@ -1169,7 +1169,7 @@ Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Supplementaries.
 
-Added Bronze, Constantan, Electrum, Invar, Lead, Nickel, Silver, and Tin Ingots to better unify the ingots.
+Added Bronze, Constantan, Electrum, Invar, Lead, Nickel, Silver, Steel, and Tin Ingots to better unify the ingots.
 Added Create Mixing Recipes for Bronze, Constantan, Electrum, Invar Ingots.
 Added Bronze, Constantan, Electrum, Invar, Lead, Nickel, Silver, and Tin Plates to better unify the plates.
 Added Create Pressing recipes for the plates above.
