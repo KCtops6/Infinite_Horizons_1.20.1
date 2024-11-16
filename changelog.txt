@@ -1172,3 +1172,4 @@ Updated Supplementaries.
 Added Bronze, Constantan, Electrum, Invar, Lead, Nickel, Silver, and Tin Ingots to better unify the ingots.
 Added Bronze, Constantan, Electrum, Invar, Lead, Nickel, Silver, and Tin Plates to better unify the plates.
 Added Create Pressing recipes for the plates above.
+Added Create Haunting recipe for the Iesnium Ingot (recipe probably going to change in the future)
