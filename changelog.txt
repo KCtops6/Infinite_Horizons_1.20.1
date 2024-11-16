@@ -1163,6 +1163,8 @@ Overhauled Gregtech Questline (Just made it a chapter group instead).
 Added Gregtech rubber sapling to Farming for Blockheads stall.
 
 1.20.1-8.1
+Added fix GPU memory leak[Forge/Fabric].
+
 Updated GregTechCEu Modern.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
@@ -1173,4 +1175,4 @@ Added Bronze, Constantan, Electrum, Invar, Lead, Nickel, Silver, Steel, and Tin 
 Added Create Mixing Recipes for Bronze, Constantan, Electrum, Invar Ingots.
 Added Bronze, Constantan, Electrum, Invar, Lead, Nickel, Silver, and Tin Plates to better unify the plates.
 Added Create Pressing recipes for the plates above.
-Added Create Haunting recipe for the Iesnium Ingot (recipe probably going to change in the future)
+Added Create Haunting recipe for the Iesnium Ingot (recipe probably going to change in the future).
