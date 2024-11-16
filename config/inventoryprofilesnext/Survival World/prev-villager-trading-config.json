@@ -14,7 +14,12 @@
                 "priceItem1": "minecraft:carrot"
             }
         ],
-        "fisherman": [],
+        "fisherman": [
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:coal"
+            }
+        ],
         "fletcher": [
             {
                 "resultItem": "minecraft:emerald",

@@ -1163,6 +1163,7 @@ Overhauled Gregtech Questline (Just made it a chapter group instead).
 Added Gregtech rubber sapling to Farming for Blockheads stall.
 
 1.20.1-8.1
+Added [ETF] Entity Texture Features - [Fabric & Forge].
 Added fix GPU memory leak[Forge/Fabric].
 
 Updated GregTechCEu Modern.
