@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["431327BFC049F56F"]
+			dependencies: ["433391CE678F39BF"]
 			hide_dependency_lines: false
 			id: "5EEEEB78B382389A"
 			subtitle: "Now you're cooking with steam! Now that you've entered the steam age, you have access to new processing recipes and can take a break from a lot of the tedious crafting. Just make sure this thing has water in it though.  "
@@ -122,8 +122,8 @@
 			id: "75E41283CD05546C"
 			subtitle: "The basic alloy for the Steam Age."
 			tasks: [{
-				id: "6B572424D8C01135"
-				item: "gtceu:bronze_ingot"
+				id: "6A43167FE6167FA7"
+				item: "kubejs:bronze_ingot"
 				type: "item"
 			}]
 			x: -1.0d
@@ -581,8 +581,8 @@
 			description: ["An incredibly useful metal, especially in its alloys."]
 			id: "1E9662FE71B1EBE5"
 			tasks: [{
-				id: "3B6DDCB4E2AC3B19"
-				item: "gtceu:tin_ingot"
+				id: "0ACFD52F5C15ED36"
+				item: "kubejs:tin_ingot"
 				type: "item"
 			}]
 			x: 0.0d
@@ -598,16 +598,6 @@
 			}]
 			x: 1.0d
 			y: 0.0d
-		}
-		{
-			id: "431327BFC049F56F"
-			tasks: [{
-				id: "4D57FD74F2216F79"
-				item: "minecraft:brick"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 3.0d
 		}
 		{
 			description: ["You won't need much Zinc in the early game in comparison to the other metals, but I would suggest getting a few stacks of ore sooner rather than later, as it can't be automated as easily as the other basic metals."]

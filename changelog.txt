@@ -1165,3 +1165,5 @@ Added Gregtech rubber sapling to Farming for Blockheads stall.
 1.20.1-8.1
 
 Added Bronze, Constantan, Electrum, Invar, Lead, Nickel, Silver, and Tin Ingots to better unify the ingots.
+Added Bronze, Constantan, Electrum, Invar, Lead, Nickel, Silver, and Tin Plates to better unify the plates.
+Added Create Pressing recipes for the plates above.
