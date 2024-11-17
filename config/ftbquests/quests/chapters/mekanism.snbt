@@ -572,6 +572,12 @@
 		{
 			dependencies: ["07449CDEF763F484"]
 			id: "3805AD5F560FDBB9"
+			rewards: [{
+				id: "0D0AB74BFB7AEF86"
+				item: "mekanism:upgrade_speed"
+				random_bonus: 7
+				type: "item"
+			}]
 			tasks: [{
 				id: "60E84D5A867CE094"
 				item: "mekanism:upgrade_speed"

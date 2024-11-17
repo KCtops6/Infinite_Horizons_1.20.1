@@ -1190,3 +1190,4 @@ Updated Moonlight Lib.
 Updated Sophisticated Storage.
 
 Updated Mekanism questline.
+Blacklisted Mekanism from Carry On mod to address annoying behavior when interacting with machines.
