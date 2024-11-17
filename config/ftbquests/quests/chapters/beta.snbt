@@ -274,8 +274,8 @@
 				item: "mysticalagriculture:prosperity_shard"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
@@ -375,6 +375,26 @@
 			}]
 			x: 9.0d
 			y: 9.0d
+		}
+		{
+			dependencies: [
+				"58BF596101EB652D"
+				"1FE1CE8D6DFD3C3B"
+			]
+			id: "6565029A30829779"
+			tasks: [{
+				id: "6399F5EEBF0D5577"
+				item: {
+					Count: 1
+					id: "matc:inferium_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
 		}
 	]
 	title: "Gamma"

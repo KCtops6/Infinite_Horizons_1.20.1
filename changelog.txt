@@ -1185,6 +1185,8 @@ Added Create Mixing recipe for Powah dielectric paste.
 
 1.20.1-8.2
 Added Extreme sound muffler - (Neo)Forge.
+Added OctoLib.
+Added Not Enough Recipe Book [NERB].
 
 Updated Moonlight Lib.
 Updated Sophisticated Storage.
