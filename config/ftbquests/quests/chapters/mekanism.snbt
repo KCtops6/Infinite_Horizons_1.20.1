@@ -569,6 +569,28 @@
 			x: 14.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["07449CDEF763F484"]
+			id: "3805AD5F560FDBB9"
+			tasks: [{
+				id: "60E84D5A867CE094"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07449CDEF763F484"]
+			id: "640B6E709CD9AAAB"
+			tasks: [{
+				id: "7AEC29E2AB888063"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
 	]
 	title: "Mekanism"
 }
