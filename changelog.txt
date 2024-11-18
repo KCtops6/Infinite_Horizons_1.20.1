@@ -1196,3 +1196,5 @@ Blacklisted Mekanism from Carry On mod to address annoying behavior when interac
 
 1.20.1-8.3
 Updated Sophisticated Backpacks.
+
+Added Arcane Crystal to Create Sifting.
