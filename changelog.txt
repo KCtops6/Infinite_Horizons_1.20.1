@@ -1193,3 +1193,6 @@ Updated Sophisticated Storage.
 
 Updated Mekanism questline.
 Blacklisted Mekanism from Carry On mod to address annoying behavior when interacting with machines.
+
+1.20.1-8.3
+Updated Sophisticated Backpacks.
