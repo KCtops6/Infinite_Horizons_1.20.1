@@ -1201,6 +1201,8 @@ Added Runelic.
 Added SuperMartijn642's Config Lib.
 Added SuperMartijn642's Core Lib.
 Added Trash Cans.
+
 Updated Sophisticated Backpacks.
+Updated Sophisticated Core.
 
 Added Arcane Crystal to Create Sifting.
