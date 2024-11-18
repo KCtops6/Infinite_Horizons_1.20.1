@@ -1198,6 +1198,9 @@ Blacklisted Mekanism from Carry On mod to address annoying behavior when interac
 Added Dark Utilities.
 Added Pig Pen Cipher.
 Added Runelic.
+Added SuperMartijn642's Config Lib.
+Added SuperMartijn642's Core Lib.
+Added Trash Cans.
 Updated Sophisticated Backpacks.
 
 Added Arcane Crystal to Create Sifting.
