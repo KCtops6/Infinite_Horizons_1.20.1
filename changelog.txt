@@ -1196,6 +1196,7 @@ Blacklisted Mekanism from Carry On mod to address annoying behavior when interac
 
 1.20.1-8.3
 Added Dark Utilities.
+Added Dimensional Paintings.
 Added Pig Pen Cipher.
 Added Runelic.
 Added SuperMartijn642's Config Lib.
