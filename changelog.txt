@@ -1217,4 +1217,5 @@ Added Redirector [Modern].
 Added Sodium/Embeddium Dynamic Lights.
 Added Sodium/Embeddium Options API.
 
+Updated FTB Chunks (Forge).
 Updated Supplementaries.
