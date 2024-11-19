@@ -1218,4 +1218,8 @@ Added Sodium/Embeddium Dynamic Lights.
 Added Sodium/Embeddium Options API.
 
 Updated FTB Chunks (Forge).
+Updated Mekanism.
+Updated Mekanism Additions.
+Updated Mekanism Generators.
+Updated Mekanism Tools.
 Updated Supplementaries.
