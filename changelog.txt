@@ -1211,5 +1211,6 @@ Removes recipes from Dimensional Paintings (Late Game Recipes will be added).
 
 1.20.1-8.4
 Added Oculus.
+Added Redirector [Modern].
 
 Updated Supplementaries.
