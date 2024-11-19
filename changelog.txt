@@ -1207,3 +1207,4 @@ Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 
 Added Arcane Crystal to Create Sifting.
+Removes recipes from Dimensional Paintings (Late Game Recipes will be added).

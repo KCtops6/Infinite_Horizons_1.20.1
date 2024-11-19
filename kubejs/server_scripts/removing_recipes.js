@@ -4,4 +4,5 @@ ServerEvents.recipes(event => {
      * MEKANISM
      */
     event.remove({ output: 'mekanism:digital_miner' })
+    event.remove({mod: 'dimpaintings'})
 })
