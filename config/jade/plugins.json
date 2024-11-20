@@ -1,7 +1,4 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -54,6 +51,81 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "entangled": {
+    "entangled_block_component": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
+  },
+  "projecte": {
+    "emc_provider": true
+  },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
+  "pipez": {
+    "pipe": true
+  },
+  "appliedcooking": {
+    "kitchen_station": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "extrastorage": {
     "crafter": true,
     "advanced_crafter": true
@@ -78,14 +150,6 @@
     "cable_info": true,
     "parallel_info": true
   },
-  "jade": {
-    "coordinates.rel": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "mod_name": true
-  },
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true
@@ -99,18 +163,6 @@
     "kitchen_access_point": true,
     "kitchen_station": true
   },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
-  },
   "productivebees": {
     "solitary_nest": true,
     "jar": true,
@@ -118,50 +170,11 @@
     "bee_attributes": true,
     "productive_bee": true
   },
-  "extendedcrafting": {
-    "elite_auto_table": true,
-    "ender_crafter": true,
-    "basic_auto_table": true,
-    "flux_crafter": true,
-    "advanced_table": true,
-    "auto_ender_crafter": true,
-    "ultimate_table": true,
-    "ultimate_auto_table": true,
-    "elite_table": true,
-    "basic_table": true,
-    "crafting_core": true,
-    "advanced_auto_table": true,
-    "compressor": true
-  },
   "ars_nouveau": {
     "mob_jar": true
   },
-  "projecte": {
-    "emc_provider": true
-  },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "remove_builtin": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
-  "easy_villagers": {
-    "villager": true,
-    "converter": true,
-    "breeder": true
-  },
   "mysticalagradditions": {
     "infused_farmland": true
-  },
-  "pipez": {
-    "pipe": true
-  },
-  "appliedcooking": {
-    "kitchen_station": true
   },
   "delightful": {
     "crop_progress": true,
@@ -171,18 +184,8 @@
   "supplementaries": {
     "hat_stand": true
   },
-  "waystones": {
-    "waystone": true
-  },
   "corpse": {
     "corpse": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "milk_jar": true,
-    "toaster": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

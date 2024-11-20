@@ -16,10 +16,9 @@ ServerEvents.recipes(event => {
     /**
      * Deepslate Gravel
      */
-    event.recipes.createCrushing([
-        'kubejs:deepslate_gravel'],
-        'minecraft:deepslate'
-    )
+    event.remove({input: 'minecraft:cobbled_deepslate', output: 'minecraft:gravel'})
+    event.remove({input: 'minecraft:cobbled_deepslate', output: 'minecraft:cobblestone'})
+    event.recipes.createCrushing(['kubejs:deepslate_gravel'], 'minecraft:cobbled_deepslate')
     /**
      * End Stone Gravel
      */
