@@ -1229,4 +1229,6 @@ Added Almanac Lib.
 Added Entangled.
 Added Let Me Despawn.
 
+Updated [ETF] Entity Texture Features - [Fabric & Forge].
+
 Fixed Deepslate Gravel Recipe.
