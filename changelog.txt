@@ -1228,6 +1228,7 @@ Updated Supplementaries.
 Added Almanac Lib.
 Added Entangled.
 Added Let Me Despawn.
+Added Starlight (Forge).
 
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Moonlight Lib.
