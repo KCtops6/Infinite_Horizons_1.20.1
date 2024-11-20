@@ -1230,5 +1230,6 @@ Added Entangled.
 Added Let Me Despawn.
 
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
+Updated Occultism.
 
 Fixed Deepslate Gravel Recipe.
