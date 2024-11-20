@@ -1231,6 +1231,7 @@ Added Let Me Despawn.
 
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Moonlight Lib.
+Updated Mystical Agradditions.
 Updated Occultism.
 
 Fixed Deepslate Gravel Recipe.
