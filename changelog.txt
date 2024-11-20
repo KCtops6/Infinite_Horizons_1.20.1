@@ -1225,6 +1225,8 @@ Updated Mekanism Tools.
 Updated Supplementaries.
 
 1.20.1-8.5
+Removed Inventory Profiles Next.
+
 Added Almanac Lib.
 Added Entangled.
 Added Let Me Despawn.
