@@ -1245,3 +1245,5 @@ Fixed Deepslate Gravel Recipe.
 1.20.1-8.6
 Updated Moonlight Lib.
 Updated Supplementaries.
+
+Added a KubeJS silicon to unify the different siicons (fixing a few bugs).
