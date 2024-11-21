@@ -1246,7 +1246,6 @@ Fixed Deepslate Gravel Recipe.
 Added Configured.
 Added Fast Async World Save[Forge/Fabric].
 Added Quark.
-Added Reborn Storage.
 Added Zeta.
 
 Updated FTB Library (Forge).

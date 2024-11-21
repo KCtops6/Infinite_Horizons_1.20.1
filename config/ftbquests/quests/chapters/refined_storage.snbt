@@ -352,6 +352,22 @@
 			x: 4.0d
 			y: -1.0d
 		}
+		{
+			id: "34D399201B65555E"
+			rewards: [{
+				id: "014F269686126198"
+				item: "refinedstorage:16k_storage_disk"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "050AB49A9135E526"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
 	]
 	title: "Refined Storage"
 }
