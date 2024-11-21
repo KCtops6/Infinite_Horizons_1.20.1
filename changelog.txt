@@ -1241,3 +1241,5 @@ Updated Mystical Agradditions.
 Updated Occultism.
 
 Fixed Deepslate Gravel Recipe.
+
+1.20.1-8.6
