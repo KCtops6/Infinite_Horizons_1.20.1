@@ -1251,3 +1251,4 @@ Updated Supplementaries.
 
 Added a KubeJS silicon to unify the different siicons (fixing a few bugs).
 Added Refined Storage questline.
+Added alternative recipe for pebbles.
