@@ -257,6 +257,101 @@
 			x: 1.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["1A6249DDBB391FE0"]
+			icon: "rebornstorage:multiblock_storage"
+			id: "3D16F8A40C85C840"
+			tasks: [
+				{
+					id: "0D326A7EC41FB9DE"
+					item: "rebornstorage:multiblock_frame"
+					type: "item"
+				}
+				{
+					id: "0E01A417D7C5F6AE"
+					item: "rebornstorage:multiblock_heat"
+					type: "item"
+				}
+				{
+					id: "3902A4CB856AC363"
+					item: "rebornstorage:multiblock_cpu"
+					type: "item"
+				}
+				{
+					id: "171D39B39B514525"
+					item: "rebornstorage:multiblock_storage"
+					type: "item"
+				}
+			]
+			title: "Reborn Storage"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03E1CD53561506A6"]
+			icon: "refinedstorage:pattern_grid"
+			id: "3A864B5ACD19D28B"
+			rewards: [{
+				id: "6121FDE1155C649E"
+				item: "refinedstorage:crafting_monitor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "54B04152D7E69325"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					id: "12193F3EC02B2AC6"
+					item: {
+						Count: 1
+						id: "refinedstorage:pattern"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DB4FBD398673738"]
+			id: "5D3A1A44DDAA9AE5"
+			rewards: [{
+				id: "2F90F0E66B49A593"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FA0E0217F54FD2D"
+				item: "refinedstorage:crafter_manager"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A864B5ACD19D28B"]
+			id: "4DB4FBD398673738"
+			rewards: [{
+				id: "7D580ADE14EE75B1"
+				item: {
+					Count: 1
+					id: "refinedstorage:pattern"
+					tag: { }
+				}
+				random_bonus: 12
+				type: "item"
+			}]
+			tasks: [{
+				id: "5043B7DD6A044BC4"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
 	]
 	title: "Refined Storage"
 }
