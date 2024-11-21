@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "126A1C64F6AE129F"
+	id: "461589B6CA7D1EE6"
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2DFBB0336A4694C8"
+			tasks: [{
+				id: "7945B7ED0F9558A3"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "7BC01DF5B4543043"
+			tasks: [{
+				id: "62422963D6001031"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DFBB0336A4694C8"]
+			id: "61F62A53013C14DC"
+			tasks: [{
+				id: "2BB1232A2C2B0608"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7BC01DF5B4543043"
+				"61F62A53013C14DC"
+			]
+			id: "6C891EE7C756F053"
+			tasks: [{
+				icon: "refinedstorage:creative_controller"
+				id: "3038C23D89CBBABE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "refinedstorage:controller"
+					}
+				}
+				title: "Craft a Refined Storage Controller."
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "Refined Storage"
+}

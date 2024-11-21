@@ -1244,6 +1244,7 @@ Fixed Deepslate Gravel Recipe.
 
 1.20.1-8.6
 Added Configured.
+Added Fast Async World Save[Forge/Fabric].
 
 Updated Moonlight Lib.
 Updated Supplementaries.
