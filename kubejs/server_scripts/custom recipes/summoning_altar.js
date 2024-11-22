@@ -18,8 +18,8 @@ ServerEvents.recipes(event => {
         ],
         {
           A:    'minecraft:dark_oak_log',
-          B:    'create:brass_sheet',
-          C:    'create:golden_sheet',
+          B:    'kubejs:brass_plate',
+          C:    'kubejs:gold_plate',
           D:    'minecraft:candle',
           E:    'minecraft:red_carpet',
           F:    'minecraft:wither_skeleton_skull'

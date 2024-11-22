@@ -65,7 +65,7 @@
 			dependencies: [
 				"73946C1A23F3852D"
 				"69385CCE6FF31DEB"
-				"0B02C2CF06E35D0C"
+				"00AE38E4FD7997BB"
 			]
 			id: "3418E356BA888A7E"
 			tasks: [{
@@ -75,24 +75,6 @@
 			}]
 			x: 2.0d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"6551C7B584F3DB74"
-				"00AE38E4FD7997BB"
-			]
-			dependency_requirement: "one_completed"
-			id: "0B02C2CF06E35D0C"
-			tasks: [{
-				icon: "thermal:lightning_charge"
-				id: "7686F88D4BE731E9"
-				max_input: 1000L
-				title: "Generate energy for Powah machines."
-				type: "forge_energy"
-				value: 1000L
-			}]
-			x: 2.0d
-			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -289,6 +271,26 @@
 			hide_dependency_lines: true
 			id: "55430AA1A7357150"
 			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "18B4FA8D0BB40F1E"
+					item: "mysticalagriculture:energized_steel_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "52BAA6F0FD7F3565"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+				{
+					id: "3735A557CC1FC4D4"
+					item: "mysticalagriculture:energized_steel_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			size: 0.5d
 			tasks: [{
 				id: "6C672B0FDBF8C0A5"
