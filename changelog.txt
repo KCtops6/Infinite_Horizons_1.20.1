@@ -1243,6 +1243,8 @@ Updated Occultism.
 Fixed Deepslate Gravel Recipe.
 
 1.20.1-8.6
+Thank you for 18,000 downloads!
+
 Added Configured.
 Added Fast Async World Save[Forge/Fabric].
 Added Not Enough Animations.
@@ -1257,3 +1259,4 @@ Added a KubeJS silicon to unify the different siicons (fixing a few bugs).
 Added Refined Storage questline.
 Added alternative recipe for pebbles.
 Made the Create Mixing Dielectric Paste recipe better.
+Added alternative recipe for dragon egg essence.
