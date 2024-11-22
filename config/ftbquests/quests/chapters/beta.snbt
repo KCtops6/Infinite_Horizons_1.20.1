@@ -280,49 +280,54 @@
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
 			id: "7AA798018009205D"
+			size: 0.5d
 			tasks: [{
 				id: "5077CE0F39F52B6F"
 				item: "mysticalagriculture:air_seeds"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 7.0d
+			x: 7.25d
+			y: 5.25d
 		}
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
 			id: "727AEB3EC7576938"
+			size: 0.5d
 			tasks: [{
 				id: "14E00ABB75A0348B"
 				item: "mysticalagriculture:earth_seeds"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 7.0d
+			x: 7.75d
+			y: 5.25d
 		}
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
 			id: "64E0C72CBDB2339A"
+			size: 0.5d
 			tasks: [{
 				id: "0ECF44C102A2A24B"
 				item: "mysticalagriculture:water_seeds"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 8.0d
+			x: 8.75d
+			y: 5.25d
 		}
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
 			id: "0F78B0255D7DA2DD"
+			size: 0.5d
 			tasks: [{
 				id: "33ADF1B4CBC67FD0"
 				item: "mysticalagriculture:fire_seeds"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: 8.25d
+			y: 5.25d
 		}
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
+			hide_dependency_lines: false
 			id: "7FF4CC850ECC3EB8"
 			tasks: [{
 				id: "7DD9EA559D5E246B"
@@ -335,66 +340,500 @@
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
 			id: "107CA7976AF05DCD"
+			size: 0.5d
 			tasks: [{
 				id: "758F84D728B7F504"
 				item: "mysticalagriculture:dirt_seeds"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 8.0d
+			x: 7.25d
+			y: 5.75d
 		}
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
 			id: "5C76BA96571E1936"
+			size: 0.5d
 			tasks: [{
 				id: "4EFAA6664CABEBD8"
 				item: "mysticalagriculture:wood_seeds"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 9.0d
+			x: 7.25d
+			y: 6.25d
 		}
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
 			id: "746F8C66AA3E8040"
+			size: 0.5d
 			tasks: [{
 				id: "774E46C0620DA8A7"
 				item: "mysticalagriculture:ice_seeds"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: 8.75d
+			y: 5.75d
 		}
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
 			id: "3C4E98A72B5F4333"
+			size: 0.5d
 			tasks: [{
 				id: "687EB5FCDD051C12"
 				item: "mysticalagriculture:deepslate_seeds"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 9.0d
+			x: 8.75d
+			y: 6.25d
 		}
 		{
 			dependencies: [
 				"58BF596101EB652D"
 				"1FE1CE8D6DFD3C3B"
 			]
+			icon: "mysticalagriculture:prudentium_essence"
 			id: "6565029A30829779"
-			tasks: [{
-				id: "6399F5EEBF0D5577"
-				item: {
-					Count: 1
-					id: "matc:inferium_crystal"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "70A5467B252F5BE8"
+					item: {
+						Count: 1
+						id: "matc:inferium_crystal"
+						tag: {
+							Damage: 0
+						}
 					}
+					random_bonus: 1
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7FC8A50AA4E747D2"
+					item: "mysticalagriculture:prudentium_essence"
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6399F5EEBF0D5577"
+					item: {
+						Count: 1
+						id: "matc:inferium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38878098C3E66CB4"
+					item: "mysticalagriculture:prudentium_essence"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "401619F7A1234A83"
+			rewards: [
+				{
+					id: "5FD8E4A3A92F7F28"
+					item: "mysticalagriculture:nature_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 9
+					id: "6C2FA2346DCD32C2"
+					item: "mysticalagriculture:nature_essence"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "34A30430143C0095"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "15FD986BDC1E819F"
+				item: "mysticalagriculture:nature_seeds"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "3C0037FC206BBDD4"
+			rewards: [
+				{
+					id: "001B743817BF6127"
+					item: "mysticalagriculture:dye_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7B8955E6EE41F83B"
+					item: "mysticalagriculture:dye_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "78DE810890080615"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "22306FC25768FDBE"
+				item: "mysticalagriculture:dye_seeds"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "522B0048C663B7E8"
+			rewards: [
+				{
+					id: "49735357057FAE23"
+					item: "mysticalagriculture:nether_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "54DA573D8446D13E"
+					item: "mysticalagriculture:nether_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3BDEFBAF48BD14F6"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "103CDA40945DA645"
+				item: "mysticalagriculture:nether_seeds"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "7624AC79AA7FF9AE"
+			rewards: [
+				{
+					id: "541C8E13C965F1DC"
+					item: "mysticalagriculture:coal_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "78839F8D3FADB067"
+					item: "mysticalagriculture:coal_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "380D5AA5C4105C7A"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "2CEDCE0F5DE5D960"
+				item: "mysticalagriculture:coal_seeds"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "3E1ABC07C1740F2B"
+			rewards: [
+				{
+					id: "1F01BF468CDA8F6C"
+					item: "mysticalagriculture:coral_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0432F85F5ACD9468"
+					item: "mysticalagriculture:coral_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "60A36DBC1C2FA282"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "777C6F0422517F24"
+				item: "mysticalagriculture:coral_seeds"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "3AA55074753B5A07"
+			rewards: [
+				{
+					id: "683CFF96FCA3A580"
+					item: "mysticalagriculture:honey_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "749515A61B7153A4"
+					item: "mysticalagriculture:honey_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "10C57DA1C9BDA31D"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+				{
+					id: "3F7FB9AF640FA347"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "4577F43000AECDB7"
+				item: "mysticalagriculture:honey_seeds"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "5CE1483AF376C011"
+			rewards: [
+				{
+					id: "1E5E8857D164EE55"
+					item: "mysticalagriculture:amethyst_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "180D53FB2B36ECC3"
+					item: "mysticalagriculture:amethyst_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2C0622FC85CBB9EF"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "5C703A6E7DAF4E1E"
+				item: "mysticalagriculture:amethyst_seeds"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "74C853E5FE9B890C"
+			rewards: [
+				{
+					id: "7B35F6663F0AD21B"
+					item: "mysticalagriculture:dye_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "66F92B43D9C659FB"
+					item: "mysticalagriculture:dye_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "44900029CBC5A0A3"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "549A54FC6F429D20"
+				item: "mysticalagriculture:dye_seeds"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "40AF6F10C0712967"
+			rewards: [
+				{
+					id: "7ABAB5177A1D262F"
+					item: "mysticalagriculture:dye_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0B6A7A00BC83D848"
+					item: "mysticalagriculture:dye_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "7AFEB4CFD8790DA2"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "51DE133878D5C64A"
+				item: "mysticalagriculture:dye_seeds"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "4546A7C3C1357083"
+			rewards: [
+				{
+					id: "4E8ADFA4AED864D4"
+					item: "mysticalagriculture:dye_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "068408B754587E9B"
+					item: "mysticalagriculture:dye_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "60C9FF0FC9D0D36C"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "3A119B29D12A7F1D"
+				item: "mysticalagriculture:dye_seeds"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "3B88CC3D7860CB62"
+			rewards: [
+				{
+					id: "184E7C1DF8F8DACD"
+					item: "mysticalagriculture:dye_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6FBF6FB39C4BFA75"
+					item: "mysticalagriculture:dye_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "5E565DB826716C86"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "0F6862FCA13FCD52"
+				item: "mysticalagriculture:dye_seeds"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "18AA913FC177B120"
+			rewards: [
+				{
+					id: "06BE7F3535809B6C"
+					item: "mysticalagriculture:dye_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "714A21492F8F691F"
+					item: "mysticalagriculture:dye_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3438465F48E4171A"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "697A3C8D4106CA9E"
+				item: "mysticalagriculture:dye_seeds"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 4.75d
 		}
 	]
 	title: "Gamma"
