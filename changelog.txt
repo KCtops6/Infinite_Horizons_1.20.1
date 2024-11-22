@@ -1246,6 +1246,7 @@ Fixed Deepslate Gravel Recipe.
 Thank you for 18,000 downloads!
 
 Added Configured.
+Added Create: Connected.
 Added Fast Async World Save[Forge/Fabric].
 Added Not Enough Animations.
 Added Quark.
