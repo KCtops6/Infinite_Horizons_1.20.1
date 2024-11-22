@@ -1264,5 +1264,6 @@ Added alternative recipe for dragon egg essence.
 
 1.20.1-8.7
 Added AgriCraft.
+Added Resourceful Config.
 
 Modified Mystical Agriculture questline.
