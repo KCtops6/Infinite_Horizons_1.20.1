@@ -835,6 +835,130 @@
 			x: 6.25d
 			y: 4.75d
 		}
+		{
+			dependencies: ["6565029A30829779"]
+			icon: "mysticalagriculture:tertium_essence"
+			id: "2F097F805A79F4BC"
+			rewards: [
+				{
+					id: "53DECF007ED02722"
+					item: {
+						Count: 1
+						id: "matc:prudentium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6E33FA1C75D5B567"
+					item: "mysticalagriculture:tertium_essence"
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A8A492872658A64"
+					item: {
+						Count: 1
+						id: "matc:prudentium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "511E92193D7B35C3"
+					item: "mysticalagriculture:tertium_essence"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "2ADF4853E9DE397C"
+			rewards: [
+				{
+					id: "650DB49CD4B7E80A"
+					item: "mysticalagriculture:steel_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "23F58264EE4EFF6E"
+					item: "mysticalagriculture:steel_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4B4527567D9A6B32"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "0FCD3E9B01EFE178"
+				item: "mysticalagriculture:steel_seeds"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["2F097F805A79F4BC"]
+			id: "2C2A8E2246290F78"
+			rewards: [
+				{
+					id: "2C57A71D27C3F362"
+					item: {
+						Count: 1
+						id: "matc:tertium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1A5183357FA2241D"
+					item: "mysticalagriculture:imperium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "18045DB8AB9A087F"
+					item: {
+						Count: 1
+						id: "matc:tertium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0777A61F917AA0FF"
+					item: "mysticalagriculture:imperium_essence"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
 	]
 	title: "Gamma"
 }

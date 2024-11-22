@@ -51,6 +51,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "agricraft": {
+    "soil": true,
+    "crop_block": true
+  },
   "entangled": {
     "entangled_block_component": true
   },
