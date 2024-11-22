@@ -1256,8 +1256,10 @@ Updated FTB Library (Forge).
 Updated Moonlight Lib.
 Updated Supplementaries.
 
-Added a KubeJS silicon to unify the different siicons (fixing a few bugs).
+Added a KubeJS silicon to unify the different siicons (fixing a few bugs and unintended behavior).
 Added Refined Storage questline.
 Added alternative recipe for pebbles.
 Made the Create Mixing Dielectric Paste recipe better.
 Added alternative recipe for dragon egg essence.
+
+1.20.1-8.7
