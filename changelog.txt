@@ -1273,3 +1273,4 @@ Modified Quark config file.
 Added KubeJS Brass, Iron, and Gold plates to fix a few issues (including summoning altar recipe).
 Added additional recipes for Powah items (block forms).
 Added netherrack create mechanical extruding.
+Fixed FTB Quests bug with a chapter appearing twice.
