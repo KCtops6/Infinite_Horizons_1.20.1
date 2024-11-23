@@ -1269,6 +1269,7 @@ Added Resourceful Config.
 Added RFTools Utility.
 
 Updated Moonlight Lib.
+Updated Supplementaries.
 
 Modified Mystical Agriculture questline.
 Modified Quark config file.
