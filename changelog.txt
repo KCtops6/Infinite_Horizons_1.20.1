@@ -1268,6 +1268,8 @@ Added KubeJS Powah.
 Added Resourceful Config.
 Added RFTools Utility.
 
+Updated Moonlight Lib.
+
 Modified Mystical Agriculture questline.
 Modified Quark config file.
 Added KubeJS Brass, Iron, and Gold plates to fix a few issues (including summoning altar recipe).
