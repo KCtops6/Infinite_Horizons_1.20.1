@@ -672,171 +672,6 @@
 		}
 		{
 			dependencies: ["6565029A30829779"]
-			hide_dependency_lines: true
-			id: "74C853E5FE9B890C"
-			rewards: [
-				{
-					id: "7B35F6663F0AD21B"
-					item: "mysticalagriculture:dye_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "66F92B43D9C659FB"
-					item: "mysticalagriculture:dye_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "44900029CBC5A0A3"
-					item: "mysticalagriculture:prudentium_farmland"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "549A54FC6F429D20"
-				item: "mysticalagriculture:dye_seeds"
-				type: "item"
-			}]
-			x: 6.75d
-			y: 4.25d
-		}
-		{
-			dependencies: ["6565029A30829779"]
-			hide_dependency_lines: true
-			id: "40AF6F10C0712967"
-			rewards: [
-				{
-					id: "7ABAB5177A1D262F"
-					item: "mysticalagriculture:dye_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "0B6A7A00BC83D848"
-					item: "mysticalagriculture:dye_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "7AFEB4CFD8790DA2"
-					item: "mysticalagriculture:prudentium_farmland"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "51DE133878D5C64A"
-				item: "mysticalagriculture:dye_seeds"
-				type: "item"
-			}]
-			x: 5.75d
-			y: 4.75d
-		}
-		{
-			dependencies: ["6565029A30829779"]
-			hide_dependency_lines: true
-			id: "4546A7C3C1357083"
-			rewards: [
-				{
-					id: "4E8ADFA4AED864D4"
-					item: "mysticalagriculture:dye_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "068408B754587E9B"
-					item: "mysticalagriculture:dye_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "60C9FF0FC9D0D36C"
-					item: "mysticalagriculture:prudentium_farmland"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "3A119B29D12A7F1D"
-				item: "mysticalagriculture:dye_seeds"
-				type: "item"
-			}]
-			x: 5.25d
-			y: 4.75d
-		}
-		{
-			dependencies: ["6565029A30829779"]
-			hide_dependency_lines: true
-			id: "3B88CC3D7860CB62"
-			rewards: [
-				{
-					id: "184E7C1DF8F8DACD"
-					item: "mysticalagriculture:dye_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "6FBF6FB39C4BFA75"
-					item: "mysticalagriculture:dye_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "5E565DB826716C86"
-					item: "mysticalagriculture:prudentium_farmland"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "0F6862FCA13FCD52"
-				item: "mysticalagriculture:dye_seeds"
-				type: "item"
-			}]
-			x: 6.75d
-			y: 4.75d
-		}
-		{
-			dependencies: ["6565029A30829779"]
-			hide_dependency_lines: true
-			id: "18AA913FC177B120"
-			rewards: [
-				{
-					id: "06BE7F3535809B6C"
-					item: "mysticalagriculture:dye_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "714A21492F8F691F"
-					item: "mysticalagriculture:dye_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "3438465F48E4171A"
-					item: "mysticalagriculture:prudentium_farmland"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "697A3C8D4106CA9E"
-				item: "mysticalagriculture:dye_seeds"
-				type: "item"
-			}]
-			x: 6.25d
-			y: 4.75d
-		}
-		{
-			dependencies: ["6565029A30829779"]
 			icon: "mysticalagriculture:tertium_essence"
 			id: "2F097F805A79F4BC"
 			rewards: [
@@ -958,6 +793,40 @@
 			]
 			x: 10.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["2F097F805A79F4BC"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3508B2D31ABC39B7"
+			rewards: [
+				{
+					id: "27B0E2BCB4E0F420"
+					item: "mysticalagriculture:obsidian_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "109DDFD85B1769B6"
+					item: "mysticalagriculture:obsidian_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4EFBDB4317E24D33"
+					item: "mysticalagriculture:tertium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "07D6B4D8B4A8929B"
+				item: "mysticalagriculture:obsidian_seeds"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 3.25d
 		}
 	]
 	title: "Gamma"
