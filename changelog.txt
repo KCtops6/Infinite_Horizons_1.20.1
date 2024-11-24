@@ -1263,7 +1263,10 @@ Made the Create Mixing Dielectric Paste recipe better.
 Added alternative recipe for dragon egg essence.
 
 1.20.1-8.7
+Removed ExtraStorage (WATCH OUT BEFORE YOU UPDATE!)
+
 Added AgriCraft.
+Added Essential Mod.
 Added KubeJS Powah.
 Added Resourceful Config.
 Added RFTools Utility.

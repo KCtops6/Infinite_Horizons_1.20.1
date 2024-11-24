@@ -199,18 +199,11 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "16218B21F3018761"
-					item: "refinedstorage:1k_storage_part"
-					type: "item"
-				}
-				{
-					id: "036B31C17E0F3FA9"
-					item: "refinedstorage:1k_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "16218B21F3018761"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 1.0d
 		}
@@ -225,18 +218,11 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "644BD2ED71914FD4"
-					item: "refinedstorage:4k_storage_part"
-					type: "item"
-				}
-				{
-					id: "61333EFAFA490821"
-					item: "refinedstorage:4k_storage_disk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "644BD2ED71914FD4"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
@@ -255,36 +241,6 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["1A6249DDBB391FE0"]
-			icon: "rebornstorage:multiblock_storage"
-			id: "3D16F8A40C85C840"
-			tasks: [
-				{
-					id: "0D326A7EC41FB9DE"
-					item: "rebornstorage:multiblock_frame"
-					type: "item"
-				}
-				{
-					id: "0E01A417D7C5F6AE"
-					item: "rebornstorage:multiblock_heat"
-					type: "item"
-				}
-				{
-					id: "3902A4CB856AC363"
-					item: "rebornstorage:multiblock_cpu"
-					type: "item"
-				}
-				{
-					id: "171D39B39B514525"
-					item: "rebornstorage:multiblock_storage"
-					type: "item"
-				}
-			]
-			title: "Reborn Storage"
-			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -353,6 +309,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["327A3DE6C742DBB2"]
+			icon: "refinedstorage:16k_storage_disk"
 			id: "34D399201B65555E"
 			rewards: [{
 				id: "014F269686126198"
@@ -367,6 +325,82 @@
 			}]
 			x: 2.0d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3D04EDFF64DFC094"
+				"61E0A1A0B2486288"
+				"01C5713439EED3F1"
+			]
+			id: "26AEE76D0420844B"
+			tasks: [{
+				id: "58CCC2E83850CECE"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3D04EDFF64DFC094"
+				"4DE218D2761170A2"
+				"01C5713439EED3F1"
+			]
+			id: "4FDEC323C405E1EE"
+			tasks: [{
+				id: "54D8C0DAECE6B243"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4FDEC323C405E1EE"
+				"26AEE76D0420844B"
+			]
+			id: "27507C467093A6DD"
+			tasks: [{
+				id: "0BBA8A21F59ADC77"
+				item: "refinedstorage:interface"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"61F62A53013C14DC"
+				"27507C467093A6DD"
+			]
+			id: "358071EB67EAE959"
+			tasks: [{
+				id: "28C7EE100707802D"
+				item: "refinedstorage:fluid_interface"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34D399201B65555E"]
+			icon: "refinedstorage:64k_storage_disk"
+			id: "3B83FA20382480B2"
+			rewards: [{
+				id: "0F7C3173688D468E"
+				item: "refinedstorage:64k_storage_disk"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "790BE7ED90B79BB9"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
 		}
 	]
 	title: "Refined Storage"

@@ -828,6 +828,39 @@
 			x: 7.25d
 			y: 3.25d
 		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "589B8EB17B3622DC"
+			rewards: [
+				{
+					id: "642EC62C5D494570"
+					item: "mysticalagriculture:silicon_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1060194841597A06"
+					item: "mysticalagriculture:silicon_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "6802A19E24AB7CED"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "38A08E51B8AF8E32"
+				item: "mysticalagriculture:silicon_seeds"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 4.25d
+		}
 	]
 	title: "Gamma"
 }
