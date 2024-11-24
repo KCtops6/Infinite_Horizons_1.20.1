@@ -402,6 +402,43 @@
 			x: 2.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["77C37EF85CCE79FC"]
+			icon: {
+				Count: 1
+				id: "extradisks:256k_storage_disk"
+				tag: { }
+			}
+			id: "64BC383DB0FF1A1E"
+			rewards: [{
+				id: "4B0423D3D84A110D"
+				item: {
+					Count: 1
+					id: "extradisks:256k_storage_disk"
+					tag: { }
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "57FCC82C5C195053"
+				item: "extradisks:256k_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B83FA20382480B2"]
+			id: "77C37EF85CCE79FC"
+			tasks: [{
+				id: "45284182B1FD90C9"
+				item: "extradisks:advanced_storage_housing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
 	]
 	title: "Refined Storage"
 }

@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     const recipes = [
         {mob: 'axolotl', inputs: ['mysticalagriculture:dye_essence', 'mysticalagriculture:nature_essence', 'mysticalagriculture:water_essence']},
         {mob: 'basalz', inputs: ['mysticalagriculture:fire_essence', 'mysticalagriculture:nether_essence', 'mysticalagriculture:coal_essence']},
-        {mob: 'blaze', inputs: ['mysticalagriculture:nether_essence', 'mysticalagriculture:sulfur_essence', 'mysticalagriculture:soulium_gemstone']},
+        {mob: 'blaze', inputs: ['mysticalagriculture:nether_essence', 'mysticalagriculture:sulfur_essence', 'mysticalagriculture:blaze_essence']},
         {mob: 'blitz', inputs: ['mysticalagriculture:air_essence', 'mysticalagriculture:earth_essence', 'mysticalagriculture:fire_essence']},
         {mob: 'blizz', inputs: ['mysticalagriculture:water_essence', 'mysticalagriculture:earth_essence', 'mysticalagriculture:ice_essence']},
         {mob: 'camel', inputs: ['mysticalagriculture:fire_essence', 'mysticalagriculture:dirt_essence', 'mysticalagriculture:nature_essence']},

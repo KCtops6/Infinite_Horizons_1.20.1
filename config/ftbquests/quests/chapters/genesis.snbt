@@ -516,10 +516,10 @@
 		}
 		{
 			dependencies: [
-				"7D39F2357A6992B7"
 				"1E9662FE71B1EBE5"
 				"492687CE93251551"
 				"21716EEF4952BAD2"
+				"0BC28F6937F07FBA"
 			]
 			description: ["An important alloy for making some steam machines."]
 			icon: "gtceu:potin_ingot"
@@ -586,17 +586,6 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
-		}
-		{
-			description: ["A soft metal very useful in alloys. Just don't eat it."]
-			id: "7D39F2357A6992B7"
-			tasks: [{
-				id: "578007876FA1C8BD"
-				item: "gtceu:lead_ingot"
-				type: "item"
-			}]
-			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -667,6 +656,16 @@
 			}]
 			x: -1.0d
 			y: 7.0d
+		}
+		{
+			id: "0BC28F6937F07FBA"
+			tasks: [{
+				id: "57A18EB683183E5B"
+				item: "kubejs:lead_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
 		}
 	]
 	title: "Foundations of Industry"
