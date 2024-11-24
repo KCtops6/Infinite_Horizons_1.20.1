@@ -1269,6 +1269,8 @@ Added Resourceful Config.
 Added RFTools Utility.
 
 Updated Moonlight Lib.
+Updated Sophisticated Backpacks.
+Updated Sophisticated Core.
 Updated Supplementaries.
 
 Modified Mystical Agriculture questline.
