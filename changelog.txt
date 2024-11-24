@@ -1269,6 +1269,7 @@ Added Resourceful Config.
 Added RFTools Utility.
 
 Updated Moonlight Lib.
+Updated Sodium/Embeddium Options API.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Supplementaries.
