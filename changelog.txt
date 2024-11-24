@@ -1279,3 +1279,4 @@ Added KubeJS Brass, Iron, and Gold plates to fix a few issues (including summoni
 Added additional recipes for Powah items (block forms).
 Added netherrack create mechanical extruding.
 Fixed FTB Quests bug with a chapter appearing twice.
+Added other types of botany pots to beta questline.

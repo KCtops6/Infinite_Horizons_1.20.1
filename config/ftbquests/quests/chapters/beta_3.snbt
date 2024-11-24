@@ -602,6 +602,25 @@
 			x: 15.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["433391CE678F39BF"]
+			id: "3C89FE48DEDE6C09"
+			tasks: [{
+				icon: "botanypots:terracotta_hopper_botany_pot"
+				id: "724D7BDDCF64B724"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:hopper_botany_pots"
+					}
+				}
+				title: "Craft a Hopper Botany Pot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
 	]
 	title: "Beta"
 }
