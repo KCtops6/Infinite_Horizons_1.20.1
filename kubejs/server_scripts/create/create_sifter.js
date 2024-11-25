@@ -264,6 +264,7 @@ ServerEvents.recipes(event => {
      * 'gtceu:raw_diatomite'        80  1
      */
     event.recipes.createsifterSifting([
+        Item.of('thermal:apatite').withChance(0.1),
         Item.of('gtceu:raw_oilsands').withChance(240 / 500 / 5),
         Item.of('gtceu:raw_rock_salt').withChance(150 / 500 / 5),
         Item.of('gtceu:raw_salt').withChance(100 / 500 / 5),
@@ -279,6 +280,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_diatomite').withChance(80 / 500 / 5)
     ], ['minecraft:sand','createsifter:string_mesh']);
     event.recipes.createsifterSifting([
+        Item.of('thermal:apatite').withChance(0.1 + 0.05),
         Item.of('gtceu:raw_oilsands').withChance(240 / 500 / 4),
         Item.of('gtceu:raw_rock_salt').withChance(150 / 500 / 4),
         Item.of('gtceu:raw_salt').withChance(100 / 500 / 4),
@@ -294,6 +296,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_diatomite').withChance(80 / 500 / 4)
     ], ['minecraft:sand','kubejs:copper_mesh']);
     event.recipes.createsifterSifting([
+        Item.of('thermal:apatite').withChance(0.1 + 0.05 + 0.1),
         Item.of('gtceu:raw_oilsands').withChance(240 / 500 / 3),
         Item.of('gtceu:raw_rock_salt').withChance(150 / 500 / 3),
         Item.of('gtceu:raw_salt').withChance(100 / 500 / 3),
@@ -309,6 +312,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_diatomite').withChance(80 / 500 / 3)
     ], ['minecraft:sand','kubejs:iron_mesh']);
     event.recipes.createsifterSifting([
+        Item.of('thermal:apatite').withChance(0.1 + 0.05 + 0.1 + 0.15),
         Item.of('gtceu:raw_oilsands').withChance(240 / 500 / 2),
         Item.of('gtceu:raw_rock_salt').withChance(150 / 500 / 2),
         Item.of('gtceu:raw_salt').withChance(100 / 500 / 2),
@@ -324,6 +328,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_diatomite').withChance(80 / 500 / 2)
     ], ['minecraft:sand','createsifter:brass_mesh']);
     event.recipes.createsifterSifting([
+        Item.of('thermal:apatite').withChance(0.1 + 0.05 + 0.1 + 0.15 + 0.2),
         Item.of('gtceu:raw_oilsands').withChance(240 / 500),
         Item.of('gtceu:raw_rock_salt').withChance(150 / 500),
         Item.of('gtceu:raw_salt').withChance(100 / 500),

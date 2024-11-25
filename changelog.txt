@@ -1283,6 +1283,7 @@ Modified Mystical Agriculture questline.
 Modified Refined Storage questline.
 Modified Ars Nouevau questline.
 Modified Botania questline.
+Modified Gregtech questline.
 Modified Quark config file.
 Added additional recipes for Powah items (block forms).
 Added netherrack create mechanical extruding.
@@ -1290,3 +1291,4 @@ Fixed FTB Quests bug with a chapter appearing twice.
 Added other types of botany pots to beta questline.
 Fixed blaze catalyst recipe.
 Added lead to create sifter.
+Added apatite to create sifter.

@@ -130,7 +130,18 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"533858BFB4238AD0"
+				"1D3C8B0E59266A59"
+			]
 			id: "021DDAFB91F94FEF"
+			rewards: [{
+				count: 3
+				id: "31A07E603AF5C3AF"
+				item: "gtceu:raw_rubber_dust"
+				random_bonus: 7
+				type: "item"
+			}]
 			subtitle: "Extracted from Sticky Resin"
 			tasks: [{
 				id: "10DC7B51B43D59E7"
@@ -193,7 +204,15 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["2C1704A925DB0D45"]
 			id: "4B970090F2D6FDDB"
+			rewards: [{
+				count: 3
+				id: "4CD46DCD57424078"
+				item: "gtceu:red_alloy_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
 			subtitle: "Made from copper and redstone. A necessary material for your first circuit."
 			tasks: [{
 				id: "6B9C541284EE38B1"
@@ -484,6 +503,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["4B970090F2D6FDDB"]
 			description: ["Wire and insulation to make it safer."]
 			id: "57DF6936713C9F22"
 			tasks: [{
@@ -505,6 +525,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["021DDAFB91F94FEF"]
 			id: "47C9E21118ADEEC3"
 			tasks: [{
 				id: "5A4D55856A68013E"
@@ -611,28 +632,6 @@
 			y: 5.0d
 		}
 		{
-			id: "13CE2C7E2DDECF87"
-			tasks: [{
-				id: "4240081E5C7ADCA9"
-				item: "gtceu:electrum_ingot"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependency_requirement: "one_completed"
-			description: ["An alloy of Nickel and Iron. Important for a more advanced kind of blast furnace."]
-			id: "4F259F2288EF01E9"
-			tasks: [{
-				id: "661E8802ECCC56E8"
-				item: "gtceu:invar_ingot"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 5.0d
-		}
-		{
 			description: ["A bit of an annoying alloy to make, but you need it for power storage."]
 			id: "0C6E976FFF235627"
 			tasks: [{
@@ -666,6 +665,16 @@
 			}]
 			x: 1.0d
 			y: 0.0d
+		}
+		{
+			id: "3748E6F90694B982"
+			tasks: [{
+				id: "30A23A439B73CA8D"
+				item: "kubejs:invar_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
 		}
 	]
 	title: "Foundations of Industry"

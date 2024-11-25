@@ -100,6 +100,26 @@
 			dependencies: ["352C1AA348A4FDB9"]
 			id: "71691EC96FC119DE"
 			optional: true
+			rewards: [
+				{
+					id: "76DBCCBF7D8E5100"
+					item: "mysticalagriculture:grains_of_infinity_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "43E27E508A306AC2"
+					item: "mysticalagriculture:grains_of_infinity_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "20D97F56FE0C8CDD"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
 			size: 0.5d
 			tasks: [{
 				id: "468BC8A4E2D1C879"
