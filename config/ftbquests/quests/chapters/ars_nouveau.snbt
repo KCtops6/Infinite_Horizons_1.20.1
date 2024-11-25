@@ -1175,17 +1175,6 @@
 			x: -6.0d
 			y: 5.0d
 		}
-		{
-			dependencies: ["7B41C4B844B8A6B8"]
-			id: "3C21B57D0354F44E"
-			tasks: [{
-				id: "5EC0900F51D5AA9B"
-				item: "ars_nouveau:agronomic_sourcelink"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
 	]
 	title: "Ars Nouveau"
 }

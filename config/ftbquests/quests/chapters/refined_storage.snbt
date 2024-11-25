@@ -439,6 +439,43 @@
 			x: 1.0d
 			y: 5.0d
 		}
+		{
+			dependencies: [
+				"2F097F805A79F4BC"
+				"7BC01DF5B4543043"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "11F67C8430DF1652"
+			rewards: [
+				{
+					id: "05A5DF2DF30E6FFA"
+					item: "mysticalagriculture:quartz_enriched_iron_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5DEFB85AD7E9071E"
+					item: "mysticalagriculture:quartz_enriched_iron_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2D56580E10FCD2A7"
+					item: "mysticalagriculture:tertium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "0385009815F8761E"
+				item: "mysticalagriculture:quartz_enriched_iron_seeds"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 0.0d
+		}
 	]
 	title: "Refined Storage"
 }
