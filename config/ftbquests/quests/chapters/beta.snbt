@@ -1069,6 +1069,39 @@
 			x: 7.75d
 			y: 3.25d
 		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "29F01FB46C7E24FF"
+			rewards: [
+				{
+					id: "0DBED975129145B3"
+					item: "mysticalagriculture:apatite_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "59EE34140E11D8E5"
+					item: "mysticalagriculture:apatite_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "18C5C43598B619FD"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "344E4D496A89638B"
+				item: "mysticalagriculture:apatite_seeds"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 4.75d
+		}
 	]
 	title: "Gamma"
 }
