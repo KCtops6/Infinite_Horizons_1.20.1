@@ -1294,3 +1294,7 @@ Added lead to create sifter.
 Added apatite to create sifter.
 
 1.20.1-8.8
+Added Mystical Adaptations.
+Added Mystical Agriculture Delight.
+Added Mystical Customization.
+Added Mystical Expansion.
