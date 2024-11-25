@@ -1102,6 +1102,74 @@
 			x: 5.75d
 			y: 4.75d
 		}
+		{
+			dependencies: ["2F097F805A79F4BC"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5DA4E4C18C2CE508"
+			rewards: [
+				{
+					id: "2CF1C0FD6CA45034"
+					item: "mysticalagriculture:lead_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "17420D0AEB1856A1"
+					item: "mysticalagriculture:lead_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4AE63753F3F11C55"
+					item: "mysticalagriculture:tertium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "658BC6B1886F7498"
+				item: "mysticalagriculture:lead_seeds"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2F097F805A79F4BC"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "69400B80EA70321D"
+			rewards: [
+				{
+					id: "772C0548A7B2E0AB"
+					item: "mysticalagriculture:zinc_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "46230B1EA9312910"
+					item: "mysticalagriculture:zinc_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "18B0F92D622DB84C"
+					item: "mysticalagriculture:tertium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "564460B7F80BBDCE"
+				item: "mysticalagriculture:zinc_seeds"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 3.25d
+		}
 	]
 	title: "Gamma"
 }
