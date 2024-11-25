@@ -1286,3 +1286,4 @@ Fixed FTB Quests bug with a chapter appearing twice.
 Added other types of botany pots to beta questline.
 Fixed blaze catalyst recipe.
 Modified Refined Storage questline.
+Modified Ars Nouevau questline.

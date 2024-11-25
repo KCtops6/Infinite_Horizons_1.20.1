@@ -27,8 +27,8 @@
 				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.0d
+			x: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7B41C4B844B8A6B8"]
@@ -38,19 +38,36 @@
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6EA399742F8C544A"]
 			id: "7B41C4B844B8A6B8"
-			tasks: [{
-				id: "657914FB8EF25E71"
-				item: "ars_nouveau:red_archwood_sapling"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 1.0d
+			tasks: [
+				{
+					id: "7DFEF76A086865A0"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "047494735CB930DE"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "3496524D13F996FE"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "3B48BCAEF7043FF8"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6825E2D22EB436A8"]
@@ -61,7 +78,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6C397E8A25E2D226"]
@@ -71,8 +88,8 @@
 				item: "ars_nouveau:arcane_pedestal"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1F726F04A7D98FB3"]
@@ -82,8 +99,8 @@
 				item: "ars_nouveau:abjuration_essence"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: -2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1F726F04A7D98FB3"]
@@ -93,8 +110,8 @@
 				item: "ars_nouveau:conjuration_essence"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1F726F04A7D98FB3"]
@@ -104,8 +121,8 @@
 				item: "ars_nouveau:air_essence"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1F726F04A7D98FB3"]
@@ -116,8 +133,8 @@
 				item: "ars_nouveau:earth_essence"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1F726F04A7D98FB3"]
@@ -127,8 +144,8 @@
 				item: "ars_nouveau:water_essence"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6825E2D22EB436A8"]
@@ -139,8 +156,8 @@
 				item: "ars_nouveau:sourceberry_bush"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["27697B9F1C2AFC01"]
@@ -152,63 +169,73 @@
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
 			id: "74DEDB79F053AF12"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "01DF99B4932DB995"
 				item: "ars_nouveau:ritual_challenge"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 3.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
 			id: "5840FE5CFF7362D2"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "2C8D3008201AB3F1"
 				item: "ars_nouveau:ritual_binding"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 3.25d
+			y: 2.25d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
 			id: "691FE2FD8460EAD3"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "3FB6533D8CF7AAC1"
 				item: "ars_nouveau:ritual_awakening"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 2.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
 			id: "69FD94E6F993A77C"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "52F62E42FD70E5DE"
 				item: "ars_nouveau:ritual_disintegration"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 2.25d
+			y: 3.75d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
 			id: "40795B864E54CD1A"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "433A3D4F228178C5"
 				item: "ars_nouveau:ritual_sunrise"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -216,59 +243,70 @@
 				"04547DBE9F5728C4"
 			]
 			id: "042C39443246122D"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "5E4E830198DCD9C8"
 				item: "ars_nouveau:ritual_conjure_island_plains"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 2.25d
+			y: 3.25d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
 			id: "5A38EA864417344A"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "193CF8846854D7C9"
 				item: "ars_nouveau:ritual_flight"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 3.75d
+			y: 3.75d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
 			id: "3FBB421E08B62CDD"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "46017FACF3F58229"
 				item: "ars_nouveau:ritual_cloudshaping"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 2.25d
+			y: 2.75d
 		}
 		{
 			dependencies: [
 				"42717950CF50C3EA"
 				"7F1F54DC5805E459"
 			]
+			hide_dependency_lines: true
 			id: "54927CDE290AB8F9"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "7C12BF643EEA7DD2"
 				item: "ars_nouveau:ritual_restoration"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 12.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
 			id: "35A5053443F6824C"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "09F3C13F70F53EA5"
 				item: "ars_nouveau:ritual_animal_summon"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 13.5d
 			y: 1.0d
 		}
 		{
@@ -284,44 +322,52 @@
 				item: "ars_nouveau:ritual_forestation"
 				type: "item"
 			}]
-			x: 1.75d
-			y: 2.75d
+			x: 9.75d
+			y: 0.25d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
+			hide_dependency_lines: true
 			id: "36FF8CD630C38068"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "2BC81861173C7A10"
 				item: "ars_nouveau:ritual_warping"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 14.75d
 			y: 1.0d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
 			id: "46125B10ABB50E99"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "2004BDD94D934D30"
 				item: "ars_nouveau:ritual_moonfall"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 11.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"42717950CF50C3EA"
 				"43C6D3C817D1FE4B"
 			]
+			hide_dependency_lines: true
 			id: "56858157CAB2EA3E"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "5591973289784515"
 				item: "ars_nouveau:ritual_containment"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 3.75d
+			y: 3.25d
 		}
 		{
 			dependencies: [
@@ -329,53 +375,62 @@
 				"04547DBE9F5728C4"
 				"4685BC373C4883F5"
 			]
+			hide_dependency_lines: true
 			id: "7E608116A366E63E"
+			size: 0.5d
 			tasks: [{
 				id: "511DBEB864430178"
 				item: "ars_nouveau:ritual_gravity"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 10.25d
+			y: 0.25d
 		}
 		{
 			dependencies: [
 				"42717950CF50C3EA"
 				"04547DBE9F5728C4"
 			]
+			hide_dependency_lines: true
 			id: "77CBEC11404C9220"
+			size: 0.5d
 			tasks: [{
 				id: "7DACB9A14E0CC692"
 				item: "ars_nouveau:ritual_flowering"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"42717950CF50C3EA"
 				"55E84BA7BDE423A1"
 			]
+			hide_dependency_lines: true
 			id: "4DA602338E9221F9"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "50D58057F7EA446A"
 				item: "ars_nouveau:ritual_sanctuary"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 13.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
 			id: "12324EC643811BF5"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "69EFFEFE8BCED1DF"
 				item: "ars_nouveau:ritual_fertility"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 3.25d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -383,6 +438,7 @@
 				"04547DBE9F5728C4"
 				"4F2F6A051746197A"
 			]
+			hide_dependency_lines: true
 			id: "01007819F7C2EF52"
 			optional: true
 			size: 0.5d
@@ -391,8 +447,8 @@
 				item: "ars_nouveau:ritual_overgrowth"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.75d
+			x: 11.75d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -400,27 +456,32 @@
 				"04547DBE9F5728C4"
 			]
 			id: "298FC4DCC0822BF3"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "5E3812959F295E2B"
 				item: "ars_nouveau:ritual_conjure_island_desert"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 3.75d
+			y: 2.75d
 		}
 		{
 			dependencies: [
 				"42717950CF50C3EA"
 				"04547DBE9F5728C4"
 			]
+			hide_dependency_lines: true
 			id: "30ABACA59C328CD6"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "1E1B277029F8B4DA"
 				item: "ars_nouveau:ritual_harvest"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 10.75d
+			y: 0.25d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
@@ -431,32 +492,38 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"42717950CF50C3EA"
 				"4685BC373C4883F5"
 			]
+			hide_dependency_lines: true
 			id: "0E59556BD473A5AF"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "7D8107D9D3A3E7C2"
 				item: "ars_elemental:ritual_tesla_coil"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: 5.5d
+			y: 4.25d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
+			hide_dependency_lines: true
 			id: "011C3B7F96D5D778"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "2D466027ADF01CFB"
 				item: "ars_elemental:ritual_squirrels"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.0d
+			x: 2.75d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -464,38 +531,46 @@
 				"04547DBE9F5728C4"
 			]
 			id: "65CF1D2CA6C39083"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "355C3F865994FA3E"
 				item: "ars_elemental:ritual_attraction"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 2.25d
+			y: 2.25d
 		}
 		{
 			dependencies: [
 				"42717950CF50C3EA"
 				"4685BC373C4883F5"
 			]
+			hide_dependency_lines: true
 			id: "1885E02AA297C523"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "5C46FA28BA4BB641"
 				item: "ars_elemental:ritual_repulsion"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 5.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["42717950CF50C3EA"]
+			hide_dependency_lines: true
 			id: "236FBABDB6036D03"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "4853EA7B4F552BC5"
 				item: "ars_elemental:ritual_detection"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 6.0d
+			x: 6.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["4C6B834F089CB9E9"]
@@ -505,8 +580,8 @@
 				item: "ars_nouveau:wilden_tribute"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -519,8 +594,8 @@
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1F726F04A7D98FB3"]
@@ -530,8 +605,8 @@
 				item: "ars_nouveau:manipulation_essence"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7B41C4B844B8A6B8"]
@@ -541,18 +616,21 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["28999ED06E4B69A8"]
+			dependencies: [
+				"28999ED06E4B69A8"
+				"6AFCA67DE7192769"
+			]
 			id: "4EB32FBB567C953B"
 			tasks: [{
 				id: "65E3DAD5181DDCB6"
 				item: "ars_nouveau:alteration_table"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -8.0d
 			y: -1.0d
 		}
 		{
@@ -933,57 +1011,68 @@
 			y: 8.75d
 		}
 		{
-			dependencies: ["2260AD2796A36C0F"]
-			id: "4332BD62B7CF622F"
-			tasks: [{
-				id: "6122373CB2FD1C48"
-				item: "ars_nouveau:starbuncle_shards"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 7.0d
-		}
-		{
 			dependencies: [
-				"4332BD62B7CF622F"
 				"2260AD2796A36C0F"
 				"78E04C488ED7B83D"
 			]
 			id: "2995A993C3A2E349"
-			tasks: [{
-				id: "6D32D891B3CBD82F"
-				item: {
-					Count: 1
-					id: "ars_nouveau:starbuncle_charm"
-					tag: { }
+			rewards: [
+				{
+					id: "0EAED8C1380DDD0D"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starbuncle_charm"
+						tag: { }
+					}
+					random_bonus: 2
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -4.0d
+				{
+					count: 3
+					id: "28F103A78B544392"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37A6A6D77F859228"
+					item: "ars_nouveau:starbuncle_shards"
+					type: "item"
+				}
+				{
+					id: "0E0CC05959D25B1A"
+					item: {
+						Count: 1
+						id: "ars_nouveau:starbuncle_charm"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
 			y: 7.0d
 		}
 		{
 			dependencies: [
-				"6C397E8A25E2D226"
 				"5D848CC085077117"
 				"1F726F04A7D98FB3"
+				"7086C5C2AF0D32BD"
 			]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "78E04C488ED7B83D"
-			tasks: [
-				{
-					id: "4D5C42AA2D1CCCBA"
-					item: "ars_nouveau:enchanting_apparatus"
-					type: "item"
-				}
-				{
-					id: "39D502EDB20221BE"
-					item: "ars_nouveau:arcane_core"
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: 4.0d
+			tasks: [{
+				id: "4D5C42AA2D1CCCBA"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["27697B9F1C2AFC01"]
@@ -993,19 +1082,8 @@
 				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7B41C4B844B8A6B8"]
-			id: "31730E74BF4A3F7A"
-			tasks: [{
-				id: "57353450099C6B05"
-				item: "ars_nouveau:source_jar"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 1.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["78E04C488ED7B83D"]
@@ -1023,8 +1101,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 4.0d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4F2F6A051746197A"]
@@ -1034,8 +1112,79 @@
 				item: "ars_nouveau:magebloom_fiber"
 				type: "item"
 			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C397E8A25E2D226"]
+			id: "7086C5C2AF0D32BD"
+			tasks: [{
+				id: "26758C25FE2A4E01"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F2F6A051746197A"]
+			icon: "ars_nouveau:whirlisprig_charm"
+			id: "03EE2E853D5FEDB2"
+			tasks: [
+				{
+					id: "7F4D39A09029B013"
+					item: "ars_nouveau:whirlisprig_shards"
+					type: "item"
+				}
+				{
+					id: "2E43882114DA1158"
+					item: "ars_nouveau:whirlisprig_charm"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78E04C488ED7B83D"]
+			icon: "ars_nouveau:wixie_charm"
+			id: "2A3FB091F9AC1A15"
+			tasks: [
+				{
+					id: "7D04899B9A4E841C"
+					item: "ars_nouveau:wixie_shards"
+					type: "item"
+				}
+				{
+					id: "056561BBEEF3C475"
+					item: "ars_nouveau:wixie_charm"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78E04C488ED7B83D"]
+			id: "208E38DA0A224A7B"
+			tasks: [{
+				id: "1CDB5F2F1D3AFD65"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
 			x: -6.0d
-			y: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B41C4B844B8A6B8"]
+			id: "3C21B57D0354F44E"
+			tasks: [{
+				id: "5EC0900F51D5AA9B"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
 		}
 	]
 	title: "Ars Nouveau"
