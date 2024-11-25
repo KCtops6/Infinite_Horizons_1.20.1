@@ -1294,6 +1294,7 @@ Added lead to create sifter.
 Added apatite to create sifter.
 
 1.20.1-8.8
+Added KubeJS Botany Pots.
 Added Mystical Adaptations.
 Added Mystical Agriculture Delight.
 Added Mystical Customization.
@@ -1302,3 +1303,4 @@ Added Mystical Expansion.
 Modified Mystical Agriculture questline.
 Blacklisted Comforts mod from Carry On pickup list.
 Added silver to create sifter.
+Added Red Alloy Seeds.
