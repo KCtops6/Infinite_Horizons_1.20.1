@@ -2044,7 +2044,7 @@
 		{
 			dependencies: ["6565029A30829779"]
 			hide_dependency_lines: true
-			icon: "mysticalagriculture:sulfur_seeds"
+			icon: "mysticalagriculture:mystical_flower_seeds"
 			id: "75C68EC20820F3E5"
 			rewards: [
 				{
@@ -2056,7 +2056,7 @@
 				{
 					count: 5
 					id: "222D18A41EFBF654"
-					item: "mysticalagriculture:sulfur_essence"
+					item: "mysticalagriculture:mystical_flower_essence"
 					random_bonus: 4
 					type: "item"
 				}
@@ -2073,7 +2073,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: 0.75d
 		}
 	]
 	title: "Botania"

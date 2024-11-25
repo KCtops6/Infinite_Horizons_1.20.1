@@ -1289,3 +1289,4 @@ Added netherrack create mechanical extruding.
 Fixed FTB Quests bug with a chapter appearing twice.
 Added other types of botany pots to beta questline.
 Fixed blaze catalyst recipe.
+Added lead to create sifter.
