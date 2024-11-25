@@ -13,7 +13,7 @@
 	[general.experience]
 		closer_placement_of_minimal_essential_menu = true
 		darken_re-textured_menu_buttons = false
-		essential_menu_layout = 0
+		essential_menu_layout = 2
 		enable_essential = true
 		use_vanilla_button_texture = false
 		quick_action_bar = true

@@ -1287,3 +1287,4 @@ Added other types of botany pots to beta questline.
 Fixed blaze catalyst recipe.
 Modified Refined Storage questline.
 Modified Ars Nouevau questline.
+Added KubeJS sulfur dust to better unify the modpack.
