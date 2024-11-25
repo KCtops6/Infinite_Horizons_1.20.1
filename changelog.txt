@@ -1298,3 +1298,5 @@ Added Mystical Adaptations.
 Added Mystical Agriculture Delight.
 Added Mystical Customization.
 Added Mystical Expansion.
+
+Blacklisted Comforts mod from Carry On pickup list.
