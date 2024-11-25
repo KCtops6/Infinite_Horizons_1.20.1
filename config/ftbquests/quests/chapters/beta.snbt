@@ -861,6 +861,39 @@
 			x: 6.75d
 			y: 4.25d
 		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			id: "5E1DDD2D6A79BC11"
+			rewards: [
+				{
+					id: "01E37743849DF211"
+					item: "mysticalagriculture:sulfur_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1C5ABE49B1A06C27"
+					item: "mysticalagriculture:sulfur_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "12B7AB572C332732"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "5154B10ECB068C1F"
+				item: "mysticalagriculture:sulfur_seeds"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 4.75d
+		}
 	]
 	title: "Gamma"
 }

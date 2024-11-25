@@ -2041,6 +2041,40 @@
 			x: 8.75d
 			y: 9.25d
 		}
+		{
+			dependencies: ["6565029A30829779"]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:sulfur_seeds"
+			id: "75C68EC20820F3E5"
+			rewards: [
+				{
+					id: "5CFC10E8F062F33F"
+					item: "mysticalagriculture:mystical_flower_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "222D18A41EFBF654"
+					item: "mysticalagriculture:sulfur_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "52EF666497DD7E2C"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "7FE51DC99D7065B1"
+				item: "mysticalagriculture:mystical_flower_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
 	]
 	title: "Botania"
 }

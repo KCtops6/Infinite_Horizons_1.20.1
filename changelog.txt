@@ -1277,14 +1277,15 @@ Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Supplementaries.
 
-Modified Mystical Agriculture questline.
-Modified Quark config file.
 Added KubeJS Brass, Iron, and Gold plates to fix a few issues (including summoning altar recipe).
+Added KubeJS sulfur dust to better unify the modpack.
+Modified Mystical Agriculture questline.
+Modified Refined Storage questline.
+Modified Ars Nouevau questline.
+Modified Botania questline.
+Modified Quark config file.
 Added additional recipes for Powah items (block forms).
 Added netherrack create mechanical extruding.
 Fixed FTB Quests bug with a chapter appearing twice.
 Added other types of botany pots to beta questline.
 Fixed blaze catalyst recipe.
-Modified Refined Storage questline.
-Modified Ars Nouevau questline.
-Added KubeJS sulfur dust to better unify the modpack.
