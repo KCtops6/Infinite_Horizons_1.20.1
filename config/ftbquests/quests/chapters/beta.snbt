@@ -1542,6 +1542,204 @@
 			x: 10.25d
 			y: 3.25d
 		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "3BFA9CD7823C5600"
+			rewards: [
+				{
+					id: "2BBF4CC96E2F8830"
+					item: "mysticalagriculture:nickel_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "27B7ECD476DC46DA"
+					item: "mysticalagriculture:nickel_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "0E4BDB280E5BE5BE"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "039E83D334BEC326"
+				item: "mysticalagriculture:nickel_seeds"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "5B7CA746104C4699"
+			rewards: [
+				{
+					id: "6CDFD492E2111B79"
+					item: "mysticalagriculture:constantan_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "430A2ED4FA9F6359"
+					item: "mysticalagriculture:constantan_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "334CE1ECAA66FBAE"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "0FE7B6C5FCEAE5FF"
+				item: "mysticalagriculture:constantan_seeds"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "524CAEF1F48EBBF6"
+			rewards: [
+				{
+					id: "4F62DDD049D17AD6"
+					item: "mysticalagriculture:electrum_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "459F60A823843436"
+					item: "mysticalagriculture:electrum_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "0DA449451F26D7ED"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "7EC1BF5FB57121BA"
+				item: "mysticalagriculture:electrum_seeds"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "4E7461C853B4BDDA"
+			rewards: [
+				{
+					id: "3619D110C15200F9"
+					item: "mysticalagriculture:invar_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "031AAC149614C703"
+					item: "mysticalagriculture:invar_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "7ED287EB18F1E9B5"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "63A675BE614F9FFC"
+				item: "mysticalagriculture:invar_seeds"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "668855B8DAE1B704"
+			rewards: [
+				{
+					id: "1A990FB291E76095"
+					item: "mysticalagriculture:uranium_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1C48470BE333E863"
+					item: "mysticalagriculture:uranium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "10EE1508670FC2BA"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "7152F549E3144479"
+				item: "mysticalagriculture:uranium_seeds"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "3EC1F828710B0D17"
+			rewards: [
+				{
+					id: "23AF1CFCB866E8CE"
+					item: "mysticalagriculture:soulium_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2A5A85CDCDB23A56"
+					item: "mysticalagriculture:soulium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "54F0C4C949AD3B39"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "430976061B8CA3C6"
+				item: "mysticalagriculture:soulium_seeds"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 4.75d
+		}
 	]
 	title: "Gamma"
 }

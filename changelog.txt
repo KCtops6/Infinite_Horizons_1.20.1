@@ -1302,5 +1302,5 @@ Added Mystical Expansion.
 
 Modified Mystical Agriculture questline.
 Blacklisted Comforts mod from Carry On pickup list.
-Added silver to create sifter.
+Added silver and nickel to create sifter.
 Added Red Alloy Seeds.
