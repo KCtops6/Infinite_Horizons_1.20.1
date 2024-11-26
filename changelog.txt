@@ -1301,6 +1301,7 @@ Added Mystical Customization.
 Added Mystical Expansion.
 
 Updated Bountiful.
+Updated Chat Heads.
 
 Modified Mystical Agriculture questline.
 Blacklisted Comforts mod from Carry On pickup list.
