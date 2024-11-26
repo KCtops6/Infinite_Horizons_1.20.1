@@ -305,6 +305,26 @@
 			hide_dependency_lines: true
 			id: "2E6A30075DF7872E"
 			optional: true
+			rewards: [
+				{
+					id: "2A3FE5C05C12EA54"
+					item: "mysticalagriculture:blazing_crystal_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4ECB07B9563937B2"
+					item: "mysticalagriculture:blazing_crystal_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "69012DDA6561C234"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
 			size: 0.5d
 			tasks: [{
 				id: "20B9800585ECA1AE"

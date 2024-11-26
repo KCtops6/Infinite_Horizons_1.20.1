@@ -1740,6 +1740,204 @@
 			x: 9.75d
 			y: 4.75d
 		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "528861505F86A6AB"
+			rewards: [
+				{
+					id: "7326F04B655D4DB8"
+					item: "mysticalagriculture:signalum_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "03E0B8B453EC3B0D"
+					item: "mysticalagriculture:signalum_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "7FEF09BDB738E2D7"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "3C2212EDFB9C346F"
+				item: "mysticalagriculture:signalum_seeds"
+				type: "item"
+			}]
+			x: 10.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "602D8F716001730A"
+			rewards: [
+				{
+					id: "7D04C95028CCAFAC"
+					item: "mysticalagriculture:lumium_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3335568128534387"
+					item: "mysticalagriculture:lumium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "61E17BE384A544EB"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "5092B497A4038764"
+				item: "mysticalagriculture:lumium_seeds"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "43FF4119C7E2618D"
+			rewards: [
+				{
+					id: "2B79A3923997754F"
+					item: "mysticalagriculture:flux_infused_ingot_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "060CD28A52A515E8"
+					item: "mysticalagriculture:flux_infused_ingot_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "13DD85F7B6A1119C"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "15237231B808C16D"
+				item: "mysticalagriculture:flux_infused_ingot_seeds"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "1B428D192FF9A09E"
+			rewards: [
+				{
+					id: "0A565E52E845FDC4"
+					item: "mysticalagriculture:osmium_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2915A074206A71C5"
+					item: "mysticalagriculture:osmium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4FB8490EF42023E4"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "56E296A4286C2106"
+				item: "mysticalagriculture:osmium_seeds"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "1475A4072E860FED"
+			rewards: [
+				{
+					id: "0F3991CBCABE6AB8"
+					item: "mysticalagriculture:fluorite_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "651DD2E8F50C05B8"
+					item: "mysticalagriculture:fluorite_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "72CFC628556B4D34"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "4C40AC0BA329B152"
+				item: "mysticalagriculture:fluorite_seeds"
+				type: "item"
+			}]
+			x: 10.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "2028C66CBF07A2E2"
+			rewards: [
+				{
+					id: "1A29F10C9007634B"
+					item: "mysticalagriculture:soulium_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "056DA50C83A8F774"
+					item: "mysticalagriculture:soulium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "666D7BC3F662654E"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "586C88A7BCFFB30E"
+				item: "mysticalagriculture:soulium_seeds"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
 	]
 	title: "Gamma"
 }

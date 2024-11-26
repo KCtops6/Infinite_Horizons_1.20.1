@@ -8,7 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["51751DE96026D275"]
 			id: "08971F6A8389375C"
 			tasks: [{
 				id: "016EC46C00CBFF30"
@@ -93,6 +92,12 @@
 		}
 		{
 			id: "0E8A24843AD29391"
+			rewards: [{
+				id: "0DB838B7B3473EEC"
+				item: "irons_spellbooks:arcane_debris"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C9CB787D7BC720F"
 				item: "irons_spellbooks:arcane_salvage"
@@ -350,6 +355,27 @@
 			}]
 			x: 1.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["0E8A24843AD29391"]
+			id: "3A1F9D59D53C7A85"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0A2B0E4386C8F8CD"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:arcane_debris"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.75d
 		}
 	]
 	title: "Iron's Spellbooks"

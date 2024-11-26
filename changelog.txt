@@ -1304,8 +1304,11 @@ Updated Bountiful.
 Updated Chat Heads.
 Updated GregTechCEu Modern.
 Updated Iron's Spells 'n Spellbooks.
+Updated Moonlight Lib.
 
 Modified Mystical Agriculture questline.
+Modified Iron's Spells 'n Spellbooks questline.
+Modified Powah questline.
 Blacklisted Comforts mod from Carry On pickup list.
 Added silver and nickel to create sifter.
 Added Red Alloy Seeds.
