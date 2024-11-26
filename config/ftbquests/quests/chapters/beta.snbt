@@ -888,7 +888,7 @@
 				type: "item"
 			}]
 			x: 10.75d
-			y: 4.75d
+			y: 3.25d
 		}
 		{
 			dependencies: ["2F097F805A79F4BC"]
@@ -932,6 +932,7 @@
 					type: "item"
 				}
 			]
+			title: "Imperium Essence"
 			x: 10.0d
 			y: 4.0d
 		}
@@ -1441,6 +1442,105 @@
 			}]
 			x: 8.75d
 			y: 4.75d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "73D55EA958DB1CE5"
+			rewards: [
+				{
+					id: "02079348B9BC2DE9"
+					item: "mysticalagriculture:gold_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0E61224F5CD4C6AE"
+					item: "mysticalagriculture:gold_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "6248F1F2B62252D5"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "79BDB569703721C5"
+				item: "mysticalagriculture:gold_seeds"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "4BFF9B452C7F706D"
+			rewards: [
+				{
+					id: "6F80939340550760"
+					item: "mysticalagriculture:lapis_lazuli_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "47DFE0E720087FF6"
+					item: "mysticalagriculture:lapis_lazuli_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "347B14E8AAA31CEE"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "1B4D43FDD8BE411C"
+				item: "mysticalagriculture:lapis_lazuli_seeds"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2C2A8E2246290F78"]
+			hide_dependency_lines: true
+			id: "5A3CEA25C0783BFE"
+			rewards: [
+				{
+					id: "7E15BAC6DC11D008"
+					item: "mysticalagriculture:end_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4EFC41094656DAA0"
+					item: "mysticalagriculture:end_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "5B2AD331A41CCFC0"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "343DEB97435F896C"
+				item: "mysticalagriculture:end_seeds"
+				type: "item"
+			}]
+			x: 10.25d
+			y: 3.25d
 		}
 	]
 	title: "Gamma"

@@ -676,6 +676,43 @@
 			x: 3.0d
 			y: 5.0d
 		}
+		{
+			dependencies: [
+				"2C2A8E2246290F78"
+				"4B970090F2D6FDDB"
+			]
+			hide_dependency_lines: true
+			id: "1544831FE0769B3E"
+			optional: true
+			rewards: [
+				{
+					id: "4FD4FA5940CC96F6"
+					item: "mysticalagriculture:red-alloy-seeds_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "041801BB5AB4CB37"
+					item: "mysticalagriculture:red-alloy-seeds_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "6B920673F667F747"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "38B0AC6137815D28"
+				item: "mysticalagriculture:red-alloy-seeds_seeds"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 8.0d
+		}
 	]
 	title: "Foundations of Industry"
 }
