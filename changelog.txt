@@ -1305,6 +1305,7 @@ Updated Chat Heads.
 Updated GregTechCEu Modern.
 Updated Iron's Spells 'n Spellbooks.
 Updated Moonlight Lib.
+Updated Sophisticated Core.
 
 Modified Mystical Agriculture questline.
 Modified Iron's Spells 'n Spellbooks questline.
