@@ -1300,6 +1300,8 @@ Added Mystical Agriculture Delight.
 Added Mystical Customization.
 Added Mystical Expansion.
 
+Updated Bountiful.
+
 Modified Mystical Agriculture questline.
 Blacklisted Comforts mod from Carry On pickup list.
 Added silver and nickel to create sifter.
