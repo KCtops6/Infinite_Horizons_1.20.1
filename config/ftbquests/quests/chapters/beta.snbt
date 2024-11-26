@@ -892,6 +892,7 @@
 		}
 		{
 			dependencies: ["2F097F805A79F4BC"]
+			icon: "mysticalagriculture:imperium_essence"
 			id: "2C2A8E2246290F78"
 			rewards: [
 				{
@@ -1907,36 +1908,339 @@
 		}
 		{
 			dependencies: ["2C2A8E2246290F78"]
-			hide_dependency_lines: true
-			id: "2028C66CBF07A2E2"
+			icon: "mysticalagriculture:supremium_essence"
+			id: "415471CBF6A5D507"
 			rewards: [
 				{
-					id: "1A29F10C9007634B"
-					item: "mysticalagriculture:soulium_seeds"
+					id: "05F486C1D621EE4D"
+					item: {
+						Count: 1
+						id: "matc:imperium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
 					random_bonus: 2
 					type: "item"
 				}
 				{
 					count: 5
-					id: "056DA50C83A8F774"
-					item: "mysticalagriculture:soulium_essence"
+					id: "058F7C72C358BF36"
+					item: "mysticalagriculture:supremium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3E567B9CC160AE56"
+					item: {
+						Count: 1
+						id: "matc:imperium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36FFE48C5F77D8F4"
+					item: "mysticalagriculture:supremium_essence"
+					type: "item"
+				}
+			]
+			title: "Supremium Essence"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["415471CBF6A5D507"]
+			hide_dependency_lines: true
+			id: "5F389169361D9314"
+			rewards: [
+				{
+					id: "00EAFA1646B27182"
+					item: "mysticalagriculture:diamond_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "32D7CF70359E103E"
+					item: "mysticalagriculture:diamond_essence"
 					random_bonus: 4
 					type: "item"
 				}
 				{
-					id: "666D7BC3F662654E"
-					item: "mysticalagriculture:imperium_farmland"
+					id: "5502F3CD73C6DE73"
+					item: "mysticalagriculture:supremium_farmland"
 					type: "item"
 				}
 			]
 			size: 0.5d
 			tasks: [{
-				id: "586C88A7BCFFB30E"
-				item: "mysticalagriculture:soulium_seeds"
+				id: "3A760C10163E01B0"
+				item: "mysticalagriculture:diamond_seeds"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 5.0d
+			x: 11.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["54348BE205A50524"]
+			id: "7DA64C17F48ADFB6"
+			tasks: [{
+				id: "5040525406612118"
+				item: "mysticalagriculture:master_infusion_crystal"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["415471CBF6A5D507"]
+			icon: "mysticalagradditions:insanium_essence"
+			id: "54348BE205A50524"
+			rewards: [
+				{
+					id: "30B4631CAFE6150B"
+					item: {
+						Count: 1
+						id: "matc:supremium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7A020763BE61E116"
+					item: "mysticalagradditions:insanium_essence"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "584621C94C5D5DBA"
+					item: {
+						Count: 1
+						id: "matc:supremium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15E7C9893B864D11"
+					item: "mysticalagradditions:insanium_essence"
+					type: "item"
+				}
+			]
+			title: "Insanium Essence"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["415471CBF6A5D507"]
+			hide_dependency_lines: true
+			id: "0640C860CA3FE4BB"
+			rewards: [
+				{
+					id: "459405AB7DF084D6"
+					item: "mysticalagriculture:emerald_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "28BAE2292A3EB3DC"
+					item: "mysticalagriculture:emerald_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4C4EDC30AA59B025"
+					item: "mysticalagriculture:supremium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "694BC509164F99F2"
+				item: "mysticalagriculture:emerald_seeds"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["415471CBF6A5D507"]
+			hide_dependency_lines: true
+			id: "5535040F57E3E726"
+			rewards: [
+				{
+					id: "2316B02A28163747"
+					item: "mysticalagriculture:netherite_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "62BB49532CFC510C"
+					item: "mysticalagriculture:netherite_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "728BDDC598FFF1C9"
+					item: "mysticalagriculture:supremium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "65098F81B56EDEAF"
+				item: "mysticalagriculture:netherite_seeds"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["415471CBF6A5D507"]
+			hide_dependency_lines: true
+			id: "2A450A1BF53BADB5"
+			rewards: [
+				{
+					id: "7BD86974FFFE576F"
+					item: "mysticalagriculture:platinum_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "159C5529BEFF8317"
+					item: "mysticalagriculture:platinum_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2C99B3F0DD10CE43"
+					item: "mysticalagriculture:supremium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "303E08D9C3879D89"
+				item: "mysticalagriculture:platinum_seeds"
+				type: "item"
+			}]
+			x: 12.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["415471CBF6A5D507"]
+			hide_dependency_lines: true
+			id: "77CFC0653614A7E4"
+			rewards: [
+				{
+					id: "1DDDE25D1B9100BC"
+					item: "mysticalagriculture:iridium_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "696973C428C8E7D6"
+					item: "mysticalagriculture:iridium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2CDAF3F598CCA04F"
+					item: "mysticalagriculture:supremium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "5A4DBB5F427C6906"
+				item: "mysticalagriculture:iridium_seeds"
+				type: "item"
+			}]
+			x: 11.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["415471CBF6A5D507"]
+			hide_dependency_lines: true
+			id: "48183785A57666E6"
+			rewards: [
+				{
+					id: "7A1280F6DE808AC5"
+					item: "mysticalagriculture:enderium_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "42DA57321D6BBFF1"
+					item: "mysticalagriculture:enderium_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3115F7FF8216E7F8"
+					item: "mysticalagriculture:supremium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "4E923FF2553A826E"
+				item: "mysticalagriculture:enderium_seeds"
+				type: "item"
+			}]
+			x: 12.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["415471CBF6A5D507"]
+			hide_dependency_lines: true
+			id: "440096E5189CB178"
+			rewards: [
+				{
+					id: "54A87D09FC337B04"
+					item: "mysticalagriculture:flux_infused_gem_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7C837B6671CA1CE5"
+					item: "mysticalagriculture:flux_infused_gem_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "6FE00FCC7E1E6071"
+					item: "mysticalagriculture:supremium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "1578A5764A6227C7"
+				item: "mysticalagriculture:flux_infused_gem_seeds"
+				type: "item"
+			}]
+			x: 11.25d
+			y: 4.25d
 		}
 	]
 	title: "Gamma"
