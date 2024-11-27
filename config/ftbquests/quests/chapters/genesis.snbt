@@ -231,6 +231,13 @@
 				"57DF6936713C9F22"
 			]
 			id: "1C3FB8AF67DFC71F"
+			rewards: [{
+				count: 3
+				id: "1A4433CBC05435BF"
+				item: "gtceu:basic_electronic_circuit"
+				random_bonus: 2
+				type: "item"
+			}]
 			size: 3.5d
 			subtitle: "Your first circuit at last! Now you can begin looking into electricity and LV machines."
 			tasks: [{
@@ -265,7 +272,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["47EC4DDFE478DF2B"]
@@ -276,7 +283,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -291,7 +298,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2173563E02EA8418"]
@@ -304,7 +311,7 @@
 				type: "fluid"
 			}]
 			x: 6.0d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -312,6 +319,8 @@
 				"2A6B0E7FADD52577"
 				"0A995312F8694AC5"
 				"4F1572D488861ABC"
+				"126953FFAF23AFB3"
+				"418B59D5AC2B522A"
 			]
 			description: ["Your first way of making steel."]
 			icon: "gtceu:primitive_blast_furnace"
@@ -358,7 +367,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2173563E02EA8418"]
@@ -370,18 +379,25 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
-				"126953FFAF23AFB3"
 				"2BB6F3AF00926742"
+				"418B59D5AC2B522A"
 			]
+			dependency_requirement: "one_completed"
 			description: ["THe bedrock of industry. You will need countless stacks of this stuff, so find a way to automate it quickly."]
 			id: "567A2F4C34FFD146"
+			rewards: [{
+				id: "33E59DE1E3F0E03F"
+				item: "kubejs:steel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
-				id: "4DB7DDB815FF47AC"
-				item: "gtceu:steel_ingot"
+				id: "51D52A69EBC1A4C0"
+				item: "kubejs:steel_ingot"
 				type: "item"
 			}]
 			x: -4.0d
@@ -390,6 +406,12 @@
 		{
 			dependencies: ["1778856E931F27D7"]
 			id: "5A536C85907F5C2E"
+			rewards: [{
+				id: "00D00941003CB6BA"
+				item: "gtceu:resistor"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BA84AA7A973E73F"
 				item: "gtceu:resistor"
@@ -403,6 +425,12 @@
 			description: ["Your first circuit board."]
 			icon: "gtceu:resin_printed_circuit_board"
 			id: "4FD1758556DEF0A5"
+			rewards: [{
+				id: "05ECF07B605367F8"
+				item: "gtceu:resin_printed_circuit_board"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "15842400F9985D42"
@@ -455,6 +483,12 @@
 		{
 			dependencies: ["567A2F4C34FFD146"]
 			id: "79A1E7D81A0D15A8"
+			rewards: [{
+				id: "10A2F9ED10641E5D"
+				item: "gtceu:steel_plate"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "093EECF9CBC580B5"
 				item: "gtceu:steel_plate"
@@ -471,6 +505,12 @@
 			description: ["You're telling me that I'm supposed to make a computer out of lightbulbs?"]
 			icon: "gtceu:vacuum_tube"
 			id: "4B3DA5DF6A398B5D"
+			rewards: [{
+				id: "3DA71A2D0BC8115A"
+				item: "gtceu:vacuum_tube"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "46F520F814BD33DB"
@@ -504,9 +544,19 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["4B970090F2D6FDDB"]
+			dependencies: [
+				"4B970090F2D6FDDB"
+				"3F6D61E2B2C9237F"
+				"1778856E931F27D7"
+			]
 			description: ["Wire and insulation to make it safer."]
 			id: "57DF6936713C9F22"
+			rewards: [{
+				id: "4832023C17C9F3E4"
+				item: "gtceu:red_alloy_single_cable"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B60013232756A6D"
 				item: "gtceu:red_alloy_single_cable"
@@ -528,6 +578,13 @@
 		{
 			dependencies: ["021DDAFB91F94FEF"]
 			id: "47C9E21118ADEEC3"
+			rewards: [{
+				count: 3
+				id: "5B0E7159EE063EBB"
+				item: "gtceu:rubber_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A4D55856A68013E"
 				item: "gtceu:rubber_ingot"
