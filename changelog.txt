@@ -1297,13 +1297,16 @@ Added apatite to create sifter.
 Added Advancement Plaques [Neo/Forge].
 Added Equipment Compare [Neo/Forge].
 Added Iceberg [Neo/Forge].
+Added Item Borders [Neo/Forge].
 Added KubeJS Botany Pots.
 Added Legendary Tooltips [Neo/Forge].
+Added Merchant Markers [Neo/Forge].
 Added Mystical Adaptations.
 Added Mystical Agriculture Delight.
 Added Mystical Customization.
 Added Mystical Expansion.
 Added Prism [Neo/Forge].
+Added Wiki Lookup [Forge].
 
 Updated Bountiful.
 Updated Chat Heads.
@@ -1313,6 +1316,7 @@ Updated Iron's Spells 'n Spellbooks.
 Updated Moonlight Lib.
 Updated Sophisticated Core.
 
+Disabled forced agricraft gameplay (crop sticks).
 Modified Mystical Agriculture questline.
 Modified Iron's Spells 'n Spellbooks questline.
 Modified Powah questline.
