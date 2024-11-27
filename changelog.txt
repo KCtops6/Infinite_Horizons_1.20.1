@@ -1303,6 +1303,7 @@ Added Mystical Expansion.
 Updated Bountiful.
 Updated Chat Heads.
 Updated GregTechCEu Modern.
+Updated Inventory Tweaks - ReFoxed.
 Updated Iron's Spells 'n Spellbooks.
 Updated Moonlight Lib.
 Updated Sophisticated Core.
