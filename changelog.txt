@@ -1295,6 +1295,7 @@ Added apatite to create sifter.
 
 1.20.1-8.8
 Added Advancement Plaques [Neo/Forge].
+Added Equipment Compare [Neo/Forge].
 Added Iceberg [Neo/Forge].
 Added KubeJS Botany Pots.
 Added Legendary Tooltips [Neo/Forge].
