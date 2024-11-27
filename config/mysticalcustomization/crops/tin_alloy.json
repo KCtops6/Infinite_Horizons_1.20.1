@@ -1,0 +1,14 @@
+{
+    "name": "Tin Alloy",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+        "item": "gtceu:tin_alloy_ingot"
+    },
+    "color": "5a5c5e",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_ingot",
+        "essence": "mysticalagriculture:item/essence_ingot",
+        "seeds": "mysticalagriculture:item/mystical_seeds"
+    }
+}

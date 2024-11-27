@@ -1323,6 +1323,10 @@ Modified Powah questline.
 Modified Gregtech questlines.
 Blacklisted Comforts mod from Carry On pickup list.
 Added silver and nickel to create sifter.
+Added Antimony Seeds.
+Added Battery Alloy Seeds.
+Added Potin Seeds.
 Added Red Alloy Seeds.
+Added Tin Alloy Seeds.
 Added Wrought Iron Seeds.
 Added KubeJS copper plates.
