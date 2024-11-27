@@ -1,10 +1,10 @@
 ServerEvents.recipes(event => {
-    const mappings = [
-        { output: 'gtceu:red_alloy_ingot', essence: 'mysticalagriculture:red-alloy-seeds_essence' },
-        { output: 'gtceu:wrought_iron_ingot', essence: 'mysticalagriculture:wrought-iron-seeds-essence'}
+    const essenceIngotMappings = [
+        { output: 'gtceu:red_alloy_ingot', essence: 'mysticalagriculture:red_alloy_essence' },
+        { output: 'gtceu:wrought_iron_ingot', essence: 'mysticalagriculture:wrought_iron_essence'}
     ];
 
-    mappings.forEach(m => {
+    essenceIngotMappings.forEach(m => {
         event.shaped(
             Item.of(m.output, 6),
             [

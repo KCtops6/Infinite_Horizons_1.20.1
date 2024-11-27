@@ -1,20 +1,21 @@
-// ServerEvents.recipes(event => {
-//     event.recipes.botanypots.crop(
-//         'mysticalagriculture:red-alloy-seeds_seeds', // seed item
-//         ['mysticalagriculture:imperium_farmland'], // categories that this crop can be planted on
-//         { block: 'mysticalagriculture:red-alloy-seeds_essence' }, // display block
-//         [
-//             Item.of('mysticalagriculture:red-alloy-seeds_essence') // item
-//                 .withChance(100) // 100% chance
-//                 .withRolls(1), // fixed at 1 roll
-//             Item.of('mysticalagriculture:red-alloy-seeds_seeds')
-//                 .withChance(1) // very low chance
-//                 .withRolls(1),
-//             Item.of('mysticalagriculture:fertilized_essence')
-//                 .withChance(1) // very low chance
-//                 .withRolls(1)
-//         ],
-//         100, // growthTicks
-//         1 // growthModifier (optional)
-//     );
-// });
+ServerEvents.recipes(event => {
+    event.recipes.botanypots.crop(
+        'mysticalagriculture:red_alloy_seeds', // seed item
+        ['minecraft:dirt'], // categories that this crop can be planted on
+        { block: "minecraft:candle" }, // display block
+        [
+            Item.of('mysticalagriculture:red_alloy_essence') // item
+                .withChance(100) // weight of this entry compared to the others
+                .withRolls(1), // the times this loot will be chosen (min, max)
+            Item.of('mysticalagriculture:red_alloy_seeds') // item
+                .withChance(1) // weight of this entry compared to the others
+                .withRolls(1), // the times this loot will be chosen (min, max)
+            Item.of('mysticalagriculture:fertilized_essence') // item
+                .withChance(1) // weight of this entry compared to the others
+                .withRolls(1) // the times this loot will be chosen (min, max)
+            // for example, when chosen this will give 1 to 2 candles
+        ],
+        10, // growthTicks
+        1, // optional, growthModifier - this can be set to 1 in most cases
+    )
+})

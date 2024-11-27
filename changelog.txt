@@ -1320,4 +1320,5 @@ Modified Gregtech questlines.
 Blacklisted Comforts mod from Carry On pickup list.
 Added silver and nickel to create sifter.
 Added Red Alloy Seeds.
+Added Wrought Iron Seeds.
 Added KubeJS copper plates.
