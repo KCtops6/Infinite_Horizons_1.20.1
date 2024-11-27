@@ -597,6 +597,78 @@
 			x: 6.0d
 			y: 1.0d
 		}
+		{
+			dependencies: [
+				"2C2A8E2246290F78"
+				"16720D525CA83F44"
+			]
+			hide_dependency_lines: true
+			id: "5990E44C3F3DABB7"
+			rewards: [
+				{
+					id: "0FCACDD28C59572B"
+					item: "mysticalagriculture:refined_obsidian_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2B4CF950D17AF994"
+					item: "mysticalagriculture:refined_obsidian_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "5874BA3B1AAEBF38"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "14EBB5A29F73F045"
+				item: "mysticalagriculture:refined_obsidian_seeds"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"2C2A8E2246290F78"
+				"2A40F0CDC55BA891"
+			]
+			hide_dependency_lines: true
+			id: "24F6D8F86C42DA51"
+			rewards: [
+				{
+					id: "7D36DC581ACF620A"
+					item: "mysticalagriculture:refined_glowstone_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "12A628C7F0BEAD0D"
+					item: "mysticalagriculture:refined_glowstone_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "6B5A13134535A350"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "0628249D45A17CAB"
+				item: "mysticalagriculture:refined_glowstone_seeds"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.75d
+		}
 	]
 	title: "Mekanism"
 }

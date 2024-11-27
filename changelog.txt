@@ -1317,3 +1317,4 @@ Modified Powah questline.
 Blacklisted Comforts mod from Carry On pickup list.
 Added silver and nickel to create sifter.
 Added Red Alloy Seeds.
+Added KubeJS copper plates.

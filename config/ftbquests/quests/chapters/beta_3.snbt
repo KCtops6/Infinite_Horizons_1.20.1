@@ -407,6 +407,7 @@
 				"5018E720C03A7EF8"
 				"2E27C65E12B61E06"
 			]
+			description: ["Prismarine Shards are also an occasional Wandering Trader trade."]
 			icon: "minecraft:prismarine_shard"
 			id: "1CD2B2DAD30A3AF8"
 			tasks: [

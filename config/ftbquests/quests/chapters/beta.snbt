@@ -2242,6 +2242,44 @@
 			x: 11.25d
 			y: 4.25d
 		}
+		{
+			dependencies: ["54348BE205A50524"]
+			hide_dependency_lines: true
+			id: "0FCABEFD404849B1"
+			rewards: [
+				{
+					id: "6CD18890E62C9C82"
+					item: "mysticalagriculture:nether_star_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2A6F4F1C733D057B"
+					item: "mysticalagriculture:nether_star_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3DC6F17C820ACF7A"
+					item: "mysticalagradditions:insanium_farmland"
+					type: "item"
+				}
+				{
+					id: "342E118FB8878DBF"
+					item: "mysticalagradditions:nether_star_crux"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "00C17190368B58FC"
+				item: "mysticalagriculture:nether_star_seeds"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 3.25d
+		}
 	]
 	title: "Gamma"
 }

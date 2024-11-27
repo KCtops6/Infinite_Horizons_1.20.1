@@ -2,6 +2,7 @@ StartupEvents.registry('item', e => {
     e.create('brass_plate').displayName('Brass Plate');
     e.create('bronze_plate').displayName('Bronze Plate');
     e.create('constantan_plate').displayName('Constantan Plate');
+    e.create('copper_plate').displayName('Copper Plate');
     e.create('electrum_plate').displayName('Electrum Plate');
     e.create('gold_plate').displayName("Gold Plate");
     e.create('invar_plate').displayName('Invar Plate');
