@@ -1314,6 +1314,7 @@ Updated Sophisticated Core.
 Modified Mystical Agriculture questline.
 Modified Iron's Spells 'n Spellbooks questline.
 Modified Powah questline.
+Modified Gregtech questlines.
 Blacklisted Comforts mod from Carry On pickup list.
 Added silver and nickel to create sifter.
 Added Red Alloy Seeds.
