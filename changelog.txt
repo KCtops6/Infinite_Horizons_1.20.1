@@ -1311,6 +1311,8 @@ Added Wiki Lookup [Forge].
 
 Updated Bountiful.
 Updated Chat Heads.
+Updated Connectivity.
+Updated Delightful.
 Updated GregTechCEu Modern.
 Updated Inventory Tweaks - ReFoxed.
 Updated Iron's Spells 'n Spellbooks.
