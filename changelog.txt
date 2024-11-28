@@ -1298,6 +1298,7 @@ Added Advancement Plaques [Neo/Forge].
 Added Equipment Compare [Neo/Forge].
 Added Iceberg [Neo/Forge].
 Added Item Borders [Neo/Forge].
+Added Just Enough Breeding (JEBr).
 Added KubeJS Botany Pots.
 Added Legendary Tooltips [Neo/Forge].
 Added Merchant Markers [Neo/Forge].
