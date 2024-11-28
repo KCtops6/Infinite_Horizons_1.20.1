@@ -248,7 +248,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 8.0d
 			y: 6.0d
 		}
 		{
@@ -621,6 +621,53 @@
 			}]
 			x: -3.0d
 			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2BB6F3AF00926742"
+				"418B59D5AC2B522A"
+			]
+			dependency_requirement: "one_completed"
+			description: ["There are multiple ways to make steel, so I will just put this quest here."]
+			id: "567A2F4C34FFD146"
+			rewards: [{
+				id: "33E59DE1E3F0E03F"
+				item: "kubejs:steel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "51D52A69EBC1A4C0"
+				item: "kubejs:steel_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"110517F6B8116C24"
+				"1773764CA8CA2EEA"
+			]
+			id: "08D09CCB9CE65E1E"
+			tasks: [{
+				id: "238B0BA1EA8EE73B"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			id: "1773764CA8CA2EEA"
+			tasks: [{
+				id: "789D073899E4287D"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
 		}
 	]
 	title: "Beta"

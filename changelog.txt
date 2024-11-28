@@ -1321,6 +1321,7 @@ Modified Mystical Agriculture questline.
 Modified Iron's Spells 'n Spellbooks questline.
 Modified Powah questline.
 Modified Gregtech questlines.
+Modified Create questline.
 Blacklisted Comforts mod from Carry On pickup list.
 Added silver and nickel to create sifter.
 Added Antimony Seeds.

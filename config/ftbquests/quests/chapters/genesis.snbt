@@ -382,28 +382,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"2BB6F3AF00926742"
-				"418B59D5AC2B522A"
-			]
-			dependency_requirement: "one_completed"
-			description: ["THe bedrock of industry. You will need countless stacks of this stuff, so find a way to automate it quickly."]
-			id: "567A2F4C34FFD146"
-			rewards: [{
-				id: "33E59DE1E3F0E03F"
-				item: "kubejs:steel_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "51D52A69EBC1A4C0"
-				item: "kubejs:steel_ingot"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 9.0d
-		}
-		{
 			dependencies: ["1778856E931F27D7"]
 			id: "5A536C85907F5C2E"
 			rewards: [{

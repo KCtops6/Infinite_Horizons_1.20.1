@@ -82,7 +82,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["30A053A95FB69E76"]
+			dependencies: [
+				"30A053A95FB69E76"
+				"567A2F4C34FFD146"
+			]
 			id: "353F485B98D382E9"
 			tasks: [{
 				id: "646B67EEBAAD2992"
@@ -203,7 +206,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["30A053A95FB69E76"]
+			dependencies: [
+				"30A053A95FB69E76"
+				"567A2F4C34FFD146"
+			]
 			id: "4BD60131EA573CF5"
 			tasks: [{
 				id: "2E35F88499791F9F"
