@@ -98,7 +98,6 @@
 			dependencies: [
 				"1899E6C86E351D49"
 				"62EF81453EA35985"
-				"03432D325D08F141"
 			]
 			id: "2A2466DB69F16358"
 			size: 3.5d
@@ -389,6 +388,21 @@
 		{
 			dependencies: ["1B3FC09F76931D02"]
 			id: "1B04D2A2FA236B65"
+			rewards: [
+				{
+					count: 3
+					id: "490FD3E29B799C1A"
+					item: "gtceu:lv_electric_pump"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1ACF605208751DD7"
+					item: "gtceu:lv_electric_motor"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "73A55FFE687F1087"
 				item: "gtceu:lv_electric_pump"
@@ -494,6 +508,7 @@
 				"0F545B0AF79100FC"
 				"3146103A8276B095"
 				"4ECDDD1105D0E529"
+				"2A2466DB69F16358"
 			]
 			description: ["The machine for making circuits. You don't need a cleanroom yet, but that will become essential for higher tier circuits."]
 			id: "03432D325D08F141"
@@ -507,6 +522,12 @@
 		}
 		{
 			id: "4ECDDD1105D0E529"
+			rewards: [{
+				id: "279682A44F1BA141"
+				item: "gtceu:lv_emitter"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C15A1A0BE82D27C"
 				item: "gtceu:lv_emitter"
@@ -761,6 +782,27 @@
 			title: "Medium rechargable batteries"
 			x: 5.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["2BE1C10D22A12121"]
+			id: "0B76D6D2D1F212AA"
+			tasks: [{
+				id: "6A1ADA3D5C44C7BD"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "2BE1C10D22A12121"
+			tasks: [{
+				id: "54D87B7236738DCB"
+				item: "gtceu:cobalt_brass_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
 		}
 	]
 	title: "Spark of Innovation"
