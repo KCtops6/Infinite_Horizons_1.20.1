@@ -1319,6 +1319,7 @@ Updated Iron's Spells 'n Spellbooks.
 Updated Moonlight Lib.
 Updated Server Performance - Smooth Chunk Save[Forge/Fabric].
 Updated Sophisticated Core.
+Updated Supplementaries.
 
 Disabled forced agricraft gameplay (crop sticks).
 Modified Mystical Agriculture questline.
