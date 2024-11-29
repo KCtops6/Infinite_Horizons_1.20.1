@@ -1317,6 +1317,7 @@ Updated GregTechCEu Modern.
 Updated Inventory Tweaks - ReFoxed.
 Updated Iron's Spells 'n Spellbooks.
 Updated Moonlight Lib.
+Updated Server Performance - Smooth Chunk Save[Forge/Fabric].
 Updated Sophisticated Core.
 
 Disabled forced agricraft gameplay (crop sticks).

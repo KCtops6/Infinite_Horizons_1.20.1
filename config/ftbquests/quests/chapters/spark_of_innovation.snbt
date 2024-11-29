@@ -11,6 +11,13 @@
 		{
 			icon: "gtceu:lv_electric_motor"
 			id: "1B3FC09F76931D02"
+			rewards: [{
+				count: 3
+				id: "07BE24EB9BC61D9D"
+				item: "gtceu:lv_electric_motor"
+				random_bonus: 2
+				type: "item"
+			}]
 			subtitle: "The main parts, other than your circuit, which you need to make for a steam turbine. You can magnetize iron by putting it in a crafting table with four redstone dust."
 			tasks: [
 				{
@@ -66,6 +73,12 @@
 			description: ["The first machine casing, the primary ingredient in GregTech machines."]
 			icon: "gtceu:lv_machine_hull"
 			id: "1475F0E7ADCDEAF7"
+			rewards: [{
+				id: "5295614C747B7EE3"
+				item: "gtceu:lv_machine_hull"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5F5C9AEF696DB2FB"
@@ -140,6 +153,13 @@
 		{
 			dependencies: ["666F57295207056F"]
 			id: "104DC0EEBEB141B8"
+			rewards: [{
+				count: 3
+				id: "74AF157AC1992F6E"
+				item: "gtceu:tin_single_cable"
+				random_bonus: 2
+				type: "item"
+			}]
 			subtitle: "Making wire sucks, right? Well not anymore! This machine does it for you. You should begin to process as much as possible in machines."
 			tasks: [{
 				id: "602932BE73E080AE"
@@ -179,6 +199,20 @@
 				"0F545B0AF79100FC"
 			]
 			id: "282383215617BCF8"
+			rewards: [
+				{
+					id: "1127D7526EDC08DD"
+					item: "gtceu:lv_robot_arm"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6041E90C6D003FE1"
+					item: "gtceu:lv_conveyor_module"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			subtitle: "This machine is necessary for making advanced items."
 			tasks: [{
 				id: "2EFBCF4AFC432EC4"
@@ -191,6 +225,21 @@
 		{
 			dependencies: ["104DC0EEBEB141B8"]
 			id: "0F545B0AF79100FC"
+			rewards: [
+				{
+					count: 3
+					id: "2326FB401FCBE76D"
+					item: "gtceu:lv_conveyor_module"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5C71FE209DEEBF0E"
+					item: "gtceu:lv_electric_motor"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "06F649AE883DDEE3"
 				item: "gtceu:lv_conveyor_module"
@@ -203,6 +252,21 @@
 			dependencies: ["7EFE87646A3A978E"]
 			description: ["Crafting component as well as a way to feed items into machine when used as a cover."]
 			id: "3146103A8276B095"
+			rewards: [
+				{
+					count: 3
+					id: "3BBEAB9E3CDE00FF"
+					item: "gtceu:lv_robot_arm"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4394F64D79B635E8"
+					item: "gtceu:lv_electric_piston"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0C603530C1FE8D00"
 				item: "gtceu:lv_robot_arm"
@@ -215,6 +279,12 @@
 			dependencies: ["198F9235D3061A31"]
 			description: ["Cheaper rods and screws."]
 			id: "7EFE87646A3A978E"
+			rewards: [{
+				id: "709B76D22B21A5F1"
+				item: "gtceu:lv_electric_piston"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "297BA794E74130C4"
 				item: "gtceu:lv_lathe"
@@ -226,6 +296,12 @@
 		{
 			dependencies: ["104DC0EEBEB141B8"]
 			id: "198F9235D3061A31"
+			rewards: [{
+				id: "0B713875189A0B00"
+				item: "gtceu:lv_electric_piston"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "37AAE74D5954D4CA"
 				item: "gtceu:lv_electric_piston"
@@ -325,6 +401,12 @@
 			dependencies: ["198F9235D3061A31"]
 			description: ["Cheap plates!"]
 			id: "201744E822796650"
+			rewards: [{
+				id: "6CDF352FBEFE9292"
+				item: "gtceu:steel_plate"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FC12D7EE5A68DC9"
 				item: "gtceu:lv_bender"
@@ -436,6 +518,19 @@
 		{
 			dependencies: ["104DC0EEBEB141B8"]
 			id: "58491485CC04AC86"
+			rewards: [
+				{
+					id: "575FF8313E95DD7A"
+					item: "gtceu:lv_electric_motor"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "305E249897CEAC8A"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "487F88E459BE1FAE"
 				item: "gtceu:lv_chemical_reactor"
