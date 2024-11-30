@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["18E51F750E34C386"]
 			id: "77F0634C35F28371"
 			tasks: [{
 				id: "35981201CA0419F5"
@@ -18,16 +17,6 @@
 			}]
 			x: 1.0d
 			y: 0.5d
-		}
-		{
-			id: "18E51F750E34C386"
-			tasks: [{
-				id: "2BC3299CE8536FB9"
-				title: "Enter:  Hostile Neural Networks"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -97,7 +86,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["18E51F750E34C386"]
 			id: "58B7EB4158F571ED"
 			tasks: [{
 				id: "0F5EBA1441378FC1"

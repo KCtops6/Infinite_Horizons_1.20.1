@@ -669,6 +669,25 @@
 			x: 2.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["32AEAE8653EF3DA0"]
+			description: ["Highly Recommend you make seeds for this."]
+			id: "0A87B874851CD1B0"
+			rewards: [{
+				count: 7
+				id: "035CE7C3ABB9940E"
+				item: "minecraft:obsidian"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BBB742E9C44B09B"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
 	]
 	title: "Beta"
 }

@@ -184,8 +184,10 @@
 					type: "item"
 				}
 				{
+					count: 7
 					id: "7EACE056E97117AE"
 					item: "minecraft:emerald"
+					random_bonus: 2
 					type: "item"
 				}
 			]
