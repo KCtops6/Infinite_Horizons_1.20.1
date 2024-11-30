@@ -804,6 +804,29 @@
 			x: 5.0d
 			y: 5.0d
 		}
+		{
+			icon: "gtceu:bronze_large_boiler"
+			id: "75C713F215FBC366"
+			tasks: [
+				{
+					id: "78DA35B713F3F586"
+					item: "gtceu:bronze_large_boiler"
+					type: "item"
+				}
+				{
+					id: "04B2873F4D00FD65"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "711870491CE553E3"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 2.0d
+		}
 	]
 	title: "Spark of Innovation"
 }
