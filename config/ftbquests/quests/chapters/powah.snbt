@@ -426,6 +426,11 @@
 					item: "mysticalagradditions:insanium_farmland"
 					type: "item"
 				}
+				{
+					id: "127DD36B9817AE29"
+					item: "mysticalagradditions:nitro_crystal_crux"
+					type: "item"
+				}
 			]
 			size: 0.5d
 			tasks: [{
