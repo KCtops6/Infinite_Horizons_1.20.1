@@ -1347,3 +1347,4 @@ Modified Powah questline.
 Modified Summoning Altar questline.
 Decreased crafting time in summoning altar catalyst recipes.
 Changed Elder Guardian catalyst recipe.
+Changed Blaze summoning altar recipe.

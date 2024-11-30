@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     .altar('kubejs:blaze_catalyst')
     .input('minecraft:blaze_rod')
     .input('minecraft:blaze_powder')
-    .input('gtceu:sulfur_dust')
+    .input('kubejs:sulfur_dust')
     .mobOutput(SummoningOutput.mob('blaze').count(6).offset(0, 3, 0).spread(4, 0, 4))
     .itemOutput(Item.of('minecraft:rib_armor_trim_smithing_template').withChance(0.067))
     .blockBelow('minecraft:nether_bricks')
