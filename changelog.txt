@@ -1336,4 +1336,5 @@ Added Red Alloy Seeds.
 Added Tin Alloy Seeds.
 Added Wrought Iron Seeds.
 Added KubeJS copper plates.
+Added KubeJS obsidian dust.
 Disabled the Infinite Trading mod for Wandering Traders (too overpowered).
