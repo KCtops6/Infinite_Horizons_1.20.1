@@ -293,8 +293,8 @@
 				type: "item"
 			}]
 			title: "Unearthing Potential"
-			x: 3.0d
-			y: -2.0d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["18C2DE07B655DAE5"]
@@ -626,7 +626,7 @@
 				type: "item"
 			}]
 			title: "Edge of Precision"
-			x: 1.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
