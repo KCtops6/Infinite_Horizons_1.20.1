@@ -42,6 +42,6 @@ ServerEvents.recipes(event => {
             .input(recipe.inputs[2])
             .itemOutput(`kubejs:${recipe.mob}_catalyst`)
             .blockBelow('mysticalagriculture:soulium_block')
-            .recipeTime(1000);
+            .recipeTime(100);
     });
 });

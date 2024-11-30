@@ -1342,3 +1342,4 @@ Disabled the Infinite Trading mod for Wandering Traders (too overpowered).
 1.20.1-8.9
 Modified Gregtech questlines.
 Modified Powah questline.
+Decreased crafting time in summoning altar catalyst recipes.
