@@ -339,6 +339,26 @@
 			hide_dependency_lines: true
 			id: "45D632FE8F2382B1"
 			optional: true
+			rewards: [
+				{
+					id: "4E54D6255B2A3C7D"
+					item: "mysticalagriculture:niotic_crystal_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "39AAA1D3F46A92C9"
+					item: "mysticalagriculture:niotic_crystal_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "1CA446BFC07F6714"
+					item: "mysticalagriculture:supremium_farmland"
+					type: "item"
+				}
+			]
 			size: 0.5d
 			tasks: [{
 				id: "209076A3FE6FB28B"
@@ -353,6 +373,26 @@
 			hide_dependency_lines: true
 			id: "756BDC996CB86C28"
 			optional: true
+			rewards: [
+				{
+					id: "7F4A6504B2D2A13F"
+					item: "mysticalagriculture:spirited_crystal_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1791B403B2BA7F71"
+					item: "mysticalagriculture:spirited_crystal_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "0A8DBB24741C7EF1"
+					item: "mysticalagriculture:supremium_farmland"
+					type: "item"
+				}
+			]
 			size: 0.5d
 			tasks: [{
 				id: "09A7385804FA4192"
@@ -367,6 +407,26 @@
 			hide_dependency_lines: true
 			id: "4F835E5D00CEF294"
 			optional: true
+			rewards: [
+				{
+					id: "0961019623C06150"
+					item: "mysticalagriculture:nitro_crystal_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1AE1D7DEF177C558"
+					item: "mysticalagriculture:nitro_crystal_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "53CD4B7EBCFA2CC9"
+					item: "mysticalagradditions:insanium_farmland"
+					type: "item"
+				}
+			]
 			size: 0.5d
 			tasks: [{
 				id: "4F1E518EF58184A7"
@@ -375,6 +435,78 @@
 			}]
 			x: 7.75d
 			y: -1.0d
+		}
+		{
+			dependencies: ["7C5EB8071E64881D"]
+			icon: "powah:uraninite"
+			id: "00204A27B1AB1C4D"
+			tasks: [{
+				id: "3434AE04EBA0E6BA"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00204A27B1AB1C4D"]
+			id: "1D17413D8BFDC872"
+			tasks: [{
+				count: 36L
+				id: "6865C862FC80AF33"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C5EB8071E64881D"]
+			id: "31CF1AE61293B1C0"
+			tasks: [{
+				id: "44732D386C65250D"
+				item: "powah:ender_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"415471CBF6A5D507"
+				"00204A27B1AB1C4D"
+			]
+			hide_dependency_lines: true
+			id: "2384584B46745DD7"
+			optional: true
+			rewards: [
+				{
+					id: "3BCF7FD5139CF8FE"
+					item: "mysticalagriculture:uraninite_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7C5EA4EB83D09290"
+					item: "mysticalagriculture:uraninite_essence"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "311E722868E0F2FF"
+					item: "mysticalagriculture:supremium_farmland"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "1B1B326055E71B2B"
+				item: "mysticalagriculture:uraninite_seeds"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 1.0d
 		}
 	]
 	title: "Powah!"
