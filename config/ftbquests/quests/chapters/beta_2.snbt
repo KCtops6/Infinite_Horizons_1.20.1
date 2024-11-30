@@ -11,6 +11,12 @@
 		{
 			dependencies: ["305CAD4BB78423E7"]
 			id: "51751DE96026D275"
+			rewards: [{
+				id: "6E60CE5A869F4BE2"
+				item: "mysticalagriculture:soulium_gemstone"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "0041A9D5993E89CD"
 				item: "summoningrituals:altar"
@@ -167,9 +173,22 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["26AE471B110A8110"]
+			dependencies: ["51751DE96026D275"]
 			icon: "kubejs:evoker_catalyst"
 			id: "3A26B77C0E4EA640"
+			rewards: [
+				{
+					id: "38891C7840D28472"
+					item: "minecraft:totem_of_undying"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7EACE056E97117AE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "588D86F5A2866560"

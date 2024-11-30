@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         {mob: 'camel', inputs: ['mysticalagriculture:fire_essence', 'mysticalagriculture:dirt_essence', 'mysticalagriculture:nature_essence']},
         {mob: 'dolphin', inputs: ['mysticalagriculture:fish_essence', 'mysticalagriculture:water_essence', 'mysticalagriculture:nature_essence']},
         {mob: 'drowned', inputs: ['mysticalagriculture:copper_essence', 'mysticalagriculture:zombie_essence', 'mysticalagriculture:water_essence']},
-        {mob: 'elder_guardian', inputs: ['mysticalagriculture:prismarine_essence', 'mysticalagriculture:prismarine_essence', 'mysticalagriculture:prismarine_essence']},
+        {mob: 'elder_guardian', inputs: ['mysticalagriculture:prismarine_essence', 'mysticalagriculture:gold_essence', 'kubejs:guardian_catalyst']},
         {mob: 'evoker', inputs: ['mysticalagriculture:emerald_essence', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:nature_essence']},
         {mob: 'fox', inputs: ['mysticalagriculture:earth_essence', 'mysticalagriculture:nature_essence', 'mysticalagriculture:ice_essence']},
         {mob: 'frog', inputs: ['mysticalagriculture:slime_essence', 'mysticalagriculture:water_essence', 'mysticalagriculture:nature_essence']},
