@@ -312,11 +312,17 @@
 		{
 			dependencies: ["5FDB77CAEF1B2D3D"]
 			id: "736E39E1CFF1E0E3"
+			rewards: [{
+				count: 25
+				id: "0E9B58AD2341AAD7"
+				item: "gtceu:sticky_resin"
+				random_bonus: 20
+				type: "item"
+			}]
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:glue"
-				id: "29D06B099EA72CCB"
-				type: "fluid"
+				id: "1D4B2709CFFE1C86"
+				item: "gtceu:glue_bucket"
+				type: "item"
 			}]
 			x: -2.0d
 			y: 2.0d
@@ -821,6 +827,21 @@
 				{
 					id: "711870491CE553E3"
 					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "03040FBBF05F2E9A"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "1AC7F271E6DF1F65"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0DF2AC6278C01955"
+					item: "gtceu:lv_output_hatch"
 					type: "item"
 				}
 			]
