@@ -1341,6 +1341,7 @@ Disabled the Infinite Trading mod for Wandering Traders (too overpowered).
 
 1.20.1-8.9
 Updated Botany Pots Tiers.
+Updated Cherished Worlds (Fabric/Forge/NeoForge/Quilt) (Hopefully fixing multiplayer crash).
 Updated Supplementaries.
 
 Modified Gregtech questlines.
