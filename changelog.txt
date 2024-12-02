@@ -1371,3 +1371,4 @@ added kubejs sapphire dust.
 added kubejs Silver dust.
 added kubejs steel dust.
 added kubejs tin dust.
+Decreased raw Gregtech ore output.
