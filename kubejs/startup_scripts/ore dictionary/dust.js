@@ -1,6 +1,20 @@
 StartupEvents.registry('item', e => {
+    e.create('brass_dust').displayName('Brass Dust');
+    e.create('bronze_dust').displayName('Bronze Dust');
     e.create('charcoal_dust').displayName('Charcoal Dust');
+    e.create('constantan_dust').displayName('Constantan Dust');
     e.create('coal_dust').displayName('Coal Dust');
+    e.create('copper_dust').displayName('Copper Dust');
+    e.create('electrum_dust').displayName('Electrum Dust');
+    e.create('gold_dust').displayName('Gold Dust');
+    e.create('invar_dust').displayName('Invar Dust');
+    e.create('iron_dust').displayName('Iron Dust');
+    e.create('lead_dust').displayName('Lead Dust');
+    e.create('nickel_dust').displayName('Nickel Dust');
     e.create('obsidian_dust').displayName('Obsidian Dust');
+    e.create('sapphire_dust').displayName('Sapphire Dust');
+    e.create('silver_dust').displayName('Silver Dust');
+    e.create('steel_dust').displayName('Steel Dust');
     e.create('sulfur_dust').displayName('Sulfur Dust');
+    e.create('tin_dust').displayName('Tin Dust');
 });

@@ -1354,5 +1354,19 @@ Decreased crafting time in summoning altar catalyst recipes.
 Changed Elder Guardian catalyst recipe.
 Changed Blaze summoning altar recipe.
 Disabled Pollution in Gregtech.
-Added KubeJS coal dust.
+Added KubeJS brass dust.
+Added KubeJS bronze dust.
 Added KubeJS charcoal dust.
+Added KubeJS coal dust.
+Added KubeJS Constantan dust.
+added KubeJS copper dust.
+added kubejs Electrum dust.
+added kubejs Gold dust.
+added kubejs Invar dust.
+added kubejs iron dust.
+added kubejs lead dust.
+added kubejs nickel dust.
+added kubejs sapphire dust.
+added kubejs Silver dust.
+added kubejs steel dust.
+added kubejs tin dust.

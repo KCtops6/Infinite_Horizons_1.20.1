@@ -1,6 +1,20 @@
 ServerEvents.tags('item', event => {
+    event.add('forge:dusts/brass', 'kubejs:brass_dust');
+    event.add('forge:dusts/bronze', 'kubejs:bronze_dust');
     event.add('forge:dusts/charcoal', 'kubejs:charcoal_dust');
+    event.add('forge:dusts/constantan', 'kubejs:constantan_dust');
     event.add('forge:dusts/coal', 'kubejs:coal_dust');
+    event.add('forge:dusts/copper', 'kubejs:copper_dust');
+    event.add('forge:dusts/electrum', 'kubejs:electrum_dust');
+    event.add('forge:dusts/gold', 'kubejs:gold_dust');
+    event.add('forge:dusts/invar', 'kubejs:invar_dust');
+    event.add('forge:dusts/iron', 'kubejs:iron_dust');
+    event.add('forge:dusts/lead', 'kubejs:lead_dust');
+    event.add('forge:dusts/nickel', 'kubejs:nickel_dust');
     event.add('forge:dusts/obsidian', 'kubejs:obsidian_dust');
+    event.add('forge:dusts/sapphire', 'kubejs:sapphire_dust');
+    event.add('forge:dusts/silver', 'kubejs:silver_dust');
+    event.add('forge:dusts/steel', 'kubejs:steel_dust');
     event.add('forge:dusts/sulfur', 'kubejs:sulfur_dust');
+    event.add('forge:dusts/tin', 'kubejs:tin_dust');
 });
