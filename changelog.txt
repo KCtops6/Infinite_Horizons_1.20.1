@@ -1372,3 +1372,4 @@ added kubejs Silver dust.
 added kubejs steel dust.
 added kubejs tin dust.
 Decreased raw Gregtech ore output.
+Added tuff create mechanical extruder recipe.
