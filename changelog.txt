@@ -1351,3 +1351,6 @@ Modified Summoning Altar questline.
 Decreased crafting time in summoning altar catalyst recipes.
 Changed Elder Guardian catalyst recipe.
 Changed Blaze summoning altar recipe.
+Disabled Pollution in Gregtech.
+Added KubeJS coal dust.
+Added KubeJS charcoal dust.
