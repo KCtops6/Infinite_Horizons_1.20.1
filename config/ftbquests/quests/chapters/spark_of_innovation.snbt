@@ -177,6 +177,12 @@
 			description: ["A better circuit board."]
 			icon: "gtceu:phenolic_printed_circuit_board"
 			id: "62EF81453EA35985"
+			rewards: [{
+				id: "74B7661995FDF5CC"
+				item: "gtceu:phenolic_printed_circuit_board"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "420D438E2CF56754"

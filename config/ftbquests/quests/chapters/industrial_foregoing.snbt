@@ -9,6 +9,12 @@
 	quests: [
 		{
 			id: "2882A42805E374D4"
+			rewards: [{
+				id: "6098EE388CB1BDFA"
+				item: "industrialforegoing:machine_frame_pity"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "106081B6192B8E41"
 				item: "industrialforegoing:machine_frame_pity"
@@ -42,6 +48,13 @@
 		{
 			dependencies: ["315D3F62A88A7532"]
 			id: "11420255961C2341"
+			rewards: [{
+				count: 7
+				id: "7AE861D33017B096"
+				item: "industrialforegoing:plastic"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "076FBDE1827D9A81"
 				item: "industrialforegoing:plastic"
@@ -68,8 +81,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.75d
-			y: -0.75d
+			x: 3.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["11420255961C2341"]
@@ -94,14 +107,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2882A42805E374D4"]
+			dependencies: ["11420255961C2341"]
 			id: "0CC999F5C877629B"
 			tasks: [{
 				id: "3C184636F36CA687"
 				item: "industrialforegoing:mob_slaughter_factory"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -112,7 +125,7 @@
 				item: "industrialforegoing:pink_slime"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -133,7 +146,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.75d
+			x: 3.75d
 			y: -2.75d
 		}
 		{
@@ -240,6 +253,28 @@
 			}]
 			x: 5.75d
 			y: -0.25d
+		}
+		{
+			dependencies: ["61F0A99E15E73E57"]
+			id: "282A455D7CE72FB7"
+			tasks: [{
+				id: "11D02DD7EBD322D8"
+				item: "industrialforegoing:biofuel_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11420255961C2341"]
+			id: "61F0A99E15E73E57"
+			tasks: [{
+				id: "7823081F573DC292"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 	title: "Industrial Foregoing"

@@ -1340,8 +1340,6 @@ Added KubeJS obsidian dust.
 Disabled the Infinite Trading mod for Wandering Traders (too overpowered).
 
 1.20.1-8.9
-Removed Architectury API (Fabric/Forge/NeoForge).
-
 Updated Botany Pots Tiers.
 Updated Cherished Worlds (Fabric/Forge/NeoForge/Quilt) (Hopefully fixing multiplayer crash).
 Updated FTB Chunks (Forge).
@@ -1350,6 +1348,7 @@ Updated Supplementaries.
 
 Modified Gregtech questlines.
 Modified Hostile Neural Networks questline.
+Modified Industrial Foregoing questline.
 Modified Mystical Agriculture questline.
 Modified Powah questline.
 Modified Summoning Altar questline.

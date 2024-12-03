@@ -2,6 +2,14 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "industrialforegoing:industrial_foregoing": {
+      "viewedEntries": [
+        "industrialforegoing:generators/bioreactor",
+        "industrialforegoing:generators/biofuel"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "ars_nouveau:worn_notebook": {
       "viewedEntries": [
         "ars_nouveau:automation/whirlisprig_charm",
