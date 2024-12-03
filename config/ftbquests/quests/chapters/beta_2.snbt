@@ -466,6 +466,29 @@
 			x: -5.0d
 			y: -4.5d
 		}
+		{
+			dependencies: ["51751DE96026D275"]
+			icon: "kubejs:slime_catalyst"
+			id: "14C22330623508D3"
+			rewards: [{
+				id: "2FA93E52DFD4B6D2"
+				item: {
+					Count: 1
+					id: "create_sa:slime_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67EEDB2B5386DBB2"
+				item: "kubejs:slime_catalyst"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
 	]
 	subtitle: ["Mob Summoning and Rare Items"]
 	title: "Delta"
