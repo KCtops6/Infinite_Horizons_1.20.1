@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
         {mob: 'piglin', inputs: ['mysticalagriculture:nether_essence', 'mysticalagriculture:zombie_essence', 'mysticalagriculture:gold_essence']},
         {mob: 'pillager', inputs: ['mysticalagriculture:nature_essence', 'mysticalagriculture:wood_essence', 'mysticalagriculture:earth_essence']},
         {mob: 'polar_bear', inputs: ['mysticalagriculture:ice_essence', 'mysticalagriculture:fish_essence', 'mysticalagriculture:water_essence']},
+        {mob: 'slime', inputs: ['mysticalagriculture:air_essence', 'mysticalagriculture:water_essence', 'mysticalagriculture:earth_essence']},
         {mob: 'shulker', inputs: ['mysticalagriculture:air_essence', 'mysticalagriculture:end_essence', 'mysticalagriculture:enderman_essence']},
         {mob: 'squid', inputs: ['mysticalagriculture:water_essence', 'mysticalagriculture:earth_essence', 'mysticalagriculture:nature_essence']},
         {mob: 'stray', inputs: ['mysticalagriculture:ice_essence', 'mysticalagriculture:skeleton_essence', 'mysticalagriculture:water_essence']},
