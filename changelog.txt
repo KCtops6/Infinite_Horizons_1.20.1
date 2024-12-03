@@ -1377,3 +1377,4 @@ Added tuff create mechanical extruder recipe.
 Added basalt create mechanical extruder recipe.
 Added blackstone create mechanical extruder recipe.
 Fixed functional storage oak drawer recipes.
+Added slime catalyst.
