@@ -1383,3 +1383,4 @@ Added blackstone create mechanical extruder recipe.
 Fixed functional storage oak drawer recipes.
 Added slime catalyst.
 Added summoning altar recipe for slime data model.
+Added custom compacting recipe for gregtech gallium arsenide dust.
