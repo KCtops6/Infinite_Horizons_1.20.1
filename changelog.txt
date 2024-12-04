@@ -1342,8 +1342,12 @@ Disabled the Infinite Trading mod for Wandering Traders (too overpowered).
 1.20.1-8.9
 Updated Botany Pots Tiers.
 Updated Cherished Worlds (Fabric/Forge/NeoForge/Quilt) (Hopefully fixing multiplayer crash).
+Updated Essential Mod.
 Updated FTB Chunks (Forge).
+Updated ImmediatelyFast.
 Updated Mystical Agriculture Delight.
+Updated Sophisticated Core.
+Updated Sophisticated Storage.
 Updated Supplementaries.
 
 Modified Gregtech questlines.
@@ -1378,3 +1382,4 @@ Added basalt create mechanical extruder recipe.
 Added blackstone create mechanical extruder recipe.
 Fixed functional storage oak drawer recipes.
 Added slime catalyst.
+Added summoning altar recipe for slime data model.
