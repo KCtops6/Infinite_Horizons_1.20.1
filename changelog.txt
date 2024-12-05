@@ -1344,6 +1344,7 @@ Updated Botany Pots Tiers.
 Updated Cherished Worlds (Fabric/Forge/NeoForge/Quilt) (Hopefully fixing multiplayer crash).
 Updated Corpse.
 Updated Essential Mod.
+Updated Farmer's Delight.
 Updated FTB Chunks (Forge).
 Updated ImmediatelyFast.
 Updated Mystical Agriculture Delight.
