@@ -1341,7 +1341,7 @@ Disabled the Infinite Trading mod for Wandering Traders (too overpowered).
 
 1.20.1-8.9
 Updated Botany Pots Tiers.
-Updated Cherished Worlds (Fabric/Forge/NeoForge/Quilt) (Hopefully fixing multiplayer crash).
+Updated Cherished Worlds (Fabric/Forge/NeoForge/Quilt) (Hopefully Fixing Multiplayer Crash).
 Updated Corpse.
 Updated Essential Mod.
 Updated Farmer's Delight.
@@ -1352,37 +1352,42 @@ Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Supplementaries.
 
-Modified Gregtech questlines.
-Modified Hostile Neural Networks questline.
-Modified Industrial Foregoing questline.
-Modified Mystical Agriculture questline.
-Modified Powah questline.
-Modified Summoning Altar questline.
-Decreased crafting time in summoning altar catalyst recipes.
-Changed Elder Guardian catalyst recipe.
-Changed Blaze summoning altar recipe.
-Disabled Pollution in Gregtech.
-Added KubeJS brass dust.
-Added KubeJS bronze dust.
-Added KubeJS charcoal dust.
-Added KubeJS coal dust.
-Added KubeJS Constantan dust.
-added KubeJS copper dust.
-added kubejs Electrum dust.
-added kubejs Gold dust.
-added kubejs Invar dust.
-added kubejs iron dust.
-added kubejs lead dust.
-added kubejs nickel dust.
-added kubejs sapphire dust.
-added kubejs Silver dust.
-added kubejs steel dust.
-added kubejs tin dust.
-Decreased raw Gregtech ore output.
-Added tuff create mechanical extruder recipe.
-Added basalt create mechanical extruder recipe.
-Added blackstone create mechanical extruder recipe.
-Fixed functional storage oak drawer recipes.
-Added slime catalyst.
-Added summoning altar recipe for slime data model.
-Added custom compacting recipe for gregtech gallium arsenide dust.
+Modified Gregtech Questlines.
+Modified Hostile Neural Networks Questline.
+Modified Industrial Foregoing Questline.
+Modified Mystical Agriculture Questline.
+Modified Powah Questline.
+Modified Summoning Altar Questline.
+Decreased Crafting Time In Summoning Altar Catalyst Recipes.
+Changed Elder Guardian Catalyst Recipe.
+Changed Blaze Summoning Altar Recipe.
+Disabled Pollution In Gregtech.
+Added KubeJS Brass Dust.
+Added KubeJS Bronze Dust.
+Added KubeJS Charcoal Dust.
+Added KubeJS Coal Dust.
+Added KubeJS Constantan Dust.
+Added KubeJS Copper Dust.
+Added KubeJS Electrum Dust.
+Added KubeJS Gold Dust.
+Added KubeJS Invar Dust.
+Added KubeJS Iron Dust.
+Added KubeJS Lead Dust.
+Added KubeJS Nickel Dust.
+Added KubeJS Sapphire Dust.
+Added KubeJS Silver Dust.
+Added KubeJS Steel Dust.
+Added KubeJS Tin Dust.
+Decreased Raw Gregtech Ore Output.
+Added Tuff Create Mechanical Extruder Recipe.
+Added Basalt Create Mechanical Extruder Recipe.
+Added Blackstone Create Mechanical Extruder Recipe.
+Fixed Functional Storage Oak Drawer Recipes.
+Added Slime Catalyst.
+Added Summoning Altar Recipe For Slime Data Model.
+Added Custom Compacting Recipe For Gregtech Gallium Arsenide Dust.
+
+1.20.1-9.0
+Updated Entity Culling Fabric/Forge.
+Updated Harvest with ease.
+Updated Moonlight Lib.
