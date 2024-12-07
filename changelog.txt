@@ -1397,5 +1397,6 @@ added kubejs brass block.
 added kubejs bronze block.
 added kubejs constantan block.
 added kubejs electrum block.
+added kubejs osmium ingot, dust, and block.
 added kubejs steel block.
 added kubejs tin block.
