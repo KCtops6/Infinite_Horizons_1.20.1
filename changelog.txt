@@ -1391,3 +1391,11 @@ Added Custom Compacting Recipe For Gregtech Gallium Arsenide Dust.
 Updated Entity Culling Fabric/Forge.
 Updated Harvest with ease.
 Updated Moonlight Lib.
+
+Added kubejs aluminium block.
+added kubejs brass block.
+added kubejs bronze block.
+added kubejs constantan block.
+added kubejs electrum block.
+added kubejs steel block.
+added kubejs tin block.
