@@ -1405,3 +1405,4 @@ added kubejs tin block.
 Unified certus quartz material.
 Removed observe soul fire quest.
 fixed foliot crushing recipes.
+modified ars nouveau questline.
