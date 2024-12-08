@@ -1388,8 +1388,10 @@ Added Summoning Altar Recipe For Slime Data Model.
 Added Custom Compacting Recipe For Gregtech Gallium Arsenide Dust.
 
 1.20.1-9.0
+Updated Applied Energistics 2.
 Updated Entity Culling Fabric/Forge.
 Updated Harvest with ease.
+Updated ModernFix.
 Updated Moonlight Lib.
 
 Added kubejs aluminium block.

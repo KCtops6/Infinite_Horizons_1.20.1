@@ -358,7 +358,7 @@
 		{
 			dependencies: [
 				"37C31E5A1FB0A120"
-				"5018E720C03A7EF8"
+				"33A3E11BD0EB479B"
 			]
 			description: ["By washing down Soul Sand, you can uncover valuable Nether Quartz, a resource essential for advanced crafting and technology."]
 			id: "7B2DCE5368BC4D89"
@@ -371,7 +371,7 @@
 			}]
 			title: "Shifting Sands"
 			x: 3.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7B2DCE5368BC4D89"]
@@ -386,26 +386,8 @@
 		}
 		{
 			dependencies: [
-				"33A3E11BD0EB479B"
-				"1B22CB0F2ADB7639"
-			]
-			id: "5018E720C03A7EF8"
-			tasks: [{
-				icon: "minecraft:soul_campfire"
-				id: "57C6D4AB2BF46166"
-				observe_type: 0
-				timer: 0L
-				title: "Observe Soul Fire"
-				to_observe: "minecraft:soul_fire"
-				type: "observation"
-			}]
-			x: 3.0d
-			y: 7.0d
-		}
-		{
-			dependencies: [
-				"5018E720C03A7EF8"
 				"2E27C65E12B61E06"
+				"33A3E11BD0EB479B"
 			]
 			description: ["Prismarine Shards are also an occasional Wandering Trader trade."]
 			icon: "minecraft:prismarine_shard"
