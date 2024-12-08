@@ -470,7 +470,7 @@ Updated "Sophisticated Backpacks"
 Updated "Sophisticated Core"
 Updated "Sophisticated Storage"
 Updated "Structurize"
-Added new create extruder recipies.
+Added new create extruder recipes.
 Added new quests in getting started chapter.
 
 1.20.1-4.8
@@ -563,11 +563,11 @@ Updated the following mods:
 "Tom's Simple Storage Mod"
 "Torchmaster"
 
-Added new recipies for new catalyst items
+Added new recipes for new catalyst items
 
 Made config changes to "Almost Unified" to unify various items.
 
-Added new recipies to items only attainable in the end.
+Added new recipes to items only attainable in the end.
 
 1.20.1-5.0b
 Added "Load My F***ing Tags"
@@ -588,7 +588,7 @@ Updated "Sophisticated Core"
 Updated "Sophisticated Storage"
 Updated "Structurize"
 Fixed recipe for andesite alloy.
-Fixed recipies for various items/blocks that have stone as a recipe.
+Fixed recipes for various items/blocks that have stone as a recipe.
 Fixed cutting board recipe that gives sand from gravel.
 Fixed the pickaxe not being able to work by the "Load My F***ing Tags" mod.
 
@@ -875,9 +875,9 @@ Updated "Superflat World No Slimes" from "superflatworldnoslimes-1.20.1-3.2.jar"
 Updated "Villager Spawn Point" from "villagespawnpoint-1.20.1-4.2.jar" to "villagespawnpoint-1.20.1-4.4.jar"
 Updated "Villager Names" from "villagernames-1.20.1-8.0.jar" to "villagernames-1.20.1-8.1.jar"
 
-Added new Gregtech-Thermal recipies.
-Added new Gregtech-Redstone Arsenal recipies.
-Added new Gregtech-Create recipies.
+Added new Gregtech-Thermal recipes.
+Added new Gregtech-Redstone Arsenal recipes.
+Added new Gregtech-Create recipes.
 "Unified" honey (Create and Productive Bees).
 
 1.20.1-6.3
@@ -1400,3 +1400,6 @@ added kubejs electrum block.
 added kubejs osmium ingot, dust, and block.
 added kubejs steel block.
 added kubejs tin block.
+Unified certus quartz material.
+Removed observe soul fire quest.
+fixed foliot crushing recipes.
