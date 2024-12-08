@@ -3,7 +3,8 @@ ServerEvents.tags('item', event => {
     event.add('forge:ingots/andesite_alloy', 'kubejs:stone_alloy')
 
     const plates = [
-        'brass', 'bronze', 'constantan', 'copper', 'electrum', 'gold', 'invar', 'iron', 'lead', 'netherite', 'nickel', 'silver', 'tin', 'zinc'
+        'brass', 'bronze', 'constantan', 'copper', 'electrum', 'gold',
+        'invar', 'iron', 'lead', 'netherite', 'nickel', 'silver', 'tin', 'zinc'
     ];
 
     plates.forEach(plate => {
@@ -13,7 +14,10 @@ ServerEvents.tags('item', event => {
     event.add('forge:wires', 'kubejs:netherite_wire')
 
     const blocks = [
-        'brass', 'bronze', 'constantan', 'copper', 'electrum', 'gold', 'invar', 'iron', 'lead', 'nickel', 'silver', 'tin', 'zinc'
+        'brass', 'bronze', 'constantan',
+        'copper', 'electrum', 'gold',
+        'invar', 'iron', 'lead',
+        'nickel', 'osmium', 'silver', 'tin', 'zinc'
     ];
 
     blocks.forEach(block => {
@@ -22,7 +26,8 @@ ServerEvents.tags('item', event => {
 
     const dusts = [
         'brass', 'bronze', 'charcoal', 'constantan', 'coal', 'copper',
-        'electrum', 'gold', 'invar', 'iron', 'lead', 'nickel', 'obsidian', 'sapphire', 'silver', 'steel', 'sulfur', 'tin', 'zinc'
+        'electrum', 'gold', 'invar', 'iron', 'lead', 'nickel', 'obsidian', 'osmium',
+        'sapphire', 'silver', 'steel', 'sulfur', 'tin', 'zinc'
     ];
 
     dusts.forEach(dust => {
@@ -30,7 +35,8 @@ ServerEvents.tags('item', event => {
     })
 
     const ingots = [
-        'brass', 'bronze', 'constantan', 'copper', 'electrum', 'gold', 'invar', 'iron', 'lead', 'nickel', 'silver', 'tin', 'zinc'
+        'brass', 'bronze', 'constantan', 'copper', 'electrum',
+        'gold', 'invar', 'iron', 'lead', 'nickel', 'silver', 'tin', 'zinc'
     ];
     
     ingots.forEach(ingot => {
