@@ -2,7 +2,7 @@ StartupEvents.registry('block', event => {
     const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
 
     const blocks = [
-        'brass', 'bronze', 'constantan', 'copper', 'electrum', 'gold',
+        'brass', 'bronze', 'cinnabar', 'constantan', 'copper', 'electrum', 'gold',
         'infinitium', 'invar', 'iron', 'lead', 'nickel', 'osmium', 'silver', 'tin', 'zinc'
     ];
 
@@ -22,7 +22,7 @@ StartupEvents.registry('item', event => {
     const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
 
     const dusts = [
-        'brass', 'bronze', 'charcoal', 'constantan', 'coal', 'copper',
+        'brass', 'bronze', 'charcoal', 'cinnabar', 'constantan', 'coal', 'copper',
         'electrum', 'gold', 'invar', 'iron', 'lead', 'nickel', 'obsidian',
         'osmium', 'sapphire', 'silver', 'steel', 'sulfur', 'tin', 'zinc'
     ];
@@ -51,4 +51,14 @@ StartupEvents.registry('item', event => {
     });
 
     event.create('silicon').displayName('Silicon');
+
+    const gems = [
+        { id: 'certus_quartz', displayName: 'Certus Quartz Crystal'},
+        { id: 'sapphire', displayName: 'Sapphire'},
+        { id: 'cinnabar', displayName: 'Cinnabar'}
+    ];
+
+    gems.forEach(gem => {
+        event.create(`${gem.id}_gem`).displayName(`${gem.displayName}`);
+    })
 });
