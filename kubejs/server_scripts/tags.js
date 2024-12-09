@@ -18,7 +18,7 @@ ServerEvents.tags('item', event => {
         'aluminum', 'brass', 'bronze', 'cinnabar', 'cobalt', 'constantan', 
         'copper', 'electrum', 'enderium', 'gold',
         'invar', 'iron', 'lead', 'lumium', 
-        'nickel', 'osmium', 'platinum', 'sapphire', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
+        'nickel', 'osmium', 'platinum', 'ruby', 'sapphire', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
     ];
 
     blocks.forEach(block => {
@@ -27,7 +27,7 @@ ServerEvents.tags('item', event => {
 
     const dusts = [
         'aluminum', 'brass', 'bronze', 'charcoal', 'cinnabar', 'cobalt', 'constantan', 'coal', 'copper',
-        'electrum', 'enderium', 'gold', 'invar', 'iron', 'lead', 'lumium', 'nickel', 'obsidian', 'osmium', 'platinum', 
+        'electrum', 'enderium', 'gold', 'invar', 'iron', 'lead', 'lumium', 'nickel', 'obsidian', 'osmium', 'platinum', 'ruby', 
         'sapphire', 'signalum', 'silver', 'steel', 'sulfur', 'tin', 'uranium', 'zinc'
     ];
 
@@ -48,7 +48,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:silicon', 'kubejs:silicon');
 
     const gems = [
-        'certus_quartz', 'sapphire', 'cinnabar'
+        'certus_quartz', 'cinnabar', 'ruby', 'sapphire'
     ]
 
     gems.forEach(gem => {

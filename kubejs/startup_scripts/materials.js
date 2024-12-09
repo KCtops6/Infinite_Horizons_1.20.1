@@ -3,7 +3,7 @@ StartupEvents.registry('block', event => {
 
     const blocks = [
         'brass', 'bronze', 'cinnabar', 'constantan', 'copper', 'electrum', 'gold',
-        'infinitium', 'invar', 'iron', 'lead', 'nickel', 'osmium', 'silver', 'tin', 'zinc'
+        'infinitium', 'invar', 'iron', 'lead', 'nickel', 'osmium', 'ruby', 'silver', 'tin', 'zinc'
     ];
 
     blocks.forEach(block => {
@@ -24,7 +24,7 @@ StartupEvents.registry('item', event => {
     const dusts = [
         'brass', 'bronze', 'charcoal', 'cinnabar', 'constantan', 'coal', 'copper',
         'electrum', 'gold', 'invar', 'iron', 'lead', 'nickel', 'obsidian',
-        'osmium', 'sapphire', 'silver', 'steel', 'sulfur', 'tin', 'zinc'
+        'osmium', 'sapphire', 'silver', 'steel', 'sulfur', 'ruby', 'tin', 'zinc'
     ];
 
     dusts.forEach(dust => {
@@ -55,7 +55,8 @@ StartupEvents.registry('item', event => {
     const gems = [
         { id: 'certus_quartz', displayName: 'Certus Quartz Crystal'},
         { id: 'sapphire', displayName: 'Sapphire'},
-        { id: 'cinnabar', displayName: 'Cinnabar'}
+        { id: 'cinnabar', displayName: 'Cinnabar'},
+        { id: 'ruby', displayName: 'Ruby'}
     ];
 
     gems.forEach(gem => {
