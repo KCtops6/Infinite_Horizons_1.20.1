@@ -1391,6 +1391,7 @@ Added Custom Compacting Recipe For Gregtech Gallium Arsenide Dust.
 Updated Applied Energistics 2.
 Updated Entity Culling Fabric/Forge.
 Updated Harvest with ease.
+Updated Lootr (Forge & NeoForge).
 Updated ModernFix.
 Updated Moonlight Lib.
 

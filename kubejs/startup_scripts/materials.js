@@ -3,7 +3,8 @@ StartupEvents.registry('block', event => {
 
     const blocks = [
         'brass', 'bronze', 'cinnabar', 'constantan', 'copper', 'electrum', 'gold',
-        'infinitium', 'invar', 'iron', 'lead', 'nickel', 'osmium', 'ruby', 'silver', 'tin', 'uranium', 'zinc'
+        'infinitium', 'invar', 'iron', 'lead', 'nickel', 'osmium', 'ruby',
+        'sapphire', 'silver', 'tin', 'uranium', 'zinc'
     ];
 
     blocks.forEach(block => {
