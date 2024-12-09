@@ -18,7 +18,7 @@ ServerEvents.tags('item', event => {
         'aluminum', 'brass', 'bronze', 'cinnabar', 'cobalt', 'constantan', 
         'copper', 'electrum', 'enderium', 'gold',
         'invar', 'iron', 'lead', 'lumium', 
-        'nickel', 'osmium', 'platinum', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
+        'nickel', 'osmium', 'platinum', 'sapphire', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
     ];
 
     blocks.forEach(block => {
