@@ -3,7 +3,7 @@ StartupEvents.registry('block', event => {
 
     const blocks = [
         'brass', 'bronze', 'cinnabar', 'constantan', 'copper', 'electrum', 'gold',
-        'infinitium', 'invar', 'iron', 'lead', 'nickel', 'osmium', 'ruby', 'silver', 'tin', 'zinc'
+        'infinitium', 'invar', 'iron', 'lead', 'nickel', 'osmium', 'ruby', 'silver', 'tin', 'uranium', 'zinc'
     ];
 
     blocks.forEach(block => {
@@ -24,7 +24,7 @@ StartupEvents.registry('item', event => {
     const dusts = [
         'brass', 'bronze', 'charcoal', 'cinnabar', 'constantan', 'coal', 'copper',
         'electrum', 'gold', 'invar', 'iron', 'lead', 'nickel', 'obsidian',
-        'osmium', 'sapphire', 'silver', 'steel', 'sulfur', 'ruby', 'tin', 'zinc'
+        'osmium', 'sapphire', 'silver', 'steel', 'sulfur', 'ruby', 'tin', 'uranium', 'zinc'
     ];
 
     dusts.forEach(dust => {
@@ -33,7 +33,7 @@ StartupEvents.registry('item', event => {
 
     const ingots = [
         'brass', 'bronze', 'constantan', 'electrum', 'infinitium', 'invar',
-        'lead', 'nickel', 'osmium', 'silver', 'steel', 'tin', 'zinc'
+        'lead', 'nickel', 'osmium', 'silver', 'steel', 'tin', 'uranium', 'zinc'
     ];
 
     ingots.forEach(ingot => {

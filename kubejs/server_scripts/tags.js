@@ -5,7 +5,7 @@ ServerEvents.tags('item', event => {
     const plates = [
         'aluminum', 'brass', 'bronze', 'cobalt', 'constantan', 'copper', 'electrum', 'enderium', 'gold',
         'invar', 'iron', 'lead', 'lumium', 'netherite', 'nickel', 'osmium', 'platinum', 'signalum', 
-        'silver', 'steel', 'tin', 'uranium', 'zinc'
+        'silver', 'steel', 'tin', 'zinc'
     ];
 
     plates.forEach(plate => {
