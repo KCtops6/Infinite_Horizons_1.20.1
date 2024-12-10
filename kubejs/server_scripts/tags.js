@@ -15,7 +15,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:wires', 'kubejs:netherite_wire');
 
     const blocks = [
-        'aluminum', 'brass', 'bronze', 'cinnabar', 'cobalt', 'constantan', 
+        'aluminum', 'apatite', 'brass', 'bronze', 'cinnabar', 'cobalt', 'constantan', 
         'copper', 'electrum', 'enderium', 'gold',
         'invar', 'iron', 'lead', 'lumium', 
         'nickel', 'osmium', 'platinum', 'ruby', 'sapphire', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
@@ -27,7 +27,8 @@ ServerEvents.tags('item', event => {
 
     const dusts = [
         'aluminum', 'brass', 'bronze', 'charcoal', 'cinnabar', 'cobalt', 'constantan', 'coal', 'copper',
-        'electrum', 'enderium', 'gold', 'invar', 'iron', 'lead', 'lumium', 'nickel', 'obsidian', 'osmium', 'platinum', 'ruby', 
+        'electrum', 'enderium', 'gold', 'invar', 'iron', 'lead', 'lumium', 'netherite', 'nickel',
+        'obsidian', 'osmium', 'platinum', 'ruby', 
         'sapphire', 'signalum', 'silver', 'steel', 'sulfur', 'tin', 'uranium', 'zinc'
     ];
 
@@ -48,10 +49,32 @@ ServerEvents.tags('item', event => {
     event.add('forge:silicon', 'kubejs:silicon');
 
     const gems = [
-        'certus_quartz', 'cinnabar', 'ruby', 'sapphire'
-    ]
+        'apatite', 'certus_quartz', 'cinnabar', 'niter', 'ruby', 'sapphire', 'sulfur'
+    ];
 
     gems.forEach(gem => {
         event.add(`forge:gems/${gem}`, `kubejs:${gem}_gem`);
-    })
+    });
+
+    const gears = [
+        'bronze', 'constantan', 'copper', 'diamond', 'electrum', 'emerald', 'enderium', 'gold',
+        'invar', 'iron', 'lapis', 'lead', 'lumium', 'netherite', 'nickel', 'quartz', 'ruby', 'sapphire', 'signalum', 'silver', 'tin'
+    ];
+
+    gears.forEach(gears => {
+        event.add(`forge:gears/${gears}`, `kubejs:${gears}_gear`);
+    });
+
+    const nuggets = [
+        'netherite', 'tin', 'lead', 'silver', 'nickel',
+        'bronze', 'electrum', 'invar', 'constantan',
+        'signalum', 'lumium', 'enderium', 'osmium', 'uranium',
+        'steel', 'copper', 'zinc', 'brass', 'netherite',
+        'tin', 'lead', 'silver', 'nickel', 'bronze',
+        'electrum', 'invar', 'constantan', 'signalum', 'enderium', 'lumium'
+    ];
+
+    nuggets.forEach(nugget => {
+        event.add(`forge:nuggets/${nugget}`, `kubejs:${nugget}_nugget`);
+    });
 })

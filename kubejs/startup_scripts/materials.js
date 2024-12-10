@@ -2,9 +2,9 @@ StartupEvents.registry('block', event => {
     const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
 
     const blocks = [
-        'brass', 'bronze', 'cinnabar', 'constantan', 'copper', 'electrum', 'gold',
-        'infinitium', 'invar', 'iron', 'lead', 'nickel', 'osmium', 'ruby',
-        'sapphire', 'silver', 'tin', 'uranium', 'zinc'
+        'aluminum', 'apatite', 'brass', 'bronze', 'cinnabar', 'constantan', 'copper', 'electrum', 'enderium', 'gold',
+        'infinitium', 'invar', 'iron', 'lead', 'nickel', 'niter', 'osmium', 'ruby',
+        'sapphire', 'signalum', 'silver', 'sulfur', 'tin', 'uranium', 'zinc'
     ];
 
     blocks.forEach(block => {
@@ -23,9 +23,9 @@ StartupEvents.registry('item', event => {
     const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
 
     const dusts = [
-        'brass', 'bronze', 'charcoal', 'cinnabar', 'constantan', 'coal', 'copper',
-        'electrum', 'gold', 'invar', 'iron', 'lead', 'nickel', 'obsidian',
-        'osmium', 'sapphire', 'silver', 'steel', 'sulfur', 'ruby', 'tin', 'uranium', 'zinc'
+        'aluminum', 'apatite', 'brass', 'bronze', 'charcoal', 'cinnabar', 'constantan', 'coal', 'copper', 'diamond',
+        'electrum', 'emerald', 'enderium', 'gold', 'invar', 'iron', 'lapis', 'lead', 'nickel', 'niter', 'obsidian',
+        'osmium', 'quartz', 'sapphire', 'signalum', 'silver', 'steel', 'sulfur', 'ruby', 'tin', 'uranium', 'zinc'
     ];
 
     dusts.forEach(dust => {
@@ -33,8 +33,8 @@ StartupEvents.registry('item', event => {
     });
 
     const ingots = [
-        'brass', 'bronze', 'constantan', 'electrum', 'infinitium', 'invar',
-        'lead', 'nickel', 'osmium', 'silver', 'steel', 'tin', 'uranium', 'zinc'
+        'aluminum', 'brass', 'bronze', 'constantan', 'electrum', 'enderium', 'infinitium', 'invar',
+        'lead', 'nickel', 'osmium', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
     ];
 
     ingots.forEach(ingot => {
@@ -42,8 +42,8 @@ StartupEvents.registry('item', event => {
     });
 
     const plates = [
-        'brass', 'bronze', 'constantan', 'copper', 'electrum', 'gold',
-        'infinitium', 'invar', 'iron', 'lead', 'netherite', 'nickel',
+        'aluminum', 'brass', 'bronze', 'constantan', 'copper', 'electrum', 'enderium', 'gold',
+        'infinitium', 'invar', 'iron', 'lead', 'netherite', 'nickel', 'signalum', 
         'silver', 'tin', 'zinc'
     ];
 
@@ -54,13 +54,38 @@ StartupEvents.registry('item', event => {
     event.create('silicon').displayName('Silicon');
 
     const gems = [
+        { id: 'apatite', displayName: 'Apatite'},
         { id: 'certus_quartz', displayName: 'Certus Quartz Crystal'},
-        { id: 'sapphire', displayName: 'Sapphire'},
         { id: 'cinnabar', displayName: 'Cinnabar'},
-        { id: 'ruby', displayName: 'Ruby'}
+        { id: 'niter', displayName: 'Niter'},
+        { id: 'ruby', displayName: 'Ruby'},
+        { id: 'sapphire', displayName: 'Sapphire'},
+        { id: 'sulfur', displayName: 'Sulfur'}
     ];
 
     gems.forEach(gem => {
         event.create(`${gem.id}_gem`).displayName(`${gem.displayName}`);
     })
+
+    const gears = [
+        'bronze', 'constantan', 'copper', 'diamond', 'electrum', 'emerald', 'enderium', 'gold',
+        'invar', 'iron', 'lapis', 'lead', 'lumium', 'netherite', 'nickel', 'quartz', 'ruby', 'sapphire', 'signalum', 'silver', 'tin'
+    ];
+
+    gears.forEach(gear => {
+        event.create(`${gear}_gear`).displayName(`${capitalize(gear)} Gear`);
+    })
+
+    const nuggets = [
+        'netherite', 'tin', 'lead', 'silver', 'nickel',
+        'bronze', 'electrum', 'invar', 'constantan',
+        'signalum', 'lumium', 'enderium', 'osmium', 'uranium',
+        'steel', 'copper', 'zinc', 'brass', 'netherite',
+        'tin', 'lead', 'silver', 'nickel', 'bronze',
+        'electrum', 'invar', 'constantan', 'signalum', 'enderium', 'lumium'
+    ];
+
+    nuggets.forEach(nugget => {
+        event.create(`${nugget}_nugget`).displayName(`${capitalize(nugget)} Nugget`);
+    });
 });
