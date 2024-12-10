@@ -164,6 +164,14 @@
     "kitchen_access_point": true,
     "kitchen_station": true
   },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
   "productivebees": {
     "solitary_nest": true,
     "jar": true,
