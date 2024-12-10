@@ -9,51 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1095B567B96DDCF3"]
-			id: "20E0FABC537D5222"
-			tasks: [{
-				icon: "functionalstorage:oak_1"
-				id: "1863F53383B0FA20"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "functionalstorage:drawer"
-					}
-				}
-				title: "Any #functionalstorage:drawer"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["20E0FABC537D5222"]
-			id: "536C51F0B849192A"
-			tasks: [{
-				id: "3E1B842C68018136"
-				item: {
-					Count: 1
-					id: "functionalstorage:linking_tool"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["20E0FABC537D5222"]
-			id: "19B57C7A9C11EEE8"
-			tasks: [{
-				id: "29A722CE3FAE9C9A"
-				item: "functionalstorage:configuration_tool"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["20E0FABC537D5222"]
 			id: "63F23AA10CE20FB2"
 			tasks: [{
@@ -61,8 +16,8 @@
 				item: "functionalstorage:copper_upgrade"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["63F23AA10CE20FB2"]
@@ -72,8 +27,8 @@
 				item: "functionalstorage:gold_upgrade"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["15DA1CC04BE62C52"]
@@ -83,8 +38,8 @@
 				item: "functionalstorage:diamond_upgrade"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["372FC8F10BD5B6C2"]
@@ -94,18 +49,34 @@
 				item: "functionalstorage:netherite_upgrade"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]
 			id: "0CF1F1C992F9B7BA"
+			rewards: [
+				{
+					id: "62747BC90FD4F430"
+					item: {
+						Count: 1
+						id: "functionalstorage:linking_tool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4E308969C24D180E"
+					item: "functionalstorage:configuration_tool"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4B00CCD23F5CE08D"
 				item: "functionalstorage:storage_controller"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -116,8 +87,8 @@
 				item: "functionalstorage:simple_compacting_drawer"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]
@@ -127,8 +98,8 @@
 				item: "functionalstorage:compacting_drawer"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]
@@ -138,8 +109,8 @@
 				item: "functionalstorage:iron_downgrade"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]
@@ -149,8 +120,8 @@
 				item: "functionalstorage:collector_upgrade"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]
@@ -160,8 +131,8 @@
 				item: "functionalstorage:puller_upgrade"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]
@@ -171,8 +142,8 @@
 				item: "functionalstorage:pusher_upgrade"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]
@@ -182,8 +153,8 @@
 				item: "functionalstorage:void_upgrade"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]
@@ -193,8 +164,8 @@
 				item: "functionalstorage:redstone_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20E0FABC537D5222"]

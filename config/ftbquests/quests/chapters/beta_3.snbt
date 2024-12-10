@@ -670,6 +670,32 @@
 			x: 10.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["33A3E11BD0EB479B"]
+			id: "2A9A53C32599ECB6"
+			rewards: [
+				{
+					count: 7
+					id: "2EA307DEF08B5048"
+					item: "minecraft:glow_berries"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4E7416AA119481FE"
+					item: "pamhc2foodcore:glowberrypieitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14C899F07257B2B2"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
 	]
 	title: "Beta"
 }
