@@ -26,10 +26,9 @@ ServerEvents.tags('item', event => {
     });
 
     const dusts = [
-        'aluminum', 'brass', 'bronze', 'charcoal', 'cinnabar', 'cobalt', 'constantan', 'coal', 'copper',
-        'electrum', 'enderium', 'gold', 'invar', 'iron', 'lead', 'lumium', 'netherite', 'nickel',
-        'obsidian', 'osmium', 'platinum', 'ruby', 
-        'sapphire', 'signalum', 'silver', 'steel', 'sulfur', 'tin', 'uranium', 'zinc'
+        'aluminum', 'apatite', 'brass', 'bronze', 'charcoal', 'cinnabar', 'constantan', 'coal', 'copper', 'diamond',
+        'electrum', 'emerald', 'enderium', 'gold', 'invar', 'iron', 'lapis', 'lead', 'nickel', 'niter', 'obsidian',
+        'osmium', 'quartz', 'sapphire', 'signalum', 'silver', 'steel', 'sulfur', 'ruby', 'tin', 'uranium', 'zinc'
     ];
 
     dusts.forEach(dust => {
