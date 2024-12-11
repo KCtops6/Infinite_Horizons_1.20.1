@@ -51,7 +51,25 @@ ServerEvents.recipes(event => {
             'mysticalagriculture:soulium_dust'
         ]
     ).tier(1);
-
+    // Infernal Reactor Core
+    event.recipes.extendedcrafting.shaped_table(
+        'kubejs:infernal_reactor_core',
+        [
+            'abbbbba',
+            'b     b',
+            'b  d  b',
+            'b fcf b',
+            'b  e  b',
+            'b     b',
+            'abbbbba'
+        ],
+        {a: 'mekanism:ultimate_control_circuit'},
+        {b: 'mekanism:alloy_atomic'},
+        {c: 'mekanism:quantum_entangloporter'},
+        {d: 'mekanism:industrial_alarm'},
+        {e: 'mekanism:geiger_counter'},
+        {f: 'mekanism:laser'}
+    ).tier(3);
 
     // Nether Painting
     event.recipes.extendedcrafting.combination(
