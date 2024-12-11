@@ -37,4 +37,8 @@ StartupEvents.registry('item', e => {
     e.create('sword').displayName('Sword');
     e.create('white_sword').displayName('White Sword');
     e.create('wooden_shield').displayName('Wooden Shield');
+
+    e.create('void_flour').displayName('Void Flour');
+    e.create('void_cake_base').displayName('Void Cake Base');
+    e.create('void_cake').displayName('Void Cake')
 })
