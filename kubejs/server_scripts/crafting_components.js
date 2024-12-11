@@ -101,9 +101,9 @@ ServerEvents.recipes(event => {
         ],
         {a: 'mekanism:ultimate_control_circuit'},
         {b: 'mekanism:alloy_atomic'},
-        {c: 'mekanism:fusion_reactor_controller'},
+        {c: 'mekanism:quantum_entangloporter'},
         {d: 'mekanism:industrial_alarm'},
-        {e: 'mekanism:geiger_counter'},
+        {e: 'mekanism:hdpe_elytra'},
         {f: 'mekanism:laser'}
     ).tier(3);
     // End Painting
