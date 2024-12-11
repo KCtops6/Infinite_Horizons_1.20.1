@@ -57,8 +57,11 @@ ServerEvents.recipes(event => {
     // Void Cake Base
     event.recipes.createCompacting('kubejs:void_cake_base', ['minecraft:egg', 'minecraft:sugar', 'kubejs:void_flour']);
 
+    // Liquid Ender Pearl
+    event.recipes.createMixing(Fluid.of('kubejs:liquid_ender_pearl').amount(250), 'minecraft:ender_pearl');
+
     // Void Cake
-    event.recipes.createFilling('kubejs:void_cake', ['kubejs:void_cake_base', Fluid.of('kubejs:liquid_ender_pearl')]);
+    event.recipes.createFilling('kubejs:void_cake', ['kubejs:void_cake_base', Fluid.of('kubejs:liquid_ender_pearl').amount(250)]);
 
     // Dimensional Phase Shifter
     event.recipes.extendedcrafting.shaped_table(
@@ -79,7 +82,7 @@ ServerEvents.recipes(event => {
         {e: 'mekanism:hdpe_elytra'},
         {f: 'mekanism:laser'}
     ).tier(3);
-    
+
     // Astral Chorus Gem
     event.recipes.extendedcrafting.shaped_table(
         'dimensional_phase_shifter',
