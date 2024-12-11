@@ -40,5 +40,8 @@ StartupEvents.registry('item', e => {
 
     e.create('void_flour').displayName('Void Flour');
     e.create('void_cake_base').displayName('Void Cake Base');
-    e.create('void_cake').displayName('Void Cake')
+    e.create('void_cake').displayName('Void Cake');
+
+    e.create('nether_painting_base').displayName('Nether Painting Base');
+    e.create('end_painting_base').displayName('End Painting Base');
 })
