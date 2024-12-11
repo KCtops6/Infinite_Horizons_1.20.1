@@ -44,4 +44,10 @@ StartupEvents.registry('item', e => {
 
     e.create('nether_painting_base').displayName('Nether Painting Base');
     e.create('end_painting_base').displayName('End Painting Base');
+
+    e.create('infernal_canvas').displayName('Infernal Canvas');
+    e.create('obsidian_frame').displayName('Obsidian Frame');
+
+    e.create('infernal_reactor_core').displayName('Infernal Reactor Core')
+
 })
