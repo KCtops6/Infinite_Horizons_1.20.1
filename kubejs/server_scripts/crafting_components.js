@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
         ],
         {a: 'mekanism:ultimate_control_circuit'},
         {b: 'mekanism:alloy_atomic'},
-        {c: 'mekanism:quantum_entangloporter'},
+        {c: 'mekanism:fusion_reactor_controller'},
         {d: 'mekanism:industrial_alarm'},
         {e: 'mekanism:geiger_counter'},
         {f: 'mekanism:laser'}
@@ -76,7 +76,8 @@ ServerEvents.recipes(event => {
         'dimpaintings:nether_painting',
         'kubejs:nether_painting_base',
         [
-            'kubejs:red_candle'
+            'kubejs:red_candle',
+            'kubejs:infernal_reactor_core',
         ], 
         10000000
     );
