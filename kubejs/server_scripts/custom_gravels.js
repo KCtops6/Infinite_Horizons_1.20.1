@@ -22,8 +22,12 @@ ServerEvents.recipes(event => {
     /**
      * End Stone Gravel
      */
-    event.recipes.createCrushing([
-        'kubejs:end_stone_gravel'],
+    event.recipes.createCrushing(
+        [
+            'kubejs:end_stone_gravel',
+            'kubejs:void_flour',
+            Item.of('kubejs:void_flour').withChance(0.5)
+        ],
         'minecraft:end_stone'
     )
     event.recipes.createMilling([
@@ -34,10 +38,12 @@ ServerEvents.recipes(event => {
      * Netherrack Gravel
      */
     event.remove({ output: 'create:cinder_flour' })
-    event.recipes.createCrushing([
-        'kubejs:netherrack_gravel',
-        'create:cinder_flour',
-        Item.of('create:cinder_flour').withChance(0.5)],
+    event.recipes.createCrushing(
+        [
+            'kubejs:netherrack_gravel',
+            'create:cinder_flour',
+            Item.of('create:cinder_flour').withChance(0.5)
+        ],
         'minecraft:netherrack'
     )
     event.recipes.createMilling([
