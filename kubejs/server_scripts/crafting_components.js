@@ -106,6 +106,8 @@ ServerEvents.recipes(event => {
         {e: 'mekanism:hdpe_elytra'},
         {f: 'mekanism:laser'}
     ).tier(3);
+
+    
     // End Painting
     event.recipes.extendedcrafting.combination(
         'dimpaintings:end_painting',
