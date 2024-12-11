@@ -1396,12 +1396,17 @@ added Integrated Scripting.
 added Integrated Terminals.
 added Integrated Tunnels.
 
+Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Applied Energistics 2.
+updated Ender IO.
 Updated Entity Culling Fabric/Forge.
 Updated Harvest with ease.
 Updated Lootr (Forge & NeoForge).
 Updated ModernFix.
 Updated Moonlight Lib.
+Updated Updated [ETF] Entity Texture Features - [Fabric & Forge].
+Updated Sophisticated Core.
+updated Sophisticated Storage.
 
 Added kubejs aluminium block.
 added kubejs brass block.
