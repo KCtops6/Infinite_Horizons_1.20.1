@@ -41,6 +41,8 @@ ServerEvents.recipes(event => {
         {f: 'mekanism:laser'}
     ).tier(3);
 
+    
+
     // Nether Painting
     event.recipes.extendedcrafting.combination(
         'dimpaintings:nether_painting',
