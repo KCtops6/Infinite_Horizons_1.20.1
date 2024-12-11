@@ -83,15 +83,36 @@ ServerEvents.recipes(event => {
     );
 
     // End Painting Crafting Components
+    // Void Cake Base
     event.recipes.createCompacting('kubejs:void_cake_base', ['minecraft:egg', 'minecraft:sugar', 'kubejs:void_flour']);
+    // Void Cake
     event.recipes.createFilling('kubejs:void_cake', ['kubejs:void_cake_base', Fluid.of('kubejs:liquid_ender_pearl')]);
-
+    // Dimensional Phase Shifter
+    event.recipes.extendedcrafting.shaped_table(
+        'dimensional_phase_shifter',
+        [
+            'abbbbba',
+            'b     b',
+            'b  d  b',
+            'b fcf b',
+            'b  e  b',
+            'b     b',
+            'abbbbba'
+        ],
+        {a: 'mekanism:ultimate_control_circuit'},
+        {b: 'mekanism:alloy_atomic'},
+        {c: 'mekanism:fusion_reactor_controller'},
+        {d: 'mekanism:industrial_alarm'},
+        {e: 'mekanism:geiger_counter'},
+        {f: 'mekanism:laser'}
+    ).tier(3);
     // End Painting
     event.recipes.extendedcrafting.combination(
         'dimpaintings:end_painting',
         'kubejs:end_painting_base',
         [
-            'kubejs:void_cake'
+            'kubejs:void_cake',
+            'dimensional_phase_shifter',
         ], 
         10000000
     );

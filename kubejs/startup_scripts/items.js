@@ -48,6 +48,7 @@ StartupEvents.registry('item', e => {
     e.create('infernal_canvas').displayName('Infernal Canvas');
     e.create('obsidian_frame').displayName('Obsidian Frame');
 
-    e.create('infernal_reactor_core').displayName('Infernal Reactor Core')
+    e.create('infernal_reactor_core').displayName('Infernal Reactor Core');
+    e.create('dimensional_phase_shifter').displayName('Dimensional Phase Shifter');
 
 })
