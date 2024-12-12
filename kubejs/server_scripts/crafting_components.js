@@ -22,26 +22,6 @@ ServerEvents.recipes(event => {
     // Nether Painting Crafting Components
 
     // Infernal Reactor Core
-    event.recipes.extendedcrafting.shaped_table(
-        'kubejs:infernal_reactor_core',
-        [
-            'abbbbba',
-            'b     b',
-            'b  d  b',
-            'b fcf b',
-            'b  e  b',
-            'b     b',
-            'abbbbba'
-        ],
-        {a: 'mekanism:ultimate_control_circuit'},
-        {b: 'mekanism:alloy_atomic'},
-        {c: 'mekanism:fusion_reactor_controller'},
-        {d: 'mekanism:industrial_alarm'},
-        {e: 'mekanism:geiger_counter'},
-        {f: 'mekanism:laser'}
-    ).tier(3);
-
-    
 
     // Nether Painting
     event.recipes.extendedcrafting.combination(
@@ -60,50 +40,14 @@ ServerEvents.recipes(event => {
     event.recipes.createCompacting('kubejs:void_cake_base', ['minecraft:egg', 'minecraft:sugar', 'kubejs:void_flour']);
 
     // Liquid Ender Pearl
-    event.recipes.createMixing(Fluid.of('kubejs:liquid_ender_pearl').amount(250), 'minecraft:ender_pearl');
+    event.recipes.createMixing(Fluid.of('kubejs:liquid_ender_pearl', 250), 'minecraft:ender_pearl');
 
     // Void Cake
-    event.recipes.createFilling('kubejs:void_cake', ['kubejs:void_cake_base', Fluid.of('kubejs:liquid_ender_pearl').amount(250)]);
+    event.recipes.createFilling('create:void_cake', ['create:void_cake_base', Fluid.of('minecraft:liquid_ender_pearl', 250)]);
 
     // Dimensional Phase Shifter
-    event.recipes.extendedcrafting.shaped_table(
-        'dimensional_phase_shifter',
-        [
-            'abbbbba',
-            'b     b',
-            'b  d  b',
-            'b fcf b',
-            'b  e  b',
-            'b     b',
-            'abbbbba'
-        ],
-        {a: 'mekanism:ultimate_control_circuit'},
-        {b: 'mekanism:alloy_atomic'},
-        {c: 'mekanism:quantum_entangloporter'},
-        {d: 'mekanism:industrial_alarm'},
-        {e: 'mekanism:hdpe_elytra'},
-        {f: 'mekanism:laser'}
-    ).tier(3);
 
     // Astral Chorus Gem
-    event.recipes.extendedcrafting.shaped_table(
-        'dimensional_phase_shifter',
-        [
-            'abbbbba',
-            'b     b',
-            'b  d  b',
-            'b fcf b',
-            'b  e  b',
-            'b     b',
-            'abbbbba'
-        ],
-        {a: 'mekanism:ultimate_control_circuit'},
-        {b: 'mekanism:alloy_atomic'},
-        {c: 'mekanism:quantum_entangloporter'},
-        {d: 'mekanism:industrial_alarm'},
-        {e: 'mekanism:hdpe_elytra'},
-        {f: 'mekanism:laser'}
-    ).tier(3);
 
     // End Painting
     event.recipes.extendedcrafting.combination(

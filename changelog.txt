@@ -1401,7 +1401,12 @@ Updated Applied Energistics 2.
 updated Ender IO.
 Updated Entity Culling Fabric/Forge.
 Updated Harvest with ease.
+Updated Just Enough Breeding (JEBr).
 Updated Lootr (Forge & NeoForge).
+Updated Mekanism.
+Updated Mekanism Additions.
+Updated Mekanism Generators.
+updated Mekanism Tools.
 Updated ModernFix.
 Updated Moonlight Lib.
 Updated Updated [ETF] Entity Texture Features - [Fabric & Forge].
