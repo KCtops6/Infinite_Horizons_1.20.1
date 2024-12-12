@@ -29,7 +29,13 @@ ServerEvents.recipes(event => {
         'minecraft:painting',
         [
             'kubejs:red_candle',
-            'kubejs:infernal_reactor_core',
+            'kubejs:lava_infuser',
+            'kubejs:nether_gemstone',
+            'kubejs:magma_core',
+            'kubejs:ancient_glyph',
+            'kubejs:soul_prism',
+            'kubejs:ashen_vessel',
+            'create:blaze_cake'
         ], 
         10000
     );
@@ -54,8 +60,14 @@ ServerEvents.recipes(event => {
         'dimpaintings:end_painting',
         'minecraft:painting',
         [
-            'kubejs:void_cake',
-            'kubejs:dimensional_phase_shifter',
+            'kubejs:purpur_lantern',
+            'kubejs:dragon_eye_gem',
+            'kubejs:voidshade_moss',
+            'kubejs:dragonfire_relic',
+            'kubejs:end_gateway_key',
+            'kubejs:stargazer_lens',
+            'kubejs:infinite_void_rune',
+            'kubejs:void_cake'
         ], 
         10000
     );
