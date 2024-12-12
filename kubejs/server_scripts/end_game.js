@@ -51,9 +51,31 @@ ServerEvents.recipes(event => {
     // Void Cake
     event.recipes.createFilling('create:void_cake', ['create:void_cake_base', Fluid.of('minecraft:liquid_ender_pearl', 250)]);
 
-    // Dimensional Phase Shifter
+    // Purpur Lantern
 
-    // Astral Chorus Gem
+    // Dragon Eye Gem
+    event.recipes.extendedcrafting.shaped_table('kubejs:dragon_eye_gem',
+        [
+            'beeeeeeeb',
+            'eccccccce',
+            'ecddfddce',
+            'ecddaddce',
+            'ecfagafce',
+            'ecddaddce',
+            'ecddfddce',
+            'eccccccce',
+            'beeeeeeeb'
+        ], 
+        {
+            a:  'botania:third_eye',
+            b:  'naturesaura:eye_improved',
+            c:  'pamhc2trees:dragon_fruit_item',
+            d:  'apotheosis:infused_breath',
+            e:  'botania:dragonfruit',
+            f:  'irons_spellbooks:ender_upgrade_orb',
+            g:  'botania:ender_eye_block'
+        }
+    ).tier(4);
 
     // End Painting
     event.recipes.extendedcrafting.combination(

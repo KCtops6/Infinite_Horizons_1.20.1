@@ -3,7 +3,7 @@ StartupEvents.registry('item', e => {
         'arrow', 'blue_candle', 'bomb', 'boomerang', 'bow', 'chicken_fried_steak_ingot', 'dark_matter', 'weak_echo_shard', 'mycellium_spores',
         'red_mushroom_spores', 'brown_mushroom_spores', 'crimson_nylium_spores', 'warped_nylium_spores', 'desert_temple_dungeon_key', 'explorer_map',
         'forbidden_transmutation_matter', 'jungle_temple_dungeon_key', 'magical_boomerang', 'magical_shield', 'magical_sword', 'mekanism_mystery_box',
-        'netherite_wire', 'silver_arrow', 'stone_alloy', 'stronghold_dungeon_key', 'sword', 'white_sword', 'wooden_shield',
+        'netherite_wire', 'red_candle', 'silver_arrow', 'stone_alloy', 'stronghold_dungeon_key', 'sword', 'white_sword', 'wooden_shield',
         'void_flour', 'void_cake_base', 'void_cake', 'lava_infuser', 'nether_gemstone', 'magma_core', 'ancient_glyph', 'soul_prism', 'ashen_vessel',
         'purpur_lantern', 'dragon_eye_gem', 'voidshade_moss', 'dragonfire_relic', 'end_gateway_key', 'stargazer_lens', 'infinite_void_rune'
     ];
