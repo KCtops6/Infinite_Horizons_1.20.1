@@ -4,8 +4,7 @@ StartupEvents.registry('item', e => {
         'red_mushroom_spores', 'brown_mushroom_spores', 'crimson_nylium_spores', 'warped_nylium_spores', 'desert_temple_dungeon_key', 'explorer_map',
         'forbidden_transmutation_matter', 'jungle_temple_dungeon_key', 'magical_boomerang', 'magical_shield', 'magical_sword', 'mekanism_mystery_box',
         'netherite_wire', 'silver_arrow', 'stone_alloy', 'stronghold_dungeon_key', 'sword', 'white_sword', 'wooden_shield',
-        'void_flour', 'void_cake_base', 'void_cake', 'token_of_the_nether_edge', 'token_of_the_end_twilight', 'glyph_of_inferno', 'glyph_of_the_void',
-        'mekanized_plasma_infuser', 'ender_quantum_extractor'
+        'void_flour', 'void_cake_base', 'void_cake', 'lava_infuser', 'nether_gemstone', 'magma_core', 'ancient_glyph', 'soul_prism', 'ashen_vessel'
     ];
 
     const formatName = (id) => {
