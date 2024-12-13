@@ -32,6 +32,8 @@ StartupEvents.registry('item', event => {
         event.create(`${dust}_dust`).displayName(`${capitalize(dust)} Dust`);
     });
 
+    event.create('sawdust').displayName("Sawdust");
+
     const ingots = [
         'aluminum', 'brass', 'bronze', 'constantan', 'electrum', 'enderium', 'infinitium', 'invar',
         'lead', 'nickel', 'osmium', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'

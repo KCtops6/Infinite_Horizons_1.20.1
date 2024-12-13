@@ -35,6 +35,8 @@ ServerEvents.tags('item', event => {
         event.add(`forge:dusts/${dust}`, `kubejs:${dust}_dust`);
     });
 
+    event.add(`forge:dusts/wood`, `kubejs:sawdust`);
+
     const ingots = [
         'aluminum', 'brass', 'bronze', 'cobalt', 'constantan', 'copper', 'electrum', 'enderium', 
         'gold', 'invar', 'iron', 'lead', 'lumium', 'nickel', 'osmium', 'platinum', 'signalum', 'silver',
