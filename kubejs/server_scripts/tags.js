@@ -15,10 +15,8 @@ ServerEvents.tags('item', event => {
     event.add('forge:wires', 'kubejs:netherite_wire');
 
     const blocks = [
-        'aluminum', 'apatite', 'brass', 'bronze', 'cinnabar', 'cobalt', 'constantan', 
-        'copper', 'electrum', 'enderium', 'gold',
-        'invar', 'iron', 'lead', 'lumium', 
-        'nickel', 'osmium', 'platinum', 'ruby', 'sapphire', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
+        'aluminum', 'apatite', 'brass', 'bronze', 'cinnabar', 'cobalt', 'constantan', 'copper', 'electrum', 'enderium', 'gold','invar', 'iron', 'lead', 'lumium', 
+        'nickel', 'niter', 'osmium', 'platinum', 'ruby', 'sapphire', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
     ];
 
     blocks.forEach(block => {
@@ -26,9 +24,9 @@ ServerEvents.tags('item', event => {
     });
 
     const dusts = [
-        'aluminum', 'apatite', 'brass', 'bronze', 'charcoal', 'cinnabar', 'constantan', 'coal', 'copper', 'diamond',
-        'electrum', 'emerald', 'enderium', 'gold', 'invar', 'iron', 'lapis', 'lead', 'nickel', 'niter', 'obsidian',
-        'osmium', 'quartz', 'sapphire', 'signalum', 'silver', 'steel', 'sulfur', 'ruby', 'tin', 'uranium', 'zinc'
+        'aluminum', 'apatite', 'brass', 'bronze', 'charcoal', 'cinnabar', 'constantan', 'coal', 'copper', 'diamond', 'electrum', 'emerald', 'enderium', 'gold',
+        'invar', 'iron', 'lapis', 'lead', 'nickel', 'niter', 'obsidian', 'osmium', 'quartz', 'sapphire', 'signalum', 'silver', 'steel', 'sulfur', 'ruby', 'tin',
+        'uranium', 'zinc'
     ];
 
     dusts.forEach(dust => {
@@ -38,9 +36,8 @@ ServerEvents.tags('item', event => {
     event.add(`forge:dusts/wood`, `kubejs:sawdust`);
 
     const ingots = [
-        'aluminum', 'brass', 'bronze', 'cobalt', 'constantan', 'copper', 'electrum', 'enderium', 
-        'gold', 'invar', 'iron', 'lead', 'lumium', 'nickel', 'osmium', 'platinum', 'signalum', 'silver',
-        'steel', 'tin', 'uranium', 'zinc'
+        'aluminum', 'brass', 'bronze', 'cobalt', 'constantan', 'copper', 'electrum', 'enderium', 'gold', 'invar', 'iron', 'lead', 'lumium', 'nickel',
+        'osmium', 'platinum', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
     ];
     
     ingots.forEach(ingot => {
@@ -58,8 +55,8 @@ ServerEvents.tags('item', event => {
     });
 
     const gears = [
-        'bronze', 'constantan', 'copper', 'diamond', 'electrum', 'emerald', 'enderium', 'gold',
-        'invar', 'iron', 'lapis', 'lead', 'lumium', 'netherite', 'nickel', 'quartz', 'ruby', 'sapphire', 'signalum', 'silver', 'tin'
+        'bronze', 'constantan', 'copper', 'diamond', 'electrum', 'emerald', 'enderium', 'gold', 'invar', 'iron', 'lapis', 'lead', 'lumium', 'netherite',
+        'nickel', 'quartz', 'ruby', 'sapphire', 'signalum', 'silver', 'tin'
     ];
 
     gears.forEach(gears => {
