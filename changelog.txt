@@ -1398,6 +1398,7 @@ added Integrated Tunnels.
 
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Applied Energistics 2.
+Updated Corpse.
 updated Ender IO.
 Updated Entity Culling Fabric/Forge.
 Updated Harvest with ease.
