@@ -22,40 +22,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "326024673E1343B6"
-			tasks: [{
-				id: "6FB4E565B0952CDD"
-				title: "Welcome to Sophisticated Backpacks"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["326024673E1343B6"]
-			id: "27867F871BF6CA62"
-			tasks: [{
-				id: "47869D476DFF42F5"
-				item: {
-					Count: 1
-					id: "sophisticatedbackpacks:backpack"
-					tag: {
-						contentsUuid: [I;
-							2024525566
-							22040019
-							-1974459826
-							-618145605
-						]
-						inventorySlots: 27
-						upgradeSlots: 1
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["27867F871BF6CA62"]
 			id: "6E4D9E9514426D96"
 			tasks: [{
@@ -76,7 +42,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -100,7 +66,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -124,7 +90,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -148,11 +114,11 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["326024673E1343B6"]
+			dependencies: ["27867F871BF6CA62"]
 			id: "1258910295B5FA36"
 			tasks: [{
 				id: "4530D410C17787F6"
@@ -617,6 +583,30 @@
 			}]
 			x: 3.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["1095B567B96DDCF3"]
+			id: "27867F871BF6CA62"
+			tasks: [{
+				id: "47869D476DFF42F5"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							2024525566
+							22040019
+							-1974459826
+							-618145605
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Sophisticated Backpacks"

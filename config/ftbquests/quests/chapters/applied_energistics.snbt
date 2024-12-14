@@ -43,8 +43,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -0.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -57,18 +57,13 @@
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			id: "00351BADC2598B3E"
-			tasks: [{
-				id: "250D4FB5B12FA278"
-				item: "ae2:certus_quartz_crystal"
-				type: "item"
-			}]
 			x: 0.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			id: "3734C8C625BA6D20"
@@ -78,7 +73,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -103,8 +98,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -1.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5211D1D7CD55296C"]
@@ -114,8 +109,8 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -128,8 +123,8 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6487D36A13814301"]
@@ -139,7 +134,7 @@
 				item: "ae2:drive"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -154,8 +149,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7464C475E72E0F7D"]
@@ -170,7 +165,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["73F94ED0B65CCF4E"]
@@ -184,8 +179,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["34CED076B127C68B"]
@@ -200,7 +195,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5ED22992FEE1F82D"]
@@ -214,8 +209,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7947A5D59ABA0AF9"]
@@ -229,8 +224,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["10724D3026CA4504"]
@@ -245,7 +240,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1AC3027B82932D62"]
@@ -259,8 +254,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["08B46058C76BAC41"]
@@ -275,7 +270,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6D08D47D72E86DDF"]
@@ -289,8 +284,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6487D36A13814301"]
@@ -300,8 +295,8 @@
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["57F779DBADFAFEED"]
@@ -311,8 +306,8 @@
 				item: "ae2:crafting_terminal"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0C7011C1A60395B9"]
@@ -322,8 +317,8 @@
 				item: "ae2:pattern_encoding_terminal"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["314A3FD8D1F93493"]
@@ -333,8 +328,8 @@
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4BD101FC4E4545D9"]
@@ -344,8 +339,8 @@
 				item: "ae2:pattern_provider"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.5d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["33C35B82A514E17B"]
@@ -355,8 +350,8 @@
 				item: "ae2:pattern_access_terminal"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6487D36A13814301"]
@@ -366,8 +361,8 @@
 				item: "ae2:wireless_access_point"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -380,8 +375,8 @@
 				item: "appliedcooking:kitchen_station"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -394,8 +389,8 @@
 				item: "ae2wtlib:wireless_universal_terminal"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 8.0d
+			y: 2.0d
 		}
 	]
 	title: "Applied Energistics"

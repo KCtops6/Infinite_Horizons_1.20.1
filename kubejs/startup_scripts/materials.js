@@ -3,7 +3,7 @@ StartupEvents.registry('block', event => {
 
     const blocks = [
         'aluminum', 'apatite', 'brass', 'bronze', 'cinnabar', 'constantan', 'copper', 'electrum', 'enderium', 'gold',
-        'infinitium', 'invar', 'iron', 'lead', 'nickel', 'niter', 'osmium', 'ruby',
+        'infinitium', 'invar', 'iron', 'lead', 'lumium', 'nickel', 'niter', 'osmium', 'ruby',
         'sapphire', 'signalum', 'silver', 'sulfur', 'tin', 'uranium', 'zinc'
     ];
 
@@ -24,7 +24,7 @@ StartupEvents.registry('item', event => {
 
     const dusts = [
         'aluminum', 'apatite', 'brass', 'bronze', 'charcoal', 'cinnabar', 'constantan', 'coal', 'copper', 'diamond',
-        'electrum', 'emerald', 'enderium', 'gold', 'invar', 'iron', 'lapis', 'lead', 'nickel', 'niter', 'obsidian',
+        'electrum', 'emerald', 'enderium', 'gold', 'invar', 'iron', 'lapis', 'lead', 'lumium', 'nickel', 'niter', 'obsidian',
         'osmium', 'quartz', 'sapphire', 'signalum', 'silver', 'steel', 'sulfur', 'ruby', 'tin', 'uranium', 'zinc'
     ];
 
@@ -36,7 +36,7 @@ StartupEvents.registry('item', event => {
 
     const ingots = [
         'aluminum', 'brass', 'bronze', 'constantan', 'electrum', 'enderium', 'infinitium', 'invar',
-        'lead', 'nickel', 'osmium', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
+        'lead', 'lumium', 'nickel', 'osmium', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
     ];
 
     ingots.forEach(ingot => {
@@ -45,7 +45,7 @@ StartupEvents.registry('item', event => {
 
     const plates = [
         'aluminum', 'brass', 'bronze', 'constantan', 'copper', 'electrum', 'enderium', 'gold',
-        'infinitium', 'invar', 'iron', 'lead', 'netherite', 'nickel', 'signalum', 
+        'infinitium', 'invar', 'iron', 'lead', 'lumium', 'netherite', 'nickel', 'signalum', 
         'silver', 'tin', 'zinc'
     ];
 
@@ -57,7 +57,6 @@ StartupEvents.registry('item', event => {
 
     const gems = [
         { id: 'apatite', displayName: 'Apatite'},
-        { id: 'certus_quartz', displayName: 'Certus Quartz Crystal'},
         { id: 'cinnabar', displayName: 'Cinnabar'},
         { id: 'niter', displayName: 'Niter'},
         { id: 'ruby', displayName: 'Ruby'},
