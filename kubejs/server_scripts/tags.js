@@ -25,8 +25,8 @@ ServerEvents.tags('item', event => {
 
     const dusts = [
         'aluminum', 'apatite', 'brass', 'bronze', 'charcoal', 'cinnabar', 'constantan', 'coal', 'copper', 'diamond', 'electrum', 'emerald', 'enderium', 'gold',
-        'invar', 'iron', 'lapis', 'lead', 'nickel', 'niter', 'obsidian', 'osmium', 'quartz', 'sapphire', 'signalum', 'silver', 'steel', 'sulfur', 'ruby', 'tin',
-        'uranium', 'zinc'
+        'invar', 'iron', 'lapis', 'lead', 'lumium','nickel', 'niter', 'obsidian', 'osmium', 'quartz', 'sapphire', 'signalum', 'silver', 'steel', 'sulfur',
+        'ruby', 'tin', 'uranium', 'zinc'
     ];
 
     dusts.forEach(dust => {
@@ -64,12 +64,12 @@ ServerEvents.tags('item', event => {
     });
 
     const nuggets = [
-        'netherite', 'tin', 'lead', 'silver', 'nickel',
-        'bronze', 'electrum', 'invar', 'constantan',
-        'signalum', 'lumium', 'enderium', 'osmium', 'uranium',
-        'steel', 'copper', 'zinc', 'brass', 'netherite',
-        'tin', 'lead', 'silver', 'nickel', 'bronze',
-        'electrum', 'invar', 'constantan', 'signalum', 'enderium', 'lumium'
+        'brass', 'bronze', 'bronze', 'constantan', 'constantan',
+        'copper', 'electrum', 'electrum', 'enderium', 'enderium',
+        'invar', 'invar', 'lead', 'lead', 'lumium',
+        'netherite', 'netherite', 'nickel', 'nickel', 'osmium',
+        'signalum', 'signalum', 'silver', 'silver', 'steel',
+        'tin', 'tin', 'uranium', 'zinc'
     ];
 
     nuggets.forEach(nugget => {

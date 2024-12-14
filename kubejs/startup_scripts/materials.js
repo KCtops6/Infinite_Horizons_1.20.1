@@ -78,12 +78,12 @@ StartupEvents.registry('item', event => {
     })
 
     const nuggets = [
-        'netherite', 'tin', 'lead', 'silver', 'nickel',
-        'bronze', 'electrum', 'invar', 'constantan',
-        'signalum', 'lumium', 'enderium', 'osmium', 'uranium',
-        'steel', 'copper', 'zinc', 'brass', 'netherite',
-        'tin', 'lead', 'silver', 'nickel', 'bronze',
-        'electrum', 'invar', 'constantan', 'signalum', 'enderium', 'lumium'
+        'brass', 'bronze', 'bronze', 'constantan', 'constantan',
+        'copper', 'electrum', 'electrum', 'enderium', 'enderium',
+        'invar', 'invar', 'lead', 'lead', 'lumium',
+        'netherite', 'netherite', 'nickel', 'nickel', 'osmium',
+        'signalum', 'signalum', 'silver', 'silver', 'steel',
+        'tin', 'tin', 'uranium', 'zinc'
     ];
 
     nuggets.forEach(nugget => {
