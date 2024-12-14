@@ -16,7 +16,7 @@ ServerEvents.tags('item', event => {
 
     const blocks = [
         'aluminum', 'apatite', 'brass', 'bronze', 'cinnabar', 'cobalt', 'constantan', 'copper', 'electrum', 'enderium', 'gold','invar', 'iron', 'lead', 'lumium', 
-        'nickel', 'niter', 'osmium', 'platinum', 'ruby', 'sapphire', 'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
+        'nickel', 'niter', 'osmium', 'platinum', 'ruby', 'sapphire', 'signalum', 'silver', 'steel', 'sulfur', 'tin', 'uranium', 'zinc'
     ];
 
     blocks.forEach(block => {
