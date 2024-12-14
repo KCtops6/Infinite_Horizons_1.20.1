@@ -27,7 +27,7 @@
 				type: "item"
 			}]
 			title: "Turning the Tides"
-			x: 1.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -38,7 +38,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -49,7 +49,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -115,7 +115,7 @@
 				}
 			]
 			title: "Separating the Essentials"
-			x: 4.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -135,7 +135,7 @@
 				type: "item"
 			}]
 			title: "Grinding Gears"
-			x: 3.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -146,7 +146,7 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -160,7 +160,7 @@
 				type: "item"
 			}]
 			title: "Stone on Demand"
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -171,7 +171,7 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 5.0d
 		}
 		{
@@ -182,7 +182,7 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 4.0d
 		}
 		{
@@ -196,7 +196,7 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 5.0d
 		}
 		{
@@ -223,7 +223,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
@@ -248,7 +248,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 9.0d
 			y: 6.0d
 		}
 		{
@@ -259,7 +259,7 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 5.0d
 		}
 		{
@@ -274,7 +274,7 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 7.0d
 		}
 		{
@@ -293,7 +293,7 @@
 				title: "Craft a Botany Pot"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 7.0d
 		}
 		{
@@ -304,7 +304,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -4.0d
 		}
 		{
@@ -315,7 +315,7 @@
 				item: "farmingforblockheads:feeding_trough"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -326,7 +326,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -4.0d
 		}
 		{
@@ -337,7 +337,7 @@
 				item: "kubejs:zinc_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -352,7 +352,7 @@
 				item: "kubejs:brass_ingot"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
@@ -370,7 +370,7 @@
 				type: "item"
 			}]
 			title: "Shifting Sands"
-			x: 3.0d
+			x: 4.0d
 			y: 7.0d
 		}
 		{
@@ -381,7 +381,7 @@
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 9.0d
 		}
 		{
@@ -404,7 +404,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 5.0d
 			y: 8.0d
 		}
 		{
@@ -415,7 +415,7 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -429,7 +429,7 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -440,7 +440,7 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -481,7 +481,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 7.0d
 			y: 9.0d
 		}
 		{
@@ -492,7 +492,7 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.0d
 			y: 9.0d
 		}
 		{
@@ -504,7 +504,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -518,7 +518,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: 7.0d
 		}
 		{
@@ -529,7 +529,7 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: 7.0d
 		}
 		{
@@ -543,7 +543,7 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: 6.0d
 		}
 		{
@@ -557,7 +557,7 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: 5.0d
 		}
 		{
@@ -571,7 +571,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.0d
 			y: 3.0d
 		}
 		{
@@ -582,7 +582,7 @@
 				item: "kubejs:deepslate_gravel"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 2.0d
 		}
 		{
@@ -601,7 +601,7 @@
 				title: "Craft a Hopper Botany Pot"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 7.0d
 		}
 		{
@@ -623,7 +623,7 @@
 				item: "kubejs:steel_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 2.0d
 		}
 		{
@@ -637,7 +637,7 @@
 				item: "createaddition:straw"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 5.0d
 		}
 		{
@@ -648,7 +648,7 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 5.0d
 		}
 		{
@@ -667,7 +667,7 @@
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 5.0d
 		}
 		{
@@ -693,8 +693,31 @@
 				item: "minecraft:glow_berries"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			id: "423A4884BBF1FFFA"
+			rewards: [
+				{
+					id: "17D7866082389DC3"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "0B83B365E40C3F5A"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1992E654BB8A2469"
+				item: "kubejs:stone_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Beta"

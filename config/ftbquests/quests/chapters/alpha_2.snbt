@@ -307,29 +307,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3949B38795D8BB00"]
-			id: "423A4884BBF1FFFA"
-			rewards: [
-				{
-					id: "17D7866082389DC3"
-					item: "create:goggles"
-					type: "item"
-				}
-				{
-					id: "0B83B365E40C3F5A"
-					item: "create:wrench"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1992E654BB8A2469"
-				item: "kubejs:stone_alloy"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["6A6C399AB9F1BBE0"]
 			id: "133BCE410E613A4F"
 			tasks: [{
@@ -1162,6 +1139,55 @@
 			}]
 			x: 0.25d
 			y: 1.25d
+		}
+		{
+			dependencies: ["6A6C399AB9F1BBE0"]
+			id: "4587EDD10F9AD9CA"
+			rewards: [
+				{
+					count: 3
+					id: "2E3102866801BE23"
+					item: "minecraft:flint"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3B885D3925FCD915"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1B550CB407122F86"
+					item: "pamhc2foodcore:baconandeggsitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "004139B15448B53D"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			id: "5D67DA52563A36FB"
+			tasks: [{
+				id: "63BFB6501C2743B7"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
 		}
 	]
 	title: "Alpha"
