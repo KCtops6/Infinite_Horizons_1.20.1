@@ -1403,6 +1403,7 @@ Updated Applied Energistics 2.
 Updated Corpse.
 updated Ender IO.
 Updated Entity Culling Fabric/Forge.
+Updated ExtendedAE.
 Updated Harvest with ease.
 Updated Just Enough Breeding (JEBr).
 Updated Lootr (Forge & NeoForge).
