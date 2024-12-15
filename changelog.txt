@@ -1388,6 +1388,7 @@ Added Summoning Altar Recipe For Slime Data Model.
 Added Custom Compacting Recipe For Gregtech Gallium Arsenide Dust.
 
 1.20.1-9.0
+added BadOptimizations.
 added Common Capabilities.
 added Cyclops Core.
 added Integrated Crafting.
