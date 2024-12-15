@@ -1396,8 +1396,6 @@ added Integrated Scripting.
 added Integrated Terminals.
 added Integrated Tunnels.
 
-Removed KubeJS Extended Crafting.
-
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Applied Energistics 2.
 Updated Corpse.
