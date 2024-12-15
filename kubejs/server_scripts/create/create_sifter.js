@@ -277,7 +277,7 @@ ServerEvents.recipes(event => {
      * 'gtceu:raw_diatomite'        80  1
      */
     event.recipes.createsifterSifting([
-        Item.of('thermal:apatite').withChance(0.1),
+        Item.of('kubejs:apatite_gem').withChance(0.1),
         
         Item.of('gtceu:raw_basaltic_mineral_sand').withChance(240 / 500 / 50),
         Item.of('gtceu:raw_oilsands').withChance(240 / 500 / 50),
@@ -294,7 +294,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_spodumene').withChance(50 / 500 / 50),
     ], ['minecraft:sand','createsifter:string_mesh']);
     event.recipes.createsifterSifting([
-        Item.of('thermal:apatite').withChance(0.1 + 0.05),
+        Item.of('kubejs:apatite_gem').withChance(0.1 + 0.05),
         
         Item.of('gtceu:raw_basaltic_mineral_sand').withChance(240 / 500 / 40),
         Item.of('gtceu:raw_oilsands').withChance(240 / 500 / 40),
@@ -311,7 +311,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_spodumene').withChance(50 / 500 / 40),
     ], ['minecraft:sand','kubejs:copper_mesh']);
     event.recipes.createsifterSifting([
-        Item.of('thermal:apatite').withChance(0.1 + 0.05 + 0.1),
+        Item.of('kubejs:apatite_gem').withChance(0.1 + 0.05 + 0.1),
         
         Item.of('gtceu:raw_basaltic_mineral_sand').withChance(240 / 500 / 30),
         Item.of('gtceu:raw_oilsands').withChance(240 / 500 / 30),
@@ -328,7 +328,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_spodumene').withChance(50 / 500 / 30),
     ], ['minecraft:sand','kubejs:iron_mesh']);
     event.recipes.createsifterSifting([
-        Item.of('thermal:apatite').withChance(0.1 + 0.05 + 0.1 + 0.15),
+        Item.of('kubejs:apatite_gem').withChance(0.1 + 0.05 + 0.1 + 0.15),
         
         Item.of('gtceu:raw_basaltic_mineral_sand').withChance(240 / 500 / 20),
         Item.of('gtceu:raw_oilsands').withChance(240 / 500 / 20),
@@ -345,7 +345,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_spodumene').withChance(50 / 500 / 20),
     ], ['minecraft:sand','createsifter:brass_mesh']);
     event.recipes.createsifterSifting([
-        Item.of('thermal:apatite').withChance(0.1 + 0.05 + 0.1 + 0.15 + 0.2),
+        Item.of('kubejs:apatite_gem').withChance(0.1 + 0.05 + 0.1 + 0.15 + 0.2),
         
         Item.of('gtceu:raw_basaltic_mineral_sand').withChance(240 / 500 / 10),
         Item.of('gtceu:raw_oilsands').withChance(240 / 500 / 10),
