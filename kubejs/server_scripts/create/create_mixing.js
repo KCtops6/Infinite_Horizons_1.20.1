@@ -171,17 +171,17 @@ ServerEvents.recipes(event => {
             ingredients: [
                 {
                     count: alloy.amount1,
-                    item: `kubejs:${alloy.input1}_ingot.`
+                    item: `kubejs:${alloy.input1}_ingot`
                 },
                 {
                     count: alloy.amount2,
-                    item: `kubejs:${alloy.input2}_ingot.`
+                    item: `kubejs:${alloy.input2}_ingot`
                 }
             ],
             results: [
                 {
                     count: alloy.outputAmount,
-                    item: `kubejs:${alloy.output}_ingot.`
+                    item: `kubejs:${alloy.output}_ingot`
                 }
             ]
         });
@@ -198,17 +198,17 @@ ServerEvents.recipes(event => {
             ingredients: [
                 {
                     count: alloy.amount1,
-                    item: `kubejs:${alloy.input1}_ingot.`
+                    item: `kubejs:${alloy.input1}_ingot`
                 },
                 {
                     count: alloy.amount2,
-                    item: `kubejs:${alloy.input2}_ingot.`
+                    item: `kubejs:${alloy.input2}_ingot`
                 }
             ],
             results: [
                 {
                     count: alloy.outputAmount,
-                    item: `kubejs:${alloy.output}_ingot.`
+                    item: `kubejs:${alloy.output}_ingot`
                 }
             ]
         });

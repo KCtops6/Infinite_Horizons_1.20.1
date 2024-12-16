@@ -1428,6 +1428,7 @@ added kubejs osmium ingot, dust, and block.
 added kubejs steel block.
 added kubejs tin block.
 added kubejs ender pearl dust.
+added kubejs netherite dust.
 Unified certus quartz material.
 Removed observe soul fire quest.
 fixed foliot crushing recipes.
