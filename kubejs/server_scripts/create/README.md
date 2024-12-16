@@ -1,0 +1,1 @@
+All create recipes are split into different create crafting types.
