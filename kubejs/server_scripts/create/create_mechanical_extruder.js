@@ -1,23 +1,3 @@
-// ServerEvents.recipes(event => {
-//     const extrudingRecipes = [
-//         'andesite',
-//         'deepslate',
-//         'diorite',
-//         'granite',
-//         'netherrack',
-//         'tuff'
-//     ];
-
-//     const addExtruderRecipe = (material) => {
-//         event.recipes.createMechanicalExtruderExtruding(
-//             Item.of(`minecraft:${material}`),
-//             [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]
-//         ).withCatalyst(`minecraft:${material}`);
-//     };
-
-//     extrudingRecipes.forEach(addExtruderRecipe);
-// });
-
 ServerEvents.recipes(event => {
     const blocks = [
         'andesite',

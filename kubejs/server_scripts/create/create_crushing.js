@@ -1,4 +1,3 @@
-// https://kubejs.com/wiki/addons/create#crushing
 ServerEvents.recipes(event => {
     // simple crushing input to output mappings (no chanced outputs)
     const recipes = [
