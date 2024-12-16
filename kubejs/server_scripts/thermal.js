@@ -1,4 +1,58 @@
 ServerEvents.recipes(event => {
+    // Induction Smelter Catalysts
+    const smelterCatalysts = [
+      { id: 'minecraft:cake', primaryMod: 1.0, secondaryMod: 1.0, energyMod: 1.25, minChance: 0.05, useChance: 0.5}
+    ];
+    smelterCatalysts.forEach(catalyst => {
+      event.custom({
+        type: "thermal:smelter_catalyst",
+        ingredient: {
+          item: catalyst.id
+        },
+        primary_mod: catalyst.primaryMod,
+        secondary_mod: catalyst.secondaryMod,
+        energy_mod: catalyst.energyMod,
+        min_chance: catalyst.minChance,
+        use_chance: catalyst.useChance
+      })
+    });
+
+    // Pulverizer Catalysts
+    const pulverizerCatalysts = [
+      { id: 'minecraft:cake', primaryMod: 1.0, secondaryMod: 1.0, energyMod: 1.25, minChance: 0.05, useChance: 0.5}
+    ];
+    pulverizerCatalysts.forEach(catalyst => {
+      event.custom({
+        type: "thermal:pulverizer_catalyst",
+        ingredient: {
+          item: catalyst.id
+        },
+        primary_mod: catalyst.primaryMod,
+        secondary_mod: catalyst.secondaryMod,
+        energy_mod: catalyst.energyMod,
+        min_chance: catalyst.minChance,
+        use_chance: catalyst.useChance
+      })
+    });
+
+    // Insolator Catalysts
+    const insolatorCatalysts = [
+      { id: 'minecraft:cake', primaryMod: 1.0, secondaryMod: 1.0, energyMod: 1.25, minChance: 0.05, useChance: 0.5}
+    ];
+    insolatorCatalysts.forEach(catalyst => {
+      event.custom({
+        type: "thermal:insolator_catalyst",
+        ingredient: {
+          item: catalyst.id
+        },
+        primary_mod: catalyst.primaryMod,
+        secondary_mod: catalyst.secondaryMod,
+        energy_mod: catalyst.energyMod,
+        min_chance: catalyst.minChance,
+        use_chance: catalyst.useChance
+      })
+    });
+  
     // Copper Alloy Ingot
     event.custom({
         type: "thermal:smelter",
@@ -28,7 +82,7 @@ ServerEvents.recipes(event => {
         energy: 3200
     });
     // Energetic Alloy Ingot
-    event.custom({
+    event.custom({ 
         type: "thermal:smelter",
         ingredients: [
           {
@@ -308,7 +362,6 @@ ServerEvents.recipes(event => {
         energy: 500 * 9
       });
     });
-
     // Prosperity Ingot
     event.custom({
       type: "thermal:smelter",
@@ -336,7 +389,8 @@ ServerEvents.recipes(event => {
         }
       ],
       energy: 500
-  });
+    });
+
     // Ingot of the Depts (Natures Aura)
     event.custom({
       type: "thermal:smelter",
@@ -362,7 +416,6 @@ ServerEvents.recipes(event => {
       ],
       energy: 500
     });
-
     // Gold Powder (Natures Aura)
     event.custom({
       type: "thermal:pulverizer",
@@ -377,4 +430,39 @@ ServerEvents.recipes(event => {
       ]
     });
 
-})
+    // Pulverizing Ingot to Dust
+    const ingotToDust = ['osmium', 'uranium'];
+    ingotToDust.forEach(i => {
+      event.custom({
+        type: "thermal:pulverizer",
+        ingredient: {
+          item: `kubejs:${i}_ingot`
+        },
+        result: [
+          {
+            item: `kubejs:${i}_dust`,
+            count: 1
+          }
+        ],
+        energy_mod: 0.5
+      });
+    });
+
+    // Pressing Ingot to Plate
+    const ingotToPlate = ['brass', 'infinitium', 'manasteel', 'terrasteel', 'zinc'];
+    ingotToPlate.forEach(i => {
+      event.custom({
+        type: "thermal:press",
+        ingredient: {
+          item: `kubejs:${i}_ingot`
+        },
+        result: [
+          {
+            item: `kubejs:${i}_plate`,
+            count: 1
+          }
+        ]
+      });
+    })
+
+});
