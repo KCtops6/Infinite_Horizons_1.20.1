@@ -56,4 +56,20 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+    // calcite
+    event.custom({
+        type: "create:milling",
+        ingredients: [
+            {
+                item: 'minecraft:calcite'
+            }
+        ],
+        processingTime: 800,
+        results: [
+            {
+                item: 'gtceu:raw_calcite'
+            }
+        ]
+    });
 });

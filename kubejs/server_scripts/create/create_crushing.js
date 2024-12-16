@@ -89,4 +89,28 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+    // calcite
+    event.custom({
+        type: "create:crushing",
+        ingredients: [
+            {
+                item: 'minecraft:calcite'
+            }
+        ],
+        processingTime: 400,
+        results: [
+            {
+                item: 'gtceu:raw_calcite'
+            },
+            {
+                chance: 0.5,
+                item: 'gtceu:calcium_dust'
+            },
+            {
+                chance: 0.25,
+                item: 'gtceu:raw_sodalite'
+            }
+        ]
+    });
 });
