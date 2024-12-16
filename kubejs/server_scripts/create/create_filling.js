@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'create:void_cake'
+                item: 'kubejs:void_cake'
             }
         ]
     });
