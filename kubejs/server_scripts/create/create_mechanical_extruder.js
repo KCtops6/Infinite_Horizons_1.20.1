@@ -1,5 +1,25 @@
+// ServerEvents.recipes(event => {
+//     const extrudingRecipes = [
+//         'andesite',
+//         'deepslate',
+//         'diorite',
+//         'granite',
+//         'netherrack',
+//         'tuff'
+//     ];
+
+//     const addExtruderRecipe = (material) => {
+//         event.recipes.createMechanicalExtruderExtruding(
+//             Item.of(`minecraft:${material}`),
+//             [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]
+//         ).withCatalyst(`minecraft:${material}`);
+//     };
+
+//     extrudingRecipes.forEach(addExtruderRecipe);
+// });
+
 ServerEvents.recipes(event => {
-    const extrudingRecipes = [
+    const blocks = [
         'andesite',
         'deepslate',
         'diorite',
@@ -7,22 +27,27 @@ ServerEvents.recipes(event => {
         'netherrack',
         'tuff'
     ];
-
-    const addExtruderRecipe = (material) => {
-        event.recipes.createMechanicalExtruderExtruding(
-            Item.of(`minecraft:${material}`),
-            [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]
-        ).withCatalyst(`minecraft:${material}`);
-    };
-
-    extrudingRecipes.forEach(addExtruderRecipe);
+    blocks.forEach(block => {
+        event.custom({
+            type: "create_mechanical_extruder:extruding",
+            catalyst: {
+                item: `minecraft:${block}`
+            },
+            ingredients: [
+                {
+                    amount: 1000,
+                    fluid: "minecraft:water",
+                    nbt: {}
+                },
+                {
+                    amount: 1000,
+                    fluid: "minecraft:lava",
+                    nbt: {}
+                }
+            ],
+            result: {
+                item: `minecraft:${block}`
+            }
+        });
+    });
 });
-
-// ServerEvents.recipes(event => {
-//     event.recipes.createMechanicalExtruderExtruding(Item.of('minecraft:andesite'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:andesite')
-//     event.recipes.createMechanicalExtruderExtruding(Item.of('minecraft:deepslate'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:deepslate')
-//     event.recipes.createMechanicalExtruderExtruding(Item.of('minecraft:diorite'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:diorite')
-//     event.recipes.createMechanicalExtruderExtruding(Item.of('minecraft:granite'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:granite')
-//     event.recipes.createMechanicalExtruderExtruding(Item.of('minecraft:netherrack'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:netherrack')
-//     event.recipes.createMechanicalExtruderExtruding(Item.of('minecraft:tuff'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:tuff')
-// })

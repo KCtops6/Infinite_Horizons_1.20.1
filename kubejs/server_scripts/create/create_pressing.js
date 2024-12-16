@@ -12,14 +12,15 @@ ServerEvents.recipes(event => {
             type: "create:pressing",
             ingredients: [
                 {
-                    tag: `forge:ingots/${i}`
+                    item: `kubejs:${i}_ingot`
                 }
             ],
             results: [
                 {
-                    tag: `forge:plates/${i}`
+                    item: `kubejs:${i}_plate`
                 }
             ]
-        })
-    })
+        });
+    });
+    
 });
