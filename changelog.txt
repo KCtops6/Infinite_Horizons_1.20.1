@@ -1437,3 +1437,4 @@ added enderio alloys to thermal induction smelter.
 added osmium, uranium dust to thermal pulverizer.
 added brass, infinitium, manasteel, terrasteel, zinc plate to thermal press.
 unified sawdust/wood dust.
+added enderium, lumium, manasteel, netherite, signalum, terrasteel plate to create pressing.
