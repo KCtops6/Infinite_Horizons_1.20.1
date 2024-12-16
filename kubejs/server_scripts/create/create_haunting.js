@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
         type: "create:haunting",
         ingredients: [
             {
-                tag: 'minecraft:gold_ingot'
+                item: 'minecraft:gold_ingot'
             }
         ],
         results: [

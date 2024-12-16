@@ -3,7 +3,8 @@ ServerEvents.recipes(event => {
     // removing by output
     const ids = [
         'functionalstorage:oak_drawer_alternate_x1', 'functionalstorage:oak_drawer_alternate_x2', 'functionalstorage:oak_drawer_alternate_x4',
-        'create:crushing/netherrack'
+        'create:crushing/netherrack', 'projecte:low_covalence_dust', 'projecte:medium_covalence_dust', 'projecte:high_covalence_dust',
+        
     ];
     ids.forEach(id => {
         event.remove({ id: id });
