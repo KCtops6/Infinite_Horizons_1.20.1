@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     // dimensional paintings
     const dimensionalPaintings = [
         {
-            power_cost: 100000,
+            powerCost: 100000,
             ingredient1: 'mysticalagriculture:air_essence',
             ingredient2: 'mysticalagriculture:earth_essence',
             ingredient3: 'mysticalagriculture:water_essence',
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
     dimensionalPaintings.forEach(painting => {
         event.custom({
             type: "extendedcrafting:combination",
-            power_cost: painting.power_cost,
+            powerCost: painting.powerCost,
             input: {
                 item: "minecraft:painting"
             },
