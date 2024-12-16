@@ -1398,6 +1398,7 @@ added Integrated Terminals.
 added Integrated Tunnels.
 
 removed KubeJS Thermal.
+removed KubeJS Create.
 
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Applied Energistics 2.
