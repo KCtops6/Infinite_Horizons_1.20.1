@@ -216,8 +216,7 @@ ServerEvents.recipes(event => {
 
     // dielectric paste
     event.custom({
-        type: "create:mixing",
-        heatRequirement: "heated",
+        type: "create:mixing", 
         ingredients: [
             {
                 count: 3,
