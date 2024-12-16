@@ -49,21 +49,6 @@
 	#How much FE the Auto Crafting Tables should use when crafting.
 	#Range: > 0
 	autoTablePowerRate = 500
-	#How many ticks the Basic Auto Table takes to craft
-	#Range: > 1
-	autoTableBasicCraftTime = 8
-	#How many ticks the Advanced Auto Table takes to craft
-	#Range: > 1
-	autoTableAdvancedCraftTime = 8
-	#How many ticks the Elite Auto Table takes to craft
-	#Range: > 1
-	autoTableEliteCraftTime = 8
-	#How many ticks the Ultimate Auto Table takes to craft
-	#Range: > 1
-	autoTableUltimateCraftTime = 8
-	#How many ticks the Epic Auto Table takes to craft
-	#Range: > 1
-	autoTableEpicCraftTime = 8
 
 #Settings for the Quantum Compressor.
 ["Quantum Compression"]
