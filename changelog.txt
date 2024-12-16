@@ -1414,6 +1414,7 @@ Updated Mekanism Generators.
 updated Mekanism Tools.
 Updated ModernFix.
 Updated Moonlight Lib.
+updated Polymorph (Fabric/Forge/Quilt).
 Updated Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Sophisticated Core.
 updated Sophisticated Storage.
