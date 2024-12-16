@@ -1,3 +1,17 @@
-ServerEvents.recipes(e => {
-    e.recipes.create.splashing('3x twigs:pebble', 'minecraft:dirt');
+ServerEvents.recipes(event => {
+    // pebbles
+    event.custom({
+        type: "create:splashing",
+        ingredients: [
+            {
+                item: "minecraft:dirt"
+            }
+        ],
+        results: [
+            {
+                count: 3,
+                item: "twigs:pebble"
+            }
+        ]
+    });
 });
