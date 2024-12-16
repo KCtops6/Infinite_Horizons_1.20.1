@@ -257,4 +257,22 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+    // liquid ender pearl
+    event.custom({
+        type: "create:mixing",
+        heatRequirement: "heated",
+        ingredients: [
+            {
+                count: 1,
+                item: 'minecraft:ender_pearl'
+            }
+        ],
+        results: [
+            {
+                amount: 250,
+                fluid: 'kubejs:liquid_ender_pearl'
+            }
+        ]
+    });
 });
