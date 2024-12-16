@@ -53,7 +53,7 @@ ServerEvents.tags('item', event => {
     dusts.forEach(dust => {
         event.add(`forge:dusts/${dust}`, `kubejs:${dust}_dust`);
     });
-
+    event.add(`forge:dusts/ender_pearl`, `kubejs:ender_pearl_dust`);
     event.add(`forge:dusts/wood`, `kubejs:sawdust`);
 
     const ingots = [

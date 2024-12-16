@@ -47,7 +47,7 @@ StartupEvents.registry('item', event => {
     dusts.forEach(dust => {
         event.create(`${dust}_dust`).displayName(`${capitalize(dust)} Dust`);
     });
-
+    event.create('ender_pearl_dust').displayName('Ender Pearl Dust');
     event.create('sawdust').displayName("Sawdust");
 
     const ingots = [
