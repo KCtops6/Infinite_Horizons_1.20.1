@@ -42,7 +42,7 @@ ServerEvents.tags('item', event => {
         'diamond', 'electrum', 'elementium', 'emerald',
         'enderium', 'gold', 'invar',
         'iron', 'lapis', 'lead',
-        'lumium', 'manasteel', 'nickel',
+        'lumium', 'manasteel', 'netherite', 'nickel',
         'niter', 'obsidian', 'osmium',
         'quartz', 'sapphire', 'signalum',
         'silver', 'steel', 'sulfur',
