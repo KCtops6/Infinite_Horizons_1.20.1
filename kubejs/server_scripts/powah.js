@@ -1,25 +1,60 @@
 ServerEvents.recipes(event => {
-    // .energizing([inputs, ...], output, energy)
-	event.recipes.powah.energizing(["minecraft:gold_block", "minecraft:iron_block"], "2x powah:energized_steel_block", 90000);
-    event.recipes.powah.energizing(["botania:blaze_block"], "powah:blazing_crystal_block", 180000);
-    event.recipes.powah.energizing(["minecraft:diamond_block"], "powah:niotic_crystal_block", 2700000);
-    event.recipes.powah.energizing(["minecraft:emerald_block"], "powah:spirited_crystal_block", 9000000);
-})
+    // energized steel block
+    event.custom({
+        type: "powah:energizing",
+        ingredients: [
+            {
+                item: "minecraft:gold_block"
+            },
+            {
+                item: "minecraft:iron_block"
+            }
+        ],
+        energy: 90000,
+        result: {
+            count: 2,
+            item: "powah:energized_steel_block"
+        }
+    });
 
-PowahEvents.registerCoolants(event => {
-    // .addFluid(fluid, coolness)
-	//event.addFluid("minecraft:lava", 10);
-    
-    // .addSolid(fluid, coolness)
-	//event.addSolid("minecraft:cobblestone", 10);
-})
+    // blazing crystal block
+    event.custom({
+        type: "powah:energizing",
+        ingredients: [
+            {
+                item: "botania:blaze_block"
+            }
+        ],
+        energy: 180000,
+        result: {
+            item: "powah:blazing_crystal_block"
+        }
+    });
 
-PowahEvents.registerHeatSource(event => {
-    // .add(block, hotness)
-	//event.add("minecraft:cobblestone", 10);
-})
+    // niotic crystal block
+    event.custom({
+        type: "powah:energizing",
+        ingredients: [
+            {
+                item: "minecraft:diamond_block"
+            }
+        ],
+        energy: 2700000,
+        result: {
+            item: "powah:niotic_crystal_block"
+        }
+    });
 
-PowahEvents.registerMagmaticFluid(event => {
-    // .add(fluid, hotness)
-	//event.add("minecraft:water", 10);
-})
+    event.custom({
+        type: "powah:energizing",
+        ingredients: [
+            {
+                item: "minecraft:emerald_block"
+            }
+        ],
+        energy: 9000000,
+        result: {
+            item: "powah:spirited_crystal_block"
+        }
+    });
+});
