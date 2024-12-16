@@ -1,7 +1,9 @@
 // https://kubejs.com/wiki/tutorials/recipes#removing-recipes
 ServerEvents.recipes(event => {
     // removing by output
-    const ids = [];
+    const ids = [
+        'functionalstorage:oak_drawer_alternate_x1', 'functionalstorage:oak_drawer_alternate_x2', 'functionalstorage:oak_drawer_alternate_x4'
+    ];
     ids.forEach(id => {
         event.remove({ id: id });
     });
