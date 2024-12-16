@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
     const flours = [
         { input: 'minecraft:end_stone', output1: 'kubejs:end_stone_gravel', output2: 'kubejs:void_flour'},
         { input: 'minecraft:netherrack', output1: 'kubejs:netherrack_gravel', output2: 'create:cinder_flour'}
-    ]
+    ];
     flours.forEach(flour => {
         event.custom({
             type: "create:crushing",
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
             processingTime: 400,
             results: [
                 {
-                    item: flour.output
+                    item: flour.output1
                 },
                 {
                     item: flour.output2
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
                 }
             ]
         });
-    })
+    });
 
     // pams harvestcraft ground meats
     const meats = ['rabbit', 'mutton', 'pork', 'beef', 'chicken'];

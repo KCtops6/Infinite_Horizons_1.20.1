@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    // iesnium ingot
+    // void cake base
     event.custom({
         type: "create:compacting",
         ingredients: [
