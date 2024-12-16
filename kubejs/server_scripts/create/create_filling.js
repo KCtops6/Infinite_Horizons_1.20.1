@@ -4,11 +4,11 @@ ServerEvents.recipes(event => {
         type: "create:filling",
         ingredients: [
             {
-                item: 'create:void_cake_base'
+                item: 'kubejs:void_cake_base'
             },
             {
                 amount: 250,
-                fluid: 'minecraft:liquid_ender_pearl', 
+                fluid: 'kubejs:liquid_ender_pearl', 
             }
         ],
         results: [
