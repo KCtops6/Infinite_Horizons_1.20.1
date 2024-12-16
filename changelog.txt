@@ -1397,6 +1397,8 @@ added Integrated Scripting.
 added Integrated Terminals.
 added Integrated Tunnels.
 
+removed KubeJS Thermal.
+
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Applied Energistics 2.
 Updated Corpse.
@@ -1431,3 +1433,4 @@ modified ars nouveau questline.
 modified alpha questline.
 modified beta questline.
 modified functional storage questline.
+added enderio alloys to thermal induction smelter.

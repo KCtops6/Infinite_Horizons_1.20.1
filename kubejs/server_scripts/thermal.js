@@ -261,4 +261,120 @@ ServerEvents.recipes(event => {
         ],
         energy: 5600
     });
+
+    // Mystical Agriculture Ingots
+    const essences = ['inferium', 'prudentium', 'tertium', 'imperium', 'supremium', 'insanium'];
+    essences.forEach(essence => {
+      // Ingot
+      event.custom({
+        type: "thermal:smelter",
+        ingredients: [
+          {
+            item: 'mysticalagriculture:prosperity_ingot',
+            count: 1
+          },
+          {
+            item: `mysticalagriculture:${essence}_essence`,
+            count: 1
+          }
+        ],
+        result: [
+          {
+            item: `mysticalagriculture:${essence}_ingot`,
+            count: 1
+          }
+        ],
+        energy: 500
+      });
+      // Block
+      event.custom({
+        type: "thermal:smelter",
+        ingredients: [
+          {
+            item: 'mysticalagriculture:prosperity_ingot_block',
+            count: 1
+          },
+          {
+            item: `mysticalagriculture:${essence}_block`,
+            count: 1
+          }
+        ],
+        result: [
+          {
+            item: `mysticalagriculture:${essence}_ingot_block`,
+            count: 1
+          }
+        ],
+        energy: 500 * 9
+      });
+    });
+
+    // Prosperity Ingot
+    event.custom({
+      type: "thermal:smelter",
+      ingredients: [
+        {
+          value: [
+            {
+              tag: "forge:ingots/iron"
+            },
+            {
+              tag: "forge:dusts/iron"
+            }
+          ],
+          count: 1
+        },
+        {
+          item: "mysticalagriculture:prosperity_shard",
+          count: 4
+        }
+      ],
+      result: [
+        {
+          item: "mysticalagriculture:prosperity_ingot",
+          count: 1
+        }
+      ],
+      energy: 500
+  });
+    // Ingot of the Depts (Natures Aura)
+    event.custom({
+      type: "thermal:smelter",
+      ingredients: [
+        {
+          item: "naturesaura:tainted_gold",
+          count: 2
+        },
+        {
+          item: "naturesaura:sky_ingot",
+          count: 2
+        },
+        {
+          item: "minecraft:netherite_scrap",
+          count: 1
+        }
+      ],
+      result: [
+        {
+          item: "naturesaura:depth_ingot",
+          count: 1
+        }
+      ],
+      energy: 500
+    });
+
+    // Gold Powder (Natures Aura)
+    event.custom({
+      type: "thermal:pulverizer",
+      ingredient: {
+        tag: "naturesaura:gold_leaf"
+      },
+      result: [
+        {
+          item: "naturesaura:gold_powder",
+          count: 3
+        }
+      ]
+    });
+
 })
