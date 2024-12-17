@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
             ingredient1: 'kubejs:purpur_lantern',
             ingredient2: 'kubejs:dragon_eye_gem',
             ingredient3: 'kubejs:voidshade_moss',
-            ingredient4: 'kubejs:dragonfire_relic',
+            ingredient4: 'kubejs:void_glyph',
             ingredient5: 'kubejs:end_gateway_key',
             ingredient6: 'kubejs:stargazer_lens',
             ingredient7: 'kubejs:infinite_void_rune',
