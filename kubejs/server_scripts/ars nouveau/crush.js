@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
                     maxRange: 1,
                     stack: {
                         count: 1,
-                        id: recipe.output
+                        item: recipe.output
                     }
                 }
             ]

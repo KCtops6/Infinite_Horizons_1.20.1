@@ -1451,3 +1451,4 @@ changed recipe for extended crafting ender crafter (plus added quest).
 changed recipe for extended crafting ender alternator (plus added quest).
 changed recipe for extended crafting flux crafter (plus added quest).
 changed recipe for extended crafting flux alternator (plus added quest).
+added ars nouveau crushing recipes for gravels.
