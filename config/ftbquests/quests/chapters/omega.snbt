@@ -363,14 +363,23 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["26F5B945184B9EF8"]
 			icon: "extendedcrafting:flux_crafter"
 			id: "7652B63C6373BD2C"
-			rewards: [{
-				id: "11029B595B78665A"
-				item: "extendedcrafting:flux_alternator"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "11029B595B78665A"
+					item: "extendedcrafting:flux_alternator"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1F5834A8A787D4A8"
+					item: "pamhc2foodextended:cheddarandsourcreampotatochipsitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6B55C0B46B20DA8E"
@@ -384,6 +393,28 @@
 				}
 			]
 			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7652B63C6373BD2C"]
+			id: "33B18185AA735D79"
+			tasks: [{
+				id: "6E7D37D1A1554AA1"
+				item: "extendedcrafting:flux_star"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33B18185AA735D79"]
+			id: "31D020D1D27200A6"
+			tasks: [{
+				id: "0103A5CA38ECB4F0"
+				item: "extendedcrafting:enhanced_redstone_ingot"
+				type: "item"
+			}]
+			x: 8.0d
 			y: -1.0d
 		}
 	]

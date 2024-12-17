@@ -1438,6 +1438,7 @@ fixed foliot crushing recipes.
 modified ars nouveau questline.
 modified alpha questline.
 modified beta questline.
+modified omega questline.
 modified functional storage questline.
 added enderio alloys to thermal induction smelter.
 added osmium, uranium dust to thermal pulverizer.
