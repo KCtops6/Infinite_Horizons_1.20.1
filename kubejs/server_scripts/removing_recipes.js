@@ -11,7 +11,10 @@ ServerEvents.recipes(event => {
         event.remove({ id: id });
     });
     // removing by output
-    const outputs = ['mekanism:digital_miner'];
+    const outputs = [
+        'mekanism:digital_miner', 'extendedcrafting:the_ultimate_block', 'extendedcrafting:the_ultimate_ingot', 
+        'extendedcrafting:the_ultimate_nugget'
+    ];
     outputs.forEach(output => {
         event.remove({ output: output });
     });
