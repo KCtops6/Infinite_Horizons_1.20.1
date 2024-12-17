@@ -4,10 +4,10 @@ ServerEvents.recipes(event => {
         type: "ars_nouveau:enchanting_apparatus",
         pedestalItems: [
             {
-                item: Item.of('mysticalagriculture:soul_jar', '{Souls:8.0d,Type:"mysticalagriculture:wither_skeleton"}')
+                item: 'mysticalagriculture:soulium_dust'
             },
             {
-                item: Item.of('mysticalagriculture:soul_jar', '{Souls:10.0d,Type:"mysticalagriculture:blaze"}')
+                item: 'irons_spellbooks:cinder_essence'
             },
             {
                 item: 'extendedcrafting:enhanced_redstone_catalyst'
@@ -19,9 +19,9 @@ ServerEvents.recipes(event => {
         reagent: {
             item: "arsnouveau:glyph_wither"
         },
-        result: {
+        output: {
             count: 1,
-            id: "kubejs:ancient_glyph"
+            item: "kubejs:ancient_glyph"
         },
         sourceCost: 10000
     });
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
                 item: 'apotheosis:infused_breath'
             },
             {
-                item: Item.of('mysticalagriculture:soul_jar', '{Souls:8.0d,Type:"mysticalagriculture:enderman"}')
+                item: 'pamhc2foodcore:choruspieitem'
             },
             {
                 item: "extendedcrafting:enhanced_ender_catalyst"
@@ -46,9 +46,9 @@ ServerEvents.recipes(event => {
         reagent: {
             item: "arsnouveau:glyph_linger"
         },
-        result: {
+        output: {
             count: 1,
-            id: "kubejs:void_glyph"
+            item: "kubejs:void_glyph"
         },
         sourceCost: 20000
     });
