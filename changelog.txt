@@ -1401,6 +1401,7 @@ removed KubeJS Thermal.
 removed KubeJS Create.
 removed KubeJS Powah.
 
+updated [EMF] Entity Model Features [Fabric & Forge].
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Applied Energistics 2.
 Updated Corpse.
