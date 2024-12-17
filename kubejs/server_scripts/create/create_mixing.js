@@ -274,4 +274,26 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+    // cinder essence
+    event.custom({
+        type: "create:mixing",
+        heatRequirement: "heated",
+        ingredients: [
+            {
+                count: 1,
+                item: 'irons_spellbooks:arcane_essence'
+            },
+            {
+                count: 1,
+                item: 'create:cinder_flour'
+            }
+        ],
+        results: [
+            {
+                count: 2,
+                item: 'irons_spellbooks:cinder_essence'
+            }
+        ]
+    });
 });

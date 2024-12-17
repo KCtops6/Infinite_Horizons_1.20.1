@@ -45,6 +45,12 @@ ServerEvents.recipes(event => {
                 'minecraft:amethyst_shard', 'minecraft:blue_orchid', 'minecraft:emerald',
                 'minecraft:soul_lantern', 'irons_spellbooks:frozen_bone', 'minecraft:blaze_rod'
             ]
+        },
+        // ancient knight
+        {
+            catalyst: 'mysticalagriculture:soulium_gemstone',
+            mob: 'irons_spellbooks:citadel_keeper',
+            inputs: ['minecraft:netherite_scrap', 'minecraft:gold_ingot', 'create:cinder_flower']
         }
     ];
     recipes.forEach(recipe => {
