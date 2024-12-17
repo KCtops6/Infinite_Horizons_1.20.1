@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     const ids = [
         'functionalstorage:oak_drawer_alternate_x1', 'functionalstorage:oak_drawer_alternate_x2', 'functionalstorage:oak_drawer_alternate_x4',
         'create:crushing/netherrack', 'projecte:low_covalence_dust', 'projecte:medium_covalence_dust', 'projecte:high_covalence_dust',
-        'extendedcrafting:ender_crafter'
+        'extendedcrafting:ender_crafter', 'extendedcrafting:ender_alternator'
     ];
     ids.forEach(id => {
         event.remove({ id: id });

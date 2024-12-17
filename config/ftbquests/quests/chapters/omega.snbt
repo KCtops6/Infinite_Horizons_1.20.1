@@ -315,69 +315,41 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 7.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["3F473B650E6B1D60"]
-			id: "586753081760FEA7"
-			tasks: [{
-				id: "7F394DC2708E970F"
-				item: "kubejs:bomb"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3F473B650E6B1D60"]
-			id: "0AE747D48D80D4A5"
-			tasks: [{
-				id: "50A854687C3DBC90"
-				item: {
-					Count: 1
-					id: "kubejs:red_candle"
-					tag: {
-						Damage: 0
-					}
+			dependencies: ["26F5B945184B9EF8"]
+			icon: "extendedcrafting:ender_crafter"
+			id: "175785DEF1188EA4"
+			rewards: [
+				{
+					id: "1311E4F33D87427D"
+					item: "extendedcrafting:ender_alternator"
+					random_bonus: 2
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3F473B650E6B1D60"]
-			id: "7F868D8AE8BF639E"
-			tasks: [{
-				id: "484B02B9A4F6194E"
-				item: "kubejs:sword"
-				type: "item"
-			}]
+				{
+					id: "2BF57851EE8DEB43"
+					item: "enderio:enderios"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "07D59537A5F8839C"
+					item: "extendedcrafting:ender_crafter"
+					type: "item"
+				}
+				{
+					id: "42ACEA7FA2BBE8AF"
+					item: "extendedcrafting:ender_alternator"
+					type: "item"
+				}
+			]
 			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7F868D8AE8BF639E"]
-			id: "211E4CAE8B177F1D"
-			tasks: [{
-				id: "3BDC9FE2C2D0D801"
-				item: "kubejs:white_sword"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["211E4CAE8B177F1D"]
-			id: "4F6D546B244A04C5"
-			tasks: [{
-				id: "0D38AD45FAE7E4FE"
-				item: "kubejs:magical_sword"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -2.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["End Game Items"]

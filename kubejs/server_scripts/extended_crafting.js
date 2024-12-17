@@ -102,4 +102,28 @@ ServerEvents.recipes(event => {
             item: "extendedcrafting:ender_crafter"
         }
     });
+
+    // ender alternator
+    event.custom({
+        type: "extendedcrafting:shaped_table",
+        pattern: [
+            "IPI",
+            "IEI",
+            "EEE"
+        ],
+        key: {
+            P: {
+                item: "minecraft:ender_eye"
+            },
+            E: {
+                item: "extendedcrafting:ender_ingot"
+            },
+            I: {
+                item: "kubejs:infinitium_plate"
+            }
+        },
+        result: {
+            item: "extendedcrafting:ender_alternator"
+        }
+    });
 });
