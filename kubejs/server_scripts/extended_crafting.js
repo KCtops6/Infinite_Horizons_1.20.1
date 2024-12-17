@@ -12,6 +12,30 @@ ServerEvents.recipes(event => {
             ingredient7: 'mysticalagriculture:wood_essence',
             ingredient8: 'mysticalagriculture:nature_essence',
             result: 'dimpaintings:overworld_painting'
+        },
+        {
+            powerCost: 1000000,
+            ingredient1: 'kubejs:lava_infuser',
+            ingredient2: 'kubejs:nether_gemstone',
+            ingredient3: 'kubejs:magma_core',
+            ingredient4: 'kubejs:ancient_glyph',
+            ingredient5: 'kubejs:soul_prism',
+            ingredient6: 'kubejs:ashen_vessel',
+            ingredient7: 'kubejs:red_candle',
+            ingredient8: 'create:blaze_cake',
+            result: 'dimpaintings:nether_painting'
+        },
+        {
+            powerCost: 10000000,
+            ingredient1: 'kubejs:purpur_lantern',
+            ingredient2: 'kubejs:dragon_eye_gem',
+            ingredient3: 'kubejs:voidshade_moss',
+            ingredient4: 'kubejs:dragonfire_relic',
+            ingredient5: 'kubejs:end_gateway_key',
+            ingredient6: 'kubejs:stargazer_lens',
+            ingredient7: 'kubejs:infinite_void_rune',
+            ingredient8: 'kubejs:void_cake',
+            result: 'dimpaintings:end_painting'
         }
     ]
     dimensionalPaintings.forEach(painting => {
@@ -51,5 +75,31 @@ ServerEvents.recipes(event => {
                 item: painting.result
             }
         });
+    });
+
+    // ender crafter
+    event.custom({
+        type: "extendedcrafting:shaped_table",
+        pattern: [
+            "IIIII",
+            "ECCCE",
+            "ECCCE",
+            "ECCCE",
+            "EEEEE"
+        ],
+        key: {
+            C: {
+                item: "create:mechanical_crafter"
+            },
+            E: {
+                item: "extendedcrafting:ender_ingot"
+            },
+            I: {
+                item: "kubejs:infinitium_plate"
+            }
+        },
+        result: {
+            item: "extendedcrafting:ender_crafter"
+        }
     });
 });
