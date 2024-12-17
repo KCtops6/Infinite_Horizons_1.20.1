@@ -59,7 +59,7 @@
 	#Range: > 0
 	powerRate = 5000
 	#Should the Quantum Compressor be enabled?
-	enabled = true
+	enabled = false
 
 #Settings for the Recipe Maker.
 ["Recipe Maker"]
@@ -106,5 +106,5 @@
 	#Should the Ender Crafter be enabled?
 	enabled = true
 	#Should the Auto Ender Crafter be enabled?
-	autoCrafterEnabled = false
+	autoCrafterEnabled = true
 

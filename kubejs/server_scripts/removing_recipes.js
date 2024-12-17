@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         'functionalstorage:oak_drawer_alternate_x1', 'functionalstorage:oak_drawer_alternate_x2', 'functionalstorage:oak_drawer_alternate_x4',
         'create:crushing/netherrack', 'projecte:low_covalence_dust', 'projecte:medium_covalence_dust', 'projecte:high_covalence_dust',
         'extendedcrafting:ender_crafter', 'extendedcrafting:ender_alternator', "extendedcrafting:flux_alternator", "extendedcrafting:flux_crafter",
-        'extendedcrafting:black_iron_ingot_uncraft'
+        'extendedcrafting:black_iron_ingot_uncraft', 'extendedcrafting:black_iron_ingot_uncraft'
     ];
     ids.forEach(id => {
         event.remove({ id: id });
