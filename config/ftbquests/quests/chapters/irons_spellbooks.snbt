@@ -377,6 +377,18 @@
 			x: 2.0d
 			y: -1.75d
 		}
+		{
+			dependencies: ["08971F6A8389375C"]
+			description: ["Crafting using create mixing."]
+			id: "012E43C8CBB7FB9A"
+			tasks: [{
+				id: "56A9D685B4785179"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
 	]
 	title: "Iron's Spellbooks"
 }
