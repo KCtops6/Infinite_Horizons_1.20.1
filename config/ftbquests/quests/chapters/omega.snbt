@@ -315,8 +315,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -2.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["26F5B945184B9EF8"]
@@ -345,6 +345,41 @@
 				{
 					id: "42ACEA7FA2BBE8AF"
 					item: "extendedcrafting:ender_alternator"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["175785DEF1188EA4"]
+			id: "24E681709D2932C6"
+			tasks: [{
+				id: "397236C2D6ECEF7B"
+				item: "extendedcrafting:ender_star"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			icon: "extendedcrafting:flux_crafter"
+			id: "7652B63C6373BD2C"
+			rewards: [{
+				id: "11029B595B78665A"
+				item: "extendedcrafting:flux_alternator"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B55C0B46B20DA8E"
+					item: "extendedcrafting:flux_crafter"
+					type: "item"
+				}
+				{
+					id: "45AB339798F34CE1"
+					item: "extendedcrafting:flux_alternator"
 					type: "item"
 				}
 			]

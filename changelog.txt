@@ -1447,3 +1447,5 @@ added enderium, lumium, manasteel, netherite, signalum, terrasteel plate to crea
 added recipe for irons spells and spellbooks cinder essence (plus quest).
 changed recipe for extended crafting ender crafter (plus added quest).
 changed recipe for extended crafting ender alternator (plus added quest).
+changed recipe for extended crafting flux crafter (plus added quest).
+changed recipe for extended crafting flux alternator (plus added quest).
