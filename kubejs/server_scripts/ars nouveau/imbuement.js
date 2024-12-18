@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         },
         output: {
             count: 1,
-            id: "ars_nouveau:sourceberry_bush"
+            item: "ars_nouveau:sourceberry_bush"
         },
         pedestalItems: [],
         source: 500
