@@ -1405,10 +1405,12 @@ removed KubeJS Powah.
 updated [EMF] Entity Model Features [Fabric & Forge].
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Applied Energistics 2.
+updated Balm.
 Updated Corpse.
 updated Ender IO.
 Updated Entity Culling Fabric/Forge.
 Updated ExtendedAE.
+updated Fast Async World Save[Forge/Fabric].
 Updated Harvest with ease.
 Updated Just Enough Breeding (JEBr).
 Updated Lootr (Forge & NeoForge).
