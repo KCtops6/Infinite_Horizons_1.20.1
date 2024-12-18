@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
             powerCost: 1000000,
             ingredient1: 'kubejs:lava_infuser',
             ingredient2: 'kubejs:nether_gemstone',
-            ingredient3: 'kubejs:magma_core',
+            ingredient3: 'kubejs:infernal_sigil',
             ingredient4: 'kubejs:ancient_glyph',
             ingredient5: 'kubejs:soul_prism',
             ingredient6: 'kubejs:ashen_vessel',
@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
             powerCost: 10000000,
             ingredient1: 'kubejs:purpur_lantern',
             ingredient2: 'kubejs:dragon_eye_gem',
-            ingredient3: 'kubejs:voidshade_moss',
+            ingredient3: 'kubejs:voidwalker_sigil',
             ingredient4: 'kubejs:void_glyph',
             ingredient5: 'kubejs:end_gateway_key',
             ingredient6: 'kubejs:stargazer_lens',
@@ -75,105 +75,5 @@ ServerEvents.recipes(event => {
                 item: painting.result
             }
         });
-    });
-
-    // ender crafter
-    event.custom({
-        type: "extendedcrafting:shaped_table",
-        pattern: [
-            "IIIII",
-            "ECCCE",
-            "ECCCE",
-            "ECCCE",
-            "EEEEE"
-        ],
-        key: {
-            C: {
-                item: "create:mechanical_crafter"
-            },
-            E: {
-                item: "extendedcrafting:ender_ingot"
-            },
-            I: {
-                item: "kubejs:infinitium_plate"
-            }
-        },
-        result: {
-            item: "extendedcrafting:ender_crafter"
-        }
-    });
-
-    // ender alternator
-    event.custom({
-        type: "extendedcrafting:shaped_table",
-        pattern: [
-            "IPI",
-            "IEI",
-            "EEE"
-        ],
-        key: {
-            P: {
-                item: "minecraft:ender_eye"
-            },
-            E: {
-                item: "extendedcrafting:ender_ingot"
-            },
-            I: {
-                item: "kubejs:infinitium_plate"
-            }
-        },
-        result: {
-            item: "extendedcrafting:ender_alternator"
-        }
-    });
-
-    // flux crafter
-    event.custom({
-        type: "extendedcrafting:shaped_table",
-        pattern: [
-            "IIIII",
-            "RCCCR",
-            "RCCCR",
-            "RCCCR",
-            "RRRRR"
-        ],
-        key: {
-            C: {
-                item: "create:mechanical_crafter"
-            },
-            R: {
-                item: "extendedcrafting:redstone_ingot"
-            },
-            I: {
-                item: "kubejs:infinitium_plate"
-            }
-        },
-        result: {
-            item: "extendedcrafting:flux_crafter"
-        }
-    });
-
-    // flux alternator
-    event.custom({
-        type: "extendedcrafting:shaped_table",
-        pattern: [
-            "INI",
-            "IEI",
-            "EEE"
-        ],
-        key: {
-            N: {
-                item: "minecraft:nether_star"
-            },
-            E: {
-                item: "extendedcrafting:redstone_ingot"
-            },
-            I: {
-                item: "kubejs:infinitium_plate"
-            }
-        },
-        result: {
-            item: "extendedcrafting:flux_alternator"
-        }
     });
 });
