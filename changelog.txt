@@ -1424,6 +1424,7 @@ updated Polymorph (Fabric/Forge/Quilt).
 Updated Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Sophisticated Core.
 updated Sophisticated Storage.
+updated Tom's Simple Storage Mod.
 
 Added kubejs aluminium block.
 added kubejs brass block.
