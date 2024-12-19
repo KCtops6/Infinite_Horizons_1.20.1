@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         },
         {
             powerCost: 1000000,
-            ingredient1: 'kubejs:lava_infuser',
+            ingredient1: 'kubejs:rune_of_the_nether',
             ingredient2: 'kubejs:nether_gemstone',
             ingredient3: 'kubejs:infernal_sigil',
             ingredient4: 'kubejs:ancient_glyph',
@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
         },
         {
             powerCost: 10000000,
-            ingredient1: 'kubejs:purpur_lantern',
+            ingredient1: 'kubejs:rune_of_the_end',
             ingredient2: 'kubejs:dragon_eye_gem',
             ingredient3: 'kubejs:voidwalker_sigil',
             ingredient4: 'kubejs:void_glyph',
