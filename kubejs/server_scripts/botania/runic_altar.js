@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
                 item: 'extendedcrafting:enhanced_ender_catalyst'
             },
             {
-                item: "botania:rune_mana"
+                item: "botania:gaia_ingot"
             },
             {
                 item: "botania:rune_wrath"
