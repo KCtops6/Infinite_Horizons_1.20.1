@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
             input4: 'extendedcrafting:enhanced_ender_catalyst',
             input5: "enderio:octadic_capacitor",
             input6: 'extendedcrafting:enhanced_ender_catalyst',
-            output: 'kubejs:ender_contractor',
+            output: 'kubejs:e-logic_controller',
             energy: 100000
         }
     ];

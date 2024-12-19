@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
             energy: 50000,
             entity_type: 'minecraft:enderman',
             experience: 100,
-            input: 'kubejs:ender_contractor',
+            input: 'kubejs:e-logic_controller',
             output: 'kubejs:ender_controller'
         }
     ];
