@@ -1396,6 +1396,7 @@ added Integrated Dynamics.
 added Integrated Scripting.
 added Integrated Terminals.
 added Integrated Tunnels.
+added KubeJS EnderIO.
 added ServerCore.
 
 removed KubeJS Thermal.
