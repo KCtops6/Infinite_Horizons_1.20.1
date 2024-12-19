@@ -7,7 +7,7 @@ StartupEvents.registry('item', e => {
         'void_flour', 'void_cake_base', 'void_cake', 'lava_infuser', 'nether_gemstone', 'magma_core', 'ancient_glyph', 'soul_prism', 'ashen_vessel',
         'purpur_lantern', 'dragon_eye_gem', 'voidshade_moss', 'dragonfire_relic', 'end_gateway_key', 'stargazer_lens', 'infinite_void_rune', 'void_glyph',
         'voidwalker_reagent', 'infernal_reagent', 'infernal_sigil', 'voidwalker_sigil', 'rune_of_the_end', 'rune_of_the_nether', 'wither_skeltal_contractor',
-        'wither_controller', 'ender_contractor', 'ender_controller'
+        'ender_contractor', 
     ];
 
     const formatName = (id) => {
@@ -16,5 +16,13 @@ StartupEvents.registry('item', e => {
 
     items.forEach(id => {
         e.create(id).displayName(formatName(id));
+    });
+
+    const glowingitems = [
+        'wither_controller', 'ender_controller'
+    ];
+
+    glowingitems.forEach(id => {
+        e.create(id).displayName(formatName(id)).glow(true);
     });
 });
