@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     const recipes = [
-        { addedinput: "bloodmagic:etherealslate", baseinput: "kubejs:reagentinfernal", output: "kubejs:infernal_sigil" },
-        { addedinput: "bloodmagic:etherealslate", baseinput: "kubejs:reagentvoidwalker", output: "kubejs:voidwalker_sigil" }
+        { addedinput: "bloodmagic:etherealslate", baseinput: 'kubejs:infernal_reagent', output: "kubejs:infernal_sigil" },
+        { addedinput: "bloodmagic:etherealslate", baseinput: 'kubejs:voidwalker_reagent', output: "kubejs:voidwalker_sigil" }
     ]
     recipes.forEach(recipe => {
         event.custom({

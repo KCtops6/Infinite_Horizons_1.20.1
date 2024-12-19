@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
             }
         ],
         output: {
-            item: "kubejs:reagentinfernal"
+            item: 'kubejs:infernal_reagent'
         },
         syphon: 2000,
         ticks: 200,
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
             }
         ],
         output: {
-            item: "kubejs:reagentvoidwalker"
+            item: 'kubejs:voidwalker_reagent'
         },
         syphon: 2000,
         ticks: 200,
