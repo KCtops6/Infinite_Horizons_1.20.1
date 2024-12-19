@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
             ingredient3: 'kubejs:infernal_sigil',
             ingredient4: 'kubejs:ancient_glyph',
             ingredient5: 'kubejs:soul_prism',
-            ingredient6: 'kubejs:ashen_vessel',
+            ingredient6: 'kubejs:wither_controller',
             ingredient7: 'kubejs:red_candle',
             ingredient8: 'create:blaze_cake',
             result: 'dimpaintings:nether_painting'
@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
             ingredient3: 'kubejs:voidwalker_sigil',
             ingredient4: 'kubejs:void_glyph',
             ingredient5: 'kubejs:end_gateway_key',
-            ingredient6: 'kubejs:stargazer_lens',
+            ingredient6: 'kubejs:ender_controller',
             ingredient7: 'kubejs:infinite_void_rune',
             ingredient8: 'kubejs:void_cake',
             result: 'dimpaintings:end_painting'
