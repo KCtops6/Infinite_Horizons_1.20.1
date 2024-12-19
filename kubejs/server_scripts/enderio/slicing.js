@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
         },
         {
             input1: "kubejs:infinitium_ingot",
-            input2: "minecraft:enderman_head",
+            input2: "enderio:enderman_head",
             input3: "kubejs:infinitium_ingot",
             input4: 'extendedcrafting:enhanced_ender_catalyst',
             input5: "enderio:octadic_capacitor",
