@@ -1,33 +1,25 @@
+// https://github.com/AlmostReliable/kubejs-enderio/wiki/Recipes060
 ServerEvents.recipes(event => {
     const recipes = [
         {
             energy: 50000,
-            entity_type: 'minecraft:wither',
+            mob: 'minecraft:wither',
             experience: 50,
             input: 'kubejs:wither_skeletal_contractor',
             output: 'kubejs:wither_controller'
         },
         {
             energy: 50000,
-            entity_type: 'minecraft:enderman',
+            mob: 'minecraft:enderman',
             experience: 100,
             input: 'kubejs:e-logic_controller',
             output: 'kubejs:ender_controller'
         }
     ];
     recipes.forEach(recipe => {
-        event.custom({
-            type: "enderio:soul_binding",
-            energy: recipe.energy,
-            entity_type: recipe.entity_type,
-            experience: recipe.experience,
-            input: {
-                item: recipe.input
-            },
-            output: {
-                count: 1,
-                item: recipe.output
-            }
-        });
+        event.recipes.enderio.soul_binding(
+            recipe.output,
+            recipe.input
+        ).entityType(recipe.mob_category).energy(recipe.energy).exp(recipe.experience);
     });
 });

@@ -1,3 +1,4 @@
+// https://github.com/AlmostReliable/kubejs-enderio/wiki/Recipes060
 ServerEvents.recipes(event => {
     const recipes = [
         {
@@ -22,33 +23,16 @@ ServerEvents.recipes(event => {
         }
     ];
     recipes.forEach(recipe => {
-        event.custom({
-            type: "enderio:slicing",
-            energy: recipe.energy,
-            inputs: [
-                {
-                    item: recipe.input1
-                },
-                {
-                    item: recipe.input2
-                },
-                {
-                    item: recipe.input3
-                },
-                {
-                    item: recipe.input4
-                },
-                {
-                    item: recipe.input5
-                },
-                {
-                    item: recipe.input6
-                }
-            ],
-            output: {
-                count: 1,
-                id: recipe.output
-            }
-        });
+        event.recipes.enderio.slicing(
+            recipe.output, 
+            [
+                recipe.input1,
+                recipe.input2,
+                recipe.input3,
+                recipe.input4,
+                recipe.input5,
+                recipe.input6
+            ]
+        ).energy(recipe.energy);
     });
 });
