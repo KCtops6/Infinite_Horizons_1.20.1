@@ -222,10 +222,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"25816AFE6EB06447"
-				"7661076DACCB30EA"
-			]
+			dependencies: ["25816AFE6EB06447"]
 			id: "359DB0EB9D78BD08"
 			tasks: [{
 				id: "113D8A9A6E7F59BD"
@@ -463,18 +460,19 @@
 				item: "forbidden_arcanus:dark_rune"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["5E3C06DEBFB6556F"]
 			id: "5A181C16AED07281"
 			tasks: [{
 				id: "5087249CA9EFF914"
 				item: "forbidden_arcanus:rune"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.0d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5A181C16AED07281"]
@@ -484,8 +482,8 @@
 				item: "forbidden_arcanus:test_tube"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.0d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -754,8 +752,8 @@
 				item: "forbidden_arcanus:runic_glass"
 				type: "item"
 			}]
-			x: 11.25d
-			y: -2.25d
+			x: 5.5d
+			y: -4.75d
 		}
 	]
 	title: "Forbidden and Arcanus"
