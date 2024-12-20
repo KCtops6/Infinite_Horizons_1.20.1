@@ -1425,6 +1425,7 @@ Updated ModernFix.
 Updated Moonlight Lib.
 updated Mystical Agriculture Delight.
 updated Polymorph (Fabric/Forge/Quilt).
+updated Quests Additions (Forge).
 Updated Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Sophisticated Core.
 updated Sophisticated Storage.
