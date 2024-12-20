@@ -15,7 +15,8 @@ JEIEvents.hideItems(event => {
         ],
         'ae2': ['facade'],
         'create': ['andesite_alloy'],
-        'mekanism': ['digital_miner'],
+        'enderio': ['filled_soul_vial', 'broken_spawner'],
+        'mekanism': ['digital_miner', 'creative_fluid_tank'],
         '#forge:ores_in_ground': [
             'andesite', 'basalt', 'blackstone', 'deepslate', 'diorite', 'endstone', 'gravel',
             'granite', 'marble', 'netherrack', 'red_granite', 'red_sand', 'sand',
