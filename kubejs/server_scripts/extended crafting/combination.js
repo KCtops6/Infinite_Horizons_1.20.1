@@ -15,26 +15,26 @@ ServerEvents.recipes(event => {
         },
         {
             powerCost: 1000000,
-            ingredient1: 'kubejs:rune_of_the_nether',
+            ingredient1: 'kubejs:rune_of_the_nether',//
             ingredient2: 'kubejs:nether_gemstone',
-            ingredient3: 'kubejs:infernal_sigil',
-            ingredient4: 'kubejs:ancient_glyph',
+            ingredient3: 'kubejs:infernal_sigil',//
+            ingredient4: 'kubejs:ancient_glyph',//
             ingredient5: 'kubejs:soul_prism',
-            ingredient6: 'kubejs:wither_controller',
-            ingredient7: 'kubejs:red_candle',
-            ingredient8: 'create:blaze_cake',
+            ingredient6: 'kubejs:wither_controller',//
+            ingredient7: 'kubejs:token_of_the_nether',//
+            ingredient8: 'create:blaze_cake',//
             result: 'dimpaintings:nether_painting'
         },
         {
             powerCost: 10000000,
-            ingredient1: 'kubejs:rune_of_the_end',
+            ingredient1: 'kubejs:rune_of_the_end',//
             ingredient2: 'kubejs:dragon_eye_gem',
-            ingredient3: 'kubejs:voidwalker_sigil',
-            ingredient4: 'kubejs:void_glyph',
+            ingredient3: 'kubejs:voidwalker_sigil',//
+            ingredient4: 'kubejs:void_glyph',//
             ingredient5: 'kubejs:end_gateway_key',
-            ingredient6: 'kubejs:ender_controller',
-            ingredient7: 'kubejs:infinite_void_rune',
-            ingredient8: 'kubejs:void_cake',
+            ingredient6: 'kubejs:ender_controller',//
+            ingredient7: 'kubejs:token_of_the_end',//
+            ingredient8: 'kubejs:void_cake',//
             result: 'dimpaintings:end_painting'
         }
     ]

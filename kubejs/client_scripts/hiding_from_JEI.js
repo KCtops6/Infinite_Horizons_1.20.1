@@ -15,7 +15,8 @@ RecipeViewerEvents.removeEntries('item', event => {
         '#forge:ores_in_ground/red_granite', '#forge:ores_in_ground/red_sand', '#forge:ores_in_ground/sand',
         '#forge:ores_in_ground/stone', '#forge:ores_in_ground/tuff', 'create:andesite_alloy',
         'mekanism:digital_miner', 'extendedcrafting:the_ultimate_block', 'extendedcrafting:the_ultimate_ingot', 
-        'extendedcrafting:the_ultimate_nugget', 
+        'extendedcrafting:the_ultimate_nugget', 'extendedcrafting:the_ultimate_catalyst',
+        'extendedcrafting:the_ultimate_component', 'extendedcrafting:black_iron_slate', 'ae2:fascade'
     ];
     hiddenitems.forEach(item => {
         event.hide(item)
