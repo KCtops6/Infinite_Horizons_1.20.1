@@ -780,24 +780,26 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["3F473B650E6B1D60"]
 			id: "7C09C391F5CB9F8C"
 			tasks: [{
 				id: "67512C1409FA3B59"
 				item: "dimpaintings:nether_painting"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: 4.5d
+			y: 7.0d
 		}
 		{
+			dependencies: ["3F473B650E6B1D60"]
 			id: "4EB74C5C82DD48D0"
 			tasks: [{
 				id: "24C2708C6AE785A9"
 				item: "dimpaintings:end_painting"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 9.5d
+			x: 5.5d
+			y: 7.0d
 		}
 	]
 	subtitle: ["End Game Items"]

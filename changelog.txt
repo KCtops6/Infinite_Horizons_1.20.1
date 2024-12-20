@@ -1395,81 +1395,82 @@ If you had 2000 bronze ingots in the drawer before v9.0, the drawer will be empt
 But if you forget that the drawer had the bronze in it, you can replace it with netherite.
 So, you could accidentally turn a full drawer of bronze ingots into a full drawer of netherite ingots!
 
-added BadOptimizations.
-added Common Capabilities.
-added Cyclops Core.
-added Integrated Crafting.
-added Integrated Dynamics.
-added Integrated Scripting.
-added Integrated Terminals.
-added Integrated Tunnels.
-added KubeJS EnderIO.
-added ServerCore.
+Added Bad Optimizations.
+Added Common Capabilities.
+Added Cyclops Core.
+Added Integrated Crafting.
+Added Integrated Dynamics.
+Added Integrated Scripting.
+Added Integrated Terminals.
+Added Integrated Tunnels.
+Added KubeJS EnderIO.
+Added ServerCore.
 
-removed KubeJS Thermal.
-removed KubeJS Create.
-removed KubeJS Powah.
+Removed KubeJS Thermal.
+Removed KubeJS Create.
+Removed KubeJS Powah.
 
-updated [EMF] Entity Model Features [Fabric & Forge].
+Updated [EMF] Entity Model Features [Fabric & Forge].
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Applied Energistics 2.
-updated Balm.
-updated Botany Pots.
-updated Botany Trees.
+Updated Balm.
+Updated Botany Pots.
+Updated Botany Trees.
 Updated Corpse.
-updated Ender IO.
+Updated Ender IO.
 Updated Entity Culling Fabric/Forge.
 Updated ExtendedAE.
-updated Fast Async World Save[Forge/Fabric].
-Updated Harvest with ease.
+Updated Fast Async World Save[Forge/Fabric].
+Updated Harvest with Ease.
 Updated Just Enough Breeding (JEBr).
 Updated Lootr (Forge & NeoForge).
 Updated Mekanism.
 Updated Mekanism Additions.
 Updated Mekanism Generators.
-updated Mekanism Tools.
+Updated Mekanism Tools.
 Updated ModernFix.
 Updated Moonlight Lib.
-updated Mystical Agriculture Delight.
-updated Polymorph (Fabric/Forge/Quilt).
-updated Quests Additions (Forge).
+Updated Mystical Agriculture Delight.
+Updated Polymorph (Fabric/Forge/Quilt).
+Updated Quests Additions (Forge).
 Updated Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Sophisticated Core.
-updated Sophisticated Storage.
-updated Tom's Simple Storage Mod.
+Updated Sophisticated Storage.
+Updated Tom's Simple Storage Mod.
 
-added recipe for dimensional paintings (end game!)
-Added kubejs aluminium block, ingot, nugget, dust, gear, plate.
-added kubejs brass block, ingot, nugget, dust, gear, plate.
-added kubejs bronze block, ingot, nugget, dust, gear, plate.
-added kubejs constantan block, ingot, nugget, dust, gear, plate.
-added kubejs electrum block, ingot, nugget, dust, gear, plate.
-added kubejs osmium ingot, ingot, nugget, dust, gear, plate.
-added kubejs steel block, ingot, nugget, dust, gear, plate.
-added kubejs tin block, ingot, nugget, dust, gear, plate.
-added kubejs ender pearl dust.
-added kubejs netherite dust.
+Added recipe for dimensional paintings (end game!)
+Added KubeJS aluminum block, ingot, nugget, dust, gear, plate.
+Added KubeJS brass block, ingot, nugget, dust, gear, plate.
+Added KubeJS bronze block, ingot, nugget, dust, gear, plate.
+Added KubeJS constantan block, ingot, nugget, dust, gear, plate.
+Added KubeJS electrum block, ingot, nugget, dust, gear, plate.
+Added KubeJS osmium ingot, ingot, nugget, dust, gear, plate.
+Added KubeJS steel block, ingot, nugget, dust, gear, plate.
+Added KubeJS tin block, ingot, nugget, dust, gear, plate.
+Added KubeJS ender pearl dust.
+Added KubeJS netherite dust.
 Unified certus quartz material.
 Removed observe soul fire quest.
-fixed foliot crushing recipes.
-modified ars nouveau questline.
-modified alpha questline.
-modified beta questline.
-modified omega questline.
-modified functional storage questline.
-added enderio alloys to thermal induction smelter.
-added osmium, uranium dust to thermal pulverizer.
-added brass, infinitium, manasteel, terrasteel, zinc plate to thermal press.
-unified sawdust/wood dust.
-added enderium, lumium, manasteel, netherite, signalum, terrasteel plate to create pressing.
-added recipe for irons spells and spellbooks cinder essence (plus quest).
-changed recipe for extended crafting ender crafter (plus added quest).
-changed recipe for extended crafting ender alternator (plus added quest).
-changed recipe for extended crafting flux crafter (plus added quest).
-changed recipe for extended crafting flux alternator (plus added quest).
-added ars nouveau crushing recipes for gravels.
-added forbidden transmutation matter.
-added recipe for darkstone.
-added recipe for edelwood sapling.
-added mechanical extruder recipe for darkstone.
+Fixed foliot crushing recipes.
+Modified Ars Nouveau questline.
+Modified Alpha questline.
+Modified Beta questline.
+Modified Omega questline.
+Modified Functional Storage questline.
+Added EnderIO alloys to Thermal Induction Smelter.
+Added osmium, uranium dust to Thermal Pulverizer.
+Added brass, infinitium, manasteel, terrasteel, zinc plate to Thermal Press.
+Unified sawdust/wood dust.
+Added enderium, lumium, manasteel, netherite, signalum, terrasteel plate to Create Pressing.
+Added recipe for irons spells and spellbooks cinder essence (plus quest).
+Changed recipe for Extended Crafting ender crafter (plus added quest).
+Changed recipe for Extended Crafting ender alternator (plus added quest).
+Changed recipe for Extended Crafting flux crafter (plus added quest).
+Changed recipe for Extended Crafting flux alternator (plus added quest).
+Added Ars Nouveau crushing recipes for gravels.
+Added Forbidden Transmutation Matter.
+Added recipe for darkstone.
+Added recipe for Edelwood Sapling.
+Added Mechanical Extruder recipe for darkstone.
+Added Sifter recipes for various forbidden and arcanus stuff from blackstone.
 ...and much more minor features and bug fixes!

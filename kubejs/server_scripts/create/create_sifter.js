@@ -1141,6 +1141,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_palladium').withChance(10 / 500 / 10),
     ], ['kubejs:end_stone_gravel','kubejs:netherite_mesh']);
 
+    // darkstone gravel
     event.recipes.createsifterSifting([
         Item.of('forbidden_arcanus:arcane_crystal').withChance(0.25),
         Item.of('forbidden_arcanus:rune').withChance(0.1),
