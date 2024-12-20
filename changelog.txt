@@ -1388,6 +1388,13 @@ Added Summoning Altar Recipe For Slime Data Model.
 Added Custom Compacting Recipe For Gregtech Gallium Arsenide Dust.
 
 1.20.1-9.0
+NOTE! A big part of this update is unifing a bunch of items.
+For example, the new KubeJS bronze will present a problem if you have a drawer full of bronze ingots in v8.9 and below.
+The drawer will still be there but the items will dissapear (but not the number of items).
+If you had 2000 bronze ingots in the drawer before v9.0, the drawer will be empty.
+But if you forget that the drawer had the bronze in it, you can replace it with netherite.
+So, you could accidentally turn a full drawer of bronze ingots into a full drawer of netherite ingots!
+
 added BadOptimizations.
 added Common Capabilities.
 added Cyclops Core.
@@ -1431,14 +1438,15 @@ Updated Sophisticated Core.
 updated Sophisticated Storage.
 updated Tom's Simple Storage Mod.
 
-Added kubejs aluminium block.
-added kubejs brass block.
-added kubejs bronze block.
-added kubejs constantan block.
-added kubejs electrum block.
-added kubejs osmium ingot, dust, and block.
-added kubejs steel block.
-added kubejs tin block.
+added recipe for dimensional paintings (end game!)
+Added kubejs aluminium block, ingot, nugget, dust, gear, plate.
+added kubejs brass block, ingot, nugget, dust, gear, plate.
+added kubejs bronze block, ingot, nugget, dust, gear, plate.
+added kubejs constantan block, ingot, nugget, dust, gear, plate.
+added kubejs electrum block, ingot, nugget, dust, gear, plate.
+added kubejs osmium ingot, ingot, nugget, dust, gear, plate.
+added kubejs steel block, ingot, nugget, dust, gear, plate.
+added kubejs tin block, ingot, nugget, dust, gear, plate.
 added kubejs ender pearl dust.
 added kubejs netherite dust.
 Unified certus quartz material.
@@ -1460,3 +1468,4 @@ changed recipe for extended crafting ender alternator (plus added quest).
 changed recipe for extended crafting flux crafter (plus added quest).
 changed recipe for extended crafting flux alternator (plus added quest).
 added ars nouveau crushing recipes for gravels.
+...and much more minor features and bug fixes!
