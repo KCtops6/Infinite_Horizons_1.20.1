@@ -1,24 +1,36 @@
-RecipeViewerEvents.removeEntries('item', event => {
-    const hiddenitems = [
-        'ae2:facade', 'createsifter:andesite_mesh', 'createsifter:zinc_mesh',
-        'createsifter:custom_mesh', 'createsifter:advanced_brass_mesh', 'createsifter:advanced_custom_mesh', 
-        'extendedcrafting:luminessence_block', 'extendedcrafting:redstone_ingot_block', 'extendedcrafting:enhanced_redstone_ingot_block',
-        'extendedcrafting:ender_ingot_block', 'extendedcrafting:enhanced_ender_ingot_block', 'extendedcrafting:crystaltine_block',
-        'extendedcrafting:the_ultimate_block', 'extendedcrafting:nether_star_block', 'extendedcrafting:flux_star_block',
-        'extendedcrafting:ender_star_block', 'extendedcrafting:black_iron_nugget', 'extendedcrafting:redstone_nugget',
-        'extendedcrafting:enhanced_redstone_nugget', 'extendedcrafting:ender_nugget', 'extendedcrafting:enhanced_ender_nugget',
-        'extendedcrafting:crystaltine_nugget', 'extendedcrafting:the_ultimate_nugget', 'extendedcrafting:black_iron_block',
-        'extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_slate', '#forge:ores_in_ground/andesite',
-        '#forge:ores_in_ground/basalt', '#forge:ores_in_ground/blackstone', '#forge:ores_in_ground/deepslate',
-        '#forge:ores_in_ground/diorite', '#forge:ores_in_ground/endstone', '#forge:ores_in_ground/gravel',
-        '#forge:ores_in_ground/granite', '#forge:ores_in_ground/marble', '#forge:ores_in_ground/netherrack',
-        '#forge:ores_in_ground/red_granite', '#forge:ores_in_ground/red_sand', '#forge:ores_in_ground/sand',
-        '#forge:ores_in_ground/stone', '#forge:ores_in_ground/tuff', 'create:andesite_alloy',
-        'mekanism:digital_miner', 'extendedcrafting:the_ultimate_block', 'extendedcrafting:the_ultimate_ingot', 
-        'extendedcrafting:the_ultimate_nugget', 'extendedcrafting:the_ultimate_catalyst',
-        'extendedcrafting:the_ultimate_component', 'extendedcrafting:black_iron_slate', 'ae2:fascade'
-    ];
-    hiddenitems.forEach(item => {
-        event.hide(item)
-    })
+JEIEvents.hideItems(event => {
+    const modsToHide = {
+        'extendedcrafting': [
+            'luminessence_block', 'redstone_ingot_block', 'enhanced_redstone_ingot_block',
+            'ender_ingot_block', 'enhanced_ender_ingot_block', 'crystaltine_block',
+            'the_ultimate_block', 'nether_star_block', 'flux_star_block',
+            'ender_star_block', 'black_iron_nugget', 'redstone_nugget',
+            'enhanced_redstone_nugget', 'ender_nugget', 'enhanced_ender_nugget',
+            'crystaltine_nugget', 'the_ultimate_nugget', 'black_iron_block',
+            'black_iron_ingot', 'black_iron_slate', 'the_ultimate_ingot',
+            'the_ultimate_nugget', 'the_ultimate_catalyst', 'the_ultimate_component'
+        ],
+        'createsifter': [
+            'andesite_mesh', 'zinc_mesh', 'custom_mesh', 'advanced_brass_mesh', 'advanced_custom_mesh'
+        ],
+        'ae2': ['facade'],
+        'create': ['andesite_alloy'],
+        'mekanism': ['digital_miner'],
+        '#forge:ores_in_ground': [
+            'andesite', 'basalt', 'blackstone', 'deepslate', 'diorite', 'endstone', 'gravel',
+            'granite', 'marble', 'netherrack', 'red_granite', 'red_sand', 'sand',
+            'stone', 'tuff'
+        ]
+    };
+    Object.entries(modsToHide).forEach(([mod, items]) => {
+        items.forEach(item => {
+            const itemId = item.startsWith('#') ? item : `${mod}:${item}`;
+            try {
+                event.hide(itemId);
+                console.info(`Hiding: ${itemId}`);
+            } catch (error) {
+                console.error(`Failed to hide: ${itemId}`, error);
+            }
+        });
+    });
 });
