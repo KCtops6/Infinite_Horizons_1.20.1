@@ -19,7 +19,7 @@ StartupEvents.registry('item', e => {
     });
 
     const glowingitems = [
-        'wither_controller', 'ender_controller'
+        'wither_controller', 'ender_controller', 'inferno_prism', 'void_prism'
     ];
 
     glowingitems.forEach(id => {
