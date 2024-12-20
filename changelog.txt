@@ -1407,6 +1407,7 @@ updated [EMF] Entity Model Features [Fabric & Forge].
 Updated [ETF] Entity Texture Features - [Fabric & Forge].
 Updated Applied Energistics 2.
 updated Balm.
+updated Botany Pots.
 Updated Corpse.
 updated Ender IO.
 Updated Entity Culling Fabric/Forge.
