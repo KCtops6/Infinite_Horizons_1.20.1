@@ -111,4 +111,12 @@ StartupEvents.registry("block", (event) => {
     .requiresTool(false)
     .tagBlock("mineable/shovel")
     .textureAll('kubejs:block/tuff_gravel');
+    event.create("darkstone_gravel")
+    .displayName("Darkstone Gravel")
+    .hardness(0.6)
+    .resistance(0.6)
+    .gravelSoundType()
+    .requiresTool(false)
+    .tagBlock("mineable/shovel")
+    .textureAll('kubejs:block/darkstone_gravel');
 })

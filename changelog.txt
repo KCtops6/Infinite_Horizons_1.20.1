@@ -1468,4 +1468,8 @@ changed recipe for extended crafting ender alternator (plus added quest).
 changed recipe for extended crafting flux crafter (plus added quest).
 changed recipe for extended crafting flux alternator (plus added quest).
 added ars nouveau crushing recipes for gravels.
+added forbidden transmutation matter.
+added recipe for darkstone.
+added recipe for edelwood sapling.
+added mechanical extruder recipe for darkstone.
 ...and much more minor features and bug fixes!

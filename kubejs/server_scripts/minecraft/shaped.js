@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
                 'AAA'
             ],
             keys: {
-                A: '#forge:stone',
+                A: 'minecraft:stone',
                 B: 'kubejs:forbidden_transmutation_matter',
             },
             output: 'forbidden_arcanus:darkstone',
