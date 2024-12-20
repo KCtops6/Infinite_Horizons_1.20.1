@@ -1140,4 +1140,35 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_platinum').withChance(20 / 500 / 10),
         Item.of('gtceu:raw_palladium').withChance(10 / 500 / 10),
     ], ['kubejs:end_stone_gravel','kubejs:netherite_mesh']);
+
+    event.recipes.createsifterSifting([
+        Item.of('forbidden_arcanus:arcane_crystal').withChance(0.25),
+        Item.of('forbidden_arcanus:rune').withChance(0.1),
+        Item.of('forbidden_arcanus:xpetrified_orb').withChance(0.2),
+        Item.of('forbidden_arcanus:stellarite_piece').withChance(0.0001),
+    ], ['kubejs:darkstone_gravel','createsifter:string_mesh']);
+    event.recipes.createsifterSifting([
+        Item.of('forbidden_arcanus:arcane_crystal').withChance(0.35),
+        Item.of('forbidden_arcanus:rune').withChance(0.15),
+        Item.of('forbidden_arcanus:xpetrified_orb').withChance(0.25),
+        Item.of('forbidden_arcanus:stellarite_piece').withChance(0.0025),
+    ], ['kubejs:darkstone_gravel','kubejs:copper_mesh']);
+    event.recipes.createsifterSifting([
+        Item.of('forbidden_arcanus:arcane_crystal').withChance(0.45),
+        Item.of('forbidden_arcanus:rune').withChance(0.2),
+        Item.of('forbidden_arcanus:xpetrified_orb').withChance(0.3),
+        Item.of('forbidden_arcanus:stellarite_piece').withChance(0.005),
+    ], ['kubejs:darkstone_gravel','kubejs:iron_mesh']);
+    event.recipes.createsifterSifting([
+        Item.of('forbidden_arcanus:arcane_crystal').withChance(0.55),
+        Item.of('forbidden_arcanus:rune').withChance(0.25),
+        Item.of('forbidden_arcanus:xpetrified_orb').withChance(0.35),
+        Item.of('forbidden_arcanus:stellarite_piece').withChance(0.0075),
+    ], ['kubejs:darkstone_gravel','createsifter:brass_mesh']);
+    event.recipes.createsifterSifting([
+        Item.of('forbidden_arcanus:arcane_crystal').withChance(0.65),
+        Item.of('forbidden_arcanus:rune').withChance(0.3),
+        Item.of('forbidden_arcanus:xpetrified_orb').withChance(0.4),
+        Item.of('forbidden_arcanus:stellarite_piece').withChance(0.01),
+    ], ['kubejs:darkstone_gravel','kubejs:netherite_mesh']);
 })
