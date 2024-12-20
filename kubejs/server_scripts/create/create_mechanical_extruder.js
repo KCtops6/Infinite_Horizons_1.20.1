@@ -1,17 +1,18 @@
 ServerEvents.recipes(event => {
     const blocks = [
-        'andesite',
-        'deepslate',
-        'diorite',
-        'granite',
-        'netherrack',
-        'tuff'
+        'minecraft:andesite',
+        'minecraft:deepslate',
+        'minecraft:diorite',
+        'minecraft:granite',
+        'minecraft:netherrack',
+        'minecraft:tuff',
+        'forbidden_arcanus:darkstone'
     ];
     blocks.forEach(block => {
         event.custom({
             type: "create_mechanical_extruder:extruding",
             catalyst: {
-                item: `minecraft:${block}`
+                item: block
             },
             ingredients: [
                 {
@@ -26,7 +27,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             result: {
-                item: `minecraft:${block}`
+                item: block
             }
         });
     });
