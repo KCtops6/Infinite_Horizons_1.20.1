@@ -1476,6 +1476,8 @@ Added Sifter recipes for various forbidden and arcanus stuff from blackstone.
 ...and much more minor features and bug fixes!
 
 1.20.1-9.1
+added Eidolon : Repraised.
+
 updated ExtendedAE.
 updated GregTechCEu Modern.
 updated Mekanism.
