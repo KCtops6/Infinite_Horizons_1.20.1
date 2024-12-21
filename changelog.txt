@@ -1477,6 +1477,7 @@ Added Sifter recipes for various forbidden and arcanus stuff from blackstone.
 
 1.20.1-9.1
 updated ExtendedAE.
+updated GregTechCEu Modern.
 updated Mekanism.
 updated Mekanism Additions.
 updated Mekanism Generators.
