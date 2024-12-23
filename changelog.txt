@@ -1478,6 +1478,7 @@ Added Sifter recipes for various forbidden and arcanus stuff from blackstone.
 1.20.1-9.1
 updated Eccentric Tome.
 updated ExtendedAE.
+updated FTB Library (Forge).
 updated GregTechCEu Modern.
 updated Mekanism.
 updated Mekanism Additions.

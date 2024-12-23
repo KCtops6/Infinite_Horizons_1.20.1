@@ -15,6 +15,12 @@ ServerEvents.recipes(event => {
         }
     ];
 
+    // FUTURE EXPERT MODE IMPLEMENTATION
+    // const expertRecipes = [ ];
+    // if (expert) {
+    //      recipes.push(expertIds);
+    // } 
+
     recipes.forEach(recipe => {
         event.shaped(
             Item.of(recipe.output, recipe.count),
