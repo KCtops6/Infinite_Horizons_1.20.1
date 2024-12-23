@@ -8,9 +8,17 @@ ServerEvents.recipes(event => {
         'extendedcrafting:black_iron_ingot_uncraft', 'extendedcrafting:black_iron_ingot_uncraft', 'extendedcrafting:the_ultimate_catalyst',
         'extendedcrafting:the_ultimate_component', 'extendedcrafting:black_iron_slate'
     ];
+
+    // FUTURE EXPERT MODE IMPLEMENTATION
+    // const expertIds = [ ];
+    // if (expert) {
+    //      ids.push(expertIds);
+    // }    
+
     ids.forEach(id => {
         event.remove({ id: id });
     });
+    
     // removing by output
     const outputs = [
         'mekanism:digital_miner', 'extendedcrafting:the_ultimate_block', 'extendedcrafting:the_ultimate_ingot', 
