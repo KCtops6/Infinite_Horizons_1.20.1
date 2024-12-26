@@ -1481,6 +1481,7 @@ updated ExtendedAE.
 updated FTB Library (Forge).
 updated GregTechCEu Modern.
 updated Guard Villagers.
+updated Integrated Dynamics.
 updated Integrated Scripting.
 updated Mekanism.
 updated Mekanism Additions.
