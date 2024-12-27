@@ -1,0 +1,273 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rftools"
+	group: "126A1C64F6AE129F"
+	id: "2C2F74CA2B5AF7BC"
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7E071C387359F0AA"
+			rewards: [
+				{
+					id: "1CC298B866895934"
+					item: "rftoolsbase:machine_frame"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "66A09D7423CDAD04"
+					item: "rftoolsbase:smartwrench"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18111FB25B3E86C2"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7E071C387359F0AA"
+				"0D03A5DC5338BB22"
+			]
+			icon: "rftoolsutility:screen_controller"
+			id: "524D2C5ABF82C692"
+			optional: true
+			tasks: [
+				{
+					id: "09C5AE135DAADD6F"
+					item: "rftoolsutility:screen_controller"
+					type: "item"
+				}
+				{
+					id: "0C19EE6F1558D52F"
+					item: "rftoolsutility:screen"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E071C387359F0AA"]
+			id: "5C582DFBB7A7FAEA"
+			tasks: [{
+				id: "62BF60D1F183E88F"
+				item: "rftoolsutility:crafter1"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C582DFBB7A7FAEA"]
+			id: "755A1B9B12ED5567"
+			tasks: [{
+				id: "26CC67036C762459"
+				item: "rftoolsutility:crafter2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["755A1B9B12ED5567"]
+			id: "3CE2DFDBDC260961"
+			tasks: [{
+				id: "20DC8A84A39015D1"
+				item: "rftoolsutility:crafter3"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "79BA192045EFDABC"
+			rewards: [{
+				count: 7
+				id: "02B614031E457F43"
+				item: "rftoolsbase:dimensionalshard"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AEA355D0149B633"
+				item: "rftoolsbase:dimensionalshard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"79BA192045EFDABC"
+				"7E071C387359F0AA"
+			]
+			id: "21CF4B423D840AAF"
+			rewards: [
+				{
+					id: "0A017E96EE3BC360"
+					item: "rftoolsbase:machine_frame"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1C9A508586F88DFC"
+					item: "rftoolsbase:dimensionalshard"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33009613462A0463"
+				item: "rftoolsbase:machine_infuser"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0D03A5DC5338BB22"
+			tasks: [{
+				id: "43943C5145F81B45"
+				item: "rftoolsbase:machine_base"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "42EB6E1D7751B8B4"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "31BF105F2A115586"
+				item: "rftoolsutility:analog"
+				type: "item"
+			}]
+			x: -2.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "10CC4DECC38EE392"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4D090E82281B1781"
+				item: "rftoolsutility:counter"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "2B96586153F52799"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4173D510AC70B4EB"
+				item: "rftoolsutility:digit"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "757AC34AED5F29FF"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "36A85D15A2055A3B"
+				item: "rftoolsutility:invchecker"
+				type: "item"
+			}]
+			x: -2.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "4177A87DFB931F4D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5A1CCDF377C39AA2"
+				item: "rftoolsutility:sensor"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "51BA93F614E979E6"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "280518E8D2D0CD2F"
+				item: "rftoolsutility:sequencer"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "446F6E046729B7CC"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "319006861B20292F"
+				item: "rftoolsutility:logic"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "75F7BCF4EEF23B5D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1ADA145E48FAE3CF"
+				item: "rftoolsutility:timer"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "4CAFCF3F017DC2F4"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5F43F9FA623A0406"
+				item: "rftoolsutility:wire"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.75d
+		}
+	]
+	title: "RFtools"
+}
