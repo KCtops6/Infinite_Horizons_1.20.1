@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "rftools"
 	group: "126A1C64F6AE129F"
+	icon: "rftoolsbase:smartwrench"
 	id: "2C2F74CA2B5AF7BC"
 	order_index: 25
 	quest_links: [ ]
@@ -56,6 +57,7 @@
 		{
 			dependencies: ["7E071C387359F0AA"]
 			id: "5C582DFBB7A7FAEA"
+			optional: true
 			tasks: [{
 				id: "62BF60D1F183E88F"
 				item: "rftoolsutility:crafter1"
@@ -67,6 +69,7 @@
 		{
 			dependencies: ["5C582DFBB7A7FAEA"]
 			id: "755A1B9B12ED5567"
+			optional: true
 			tasks: [{
 				id: "26CC67036C762459"
 				item: "rftoolsutility:crafter2"
@@ -78,6 +81,7 @@
 		{
 			dependencies: ["755A1B9B12ED5567"]
 			id: "3CE2DFDBDC260961"
+			optional: true
 			tasks: [{
 				id: "20DC8A84A39015D1"
 				item: "rftoolsutility:crafter3"
@@ -266,6 +270,34 @@
 				type: "item"
 			}]
 			x: -2.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "41883DBD64E89E18"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4387F6F15810EF4F"
+				item: "rftoolsutility:redstone_transmitter"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0D03A5DC5338BB22"]
+			hide_dependency_lines: true
+			id: "6721A5DD93C0DEFD"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0168DCF1E166FCFF"
+				item: "rftoolsutility:redstone_receiver"
+				type: "item"
+			}]
+			x: -1.75d
 			y: 0.75d
 		}
 	]
