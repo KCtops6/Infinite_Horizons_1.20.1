@@ -1476,21 +1476,26 @@ Added Sifter recipes for various forbidden and arcanus stuff from blackstone.
 ...and much more minor features and bug fixes!
 
 1.20.1-9.1
-updated Connectivity.
-updated Eccentric Tome.
-updated ExtendedAE.
-updated FTB Library (Forge).
-updated GregTechCEu Modern.
-updated Guard Villagers.
-updated Integrated Dynamics.
-updated Integrated Scripting.
-updated Mekanism.
-updated Mekanism Additions.
-updated Mekanism Generators.
-updated Mekanism Tools.
-updated ModernFix.
-updated Moonlight Lib.
-updated Not Enough Animations.
-updated Oculus.
+Updated Connectivity.
+Updated Eccentric Tome.
+Updated ExtendedAE.
+Updated FTB Library (Forge).
+Updated GregTechCEu Modern.
+Updated Guard Villagers.
+Updated Integrated Dynamics.
+Updated Integrated Scripting.
+Updated Mekanism.
+Updated Mekanism Additions.
+Updated Mekanism Generators.
+Updated Mekanism Tools.
+Updated ModernFix.
+Updated Moonlight Lib.
+Updated Not Enough Animations.
+Updated Oculus.
 
-added RFtools questline.
+Removed Redirector.
+
+Added RFtools questline.
+
+1.20.1-9.2
+Updated Ender IO.
