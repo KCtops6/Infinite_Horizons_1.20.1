@@ -1502,4 +1502,5 @@ Updated Amendments.
 Updated Ender IO.
 Updated GeckoLib.
 Updated Integrated Dynamics.
+Updated Integrated Scripting.
 Updated Iron's Spells 'n Spellbooks.
