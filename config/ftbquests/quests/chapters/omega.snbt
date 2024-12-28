@@ -790,7 +790,13 @@
 				"6084F734B09E26B5"
 				"0690EFEB771DDDB1"
 			]
+			description: ["Make sure you put this high enough in your world!"]
 			id: "7C09C391F5CB9F8C"
+			rewards: [{
+				id: "10EE6695484AC26E"
+				item: "waystones:waystone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "67512C1409FA3B59"
 				item: "dimpaintings:nether_painting"
@@ -807,7 +813,13 @@
 				"5A22C313978C9305"
 				"3204AE3BB90D13AE"
 			]
+			description: ["Make sure you put this high enough in your world!"]
 			id: "4EB74C5C82DD48D0"
+			rewards: [{
+				id: "6BB10D2828DEB688"
+				item: "waystones:waystone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24C2708C6AE785A9"
 				item: "dimpaintings:end_painting"
