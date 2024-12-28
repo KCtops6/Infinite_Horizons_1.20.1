@@ -67,7 +67,7 @@ ServerEvents.recipes(event => {
         inputFluid: "{Amount:1000,FluidName:\"kubejs:liquid_infinitium\"}",
         output: {
             count: 1,
-            item: "kubejs:end_addon",
+            item: "kubejs:ender_addon",
         },
         processingTime: 20000
     });

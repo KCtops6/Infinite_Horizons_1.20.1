@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
                 'kubejs:token_of_the_end',
                 'kubejs:void_cake',
                 'minecraft:dragon_breath',
-                'kubejs:end_addon'
+                'kubejs:ender_addon'
             ],
             result: 'dimpaintings:end_painting'
         }
