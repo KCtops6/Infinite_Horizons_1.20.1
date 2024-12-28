@@ -1505,3 +1505,5 @@ Updated Integrated Dynamics.
 Updated Integrated Scripting.
 Updated Iron's Spells 'n Spellbooks.
 Updated Moonlight Lib.
+
+Added to Forbidden and Arcanus Questline.

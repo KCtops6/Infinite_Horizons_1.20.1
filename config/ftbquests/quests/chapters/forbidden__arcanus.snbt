@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0C26538263901B14"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "forbidden__arcanus"
@@ -74,6 +75,7 @@
 		}
 		{
 			dependencies: ["382CB50C45106B39"]
+			hide_dependency_lines: true
 			id: "0C26538263901B14"
 			optional: true
 			size: 0.5d
@@ -91,7 +93,7 @@
 				type: "item"
 			}]
 			x: 3.25d
-			y: -5.75d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -260,7 +262,7 @@
 				item: "forbidden_arcanus:dragon_scale"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -301,7 +303,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.75d
+			x: 9.25d
 			y: -0.75d
 		}
 		{
@@ -334,7 +336,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.25d
+			x: 9.75d
 			y: -0.75d
 		}
 		{
@@ -353,7 +355,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.75d
+			x: 10.25d
 			y: -0.75d
 		}
 		{
@@ -372,7 +374,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.25d
+			x: 10.75d
 			y: -0.75d
 		}
 		{
@@ -391,7 +393,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.75d
+			x: 9.25d
 			y: -0.25d
 		}
 		{
@@ -410,7 +412,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.25d
+			x: 10.75d
 			y: -0.25d
 		}
 		{
@@ -423,7 +425,7 @@
 				item: "forbidden_arcanus:draco_arcanus_scepter"
 				type: "item"
 			}]
-			x: 8.75d
+			x: 9.25d
 			y: 0.25d
 		}
 		{
@@ -449,7 +451,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.75d
+			x: 9.25d
 			y: 0.75d
 		}
 		{
@@ -465,6 +467,7 @@
 		}
 		{
 			dependencies: ["5E3C06DEBFB6556F"]
+			description: ["Obtained through Create Sifting Darkstone Gravel."]
 			id: "5A181C16AED07281"
 			tasks: [{
 				id: "5087249CA9EFF914"
@@ -583,7 +586,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.25d
+			x: 9.75d
 			y: 0.75d
 		}
 		{
@@ -602,7 +605,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.75d
+			x: 10.25d
 			y: 0.75d
 		}
 		{
@@ -621,7 +624,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.25d
+			x: 10.75d
 			y: 0.75d
 		}
 		{
@@ -754,6 +757,71 @@
 			}]
 			x: 5.5d
 			y: -4.75d
+		}
+		{
+			dependencies: ["5E3C06DEBFB6556F"]
+			description: ["Drops from Create Sifting Darkstone Gravel."]
+			id: "5C9A05BAEFF4825C"
+			tasks: [{
+				id: "4BD898526215778B"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5C9A05BAEFF4825C"
+				"3F428AD7FA7995F5"
+				"501240062589F2E6"
+			]
+			id: "5F82CAF3BB039827"
+			tasks: [{
+				id: "2206EE1AAAB450F5"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E3C06DEBFB6556F"]
+			description: ["Rare drop from Create Sifting Darkstone Gravel."]
+			id: "3F428AD7FA7995F5"
+			tasks: [{
+				id: "6B43BA827E4D9263"
+				item: "forbidden_arcanus:stellarite_piece"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5F82CAF3BB039827"]
+			hide_dependency_lines: true
+			id: "739CBBE17E54B5D3"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "20261B92A0EA6F45"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:stellarite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.75d
 		}
 	]
 	title: "Forbidden and Arcanus"
