@@ -1501,3 +1501,4 @@ Added RFtools questline.
 Updated Ender IO.
 Updated GeckoLib.
 Updated Integrated Dynamics.
+Updated Iron's Spells 'n Spellbooks.
