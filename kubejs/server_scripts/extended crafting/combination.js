@@ -3,41 +3,51 @@ ServerEvents.recipes(event => {
     const dimensionalPaintings = [
         {
             powerCost: 100000,
-            ingredient1: 'mysticalagriculture:air_essence',
-            ingredient2: 'mysticalagriculture:earth_essence',
-            ingredient3: 'mysticalagriculture:water_essence',
-            ingredient4: 'mysticalagriculture:fire_essence',
-            ingredient5: 'mysticalagriculture:dirt_essence',
-            ingredient6: 'mysticalagriculture:stone_essence',
-            ingredient7: 'mysticalagriculture:wood_essence',
-            ingredient8: 'mysticalagriculture:nature_essence',
+            ingredients: [
+                'mysticalagriculture:air_essence',
+                'mysticalagriculture:earth_essence',
+                'mysticalagriculture:water_essence',
+                'mysticalagriculture:fire_essence',
+                'mysticalagriculture:dirt_essence',
+                'mysticalagriculture:stone_essence',
+                'mysticalagriculture:wood_essence',
+                'mysticalagriculture:nature_essence'
+            ],
             result: 'dimpaintings:overworld_painting'
         },
         {
             powerCost: 1000000,
-            ingredient1: 'kubejs:rune_of_the_nether',
-            ingredient2: 'thermal:fire_tnt',
-            ingredient3: 'kubejs:infernal_sigil',
-            ingredient4: 'kubejs:ancient_glyph',
-            ingredient5: 'mekanism:teleportation_core',
-            ingredient6: 'kubejs:wither_controller',
-            ingredient7: 'kubejs:token_of_the_nether',
-            ingredient8: 'create:blaze_cake',
+            ingredients: [
+                'kubejs:rune_of_the_nether',
+                'thermal:fire_tnt',
+                'kubejs:infernal_sigil',
+                'kubejs:ancient_glyph',
+                'mekanism:teleportation_core',
+                'kubejs:wither_controller',
+                'kubejs:token_of_the_nether',
+                'create:blaze_cake',
+                'kubejs:nether_addon'
+            ],
             result: 'dimpaintings:nether_painting'
         },
         {
             powerCost: 10000000,
-            ingredient1: 'kubejs:rune_of_the_end',
-            ingredient2: 'thermal:ender_tnt',
-            ingredient3: 'kubejs:voidwalker_sigil',
-            ingredient4: 'kubejs:void_glyph',
-            ingredient5: 'mekanism:teleportation_core',
-            ingredient6: 'kubejs:ender_controller',
-            ingredient7: 'kubejs:token_of_the_end',
-            ingredient8: 'kubejs:void_cake',
+            ingredients: [
+                'kubejs:rune_of_the_end',
+                'thermal:ender_tnt',
+                'kubejs:voidwalker_sigil',
+                'kubejs:void_glyph',
+                'mekanism:teleportation_core',
+                'kubejs:ender_controller',
+                'kubejs:token_of_the_end',
+                'kubejs:void_cake',
+                'minecraft:dragon_breath',
+                'kubejs:end_addon'
+            ],
             result: 'dimpaintings:end_painting'
         }
-    ]
+    ];
+    
     dimensionalPaintings.forEach(painting => {
         event.custom({
             type: "extendedcrafting:combination",
@@ -45,32 +55,9 @@ ServerEvents.recipes(event => {
             input: {
                 item: "minecraft:painting"
             },
-            ingredients: [
-                {
-                    item: painting.ingredient1
-                },
-                {
-                    item: painting.ingredient2
-                },
-                {
-                    item: painting.ingredient3
-                },
-                {
-                    item: painting.ingredient4
-                },
-                {
-                    item: painting.ingredient5
-                },
-                {
-                    item: painting.ingredient6
-                },
-                {
-                    item: painting.ingredient7
-                },
-                {
-                    item: painting.ingredient8
-                }
-            ],
+            ingredients: painting.ingredients.map(ingredient => ({
+                item: ingredient
+            })),
             result: {
                 item: painting.result
             }
