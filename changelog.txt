@@ -1499,4 +1499,5 @@ Added RFtools questline.
 
 1.20.1-9.2
 Updated Ender IO.
-Updated GeckoLib
+Updated GeckoLib.
+Updated Integrated Dynamics.
