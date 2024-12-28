@@ -755,8 +755,8 @@
 				item: "forbidden_arcanus:runic_glass"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.75d
+			x: 6.0d
+			y: -3.25d
 		}
 		{
 			dependencies: ["5E3C06DEBFB6556F"]
@@ -767,8 +767,8 @@
 				item: "forbidden_arcanus:xpetrified_orb"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.0d
+			x: 8.5d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -798,8 +798,8 @@
 				item: "forbidden_arcanus:stellarite_piece"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -8.5d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5F82CAF3BB039827"]

@@ -294,6 +294,8 @@
 		}
 		{
 			dependencies: ["185EDB2CCDB3498A"]
+			description: ["Used for crafting the end-game paintings that you can use to actually access the nether and end."]
+			hide_dependent_lines: true
 			icon: "extendedcrafting:crafting_core"
 			id: "3F473B650E6B1D60"
 			require_sequential_tasks: false
@@ -771,35 +773,158 @@
 			description: [""]
 			id: "3CFBB751184445AB"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "383909C953CBEB40"
 				item: "dimpaintings:overworld_painting"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.25d
 			y: 6.0d
 		}
 		{
-			dependencies: ["3F473B650E6B1D60"]
+			dependencies: [
+				"52C1BA2850761DD8"
+				"3437E62F52449103"
+				"2CC4DB7AB459B7B8"
+				"6084F734B09E26B5"
+				"0690EFEB771DDDB1"
+			]
 			id: "7C09C391F5CB9F8C"
 			tasks: [{
 				id: "67512C1409FA3B59"
 				item: "dimpaintings:nether_painting"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 7.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["3F473B650E6B1D60"]
+			dependencies: [
+				"1AB1AA448189839D"
+				"6D45754AEA9B09DD"
+				"0B3C7E69BF90AF72"
+				"5A22C313978C9305"
+				"3204AE3BB90D13AE"
+			]
 			id: "4EB74C5C82DD48D0"
 			tasks: [{
 				id: "24C2708C6AE785A9"
 				item: "dimpaintings:end_painting"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "52C1BA2850761DD8"
+			tasks: [{
+				id: "0862F6EC1A9A349F"
+				item: "kubejs:rune_of_the_nether"
+				type: "item"
+			}]
+			x: 2.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "3437E62F52449103"
+			tasks: [{
+				id: "648C780FA9CAAC7C"
+				item: "kubejs:infernal_sigil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "2CC4DB7AB459B7B8"
+			tasks: [{
+				id: "5AF63A62143242DB"
+				item: "kubejs:ancient_glyph"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "6084F734B09E26B5"
+			tasks: [{
+				id: "1FB4730BA02811CA"
+				item: "kubejs:wither_controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "0690EFEB771DDDB1"
+			tasks: [{
+				id: "5B46C612316034E0"
+				item: "kubejs:token_of_the_nether"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "1AB1AA448189839D"
+			tasks: [{
+				id: "7FF8B71327387A04"
+				item: "kubejs:rune_of_the_end"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "6D45754AEA9B09DD"
+			tasks: [{
+				id: "7402DF0405B8CF21"
+				item: "kubejs:voidwalker_sigil"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "0B3C7E69BF90AF72"
+			tasks: [{
+				id: "6DBBEC331630B871"
+				item: "kubejs:void_glyph"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "5A22C313978C9305"
+			tasks: [{
+				id: "40F01260562073C0"
+				item: "kubejs:ender_controller"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "3204AE3BB90D13AE"
+			tasks: [{
+				id: "1D32C61CF579A2AF"
+				item: "kubejs:token_of_the_end"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
 		}
 	]
 	subtitle: ["End Game Items"]
