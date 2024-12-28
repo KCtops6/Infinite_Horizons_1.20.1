@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
             count: 1,
             item: "kubejs:nether_addon",
         },
-        processingTime: 1000
+        processingTime: 10000
     });
     // end addon
     event.custom({
@@ -64,11 +64,11 @@ ServerEvents.recipes(event => {
                 item: 'extendedcrafting:enhanced_ender_catalyst'
             }
         ],
-        inputFluid: "{Amount:2000,FluidName:\"kubejs:liquid_infinitium\"}",
+        inputFluid: "{Amount:1000,FluidName:\"kubejs:liquid_infinitium\"}",
         output: {
             count: 1,
             item: "kubejs:end_addon",
         },
-        processingTime: 2000
+        processingTime: 20000
     });
 });
