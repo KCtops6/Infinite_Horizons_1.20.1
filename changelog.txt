@@ -1503,6 +1503,7 @@ Updated Ender IO.
 Updated Extended Crafting.
 Updated GeckoLib.
 Updated GregTechCEu Modern.
+Updated Immersive Aircraft [Fabric/Forge].
 Updated Integrated Dynamics.
 Updated Integrated Scripting.
 Updated Iron's Spells 'n Spellbooks.
