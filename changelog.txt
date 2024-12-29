@@ -1508,6 +1508,7 @@ Updated Integrated Dynamics.
 Updated Integrated Scripting.
 Updated Iron's Spells 'n Spellbooks.
 Updated Moonlight Lib.
+Updated Mystical Agradditions.
 
 Added to Forbidden and Arcanus Questline.
 Added to Omega (End Game) Questline.
