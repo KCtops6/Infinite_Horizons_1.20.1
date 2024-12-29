@@ -1511,6 +1511,7 @@ Updated Moonlight Lib.
 Updated Mystical Agradditions.
 Updated Mystical Agriculture.
 Updated Sophisticated Core.
+Updated Sophisticated Storage.
 
 Added to Forbidden and Arcanus Questline.
 Added to Omega (End Game) Questline.
