@@ -789,6 +789,7 @@
 				"2CC4DB7AB459B7B8"
 				"6084F734B09E26B5"
 				"0690EFEB771DDDB1"
+				"045494B71D8435C4"
 			]
 			description: ["Make sure you put this high enough in your world!"]
 			id: "7C09C391F5CB9F8C"
@@ -812,6 +813,7 @@
 				"0B3C7E69BF90AF72"
 				"5A22C313978C9305"
 				"3204AE3BB90D13AE"
+				"50D1E00FDCD01D79"
 			]
 			description: ["Make sure you put this high enough in your world!"]
 			id: "4EB74C5C82DD48D0"
@@ -936,6 +938,28 @@
 				type: "item"
 			}]
 			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "045494B71D8435C4"
+			tasks: [{
+				id: "551F92E06445F91F"
+				item: "kubejs:nether_addon"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "50D1E00FDCD01D79"
+			tasks: [{
+				id: "103FB7215361A3A7"
+				item: "kubejs:ender_addon"
+				type: "item"
+			}]
+			x: 7.0d
 			y: 9.0d
 		}
 	]

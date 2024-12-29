@@ -1500,6 +1500,7 @@ Added RFtools questline.
 1.20.1-9.2
 Updated Amendments.
 Updated Ender IO.
+Updated Extended Crafting.
 Updated GeckoLib.
 Updated Integrated Dynamics.
 Updated Integrated Scripting.
