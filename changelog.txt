@@ -1502,6 +1502,7 @@ Updated Amendments.
 Updated Ender IO.
 Updated Extended Crafting.
 Updated GeckoLib.
+Updated GregTechCEu Modern.
 Updated Integrated Dynamics.
 Updated Integrated Scripting.
 Updated Iron's Spells 'n Spellbooks.
