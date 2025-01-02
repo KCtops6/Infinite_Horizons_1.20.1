@@ -12,13 +12,26 @@ ServerEvents.recipes(event => {
             },
             output: 'forbidden_arcanus:darkstone',
             count: 8
+        },
+        {
+            pattern: [
+                ' A ',
+                'BCB',
+                ' A '
+            ],
+            keys: {
+                A: 'minecraft:emerald',
+                B: 'minecraft:crafting_table',
+                C: 'cookingforblockheads:recipe_book'
+            },
+            output: 'cookingforblockheads:crafting_book',
+            count: 1
         }
     ];
 
-    // FUTURE EXPERT MODE IMPLEMENTATION
-    // const expertRecipes = [ ];
     // if (expert) {
-    //      recipes.push(expertIds);
+    //      const expertRecipes = [ ];
+    //      recipes.push(expertRecipes);
     // } 
 
     recipes.forEach(recipe => {
