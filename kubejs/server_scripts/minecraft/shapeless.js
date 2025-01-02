@@ -42,6 +42,11 @@ ServerEvents.recipes(event => {
             inputs: ['naturesaura:gold_fiber', 'mysticalagriculture:wood_essence'],
             output: 'naturesaura:gold_leaf',
             count: 16
+        },
+        {
+            inputs: ['minecraft:glass_bottle', 'mysticalagriculture:end_essence'],
+            output: 'botania:ender_air_bottle',
+            count: 1
         }
     ];
 

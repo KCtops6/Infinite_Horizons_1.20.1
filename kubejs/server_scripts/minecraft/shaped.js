@@ -408,6 +408,46 @@ ServerEvents.recipes(event => {
             },
             output: 'naturesaura:end_flower',
             count: 1
+        },
+        {
+            pattern: [
+                'SSS',
+                'SNS',
+                'SSS'
+            ],
+            keys: {
+                S: 'mysticalagriculture:blaze_essence',
+                N: 'create:empty_blaze_burner'
+            },
+            output: 'create:blaze_burner',
+            count: 1
+        },
+        {
+            pattern: [
+                'SSS',
+                'SNS',
+                'SSS'
+            ],
+            keys: {
+                S: 'mysticalagriculture:stone_essence',
+                N: 'mysticalagriculture:nether_essence'
+            },
+            output: 'mysticalagriculture:soulstone_cobble',
+            count: 24
+        },
+        {
+            pattern: [
+                'AFA',
+                'FBF',
+                'AFA'
+            ],
+            keys: {
+                A: 'minecraft:air',
+                F: 'mysticalagriculture:fire_essence',
+                B: Item.of('woodenbucket:wooden_bucket', '{Damage:0}')
+            },
+            output: Item.of('woodenbucket:wooden_bucket', '{Damage:0,Fluid:{Amount:1000,FluidName:"minecraft:lava"}}'),
+            count: 1
         }
     ];
 
