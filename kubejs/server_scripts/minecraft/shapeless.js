@@ -47,7 +47,27 @@ ServerEvents.recipes(event => {
             inputs: ['minecraft:glass_bottle', 'mysticalagriculture:end_essence'],
             output: 'botania:ender_air_bottle',
             count: 1
-        }
+        },
+        {
+            inputs: ['minecraft:blaze_powder', 'ars_nouveau:manipulation_essence'],
+            output: 'thermal:basalz_powder',
+            count: 1
+        },
+        {
+            inputs: ['thermal:basalz_powder', 'ars_nouveau:manipulation_essence'],
+            output: 'thermal:blitz_powder',
+            count: 1
+        },
+        {
+            inputs: ['thermal:blitz_powder', 'ars_nouveau:manipulation_essence'],
+            output: 'thermal:blizz_powder',
+            count: 1
+        },
+        {
+            inputs: ['thermal:blizz_powder', 'ars_nouveau:manipulation_essence'],
+            output: 'minecraft:blaze_powder',
+            count: 1
+        },
     ];
 
     // FUTURE EXPERT MODE IMPLEMENTATION
