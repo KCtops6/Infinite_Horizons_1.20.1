@@ -1515,6 +1515,7 @@ Updated Modonomicon.
 Updated Moonlight Lib.
 Updated Mystical Agradditions.
 Updated Mystical Agriculture.
+Updated Sodium/Embeddium Dynamic Lights.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
