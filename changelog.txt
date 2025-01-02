@@ -1508,6 +1508,7 @@ Updated Immersive Aircraft [Fabric/Forge].
 Updated Integrated Dynamics.
 Updated Integrated Scripting.
 Updated Iron's Spells 'n Spellbooks.
+Updated Modonomicon.
 Updated Moonlight Lib.
 Updated Mystical Agradditions.
 Updated Mystical Agriculture.
