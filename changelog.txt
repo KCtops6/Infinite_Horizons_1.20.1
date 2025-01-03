@@ -1525,6 +1525,8 @@ Updated SuperMartijn642's Core Lib.
 
 Added Expert Mode Alpha Implementation (Expert Mode in Full for 1.20.1-10.0)!
 
+Added to Beta (Create) Questline.
+Added to Gamma (Mystical Agriculture) Questline.
 Added to Forbidden and Arcanus Questline.
 Added to Omega (End Game) Questline.
 
