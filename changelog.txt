@@ -1527,3 +1527,5 @@ Added Expert Mode Alpha Implementation (Expert Mode in Full for 1.20.1-10.0)!
 
 Added to Forbidden and Arcanus Questline.
 Added to Omega (End Game) Questline.
+
+Disabled Agricraft Weeds.

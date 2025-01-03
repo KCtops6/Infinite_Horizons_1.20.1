@@ -24,7 +24,7 @@
         // Set this to true to make only mature crops drop seeds (to encourage trowel usage).
         "only_mature_seed_drops": false,
         // Set to true to completely disable the spawning of weeds
-        "disable_weeds": false,
+        "disable_weeds": true,
         // Set to false to disable mature weeds killing plants
         "mature_weeds_kill_plants": true,
         // Set to false to disable the spreading of weeds
