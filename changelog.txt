@@ -1505,6 +1505,7 @@ Updated Create: Connected.
 Updated Ender IO.
 Updated ExtendedAE.
 Updated Extended Crafting.
+Updated FTB XMod Compat.
 Updated GeckoLib.
 Updated GregTechCEu Modern.
 Updated Immersive Aircraft [Fabric/Forge].
