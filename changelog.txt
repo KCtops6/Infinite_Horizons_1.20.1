@@ -1530,3 +1530,4 @@ Added to Omega (End Game) Questline.
 
 Disabled Agricraft Weeds.
 Fixed Andesite, Granite, Limestone Gravel Texture.
+Fixed Signalum Plate Texture.
