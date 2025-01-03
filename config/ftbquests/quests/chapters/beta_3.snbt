@@ -164,7 +164,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["110517F6B8116C24"]
+			dependencies: [
+				"110517F6B8116C24"
+				"64FE1369D9DA79FF"
+			]
+			dependency_requirement: "one_completed"
 			id: "32AEAE8653EF3DA0"
 			tasks: [{
 				id: "52CC35DA6AB72A0F"
@@ -298,6 +302,7 @@
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
+			description: ["Unlocks \"Gamma\" questline."]
 			id: "2260AD2796A36C0F"
 			tasks: [{
 				id: "2DD3AD2DB0436BE7"
@@ -310,6 +315,7 @@
 		{
 			dependencies: ["2260AD2796A36C0F"]
 			id: "7C0E83F2ABFD39A1"
+			optional: true
 			tasks: [{
 				id: "1279BAAAFF645977"
 				item: "farmingforblockheads:feeding_trough"
