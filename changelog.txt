@@ -1536,5 +1536,6 @@ Fixed Signalum Plate Texture.
 Fixed Recipe for Cobbled Deepslate to Deepslate Gravel.
 
 1.20.1-9.3
+Updated Connectivity.
 
 Fixed recipes involving ender pearl dust.  Effectively unified ender pearl dust.
