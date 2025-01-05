@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         'projecte:red_matter', 'create:andesite_alloy', 'ore_tree:coal_tree_sapling', 'ore_tree:copper_tree_sapling', 'ore_tree:diamond_tree_sapling',
         'ore_tree:emerald_tree_sapling', 'ore_tree:gold_tree_sapling', 'ore_tree:iron_tree_sapling', 'ore_tree:lapis_tree_sapling', 'ore_tree:quartz_tree_sapling',
         'ore_tree:redstone_tree_sapling', 'create:crafting/materials/andesite_alloy', 'create:crafting/materials/andesite_alloy_from_zinc',
-        'create:mixing/andesite_alloy', 'create:mixing/andesite_alloy_from_zinc', 'farmersdelight:cutting/gravel', 'create:crushing/scrap_cobblestone_small'
+        'create:mixing/andesite_alloy', 'create:mixing/andesite_alloy_from_zinc', 'farmersdelight:cutting/gravel', 'create:crushing/scrap_cobblestone_small',
     ];
 
     // FUTURE EXPERT MODE IMPLEMENTATION
@@ -37,4 +37,6 @@ ServerEvents.recipes(event => {
     mods.forEach(mod => {
         event.remove({mod: mod});
     });
+    // remove gregtech-powah mismatched uraninite recipes.
+    event.remove({ input: 'powah:uraninite_raw', output: 'gtceu:uraninite_dust'})
 });
