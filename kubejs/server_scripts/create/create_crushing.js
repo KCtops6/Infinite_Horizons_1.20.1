@@ -1,16 +1,17 @@
 ServerEvents.recipes(event => {
     // simple crushing input to output mappings (no chanced outputs)
     const recipes = [
-        { input: 'minecraft:andesite', output: 'kubejs:andesite_gravel'},
-        { input: 'minecraft:diorite', output: 'kubejs:diorite_gravel'},
-        { input: 'minecraft:granite', output: 'kubejs:granite_gravel'},
-        { input: 'minecraft:gravel', output: 'minecraft:sand'},
-        { input: 'minecraft:tuff', output: 'kubejs:tuff_gravel'},
-        { input: 'minecraft:sand', output: 'createsifter:dust'},
-        { input: 'minecraft:cobbled_deepslate', output: 'kubejs:deepslate_gravel'},
-        { input: 'minecraft:basalt', output: 'kubejs:basalt_gravel'},
-        { input: 'create:limestone', output: 'kubejs:limestone_gravel'},
-        { input: 'forbidden_arcanus:darkstone', output: 'kubejs:darkstone_gravel'}
+        { input: 'minecraft:andesite', output: 'kubejs:andesite_gravel' },
+        { input: 'minecraft:diorite', output: 'kubejs:diorite_gravel' },
+        { input: 'minecraft:granite', output: 'kubejs:granite_gravel' },
+        { input: 'minecraft:gravel', output: 'minecraft:sand' },
+        { input: 'minecraft:tuff', output: 'kubejs:tuff_gravel' },
+        { input: 'minecraft:sand', output: 'createsifter:dust' },
+        { input: 'minecraft:cobbled_deepslate', output: 'kubejs:deepslate_gravel' },
+        { input: 'minecraft:basalt', output: 'kubejs:basalt_gravel' },
+        { input: 'create:limestone', output: 'kubejs:limestone_gravel' },
+        { input: 'forbidden_arcanus:darkstone', output: 'kubejs:darkstone_gravel' },
+        { input: 'minecraft:ender_pearl', output: 'kubejs:ender_pearl_dust' }
     ];
     recipes.forEach(recipe => {
         event.custom({
