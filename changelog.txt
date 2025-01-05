@@ -1541,5 +1541,6 @@ Updated Fast Async World Save[Forge/Fabric].
 Updated Immersive Aircraft [Fabric/Forge].
 Updated Iron's Spells 'n Spellbooks.
 Updated Powah! (Rearchitected).
+Updated Sophisticated Core.
 
 Fixed recipes involving ender pearl dust.  Effectively unified ender pearl dust.
