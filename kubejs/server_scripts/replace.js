@@ -8,7 +8,10 @@ ServerEvents.recipes(event => {
     ];
     replaceInputs.forEach(input => { event.replaceInput({ input: input.old }, input.old, input.new); });
 
-    // // replace outputs
-    // const replaceOutputs = [ ];
-    // replaceOutputs.forEach(outputs => { event.replaceInput({ outputs: outputs.old }, outputs.old, outputs.new); });
+    // replace outputs
+    const replaceOutputs = [ 
+        { old: 'thermal:ender_pearl_dust', new: 'kubejs:ender_pearl_dust' },
+        { old: 'gtceu:ender_pearl_dust', new: 'kubejs:ender_pearl_dust' }
+    ];
+    replaceOutputs.forEach(outputs => { event.replaceOutput({ outputs: outputs.old }, outputs.old, outputs.new); });
 });

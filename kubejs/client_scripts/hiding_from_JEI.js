@@ -21,6 +21,12 @@ JEIEvents.hideItems(event => {
             'andesite', 'basalt', 'blackstone', 'deepslate', 'diorite', 'endstone', 'gravel',
             'granite', 'marble', 'netherrack', 'red_granite', 'red_sand', 'sand',
             'stone', 'tuff'
+        ],
+        'thermal': [
+            'ender_pearl_dust'
+        ],
+        'gtceu': [
+            'ender_pearl_dust'
         ]
     };
     Object.entries(modsToHide).forEach(([mod, items]) => {
