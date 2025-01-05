@@ -1542,5 +1542,6 @@ Updated Immersive Aircraft [Fabric/Forge].
 Updated Iron's Spells 'n Spellbooks.
 Updated Powah! (Rearchitected).
 Updated Sophisticated Core.
+Updated Sophisticated Storage.
 
 Fixed recipes involving ender pearl dust.  Effectively unified ender pearl dust.
