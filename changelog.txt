@@ -1539,5 +1539,6 @@ Fixed Recipe for Cobbled Deepslate to Deepslate Gravel.
 Updated Connectivity.
 Updated Fast Async World Save[Forge/Fabric].
 Updated Immersive Aircraft [Fabric/Forge].
+Updated Iron's Spells 'n Spellbooks.
 
 Fixed recipes involving ender pearl dust.  Effectively unified ender pearl dust.
