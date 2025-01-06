@@ -1541,6 +1541,7 @@ Updated Curios API (Forge/NeoForge).
 Updated Fast Async World Save[Forge/Fabric].
 Updated Immersive Aircraft [Fabric/Forge].
 Updated Iron's Spells 'n Spellbooks.
+Updated Jade 🔍.
 Updated Powah! (Rearchitected).
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
