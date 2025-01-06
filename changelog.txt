@@ -1537,6 +1537,7 @@ Fixed Recipe for Cobbled Deepslate to Deepslate Gravel.
 
 1.20.1-9.3
 Updated Connectivity.
+Updated Curios API (Forge/NeoForge).
 Updated Fast Async World Save[Forge/Fabric].
 Updated Immersive Aircraft [Fabric/Forge].
 Updated Iron's Spells 'n Spellbooks.
