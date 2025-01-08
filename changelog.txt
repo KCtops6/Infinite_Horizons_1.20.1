@@ -1545,6 +1545,7 @@ Updated Integrated Dynamics.
 Updated Integrated Tunnels.
 Updated Iron's Spells 'n Spellbooks.
 Updated Jade 🔍.
+Updated Modonomicon.
 Updated Moonlight Lib.
 Updated Powah! (Rearchitected).
 Updated Sophisticated Core.
