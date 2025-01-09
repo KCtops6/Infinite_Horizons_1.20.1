@@ -1556,7 +1556,7 @@ Updated Sophisticated Storage.
 
 Fixed recipes involving ender pearl dust.  Effectively unified ender pearl dust.
 Added Apotheosis shelves to Dimensional Painting Recipes.
-Fixed Elementium in Recipes.
+Fixed Elementium, Terrasteel, and Manasteel Ingots in Recipes.
 Added Menril Saplings to Farming for Blockheads Market.
 
 Added to Industrial Foregoing Questline.

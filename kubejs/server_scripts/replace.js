@@ -5,14 +5,19 @@ ServerEvents.recipes(event => {
         { old: 'extendedcrafting:black_iron_slate', new: 'kubejs:infinitium_plate' },
         { old: 'extendedcrafting:black_iron_block', new: 'kubejs:infinitium_block' },
         { old: 'extendedcrafting:black_iron_ingot', new: 'kubejs:infinitium_ingot' },
-        { old: 'botania:elementium_ingot', new: 'kubejs:elementium_ingot'}
+        { old: 'botania:elementium_ingot', new: 'kubejs:elementium_ingot'},
+        { old: 'botania:manasteel_ingot', new: 'kubejs:manasteel_ingot'},
+        { old: 'botania:terrasteel_ingot', new: 'kubejs:terrasteel_ingot'}
     ];
     replaceInputs.forEach(input => { event.replaceInput({ input: input.old }, input.old, input.new); });
 
     // replace outputs
     const replaceOutputs = [ 
         { old: 'thermal:ender_pearl_dust', new: 'kubejs:ender_pearl_dust' },
-        { old: 'gtceu:ender_pearl_dust', new: 'kubejs:ender_pearl_dust' }
+        { old: 'gtceu:ender_pearl_dust', new: 'kubejs:ender_pearl_dust' },
+        { old: 'botania:elementium_ingot', new: 'kubejs:elementium_ingot'},
+        { old: 'botania:manasteel_ingot', new: 'kubejs:manasteel_ingot'},
+        { old: 'botania:terrasteel_ingot', new: 'kubejs:terrasteel_ingot'}
     ];
     replaceOutputs.forEach(outputs => { event.replaceOutput({ outputs: outputs.old }, outputs.old, outputs.new); });
 });
