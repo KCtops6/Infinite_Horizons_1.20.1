@@ -1541,6 +1541,7 @@ Updated Create Stuff & Additions.
 Updated Curios API (Forge/NeoForge).
 Updated Delightful.
 Updated Fast Async World Save[Forge/Fabric].
+Updated Guard Villagers.
 Updated Immersive Aircraft [Fabric/Forge].
 Updated Integrated Dynamics.
 Updated Integrated Tunnels.
