@@ -1550,6 +1550,7 @@ Updated Jade 🔍.
 Updated Modonomicon.
 Updated Moonlight Lib.
 Updated Powah! (Rearchitected).
+Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
 
