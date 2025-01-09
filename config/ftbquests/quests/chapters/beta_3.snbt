@@ -674,7 +674,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["33A3E11BD0EB479B"]
@@ -724,6 +724,138 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["2260AD2796A36C0F"]
+			id: "5846343034B4A132"
+			optional: true
+			rewards: [{
+				id: "3227AFE83DE09F6E"
+				item: "ironfurnaces:upgrade_gold"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B4EA8FF69F124DB"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5846343034B4A132"
+				"5D848CC085077117"
+			]
+			id: "228F23E3AC4880FC"
+			optional: true
+			rewards: [{
+				id: "70F557E22F4833DB"
+				item: "ironfurnaces:upgrade_diamond"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D39AA2CD880B876"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["228F23E3AC4880FC"]
+			description: ["Emeralds should not be a problem..."]
+			id: "1D7DDF0DDD35A569"
+			optional: true
+			rewards: [{
+				id: "4A415E2509B35168"
+				item: "ironfurnaces:upgrade_emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D611B2AA1D83269"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1D7DDF0DDD35A569"
+				"0A87B874851CD1B0"
+			]
+			id: "464102912B66AED7"
+			optional: true
+			tasks: [{
+				id: "5249E4970B802375"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A09937381BB310B"]
+			id: "4D8406023D00753A"
+			tasks: [{
+				id: "4C42FC758EF47BB9"
+				item: "kubejs:netherrack_gravel"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D8406023D00753A"]
+			id: "6014A13DF01D4487"
+			tasks: [{
+				id: "2B0B2B2EBF26165E"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6014A13DF01D4487"]
+			description: ["The most all-around resource-profitable mesh in the modpack."]
+			id: "5936B3F704F61A9A"
+			tasks: [{
+				id: "2DD2EB0D0BE48D42"
+				item: {
+					Count: 1
+					id: "kubejs:netherite_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"464102912B66AED7"
+				"6014A13DF01D4487"
+			]
+			id: "4BC4D7E32058BFB5"
+			optional: true
+			rewards: [{
+				id: "1B7F63AE5BD7B3BC"
+				item: "ironfurnaces:upgrade_netherite"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E51DB96623E8A96"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
 		}
 	]
 	title: "Beta"

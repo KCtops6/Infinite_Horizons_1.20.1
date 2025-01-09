@@ -177,7 +177,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2465DBD16F3EC4D3"]
+			dependencies: [
+				"2465DBD16F3EC4D3"
+				"49923455E7ED0B6D"
+			]
 			id: "04C68C18D62B7E09"
 			tasks: [{
 				amount: 1000L
@@ -638,6 +641,12 @@
 			dependencies: ["5B9A6C05D1753895"]
 			id: "6740AA47EE4E8D3E"
 			optional: true
+			rewards: [{
+				id: "780969D5CD8A8A58"
+				item: "industrialforegoing:mob_imprisonment_tool"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "381A23D53564CCAF"
 				item: "industrialforegoing:mob_duplicator"
@@ -691,8 +700,8 @@
 				item: "industrialforegoing:marine_fisher"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.0d
+			x: 13.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5B9A6C05D1753895"]
@@ -707,6 +716,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["5B9A6C05D1753895"]
+			description: ["You definitely need this to trap withers and wardens."]
 			id: "49923455E7ED0B6D"
 			tasks: [{
 				id: "3A3231E83A49ABB7"
