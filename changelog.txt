@@ -1539,6 +1539,7 @@ Fixed Recipe for Cobbled Deepslate to Deepslate Gravel.
 Updated Connectivity.
 Updated Create Stuff & Additions.
 Updated Curios API (Forge/NeoForge).
+Updated Delightful.
 Updated Fast Async World Save[Forge/Fabric].
 Updated Immersive Aircraft [Fabric/Forge].
 Updated Integrated Dynamics.
