@@ -4,7 +4,8 @@ ServerEvents.recipes(event => {
     const replaceInputs = [
         { old: 'extendedcrafting:black_iron_slate', new: 'kubejs:infinitium_plate' },
         { old: 'extendedcrafting:black_iron_block', new: 'kubejs:infinitium_block' },
-        { old: 'extendedcrafting:black_iron_ingot', new: 'kubejs:infinitium_ingot' }
+        { old: 'extendedcrafting:black_iron_ingot', new: 'kubejs:infinitium_ingot' },
+        { old: 'botania:elementium_ingot', new: 'kubejs:elementium_ingot'}
     ];
     replaceInputs.forEach(input => { event.replaceInput({ input: input.old }, input.old, input.new); });
 
