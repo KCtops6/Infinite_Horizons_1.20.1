@@ -26,7 +26,8 @@ ServerEvents.recipes(event => {
                 'kubejs:wither_controller',
                 'kubejs:token_of_the_nether',
                 'create:blaze_cake',
-                'kubejs:nether_addon'
+                'kubejs:nether_addon',
+                'apotheosis:blazing_hellshelf'
             ],
             result: 'dimpaintings:nether_painting'
         },
@@ -42,7 +43,8 @@ ServerEvents.recipes(event => {
                 'kubejs:token_of_the_end',
                 'kubejs:void_cake',
                 'minecraft:dragon_breath',
-                'kubejs:ender_addon'
+                'kubejs:ender_addon',
+                'apotheosis:draconic_endshelf'
             ],
             result: 'dimpaintings:end_painting'
         }
