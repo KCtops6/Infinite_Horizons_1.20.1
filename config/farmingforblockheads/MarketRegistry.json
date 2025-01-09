@@ -107,6 +107,15 @@
           "item": "minecraft:emerald"
         },
         "category": "misc"
+      },
+      {
+        "output": {
+          "item": "integrateddynamics:menril_sapling"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
       }
     ]
   }
