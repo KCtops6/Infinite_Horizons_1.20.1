@@ -5,7 +5,11 @@
     "industrialforegoing:industrial_foregoing": {
       "viewedEntries": [
         "industrialforegoing:generators/bioreactor",
-        "industrialforegoing:generators/biofuel"
+        "industrialforegoing:generators/biofuel",
+        "industrialforegoing:basics/addons",
+        "industrialforegoing:agr_hus/sewer",
+        "industrialforegoing:agr_hus/hydroponic_bed",
+        "industrialforegoing:agr_hus/mob_duplicator"
       ],
       "bookmarks": [],
       "completedManualQuests": []

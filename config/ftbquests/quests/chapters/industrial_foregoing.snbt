@@ -31,7 +31,7 @@
 				item: "industrialforegoing:fluid_extractor"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -42,7 +42,7 @@
 				item: "industrialforegoing:latex_processing_unit"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -60,11 +60,12 @@
 				item: "industrialforegoing:plastic"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["11420255961C2341"]
+			hide_dependency_lines: true
 			id: "6F7FAD992235885A"
 			optional: true
 			size: 0.5d
@@ -81,8 +82,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.75d
+			x: 6.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["11420255961C2341"]
@@ -92,7 +93,7 @@
 				item: "industrialforegoing:dissolution_chamber"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -103,7 +104,7 @@
 				item: "industrialforegoing:machine_frame_simple"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -114,7 +115,7 @@
 				item: "industrialforegoing:mob_slaughter_factory"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -125,11 +126,12 @@
 				item: "industrialforegoing:pink_slime"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["35D3F07B4D336C95"]
+			hide_dependency_lines: true
 			id: "6B05ED9DD78C261A"
 			optional: true
 			size: 0.5d
@@ -146,7 +148,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.75d
+			x: 10.0d
 			y: -2.75d
 		}
 		{
@@ -160,7 +162,7 @@
 				item: "industrialforegoing:machine_frame_advanced"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 12.0d
 			y: -2.0d
 		}
 		{
@@ -171,7 +173,7 @@
 				item: "industrialforegoing:fluid_laser_base"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 14.0d
 			y: -2.0d
 		}
 		{
@@ -184,7 +186,7 @@
 				id: "296BBDD3479464B2"
 				type: "fluid"
 			}]
-			x: 7.0d
+			x: 16.0d
 			y: -2.0d
 		}
 		{
@@ -195,7 +197,7 @@
 				item: "industrialforegoing:machine_frame_supreme"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 18.0d
 			y: -2.0d
 		}
 		{
@@ -203,6 +205,7 @@
 				"04C68C18D62B7E09"
 				"6B05ED9DD78C261A"
 			]
+			hide_dependency_lines: true
 			id: "4E936F944FE9C7C9"
 			optional: true
 			size: 0.5d
@@ -219,7 +222,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.75d
+			x: 16.0d
 			y: -2.75d
 		}
 		{
@@ -230,29 +233,8 @@
 				item: "industrialforegoing:mob_crusher"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7EDEB18D48730DB0"]
-			id: "68049EBDABFD1BB8"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "1E83EB6E61F9180D"
-				item: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:experience"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 5.75d
-			y: -0.25d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["61F0A99E15E73E57"]
@@ -262,8 +244,8 @@
 				item: "industrialforegoing:biofuel_generator"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["11420255961C2341"]
@@ -273,8 +255,466 @@
 				item: "industrialforegoing:bioreactor"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["211DC9C3BF149997"]
+			description: ["Choose one depending on the coverage that you need for your machine."]
+			hide_dependency_lines: true
+			id: "63A82CDE8D909B04"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "410AF29F68E3DBD3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon0"
+								tag: {
+									TitaniumAugment: {
+										Range: 0.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon1"
+								tag: {
+									TitaniumAugment: {
+										Range: 1.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon2"
+								tag: {
+									TitaniumAugment: {
+										Range: 2.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon3"
+								tag: {
+									TitaniumAugment: {
+										Range: 3.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon4"
+								tag: {
+									TitaniumAugment: {
+										Range: 4.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon5"
+								tag: {
+									TitaniumAugment: {
+										Range: 5.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon6"
+								tag: {
+									TitaniumAugment: {
+										Range: 6.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon7"
+								tag: {
+									TitaniumAugment: {
+										Range: 7.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon8"
+								tag: {
+									TitaniumAugment: {
+										Range: 8.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon9"
+								tag: {
+									TitaniumAugment: {
+										Range: 9.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon10"
+								tag: {
+									TitaniumAugment: {
+										Range: 10.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:range_addon11"
+								tag: {
+									TitaniumAugment: {
+										Range: 11.0f
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Craft a Range Addon."
+				type: "item"
+			}]
+			title: "Range Addon"
+			x: 7.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["211DC9C3BF149997"]
+			description: ["A tier one speed upgrade may be sufficient for what you need, but for most cases tier 2 is ideal."]
+			hide_dependency_lines: true
+			id: "6A14EBED6AE6BB26"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "70AD079B0D58CE14"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:speed_addon_1"
+								tag: {
+									TitaniumAugment: {
+										Speed: 2.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:speed_addon_2"
+								tag: {
+									TitaniumAugment: {
+										Speed: 3.0f
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Speed Addon"
+			x: 8.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["211DC9C3BF149997"]
+			description: ["Decreases the base amount of ticks per machine operation.  Very useful combined with speed."]
+			hide_dependency_lines: true
+			id: "7A1629CC6F554038"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "44AF186B83F4458B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:efficiency_addon_1"
+								tag: {
+									TitaniumAugment: {
+										Efficiency: 0.9f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:efficiency_addon_2"
+								tag: {
+									TitaniumAugment: {
+										Efficiency: 0.8f
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Efficiency Addon"
+			x: 7.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["211DC9C3BF149997"]
+			description: ["Increases the amount of operations per cycle, especially useful for material stonework factory."]
+			hide_dependency_lines: true
+			id: "1272F0EF3129A353"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6C086C6587ADBD05"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:processing_addon_1"
+								tag: {
+									TitaniumAugment: {
+										Processing: 2.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:processing_addon_2"
+								tag: {
+									TitaniumAugment: {
+										Processing: 3.0f
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Craft a Processing Addon."
+				type: "item"
+			}]
+			title: "Processing Addon"
+			x: 8.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11420255961C2341"]
+			description: ["More simple way of gathering crops and trees than Create."]
+			id: "759B91F70208F13E"
+			optional: true
+			tasks: [{
+				id: "36504F1F6EF07343"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11420255961C2341"]
+			id: "05BC3A848FCE49E4"
+			optional: true
+			tasks: [{
+				id: "335F38814A7A6B5B"
+				item: "industrialforegoing:sewer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05BC3A848FCE49E4"]
+			id: "0E8B215FF8E2B089"
+			optional: true
+			tasks: [{
+				id: "6E021AE50251DD25"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E8B215FF8E2B089"]
+			id: "528A251BDECC7BF3"
+			optional: true
+			tasks: [{
+				id: "4E8FFD08753D7A39"
+				item: "industrialforegoing:fertilizer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61146406AFBEE409"]
+			id: "62CF04E03D61CBA9"
+			tasks: [{
+				id: "6418F179280AADAE"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11420255961C2341"]
+			id: "65EE09FB90A524B5"
+			optional: true
+			tasks: [{
+				id: "2F746CEC6D43407A"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11420255961C2341"]
+			id: "2CE98FE69DD863FD"
+			tasks: [{
+				id: "485EDBE8D2D9C054"
+				item: "industrialforegoing:animal_rancher"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11420255961C2341"]
+			id: "031146101AB90A1C"
+			tasks: [{
+				id: "3A9B356F09CA089D"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11420255961C2341"]
+			id: "785042627677E8FD"
+			tasks: [{
+				id: "4E8B263FE2163FC0"
+				item: "industrialforegoing:animal_baby_separator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"61146406AFBEE409"
+				"528A251BDECC7BF3"
+			]
+			id: "0D4E309976688F3D"
+			optional: true
+			tasks: [{
+				id: "7824927959CEE253"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B9A6C05D1753895"]
+			id: "6740AA47EE4E8D3E"
+			optional: true
+			tasks: [{
+				id: "381A23D53564CCAF"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0913AFADF9735228"]
+			id: "268E83A58EF4700B"
+			optional: true
+			tasks: [{
+				id: "2D7E2B090E4D3C4F"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0913AFADF9735228"]
+			id: "37C866E4F8E5F211"
+			optional: true
+			tasks: [{
+				id: "5A29A9865DA06E3F"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B9A6C05D1753895"]
+			description: ["More compact version of complicated create crushing wheel setup."]
+			id: "74EF9671AF7A7F2C"
+			tasks: [{
+				id: "6D88207DFDB78E09"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61146406AFBEE409"]
+			id: "5FF67694192415A4"
+			optional: true
+			tasks: [{
+				id: "0A6F8C44DB127811"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 10.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["5B9A6C05D1753895"]
+			id: "3CAFBA78959CDDC1"
+			optional: true
+			tasks: [{
+				id: "65E9A8042D64EE94"
+				item: "industrialforegoing:potion_brewer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			id: "49923455E7ED0B6D"
+			tasks: [{
+				id: "3A3231E83A49ABB7"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
 		}
 	]
 	title: "Industrial Foregoing"

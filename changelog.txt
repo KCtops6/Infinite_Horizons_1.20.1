@@ -1556,3 +1556,6 @@ Updated Sophisticated Storage.
 
 Fixed recipes involving ender pearl dust.  Effectively unified ender pearl dust.
 Added Apotheosis shelves to Dimensional Painting Recipes.
+
+Added to Industrial Foregoing Questline.
+Added to Omega (End Game) Questline.
