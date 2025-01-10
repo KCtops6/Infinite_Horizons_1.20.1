@@ -1536,6 +1536,7 @@ Fixed Signalum Plate Texture.
 Fixed Recipe for Cobbled Deepslate to Deepslate Gravel.
 
 1.20.1-9.3
+Updated Apotheosis.
 Updated Connectivity.
 Updated Create Stuff & Additions.
 Updated Curios API (Forge/NeoForge).
