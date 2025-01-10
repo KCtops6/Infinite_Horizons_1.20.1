@@ -1551,6 +1551,7 @@ Updated Jade 🔍.
 Updated Modonomicon.
 Updated Moonlight Lib.
 Updated Powah! (Rearchitected).
+Updated Server Performance - Smooth Chunk Save[Forge/Fabric].
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
