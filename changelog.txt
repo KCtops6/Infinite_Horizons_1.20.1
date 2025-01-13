@@ -1573,3 +1573,5 @@ Updated Just Enough Items (JEI).
 Updated Moonlight Lib.
 Updated Mystical Agriculture Delight.
 Updated Sophisticated Backpacks.
+Updated Sophisticated Core.
+Updated Sophisticated Storage.
