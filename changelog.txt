@@ -1571,3 +1571,4 @@ Updated Balm.
 Updated Integrated Scripting.
 Updated Just Enough Items (JEI).
 Updated Moonlight Lib.
+Updated Mystical Agriculture Delight.
