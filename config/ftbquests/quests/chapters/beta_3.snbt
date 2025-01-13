@@ -857,6 +857,117 @@
 			x: 11.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["7C92DF666D71EF2C"]
+			description: ["Less messy way for create fan functionality (heating, washing, haunting, etc...)"]
+			hide_dependency_lines: true
+			id: "4522CA1BF6A049EB"
+			optional: true
+			rewards: [
+				{
+					id: "27AD1366F3C00469"
+					item: "create_connected:empty_fan_catalyst"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2726E26487ECCAB1"
+					item: "kubejs:brass_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Compact Fan Setup"
+			tasks: [{
+				id: "255C1976A916E255"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2DEA6DE1B9DFC162"]
+			description: ["Useful for decorating your base when normal framed blocks do not do the trick."]
+			hide_dependency_lines: true
+			id: "3FCB114502F035B9"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "327286FCBA273711"
+					item: "create_connected:copycat_block"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					id: "1A8E44E03D170CCE"
+					item: "kubejs:zinc_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				icon: "create_connected:copycat_block"
+				id: "4BCC2B8722EFE089"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create_connected:copycat_block"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_slab"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_beam"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_vertical_step"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_stairs"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_fence"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_fence_gate"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_wall"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_board"
+							}
+							{
+								Count: 1b
+								id: "create:copycat_step"
+							}
+						]
+					}
+				}
+				title: "Craft a Copycat Block."
+				type: "item"
+			}]
+			title: "Copycats"
+			x: 9.0d
+			y: -0.75d
+		}
 	]
 	title: "Beta"
 }
