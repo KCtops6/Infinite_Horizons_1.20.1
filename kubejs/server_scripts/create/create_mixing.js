@@ -201,6 +201,31 @@ ServerEvents.recipes(event => {
         ]
     });
 
+    // luminessence
+    event.custom({
+        type: "create:mixing",
+        heatRequirement: "superheated",
+        ingredients: [
+            {
+                item: 'minecraft:redstone',
+            },
+            {
+                item: 'minecraft:glowstone_dust'
+            },
+            {
+                item: 'mysticalagriculture:soulium_dust'
+            },
+            {
+                item: 'mysticalagriculture:awakened_supremium_essence'
+            }
+        ],
+        results: [
+            {
+                item: 'extendedcrafting:luminessence'
+            }
+        ]
+    });
+
     // heated alloys
     const heatedAlloys = [
         { input1: 'copper', amount1: 3, input2: 'tin', amount2: 1, output: 'bronze', outputAmount: 4 },
