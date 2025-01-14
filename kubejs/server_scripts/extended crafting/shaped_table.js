@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         type: "extendedcrafting:shaped_table",
         pattern: [
             "IPI",
-            "IEI",
+            "IAI",
             "EEE"
         ],
         key: {
@@ -42,6 +42,9 @@ ServerEvents.recipes(event => {
             },
             I: {
                 item: "kubejs:infinitium_plate"
+            },
+            A: {
+                item: "createaddition:alternator"
             }
         },
         result: {
@@ -80,7 +83,7 @@ ServerEvents.recipes(event => {
         type: "extendedcrafting:shaped_table",
         pattern: [
             "INI",
-            "IEI",
+            "IAI",
             "EEE"
         ],
         key: {
@@ -92,6 +95,9 @@ ServerEvents.recipes(event => {
             },
             I: {
                 item: "kubejs:infinitium_plate"
+            },
+            A: {
+                item: "createaddition:alternator"
             }
         },
         result: {

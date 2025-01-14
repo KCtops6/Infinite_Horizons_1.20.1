@@ -1580,3 +1580,4 @@ Added to Alpha (Vanilla) Questline.
 Added to Beta (Create) Questline.
 
 Removed End Stone Gravel from Create Milling (Only Create Crushing).
+Changed Recipe for Extended Crafting Flux and Ender Alternators.

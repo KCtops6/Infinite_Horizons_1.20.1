@@ -785,6 +785,57 @@
 			x: 18.0d
 			y: 0.0d
 		}
+		{
+			dependencies: [
+				"2EA259532C16E78A"
+				"1773764CA8CA2EEA"
+			]
+			hide_dependency_lines: true
+			id: "22601178534C9A2A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6693DB056381CF56"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"2EA259532C16E78A"
+				"1773764CA8CA2EEA"
+			]
+			hide_dependency_lines: true
+			id: "166F289009D91F4B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "41C6F790AE2FF555"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"2EA259532C16E78A"
+				"1773764CA8CA2EEA"
+			]
+			hide_dependency_lines: true
+			id: "10C80E65EF65B80B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0DF599E3E8A76E43"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.75d
+		}
 	]
 	title: "Beta"
 }
