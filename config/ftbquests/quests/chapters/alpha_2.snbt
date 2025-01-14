@@ -1222,6 +1222,434 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["1095B567B96DDCF3"]
+			id: "5E36A391B5122F28"
+			tasks: [{
+				id: "1C60284FAA111560"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E36A391B5122F28"]
+			hide_dependency_lines: true
+			id: "6B72A89412441EF8"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1661E0369ED11428"
+					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+				{
+					id: "07D7D56417E9C394"
+					item: "comforts:hammock_white"
+					type: "item"
+				}
+				{
+					id: "3D1650F623C51647"
+					item: "minecraft:white_wool"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5A835FD03C64AE61"
+					item: "pamhc2foodcore:muttonjerkyitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				icon: "comforts:sleeping_bag_white"
+				id: "103A9B4913862F51"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "Craft a sleeping bag."
+				type: "item"
+			}]
+			x: 2.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			description: ["Unlocks \"Gamma\" questline."]
+			id: "2260AD2796A36C0F"
+			tasks: [{
+				id: "2DD3AD2DB0436BE7"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2260AD2796A36C0F"]
+			hide_dependency_lines: true
+			id: "7C0E83F2ABFD39A1"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1279BAAAFF645977"
+				item: "farmingforblockheads:feeding_trough"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"2260AD2796A36C0F"
+				"4043238D8899D8A4"
+			]
+			id: "5846343034B4A132"
+			optional: true
+			rewards: [{
+				id: "3227AFE83DE09F6E"
+				item: "ironfurnaces:upgrade_gold"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B4EA8FF69F124DB"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5846343034B4A132"
+				"5D848CC085077117"
+			]
+			id: "228F23E3AC4880FC"
+			optional: true
+			rewards: [{
+				id: "70F557E22F4833DB"
+				item: "ironfurnaces:upgrade_diamond"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D39AA2CD880B876"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"65309454388885A3"
+				"0E950E1B0283143A"
+			]
+			id: "5D848CC085077117"
+			tasks: [{
+				id: "4EC86680543BF073"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["228F23E3AC4880FC"]
+			description: ["Emeralds should not be a problem..."]
+			id: "1D7DDF0DDD35A569"
+			optional: true
+			rewards: [{
+				id: "4A415E2509B35168"
+				item: "ironfurnaces:upgrade_emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D611B2AA1D83269"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1D7DDF0DDD35A569"
+				"0A87B874851CD1B0"
+			]
+			id: "464102912B66AED7"
+			optional: true
+			tasks: [{
+				id: "5249E4970B802375"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["32AEAE8653EF3DA0"]
+			description: ["Highly Recommend you make seeds for this."]
+			id: "0A87B874851CD1B0"
+			rewards: [{
+				count: 7
+				id: "035CE7C3ABB9940E"
+				item: "minecraft:obsidian"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BBB742E9C44B09B"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"110517F6B8116C24"
+				"64FE1369D9DA79FF"
+			]
+			dependency_requirement: "one_completed"
+			id: "32AEAE8653EF3DA0"
+			tasks: [{
+				id: "52CC35DA6AB72A0F"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "2E27C65E12B61E06"
+			tasks: [{
+				id: "23D1E2E574234AD6"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "700D0FB31E0D600E"
+			tasks: [{
+				id: "725FEE07380F662C"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"37C31E5A1FB0A120"
+				"33A3E11BD0EB479B"
+			]
+			description: ["By washing down Soul Sand, you can uncover valuable Nether Quartz, a resource essential for advanced crafting and technology."]
+			id: "7B2DCE5368BC4D89"
+			subtitle: "Nether Quartz from the Depths"
+			tasks: [{
+				count: 16L
+				id: "2CDD7113A06009EE"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			title: "Shifting Sands"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B2DCE5368BC4D89"]
+			id: "69385CCE6FF31DEB"
+			tasks: [{
+				id: "5AED953FDCC10BC6"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2E27C65E12B61E06"
+				"33A3E11BD0EB479B"
+			]
+			description: ["Prismarine Shards are also an occasional Wandering Trader trade."]
+			icon: "minecraft:prismarine_shard"
+			id: "1CD2B2DAD30A3AF8"
+			tasks: [
+				{
+					id: "5C6F10793D7D0B77"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					id: "29A3F708A965ABA7"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33A3E11BD0EB479B"]
+			id: "2A9A53C32599ECB6"
+			rewards: [
+				{
+					count: 7
+					id: "2EA307DEF08B5048"
+					item: "minecraft:glow_berries"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4E7416AA119481FE"
+					item: "pamhc2foodcore:glowberrypieitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14C899F07257B2B2"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"133BCE410E613A4F"
+				"33A3E11BD0EB479B"
+			]
+			id: "433391CE678F39BF"
+			tasks: [{
+				count: 64L
+				id: "15A8622ABB86CF27"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["433391CE678F39BF"]
+			id: "30307DBA1412BFE5"
+			min_required_tasks: 1
+			tasks: [
+				{
+					icon: "botanypots:terracotta_botany_pot"
+					id: "173C35BAF5E46247"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botanypots:basic_botany_pots"
+						}
+					}
+					title: "Craft a Botany Pot"
+					type: "item"
+				}
+				{
+					icon: "botanypots:terracotta_hopper_botany_pot"
+					id: "7F5F0CCBB178B340"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botanypots:hopper_botany_pots"
+						}
+					}
+					title: "Craft a Hopper Botany Pot."
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D8406023D00753A"]
+			id: "6014A13DF01D4487"
+			tasks: [{
+				id: "2B0B2B2EBF26165E"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"464102912B66AED7"
+				"6014A13DF01D4487"
+			]
+			id: "4BC4D7E32058BFB5"
+			optional: true
+			rewards: [{
+				id: "1B7F63AE5BD7B3BC"
+				item: "ironfurnaces:upgrade_netherite"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E51DB96623E8A96"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["110517F6B8116C24"]
+			description: ["Killing normal skeletons with a blazing cleaver can give wither skeleton skulls."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "305CAD4BB78423E7"
+			tasks: [
+				{
+					id: "21989353EB8C3050"
+					item: {
+						Count: 1
+						id: "create_sa:blazing_cleaver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73E47E61C19018DE"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			title: "Wither Skeleton Skulls"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "22A166C0303A6C2C"
+			tasks: [{
+				id: "455BACB89AFD4547"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
 	]
 	title: "Alpha"
 }

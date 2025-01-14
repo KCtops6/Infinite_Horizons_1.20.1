@@ -1576,4 +1576,5 @@ Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
 
+Added to Alpha (Vanilla) Questline.
 Added to Beta (Create) Questline.
