@@ -1570,6 +1570,7 @@ Removed Iron Furnaces Questline and merged it into Beta (Create) Questline.
 Updated Balm.
 Updated Create Crafts & Additions.
 Updated Fast Async World Save[Forge/Fabric].
+Updated GregTechCEu Modern.
 Updated Integrated Scripting.
 Updated Just Enough Items (JEI).
 Updated Moonlight Lib.
