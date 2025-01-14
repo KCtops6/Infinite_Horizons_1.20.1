@@ -618,6 +618,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["733D22BCABF462B2"]
+			icon: "refinedstorage:256k_fluid_storage_disk"
 			id: "7E3EE0C6E54432D8"
 			rewards: [{
 				id: "2D90DC7BCD0D28BB"
@@ -631,6 +633,42 @@
 				type: "item"
 			}]
 			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E3EE0C6E54432D8"]
+			icon: "refinedstorage:1024k_fluid_storage_disk"
+			id: "45C3934BA4F57960"
+			rewards: [{
+				id: "44FADA62C88BD13B"
+				item: "refinedstorage:1024k_fluid_storage_disk"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "73405F9D7E2C0BB5"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45C3934BA4F57960"]
+			icon: "refinedstorage:4096k_fluid_storage_disk"
+			id: "7DA5AC531A145BDF"
+			rewards: [{
+				id: "0F29F4B3A28555BD"
+				item: "refinedstorage:4096k_fluid_storage_disk"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3495EFB30C4704AB"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 7.0d
 			y: 3.0d
 		}
 	]
