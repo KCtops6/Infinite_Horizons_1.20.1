@@ -1567,6 +1567,7 @@ Added to Omega (End Game) Questline.
 Removed Iron Furnaces Questline and merged it into Beta (Create) Questline.
 
 1.20.1-9.4
+Added Reborn Storage.
 Added RSInfinityBooster.
 
 Updated Balm.
