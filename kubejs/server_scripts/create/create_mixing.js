@@ -156,7 +156,7 @@ ServerEvents.recipes(event => {
             }
         ]
     });
-    
+
     // redstone ingot
     event.custom({
         type: "create:mixing",
@@ -175,6 +175,28 @@ ServerEvents.recipes(event => {
         results: [
             {
                 item: 'extendedcrafting:redstone_ingot'
+            }
+        ]
+    });
+
+    // ender ingot
+    event.custom({
+        type: "create:mixing",
+        heatRequirement: "superheated",
+        ingredients: [
+            {
+                item: 'kubejs:infinitium_ingot',
+            },
+            {
+                item: 'kubejs:ender_pearl_dust'
+            },
+            {
+                item: 'extendedcrafting:luminessence'
+            }
+        ],
+        results: [
+            {
+                item: 'extendedcrafting:ender_ingot'
             }
         ]
     });
