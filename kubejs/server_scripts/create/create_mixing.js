@@ -156,6 +156,28 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+    
+    // redstone ingot
+    event.custom({
+        type: "create:mixing",
+        heatRequirement: "superheated",
+        ingredients: [
+            {
+                item: 'kubejs:infinitium_ingot',
+            },
+            {
+                item: 'minecraft:redstone'
+            },
+            {
+                item: 'extendedcrafting:luminessence'
+            }
+        ],
+        results: [
+            {
+                item: 'extendedcrafting:redstone_ingot'
+            }
+        ]
+    });
 
     // heated alloys
     const heatedAlloys = [
