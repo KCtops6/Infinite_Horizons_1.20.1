@@ -368,7 +368,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -775,6 +775,7 @@
 		}
 		{
 			dependencies: ["1A09937381BB310B"]
+			description: ["Only useful to automate this if you want to get into Gregtech."]
 			id: "7ADACE156BAB2FB7"
 			tasks: [{
 				id: "4963833AB1445B22"
