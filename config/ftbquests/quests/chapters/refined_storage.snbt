@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "refined_storage"
 	group: "126A1C64F6AE129F"
@@ -36,7 +36,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -57,8 +57,8 @@
 				title: "Craft a Refined Storage Controller."
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6C891EE7C756F053"]
@@ -68,8 +68,8 @@
 				item: "refinedstorage:cable"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2DFBB0336A4694C8"]
@@ -80,7 +80,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2DFBB0336A4694C8"]
@@ -90,7 +90,7 @@
 				item: "refinedstorage:basic_processor"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
@@ -101,8 +101,8 @@
 				item: "refinedstorage:destruction_core"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CB3714FC87C0732"]
@@ -112,8 +112,8 @@
 				item: "refinedstorage:construction_core"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -128,8 +128,8 @@
 				item: "refinedstorage:external_storage"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -152,7 +152,7 @@
 				title: "Craft a Refined Storage Grid."
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -171,21 +171,18 @@
 				title: "Craft a Refined Storage Crafting Grid."
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"61F62A53013C14DC"
-				"6C891EE7C756F053"
-			]
+			dependencies: ["6C891EE7C756F053"]
 			id: "72F8E982A72E8D9F"
 			tasks: [{
 				id: "26DE05362CE7C083"
 				item: "refinedstorage:disk_drive"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -204,8 +201,8 @@
 				item: "refinedstorage:1k_storage_part"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1A6249DDBB391FE0"]
@@ -223,7 +220,7 @@
 				item: "refinedstorage:4k_storage_part"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -240,8 +237,8 @@
 				item: "refinedstorage:disk_manipulator"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["03E1CD53561506A6"]
@@ -268,8 +265,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -1.0d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4DB4FBD398673738"]
@@ -284,8 +281,8 @@
 				item: "refinedstorage:crafter_manager"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3A864B5ACD19D28B"]
@@ -305,7 +302,7 @@
 				item: "refinedstorage:crafter"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -323,8 +320,8 @@
 				item: "refinedstorage:16k_storage_part"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -338,8 +335,8 @@
 				item: "refinedstorage:importer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -353,8 +350,8 @@
 				item: "refinedstorage:exporter"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -368,7 +365,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -382,7 +379,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["34D399201B65555E"]
@@ -399,8 +396,8 @@
 				item: "refinedstorage:64k_storage_part"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["77C37EF85CCE79FC"]
@@ -425,8 +422,8 @@
 				item: "extradisks:256k_storage_part"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3B83FA20382480B2"]
@@ -436,8 +433,8 @@
 				item: "extradisks:advanced_storage_housing"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 4.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -475,6 +472,166 @@
 			}]
 			x: -0.75d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A6249DDBB391FE0"
+				"00093C5EACB9163C"
+			]
+			description: ["This is the minimum amount of resources needed for one of these setups.  You can go bigger if you want."]
+			icon: "rebornstorage:multiblock_cpu"
+			id: "0DFD65EA78A67732"
+			tasks: [
+				{
+					count: 24L
+					id: "28AC794EABCFE2AE"
+					item: "rebornstorage:multiblock_frame"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "00C6DD80611F4C8D"
+					item: { Count: 6, id: "rebornstorage:multiblock_heat" }
+					type: "item"
+				}
+				{
+					id: "18E9BE6CA9056A7C"
+					item: "rebornstorage:multiblock_storage"
+					type: "item"
+				}
+				{
+					id: "466AA660819B4430"
+					item: "rebornstorage:multiblock_cpu"
+					type: "item"
+				}
+			]
+			title: "Multiblock Pattern Storage"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5541270911ABEB5E"]
+			id: "00093C5EACB9163C"
+			tasks: [{
+				id: "227895AE9D08C012"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D04EDFF64DFC094"]
+			id: "5541270911ABEB5E"
+			tasks: [{
+				id: "3B8112A7C97E99F8"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5541270911ABEB5E"]
+			id: "1CA25B53BDFDE110"
+			tasks: [{
+				id: "70223F0DA083259B"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5541270911ABEB5E"]
+			id: "1E8D9C7E7AEE66C9"
+			tasks: [{
+				id: "25B3B502EA1EDF2B"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CA25B53BDFDE110"]
+			id: "0229226891DA663F"
+			tasks: [{
+				id: "09BA0AC22430D745"
+				item: "refinedstorage:stack_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5541270911ABEB5E"]
+			id: "6CEA1154A7329CE7"
+			tasks: [{
+				id: "0C80C26D9400A7E4"
+				item: "refinedstorage:silk_touch_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5541270911ABEB5E"]
+			id: "75440308F9F718FA"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "6CB1F840EB507139"
+					item: "refinedstorage:fortune_1_upgrade"
+					type: "item"
+				}
+				{
+					id: "5DE805BDDE4F77F6"
+					item: "refinedstorage:fortune_2_upgrade"
+					type: "item"
+				}
+				{
+					id: "51182FD9976C76AE"
+					item: "refinedstorage:fortune_3_upgrade"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["320CDD246F64237D"]
+			icon: "refinedstorage:64k_fluid_storage_disk"
+			id: "733D22BCABF462B2"
+			rewards: [{
+				id: "69D289D4C2CF854A"
+				item: "refinedstorage:64k_fluid_storage_disk"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "49197199592CCD5F"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "7E3EE0C6E54432D8"
+			rewards: [{
+				id: "2D90DC7BCD0D28BB"
+				item: "refinedstorage:256k_fluid_storage_disk"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "17678865B0D4C539"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
 		}
 	]
 	title: "Refined Storage"
