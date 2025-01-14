@@ -1568,6 +1568,7 @@ Removed Iron Furnaces Questline and merged it into Beta (Create) Questline.
 
 1.20.1-9.4
 Updated Balm.
+Updated Create Crafts & Additions.
 Updated Integrated Scripting.
 Updated Just Enough Items (JEI).
 Updated Moonlight Lib.
