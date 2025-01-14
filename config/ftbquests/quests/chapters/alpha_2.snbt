@@ -1650,6 +1650,28 @@
 			x: 6.0d
 			y: -6.0d
 		}
+		{
+			dependencies: [
+				"2BB6F3AF00926742"
+				"418B59D5AC2B522A"
+			]
+			dependency_requirement: "one_completed"
+			description: ["There are multiple ways to make steel, so I will just put this quest here."]
+			id: "567A2F4C34FFD146"
+			rewards: [{
+				id: "33E59DE1E3F0E03F"
+				item: "kubejs:steel_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "51D52A69EBC1A4C0"
+				item: "kubejs:steel_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
 	]
 	title: "Alpha"
 }

@@ -53,7 +53,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["37C31E5A1FB0A120"]
+			dependencies: [
+				"37C31E5A1FB0A120"
+				"2E72C56136631B60"
+			]
 			description: [
 				"The Sifter allows you to separate valuable materials from raw resources, enhancing your ability to gather refined components with ease."
 				""
@@ -115,11 +118,11 @@
 				}
 			]
 			title: "Separating the Essentials"
-			x: 5.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2E72C56136631B60"]
+			dependencies: ["2F9B0013A2D20BA3"]
 			description: ["The Millstone grinds down raw materials, transforming them into valuable components for further crafting and refinement.  At the very least, you should automate gravel, sand, and dust before proceeding."]
 			id: "37C31E5A1FB0A120"
 			rewards: [{
@@ -149,8 +152,8 @@
 				type: "item"
 			}]
 			title: "Stone on Demand"
-			x: 3.0d
-			y: 0.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3CB2BFF30BA3EF65"]
@@ -203,7 +206,7 @@
 				}
 			]
 			x: 10.0d
-			y: 1.25d
+			y: 2.75d
 		}
 		{
 			dependencies: ["3CB2BFF30BA3EF65"]
@@ -224,7 +227,7 @@
 				item: "kubejs:zinc_ingot"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -239,7 +242,7 @@
 				item: "kubejs:brass_ingot"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -253,7 +256,7 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -264,7 +267,7 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -305,8 +308,8 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: 9.0d
+			x: 14.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["10D4FE2EBC3230F9"]
@@ -316,8 +319,8 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 9.0d
+			x: 14.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2EA259532C16E78A"]
@@ -343,7 +346,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0F1560030AAF6516"]
@@ -354,21 +357,18 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 7.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"2509EFD6B376DEAF"
-				"1616F0FD5A80DD57"
-			]
+			dependencies: ["1616F0FD5A80DD57"]
 			id: "15A6AA83CF1F3C26"
 			tasks: [{
 				id: "2A4F29F8D2E19ED3"
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 15.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -381,8 +381,8 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 5.0d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1A09937381BB310B"]
@@ -392,30 +392,8 @@
 				item: "kubejs:deepslate_gravel"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"2BB6F3AF00926742"
-				"418B59D5AC2B522A"
-			]
-			dependency_requirement: "one_completed"
-			description: ["There are multiple ways to make steel, so I will just put this quest here."]
-			id: "567A2F4C34FFD146"
-			rewards: [{
-				id: "33E59DE1E3F0E03F"
-				item: "kubejs:steel_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "51D52A69EBC1A4C0"
-				item: "kubejs:steel_ingot"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.0d
+			x: 18.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -473,8 +451,8 @@
 				item: "kubejs:netherrack_gravel"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 0.0d
+			x: 18.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6014A13DF01D4487"]
@@ -489,8 +467,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 0.0d
+			x: 19.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7C92DF666D71EF2C"]
@@ -600,7 +578,7 @@
 				type: "item"
 			}]
 			title: "Copycats"
-			x: 9.0d
+			x: 8.0d
 			y: -0.75d
 		}
 		{
@@ -711,7 +689,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7BB1A7FD141B7E57"]
+			dependencies: [
+				"7BB1A7FD141B7E57"
+				"2774E847C403831B"
+			]
 			id: "36E46917FEA3FB80"
 			rewards: [{
 				count: 3
@@ -729,7 +710,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7BB1A7FD141B7E57"]
+			dependencies: [
+				"7BB1A7FD141B7E57"
+				"2774E847C403831B"
+			]
 			id: "0E8F8B1F62CB8A46"
 			rewards: [{
 				count: 3
@@ -771,6 +755,34 @@
 			}]
 			x: -1.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["22A166C0303A6C2C"]
+			id: "2774E847C403831B"
+			rewards: [{
+				id: "492E6C8F5A2D4D28"
+				item: "create:copper_casing"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "45B689A0505E7FDB"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A09937381BB310B"]
+			id: "7ADACE156BAB2FB7"
+			tasks: [{
+				id: "4963833AB1445B22"
+				item: "kubejs:end_stone_gravel"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
 		}
 	]
 	title: "Beta"

@@ -5,7 +5,6 @@ ServerEvents.recipes(event => {
         { input: 'minecraft:gravel', output: 'createsifter:sand' },
         { input: 'minecraft:netherrack', output: 'kubejs:netherrack_gravel' },
         { input: 'minecraft:basalt', output: 'kubejs:basalt_gravel' },
-        { input: 'minecraft:end_stone', output: 'kubejs:end_stone_gravel' },
         { input: 'minecraft:ender_pearl', output: 'kubejs:ender_pearl_dust' }
     ]
     recipes.forEach(recipe => {
