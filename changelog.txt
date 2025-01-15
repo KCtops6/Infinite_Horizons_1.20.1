@@ -1573,6 +1573,7 @@ Added RSInfinityBooster.
 
 Updated Balm.
 Updated Chat Heads.
+Updated Cobweb.
 Updated Create Crafts & Additions.
 Updated Fast Async World Save[Forge/Fabric].
 Updated GregTechCEu Modern.
