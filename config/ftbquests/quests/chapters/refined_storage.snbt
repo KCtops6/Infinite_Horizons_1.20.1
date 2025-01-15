@@ -68,8 +68,8 @@
 				item: "refinedstorage:cable"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2DFBB0336A4694C8"]
@@ -718,8 +718,8 @@
 				item: "extrastorage:diamond_crafter"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -1.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0B8A5D9F129D258E"]
@@ -729,8 +729,8 @@
 				item: "extrastorage:netherite_crafter"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -1.0d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C891EE7C756F053"]
@@ -747,8 +747,8 @@
 				item: "refinedstorage:storage_monitor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -768,8 +768,8 @@
 				item: "refinedstorage:constructor"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -790,7 +790,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6C891EE7C756F053"]
@@ -860,7 +860,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -874,7 +874,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2DFBB0336A4694C8"]
@@ -942,6 +942,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["19508F931A67DBB1"]
 			id: "2735ECF5B2E77AC4"
 			tasks: [{
 				id: "6DEAB0FBCA809151"
@@ -949,6 +950,31 @@
 				type: "item"
 			}]
 			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A864B5ACD19D28B"]
+			id: "19508F931A67DBB1"
+			tasks: [{
+				id: "0A6F2D30B5847F41"
+				item: "refinedstorage:crafting_monitor"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4B41EE0151264325"
+				"48A63169C6843B70"
+			]
+			id: "2DACA67FC7196BC4"
+			tasks: [{
+				id: "6D3F24FB2F7C5BB2"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+				type: "item"
+			}]
+			x: 9.0d
 			y: 3.0d
 		}
 	]
