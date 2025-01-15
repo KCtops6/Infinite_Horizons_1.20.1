@@ -1572,6 +1572,7 @@ Added Reborn Storage.
 Added RSInfinityBooster.
 
 Updated Balm.
+Updated Chat Heads.
 Updated Create Crafts & Additions.
 Updated Fast Async World Save[Forge/Fabric].
 Updated GregTechCEu Modern.
