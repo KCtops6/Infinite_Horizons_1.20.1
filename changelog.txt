@@ -1586,6 +1586,7 @@ Updated Mystical Agriculture Delight.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
+Updated Tom's Simple Storage Mod.
 
 Added to Alpha (Vanilla) Questline.
 Added to Beta (Create) Questline.
