@@ -1576,6 +1576,7 @@ Updated Balm.
 Updated Chat Heads.
 Updated Cobweb.
 Updated Create Crafts & Additions.
+Updated ExtendedAE.
 Updated Fast Async World Save[Forge/Fabric].
 Updated GregTechCEu Modern.
 Updated Integrated Scripting.
