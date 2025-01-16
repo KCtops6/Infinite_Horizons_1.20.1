@@ -1593,3 +1593,5 @@ Added to Refined Storage Questline.
 
 Removed End Stone Gravel from Create Milling (Only Create Crushing).
 Changed Recipe for Extended Crafting Flux and Ender Alternators.
+Changed Recipe for Extended Crafting Redstone Ingot.
+Changed Recipe for Extended Crafting Ender Ingot.
