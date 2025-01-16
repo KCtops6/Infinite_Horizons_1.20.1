@@ -1571,6 +1571,7 @@ Added ExtraStorage.
 Added Reborn Storage.
 Added RSInfinityBooster.
 
+Updated Applied Energistics 2.
 Updated Balm.
 Updated Chat Heads.
 Updated Cobweb.
