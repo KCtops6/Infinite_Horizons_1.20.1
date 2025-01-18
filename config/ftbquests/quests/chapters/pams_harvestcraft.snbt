@@ -5,7 +5,7 @@
 	group: "126A1C64F6AE129F"
 	icon: "pamhc2foodcore:friedchickenitem"
 	id: "6B76A4AB41CEBF7D"
-	order_index: 16
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{

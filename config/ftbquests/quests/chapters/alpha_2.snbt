@@ -1583,7 +1583,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -1748,8 +1748,8 @@
 				item: "cookingforblockheads:oven"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6110DA7F466AC4B6"]
@@ -1761,7 +1761,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6110DA7F466AC4B6"]
@@ -1772,8 +1772,8 @@
 				type: "item"
 			}]
 			title: "All Toasters Toast Toast"
-			x: 12.0d
-			y: 6.0d
+			x: 11.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0BF8B11F416C9F88"]
@@ -1786,8 +1786,8 @@
 				item: "cookingforblockheads:heating_unit"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.75d
+			x: 9.0d
+			y: 5.75d
 		}
 		{
 			dependencies: ["5CF9E62365A3014A"]
@@ -1801,7 +1801,7 @@
 				type: "item"
 			}]
 			x: 9.75d
-			y: 6.75d
+			y: 5.75d
 		}
 		{
 			dependencies: ["5CF9E62365A3014A"]
@@ -1815,7 +1815,7 @@
 				type: "item"
 			}]
 			x: 10.25d
-			y: 6.75d
+			y: 5.75d
 		}
 		{
 			dependencies: ["6110DA7F466AC4B6"]

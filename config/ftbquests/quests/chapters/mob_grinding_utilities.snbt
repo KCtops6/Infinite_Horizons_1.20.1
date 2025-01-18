@@ -5,7 +5,7 @@
 	group: "126A1C64F6AE129F"
 	icon: "mob_grinding_utils:saw"
 	id: "71A22C196CB5FF27"
-	order_index: 15
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
