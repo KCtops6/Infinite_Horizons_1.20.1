@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: true
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "refined_storage"
 	group: "126A1C64F6AE129F"
@@ -43,6 +43,9 @@
 				"7BC01DF5B4543043"
 				"61F62A53013C14DC"
 			]
+			description: ["Central Hub to your system.  You need to constantly supply power to this."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "6C891EE7C756F053"
 			tasks: [{
 				icon: "refinedstorage:creative_controller"
@@ -95,6 +98,7 @@
 		}
 		{
 			dependencies: ["4CB3714FC87C0732"]
+			hide_dependent_lines: true
 			id: "61E0A1A0B2486288"
 			tasks: [{
 				id: "014C1CDF95E5F4B9"
@@ -106,6 +110,7 @@
 		}
 		{
 			dependencies: ["4CB3714FC87C0732"]
+			hide_dependent_lines: true
 			id: "4DE218D2761170A2"
 			tasks: [{
 				id: "01D8AD074A7589BB"
@@ -282,10 +287,11 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3A864B5ACD19D28B"]
+			hide_dependency_lines: false
 			id: "4DB4FBD398673738"
 			rewards: [{
 				id: "7D580ADE14EE75B1"
@@ -329,6 +335,7 @@
 				"61E0A1A0B2486288"
 				"01C5713439EED3F1"
 			]
+			hide_dependency_lines: true
 			id: "26AEE76D0420844B"
 			tasks: [{
 				id: "58CCC2E83850CECE"
@@ -344,6 +351,7 @@
 				"4DE218D2761170A2"
 				"01C5713439EED3F1"
 			]
+			hide_dependency_lines: true
 			id: "4FDEC323C405E1EE"
 			tasks: [{
 				id: "54D8C0DAECE6B243"
@@ -700,7 +708,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2DFBB0336A4694C8"]
+			dependencies: [
+				"3D04EDFF64DFC094"
+				"61F62A53013C14DC"
+			]
+			hide_dependent_lines: true
 			id: "2835D6661C91695B"
 			tasks: [{
 				id: "36FE3B82F8BACB10"
@@ -718,8 +730,8 @@
 				item: "extrastorage:diamond_crafter"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 14.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0B8A5D9F129D258E"]
@@ -729,8 +741,8 @@
 				item: "extrastorage:netherite_crafter"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6C891EE7C756F053"]
@@ -823,6 +835,21 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2DFD9B6E03C52A7F"
+			rewards: [
+				{
+					id: "226DAB2C16B0FE06"
+					item: "refinedstorage:detector"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6F5AC1AC8E88B035"
+					item: "refinedstorage:improved_processor"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "72BA53398D3EF8D8"
 				item: "refinedstorage:detector"
@@ -867,17 +894,21 @@
 				"48A63169C6843B70"
 				"4E8A3EC0AC921F22"
 			]
+			hide_dependency_lines: true
 			id: "4DFDE6E5C0269610"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "76559C3EE58788BB"
 				item: "rebornstorage:advanced_wireless_transmitter"
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2DFBB0336A4694C8"]
+			hide_dependent_lines: true
 			id: "4E8A3EC0AC921F22"
 			tasks: [{
 				id: "2278541F292BC575"
@@ -892,14 +923,17 @@
 				"48A63169C6843B70"
 				"03E1CD53561506A6"
 			]
+			hide_dependency_lines: true
 			id: "0531B61040E0F477"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "500C03D4042F0BD9"
 				item: "refinedstorage:wireless_grid"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 5.75d
+			y: -2.75d
 		}
 		{
 			dependencies: [
@@ -907,6 +941,8 @@
 				"4E8A3EC0AC921F22"
 			]
 			id: "6F25B35C9706D2E2"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "0EA1654777882681"
 				item: {
@@ -916,8 +952,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 6.25d
+			y: -2.75d
 		}
 		{
 			dependencies: ["2937DC229B28FE0E"]
@@ -927,8 +963,8 @@
 				item: "refinedstorage:wireless_fluid_grid"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.0d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["03E1CD53561506A6"]
@@ -942,15 +978,21 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["19508F931A67DBB1"]
+			dependencies: [
+				"19508F931A67DBB1"
+				"48A63169C6843B70"
+			]
+			hide_dependency_lines: true
 			id: "2735ECF5B2E77AC4"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "6DEAB0FBCA809151"
 				item: "refinedstorage:wireless_crafting_monitor"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.0d
+			x: 13.0d
+			y: -2.75d
 		}
 		{
 			dependencies: ["3A864B5ACD19D28B"]
@@ -968,14 +1010,80 @@
 				"4B41EE0151264325"
 				"48A63169C6843B70"
 			]
+			hide_dependency_lines: true
 			id: "2DACA67FC7196BC4"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "6D3F24FB2F7C5BB2"
 				item: "refinedstorageaddons:wireless_crafting_grid"
 				type: "item"
 			}]
+			x: 7.0d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"0DFD65EA78A67732"
+				"4DB4FBD398673738"
+			]
+			dependency_requirement: "one_completed"
+			id: "593FFAEB20486ACB"
+			rewards: [
+				{
+					id: "54382A110D9F08F3"
+					item: "rsrequestify:crafting_emitter"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7157A2A878933ED5"
+					item: "refinedstorage:improved_processor"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71D2B287C37950C7"
+				item: "rsrequestify:crafting_emitter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DFD9B6E03C52A7F"]
+			id: "7C2B0BB9E5487464"
+			rewards: [
+				{
+					id: "21C8E419BB199003"
+					item: "rsrequestify:requester"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "20A0041C3EEBC66F"
+					item: "refinedstorage:detector"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0A23C7FC6FE7C923"
+					item: "refinedstorage:advanced_processor"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BCBC1472B190F47"
+				item: "rsrequestify:requester"
+				type: "item"
+			}]
 			x: 9.0d
-			y: 3.0d
+			y: -3.0d
 		}
 	]
 	title: "Refined Storage"
