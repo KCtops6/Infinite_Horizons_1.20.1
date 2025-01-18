@@ -121,23 +121,28 @@
 				type: "observation"
 			}]
 			title: "Opportunities Await"
-			x: -2.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["1095B567B96DDCF3"]
+			description: ["Useful so you do not have to go on multiple villager's trading UI's."]
+			hide_dependency_lines: true
 			id: "31BBE9DCB2EB7E5D"
+			optional: true
 			rewards: [{
 				id: "61D5D98D506F7A47"
 				item: "minecraft:emerald"
 				random_bonus: 15
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "7649903ED9393A46"
 				item: "tradingpost:trading_post"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -194,7 +199,7 @@
 				to_observe: "waystones:waystone"
 				type: "observation"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -232,7 +237,7 @@
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -346,7 +351,7 @@
 				title: "Integration Quests"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -386,7 +391,7 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -1672,6 +1677,57 @@
 			}]
 			x: 4.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["305CAD4BB78423E7"]
+			description: ["Useful for wither farms later on.  Note, you can just use super sound muffler though."]
+			hide_dependency_lines: true
+			id: "4853C19A6EE7B90D"
+			optional: true
+			rewards: [{
+				id: "26C943BD05E9C27A"
+				item: "minecraft:wither_skeleton_skull"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "5907F8DD1B59240D"
+				item: "mob_grinding_utils:wither_muffler"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7B2DCE5368BC4D89"]
+			description: ["Obtained by smelting soul sand."]
+			id: "2A3F0C05F26C731E"
+			tasks: [{
+				id: "4C4CBD15E1710A66"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A65E98B9FE221A7"]
+			description: ["Integrated Dynamics makes multiple mods easier to automate."]
+			id: "782330C4DF8652E5"
+			rewards: [{
+				id: "767754AD797F7515"
+				item: "integrateddynamics:menril_sapling"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "537DDB068757EB9C"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
 		}
 	]
 	title: "Alpha"
