@@ -1604,6 +1604,7 @@ Updated Integrated Scripting.
 Updated Integrated Terminals.
 Updated Moonlight Lib.
 Updated Not Enough Animations.
+Updated Sodium/Embeddium Options API.
 
 Added to Alpha (Vanilla) Questline.
 Added to Refined Storage Questline.
