@@ -1601,6 +1601,7 @@ Changed Recipe for Extended Crafting Ender Ingot.
 Added Compact Machines.
 
 Updated Integrated Scripting.
+Updated Integrated Terminals.
 Updated Moonlight Lib.
 Updated Not Enough Animations.
 
