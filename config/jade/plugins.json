@@ -130,6 +130,10 @@
   "framedblocks": {
     "framed_item_frame": true
   },
+  "compactmachines": {
+    "machine": true,
+    "tunnel": true
+  },
   "extrastorage": {
     "crafter": true,
     "advanced_crafter": true
@@ -182,6 +186,9 @@
     "canvas_beehive": true,
     "bee_attributes": true,
     "productive_bee": true
+  },
+  "modularrouters": {
+    "router": true
   },
   "ars_nouveau": {
     "mob_jar": true
