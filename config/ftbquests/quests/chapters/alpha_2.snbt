@@ -1856,7 +1856,9 @@
 				"700D0FB31E0D600E"
 			]
 			description: ["Very useful mod in your quest for automation."]
+			icon: "modularrouters:modular_router"
 			id: "5582D00D2B0A91DB"
+			optional: true
 			rewards: [
 				{
 					id: "13FD93DF8B38B0BB"
@@ -1903,13 +1905,15 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "21C262C4CDBD27F5"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "0800CEA83C41AFAA"
 				item: "modularrouters:blank_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -9.0d
+			x: 8.25d
+			y: -8.75d
 		}
 		{
 			dependencies: ["21C262C4CDBD27F5"]
@@ -1920,13 +1924,14 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [{
 				id: "32A33C9649B1ED4F"
 				item: "modularrouters:augment_core"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -10.0d
+			x: 7.75d
+			y: -8.75d
 		}
 		{
 			dependencies: ["5582D00D2B0A91DB"]
@@ -1951,7 +1956,11 @@
 			y: -8.25d
 		}
 		{
+			dependencies: ["21C262C4CDBD27F5"]
+			hide_dependency_lines: true
 			id: "6D86E7396ED5C667"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "3ABE7712482F637A"
 				item: {
@@ -1961,11 +1970,104 @@
 						value: "modularrouters:upgrades"
 					}
 				}
-				title: "Any #modularrouters:upgrades"
+				title: "Craft a Modular Routers Upgrade"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -7.5d
+			x: 8.75d
+			y: -8.75d
+		}
+		{
+			dependencies: ["4EF5B3EA47FC0120"]
+			hide_dependency_lines: true
+			id: "0C66C97F2EB25502"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "17F89AAEEAF2F3C4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "modularrouters:augments"
+					}
+				}
+				title: "Craft a Modular Routers Augment."
+				type: "item"
+			}]
+			x: 7.25d
+			y: -8.75d
+		}
+		{
+			dependencies: ["3A35C97EB1C6F7CD"]
+			description: ["Filters are useful for various modules.  Read more in the manual."]
+			hide_dependency_lines: true
+			id: "5D10AB791DAF6DA2"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "54434134A82DB746"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "modularrouters:filters"
+					}
+				}
+				title: "Craft a Modular Routers Filter."
+				type: "item"
+			}]
+			x: 8.75d
+			y: -7.75d
+		}
+		{
+			dependencies: ["65309454388885A3"]
+			description: ["Useful for compressing your setups.  Highly recommend."]
+			id: "57E3AFC98283C7DA"
+			optional: true
+			rewards: [{
+				id: "45D8787D774C9126"
+				item: "compactmachines:personal_shrinking_device"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E3EDCD4DBBBF919"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "compactmachines:machine_tiny"
+							}
+							{
+								Count: 1b
+								id: "compactmachines:machine_small"
+							}
+							{
+								Count: 1b
+								id: "compactmachines:machine_normal"
+							}
+							{
+								Count: 1b
+								id: "compactmachines:machine_large"
+							}
+							{
+								Count: 1b
+								id: "compactmachines:machine_giant"
+							}
+							{
+								Count: 1b
+								id: "compactmachines:machine_maximum"
+							}
+						]
+					}
+				}
+				title: "Craft a Compact Machine."
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
 		}
 	]
 	title: "Alpha"
