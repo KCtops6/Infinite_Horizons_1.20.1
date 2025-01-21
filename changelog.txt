@@ -1603,6 +1603,7 @@ Added Modular Routers.
 
 Updated Integrated Scripting.
 Updated Integrated Terminals.
+Updated Jade 🔍.
 Updated Moonlight Lib.
 Updated Not Enough Animations.
 Updated Sodium/Embeddium Options API.
