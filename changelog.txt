@@ -1601,6 +1601,7 @@ Changed Recipe for Extended Crafting Ender Ingot.
 Added Compact Machines.
 Added Modular Routers.
 
+Updated BucketLib.
 Updated Integrated Scripting.
 Updated Integrated Terminals.
 Updated Jade 🔍.
@@ -1610,5 +1611,4 @@ Updated Sodium/Embeddium Options API.
 
 Added to Alpha (Vanilla) Questline.
 Added to Refined Storage Questline.
-
 Removed Cooking for Blockheads Questline and Condensed it into Alpha (Vanilla) Questline.
