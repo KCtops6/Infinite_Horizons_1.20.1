@@ -1613,6 +1613,7 @@ Updated Not Enough Animations.
 Updated Server Performance - Smooth Chunk Save[Forge/Fabric].
 Updated Sodium/Embeddium Options API.
 Updated Sophisticated Backpacks.
+Updated Sophisticated Core.
 
 Added to Alpha (Vanilla) Questline.
 Added to Refined Storage Questline.
