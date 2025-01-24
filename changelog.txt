@@ -1603,6 +1603,7 @@ Added Modular Routers.
 
 Updated BucketLib.
 Updated Cooking for Blockheads.
+Updated Essential Mod.
 Updated ExtendedAE.
 Updated Integrated Scripting.
 Updated Integrated Terminals.
