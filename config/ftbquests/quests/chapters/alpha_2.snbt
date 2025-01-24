@@ -1623,6 +1623,12 @@
 			description: ["Killing normal skeletons with a blazing cleaver can give wither skeleton skulls."]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "305CAD4BB78423E7"
+			rewards: [{
+				id: "46CEF9382E6CD824"
+				item: "minecraft:wither_skeleton_skull"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "21989353EB8C3050"
@@ -2068,6 +2074,133 @@
 			}]
 			x: -3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4D8C16662420211F"
+				"24AB91EB9A74B02F"
+			]
+			id: "151F64D5A9293978"
+			rewards: [{
+				count: 5
+				id: "4F69776FB4902AFD"
+				item: "minecraft:nether_wart"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "67C63C633E856244"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"305CAD4BB78423E7"
+				"4D8C16662420211F"
+				"24AB91EB9A74B02F"
+			]
+			id: "438BDE348AB8DD19"
+			rewards: [{
+				id: "7D17D7105EDF8AF5"
+				item: "minecraft:wither_rose"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "71B74EEF2352D1D2"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A87B874851CD1B0"]
+			description: ["Easiest to obtain with Create Haunting."]
+			id: "48119CC0091EF834"
+			rewards: [{
+				id: "030329812C7D6259"
+				item: "minecraft:crying_obsidian"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "17CBE48B9A63F246"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5D848CC085077117"
+				"0A87B874851CD1B0"
+			]
+			id: "5B4ED6EF523BFCBB"
+			rewards: [{
+				id: "1758330E21307469"
+				item: "minecraft:bookshelf"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C0A7525F6078173"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			description: ["Obtained either through Apotheosis Enchanting or Mekanism Antiprotonic Nucleosynthesizer. "]
+			id: "7C6EB6C21F6C0103"
+			rewards: [
+				{
+					id: "06E3EC24710E7B22"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:riptide"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F1B02968E030DD0"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:loyalty"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24114E8234B07394"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
 		}
 	]
 	title: "Alpha"
