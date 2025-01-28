@@ -1624,3 +1624,4 @@ Removed Cooking for Blockheads Questline and Condensed it into Alpha (Vanilla) Q
 Updated Apotheosis.
 Updated Chat Heads.
 Updated Corpse.
+Updated FTB Quests (Forge).
