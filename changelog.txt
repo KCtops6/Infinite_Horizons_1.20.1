@@ -1622,3 +1622,4 @@ Removed Cooking for Blockheads Questline and Condensed it into Alpha (Vanilla) Q
 
 1.20.1-9.6
 Updated Apotheosis.
+Updated Chat Heads.
