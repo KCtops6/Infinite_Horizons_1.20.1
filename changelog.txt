@@ -1619,3 +1619,6 @@ Updated Sophisticated Storage.
 Added to Alpha (Vanilla) Questline.
 Added to Refined Storage Questline.
 Removed Cooking for Blockheads Questline and Condensed it into Alpha (Vanilla) Questline.
+
+1.20.1-9.6
+Updated Apotheosis.
