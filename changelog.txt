@@ -1625,3 +1625,4 @@ Updated Apotheosis.
 Updated Chat Heads.
 Updated Corpse.
 Updated FTB Quests (Forge).
+Updated FTB Teams (Forge).
