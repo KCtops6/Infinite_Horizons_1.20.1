@@ -1621,6 +1621,7 @@ Added to Refined Storage Questline.
 Removed Cooking for Blockheads Questline and Condensed it into Alpha (Vanilla) Questline.
 
 1.20.1-9.6
+Updated Amendments.
 Updated Apotheosis.
 Updated Chat Heads.
 Updated Corpse.
