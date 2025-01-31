@@ -316,7 +316,7 @@
 	[building.pedestal]
 		enabled = true
 		#If enabled end crystals placed on a pedestals will provide an enchantment power bonus equivalent to 3 bookshelves
-		#Range: 0 ~ 100
+		#Range: 0.0 ~ 100.0
 		crystal_enchanting = 3
 
 	[building.ash]

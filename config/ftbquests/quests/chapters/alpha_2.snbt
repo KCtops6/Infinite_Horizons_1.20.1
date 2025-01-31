@@ -219,8 +219,8 @@
 				type: "item"
 			}]
 			title: "Bark Harvesting"
-			x: 0.0d
-			y: 2.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -413,7 +413,7 @@
 				item: "minecraft:smoker"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -433,7 +433,7 @@
 				item: "workers:cattle_farmer_block"
 				type: "item"
 			}]
-			x: 3.75d
+			x: -1.25d
 			y: 0.75d
 		}
 		{
@@ -453,7 +453,7 @@
 				item: "workers:chicken_farmer_block"
 				type: "item"
 			}]
-			x: 4.25d
+			x: -0.75d
 			y: 0.75d
 		}
 		{
@@ -588,8 +588,8 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -627,7 +627,7 @@
 				item: "workers:swineherd_block"
 				type: "item"
 			}]
-			x: 4.25d
+			x: -0.75d
 			y: 1.25d
 		}
 		{
@@ -647,7 +647,7 @@
 				item: "workers:shepherd_block"
 				type: "item"
 			}]
-			x: 3.75d
+			x: -1.25d
 			y: 1.25d
 		}
 		{
@@ -1021,8 +1021,8 @@
 				item: "minecraft:loom"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3FE8A0F232E7B79B"]
@@ -1065,8 +1065,8 @@
 				type: "item"
 			}]
 			title: "Original Block Factory"
-			x: 0.25d
-			y: 0.75d
+			x: -0.75d
+			y: 1.75d
 		}
 		{
 			dependencies: ["3FE8A0F232E7B79B"]
@@ -1125,8 +1125,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.25d
-			y: 1.25d
+			x: -0.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["6A6C399AB9F1BBE0"]
@@ -1283,8 +1283,8 @@
 				title: "Craft a sleeping bag."
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.75d
+			x: 2.75d
+			y: 11.25d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -1542,6 +1542,21 @@
 				"33A3E11BD0EB479B"
 			]
 			id: "433391CE678F39BF"
+			rewards: [
+				{
+					count: 7
+					id: "1BC62BAB05F28173"
+					item: "minecraft:clay_ball"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7A6C957A0544D531"
+					item: "pamhc2foodcore:friesitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 64L
 				id: "15A8622ABB86CF27"
@@ -1552,38 +1567,41 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["433391CE678F39BF"]
+			dependencies: [
+				"4876AC4B509F2950"
+				"441DBA8F34E2A24D"
+			]
+			description: ["Many ways to level this up, but I will leave that to you to investigate."]
 			id: "30307DBA1412BFE5"
 			min_required_tasks: 1
-			tasks: [
+			rewards: [
 				{
-					icon: "botanypots:terracotta_botany_pot"
-					id: "173C35BAF5E46247"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "botanypots:basic_botany_pots"
-						}
-					}
-					title: "Craft a Botany Pot"
+					id: "0D5773E1C6634961"
+					item: "botanypots:terracotta_botany_pot"
+					random_bonus: 2
 					type: "item"
 				}
 				{
-					icon: "botanypots:terracotta_hopper_botany_pot"
-					id: "7F5F0CCBB178B340"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "botanypots:hopper_botany_pots"
-						}
-					}
-					title: "Craft a Hopper Botany Pot."
+					id: "4BC7180D42A3887D"
+					item: "farmersdelight:rich_soil_farmland"
+					random_bonus: 2
 					type: "item"
 				}
 			]
-			x: 6.0d
+			tasks: [{
+				icon: "botanypots:terracotta_botany_pot"
+				id: "173C35BAF5E46247"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:basic_botany_pots"
+					}
+				}
+				title: "Craft a Botany Pot"
+				type: "item"
+			}]
+			x: 8.0d
 			y: 4.0d
 		}
 		{
@@ -1721,12 +1739,25 @@
 			dependencies: ["7A65E98B9FE221A7"]
 			description: ["Integrated Dynamics makes multiple mods easier to automate."]
 			id: "782330C4DF8652E5"
-			rewards: [{
-				id: "767754AD797F7515"
-				item: "integrateddynamics:menril_sapling"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "767754AD797F7515"
+					item: "integrateddynamics:menril_sapling"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2D848DB363AC5222"
+					item: "integrateddynamics:on_the_dynamics_of_integration"
+					type: "item"
+				}
+				{
+					id: "1A6F64719D1461DC"
+					item: "pamhc2foodextended:pizzasoupitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "537DDB068757EB9C"
 				item: "integrateddynamics:menril_sapling"
@@ -1736,7 +1767,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["433391CE678F39BF"]
+			dependencies: ["441DBA8F34E2A24D"]
 			id: "6110DA7F466AC4B6"
 			tasks: [{
 				id: "1497C879866D64F4"
@@ -2201,6 +2232,302 @@
 			}]
 			x: 14.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["433391CE678F39BF"]
+			id: "4876AC4B509F2950"
+			rewards: [
+				{
+					count: 7
+					id: "41A9FEE6694D58F6"
+					item: "minecraft:brick"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4FB85B550DAC4ED7"
+					item: "pamhc2foodextended:tortillachipsitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15834B9E3D30E839"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4876AC4B509F2950"]
+			hide_dependency_lines: true
+			id: "26B33C4BCAE99D98"
+			optional: true
+			rewards: [
+				{
+					count: 11
+					id: "676E50CBDEB1CF7B"
+					item: "minecraft:bricks"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "0267F0EBC705F2B2"
+					item: "pamhc2foodextended:ranchfriedchickenitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "65E49A4C2CCA4514"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["433391CE678F39BF"]
+			id: "441DBA8F34E2A24D"
+			rewards: [
+				{
+					count: 7
+					id: "77481928A261492E"
+					item: "minecraft:terracotta"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "18DA99C1A1EADAE6"
+					item: "pamhc2foodcore:baconcheeseburgeritem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A1CB16ACA7DA153"
+				item: "minecraft:terracotta"
+				type: "item"
+			}]
+			title: "Formerly Hardened Clay"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1095B567B96DDCF3"]
+			id: "1A5F98E448910415"
+			rewards: [
+				{
+					count: 3
+					id: "5613893420E3B7F2"
+					item: "minecraft:leather"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "29A0F3E79A710EC4"
+					item: "pamhc2foodextended:beefwellingtonitem"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "71E191FF341F4C0A"
+					item: "mekanismadditions:white_balloon"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3631273E01DC22FF"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A5F98E448910415"]
+			description: ["Not as necessary compared to a traditional overworld where you need to explore more, but still has useful upgrades."]
+			id: "27867F871BF6CA62"
+			tasks: [{
+				id: "47869D476DFF42F5"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							2024525566
+							22040019
+							-1974459826
+							-618145605
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"27867F871BF6CA62"
+				"3949B38795D8BB00"
+			]
+			hide_dependency_lines: true
+			id: "3DC12B887E979157"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0D479A08A425B63B"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"3DC12B887E979157"
+				"2260AD2796A36C0F"
+			]
+			hide_dependency_lines: true
+			id: "5BB19D58E5811FBA"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "68993B2950BB35D3"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"5BB19D58E5811FBA"
+				"5D848CC085077117"
+			]
+			hide_dependency_lines: true
+			id: "6D2E4C2BB342072E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "05E69F5C090BCCE2"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 4.25d
+		}
+		{
+			dependencies: [
+				"6014A13DF01D4487"
+				"6D2E4C2BB342072E"
+			]
+			hide_dependency_lines: true
+			id: "143EA8F052E463D4"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1405207E6F969493"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.25d
+		}
+		{
+			dependencies: [
+				"3949B38795D8BB00"
+				"27867F871BF6CA62"
+			]
+			hide_dependency_lines: true
+			id: "1B4981FBE289996D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5617EA249C5489CF"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"1B4981FBE289996D"
+				"2260AD2796A36C0F"
+			]
+			hide_dependency_lines: true
+			id: "4BF6E2D812BA1E77"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0EBD69C04A6E99B5"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"4BF6E2D812BA1E77"
+				"5D848CC085077117"
+			]
+			hide_dependency_lines: true
+			id: "324EB67CC871A5A5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "337007738ED909C0"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"324EB67CC871A5A5"
+				"6014A13DF01D4487"
+			]
+			hide_dependency_lines: true
+			id: "1F621B48EF39609D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3E1F42A4843C0220"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["27867F871BF6CA62"]
+			description: ["I always go for this one ASAP."]
+			hide_dependency_lines: true
+			id: "5FCCE0E8C87835EE"
+			optional: true
+			rewards: [{
+				id: "20CCC3342DF171F4"
+				item: "minecraft:golden_carrot"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "29AA7833FEFA0CE8"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 3.75d
 		}
 	]
 	title: "Alpha"

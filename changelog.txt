@@ -1643,3 +1643,6 @@ Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Supplementaries.
+
+Added to Alpha (Vanilla) Questline.
+Removed Sophisticated Backpacks Questline and Condensed it into Alpha (Vanilla) Questline.
