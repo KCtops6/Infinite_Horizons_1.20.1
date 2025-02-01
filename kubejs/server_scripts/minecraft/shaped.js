@@ -448,6 +448,18 @@ ServerEvents.recipes(event => {
             },
             output: Item.of('woodenbucket:wooden_bucket', '{Damage:0,Fluid:{Amount:1000,FluidName:"minecraft:lava"}}'),
             count: 1
+        },
+        {
+            pattern: [
+                'AAA',
+                'AAA',
+                'AAA'
+            ],
+            keys: {
+                A: 'kubejs:infinitium_ingot'
+            },
+            output: 'kubejs:infinitium_block',
+            count: 1
         }
     ];
 
