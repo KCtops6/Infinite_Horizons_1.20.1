@@ -1650,3 +1650,5 @@ Removed Sophisticated Backpacks Questline and Condensed it into Alpha (Vanilla) 
 1.20.1-9.7
 Updated Sophisticated Core.
 Updated Waystones.
+
+Fixed Recipe for Infinitium Block.
