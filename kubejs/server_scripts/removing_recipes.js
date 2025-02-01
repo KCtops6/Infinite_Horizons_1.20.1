@@ -12,14 +12,8 @@ ServerEvents.recipes(event => {
         'ore_tree:emerald_tree_sapling', 'ore_tree:gold_tree_sapling', 'ore_tree:iron_tree_sapling', 'ore_tree:lapis_tree_sapling', 'ore_tree:quartz_tree_sapling',
         'ore_tree:redstone_tree_sapling', 'create:crafting/materials/andesite_alloy', 'create:crafting/materials/andesite_alloy_from_zinc',
         'create:mixing/andesite_alloy', 'create:mixing/andesite_alloy_from_zinc', 'farmersdelight:cutting/gravel', 'create:crushing/scrap_cobblestone_small',
-        'extendedcrafting:ender_ingot', 'extendedcrafting:redstone_ingot', 'extendedcrafting:luminessence'
+        'extendedcrafting:ender_ingot', 'extendedcrafting:redstone_ingot', 'extendedcrafting:luminessence', 'extendedcrafting:black_iron_block'
     ];
-
-    // FUTURE EXPERT MODE IMPLEMENTATION
-    // const expertIds = [ ];
-    // if (expert) {
-    //      ids.push(expertIds);
-    // }    
 
     ids.forEach(id => {
         event.remove({ id: id });
