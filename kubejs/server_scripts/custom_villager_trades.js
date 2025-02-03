@@ -171,6 +171,50 @@ MoreJSEvents.villagerTrades((event) => {
         event.addTrade("farmer", 1, `20x ${trade}`, 'minecraft:emerald');
     });
 
+    const apiaristTrades = [
+        // Ashy Mining Bee
+        {
+            level: 1,
+            input1: 'productivebees:gravel_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_ashy_mining_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:sand_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_ashy_mining_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:coarse_dirt_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_ashy_mining_bee'
+        },
+
+        {
+            level: 1,
+            input1: 'productivebees:gravel_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_chocolate_mining_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:sand_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_chocolate_mining_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:coarse_dirt_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_chocolate_mining_bee'
+        },
+    ];
+
+    apiaristTrades.forEach(trade => {
+        event.addTrade("spacecatcustomprofessions:apiarist")
+    })
     event.addTrade(
         "spacecatcustomprofessions:apiarist", 1,    // Profession and level.
         ['productivebees:oak_wood_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
@@ -246,30 +290,11 @@ MoreJSEvents.villagerTrades((event) => {
         ['productivebees:stone_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
         Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{"naturesaura:time_alive":40},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:10.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:1,bee_productivity:1,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:digger_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Digger Bee"}')  // Output item.
     );
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 1,    // Profession and level.
-        ['productivebees:coarse_dirt_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:10.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:1,bee_productivity:2,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:chocolate_mining_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Chocolate Mining Bee"}')  // Output item.
-    );
+    
     event.addTrade(
         "spacecatcustomprofessions:apiarist", 1,    // Profession and level.
         ['productivebees:coarse_dirt_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
         Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:15.0f,Invulnerable:0b,MaxHealth:15.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:2,bee_productivity:0,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:leafcutter_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Leafcutter Bee"}')  // Output item.
-    );
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 1,    // Profession and level.
-        ['productivebees:coarse_dirt_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{"naturesaura:time_alive":40},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:7.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:1,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:ashy_mining_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Ashy Mining Bee"}')  // Output item.
-    );
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 1,    // Profession and level.
-        ['productivebees:sand_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:10.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:1,bee_productivity:2,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:chocolate_mining_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Chocolate Mining Bee"}')  // Output item.
-    );
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 1,    // Profession and level.
-        ['productivebees:sand_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{"naturesaura:time_alive":40},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:7.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:1,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:ashy_mining_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Ashy Mining Bee"}')  // Output item.
     );
     event.addTrade(
         "spacecatcustomprofessions:apiarist", 2,    // Profession and level.
@@ -279,17 +304,7 @@ MoreJSEvents.villagerTrades((event) => {
     event.addTrade(
         "spacecatcustomprofessions:apiarist", 1,    // Profession and level.
         ['productivebees:gravel_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:10.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:1,bee_productivity:2,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:chocolate_mining_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Chocolate Mining Bee"}')  // Output item.
-    );
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 1,    // Profession and level.
-        ['productivebees:gravel_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
         Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{"naturesaura:time_alive":40},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:10.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:1,bee_productivity:1,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:digger_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Digger Bee"}')  // Output item.
-    );
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 1,    // Profession and level.
-        ['productivebees:gravel_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{"naturesaura:time_alive":40},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:7.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:1,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:ashy_mining_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Ashy Mining Bee"}')  // Output item.
     );
     event.addTrade(
         "spacecatcustomprofessions:apiarist", 2,    // Profession and level.
