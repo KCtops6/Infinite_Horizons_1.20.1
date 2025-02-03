@@ -3083,24 +3083,6 @@
 			x: 2.75d
 			y: 5.25d
 		}
-		{
-			dependencies: ["700D0FB31E0D600E"]
-			id: "33A825E4DC4B6673"
-			tasks: [{
-				id: "43A3DB24BE822DC1"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:chest"
-					tag: {
-						woodType: "oak"
-					}
-				}
-				title: "Craft a Base Tier Sophistated Storage Device."
-				type: "item"
-			}]
-			x: 6.0d
-			y: -10.0d
-		}
 	]
 	title: "Alpha"
 }
