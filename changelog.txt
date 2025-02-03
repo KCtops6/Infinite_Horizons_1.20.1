@@ -1653,6 +1653,7 @@ Updated Chat Heads.
 Updated Connectivity.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
+Updated Sophisticated Storage.
 Updated Waystones.
 
 Added to Alpha (Vanilla) Questline.
