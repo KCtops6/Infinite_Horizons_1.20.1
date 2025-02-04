@@ -564,8 +564,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -737,6 +737,217 @@
 			}]
 			x: 7.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			id: "25902780B7580B55"
+			tasks: [{
+				id: "7D0FABD9E6261767"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:netherite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			hide_dependency_lines: true
+			id: "5EC534CFC7652062"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4429464C4597AD19"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:topaz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			hide_dependency_lines: true
+			id: "66A1FC1DA27D1275"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "56FA195BF49EC51A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:green_sapphire"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			hide_dependency_lines: true
+			id: "14BABD3FDAE3EBF3"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2E9BCBA5705CB6A3"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:malachite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			hide_dependency_lines: true
+			id: "7B9B41E77D96DCEB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3C4FFDCD4809988D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ruby"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			hide_dependency_lines: true
+			id: "59FBEEBEB70E1339"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1AF6482723ABFD5D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:apatite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			hide_dependency_lines: true
+			id: "1BCF10895B9D10B2"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3C488F10A44BDB74"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sapphire"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			hide_dependency_lines: true
+			id: "3365C6DB3AF8B185"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "695BB6E92133D6A6"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sodalite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["1740C429C097F102"]
+			id: "4E14CDC732CCAC30"
+			tasks: [{
+				id: "2057CEBA5B344792"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:experience"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E14CDC732CCAC30"]
+			id: "2C6E981FC63CAE29"
+			tasks: [{
+				id: "26DDD0E871B953F1"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:hyper_experience"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
 		}
 	]
 	title: "Epsilon"
