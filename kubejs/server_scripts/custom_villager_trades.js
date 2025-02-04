@@ -409,16 +409,17 @@ MoreJSEvents.villagerTrades((event) => {
             input2: TradeItem.of('minecraft:emerald', 1, 3),
             output: 'productivebees:spawn_egg_nomad_bee'
         },
+        // Oily Bee
+        {
+            level: 5,
+            input1: Item.of('minecraft:fishing_rod', '{Damage:0}'),
+            input2: 'productivebees:honey_treat',
+            output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:oily"}}')
+        },
     ];
 
     apiaristTrades.forEach(trade => {
         event.addTrade("spacecatcustomprofessions:apiarist", trade.level, [trade.input1, trade.input2], trade.output);
     });
-
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 5,    // Profession and level.
-        [Item.of('minecraft:fishing_rod', '{Damage:0}'), TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:0,bee_temper:0,bee_type:"hive",bee_weather_tolerance:0,breathCollectionCooldown:600,entity:"productivebees:configurable_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Oily Bee",type:"productivebees:oily"}')  // Output item.
-    );
 });
 
