@@ -402,17 +402,19 @@ MoreJSEvents.villagerTrades((event) => {
             input2: TradeItem.of('minecraft:emerald', 1, 3),
             output: 'productivebees:spawn_egg_neon_cuckoo_bee'
         },
+        // Nomad Bee
+        {
+            level: 2,
+            input1: 'productivebees:spawn_egg_ashy_mining_bee',
+            input2: TradeItem.of('minecraft:emerald', 1, 3),
+            output: 'productivebees:spawn_egg_nomad_bee'
+        },
     ];
 
     apiaristTrades.forEach(trade => {
         event.addTrade("spacecatcustomprofessions:apiarist", trade.level, [trade.input1, trade.input2], trade.output);
     });
 
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 5,    // Profession and level.
-        [Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{"naturesaura:time_alive":40},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:7.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:1,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:ashy_mining_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Ashy Mining Bee"}'), TradeItem.of('minecraft:emerald', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:10.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:1,bee_productivity:1,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:nomad_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Nomad Bee"}')  // Output item.
-    );
     event.addTrade(
         "spacecatcustomprofessions:apiarist", 5,    // Profession and level.
         [Item.of('minecraft:fishing_rod', '{Damage:0}'), TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
