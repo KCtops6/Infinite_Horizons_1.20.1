@@ -823,6 +823,31 @@
 			x: 10.0d
 			y: -7.75d
 		}
+		{
+			dependencies: [
+				"363E2BEA79219D62"
+				"5D3B08E08C06BAB8"
+			]
+			hide_dependency_lines: true
+			id: "629D7F47AFA4BB7E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1BF070EE4678294F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:arcane_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
 	]
 	title: "Forbidden and Arcanus"
 }

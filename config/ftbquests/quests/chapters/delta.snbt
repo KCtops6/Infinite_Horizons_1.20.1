@@ -675,6 +675,69 @@
 			x: 6.75d
 			y: 3.75d
 		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			hide_dependency_lines: true
+			id: "2DBF14A251884BCC"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7E7277FF4D3AB112"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:opal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			hide_dependency_lines: true
+			id: "33EA5104DC89B9CA"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5B4E09AD7BE6A22F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:pyrope"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			id: "0B24209CE5AFE7FD"
+			tasks: [{
+				id: "3535F4B0E07D8792"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:amethyst"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
 	]
 	title: "Epsilon"
 }
