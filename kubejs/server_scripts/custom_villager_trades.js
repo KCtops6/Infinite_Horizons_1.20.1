@@ -388,6 +388,13 @@ MoreJSEvents.villagerTrades((event) => {
             input2: 'minecraft:popped_chorus_fruit',
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:ender"}}')
         },
+        // Draconic Bee
+        {
+            level: 5,
+            input1: 'productivebees:end_stone_nest',
+            input2: 'minecraft:dragon_breath',
+            output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:draconic"}}')
+        },
     ];
 
     apiaristTrades.forEach(trade => {
