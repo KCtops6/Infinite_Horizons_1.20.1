@@ -367,16 +367,18 @@ MoreJSEvents.villagerTrades((event) => {
             input2: 'minecraft:quartz',
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:crystalline"}}')
         },
+        // Gold Bee
+        {
+            level: 4,
+            input1: 'productivebees:nether_gold_nest',
+            input2: 'minecraft:gold_ingot',
+            output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:gold"}}')
+        },
     ];
 
     apiaristTrades.forEach(trade => {
         event.addTrade("spacecatcustomprofessions:apiarist", trade.level, [trade.input1, trade.input2], trade.output);
     });
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 5,    // Profession and level.
-        ['productivebees:nether_gold_nest', TradeItem.of('minecraft:gold_ingot', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:0,bee_temper:0,bee_type:"hive",bee_weather_tolerance:0,breathCollectionCooldown:600,entity:"productivebees:configurable_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Gold Bee",type:"productivebees:gold"}')  // Output item.
-    );
     event.addTrade(
         "spacecatcustomprofessions:apiarist", 4,    // Profession and level.
         ['productivebees:nether_brick_nest', TradeItem.of('minecraft:magma_cream', 1, 3)],  // Input item(s).
