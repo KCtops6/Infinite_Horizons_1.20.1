@@ -332,21 +332,25 @@ MoreJSEvents.villagerTrades((event) => {
             input2: 'productivebees:honey_treat',
             output: 'productivebees:spawn_egg_sweat_bee'
         },
+        // Reed Bee
+        {
+            level: 2,
+            input1: 'productivebees:sugar_cane_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_reed_bee'
+        },
+        // Slimy Bee
+        {
+            level: 2,
+            input1: 'productivebees:slimy_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_slimy_bee'
+        },
     ];
 
     apiaristTrades.forEach(trade => {
         event.addTrade("spacecatcustomprofessions:apiarist", trade.level, [trade.input1, trade.input2], trade.output);
     });
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 2,    // Profession and level.
-        ['productivebees:sugar_cane_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:7.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:0,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:reed_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Reed Bee"}')  // Output item.
-    );
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 2,    // Profession and level.
-        ['productivebees:slimy_nest', TradeItem.of('productivebees:honey_treat', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:0,bee_temper:0,bee_type:"hive",bee_weather_tolerance:0,breathCollectionCooldown:600,entity:"productivebees:configurable_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Slimy Bee",type:"productivebees:slimy"}')  // Output item.
-    );
     event.addTrade(
         "spacecatcustomprofessions:apiarist", 3,    // Profession and level.
         ['productivebees:glowstone_nest', TradeItem.of('minecraft:glowstone_dust', 1, 3)],  // Input item(s).
