@@ -83,7 +83,7 @@
 				item: "productivebees:spawn_egg_ashy_mining_bee"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -126,8 +126,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.0d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -150,7 +150,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -171,7 +171,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -193,7 +193,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -216,7 +216,464 @@
 				type: "item"
 			}]
 			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DC952C2B1F7E08F"]
+			id: "7104AEC2B2F6449D"
+			tasks: [{
+				id: "613BDE1B63110691"
+				item: "productivebees:spawn_egg_mason_bee"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1FF461905D2DCE91"
+				"7104AEC2B2F6449D"
+			]
+			id: "295B3C068CD24192"
+			tasks: [{
+				id: "49E1159354D2F888"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silver"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DC952C2B1F7E08F"]
+			id: "7304250D323EA36F"
+			tasks: [{
+				id: "7230EDB6A993ED8C"
+				item: "productivebees:spawn_egg_blue_banded_bee"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7304250D323EA36F"
+				"1FF461905D2DCE91"
+			]
+			id: "135FF815AAE9E3E5"
+			tasks: [{
+				id: "1363494F5CF8FB11"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lead"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7AC26C18B66CECB1"
+				"295B3C068CD24192"
+			]
+			id: "4A186678DA7DA436"
+			tasks: [{
+				id: "66B5C7CBDCBB0676"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:signalum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7AC26C18B66CECB1"
+				"2C4664E471C5804E"
+			]
+			id: "571B26F2E549C941"
+			tasks: [{
+				id: "6D06B2B2482F1BB1"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DC952C2B1F7E08F"]
+			id: "7B01DEBAEE5AB103"
+			tasks: [{
+				id: "7796E73FA4489FEF"
+				item: "productivebees:spawn_egg_sweat_bee"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7B01DEBAEE5AB103"
+				"1FF461905D2DCE91"
+			]
+			id: "1718F82D7C8143A1"
+			tasks: [{
+				id: "7D9EE8FD21DA20AB"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zinc"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1718F82D7C8143A1"
+				"7AC26C18B66CECB1"
+			]
+			id: "797268A0A1743121"
+			tasks: [{
+				id: "63467A835330A7EB"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brass"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B01DEBAEE5AB103"]
+			id: "77830F42497B47C0"
+			tasks: [{
+				id: "2CD0F45E6FCED01C"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:frosty"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DC952C2B1F7E08F"]
+			id: "03AAF0F42D9C039D"
+			tasks: [{
+				id: "17D2A4495224811D"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ender"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:glowing"
+					}
+				}
+			}
+			id: "34A9D50D0B7B2CA6"
+			tasks: [
+				{
+					id: "6E220A9D69C07C5D"
+					item: {
+						Count: 1
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:glowing"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48B47B72D423679D"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:glowing"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "5D585072376CF5AD"
+			rewards: [{
+				id: "2DBCFCF0DA2E7A3F"
+				item: "pamhc2foodcore:chocolatemuffinitem"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "259D1BF191ED5298"
+				item: "productivebees:spawn_egg_chocolate_mining_bee"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"34A9D50D0B7B2CA6"
+				"5D585072376CF5AD"
+			]
+			id: "7090B45CD6346128"
+			tasks: [{
+				id: "61DA54F8ADFD7EA5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7090B45CD6346128"
+				"7304250D323EA36F"
+			]
+			id: "7734390F91DF6F1E"
+			tasks: [{
+				id: "16B9081BCBF1B133"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7734390F91DF6F1E"
+				"03AAF0F42D9C039D"
+			]
+			id: "363E2BEA79219D62"
+			tasks: [{
+				id: "54FF72E6B0317C5A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:diamond"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"135FF815AAE9E3E5"
+				"363E2BEA79219D62"
+			]
+			id: "01D7E1B482D82CD4"
+			tasks: [{
+				id: "5F5609A027112136"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:enderium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:slimy"
+					}
+				}
+			}
+			id: "18839615B3AC5E84"
+			tasks: [
+				{
+					id: "698706C5600A021E"
+					item: {
+						Count: 1
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:slimy"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25EFBFBA5EE5F796"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:slimy"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"363E2BEA79219D62"
+				"18839615B3AC5E84"
+			]
+			id: "1740C429C097F102"
+			tasks: [{
+				id: "7D5ADCF010C07149"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:emerald"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"363E2BEA79219D62"
+				"1FF461905D2DCE91"
+			]
+			id: "04CFF0FB045D1480"
+			tasks: [{
+				id: "4225BDB2B7D2EE87"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:titanium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["363E2BEA79219D62"]
+			hide_dependency_lines: true
+			id: "580F8D0580A96654"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "40B4C059C6D3FCE1"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:realgar"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 3.75d
 		}
 	]
 	title: "Epsilon"

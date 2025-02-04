@@ -836,6 +836,31 @@
 			x: 14.5d
 			y: -0.75d
 		}
+		{
+			dependencies: [
+				"10D4FE2EBC3230F9"
+				"363E2BEA79219D62"
+			]
+			hide_dependency_lines: true
+			id: "215E17A093E50F6E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3950C610B3F62D3A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:rose_quartz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.75d
+			y: 5.0d
+		}
 	]
 	title: "Beta"
 }
