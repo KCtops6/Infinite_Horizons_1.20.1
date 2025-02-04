@@ -258,7 +258,7 @@
 				item: "kubejs:signalum_ingot"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -494,6 +494,106 @@
 			}]
 			x: 5.0d
 			y: -1.0d
+		}
+		{
+			id: "575881A49753BCB2"
+			tasks: [{
+				id: "2DB67AA6B9FB690A"
+				item: "thermal:device_fisher"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "078371F1B482D470"
+			tasks: [{
+				id: "3AD2FBB6C29CD34C"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1CAC9DF19D63F29E"
+				"144B2C9C93E14921"
+			]
+			id: "39AA86E80572B604"
+			tasks: [{
+				id: "7397518363393B87"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "2B1E356011E52454"
+			tasks: [{
+				id: "4C05DBFFC872803F"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["321A1D17AD2E49CB"]
+			id: "7504D01A1FA05A69"
+			tasks: [{
+				id: "4E972F022BBD762F"
+				item: "thermal:device_xp_condenser"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "321A1D17AD2E49CB"
+			tasks: [{
+				id: "4C650963FB991A25"
+				item: {
+					Count: 1
+					id: "thermal:xp_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["321A1D17AD2E49CB"]
+			id: "164EFA63038DC1FD"
+			tasks: [{
+				id: "4802EF01209FCB25"
+				item: "thermal:xp_storage_augment"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "0787150BCF525486"
+			tasks: [{
+				id: "7667F73E0F484E15"
+				item: "thermal:device_nullifier"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "4F652A3E81A37D8F"
+			tasks: [{
+				id: "5F097C603773C246"
+				item: "thermal:device_potion_diffuser"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
 		}
 	]
 	title: "Thermal"
