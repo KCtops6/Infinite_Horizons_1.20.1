@@ -374,6 +374,13 @@ MoreJSEvents.villagerTrades((event) => {
             input2: 'minecraft:gold_ingot',
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:gold"}}')
         },
+        // Magmatic Bee
+        {
+            level: 5,
+            input1: 'productivebees:nether_brick_nest',
+            input2: 'minecraft:magma_cream',
+            output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:magmatic"}}')
+        },
     ];
 
     apiaristTrades.forEach(trade => {
