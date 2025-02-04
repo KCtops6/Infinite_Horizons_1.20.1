@@ -749,6 +749,53 @@
 			x: 2.75d
 			y: 8.0d
 		}
+		{
+			dependencies: [
+				"37FC509665310A74"
+				"533858BFB4238AD0"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:sticky_resin"
+					}
+				}
+			}
+			id: "3F286194977677E7"
+			optional: true
+			rewards: [{
+				id: "1190CAD1F7705D3F"
+				item: "gtceu:sticky_resin"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "1B6F7329F2AC0E9F"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:sticky_resin"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5ABB30B8ED272392"
+					item: "gtceu:sticky_resin"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 9.75d
+		}
 	]
 	title: "Foundations of Industry"
 }
