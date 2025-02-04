@@ -241,6 +241,31 @@ MoreJSEvents.villagerTrades((event) => {
             input2: 'productivebees:honey_treat',
             output: 'productivebees:spawn_egg_green_carpenter_bee'
         },
+        // Yellow Carpenter Bee
+        {
+            level: 1,
+            input1: 'productivebees:dark_oak_wood_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_yellow_black_carpenter_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:oak_wood_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_yellow_black_carpenter_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:birch_wood_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_yellow_black_carpenter_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:spruce_wood_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_yellow_black_carpenter_bee'
+        },
     ];
 
     apiaristTrades.forEach(trade => {
