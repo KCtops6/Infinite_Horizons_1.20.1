@@ -1659,6 +1659,7 @@ Updated Occultism.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
+Updated Supplementaries.
 Updated Waystones.
 
 Added to Alpha (Vanilla) Questline.
