@@ -1655,6 +1655,7 @@ Updated Cyclops Core.
 Updated Farmer's Delight.
 Updated Integrated Dynamics.
 Updated Integrated Tunnels.
+Updated Occultism.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
