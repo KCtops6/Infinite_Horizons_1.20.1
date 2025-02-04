@@ -395,31 +395,19 @@ MoreJSEvents.villagerTrades((event) => {
             input2: 'minecraft:dragon_breath',
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:draconic"}}')
         },
+        // Neon Cuckoo Bee
+        {
+            level: 2,
+            input1: 'productivebees:spawn_egg_blue_banded_bee',
+            input2: TradeItem.of('minecraft:emerald', 1, 3),
+            output: 'productivebees:spawn_egg_neon_cuckoo_bee'
+        },
     ];
 
     apiaristTrades.forEach(trade => {
         event.addTrade("spacecatcustomprofessions:apiarist", trade.level, [trade.input1, trade.input2], trade.output);
     });
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 4,    // Profession and level.
-        ['productivebees:nether_brick_nest', TradeItem.of('minecraft:magma_cream', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:0,bee_temper:0,bee_type:"hive",bee_weather_tolerance:0,breathCollectionCooldown:600,entity:"productivebees:configurable_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Magmatic Bee",type:"productivebees:magmatic"}')  // Output item.
-    );
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 4,    // Profession and level.
-        ['productivebees:end_stone_nest', TradeItem.of('minecraft:popped_chorus_fruit', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{"naturesaura:time_alive":40},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:0,bee_temper:0,bee_type:"hive",bee_weather_tolerance:0,breathCollectionCooldown:600,entity:"productivebees:configurable_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Ender Bee",type:"productivebees:ender"}')  // Output item.
-    );
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 5,    // Profession and level.
-        ['productivebees:obsidian_nest', TradeItem.of('minecraft:dragon_breath', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{"naturesaura:time_alive":40},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:10.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:0,bee_temper:0,bee_type:"hive",bee_weather_tolerance:0,breathCollectionCooldown:600,entity:"productivebees:configurable_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Draconic Bee",type:"productivebees:draconic"}')  // Output item.
-    );
-    event.addTrade(
-        "spacecatcustomprofessions:apiarist", 5,    // Profession and level.
-        [Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:15.0f,Invulnerable:0b,MaxHealth:15.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:2,bee_productivity:0,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:blue_banded_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Blue Banded Bee"}'), TradeItem.of('minecraft:emerald', 1, 3)],  // Input item(s).
-        Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:15.0f,Invulnerable:0b,MaxHealth:15.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:2,bee_productivity:2,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:neon_cuckoo_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Neon Cuckoo Bee"}')  // Output item.
-    );
+
     event.addTrade(
         "spacecatcustomprofessions:apiarist", 5,    // Profession and level.
         [Item.of('productivebees:sturdy_bee_cage', '{Age:0,AngerTime:0,BalmData:{},CanUpdate:1b,ForcedAge:0,ForgeCaps:{"curios:inventory":{Curios:[]},"mekanism:radiation":{radiation:1.0E-7d}},ForgeData:{"naturesaura:time_alive":40},HasConverted:0b,HasNectar:0b,HasStung:0b,Health:7.0f,Invulnerable:0b,MaxHealth:7.0f,PersistenceRequired:0b,bee_behavior:0,bee_endurance:0,bee_productivity:1,bee_temper:1,bee_type:"solitary",bee_weather_tolerance:0,entity:"productivebees:ashy_mining_bee","forge:spawn_type":"SPAWN_EGG",isProductiveBee:1b,mod:"ProductiveBees",name:"Ashy Mining Bee"}'), TradeItem.of('minecraft:emerald', 1, 3)],  // Input item(s).
