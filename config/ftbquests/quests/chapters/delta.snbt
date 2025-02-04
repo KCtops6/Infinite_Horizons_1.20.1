@@ -75,6 +75,149 @@
 			x: -1.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["4DC952C2B1F7E08F"]
+			id: "359A90CB5EB27F6E"
+			tasks: [{
+				id: "59DE2D9C0AFA1378"
+				item: "productivebees:spawn_egg_ashy_mining_bee"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DC952C2B1F7E08F"]
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:crystalline"
+					}
+				}
+			}
+			id: "3BF103C6DFC36239"
+			tasks: [
+				{
+					id: "7736B165B71F090D"
+					item: {
+						Count: 1
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:crystalline"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B4996582DBC26A4"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:crystalline"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"359A90CB5EB27F6E"
+				"3BF103C6DFC36239"
+			]
+			description: ["Iron bees can restore anvils under them by the way."]
+			id: "1FF461905D2DCE91"
+			tasks: [{
+				id: "618D430C1851CF61"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"359A90CB5EB27F6E"
+				"3BF103C6DFC36239"
+			]
+			id: "69549AAA79F7616A"
+			tasks: [{
+				id: "04A28BC404979039"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:aluminum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"359A90CB5EB27F6E"
+				"3BF103C6DFC36239"
+			]
+			id: "2C4664E471C5804E"
+			tasks: [{
+				id: "7E8EE202A4DB1139"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tin"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"359A90CB5EB27F6E"
+				"3BF103C6DFC36239"
+			]
+			id: "7AC26C18B66CECB1"
+			tasks: [{
+				id: "4B1AF0129EADB647"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
 	]
 	title: "Epsilon"
 }
