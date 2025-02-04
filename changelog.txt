@@ -1664,4 +1664,5 @@ Updated Waystones.
 
 Added to Alpha (Vanilla) Questline.
 Added to Delta (Productive Bees) Questline.
+Added Thermal Questline.
 Fixed Recipe for Infinitium Block.
