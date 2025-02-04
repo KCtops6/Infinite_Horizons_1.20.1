@@ -344,7 +344,7 @@ MoreJSEvents.villagerTrades((event) => {
             level: 2,
             input1: 'productivebees:slimy_nest',
             input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_slimy_bee'
+            output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:slimy"}}')
         },
         // Glowing Bee
         {
