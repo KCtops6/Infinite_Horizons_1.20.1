@@ -1657,4 +1657,5 @@ Updated Sophisticated Storage.
 Updated Waystones.
 
 Added to Alpha (Vanilla) Questline.
+Added to Delta (Productive Bees) Questline.
 Fixed Recipe for Infinitium Block.

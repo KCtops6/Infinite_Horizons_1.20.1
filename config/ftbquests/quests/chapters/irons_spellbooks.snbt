@@ -357,7 +357,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["0E8A24843AD29391"]
+			dependencies: [
+				"0E8A24843AD29391"
+				"25902780B7580B55"
+			]
 			id: "3A1F9D59D53C7A85"
 			optional: true
 			size: 0.5d
@@ -388,28 +391,6 @@
 			}]
 			x: -1.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["25902780B7580B55"]
-			hide_dependency_lines: true
-			id: "36FC2081C7B57F85"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "74EEBB78DA895DE6"
-				item: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:arcane_debris"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.25d
-			y: -2.75d
 		}
 	]
 	title: "Iron's Spellbooks"
