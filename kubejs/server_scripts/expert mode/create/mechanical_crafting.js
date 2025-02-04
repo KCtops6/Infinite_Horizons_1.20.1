@@ -1,5 +1,79 @@
 //packmode: expert
 ServerEvents.recipes(event => {
+    // Pity Machine Frame
+    event.remove({ id: "industrialforegoing:machine_frame_pity" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "thermal:machine_frame"
+            },
+            B: {
+                item: "kubejs:iron_plate"
+            },
+            C: {
+                tag: "minecraft:logs"
+            }
+        },
+        pattern: [
+            "CBC",
+            "BAB",
+            "CBC"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:machine_frame_pity"
+        }
+    });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "thermal:machine_frame"
+            },
+            B: {
+                item: "kubejs:invar_plate"
+            },
+            C: {
+                tag: "minecraft:logs"
+            }
+        },
+        pattern: [
+            "CBC",
+            "BAB",
+            "CBC"
+        ],
+        result: {
+            count: 2,
+            item: "industrialforegoing:machine_frame_pity"
+        }
+    });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "thermal:machine_frame"
+            },
+            B: {
+                item: "kubejs:steel_plate"
+            },
+            C: {
+                tag: "minecraft:logs"
+            }
+        },
+        pattern: [
+            "CBC",
+            "BAB",
+            "CBC"
+        ],
+        result: {
+            count: 4,
+            item: "industrialforegoing:machine_frame_pity"
+        }
+    });
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
