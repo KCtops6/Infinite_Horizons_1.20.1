@@ -191,7 +191,7 @@ MoreJSEvents.villagerTrades((event) => {
             input2: 'productivebees:honey_treat',
             output: 'productivebees:spawn_egg_ashy_mining_bee'
         },
-
+        // Chocolate Mining Bee
         {
             level: 1,
             input1: 'productivebees:gravel_nest',
@@ -210,10 +210,41 @@ MoreJSEvents.villagerTrades((event) => {
             input2: 'productivebees:honey_treat',
             output: 'productivebees:spawn_egg_chocolate_mining_bee'
         },
+        // Green Carpenter Bee
+        {
+            level: 1,
+            input1: 'productivebees:dark_oak_wood_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_green_carpenter_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:oak_wood_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_green_carpenter_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:mangrove_wood_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_green_carpenter_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:jungle_wood_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_green_carpenter_bee'
+        },
+        {
+            level: 1,
+            input1: 'productivebees:birch_wood_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_green_carpenter_bee'
+        },
     ];
 
     apiaristTrades.forEach(trade => {
-        event.addTrade("spacecatcustomprofessions:apiarist")
+        event.addTrade("spacecatcustomprofessions:apiarist", level, [input1, input2], output);
     })
     event.addTrade(
         "spacecatcustomprofessions:apiarist", 1,    // Profession and level.
