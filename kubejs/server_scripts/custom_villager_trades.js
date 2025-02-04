@@ -292,6 +292,19 @@ MoreJSEvents.villagerTrades((event) => {
             input2: 'productivebees:honey_treat',
             output: 'productivebees:spawn_egg_blue_banded_bee'
         },
+        // Mason Bee
+        {
+            level: 2,
+            input1: 'productivebees:stone_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_blue_banded_bee'
+        },
+        {
+            level: 2,
+            input1: 'productivebees:sugar_cane_nest',
+            input2: 'productivebees:honey_treat',
+            output: 'productivebees:spawn_egg_mason_bee'
+        },
     ];
 
     apiaristTrades.forEach(trade => {
