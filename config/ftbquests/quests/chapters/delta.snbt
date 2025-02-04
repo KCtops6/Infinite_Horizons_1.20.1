@@ -72,8 +72,8 @@
 				item: "productivebees:spawn_egg_resin_bee"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4DC952C2B1F7E08F"]
@@ -418,7 +418,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -990,7 +990,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -1012,7 +1012,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -1034,7 +1034,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 1.0d
 		}
 	]

@@ -64,7 +64,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["11420255961C2341"]
+			dependencies: [
+				"11420255961C2341"
+				"6E36B0046E4BFF7C"
+				"37FC509665310A74"
+			]
 			hide_dependency_lines: true
 			id: "6F7FAD992235885A"
 			optional: true
