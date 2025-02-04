@@ -1651,6 +1651,7 @@ Removed Sophisticated Backpacks Questline and Condensed it into Alpha (Vanilla) 
 Updated Apotheosis.
 Updated Chat Heads.
 Updated Connectivity.
+Updated Cyclops Core.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
