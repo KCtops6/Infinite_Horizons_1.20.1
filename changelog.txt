@@ -1652,6 +1652,7 @@ Updated Apotheosis.
 Updated Chat Heads.
 Updated Connectivity.
 Updated Cyclops Core.
+Updated Farmer's Delight.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
