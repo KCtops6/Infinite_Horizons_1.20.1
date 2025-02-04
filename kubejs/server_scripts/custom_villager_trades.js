@@ -381,6 +381,13 @@ MoreJSEvents.villagerTrades((event) => {
             input2: 'minecraft:magma_cream',
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:magmatic"}}')
         },
+        // Ender Bee
+        {
+            level: 5,
+            input1: 'productivebees:end_stone_nest',
+            input2: 'minecraft:popped_chorus_fruit',
+            output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:ender"}}')
+        },
     ];
 
     apiaristTrades.forEach(trade => {
