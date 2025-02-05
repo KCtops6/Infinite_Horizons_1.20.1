@@ -82,6 +82,38 @@ ServerEvents.recipes(event => {
             item: "industrialforegoing:fluid_extractor"
         }
     });
+    // Latex Processing Unit
+    event.remove({ id: "industrialforegoing:latex_processing_unit" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_pity"
+            },
+            B: {
+                item: "thermal:machine_furnace"
+            },
+            C: {
+                item: "create:fluid_tank"
+            },
+            D: {
+                item: "kubejs:invar_plate"
+            },
+            E: {
+                item: "redstone_arsenal:flux_gem_block"
+            }
+        },
+        pattern: [
+            "DED",
+            "CAC",
+            "DBD"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:latex_processing_unit"
+        }
+    });
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
