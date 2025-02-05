@@ -50,6 +50,7 @@ ServerEvents.recipes(event => {
             item: "industrialforegoing:machine_frame_pity"
         }
     });
+
     // Fluid Extractor
     event.remove({ id: "industrialforegoing:fluid_extractor" });
     event.custom({
@@ -82,6 +83,7 @@ ServerEvents.recipes(event => {
             item: "industrialforegoing:fluid_extractor"
         }
     });
+
     // Latex Processing Unit
     event.remove({ id: "industrialforegoing:latex_processing_unit" });
     event.custom({
@@ -114,6 +116,43 @@ ServerEvents.recipes(event => {
             item: "industrialforegoing:latex_processing_unit"
         }
     });
+
+    // Dissolution Chamber
+    event.remove({ id: "industrialforegoing:dissolution_chamber" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_pity"
+            },
+            B: {
+                item: "kubejs:enderium_gear"
+            },
+            C: {
+                item: "create:fluid_tank"
+            },
+            D: {
+                item: "kubejs:electrum_plate"
+            },
+            E: {
+                item: "industrialforegoing:plastic"
+            },
+            F: {
+                item: "thermal:item_buffer"
+            }
+        },
+        pattern: [
+            "EFE",
+            "CAC",
+            "DBD"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:dissolution_chamber"
+        }
+    });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
