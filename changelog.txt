@@ -1654,6 +1654,7 @@ Updated Connectivity.
 Updated Create: Connected.
 Updated Cyclops Core.
 Updated Farmer's Delight.
+Updated FTB Chunks (Forge).
 Updated Integrated Dynamics.
 Updated Integrated Tunnels.
 Updated Occultism.
