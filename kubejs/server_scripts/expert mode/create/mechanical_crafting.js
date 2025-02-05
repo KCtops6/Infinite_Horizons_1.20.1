@@ -50,28 +50,36 @@ ServerEvents.recipes(event => {
             item: "industrialforegoing:machine_frame_pity"
         }
     });
+    // Fluid Extractor
+    event.remove({ id: "industrialforegoing:fluid_extractor" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
         key: {
             A: {
-                item: "thermal:machine_frame"
+                item: "industrialforegoing:machine_frame_pity"
             },
             B: {
-                item: "kubejs:steel_plate"
+                item: "create:mechanical_pump"
             },
             C: {
-                tag: "minecraft:logs"
+                item: "create:fluid_tank"
+            },
+            D: {
+                item: "kubejs:invar_plate"
+            },
+            E: {
+                item: "kubejs:electrum_plate"
             }
         },
         pattern: [
-            "CBC",
-            "BAB",
-            "CBC"
+            "DED",
+            "CAC",
+            "DBD"
         ],
         result: {
-            count: 4,
-            item: "industrialforegoing:machine_frame_pity"
+            count: 1,
+            item: "industrialforegoing:fluid_extractor"
         }
     });
     // Material Stonework Factory
