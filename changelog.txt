@@ -1658,6 +1658,7 @@ Updated Essential Mod.
 Updated ExtendedAE.
 Updated Farmer's Delight.
 Updated FTB Chunks (Forge).
+Updated FTB Quests (Forge).
 Updated FTB Library (Forge).
 Updated Integrated Dynamics.
 Updated Integrated Tunnels.
