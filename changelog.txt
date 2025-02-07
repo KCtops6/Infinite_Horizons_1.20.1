@@ -1660,6 +1660,7 @@ Updated FTB Library (Forge).
 Updated Integrated Dynamics.
 Updated Integrated Tunnels.
 Updated Occultism.
+Updated Patchouli.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
