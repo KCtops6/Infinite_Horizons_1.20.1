@@ -1656,6 +1656,7 @@ Updated Cyclops Core.
 Updated Essential Mod.
 Updated Farmer's Delight.
 Updated FTB Chunks (Forge).
+Updated FTB Library (Forge).
 Updated Integrated Dynamics.
 Updated Integrated Tunnels.
 Updated Occultism.
