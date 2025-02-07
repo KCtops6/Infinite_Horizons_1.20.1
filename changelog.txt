@@ -1649,6 +1649,7 @@ Removed Sophisticated Backpacks Questline and Condensed it into Alpha (Vanilla) 
 
 1.20.1-9.7
 Updated Apotheosis.
+Updated Balm.
 Updated Chat Heads.
 Updated Connectivity.
 Updated Create: Connected.
