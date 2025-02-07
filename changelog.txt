@@ -1655,6 +1655,7 @@ Updated Connectivity.
 Updated Create: Connected.
 Updated Cyclops Core.
 Updated Essential Mod.
+Updated ExtendedAE.
 Updated Farmer's Delight.
 Updated FTB Chunks (Forge).
 Updated FTB Library (Forge).
