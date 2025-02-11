@@ -1685,3 +1685,4 @@ Updated Collective.
 Updated Create Stuff & Additions.
 Updated Delightful.
 Updated Drippy Loading Screen.
+Updated FancyMenu.
