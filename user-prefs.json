@@ -90,23 +90,23 @@
         "isSelected": false
       },
       {
-        "path": "backups\\2025-1-14_21-0-0.zip",
+        "path": "backups\\2025-2-4_14-0-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-1-18_15-30-0.zip",
+        "path": "backups\\2025-2-4_14-30-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-1-19_17-30-0.zip",
+        "path": "backups\\2025-2-5_10-0-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-1-20_23-0-0.zip",
+        "path": "backups\\2025-2-5_10-30-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-1-31_10-0-0.zip",
+        "path": "backups\\2025-2-5_11-0-0.zip",
         "isSelected": false
       },
       {
@@ -1191,6 +1191,10 @@
       },
       {
         "path": "config\\ftbquests\\quests\\chapters\\synthetic_solutions.snbt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ftbquests\\quests\\chapters\\thermal.snbt",
         "isSelected": true
       },
       {
@@ -3262,6 +3266,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\0\\2\\41cc45a17604c84bbedb8961e366eac8efe6a8756b1aa4290778069f16f286",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\0\\2\\4907a63f21718fdec5b62699f0dd60a5166b875c37d27a23857d07d392f088",
         "isSelected": false
       },
@@ -3335,6 +3343,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\0\\3\\5dbe5564367254059ffbb0ca7033b1",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\0\\3\\7261ac94209e3f6853a6fa4fb01d49cb3754abd49ff57fffd0fd732d6ad679",
         "isSelected": false
       },
       {
@@ -3914,6 +3926,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\0\\d\\8e4f2c0ae8174868fc2b6404e7cf039d6e6350b74f793fe5d3d9b2a308fa4b",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\0\\d\\ea9def5090154ed4a788cb716c9b68e3413e76a38c47ea5f84cc1269bf6761",
         "isSelected": false
       },
@@ -4362,6 +4378,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\1\\5\\3b92aa72d7699cd863d699cb88abf0b91f9b239fe7ee94ac706d6b84cf3e45",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\1\\5\\449ec00e834c5b7adc9b83259b6d29",
         "isSelected": false
       },
@@ -4407,6 +4427,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\1\\6\\bfcb90ab46fff98c179636a2f282283b82efcd64fd1ce5f8dd4f18e1eab128",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\1\\6\\ce060f4f7ced35e44d05ae4d070bc7e0e18706da66435eed19114f34e06b4f",
         "isSelected": false
       },
       {
@@ -5438,6 +5462,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\2\\9\\34466d2db3cccc811db5542e76047a4f2bf8355f60a04738550c4882d8d798",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\2\\9\\6817aea79954345b9aa3d29736820627d516ed304e280df65de856ff422956",
         "isSelected": false
       },
@@ -5479,6 +5507,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\2\\a",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\2\\a\\26f88de0554c2aca265d194678347e1b80b1b1465265bcb2af517e05758afe",
         "isSelected": false
       },
       {
@@ -5610,6 +5642,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\2\\c\\30442f5a2a32d46d9307482249e263a4b621f0d6a3c96a521fbf182977ebda",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\2\\c\\358977c3c3bd0e804549e5fba5cb64607b49c71a6d8e8f73524c8f80d9695e",
         "isSelected": false
       },
@@ -5726,6 +5762,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\2\\e\\d840c838c86ab5f742f641a3414b1f2764fe85ae2cc59f77e35ee99fde7159",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\2\\e\\e967a18f61bdadcd1cabc55195503f",
         "isSelected": false
       },
@@ -5751,6 +5791,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\2\\f\\60fad5e3db62057b018a0f04840c89",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\2\\f\\68c5f1680fa396cea3c00769eb8fdf9bb83b7eaa8e5ec4bf5c4159228e36e9",
         "isSelected": false
       },
       {
@@ -5783,6 +5827,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\2\\f\\c574029d2a419d83afbfbec568b848",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\2\\f\\c72a4491d780fd615ea3d422372b1b2e2d31a82f2afedf9655b1b089bc58aa",
         "isSelected": false
       },
       {
@@ -5863,6 +5911,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\3\\1\\22aa8ff35585e7d0c86aee75cd1a43",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\3\\1\\25a2c542a3c8dd456cb2b2acd022f2bffab71601c04a8ee0e463a79552efdc",
         "isSelected": false
       },
       {
@@ -6146,6 +6198,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\3\\5\\69de6601f5fe0e6eea3ace0c69b342c67f05d104551a4bd29283187f0f6949",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\3\\5\\82ca76e7a3183ea903c6861fe35814",
         "isSelected": false
       },
@@ -6370,7 +6426,15 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\3\\9\\91895de29e6a9c8f11e4b1719f82b91240fd6275028ebeeb41756636b07235",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\3\\9\\a1a01b44d36ca4da04a75c72b9994bc878ec8f6f83f168821cf9ac125106b7",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\3\\9\\b14abb0d1abb5404dc82d193affc66bdabf3e086c063ff413454a5150bd883",
         "isSelected": false
       },
       {
@@ -6451,6 +6515,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\3\\b\\749d3012558a8f3724941be6b6b47eb86499a0b761f7a5de4a91feffca0455",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\3\\b\\7cb0a1b637e3af2876f8302be9f86e6546c1ddbf8da08914fffee9eccb0684",
         "isSelected": false
       },
       {
@@ -6719,6 +6787,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\3\\f\\7d1d643aebb451f5b7e3cf951dd0ab",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\3\\f\\8aa12c2c6d56d14057abb8f06c75a810b0b5e9c3cb8bb3a18eecdd9777c892",
         "isSelected": false
       },
       {
@@ -7598,6 +7670,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\4\\f\\87bd999f04d454eb244ddd401d3d7cff3ead5e37f7483d1a87e96141a54895",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\4\\f\\98953cb584f47d2b0a3bcb3b4b384c",
         "isSelected": false
       },
@@ -8270,6 +8346,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\5\\a\\c1ca68c1459f7529b46f01d0148730a25713193a13cd95c25fda922b34490d",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\5\\a\\c430256362b84de7789c0ceae5f6c3",
         "isSelected": false
       },
@@ -8351,6 +8431,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\5\\b\\cabc3526c5a27ed91a9e6a31f1ef9f1e0ddf2f161660f651501bfa03874f20",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\5\\b\\cf1915d3059cf7dff5c99de6a7626e2c64af470f6b1356860685fa5e75a21d",
         "isSelected": false
       },
       {
@@ -8726,6 +8810,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\6\\2\\8ff026f1e54b4333c509c9175d08dcc9eb0544adb05035082619324c4e04ba",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\6\\2\\bea1cb769d598f2358d43813d4581998ed36a3f818c245d6648cbca28e04e5",
         "isSelected": false
       },
@@ -8743,6 +8831,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\6\\3",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\6\\3\\0196883e0f4578bc3dfd833acc6ec5068fb495305fd6b102b6d61b5a93bf7c",
         "isSelected": false
       },
       {
@@ -9118,6 +9210,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\6\\9\\9724fbc8828f41431ebc545057dcc42c3c62dee82a3c74b7743850e10835af",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\6\\9\\bdc2ec8264e9a95e93b7e52a0c202b",
         "isSelected": false
       },
@@ -9162,11 +9258,23 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\6\\a\\551f9bb2dafe5b9bffc6c6e182aed45c5d4a534de723219d5958e7f8c852f6",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\6\\a\\56437ad4773b03b3c50d300e97a001c816ceb7f002e36b463f7c0793df3cda",
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\6\\a\\87619a3fc43e315ff29853e06c11c9e6868cabc358643ef2df5e0f7c0e1c23",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\6\\a\\a42db5e668c652c34497a6ba839234cd015b9a900e90d6f4a3bf2aa07c86de",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\6\\a\\a64ffe0161b24bc95a6bb9619e7d2f976ea3cdb0da3981a4bc1766e9aa7a8f",
         "isSelected": false
       },
       {
@@ -9283,6 +9391,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\6\\c\\9814f37c3128906372e3db2f12111576be0f32c408381c80d53740b663c80a",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\6\\c\\a7cca8070e112904fa9ac97d1b37fedc7a05511969e5b6f61b7530d4206276",
         "isSelected": false
       },
       {
@@ -9411,6 +9523,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\6\\e\\5e32001268ac5a99fd80c13d593903808929d94f6758f20340c01b1271f07b",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\6\\e\\79db9b5b8b0a884c79754877200a5791e5be90f996583857046e9378cc5b32",
         "isSelected": false
       },
       {
@@ -9547,6 +9663,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\7\\0\\800e5f834d3f5164e59e75cdf9f4903da3c0f2c803502d3f3fe5b9d24e35ce",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\7\\0\\82b8ff3c58d9adaf382a345095667f7d778673cac39e72bc32cb55ad51058f",
         "isSelected": false
       },
       {
@@ -10126,6 +10246,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\7\\a\\0136777b3ed600f8b982eba2779dd26f16d21fbd1e9b648e18b4298fdd24a9",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\7\\a\\05a4f67ddc7661ef6c3833dba28433",
         "isSelected": false
       },
@@ -10139,6 +10263,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\7\\a\\2f0753dc2cae675440b9d438858151d700098846db39ffb8fed67d92e8e258",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\7\\a\\348aa05edc2ad8d82217614be9c2fb3c752efcd36742677e7f367522e1aa67",
         "isSelected": false
       },
       {
@@ -10178,11 +10306,19 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\7\\b\\4ecbcfb1374b88d611ce35bc0365c8dd3e78f5ba05b27848c7db51527fc242",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\7\\b\\6bf4fd9fc845f7044f532b5ac9b32f",
         "isSelected": false
       },
       {
         "path": "essential\\cosmetic-cache\\7\\b\\8af2ebceb09922daefed507f275a3e06bd96e27d5f30db62785811d6561489",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\7\\b\\96389262ee2c67eb428b66cccb878555709a3141ced57bc1e3e8edfa8f321b",
         "isSelected": false
       },
       {
@@ -10414,6 +10550,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\7\\f\\a58c6d7f64774aa647793855dcd93e6d9f18369bc38784bd437184132e987a",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\7\\f\\e38121bce213da73c5cc36139e21d1",
         "isSelected": false
       },
@@ -10547,6 +10687,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\8\\1\\cb6036ae505a7e40de02be9488189e45da27af23dd570b6b6c9c557320aedd",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\8\\1\\e1df88acd77c5d7e77a2bf2ba4be0212139ebcfdf32ee71b3247dba33468a4",
         "isSelected": false
       },
       {
@@ -10954,6 +11098,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\8\\7\\9897aaba213bccf631f20db3978ddbe7776d7a1de7be46fdbe4db6429ffd9e",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\8\\7\\b9a3efe14ac63c43288a61ad4fbcb4d50f1f966e3e0b5b930ad62546ab92a7",
         "isSelected": false
       },
@@ -11051,6 +11199,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\8\\9\\2a987322a39ec684c2066760e40251d69dadbb3a758faffcee95cdfe683580",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\8\\9\\2c6d483967e81ce2b322b13ecbc3502dce4f57fad502702f91198355f33283",
         "isSelected": false
       },
       {
@@ -11178,6 +11330,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\8\\a\\f943fc7b30576770c026641db6c0b963db350643fb7d359f6c062fc7745f60",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\8\\b",
         "isSelected": false
       },
@@ -11235,6 +11391,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\8\\c\\27e1114d8462638a0a4fd0993163d8ce3e2d38a914d35c9346b7b85c7a79d1",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\8\\c\\282c29a3e2b92f572e8f604222505a0c69561b2ae0250a0f35d9f349a689c8",
         "isSelected": false
       },
       {
@@ -11646,6 +11806,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\9\\3\\e5b97caaca6a761e7ac75542e56ab53214cea65a15d476f8a4544f93db4656",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\9\\4",
         "isSelected": false
       },
@@ -11738,6 +11902,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\9\\5\\606bd4c89a1eceff4760a54642d2cdc88892578b8b7ce90ddc0a3b7af2f165",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\9\\5\\6be0f881cba69cd94dcf629e2c0e1d2321494dfcc083fe505d76613ac51310",
         "isSelected": false
       },
@@ -11818,6 +11986,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\9\\7\\5f5a32fffaf3d02bf289ec4f019779659a038762195af4548534313d3cae1d",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\9\\7\\609d28c97a7f125740b234c01aa34a8cc4e35911dc6a122c61793d3d3c72e5",
         "isSelected": false
       },
@@ -11867,6 +12039,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\9\\8\\486781e9075753ba264e9fae0eade6f5d8c3d8dd8e7f5205dbfc7c1844b906",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\9\\8\\4ab8eb07061dad4bb47d86f7ce925e4d42c3158af08df2b429886afeb8e08a",
         "isSelected": false
       },
       {
@@ -11947,6 +12123,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\9\\9\\4d295d5a8453c2ce65996a5e0cb397",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\9\\9\\54ea9846b4bbe360f14041267fba465de761c936260ada6729b03cd68d48e6",
         "isSelected": false
       },
       {
@@ -12622,6 +12802,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\a\\4\\dc79e762d6d1254642bdbb227562684ee1180f5a210bd2dcb739bb31bde6bd",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\a\\4\\ed31b8278432ae1a03a5a490f2fa78ea6ee884da193dd6aac694dc63808557",
         "isSelected": false
       },
@@ -12786,7 +12970,15 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\a\\7\\cc0cef930fb09377d7b4256682aca2a2efe354912b5cda22fde1d67b83589b",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\a\\7\\cdffbe191e5105d9c1a69f49ee306a90e7b06b0072911765bd62fd3c4d0b5c",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\a\\7\\de615c29f36c9c05879dc72905707cbae1e4b2b2f95fe18f8c24c667fb3971",
         "isSelected": false
       },
       {
@@ -12895,6 +13087,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\a\\9\\ecadba6498a416d6146000b55ae5973699f75333618f52e32bf778b4463f0b",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\a\\9\\ed935a8a2209850b3da98f787f6601bf4ce42d95f4a286f5f9da1f9185f3e0",
         "isSelected": false
       },
       {
@@ -13059,6 +13255,14 @@
       },
       {
         "path": "essential\\cosmetic-cache\\a\\c\\d3e7647b3d7d4cf0312fd2259b382e",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\a\\c\\dbdcca1fdc664e7611e888fa03475cc16231e464c85bfce70732a033067ba4",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\a\\c\\dee8d044234da564f0cc1d7c218cad6049ff8a38233f4b529f37018fc40d7a",
         "isSelected": false
       },
       {
@@ -13322,6 +13526,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\b\\1\\2cbb29d8b9cf747cc6817fd13b7d2b5bfa29aeb46e6271a9b1801ea0a83f21",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\b\\1\\349d05798e3f8f4fc8a72cf69af1fbffe848e2a128ca89f5e10498ac35b914",
         "isSelected": false
       },
@@ -13430,6 +13638,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\b\\3\\964790374f3f80d3429fc1f1393bdc9c6c57a5f970fc5f04959833837fcb0e",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\b\\3\\a03626823d9370719fe1f6613b4c4f",
         "isSelected": false
       },
@@ -13523,6 +13735,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\b\\5",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\b\\5\\0860ce89339e778a41859b515ebe4caa00d51678f939b2ee472f90ef72fcde",
         "isSelected": false
       },
       {
@@ -14238,6 +14454,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\c\\1\\34b09fafd012cdfdcc6ebf602f30322e4781f720880d06365a98e0c90ef1f8",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\c\\1\\5a462a5a2fdf8bda35c12fc34e905d476ae1c0e01701766ed9f505b69a48a6",
         "isSelected": false
       },
@@ -14299,6 +14519,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\c\\2\\7103a536f8b289cbdbd47590264bf6a7abce5b1b0745b2f174533f5865a752",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\c\\2\\8264e84e3b79ec13d6084af070b2457f1b47d396995d451ed87445c9fa77a2",
         "isSelected": false
       },
       {
@@ -14535,6 +14759,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\c\\7",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\c\\7\\03351ac9b01d8e3bcf67671762febd0a7a013a6a9c0a5459dd01755804ce8a",
         "isSelected": false
       },
       {
@@ -15018,6 +15246,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\d\\0\\b6945dc7aefdc00ac6503677ebf05d2be20986eb799a5aca76da841d114240",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\d\\0\\b9cf471e2a2e42a0150acd5a74574de818316c9434d08064adf299008ffd73",
         "isSelected": false
       },
@@ -15111,6 +15343,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\d\\2\\4f7c02ce9885ec9daeea9cd8537f7c20efab9bb11f022c1f5467db476db69f",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\d\\2\\7d40fd3b62e0d73063372a1e18e6d994bf91a047a846235a5bc2f13a540cda",
         "isSelected": false
       },
       {
@@ -15287,6 +15523,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\d\\5\\2a14683455b8769801a424c10c6416f6e4600566e0238132999353cca550bb",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\d\\5\\2fce7a9fd40bd4c554eeca33b85d7f954f81ebb5e206d265371a9f6e3c368e",
         "isSelected": false
       },
       {
@@ -15902,6 +16142,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\d\\e\\cbba94da91db129bd7360fc83a272a8b7a990bac12bee929b4e40c54c664dc",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\d\\e\\ed79e43fc111321e6f5a91ee1d4714e70bb2e07de3cdc794be66a25218a7e1",
         "isSelected": false
       },
@@ -16266,6 +16510,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\e\\5\\a04d226317da0467292e3402c569c0976efd788d125717c7618ddfa5394279",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\e\\5\\c09ee7d72c1a5e32a08e126e4445ceffea6a9e49d05e79b1159d919591b06a",
         "isSelected": false
       },
@@ -16342,11 +16590,19 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\e\\6\\b9f16e6d125c91785c08d463f2c15230f70ee52f55ca2a2c3f94f70285ce55",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\e\\6\\d39d3cce777e2c3b1ac3acb6c2ec58a78764805f2dbedc85b3e87f8d3fd6ea",
         "isSelected": false
       },
       {
         "path": "essential\\cosmetic-cache\\e\\6\\d7c8ae81ac10ad7540d6a199927ebf",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\e\\6\\e05abbef87463b36767ea737abd5acadf53866205f39e590bdacc321cc953c",
         "isSelected": false
       },
       {
@@ -17010,11 +17266,19 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\f\\2\\f408a40828dbea9abf109254f5fdcc8f9ab875f39d5df046d709097a1baeb1",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\f\\3",
         "isSelected": false
       },
       {
         "path": "essential\\cosmetic-cache\\f\\3\\015cc7b92941f39afe5f114f8ec45c",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\f\\3\\1b2221a95115dc13bae293241bb54259e66e817d652a2247c898b3eedbf7f9",
         "isSelected": false
       },
       {
@@ -17063,6 +17327,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\f\\4\\022c1eb8e83025482ada5202451b9aae13ad650764124fa578651f03dc5c17",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\f\\4\\0e6fafc6b02f9068208bbb53052bc44023a92b1d963deaf3011cb4a4cbd3d8",
         "isSelected": false
       },
       {
@@ -17226,6 +17494,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\f\\6\\f8efa67f6f0fe3d6a67981dce8ea4b8b45435b3bd8a500b752cbe50df75cbb",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\f\\6\\fe58a0e15b5c698339e6807cb5db5b6e8532962570f00fa42c38bdbf0c54b7",
         "isSelected": false
       },
@@ -17263,6 +17535,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\f\\7\\7903d166dd787c0b373f10d9262f019b03f2f27a92d78c1f0e3c1802e4dace",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\f\\7\\9e2b5bf442a6cd9683db60187852c6dccfccd62d2f5aa8b8554dcc7fe5004f",
         "isSelected": false
       },
       {
@@ -17450,6 +17726,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\f\\a\\5699f05855cf8ac4b226fde72a00a356559aa254894eebda64c8180d270281",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\f\\a\\7d9287b23945371d0cc65efaf0b7ca71cc8ed6dc1636249fb23c0a342dab35",
         "isSelected": false
       },
@@ -17534,6 +17814,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\f\\b\\94f141444e7a49eb4709ba69c33612a92a33c1dcda6d98225e732cb9bea3dd",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\f\\b\\a804c37566ff90a375889b80ccbc90af98f4e5188d45b2503fb0cc5f8586e5",
         "isSelected": false
       },
@@ -17551,6 +17835,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\f\\c",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\f\\c\\18b6fd8cf9f807a47acd5d6aaff814cd8d2c4fd67ed6e5106b2cd2d4feca2f",
         "isSelected": false
       },
       {
@@ -21262,447 +21550,463 @@
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\ars nouveau",
+        "path": "kubejs\\server_scripts\\expert mode",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\ars nouveau\\crush.js",
+        "path": "kubejs\\server_scripts\\expert mode\\create",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\ars nouveau\\enchanting_apparatus.js",
+        "path": "kubejs\\server_scripts\\expert mode\\create\\mechanical_crafting.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\ars nouveau\\imbuement.js",
+        "path": "kubejs\\server_scripts\\normal mode",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\blood magic",
+        "path": "kubejs\\server_scripts\\normal mode\\ars nouveau",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\blood magic\\alchemytable.js",
+        "path": "kubejs\\server_scripts\\normal mode\\ars nouveau\\crush.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\blood magic\\array.js",
+        "path": "kubejs\\server_scripts\\normal mode\\ars nouveau\\enchanting_apparatus.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\botania",
+        "path": "kubejs\\server_scripts\\normal mode\\ars nouveau\\imbuement.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\botania\\runic_altar.js",
+        "path": "kubejs\\server_scripts\\normal mode\\blood magic",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create",
+        "path": "kubejs\\server_scripts\\normal mode\\blood magic\\alchemytable.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\create_compacting.js",
+        "path": "kubejs\\server_scripts\\normal mode\\blood magic\\array.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\create_crushing.js",
+        "path": "kubejs\\server_scripts\\normal mode\\botania",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\create_filling.js",
+        "path": "kubejs\\server_scripts\\normal mode\\botania\\runic_altar.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\create_haunting.js",
+        "path": "kubejs\\server_scripts\\normal mode\\create",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\create_mechanical_extruder.js",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\create_compacting.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\create_milling.js",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\create_crushing.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\create_mixing.js",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\create_filling.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\create_pressing.js",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\create_haunting.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\create_sifter.js",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\create_mechanical_extruder.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\create_washing.js",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\create_milling.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\create\\README.md",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\create_mixing.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\enderio",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\create_pressing.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\enderio\\slicing.js",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\create_sifter.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\enderio\\soul_binding.js",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\create_washing.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\extended crafting",
+        "path": "kubejs\\server_scripts\\normal mode\\create\\README.md",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\extended crafting\\combination.js",
+        "path": "kubejs\\server_scripts\\normal mode\\enderio",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\extended crafting\\shaped_table.js",
+        "path": "kubejs\\server_scripts\\normal mode\\enderio\\slicing.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\farmersdelight",
+        "path": "kubejs\\server_scripts\\normal mode\\enderio\\soul_binding.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\farmersdelight\\cutting.js",
+        "path": "kubejs\\server_scripts\\normal mode\\extended crafting",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech",
+        "path": "kubejs\\server_scripts\\normal mode\\extended crafting\\combination.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\assembler",
+        "path": "kubejs\\server_scripts\\normal mode\\extended crafting\\shaped_table.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\assembler\\create",
+        "path": "kubejs\\server_scripts\\normal mode\\farmersdelight",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\assembler\\create\\electron_tube.js",
+        "path": "kubejs\\server_scripts\\normal mode\\farmersdelight\\cutting.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\assembler\\thermal series",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\assembler\\thermal series\\machine_frame.js",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\assembler",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\autoclave",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\assembler\\create",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\autoclave\\create",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\assembler\\create\\electron_tube.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\autoclave\\create\\rose_quartz.js",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\assembler\\thermal series",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\autoclave\\redstone arsenal",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\assembler\\thermal series\\machine_frame.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\autoclave\\redstone arsenal\\flux_gem.js",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\autoclave",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\gas collector",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\autoclave\\create",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\gas collector\\ender_air.js",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\autoclave\\create\\rose_quartz.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\gas collector\\nether_air.js",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\autoclave\\redstone arsenal",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\mixer",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\autoclave\\redstone arsenal\\flux_gem.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\mixer\\redstone arsenal",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\gas collector",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\mixer\\redstone arsenal\\flux_dust.js",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\gas collector\\ender_air.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\gregtech\\removing_surface_ores.js",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\gas collector\\nether_air.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\industrialforegoing",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\mixer",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\industrialforegoing\\dissolution_chamber.js",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\mixer\\redstone arsenal",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\industrialforegoing\\laser_drill_fluid.js",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\mixer\\redstone arsenal\\flux_dust.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\minecraft",
+        "path": "kubejs\\server_scripts\\normal mode\\gregtech\\removing_surface_ores.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\minecraft\\shaped.js",
+        "path": "kubejs\\server_scripts\\normal mode\\industrialforegoing",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\minecraft\\shapeless.js",
+        "path": "kubejs\\server_scripts\\normal mode\\industrialforegoing\\dissolution_chamber.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\minecraft\\wandering_trader.js",
+        "path": "kubejs\\server_scripts\\normal mode\\industrialforegoing\\laser_drill_fluid.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\naturesaura",
+        "path": "kubejs\\server_scripts\\normal mode\\minecraft",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\naturesaura\\ritual_of_the_forest.js",
+        "path": "kubejs\\server_scripts\\normal mode\\minecraft\\shaped.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar",
+        "path": "kubejs\\server_scripts\\normal mode\\minecraft\\shapeless.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning",
+        "path": "kubejs\\server_scripts\\normal mode\\minecraft\\wandering_trader.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\axolotl.js",
+        "path": "kubejs\\server_scripts\\normal mode\\naturesaura",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\basalz.js",
+        "path": "kubejs\\server_scripts\\normal mode\\naturesaura\\ritual_of_the_forest.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\blaze.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\blitz.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\blizz.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\axolotl.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\camel.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\basalz.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\dolphin.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\blaze.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\drowned.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\blitz.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\elder_guardian.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\blizz.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\evoker.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\camel.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\fox.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\dolphin.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\frog.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\drowned.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\ghast.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\elder_guardian.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\glow_squid.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\evoker.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\goat.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\fox.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\guardian.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\frog.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\hoglin.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\ghast.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\husk.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\glow_squid.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\llama.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\goat.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\magma_cube.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\guardian.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\mooshroom.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\hoglin.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\panda.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\husk.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\parrot.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\llama.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\piglin.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\magma_cube.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\pillager_and_allay.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\mooshroom.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\polar_bear.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\panda.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\shulker.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\parrot.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\slime.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\piglin.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\squid.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\pillager_and_allay.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\stray.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\polar_bear.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\turtle.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\shulker.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\warden.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\slime.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\wither_skeleton.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\squid.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\mob summoning\\wolf.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\stray.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\nature's aura",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\turtle.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\nature's aura\\eye_of_the_blaze.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\warden.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\nature's aura\\eye_of_the_pillager.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\wither_skeleton.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\nature's aura\\eye_of_the_shulker.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\mob summoning\\wolf.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\catalysts.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\nature's aura",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\dragon_egg_essence.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\nature's aura\\eye_of_the_blaze.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\summoning_altar\\iron_spellbooks.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\nature's aura\\eye_of_the_pillager.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\custom_block_drops.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\nature's aura\\eye_of_the_shulker.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\custom_entity_drops.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\catalysts.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\custom_villager_trades.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\dragon_egg_essence.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\dragons_breath.js",
+        "path": "kubejs\\server_scripts\\normal mode\\summoning_altar\\iron_spellbooks.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\functional_storage.js",
+        "path": "kubejs\\server_scripts\\normal mode\\custom_block_drops.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\motd.js",
+        "path": "kubejs\\server_scripts\\normal mode\\custom_entity_drops.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\occultism.js",
+        "path": "kubejs\\server_scripts\\normal mode\\custom_villager_trades.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\powah.js",
+        "path": "kubejs\\server_scripts\\normal mode\\dragons_breath.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\removing_recipes.js",
+        "path": "kubejs\\server_scripts\\normal mode\\functional_storage.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\replace.js",
+        "path": "kubejs\\server_scripts\\normal mode\\motd.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\tags.js",
+        "path": "kubejs\\server_scripts\\normal mode\\occultism.js",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\thermal.js",
+        "path": "kubejs\\server_scripts\\normal mode\\powah.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\normal mode\\removing_recipes.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\normal mode\\replace.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\normal mode\\tags.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\normal mode\\thermal.js",
         "isSelected": true
       },
       {
@@ -23218,6 +23522,38 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-01-31-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-02-01-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-02-03-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-02-03-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-02-04-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-02-04-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-02-04-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-02-05-1.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -23766,7 +24102,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Apotheosis-1.20.1-7.4.5.jar",
+        "path": "mods\\Apotheosis-1.20.1-7.4.6.jar",
         "isSelected": true
       },
       {
@@ -23830,7 +24166,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\balm-forge-1.20.1-7.3.11-all.jar",
+        "path": "mods\\balm-forge-1.20.1-7.3.13-all.jar",
         "isSelected": true
       },
       {
@@ -23898,7 +24234,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\chat_heads-0.13.11-forge-1.20.jar",
+        "path": "mods\\chat_heads-0.13.12-forge-1.20.jar",
         "isSelected": true
       },
       {
@@ -23954,7 +24290,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\connectivity-1.20.1-6.5.jar",
+        "path": "mods\\connectivity-1.20.1-6.8.jar",
         "isSelected": true
       },
       {
@@ -24014,7 +24350,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\create_connected-0.9.3-mc1.20.1-all.jar",
+        "path": "mods\\create_connected-0.9.4-mc1.20.1-all.jar",
         "isSelected": true
       },
       {
@@ -24046,7 +24382,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\CyclopsCore-1.20.1-1.19.5.jar",
+        "path": "mods\\CyclopsCore-1.20.1-1.19.6.jar",
         "isSelected": true
       },
       {
@@ -24142,11 +24478,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\essential_1-3-5-6_forge_1-20-1.jar",
+        "path": "mods\\essential_1-3-5-7_forge_1-20-1.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\ExtendedAE-1.20-1.3.4-forge.jar",
+        "path": "mods\\ExtendedAE-1.20-1.3.5-forge.jar",
         "isSelected": true
       },
       {
@@ -24170,7 +24506,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\FarmersDelight-1.20.1-1.2.6.jar",
+        "path": "mods\\FarmersDelight-1.20.1-1.2.7.jar",
         "isSelected": true
       },
       {
@@ -24210,7 +24546,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\ftb-chunks-forge-2001.3.4.jar",
+        "path": "mods\\ftb-chunks-forge-2001.3.5.jar",
         "isSelected": true
       },
       {
@@ -24218,11 +24554,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\ftb-library-forge-2001.2.8.jar",
+        "path": "mods\\ftb-library-forge-2001.2.9.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\ftb-quests-forge-2001.4.10.jar",
+        "path": "mods\\ftb-quests-forge-2001.4.11.jar",
         "isSelected": true
       },
       {
@@ -24322,7 +24658,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\IntegratedDynamics-1.20.1-1.25.0.jar",
+        "path": "mods\\IntegratedDynamics-1.20.1-1.25.1.jar",
         "isSelected": true
       },
       {
@@ -24334,7 +24670,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\IntegratedTunnels-1.20.1-1.8.33.jar",
+        "path": "mods\\IntegratedTunnels-1.20.1-1.8.34.jar",
         "isSelected": true
       },
       {
@@ -24582,7 +24918,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\occultism-1.20.1-1.140.2.jar",
+        "path": "mods\\occultism-1.20.1-1.141.2.jar",
         "isSelected": true
       },
       {
@@ -24622,7 +24958,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Patchouli-1.20.1-84-FORGE.jar",
+        "path": "mods\\Patchouli-1.20.1-84.1-FORGE.jar",
         "isSelected": true
       },
       {
@@ -24790,15 +25126,15 @@
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedbackpacks-1.20.1-3.23.1.1184.jar",
+        "path": "mods\\sophisticatedbackpacks-1.20.1-3.23.4.1193.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedcore-1.20.1-1.2.0.843.jar",
+        "path": "mods\\sophisticatedcore-1.20.1-1.2.6.858.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedstorage-1.20.1-1.3.0.1048.jar",
+        "path": "mods\\sophisticatedstorage-1.20.1-1.3.3.1058.jar",
         "isSelected": true
       },
       {
@@ -24846,7 +25182,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\supplementaries-1.20-3.1.12.jar",
+        "path": "mods\\supplementaries-1.20-3.1.13.jar",
         "isSelected": true
       },
       {
@@ -24942,7 +25278,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\waystones-forge-1.20-14.1.6.jar",
+        "path": "mods\\waystones-forge-1.20.1-14.1.9.jar",
         "isSelected": true
       },
       {
@@ -27943,10 +28279,6 @@
       },
       {
         "path": "rhino.local.properties",
-        "isSelected": false
-      },
-      {
-        "path": "user-prefs.json",
         "isSelected": false
       },
       {

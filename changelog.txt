@@ -1674,3 +1674,7 @@ Added to Alpha (Vanilla) Questline.
 Added to Delta (Productive Bees) Questline.
 Added Thermal Questline.
 Fixed Recipe for Infinitium Block.
+Added Expert Mode Recipes for Pity Machine Frame, Fluid Extrator, Latex Processing Unit, Dissolution Chamber, and Material Stonework Factory.
+
+1.20.1-9.8
+Updated Amendments.
