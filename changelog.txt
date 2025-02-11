@@ -1678,3 +1678,4 @@ Added Expert Mode Recipes for Pity Machine Frame, Fluid Extrator, Latex Processi
 
 1.20.1-9.8
 Updated Amendments.
+Updated Balm.
