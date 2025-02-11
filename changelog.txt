@@ -1690,3 +1690,4 @@ Updated Integrated Crafting.
 Updated Integrated Dynamics.
 Updated Integrated Terminals.
 Updated MEGA Cells.
+Updated Modonomicon.
