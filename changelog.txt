@@ -1695,3 +1695,4 @@ Updated Moonlight Lib.
 Updated Not Enough Animations.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
+Updated Sophisticated Storage.
