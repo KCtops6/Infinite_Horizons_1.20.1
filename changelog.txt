@@ -1693,3 +1693,4 @@ Updated MEGA Cells.
 Updated Modonomicon.
 Updated Moonlight Lib.
 Updated Not Enough Animations.
+Updated Sophisticated Backpacks.
