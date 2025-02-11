@@ -1681,3 +1681,4 @@ Updated Amendments.
 Updated Balm.
 Updated Botania.
 Updated Chat Heads.
+Updated Collective.
