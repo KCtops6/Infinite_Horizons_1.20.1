@@ -1699,3 +1699,4 @@ Updated Sophisticated Storage.
 Updated Superflat World No Slimes.
 Updated Tree Harvester.
 Updated Village Spawn Point.
+Updated Villager Names.
