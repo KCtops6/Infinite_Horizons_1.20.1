@@ -1697,3 +1697,4 @@ Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Superflat World No Slimes.
+Updated Tree Harvester.
