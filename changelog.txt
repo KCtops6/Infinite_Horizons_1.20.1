@@ -1704,6 +1704,7 @@ Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Stack Refill.
+Updated Starter Kit.
 Updated Superflat World No Slimes.
 Updated Tree Harvester.
 Updated Village Spawn Point.
