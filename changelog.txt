@@ -1691,6 +1691,7 @@ Updated Drippy Loading Screen.
 Updated FancyMenu.
 Updated Fish On The Line.
 Updated Healing Campfire.
+Updated Infinite Trading.
 Updated Integrated Crafting.
 Updated Integrated Dynamics.
 Updated Integrated Terminals.
