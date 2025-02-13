@@ -1686,6 +1686,7 @@ Updated Collective.
 Updated Cooking for Blockheads.
 Updated Create Stuff & Additions.
 Updated Delightful.
+Updated Double Doors.
 Updated Drippy Loading Screen.
 Updated FancyMenu.
 Updated Integrated Crafting.
