@@ -1683,6 +1683,7 @@ Updated Balm.
 Updated Botania.
 Updated Chat Heads.
 Updated Collective.
+Updated Cooking for Blockheads.
 Updated Create Stuff & Additions.
 Updated Delightful.
 Updated Drippy Loading Screen.
