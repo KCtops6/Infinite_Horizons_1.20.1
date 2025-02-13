@@ -1689,6 +1689,7 @@ Updated Delightful.
 Updated Double Doors.
 Updated Drippy Loading Screen.
 Updated FancyMenu.
+Updated Fish On The Line.
 Updated Integrated Crafting.
 Updated Integrated Dynamics.
 Updated Integrated Terminals.
