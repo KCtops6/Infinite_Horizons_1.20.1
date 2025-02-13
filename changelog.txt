@@ -1703,6 +1703,7 @@ Updated Rhino.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
+Updated Stack Refill.
 Updated Superflat World No Slimes.
 Updated Tree Harvester.
 Updated Village Spawn Point.
