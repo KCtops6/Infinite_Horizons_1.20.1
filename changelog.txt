@@ -1709,3 +1709,6 @@ Updated Superflat World No Slimes.
 Updated Tree Harvester.
 Updated Village Spawn Point.
 Updated Villager Names.
+
+1.20.1-9.9
+Updated Balm.

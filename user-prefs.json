@@ -11378,6 +11378,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\8\\b\\fd8680dc8959021c62b14304446b4dc8373040539f53eb63e7ca563e57fffd",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\8\\b\\ff263dfdbbfffc1e101fecf6bec695",
         "isSelected": false
       },
@@ -12243,6 +12247,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\9\\b\\55bb21dd95df43723f22df46e00b5248e60198ab115267df5db74dff655df1",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\9\\b\\6ed6eb3d1c9f2201eaf4a0ab060ec643419a4ea8b20a96fde4ebfc51a2aee0",
         "isSelected": false
       },
       {
@@ -14610,6 +14618,10 @@
         "isSelected": false
       },
       {
+        "path": "essential\\cosmetic-cache\\c\\4\\2f09d282567db9e8abef4abb23354ee30f022ec82ddaf8262e5dc4dfd9f3a1",
+        "isSelected": false
+      },
+      {
         "path": "essential\\cosmetic-cache\\c\\4\\494d76913b9e2db71149ab183c6b09",
         "isSelected": false
       },
@@ -15655,6 +15667,10 @@
       },
       {
         "path": "essential\\cosmetic-cache\\d\\7\\7e3120a5fdd4445d8727b19339f879",
+        "isSelected": false
+      },
+      {
+        "path": "essential\\cosmetic-cache\\d\\7\\8b000bc3498acf4d460245457e367739ff3e1282c96fedb723ef08d39e087c",
         "isSelected": false
       },
       {
@@ -23554,6 +23570,10 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-02-07-1.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -24066,7 +24086,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\AdvancementPlaques-1.20.1-forge-1.6.7.jar",
+        "path": "mods\\AdvancementPlaques-1.20.1-forge-1.6.9.jar",
         "isSelected": true
       },
       {
@@ -24098,7 +24118,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\amendments-1.20-1.2.16.jar",
+        "path": "mods\\amendments-1.20-1.2.18.jar",
         "isSelected": true
       },
       {
@@ -24166,7 +24186,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\balm-forge-1.20.1-7.3.13-all.jar",
+        "path": "mods\\balm-forge-1.20.1-7.3.15-all.jar",
         "isSelected": true
       },
       {
@@ -24198,7 +24218,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Botania-1.20.1-446-FORGE.jar",
+        "path": "mods\\Botania-1.20.1-447-FORGE.jar",
         "isSelected": true
       },
       {
@@ -24234,7 +24254,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\chat_heads-0.13.12-forge-1.20.jar",
+        "path": "mods\\chat_heads-0.13.13-forge-1.20.jar",
         "isSelected": true
       },
       {
@@ -24270,7 +24290,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\collective-1.20.1-7.87.jar",
+        "path": "mods\\collective-1.20.1-7.91.jar",
         "isSelected": true
       },
       {
@@ -24298,7 +24318,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\cookingforblockheads-forge-1.20.1-16.0.10.jar",
+        "path": "mods\\cookingforblockheads-forge-1.20.1-16.0.11.jar",
         "isSelected": true
       },
       {
@@ -24326,7 +24346,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\create-stuff-additions1.20.1_v2.0.7.jar",
+        "path": "mods\\create-stuff-additions1.20.1_v2.0.8.jar",
         "isSelected": true
       },
       {
@@ -24394,7 +24414,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Delightful-1.20.1-3.6.2.jar",
+        "path": "mods\\Delightful-1.20.1-3.7.jar",
         "isSelected": true
       },
       {
@@ -24406,11 +24426,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\doubledoors-1.20.1-5.9.jar",
+        "path": "mods\\doubledoors-1.20.1-6.1.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\drippyloadingscreen_forge_3.0.9_MC_1.20.1.jar",
+        "path": "mods\\drippyloadingscreen_forge_3.0.11_MC_1.20.1.jar",
         "isSelected": true
       },
       {
@@ -24502,7 +24522,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\fancymenu_forge_3.3.2_MC_1.20.1.jar",
+        "path": "mods\\fancymenu_forge_3.4.4_MC_1.20.1.jar",
         "isSelected": true
       },
       {
@@ -24526,7 +24546,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\fishontheline-1.20.1-3.4.jar",
+        "path": "mods\\fishontheline-1.20.1-3.5.jar",
         "isSelected": true
       },
       {
@@ -24622,7 +24642,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\healingcampfire-1.20.1-6.1.jar",
+        "path": "mods\\healingcampfire-1.20.1-6.2.jar",
         "isSelected": true
       },
       {
@@ -24650,15 +24670,15 @@
         "isSelected": true
       },
       {
-        "path": "mods\\infinitetrading-1.20.1-4.5.jar",
+        "path": "mods\\infinitetrading-1.20.1-4.6.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\IntegratedCrafting-1.20.1-1.1.9.jar",
+        "path": "mods\\IntegratedCrafting-1.20.1-1.1.11.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\IntegratedDynamics-1.20.1-1.25.1.jar",
+        "path": "mods\\IntegratedDynamics-1.20.1-1.25.2.jar",
         "isSelected": true
       },
       {
@@ -24666,7 +24686,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\IntegratedTerminals-1.20.1-1.6.4.jar",
+        "path": "mods\\IntegratedTerminals-1.20.1-1.6.5.jar",
         "isSelected": true
       },
       {
@@ -24810,7 +24830,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\megacells-forge-2.4.5-1.20.1.jar",
+        "path": "mods\\megacells-forge-2.4.6-1.20.1.jar",
         "isSelected": true
       },
       {
@@ -24850,7 +24870,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\modonomicon-1.20.1-forge-1.77.5.jar",
+        "path": "mods\\modonomicon-1.20.1-forge-1.77.6.jar",
         "isSelected": true
       },
       {
@@ -24858,7 +24878,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\moonlight-1.20-2.13.58-forge.jar",
+        "path": "mods\\moonlight-1.20-2.13.62-forge.jar",
         "isSelected": true
       },
       {
@@ -24914,7 +24934,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\notenoughanimations-forge-1.9.1-mc1.20.1.jar",
+        "path": "mods\\notenoughanimations-forge-1.9.2-mc1.20.1.jar",
         "isSelected": true
       },
       {
@@ -25070,7 +25090,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\rhino-forge-2001.2.3-build.6.jar",
+        "path": "mods\\rhino-forge-2001.2.3-build.10.jar",
         "isSelected": true
       },
       {
@@ -25126,15 +25146,15 @@
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedbackpacks-1.20.1-3.23.4.1193.jar",
+        "path": "mods\\sophisticatedbackpacks-1.20.1-3.23.4.1196.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedcore-1.20.1-1.2.6.858.jar",
+        "path": "mods\\sophisticatedcore-1.20.1-1.2.12.872.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedstorage-1.20.1-1.3.3.1058.jar",
+        "path": "mods\\sophisticatedstorage-1.20.1-1.3.6.1070.jar",
         "isSelected": true
       },
       {
@@ -25146,7 +25166,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\stackrefill-1.20.1-4.5.jar",
+        "path": "mods\\stackrefill-1.20.1-4.6.jar",
         "isSelected": true
       },
       {
@@ -25154,7 +25174,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\starterkit-1.20.1-7.1.jar",
+        "path": "mods\\starterkit-1.20.1-7.3.jar",
         "isSelected": true
       },
       {
@@ -25170,7 +25190,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\superflatworldnoslimes-1.20.1-3.4.jar",
+        "path": "mods\\superflatworldnoslimes-1.20.1-3.5.jar",
         "isSelected": true
       },
       {
@@ -25258,7 +25278,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\villagernames-1.20.1-8.1.jar",
+        "path": "mods\\villagernames-1.20.1-8.2.jar",
         "isSelected": true
       },
       {
@@ -25270,7 +25290,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\villagespawnpoint-1.20.1-4.4.jar",
+        "path": "mods\\villagespawnpoint-1.20.1-4.5.jar",
         "isSelected": true
       },
       {
@@ -26583,6 +26603,10 @@
       },
       {
         "path": "saves\\New World (1)\\data\\chunks.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (1)\\data\\create_sa_mapvars.dat",
         "isSelected": false
       },
       {
