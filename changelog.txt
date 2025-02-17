@@ -1717,3 +1717,4 @@ Updated Cyclops Core.
 Updated Moonlight Lib.
 Updated RFTools Base.
 Updated Sophisticated Backpacks.
+Updated Sophisticated Core.
