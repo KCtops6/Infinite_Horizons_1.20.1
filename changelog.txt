@@ -1718,3 +1718,4 @@ Updated Moonlight Lib.
 Updated RFTools Base.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
+Updated Sophisticated Storage.
