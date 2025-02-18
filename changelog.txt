@@ -1714,6 +1714,7 @@ Updated Villager Names.
 Updated Balm.
 Updated Cooking for Blockheads.
 Updated Cyclops Core.
+Updated Double Doors.
 Updated Moonlight Lib.
 Updated RFTools Base.
 Updated Sophisticated Backpacks.
