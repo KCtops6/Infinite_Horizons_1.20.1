@@ -1,7 +1,7 @@
 // https://kubejs.com/wiki/tutorials/recipes#removing-recipes
 ServerEvents.recipes(event => {
     // removing by id
-    const ids = [
+    const identifications = [
         'functionalstorage:oak_drawer_alternate_x1', 'functionalstorage:oak_drawer_alternate_x2', 'functionalstorage:oak_drawer_alternate_x4',
         'create:crushing/netherrack', 'projecte:low_covalence_dust', 'projecte:medium_covalence_dust', 'projecte:high_covalence_dust',
         'extendedcrafting:ender_crafter', 'extendedcrafting:ender_alternator', "extendedcrafting:flux_alternator", "extendedcrafting:flux_crafter",
@@ -14,9 +14,8 @@ ServerEvents.recipes(event => {
         'create:mixing/andesite_alloy', 'create:mixing/andesite_alloy_from_zinc', 'farmersdelight:cutting/gravel', 'create:crushing/scrap_cobblestone_small',
         'extendedcrafting:ender_ingot', 'extendedcrafting:redstone_ingot', 'extendedcrafting:luminessence', 'extendedcrafting:black_iron_block'
     ];
-
-    ids.forEach(id => {
-        event.remove({ id: id });
+    identifications.forEach(identification => {
+        event.remove({ id: identification });
     });
     
     // removing by output
@@ -27,11 +26,13 @@ ServerEvents.recipes(event => {
     outputs.forEach(output => {
         event.remove({ output: output });
     });
+
     // removing by mod
     const mods = ['dimpaintings'];
     mods.forEach(mod => {
         event.remove({mod: mod});
     });
+    
     // remove gregtech-powah mismatched uraninite recipes.
     event.remove({ input: 'powah:uraninite_raw', output: 'gtceu:uraninite_dust'})
 });
