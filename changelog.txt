@@ -1720,3 +1720,5 @@ Updated RFTools Base.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
+
+Added EnderIO alloy smelter recipes for non-native alloys.

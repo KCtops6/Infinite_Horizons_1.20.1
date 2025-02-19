@@ -124,6 +124,7 @@
     "fridge": true,
     "oven": true,
     "sink": true,
+    "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
   },
@@ -171,6 +172,9 @@
   "refinedcooking": {
     "kitchen_access_point": true,
     "kitchen_station": true
+  },
+  "balm": {
+    "jade": true
   },
   "integrateddynamicscompat": {
     "proxy": true,
