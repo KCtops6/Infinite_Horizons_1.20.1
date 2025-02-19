@@ -69,8 +69,6 @@ ServerEvents.recipes(event => {
             count: 1
         },
     ];
-
-
     recipes.forEach(recipe => {
         event.shapeless(Item.of(recipe.output, recipe.count), recipe.inputs);
     });
