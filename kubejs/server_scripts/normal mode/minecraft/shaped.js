@@ -463,11 +463,6 @@ ServerEvents.recipes(event => {
         }
     ];
 
-    // if (expert) {
-    //      const expertRecipes = [ ];
-    //      recipes.push(expertRecipes);
-    // } 
-
     recipes.forEach(recipe => {
         event.shaped(
             Item.of(recipe.output, recipe.count),
