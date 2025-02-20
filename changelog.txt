@@ -1714,6 +1714,7 @@ Updated Villager Names.
 Updated Balm.
 Updated Collective.
 Updated Cooking for Blockheads.
+Updated Create Encased.
 Updated Cyclops Core.
 Updated Double Doors.
 Updated Ender IO.
