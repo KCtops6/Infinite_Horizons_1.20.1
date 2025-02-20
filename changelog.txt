@@ -1716,6 +1716,7 @@ Updated Collective.
 Updated Cooking for Blockheads.
 Updated Cyclops Core.
 Updated Double Doors.
+Updated Ender IO.
 Updated Moonlight Lib.
 Updated RFTools Base.
 Updated Sophisticated Backpacks.
