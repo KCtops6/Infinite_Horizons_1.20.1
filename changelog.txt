@@ -1728,3 +1728,4 @@ Added EnderIO alloy smelter recipes for non-native alloys.
 Added EnderIO enchanting recipes for some non-native enchanted books (Forbidden and Arcanus, Create, Create Stuff and Additions).
 Added EnderIO SAG mill recipes for non-native dusts.
 Removed create crushing recipe with ID "create:crushing/gravel" (Gravel -> Sand, Clay, Flint)
+Fixed create milling recipe for sand.
