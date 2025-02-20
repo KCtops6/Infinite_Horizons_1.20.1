@@ -1718,6 +1718,7 @@ Updated Create Encased.
 Updated Cyclops Core.
 Updated Double Doors.
 Updated Ender IO.
+Updated FTB Ranks (Forge).
 Updated Moonlight Lib.
 Updated RFTools Base.
 Updated Sophisticated Backpacks.
