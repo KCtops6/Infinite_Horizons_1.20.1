@@ -1712,6 +1712,7 @@ Updated Villager Names.
 
 1.20.1-9.9
 Updated Balm.
+Updated Collective.
 Updated Cooking for Blockheads.
 Updated Cyclops Core.
 Updated Double Doors.
