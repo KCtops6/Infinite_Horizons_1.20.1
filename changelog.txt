@@ -1711,6 +1711,8 @@ Updated Village Spawn Point.
 Updated Villager Names.
 
 1.20.1-9.9
+Updated Forge to 47.3.33 from 47.3.11
+
 Updated Balm.
 Updated Collective.
 Updated Cooking for Blockheads.
@@ -1732,3 +1734,6 @@ Added EnderIO enchanting recipes for some non-native enchanted books (Forbidden 
 Added EnderIO SAG mill recipes for non-native dusts.
 Removed create crushing recipe with ID "create:crushing/gravel" (Gravel -> Sand, Clay, Flint)
 Fixed create milling recipe for sand.
+
+1.20.1-10.0
+Updated Connectivity.
