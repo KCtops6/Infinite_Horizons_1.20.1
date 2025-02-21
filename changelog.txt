@@ -1738,3 +1738,4 @@ Fixed create milling recipe for sand.
 1.20.1-10.0
 Updated Connectivity.
 Updated Integrated Scripting.
+Updated Sophisticated Storage.
