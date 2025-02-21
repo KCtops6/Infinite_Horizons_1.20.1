@@ -1715,6 +1715,7 @@ Updated Balm.
 Updated Collective.
 Updated Cooking for Blockheads.
 Updated Create Encased.
+Updated Curios API (Forge/NeoForge).
 Updated Cyclops Core.
 Updated Double Doors.
 Updated Ender IO.
