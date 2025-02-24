@@ -1757,3 +1757,4 @@ Updated Waystones.
 
 Added KubeJS Steel Plate.
 Unified Manasteel.
+Unified Terrasteel.
