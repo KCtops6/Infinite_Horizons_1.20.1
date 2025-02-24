@@ -58,6 +58,9 @@
   "entangled": {
     "entangled_block_component": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

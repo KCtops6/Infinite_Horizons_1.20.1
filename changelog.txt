@@ -1754,3 +1754,5 @@ Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Supplementaries.
 Updated Waystones.
+
+Added KubeJS Steel Plate.

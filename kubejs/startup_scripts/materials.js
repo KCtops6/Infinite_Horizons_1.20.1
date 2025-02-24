@@ -70,7 +70,7 @@ StartupEvents.registry('item', event => {
         'enderium', 'gold', 'infinitium',
         'invar', 'iron', 'lead',
         'lumium', 'manasteel', 'netherite',
-        'nickel', 'signalum', 'silver',
+        'nickel', 'signalum', 'silver', 'steel',
         'terrasteel', 'tin', 'zinc'
     ];
 
