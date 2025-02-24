@@ -1736,6 +1736,7 @@ Removed create crushing recipe with ID "create:crushing/gravel" (Gravel -> Sand,
 Fixed create milling recipe for sand.
 
 1.20.1-10.0
+Updated Balm.
 Updated Connectivity.
 Updated Integrated Scripting.
 Updated Sophisticated Storage.
