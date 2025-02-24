@@ -1740,5 +1740,6 @@ Updated Balm.
 Updated BucketLib.
 Updated Collective.
 Updated Connectivity.
+Updated FancyMenu.
 Updated Integrated Scripting.
 Updated Sophisticated Storage.
