@@ -1746,4 +1746,5 @@ Updated Integrated Scripting.
 Updated Integrated Tunnels.
 Updated Moonlight Lib.
 Updated Mystical Agriculture.
+Updated Sophisticated Backpacks.
 Updated Sophisticated Storage.
