@@ -333,7 +333,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			description: ["Infinite Horizons has what I call \"Integration Quests\", which are optional cross-mod compatibilities that make gameplay less tedious.  They are are the small-sized quests that branch from main quests.  Make sure to check them out during your gameplay."]
@@ -588,7 +588,7 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -3082,6 +3082,40 @@
 			}]
 			x: 2.75d
 			y: 5.25d
+		}
+		{
+			dependencies: ["2A75A5FFE0339B11"]
+			description: ["Best early game botany pot soil."]
+			icon: "farmersdelight:rich_soil"
+			id: "1EEAA2D1FC0EEDDD"
+			rewards: [
+				{
+					id: "7D0DD1F0B7D4DF4A"
+					item: "farmersdelight:rich_soil"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "080DB3664AE08BAB"
+					item: "pamhc2foodcore:carrotmuffinitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35DF458A9AEE619D"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "6ADC02E3F34BEBD5"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
 		}
 	]
 	title: "Alpha"

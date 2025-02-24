@@ -3117,6 +3117,17 @@
 			x: 6.75d
 			y: 10.75d
 		}
+		{
+			dependencies: ["24AB91EB9A74B02F"]
+			id: "4D31447081D4A532"
+			tasks: [{
+				id: "35E2E237602D606D"
+				item: "mysticalagriculturedelight:farmers_essence"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
 	]
 	title: "Gamma"
 }
