@@ -81,4 +81,76 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            {
+                item: 'botania:dreamwood'
+            }
+        ],
+        tool: { tag: 'forge:tools/knives' },
+        result : [
+            {
+                item: 'botania:dreamwood'
+            },
+            {
+                item: 'botania:dreamwood_twig',
+                chance: 0.75
+            }
+        ]
+    })
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            {
+                item: 'botania:dreamwood_log'
+            }
+        ],
+        tool: { tag: 'forge:tools/knives' },
+        result : [
+            {
+                item: 'botania:dreamwood_log'
+            },
+            {
+                item: 'botania:dreamwood_twig',
+                chance: 0.75
+            }
+        ]
+    })
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            {
+                item: 'botania:livingwood'
+            }
+        ],
+        tool: { tag: 'forge:tools/knives' },
+        result : [
+            {
+                item: 'botania:livingwood'
+            },
+            {
+                item: 'botania:livingwood_twig',
+                chance: 0.75
+            }
+        ]
+    })
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            {
+                item: 'botania:livingwood_log'
+            }
+        ],
+        tool: { tag: 'forge:tools/knives' },
+        result : [
+            {
+                item: 'botania:livingwood_log'
+            },
+            {
+                item: 'botania:livingwood_twig',
+                chance: 0.75
+            }
+        ]
+    })
 })

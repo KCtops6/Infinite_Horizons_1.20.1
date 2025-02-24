@@ -1758,3 +1758,5 @@ Updated Waystones.
 Added KubeJS Steel Plate.
 Unified Manasteel.
 Unified Terrasteel.
+Changed recipe for livingwood twig.
+Changed recipe for dreamwood twig.
