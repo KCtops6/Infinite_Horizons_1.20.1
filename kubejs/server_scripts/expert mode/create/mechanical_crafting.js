@@ -525,6 +525,47 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Hydroponic Bed
+    event.remove({ id: "industrialforegoing:hydroponic_bed" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_simple"
+            },
+            C: {
+                item: "kubejs:electrum_gear"
+            },
+            D: {
+                item: "industrialforegoing:fertilizer"
+            },
+            E: {
+                item: "create:mechanical_harvester"
+            },
+            B: {
+                item: "industrialforegoing:plastic"
+            },
+            F: {
+                item: "farmersdelight:rich_soil"
+            },
+            G: {
+                item: "kubejs:invar_plate"
+            }
+        },
+        pattern: [
+            "BBBBB",
+            "BFFFB",
+            "EFFFE",
+            "GDDDG",
+            "GCACG"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:hydroponic_bed"
+        }
+    });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
