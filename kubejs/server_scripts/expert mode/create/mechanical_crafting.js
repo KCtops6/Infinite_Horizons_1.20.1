@@ -222,6 +222,42 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Sewage Composter
+    event.remove({ id: "industrialforegoing:sewage_composter" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_pity"
+            },
+            B: {
+                item: "kubejs:invar_gear"
+            },
+            C: {
+                item: "minecraft:brick"
+            },
+            D: {
+                item: "create:mechanical_piston"
+            },
+            E: {
+                item: "industrialforegoing:plastic"
+            },
+            F: {
+                item: "thermal:machine_furnace"
+            }
+        },
+        pattern: [
+            "EFE",
+            "DAD",
+            "CBC"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:sewage_composter"
+        }
+    });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
