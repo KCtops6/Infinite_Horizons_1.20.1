@@ -404,6 +404,42 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Animal Feeder
+    event.remove({ id: "industrialforegoing:animal_feeder" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_pity"
+            },
+            B: {
+                item: "kubejs:invar_gear"
+            },
+            C: {
+                item: "farmingforblockheads:feeding_trough"
+            },
+            D: {
+                item: "kubejs:electrum_plate"
+            },
+            E: {
+                item: "industrialforegoing:plastic"
+            },
+            F: {
+                item: "create:deployer"
+            }
+        },
+        pattern: [
+            "EFE",
+            "CAC",
+            "DBD"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:animal_feeder"
+        }
+    });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
