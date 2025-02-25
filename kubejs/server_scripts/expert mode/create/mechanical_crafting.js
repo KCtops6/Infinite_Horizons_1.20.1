@@ -566,6 +566,64 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Mob Duplicator
+    event.remove({ id: "industrialforegoing:mob_duplicator" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_advanced"
+            },
+            B: {
+                item: "minecraft:magma_block"
+            },
+            C: {
+                item: "thermal:rf_coil"
+            },
+            D: {
+                item: "minecraft:nether_wart_block"
+            },
+            E: {
+                item: "kubejs:emerald_gear"
+            },
+            F: {
+                item: "industrialforegoing:plastic"
+            },
+            G: {
+                item: "kubejs:invar_plate"
+            },
+            H: {
+                item: "mysticalagriculture:soulium_spawner"
+            },
+            I: {
+                item: "mysticalagriculture:soul_extractor"
+            },
+            J: {
+                item: "thermal:fluid_cell"
+            },
+            K: {
+                item: "minecraft:tinted_glass"
+            },
+            L: {
+                item: "botania:blaze_block"
+            }
+        },
+        pattern: [
+            "FFFDFFF",
+            "FKKKKKF",
+            "FKKKKKF",
+            "BLJAJLB",
+            "GLLHLLG",
+            "GEEIEEG",
+            "GGGCGGG",
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:mob_duplicator"
+        }
+    });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
