@@ -624,6 +624,39 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // // Wither Builder
+    // event.remove({ id: "industrialforegoing:wither_builder" });
+    // event.custom({
+    //     type: "create:mechanical_crafting",
+    //     acceptMirrored: false,
+    //     key: {
+    //         A: {
+    //             item: "industrialforegoing:machine_frame_supreme"
+    //         }, B: {
+    //             item: "industrialforegoing:plastic"
+    //         }, C: {
+    //             item: "kubejs:invar_plate"
+    //         }, D: {
+    //             item: "forbiddenarcanus:dark_nether_star"
+    //         }
+    //     },
+    //     pattern: [
+    //         "BBBBBBBBB",
+    //         "B  DDD  B",
+    //         "B  DDD  B",
+    //         "B  DDD  B",
+    //         "C   A   C",
+    //         "C       C",
+    //         "C       C",
+    //         "C       C",
+    //         "CCCCCCCCC",
+    //     ],
+    //     result: {
+    //         count: 1,
+    //         item: "industrialforegoing:wither_builder"
+    //     }
+    // });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
