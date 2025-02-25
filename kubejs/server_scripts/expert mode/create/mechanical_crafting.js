@@ -476,6 +476,55 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Mob Crusher
+    event.remove({ id: "industrialforegoing:mob_crusher" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_advanced"
+            },
+            B: {
+                item: "kubejs:electrum_gear"
+            },
+            C: {
+                item: "thermal:rf_coil"
+            },
+            D: {
+                item: "industrialforegoing:plastic"
+            },
+            E: {
+                item: "minecraft:bookshelf"
+            },
+            F: {
+                item: "mob_grinding_utils:saw"
+            },
+            G: {
+                item: "kubejs:invar_plate"
+            },
+            H: {
+                item: "thermal:item_buffer"
+            },
+            I: {
+                item: "thermal:fluid_cell"
+            }
+        },
+        pattern: [
+            "DDFFFDD",
+            "DGGGGGD",
+            "EGEIEGE",
+            "EGEAEGE",
+            "EGEHEGE",
+            "DGGGGGD",
+            "DBCCCBD",
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:mob_crusher"
+        }
+    });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
