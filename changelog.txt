@@ -1749,6 +1749,7 @@ Updated Integrated Scripting.
 Updated Integrated Tunnels.
 Updated Moonlight Lib.
 Updated Mystical Agriculture.
+Updated Occultism.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
