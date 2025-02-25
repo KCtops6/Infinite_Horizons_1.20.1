@@ -1750,6 +1750,7 @@ Updated Integrated Tunnels.
 Updated Moonlight Lib.
 Updated Mystical Agriculture.
 Updated Occultism.
+Updated Resourceful Config.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
