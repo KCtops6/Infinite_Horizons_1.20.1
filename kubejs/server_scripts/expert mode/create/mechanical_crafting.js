@@ -189,6 +189,39 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Sewer
+    event.remove({ id: "industrialforegoing:sewer" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_pity"
+            },
+            B: {
+                item: "kubejs:invar_gear"
+            },
+            C: {
+                item: "minecraft:brick"
+            },
+            E: {
+                item: "industrialforegoing:plastic"
+            },
+            F: {
+                item: "create:fluid_tank"
+            }
+        },
+        pattern: [
+            "EFE",
+            "CAC",
+            "CBC"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:sewer"
+        }
+    });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
