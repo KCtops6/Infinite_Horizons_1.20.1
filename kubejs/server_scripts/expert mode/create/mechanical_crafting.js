@@ -336,7 +336,7 @@ ServerEvents.recipes(event => {
     });
 
     // Mob Slaughter Factory
-    event.remove({ id: "industrialforegoing:plant_sower" });
+    event.remove({ id: "industrialforegoing:mob_slaugher_factory" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -367,7 +367,40 @@ ServerEvents.recipes(event => {
         ],
         result: {
             count: 1,
-            item: "industrialforegoing:plant_sower"
+            item: "industrialforegoing:mob_slaugher_factory"
+        }
+    });
+
+    // Animal Rancher
+    event.remove({ id: "industrialforegoing:animal_rancher" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "create:fluid_tank"
+            },
+            B: {
+                item: "industrialforegoing:machine_frame_pity"
+            },
+            C: {
+                item: "minecraft:shears"
+            },
+            D: {
+                item: "kubejs:electrum_gear"
+            },
+            E: {
+                item: "industrialforegoing:plastic"
+            }
+        },
+        pattern: [
+            "EEE",
+            "CAC",
+            "DBD"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:animal_rancher"
         }
     });
 
