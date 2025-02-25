@@ -153,6 +153,42 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Plant Gatherer
+    event.remove({ id: "industrialforegoing:plant_gatherer" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_pity"
+            },
+            B: {
+                item: "thermal:rf_coil"
+            },
+            C: {
+                item: "create:mechanical_saw"
+            },
+            D: {
+                item: "kubejs:electrum_gear"
+            },
+            E: {
+                item: "industrialforegoing:plastic"
+            },
+            F: {
+                item: "create:mechanical_harvester"
+            }
+        },
+        pattern: [
+            "EFE",
+            "CAC",
+            "DBD"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:plant_gatherer"
+        }
+    });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
@@ -202,5 +238,4 @@ ServerEvents.recipes(event => {
             item: "industrialforegoing:material_stonework_factory"
         }
     });
-
 });
