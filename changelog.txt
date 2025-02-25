@@ -1765,4 +1765,4 @@ Changed recipe for dreamwood twig.
 Fixed tuff crushing recipe.
 Modified Alpha questline (added rich soil quest).
 Modified Gamma questline (added farmer's essence quest).
-Added Expert Mode Recipes for Industrial Foregoing's Plant Gatherer, Sewer, Sewage Composter, Plant Fertilizer, Plant Sower, Mob Slaughter Factory, Animal Rancher, Animal Feeder.
+Added Expert Mode Recipes for Industrial Foregoing's Plant Gatherer, Sewer, Sewage Composter, Plant Fertilizer, Plant Sower, Mob Slaughter Factory, Animal Rancher, Animal Feeder, Animal Baby Seperator.

@@ -440,6 +440,42 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Animal Baby Seperator
+    event.remove({ id: "industrialforegoing:animal_baby_seperator" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_pity"
+            },
+            B: {
+                item: "kubejs:electrum_gear"
+            },
+            C: {
+                item: "minecraft:hay_block"
+            },
+            D: {
+                item: "kubejs:invar_plate"
+            },
+            E: {
+                item: "industrialforegoing:plastic"
+            },
+            F: {
+                item: "farmingforblockheads:feeding_trough"
+            }
+        },
+        pattern: [
+            "EFE",
+            "CAC",
+            "DBD"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:animal_baby_seperator"
+        }
+    });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
