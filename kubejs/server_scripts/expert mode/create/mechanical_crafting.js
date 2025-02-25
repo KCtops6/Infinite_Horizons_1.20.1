@@ -258,6 +258,47 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Plant Fertilizer
+    event.remove({ id: "industrialforegoing:plant_fertilizer" });
+    event.custom({
+        type: "create:mechanical_crafting",
+        acceptMirrored: false,
+        key: {
+            A: {
+                item: "industrialforegoing:machine_frame_simple"
+            },
+            C: {
+                item: "kubejs:invar_gear"
+            },
+            D: {
+                item: "thermal:item_buffer"
+            },
+            E: {
+                item: "thermal:rf_coil"
+            },
+            B: {
+                item: "industrialforegoing:plastic"
+            },
+            F: {
+                item: "thermal:device_composter"
+            },
+            G: {
+                item: "kubejs:invar_plate"
+            }
+        },
+        pattern: [
+            "BBBBB",
+            "BBDBB",
+            "BFAFB",
+            "GGGGG",
+            "GCECG"
+        ],
+        result: {
+            count: 1,
+            item: "industrialforegoing:plant_fertilizer"
+        }
+    });
+
     // Material Stonework Factory
     event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
