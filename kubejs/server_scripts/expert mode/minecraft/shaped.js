@@ -1,3 +1,5 @@
+//packmode: expert
+
 ServerEvents.recipes(event => {
     const recipes = [
         {
