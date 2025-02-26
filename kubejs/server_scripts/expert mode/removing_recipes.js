@@ -1,3 +1,5 @@
+//packmode: expert
+
 // https://kubejs.com/wiki/tutorials/recipes#removing-recipes
 ServerEvents.recipes(event => {
     // removing by id
@@ -7,7 +9,7 @@ ServerEvents.recipes(event => {
         "industrialforegoing:sewage_composter", "industrialforegoing:plant_fertilizer", "industrialforegoing:plant_sower",
         "industrialforegoing:mob_slaugher_factory", "industrialforegoing:animal_rancher", "industrialforegoing:animal_feeder",
         "industrialforegoing:animal_baby_seperator", "industrialforegoing:mob_crusher", "industrialforegoing:hydroponic_bed",
-        "industrialforegoing:mob_duplicator", "industrialforegoing:material_stonework_factory"
+        "industrialforegoing:mob_duplicator", "industrialforegoing:material_stonework_factory", "ender_io:alloy_smelting/dark_steel_ingot"
     ];
     identifications.forEach(identification => {
         event.remove({ id: identification });
