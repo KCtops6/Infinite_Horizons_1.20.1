@@ -1,6 +1,9 @@
 ServerEvents.tags('item', event => {
-    event.add('forge:ingots/andesite_alloy', 'create:andesite_alloy');
-    event.add('forge:ingots/andesite_alloy', 'kubejs:stone_alloy');
+    // adding andesite alloy and new 'stone alloy' into custom tag.
+    event.add('forge:ingots/andesite_alloy', [  // to the 'forge:ingots/andesite_alloy' custom tag we add...
+        'create:andesite_alloy',    // ...the base create mod's andesite alloy item...
+        'kubejs:stone_alloy'    // ...and the custom stone alloy.
+    ]);
 
     // merging the 'forge:dusts/endstone' and 'forge:dusts/end_stone' tags into the latter.
     event.removeAll('forge:dusts/endstone');    // Removing the endstone tag.
@@ -9,7 +12,7 @@ ServerEvents.tags('item', event => {
         'kubejs:end_stone_dust' // ...and the custom end stone dust.
     ]);   
 
-    const plates = [
+    const plates = [    // materials that have plates.
         'aluminum', 'brass', 'bronze',
         'constantan', 'copper', 'electrum',
         'enderium', 'gold', 'infinitium',
@@ -19,13 +22,13 @@ ServerEvents.tags('item', event => {
         'terrasteel', 'tin', 'zinc'
     ];
 
-    plates.forEach(plate => {
-        event.add(`forge:plates/${plate}`, `kubejs:${plate}_plate`);
+    plates.forEach(plate => {   // for each material...
+        event.add(`forge:plates/${plate}`, `kubejs:${plate}_plate`);    // ...we add the custom plate for that material into that 'forge:plates/' tag.
     });
 
-    event.add('forge:wires', 'kubejs:netherite_wire');
+    event.add('forge:wires', 'kubejs:netherite_wire');  // add the custom netherite wire to the 'forge:wires' tag.
 
-    const blocks = [
+    const blocks = [    // materials that have blocks.
         'aluminum', 'apatite', 'brass',
         'bronze', 'cinnabar', 'constantan',
         'copper', 'electrum', 'elementium', 'enderium',
@@ -38,11 +41,11 @@ ServerEvents.tags('item', event => {
         'uranium', 'zinc'
     ];
 
-    blocks.forEach(block => {
-        event.add(`forge:storage_blocks/${block}`, `kubejs:${block}_block`);
+    blocks.forEach(block => {   // for each material...
+        event.add(`forge:storage_blocks/${block}`, `kubejs:${block}_block`);    // ...we add the custom block for that material into that 'forge:storage_blocks/' tag.
     });
 
-    const dusts = [
+    const dusts = [ // materials that have dusts.
         'aluminum', 'apatite', 'brass',
         'bronze', 'charcoal', 'cinnabar',
         'constantan', 'coal', 'copper',
@@ -57,13 +60,15 @@ ServerEvents.tags('item', event => {
         'uranium', 'zinc'
     ];
 
-    dusts.forEach(dust => {
-        event.add(`forge:dusts/${dust}`, `kubejs:${dust}_dust`);
+    dusts.forEach(dust => { // for each material...
+        event.add(`forge:dusts/${dust}`, `kubejs:${dust}_dust`);    // ...we add the custom dust for that material into that 'forge:dusts/' tag.
     });
-    event.add(`forge:dusts/ender_pearl`, `kubejs:ender_pearl_dust`);
-    event.add(`forge:dusts/wood`, `kubejs:sawdust`);
 
-    const ingots = [
+    // seperate events here because they are unique compared to other item ids/tags.
+    event.add(`forge:dusts/ender_pearl`, `kubejs:ender_pearl_dust`);    // adding custom ender pearl dust to 'forge:dusts/ender_pearl' tag.
+    event.add(`forge:dusts/wood`, `kubejs:sawdust`);    // adding custom sawdust to 'forge:dusts/wood' tag.
+
+    const ingots = [    // materials that have ingots.
         'aluminum', 'brass', 'bronze',
         'constantan', 'electrum', 'elementium', 'enderium',
         'infinitium', 'invar', 'lead',
@@ -73,21 +78,21 @@ ServerEvents.tags('item', event => {
         'tin', 'uranium', 'zinc'
     ];
     
-    ingots.forEach(ingot => {
-        event.add(`forge:ingots/${ingot}`, `kubejs:${ingot}_ingot`);
+    ingots.forEach(ingot => {   // for each material...
+        event.add(`forge:ingots/${ingot}`, `kubejs:${ingot}_ingot`);    // ...we add the custom ingot for that material into that 'forge:ingots/' tag.
     });
 
-    event.add('forge:silicon', 'kubejs:silicon');
+    event.add('forge:silicon', 'kubejs:silicon');   // adding custom silicon to 'forge:silicon' tag.
 
-    const gems = [
+    const gems = [  // materials that have gems.
         'apatite', 'certus_quartz', 'cinnabar', 'niter', 'ruby', 'sapphire', 'sulfur'
     ];
 
-    gems.forEach(gem => {
-        event.add(`forge:gems/${gem}`, `kubejs:${gem}_gem`);
+    gems.forEach(gem => {   // for each material...
+        event.add(`forge:gems/${gem}`, `kubejs:${gem}_gem`);    // ...we add the custom ingot for that material into that 'forge:gems/' tag.
     });
 
-    const gears = [
+    const gears = [ // materials that have gears.
         'bronze', 'constantan', 'copper',
         'diamond', 'electrum', 'emerald',
         'enderium', 'gold', 'invar',
@@ -98,11 +103,11 @@ ServerEvents.tags('item', event => {
         'terrasteel', 'tin'
     ];
 
-    gears.forEach(gears => {
-        event.add(`forge:gears/${gears}`, `kubejs:${gears}_gear`);
+    gears.forEach(gears => {    // for each material...
+        event.add(`forge:gears/${gears}`, `kubejs:${gears}_gear`);  // ...we add the custom gear for that material into that 'forge:gears/' tag.
     });
 
-    const nuggets = [
+    const nuggets = [   // materials that have nuggets.
         'brass', 'bronze', 'constantan',
         'copper', 'electrum', 'enderium', 
         'invar', 'lead', 'lumium', 'manasteel', 
@@ -111,7 +116,7 @@ ServerEvents.tags('item', event => {
         'tin', 'uranium', 'zinc'
     ];
 
-    nuggets.forEach(nugget => {
-        event.add(`forge:nuggets/${nugget}`, `kubejs:${nugget}_nugget`);
+    nuggets.forEach(nugget => { // for each material...
+        event.add(`forge:nuggets/${nugget}`, `kubejs:${nugget}_nugget`);    // ...we add the custom nugget for that material into that 'forge:nuggets/' tag.
     });
 })
