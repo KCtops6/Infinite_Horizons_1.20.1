@@ -13,6 +13,20 @@ ServerEvents.recipes(event => {
             },
             output: 'thermal:machine_frame',
             count: 1
+        },
+        {
+            pattern: [
+                'ABA',
+                'BCB',
+                'ABA'
+            ],
+            keys: {
+                A: 'kubejs:lead_plate',
+                B: 'quark:framed_glass',
+                C: 'kubejs:electrum_gear'
+            },
+            output: 'thermal:energy_cell_frame',
+            count: 1
         }
     ];
 
