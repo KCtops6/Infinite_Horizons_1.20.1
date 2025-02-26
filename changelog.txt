@@ -1746,6 +1746,7 @@ Updated Connectivity.
 Updated Curios API (Forge/NeoForge).
 Updated Entity Culling Fabric/Forge.
 Updated FancyMenu.
+Updated ImmediatelyFast.
 Updated Integrated Dynamics.
 Updated Integrated Scripting.
 Updated Integrated Tunnels.
