@@ -1,7 +1,6 @@
 //packmode: expert
 ServerEvents.recipes(event => {
     // Pity Machine Frame
-    event.remove({ id: "industrialforegoing:machine_frame_pity" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -52,7 +51,6 @@ ServerEvents.recipes(event => {
     });
 
     // Fluid Extractor
-    event.remove({ id: "industrialforegoing:fluid_extractor" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -85,7 +83,6 @@ ServerEvents.recipes(event => {
     });
 
     // Latex Processing Unit
-    event.remove({ id: "industrialforegoing:latex_processing_unit" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -118,7 +115,6 @@ ServerEvents.recipes(event => {
     });
 
     // Dissolution Chamber
-    event.remove({ id: "industrialforegoing:dissolution_chamber" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -154,7 +150,6 @@ ServerEvents.recipes(event => {
     });
 
     // Plant Gatherer
-    event.remove({ id: "industrialforegoing:plant_gatherer" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -190,7 +185,6 @@ ServerEvents.recipes(event => {
     });
 
     // Sewer
-    event.remove({ id: "industrialforegoing:sewer" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -223,7 +217,6 @@ ServerEvents.recipes(event => {
     });
 
     // Sewage Composter
-    event.remove({ id: "industrialforegoing:sewage_composter" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -259,7 +252,6 @@ ServerEvents.recipes(event => {
     });
 
     // Plant Fertilizer
-    event.remove({ id: "industrialforegoing:plant_fertilizer" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -300,7 +292,6 @@ ServerEvents.recipes(event => {
     });
 
     // Plant Sower
-    event.remove({ id: "industrialforegoing:plant_sower" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -336,7 +327,6 @@ ServerEvents.recipes(event => {
     });
 
     // Mob Slaughter Factory
-    event.remove({ id: "industrialforegoing:mob_slaugher_factory" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -372,7 +362,6 @@ ServerEvents.recipes(event => {
     });
 
     // Animal Rancher
-    event.remove({ id: "industrialforegoing:animal_rancher" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -405,7 +394,6 @@ ServerEvents.recipes(event => {
     });
 
     // Animal Feeder
-    event.remove({ id: "industrialforegoing:animal_feeder" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -441,7 +429,6 @@ ServerEvents.recipes(event => {
     });
 
     // Animal Baby Seperator
-    event.remove({ id: "industrialforegoing:animal_baby_seperator" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -477,7 +464,6 @@ ServerEvents.recipes(event => {
     });
 
     // Mob Crusher
-    event.remove({ id: "industrialforegoing:mob_crusher" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -526,7 +512,6 @@ ServerEvents.recipes(event => {
     });
 
     // Hydroponic Bed
-    event.remove({ id: "industrialforegoing:hydroponic_bed" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -567,7 +552,6 @@ ServerEvents.recipes(event => {
     });
 
     // Mob Duplicator
-    event.remove({ id: "industrialforegoing:mob_duplicator" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
@@ -658,7 +642,6 @@ ServerEvents.recipes(event => {
     // });
 
     // Material Stonework Factory
-    event.remove({ id: "industrialforegoing:material_stonework_factory" });
     event.custom({
         type: "create:mechanical_crafting",
         acceptMirrored: false,
