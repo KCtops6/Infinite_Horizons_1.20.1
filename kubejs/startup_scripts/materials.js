@@ -48,6 +48,7 @@ StartupEvents.registry('item', event => {
         event.create(`${dust}_dust`).displayName(`${capitalize(dust)} Dust`);
     });
     event.create('ender_pearl_dust').displayName('Ender Pearl Dust');
+    event.create('end_stone_dust').displayName('End Stone Dust'); // custom end stone dust.
     event.create('sawdust').displayName("Sawdust");
 
     const ingots = [

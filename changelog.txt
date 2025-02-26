@@ -1761,9 +1761,10 @@ Updated Sophisticated Storage.
 Updated Supplementaries.
 Updated Waystones.
 
-Added KubeJS Steel Plate.
+Added KubeJS Steel Plate, End Stone Dust.
 Unified Manasteel.
 Unified Terrasteel.
+Unified End Stone Dust.
 Changed recipe for livingwood twig.
 Changed recipe for dreamwood twig.
 Fixed tuff crushing recipe.
