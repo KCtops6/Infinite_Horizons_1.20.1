@@ -1743,6 +1743,7 @@ Updated Balm.
 Updated BucketLib.
 Updated Collective.
 Updated Connectivity.
+Updated Curios API (Forge/NeoForge).
 Updated FancyMenu.
 Updated Integrated Dynamics.
 Updated Integrated Scripting.
