@@ -1772,4 +1772,4 @@ Modified Alpha questline (added rich soil quest).
 Modified Gamma questline (added farmer's essence quest).
 Added Expert Mode Recipe for Industrial Foregoing's Plant Gatherer, Sewer, Sewage Composter, Plant Fertilizer, Plant Sower, Mob Slaughter Factory, Animal Rancher, Animal Feeder, Animal Baby Seperator, Mob Crusher, Hydroponic Bed, Mob Duplicator.
 Added Expert Mode Recipe for Ender IO Dark Steel Ingot, End Steel Ingot.
-Added Expert Mode Recipe for Thermal Machine Frame, Energy Cell Frame.
+Added Expert Mode Recipe for Thermal Machine Frame, Energy Cell Frame, Fluid Cell Frame.

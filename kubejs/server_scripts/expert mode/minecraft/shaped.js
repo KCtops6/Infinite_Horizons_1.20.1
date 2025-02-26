@@ -27,6 +27,20 @@ ServerEvents.recipes(event => {
             },
             output: 'thermal:energy_cell_frame',
             count: 1
+        },
+        {
+            pattern: [
+                'ABA',
+                'BCB',
+                'ABA'
+            ],
+            keys: {
+                A: 'kubejs:copper_plate',
+                B: 'quark:framed_glass',
+                C: 'kubejs:bronze_gear'
+            },
+            output: "thermal:fluid_cell_frame",
+            count: 1
         }
     ];
 
