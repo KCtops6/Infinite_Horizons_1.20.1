@@ -1747,7 +1747,7 @@ Updated Curios API (Forge/NeoForge).
 Updated Entity Culling Fabric/Forge.
 Updated Essential Mod.
 Updated FancyMenu.
-Updated 
+Updated FramedBlocks.
 Updated ImmediatelyFast.
 Updated Immersive Aircraft [Fabric/Forge].
 Updated Integrated Dynamics.
