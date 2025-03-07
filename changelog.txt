@@ -1781,6 +1781,7 @@ Added Expert Mode Recipes for Ars Nouveau (replacing gold with electrum).
 Fixed Stone Alloy Recipes/Uses.
 
 Updated Cooking for Blockheads.
+Updated FramedBlocks.
 Updated Integrated Dynamics.
 Updated Mekanism.
 Updated Mekanism Additions.
