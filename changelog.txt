@@ -1798,3 +1798,4 @@ Updated Delightful.
 Updated Ender IO.
 Updated Extreme sound muffler - (Neo)Forge.
 Updated FramedBlocks.
+Updated FTB Quests (Forge).
