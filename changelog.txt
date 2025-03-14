@@ -1810,3 +1810,4 @@ Updated Puzzles Lib [Forge & Fabric].
 Updated RightClickHarvest.
 Updated Server Performance - Smooth Chunk Save[Forge/Fabric].
 Updated Sophisticated Backpacks.
+Updated Sophisticated Core.
