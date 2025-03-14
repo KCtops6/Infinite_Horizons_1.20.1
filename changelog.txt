@@ -1792,3 +1792,4 @@ Updated Waystones.
 Updated Amendments.
 Updated Collective.
 Updated Cyclops Core.
+Updated Delightful.
