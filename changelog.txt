@@ -1789,6 +1789,8 @@ Updated Mekanism Tools.
 Updated Waystones.
 
 1.20.1-10.2
+Removed Essential Mod.
+
 Updated Amendments.
 Updated Collective.
 Updated Cyclops Core.
