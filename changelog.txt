@@ -1797,3 +1797,4 @@ Updated Cyclops Core.
 Updated Delightful.
 Updated Ender IO.
 Updated Extreme sound muffler - (Neo)Forge.
+Updated FramedBlocks.
