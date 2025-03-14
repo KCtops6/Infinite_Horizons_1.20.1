@@ -1807,3 +1807,4 @@ Updated Moonlight Lib.
 Updated OctoLib.
 Updated Placebo.
 Updated Puzzles Lib [Forge & Fabric].
+Updated RightClickHarvest.
