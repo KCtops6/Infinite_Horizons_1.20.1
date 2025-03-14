@@ -1801,3 +1801,4 @@ Updated FramedBlocks.
 Updated FTB Quests (Forge).
 Updated ImmediatelyFast.
 Updated Integrated Dynamics.
+Updated Integrated Terminals.
