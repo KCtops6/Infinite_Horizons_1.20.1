@@ -1791,3 +1791,4 @@ Updated Waystones.
 1.20.1-10.2
 Updated Amendments.
 Updated Collective.
+Updated Cyclops Core.
