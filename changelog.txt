@@ -1805,3 +1805,4 @@ Updated Integrated Terminals.
 Updated Just Zoom.
 Updated Moonlight Lib.
 Updated OctoLib.
+Updated Placebo.
