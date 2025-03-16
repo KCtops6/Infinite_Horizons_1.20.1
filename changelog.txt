@@ -1790,6 +1790,7 @@ Updated Waystones.
 
 1.20.1-10.2
 Removed Essential Mod.
+Removed project-1080235.
 
 Updated Amendments.
 Updated Collective.
