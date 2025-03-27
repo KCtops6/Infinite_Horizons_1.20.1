@@ -1828,7 +1828,7 @@ Updated Immersive Aircraft [Fabric/Forge].
 Updated Integrated Dynamics.
 Updated Let Me Despawn.
 Updated Lootr (Forge & NeoForge).
-Updated Moonlight Lib.
+
 Updated Occultism.
 Updated Quark.
 Updated RightClickHarvest.
