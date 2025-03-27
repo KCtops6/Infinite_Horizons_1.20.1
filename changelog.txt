@@ -1816,6 +1816,7 @@ Updated Sophisticated Core.
 1.20.1-10.3
 Added JamLib.
 
+Updated Quark.
 Updated RightClickHarvest.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
