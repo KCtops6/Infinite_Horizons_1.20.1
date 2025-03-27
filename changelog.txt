@@ -1819,7 +1819,6 @@ Added JamLib.
 Updated Balm.
 Updated Botany Pots.
 Updated Cyclops Core.
-Updated Ender IO.
 Updated Fast Async World Save[Forge/Fabric].
 Updated FastSuite.
 Updated GeckoLib.
