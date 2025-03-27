@@ -1816,6 +1816,7 @@ Updated Sophisticated Core.
 1.20.1-10.3
 Added JamLib.
 
+Updated Moonlight Lib.
 Updated Occultism.
 Updated Quark.
 Updated RightClickHarvest.
@@ -1824,3 +1825,5 @@ Updated Sophisticated Core.
 Updated Supplementaries.
 Updated Villager Workers: Traveling Merchant Update!.
 Updated Zeta.
+
+Ensured packmode is "normal" by default, not "expert".
