@@ -1834,7 +1834,6 @@ Updated Quark.
 Updated RightClickHarvest.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
-Updated Supplementaries.
 Updated Villager Workers: Traveling Merchant Update!.
 Updated Zeta.
 
