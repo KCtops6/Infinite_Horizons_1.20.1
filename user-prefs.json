@@ -24322,6 +24322,10 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-03-14-3.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -25655,10 +25659,6 @@
       },
       {
         "path": "mods\\MysticalAgriculture-1.20.1-7.0.17.jar",
-        "isSelected": true
-      },
-      {
-        "path": "mods\\mysticalagriculturedelight-1.0.4.1-1.20.1.jar",
         "isSelected": true
       },
       {
