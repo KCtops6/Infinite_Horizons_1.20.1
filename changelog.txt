@@ -1828,7 +1828,6 @@ Updated Immersive Aircraft [Fabric/Forge].
 Updated Integrated Dynamics.
 Updated Let Me Despawn.
 Updated Lootr (Forge & NeoForge).
-
 Updated Occultism.
 Updated Quark.
 Updated RightClickHarvest.
@@ -1840,6 +1839,7 @@ Updated Zeta.
 Ensured packmode is "normal" by default, not "expert".
 
 1.20.1-10.4
+Updated Botania.
 Updated Collective.
 Updated Entity Culling Fabric/Forge.
 Updated Extra Disks.
