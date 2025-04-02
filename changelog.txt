@@ -1841,6 +1841,7 @@ Ensured packmode is "normal" by default, not "expert".
 
 1.20.1-10.4
 Updated Entity Culling Fabric/Forge.
+Updated Extra Disks.
 Updated FLIB.
 Updated Integrated Tunnels.
 Updated Iron's Spells 'n Spellbooks.
