@@ -1843,6 +1843,7 @@ Ensured packmode is "normal" by default, not "expert".
 Updated Integrated Tunnels.
 Updated Iron's Spells 'n Spellbooks.
 Updated MineColonies.
+Updated Mystical Agradditions.
 Updated Mystical Agriculture.
 Updated Not Enough Animations.
 Updated Pipez.
