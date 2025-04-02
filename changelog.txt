@@ -1840,6 +1840,7 @@ Updated Zeta.
 Ensured packmode is "normal" by default, not "expert".
 
 1.20.1-10.4
+Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Zeta.
