@@ -1853,6 +1853,7 @@ Updated Mystical Agriculture.
 Updated Not Enough Animations.
 Updated Pipez.
 Updated Polymorph (Fabric/Forge/Quilt).
+Updated Powah! (Rearchitected).
 Updated Puzzles Lib [Forge & Fabric].
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
