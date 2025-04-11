@@ -1843,6 +1843,7 @@ Updated Applied Energistics 2.
 Updated Balm.
 Updated Botania.
 Updated Collective.
+Updated Drippy Loading Screen.
 Updated Entity Culling Fabric/Forge.
 Updated Extra Disks.
 Updated FLIB.
