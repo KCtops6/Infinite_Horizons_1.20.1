@@ -1846,6 +1846,7 @@ Updated Collective.
 Updated Entity Culling Fabric/Forge.
 Updated Extra Disks.
 Updated FLIB.
+Updated FTB Ranks (Forge).
 Updated FTB XMod Compat.
 Updated Integrated Tunnels.
 Updated Iron's Spells 'n Spellbooks.
