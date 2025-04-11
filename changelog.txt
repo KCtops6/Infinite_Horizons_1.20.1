@@ -1840,6 +1840,7 @@ Ensured packmode is "normal" by default, not "expert".
 
 1.20.1-10.4
 Updated Applied Energistics 2.
+Updated Ars Elemental.
 Updated Balm.
 Updated Botania.
 Updated Collective.
