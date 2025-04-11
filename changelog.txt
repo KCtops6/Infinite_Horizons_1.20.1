@@ -1842,6 +1842,7 @@ Ensured packmode is "normal" by default, not "expert".
 Updated Applied Energistics 2.
 Updated Ars Elemental.
 Updated Balm.
+Updated BlockUI.
 Updated Botania.
 Updated Collective.
 Updated Entity Culling Fabric/Forge.
