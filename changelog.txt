@@ -1851,7 +1851,6 @@ Updated FTB Ranks (Forge).
 Updated FTB XMod Compat.
 Updated Integrated Tunnels.
 Updated Iron's Spells 'n Spellbooks.
-Updated MineColonies.
 Updated Mystical Agradditions.
 Updated Mystical Agriculture.
 Updated Not Enough Animations.
