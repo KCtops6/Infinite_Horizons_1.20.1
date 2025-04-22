@@ -1864,3 +1864,6 @@ Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Structurize.
 Updated Zeta.
+
+1.20.1-10.5
+Added Project Expansion.

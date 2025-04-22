@@ -3094,6 +3094,22 @@
         "isSelected": false
       },
       {
+        "path": "crash-reports\\crash-2025-04-02_15.31.31-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-04-11_17.20.52-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-04-11_17.24.28-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-04-11_17.26.53-fml.txt",
+        "isSelected": false
+      },
+      {
         "path": "defaultconfigs",
         "isSelected": false
       },
@@ -22994,11 +23010,15 @@
         "isSelected": false
       },
       {
-        "path": "logs\\telemetry\\20250327-1.json.gz",
+        "path": "logs\\telemetry\\20250411-1.json.gz",
         "isSelected": false
       },
       {
-        "path": "logs\\telemetry\\20250327-2.json.gz",
+        "path": "logs\\telemetry\\20250411-2.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20250411-3.json.gz",
         "isSelected": false
       },
       {
@@ -24374,6 +24394,26 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-03-27-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-04-02-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-04-11-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-04-11-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-04-11-3.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -24891,19 +24931,19 @@
       },
       {
         "path": "mods\\advgenerators-1.6.0.6-mc1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ae2wtlib-15.2.3-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\AgriCraft-forge-1.20.1-4.0.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\AI-Improvements-1.20-0.5.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\allenchantmentsfortrade-1.20.1-1.0.jar",
@@ -24915,67 +24955,67 @@
       },
       {
         "path": "mods\\almostunified-forge-1.20.1-0.9.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\amendments-1.20-1.2.19.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Apotheosis-1.20.1-7.4.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\apotheoticcreation-1.0.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ApothicAttributes-1.20.1-1.3.7.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\appleskin-forge-mc1.20.1-2.5.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Applied-Botanics-forge-1.5.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Applied-Mekanistics-1.4.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\appliedcooking-4.0.0.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\appliedenergistics2-forge-15.3.3.jar",
-        "isSelected": false
+        "path": "mods\\appliedenergistics2-forge-15.3.4.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\architectury-9.2.14-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\arseng-1.2.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ars_creo-1.20.1-4.1.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\ars_elemental-1.20.1-0.6.7.7.jar",
-        "isSelected": false
+        "path": "mods\\ars_elemental-1.20.1-0.6.7.8.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\ars_nouveau-1.20.1-4.12.6-all.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\athena-forge-1.20.1-3.1.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\AttributeFix-Forge-1.20.1-21.0.4.jar",
@@ -24983,31 +25023,31 @@
       },
       {
         "path": "mods\\BadOptimizations-2.2.1-1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\balm-forge-1.20.1-7.3.25-all.jar",
-        "isSelected": false
+        "path": "mods\\balm-forge-1.20.1-7.3.27-all.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\bdlib-1.27.0.8-mc1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\BetterCompatibilityChecker-forge-4.0.8+mc1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\BHMenu-Forge-1.20.1-2.4.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\blockui-1.20.1-1.0.156-RELEASE.jar",
-        "isSelected": false
+        "path": "mods\\blockui-1.20.1-1.0.190-snapshot.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\bloodmagic-1.20.1-3.3.3-45.jar",
@@ -25018,7 +25058,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Botania-1.20.1-447-FORGE.jar",
+        "path": "mods\\Botania-1.20.1-448-FORGE.jar",
         "isSelected": true
       },
       {
@@ -25027,7 +25067,7 @@
       },
       {
         "path": "mods\\BotanyPotsTiers-Forge-1.20.1-6.0.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\BotanyTrees-Forge-1.20.1-9.0.18.jar",
@@ -25035,11 +25075,11 @@
       },
       {
         "path": "mods\\Bountiful-6.0.4+1.20.1-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\bucketlib-1.20.1-2.3.5.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\buildinggadgets2-1.0.7.jar",
@@ -25047,15 +25087,15 @@
       },
       {
         "path": "mods\\caelus-forge-3.2.0+1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\carryon-forge-1.20.1-2.1.2.7.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\chat_heads-0.13.13-forge-1.20.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\chefs-delight-1.0.3-forge-1.20.1.jar",
@@ -25063,19 +25103,19 @@
       },
       {
         "path": "mods\\cherishedworlds-forge-6.1.7+1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\chipped-forge-1.20.1-3.0.7.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\cloth-config-11.1.136-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Clumps-forge-1.20.1-12.0.0.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\CobbleForDays-1.8.0.jar",
@@ -25090,16 +25130,16 @@
         "isSelected": true
       },
       {
-        "path": "mods\\collective-1.20.1-7.94.jar",
-        "isSelected": false
+        "path": "mods\\collective-1.20.1-8.1.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\comforts-forge-6.4.0+1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\CommonCapabilities-1.20.1-2.9.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\compactmachines-forge-6.0.3.jar",
@@ -25107,7 +25147,7 @@
       },
       {
         "path": "mods\\configured-forge-1.20.1-2.2.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\connectivity-1.20.1-7.1.jar",
@@ -25115,15 +25155,15 @@
       },
       {
         "path": "mods\\Controlling-forge-1.20.1-12.0.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\cookingforblockheads-forge-1.20.1-16.0.13.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\corpse-forge-1.20.1-1.0.20.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\cosmeticarmorreworked-1.20.1-v1a.jar",
@@ -25131,15 +25171,15 @@
       },
       {
         "path": "mods\\crafting-on-a-stick-1.20.1-1.1.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\craftingtweaks-forge-1.20.1-18.2.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\create-1.20.1-0.5.1.j.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\create-confectionery1.20.1_v1.1.0.jar",
@@ -25167,31 +25207,31 @@
       },
       {
         "path": "mods\\createsifter-1.20.1-1.8.2.j-55.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\create_connected-0.9.4-mc1.20.1-all.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\create_enchantment_industry-1.20.1-for-create-0.5.1.f-1.2.9.d.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\create_mechanical_extruder-1.20.1-1.6.3.j-55.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\create_recycle_1.0.2_forge_1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\create_thermal-1.0.0-forge-1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Cucumber-1.20.1-7.0.13.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\cupboard-1.20.1-2.7.jar",
@@ -25199,11 +25239,11 @@
       },
       {
         "path": "mods\\curios-forge-5.12.1+1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\CyclopsCore-1.20.1-1.19.9.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\DarkUtilities-Forge-1.20.1-17.0.5.jar",
@@ -25211,7 +25251,7 @@
       },
       {
         "path": "mods\\DefaultWorldType-1.20.1-4.0.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Delightful-1.20.1-3.7.1.jar",
@@ -25223,47 +25263,47 @@
       },
       {
         "path": "mods\\domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\doubledoors-1.20.1-6.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\drippyloadingscreen_forge_3.0.11_MC_1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\easy-villagers-forge-1.20.1-1.1.23.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\EasyAnvils-v8.0.2-1.20.1-Forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\EasyMagic-v8.0.1-1.20.1-Forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\eatinganimation-1.20.1-5.1.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\eccentrictome-1.20.1-1.10.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\EdivadLib-1.20.1-2.0.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\elevatorid-1.20.1-lex-1.9.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\embeddium-0.3.31+mc1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
@@ -25271,63 +25311,63 @@
       },
       {
         "path": "mods\\EnderIO-1.20.1-6.2.10-beta-all.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\entangled-1.3.20-forge-mc1.20.4.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\entityculling-forge-1.7.3-mc1.20.1.jar",
-        "isSelected": false
+        "path": "mods\\entityculling-forge-1.7.4-mc1.20.1.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\entity_model_features_forge_1.20.1-2.4.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\entity_texture_features_forge_1.20.1-6.2.9.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\enviromats-1.20.1-2.1.4.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\EquipmentCompare-1.20.1-forge-1.3.7.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ExtendedAE-1.20-1.3.5-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ExtendedCrafting-1.20.1-6.0.8.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\ExtraDisks-1.20.1-3.0.2.jar",
-        "isSelected": false
+        "path": "mods\\ExtraDisks-1.20.1-3.0.3.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\ExtraStorage-1.20.1-4.0.7.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ExtremeSoundMuffler-3.49-forge-1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\fancymenu_forge_3.4.6_MC_1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\FarmersDelight-1.20.1-1.2.7.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\farmingforblockheads-forge-1.20.1-14.0.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\fastasyncworldsave-1.20.1-2.4.jar",
@@ -25335,7 +25375,7 @@
       },
       {
         "path": "mods\\FastSuite-1.20.1-5.1.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ferritecore-6.0.1-forge.jar",
@@ -25343,15 +25383,15 @@
       },
       {
         "path": "mods\\fishontheline-1.20.1-3.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\flib-1.20.1-0.0.14.jar",
-        "isSelected": false
+        "path": "mods\\flib-1.20.1-0.0.15.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\forbidden_arcanus-1.20.1-2.2.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\FORGE-sneaky_tree_growing-1.20.x-1.10.0.jar",
@@ -25359,79 +25399,79 @@
       },
       {
         "path": "mods\\FramedBlocks-9.3.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ftb-chunks-forge-2001.3.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ftb-essentials-forge-2001.2.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ftb-library-forge-2001.2.9.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ftb-quests-forge-2001.4.12.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\ftb-ranks-forge-2001.1.4.jar",
-        "isSelected": false
+        "path": "mods\\ftb-ranks-forge-2001.1.5.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\ftb-teams-forge-2001.3.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ftb-ultimine-forge-2001.1.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\ftb-xmod-compat-forge-2.1.2.jar",
-        "isSelected": false
+        "path": "mods\\ftb-xmod-compat-forge-2.1.3.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\ftbbackups2-forge-1.20-1.0.23.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\functionalstorage-1.20.1-1.2.10.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\gag-forge-3.0.0-build.13.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\geckolib-forge-1.20.1-4.7.1.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Glodium-1.20-1.5-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\gml-4.0.9-all.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\gpumemleakfix-1.20.1-1.8.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\gtceu-1.20.1-1.6.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\guardvillagers-1.20.1-1.6.10.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\handcrafted-forge-1.20.1-3.0.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\harvest-with-ease-forge-1.20.1-9.4.0.jar",
@@ -25439,15 +25479,15 @@
       },
       {
         "path": "mods\\healingcampfire-1.20.1-6.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Highlighter-1.20.1-forge-1.1.9.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\HostileNeuralNetworks-1.20.1-5.3.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Iceberg-1.20.1-forge-1.1.25.jar",
@@ -25455,7 +25495,7 @@
       },
       {
         "path": "mods\\ImmediatelyFast-Forge-1.5.0+1.20.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ImmersiveEngineering-1.20.1-10.2.0-183.jar",
@@ -25463,63 +25503,63 @@
       },
       {
         "path": "mods\\immersive_aircraft-1.2.2+1.20.1-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\industrial-foregoing-1.20.1-3.5.19.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\infinitetrading-1.20.1-4.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\IntegratedCrafting-1.20.1-1.1.11.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\IntegratedDynamics-1.20.1-1.25.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\IntegratedScripting-1.20.1-1.0.13.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\IntegratedTerminals-1.20.1-1.6.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\IntegratedTunnels-1.20.1-1.8.35.jar",
-        "isSelected": false
+        "path": "mods\\IntegratedTunnels-1.20.1-1.8.36.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\invtweaks-1.20.1-1.2.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ironfurnaces-1.20.1-4.1.6.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\irons_spellbooks-1.20.1-3.4.0.7.jar",
-        "isSelected": false
+        "path": "mods\\irons_spellbooks-1.20.1-3.4.0.8.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\item-filters-forge-2001.1.0-build.59.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ItemBorders-1.20.1-forge-1.2.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Jade-1.20.1-Forge-11.12.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\jamlib-forge-1.3.2+1.20.1-patch.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\jecalculation-forge-1.20.1-4.0.4.jar",
@@ -25527,15 +25567,15 @@
       },
       {
         "path": "mods\\jei-1.20.1-forge-15.20.0.106.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\jeimultiblocks-1.20.1-1.0.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\journeymap-1.20.1-5.10.3-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\justenoughbreeding-forge-1.20-1.20.1-1.5.0.jar",
@@ -25543,23 +25583,23 @@
       },
       {
         "path": "mods\\JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\JustEnoughResources-1.20.1-1.4.0.247.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\justzoom_forge_2.1.1_MC_1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Kambrik-6.1.1+1.20.1-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\kotlinforforge-4.11.0-all.jar",
@@ -25571,15 +25611,15 @@
       },
       {
         "path": "mods\\kubejs-forge-2001.6.5-build.16.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\kubejsarsnouveau-1.2.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\kubejsbotanypots-1.2.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\kubejs_botania-1.4.0-forge.jar",
@@ -25587,7 +25627,7 @@
       },
       {
         "path": "mods\\kubejs_enderio-forge-1.20.1-0.6.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\kubejs_naturesaura-1.20.1-forge-1.0.1.jar",
@@ -25595,11 +25635,11 @@
       },
       {
         "path": "mods\\LeavesBeGone-v8.0.0-1.20.1-Forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\LegendaryTooltips-1.20.1-forge-1.4.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\letmedespawn-1.20.x-forge-1.5.0.jar",
@@ -25607,15 +25647,15 @@
       },
       {
         "path": "mods\\libertyvillagers-2.0.0+forge+1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\libIPN-forge-1.20-4.0.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\light-overlay-8.0.0-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\lmft-1.0.4+1.20.1-forge.jar",
@@ -25623,51 +25663,51 @@
       },
       {
         "path": "mods\\lootjs-forge-1.20.1-2.12.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\lootr-forge-1.20-0.7.35.91.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\matc-1.6.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\mcjtylib-1.20-8.0.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\megacells-forge-2.4.6-1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Mekanism-1.20.1-10.4.15.75.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\MekanismAdditions-1.20.1-10.4.15.75.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\MekanismGenerators-1.20.1-10.4.15.75.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\MekanismTools-1.20.1-10.4.15.75.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\MerchantMarkers-1.20.1-forge-1.3.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\minecolonies-1.20.1-1.1.603-RELEASE.jar",
-        "isSelected": false
+        "path": "mods\\minecolonies-1.20.1-1.1.854-alpha.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\mob_grinding_utils-1.20.1-1.1.0.jar",
@@ -25675,75 +25715,75 @@
       },
       {
         "path": "mods\\modernfix-forge-5.20.2+mc1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\modonomicon-1.20.1-forge-1.77.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\modular-routers-12.1.1+mc1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\moonlight-1.20-2.13.78-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\morejs-forge-1.20.1-0.10.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\MouseTweaks-forge-mc1.20.1-2.25.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\multipiston-1.20-1.2.43-RELEASE.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\MysticalAdaptations-1.20.1-1.0.1.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\MysticalAgradditions-1.20.1-7.0.8.jar",
-        "isSelected": false
+        "path": "mods\\MysticalAgradditions-1.20.1-7.0.9.jar",
+        "isSelected": true
       },
       {
-        "path": "mods\\MysticalAgriculture-1.20.1-7.0.17.jar",
-        "isSelected": false
+        "path": "mods\\MysticalAgriculture-1.20.1-7.0.18.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\MysticalCustomization-1.20.1-5.0.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\MysticalExpansion-1.20.1-1.0.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\NaturesAura-39.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\NoChatReports-FORGE-1.20.1-v2.2.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\nonetherportal-1.20.1-1.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\notenoughanimations-forge-1.9.2-mc1.20.1.jar",
-        "isSelected": false
+        "path": "mods\\notenoughanimations-forge-1.9.3-mc1.20.1.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\occultism-1.20.1-1.141.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\OctoLib-FORGE-0.5.0.1+1.20.1.jar",
@@ -25751,7 +25791,7 @@
       },
       {
         "path": "mods\\oculus-mc1.20.1-1.8.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\OreTree-Forge-1.20.1-1.1.0.jar",
@@ -25759,15 +25799,15 @@
       },
       {
         "path": "mods\\OverflowingBars-v8.0.1-1.20.1-Forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\overworldpiglins-1.20.1-1.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\pamhc2crops-1.20-1.0.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\pamhc2foodcore-1.20.4-1.0.5.jar",
@@ -25779,7 +25819,7 @@
       },
       {
         "path": "mods\\pamhc2trees-1.20-1.0.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Patchouli-1.20.1-84.1-FORGE.jar",
@@ -25787,63 +25827,63 @@
       },
       {
         "path": "mods\\Paxi-1.20-Forge-4.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\PigPen-Forge-1.20.1-15.0.2.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\pipez-forge-1.20.1-1.2.16.jar",
-        "isSelected": false
+        "path": "mods\\pipez-forge-1.20.1-1.2.21.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\Placebo-1.20.1-8.6.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\player-animation-lib-forge-1.0.2-rc1+1.20.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\polylib-forge-2000.0.3-build.143.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\polymorph-forge-0.49.8+1.20.1.jar",
-        "isSelected": false
+        "path": "mods\\polymorph-forge-0.49.9+1.20.1.jar",
+        "isSelected": true
       },
       {
-        "path": "mods\\Powah-5.0.8.jar",
-        "isSelected": false
+        "path": "mods\\Powah-5.0.9.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\Prism-1.20.1-forge-1.0.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\probejs-6.0.1-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\productivebees-1.20.1-12.6.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\productivetrees-1.20.1-0.2.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ProjectE-1.20.1-PE1.0.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\PuzzlesLib-v8.1.29-1.20.1-Forge.jar",
-        "isSelected": false
+        "path": "mods\\PuzzlesLib-v8.1.32-1.20.1-Forge.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\Quark-4.0-461.jar",
@@ -25855,7 +25895,7 @@
       },
       {
         "path": "mods\\rebornstorage-1.20.1-5.0.7.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\redstone_arsenal-1.20.1-8.0.1.24.jar",
@@ -25867,15 +25907,15 @@
       },
       {
         "path": "mods\\refinedpolymorph-0.1.1-1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\refinedstorage-1.12.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\refinedstorageaddons-0.10.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\resourcefulconfig-forge-1.20.1-2.1.3.jar",
@@ -25883,31 +25923,31 @@
       },
       {
         "path": "mods\\resourcefullib-forge-1.20.1-2.1.29.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\rftoolsbase-1.20-5.0.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\rftoolsutility-1.20-6.0.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\rhino-forge-2001.2.3-build.10.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\rightclickharvest-forge-4.5.3+1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\RSInfinityBooster-1.20.1-1.0+41.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\rsrequestify-1.20.1-2.3.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Runelic-Forge-1.20.1-18.0.2.jar",
@@ -25915,11 +25955,11 @@
       },
       {
         "path": "mods\\ScalableCatsForce-3.3.1-build-0-with-library.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Searchables-forge-1.20.1-1.0.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\sebastrnlib-4.0.0.jar",
@@ -25927,11 +25967,11 @@
       },
       {
         "path": "mods\\servercore-forge-1.5.2+1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\SmartBrainLib-forge-1.20.1-1.15.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\smoothchunk-1.20.1-4.1.jar",
@@ -25939,39 +25979,39 @@
       },
       {
         "path": "mods\\sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\solapplepie-1.20.1-2.3.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedbackpacks-1.20.1-3.23.6.1211.jar",
-        "isSelected": false
+        "path": "mods\\sophisticatedbackpacks-1.20.1-3.23.10.1220.jar",
+        "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedcore-1.20.1-1.2.23.902.jar",
-        "isSelected": false
+        "path": "mods\\sophisticatedcore-1.20.1-1.2.42.943.jar",
+        "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedstorage-1.20.1-1.3.9.1075.jar",
-        "isSelected": false
+        "path": "mods\\sophisticatedstorage-1.20.1-1.3.27.1112.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\spacecatcustomprofessions-forge-20.4.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\spark-1.10.53-forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\stackrefill-1.20.1-4.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\starlight-1.1.2+forge.1cda73c.jar",
@@ -25979,27 +26019,27 @@
       },
       {
         "path": "mods\\starterkit-1.20.1-7.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Steam_Rails-1.6.7+forge-mc1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\structurize-1.20.1-1.0.742-RELEASE.jar",
-        "isSelected": false
+        "path": "mods\\structurize-1.20.1-1.0.765-snapshot.jar",
+        "isSelected": true
       },
       {
         "path": "mods\\summoningrituals-forge-1.20.1-2.0.8.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\superflatworldnoslimes-1.20.1-3.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\supermartijn642configlib-1.1.8-forge-mc1.20.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
@@ -26007,7 +26047,7 @@
       },
       {
         "path": "mods\\supplementaries-1.20-3.1.18.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\thermal_dynamics-1.20.1-11.0.1.23.jar",
@@ -26027,47 +26067,47 @@
       },
       {
         "path": "mods\\Tips-Forge-1.20.1-12.1.8.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\titanium-1.20.1-3.8.32.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\ToastControl-1.20.1-8.0.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\tomeofblood-1.20.1-0.4.4-all.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\toms_storage-1.20-1.7.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\toomanyglyphs-1.20.1-2.3.2.12345.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\torchmaster-20.1.9.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\towntalk-1.20.1-1.1.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\TradingPost-v8.0.2-1.20.1-Forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\trashcans-1.0.18b-forge-mc1.20.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\treeharvester-1.20.1-9.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\Twigs-1.20.1-3.1.0.jar",
@@ -26079,39 +26119,39 @@
       },
       {
         "path": "mods\\valkyrielib-forge-1.20.1-4.0.4.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\villagernames-1.20.1-8.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\villagersrespawn-1.20-46.7.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\villagertools-1.20.1-1.0.3.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\villagespawnpoint-1.20.1-4.5.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\waystones-forge-1.20.1-14.1.11.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\WikiLookup-1.20.2-1.0.2.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\woodenbucket-1.20.1-2.1.0.0.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\workers-1.20.1-1.7.9.1.jar",
@@ -26119,22 +26159,22 @@
       },
       {
         "path": "mods\\xnet-1.20-6.1.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\xnetgases-1.20.1-5.1.4.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
         "path": "mods\\YungsApi-1.20-Forge-4.0.6.jar",
-        "isSelected": false
+        "isSelected": true
       },
       {
-        "path": "mods\\Zeta-1.0-28.jar",
+        "path": "mods\\Zeta-1.0-29.jar",
         "isSelected": true
       },
       {
