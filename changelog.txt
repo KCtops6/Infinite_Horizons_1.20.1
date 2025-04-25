@@ -1874,3 +1874,4 @@ Updated Collective.
 Updated Jade 🔍.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
+Updated Sophisticated Storage.
