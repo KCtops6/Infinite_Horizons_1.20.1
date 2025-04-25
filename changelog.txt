@@ -1867,3 +1867,6 @@ Updated Zeta.
 
 1.20.1-10.5
 Added Project Expansion.
+
+Updated Apotheosis.
+Updated Chat Heads.
