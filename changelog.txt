@@ -1871,3 +1871,4 @@ Added Project Expansion.
 Updated Apotheosis.
 Updated Chat Heads.
 Updated Collective.
+Updated Jade 🔍.
