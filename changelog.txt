@@ -1879,6 +1879,7 @@ Updated Village Spawn Point.
 Updated Zeta.
 
 1.20.1-10.6
+Updated Almost Unified.
 Updated Create.
 Updated Create Crafts & Additions.
 Updated Create Low-Heated.
