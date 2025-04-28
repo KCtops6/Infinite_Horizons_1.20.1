@@ -1889,6 +1889,7 @@ Updated FTB Chunks (Forge).
 Updated FTB Quests (Forge).
 Updated GroovyModLoader (GML).
 Updated JamLib.
+Updated Moonlight Lib.
 Updated Polymorph (Fabric/Forge/Quilt).
 Updated Quark.
 Updated Sophisticated Core.
