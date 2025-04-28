@@ -1883,6 +1883,7 @@ Updated Almost Unified.
 Updated Create.
 Updated Create Crafts & Additions.
 Updated Create Low-Heated.
+Updated Cyclops Core.
 Updated Double Doors.
 Updated Drippy Loading Screen.
 Updated FancyMenu.
