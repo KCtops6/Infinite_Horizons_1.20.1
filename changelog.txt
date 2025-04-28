@@ -1893,6 +1893,7 @@ Updated FTB Quests (Forge).
 Updated GroovyModLoader (GML).
 Updated JamLib.
 Updated MineColonies.
+Updated ModernFix.
 Updated Moonlight Lib.
 Updated Polymorph (Fabric/Forge/Quilt).
 Updated Quark.
