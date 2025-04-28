@@ -2674,6 +2674,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\project-expansion.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\projectvibrantjourneys-common.toml",
         "isSelected": true
       },
@@ -2835,6 +2839,10 @@
       },
       {
         "path": "config\\villagersrespawn-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\villagespawnpoint.json5",
         "isSelected": true
       },
       {
@@ -23010,18 +23018,6 @@
         "isSelected": false
       },
       {
-        "path": "logs\\telemetry\\20250411-1.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20250411-2.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20250411-3.json.gz",
-        "isSelected": false
-      },
-      {
         "path": "logs\\2024-09-02-1.log.gz",
         "isSelected": false
       },
@@ -24414,6 +24410,10 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-04-11-4.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -24962,7 +24962,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Apotheosis-1.20.1-7.4.6.jar",
+        "path": "mods\\Apotheosis-1.20.1-7.4.8.jar",
         "isSelected": true
       },
       {
@@ -25094,7 +25094,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\chat_heads-0.13.13-forge-1.20.jar",
+        "path": "mods\\chat_heads-0.13.17-forge-1.20.jar",
         "isSelected": true
       },
       {
@@ -25130,7 +25130,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\collective-1.20.1-8.1.jar",
+        "path": "mods\\collective-1.20.1-8.3.jar",
         "isSelected": true
       },
       {
@@ -25554,7 +25554,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Jade-1.20.1-Forge-11.12.3.jar",
+        "path": "mods\\Jade-1.20.1-Forge-11.13.1.jar",
         "isSelected": true
       },
       {
@@ -25882,6 +25882,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\ProjectExpansion-1.20.1-1.1.2.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\PuzzlesLib-v8.1.32-1.20.1-Forge.jar",
         "isSelected": true
       },
@@ -25990,15 +25994,15 @@
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedbackpacks-1.20.1-3.23.10.1220.jar",
+        "path": "mods\\sophisticatedbackpacks-1.20.1-3.23.13.1230.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedcore-1.20.1-1.2.42.943.jar",
+        "path": "mods\\sophisticatedcore-1.20.1-1.2.49.962.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedstorage-1.20.1-1.3.27.1112.jar",
+        "path": "mods\\sophisticatedstorage-1.20.1-1.3.37.1134.jar",
         "isSelected": true
       },
       {
@@ -26134,7 +26138,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\villagespawnpoint-1.20.1-4.5.jar",
+        "path": "mods\\villagespawnpoint-1.20.1-4.6.jar",
         "isSelected": true
       },
       {
@@ -26174,7 +26178,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Zeta-1.0-29.jar",
+        "path": "mods\\Zeta-1.0-30.jar",
         "isSelected": true
       },
       {

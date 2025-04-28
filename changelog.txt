@@ -1877,3 +1877,6 @@ Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Village Spawn Point.
 Updated Zeta.
+
+1.20.1-10.6
+Updated Create.

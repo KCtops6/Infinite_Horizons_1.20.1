@@ -109,6 +109,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "projectexpansion": {
+    "provider": true
+  },
   "easy_villagers": {
     "villager": true,
     "converter": true,
