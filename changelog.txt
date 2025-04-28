@@ -1882,6 +1882,7 @@ Updated Zeta.
 Updated Create.
 Updated Create Crafts & Additions.
 Updated Create Low-Heated.
+Updated Drippy Loading Screen.
 Updated FancyMenu.
 Updated FTB Chunks (Forge).
 Updated FTB Quests (Forge).
