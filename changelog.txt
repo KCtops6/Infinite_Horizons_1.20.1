@@ -1899,6 +1899,7 @@ Updated Moonlight Lib.
 Updated Polymorph (Fabric/Forge/Quilt).
 Updated Quark.
 Updated Sophisticated Core.
+Updated Sophisticated Storage.
 Updated Stack Refill.
 Updated Starter Kit.
 Updated Structurize.
