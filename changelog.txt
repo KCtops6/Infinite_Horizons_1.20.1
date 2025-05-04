@@ -1884,6 +1884,7 @@ Updated Create.
 Updated Create Crafts & Additions.
 Updated Create Low-Heated.
 Updated Create Sifting.
+Updated Create Stuff 'N Additions.
 Updated Create: Connected.
 Updated Create: Enchantment Industry.
 Updated Curios API (Forge/NeoForge).
