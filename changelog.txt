@@ -1889,6 +1889,7 @@ Updated Cyclops Core.
 Updated Double Doors.
 Updated Drippy Loading Screen.
 Updated FancyMenu.
+Updated FramedBlocks.
 Updated FTB Chunks (Forge).
 Updated FTB Quests (Forge).
 Updated FTB Ranks (Forge).
