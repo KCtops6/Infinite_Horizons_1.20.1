@@ -1888,6 +1888,7 @@ Updated Curios API (Forge/NeoForge).
 Updated Cyclops Core.
 Updated Double Doors.
 Updated Drippy Loading Screen.
+Updated Ender IO.
 Updated FancyMenu.
 Updated FramedBlocks.
 Updated FTB Chunks (Forge).
