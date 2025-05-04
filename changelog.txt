@@ -1892,6 +1892,7 @@ Updated FancyMenu.
 Updated FTB Chunks (Forge).
 Updated FTB Quests (Forge).
 Updated GroovyModLoader (GML).
+Updated Iron's Spells 'n Spellbooks.
 Updated JamLib.
 Updated MineColonies.
 Updated ModernFix.
