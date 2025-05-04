@@ -1896,6 +1896,7 @@ Updated JamLib.
 Updated MineColonies.
 Updated ModernFix.
 Updated Moonlight Lib.
+Updated Mystical Agriculture.
 Updated Polymorph (Fabric/Forge/Quilt).
 Updated Powah! (Rearchitected).
 Updated Quark.
