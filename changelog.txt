@@ -1897,6 +1897,7 @@ Updated MineColonies.
 Updated ModernFix.
 Updated Moonlight Lib.
 Updated Polymorph (Fabric/Forge/Quilt).
+Updated Powah! (Rearchitected).
 Updated Quark.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
