@@ -1879,6 +1879,8 @@ Updated Village Spawn Point.
 Updated Zeta.
 
 1.20.1-10.6
+Added Showcase Item.
+
 Updated Almost Unified.
 Updated Applied Energistics 2.
 Updated Ars Creo.
