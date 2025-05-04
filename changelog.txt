@@ -1880,6 +1880,7 @@ Updated Zeta.
 
 1.20.1-10.6
 Updated Almost Unified.
+Updated Applied Energistics 2.
 Updated Ars Creo.
 Updated BadOptimizations.
 Updated BucketLib.
@@ -1904,6 +1905,7 @@ Updated FTB Chunks (Forge).
 Updated FTB Quests (Forge).
 Updated FTB Ranks (Forge).
 Updated GroovyModLoader (GML).
+Updated GuideME.
 Updated Integrated Dynamics.
 Updated Iron's Spells 'n Spellbooks.
 Updated JamLib.
