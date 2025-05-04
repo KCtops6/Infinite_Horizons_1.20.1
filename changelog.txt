@@ -1891,6 +1891,7 @@ Updated Drippy Loading Screen.
 Updated FancyMenu.
 Updated FTB Chunks (Forge).
 Updated FTB Quests (Forge).
+Updated FTB Ranks (Forge).
 Updated GroovyModLoader (GML).
 Updated Integrated Dynamics.
 Updated Iron's Spells 'n Spellbooks.
