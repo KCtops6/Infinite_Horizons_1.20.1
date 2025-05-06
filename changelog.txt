@@ -1901,6 +1901,7 @@ Updated Cyclops Core.
 Updated Double Doors.
 Updated Drippy Loading Screen.
 Updated Ender IO.
+Updated ExtendedAE.
 Updated FancyMenu.
 Updated FramedBlocks.
 Updated FTB Chunks (Forge).
