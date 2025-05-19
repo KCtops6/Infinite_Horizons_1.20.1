@@ -1921,6 +1921,7 @@ Updated MineColonies.
 Updated ModernFix.
 Updated Moonlight Lib.
 Updated MoreJS.
+Updated Mystical Agradditions.
 Updated Mystical Agriculture.
 Updated Polymorph (Fabric/Forge/Quilt).
 Updated Powah! (Rearchitected).
