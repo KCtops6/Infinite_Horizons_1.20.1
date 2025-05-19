@@ -1904,6 +1904,7 @@ Updated Double Doors.
 Updated Drippy Loading Screen.
 Updated Ender IO.
 Updated ExtendedAE.
+Updated Extreme sound muffler - (Neo)Forge.
 Updated FancyMenu.
 Updated FramedBlocks.
 Updated FTB Chunks (Forge).
