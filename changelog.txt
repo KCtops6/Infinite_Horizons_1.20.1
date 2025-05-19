@@ -1912,6 +1912,7 @@ Updated FTB Quests (Forge).
 Updated FTB Ranks (Forge).
 Updated GroovyModLoader (GML).
 Updated GuideME.
+Updated Integrated Crafting.
 Updated Integrated Dynamics.
 Updated Iron's Spells 'n Spellbooks.
 Updated JamLib.
