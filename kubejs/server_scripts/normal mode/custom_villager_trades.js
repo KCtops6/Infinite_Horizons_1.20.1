@@ -1,15 +1,18 @@
+//ignored: true
 MoreJSEvents.villagerTrades((event) => {
-    event.addTrade("cleric", 2, [TradeItem.of('minecraft:emerald', 1, 3)], TradeItem.of('minecraft:amethyst_shard', 1, 7));
-    event.addTrade("farmer", 2, [TradeItem.of('minecraft:emerald', 1, 2)], TradeItem.of('minecraft:ink_sac', 8, 16));
-    event.addTrade("cleric", 2, ['minecraft:emerald'], TradeItem.of('ars_nouveau:blue_archwood_sapling', 1, 5));
-    event.addTrade("cleric", 2, ['minecraft:emerald'], TradeItem.of('ars_nouveau:green_archwood_sapling', 1, 5));
-    event.addTrade("cleric", 2, ['minecraft:emerald'], TradeItem.of('ars_nouveau:purple_archwood_sapling', 1, 5));
-    event.addTrade("cleric", 2, ['minecraft:emerald'], TradeItem.of('ars_nouveau:red_archwood_sapling', 1, 5));
-    event.addTrade("cleric", 2, ['minecraft:emerald'], TradeItem.of('ars_elemental:yellow_archwood_sapling', 1, 5));
+    const simpleTrades = 
+    
+    event.addTrade("cleric", 2, [Item.of('minecraft:emerald', 3)], Item.of('minecraft:amethyst_shard', 7));
+    event.addTrade("farmer", 2, [Item.of('minecraft:emerald', 2)], Item.of('minecraft:ink_sac', 16));
+    event.addTrade("cleric", 2, ['minecraft:emerald'], Item.of('ars_nouveau:blue_archwood_sapling', 5));
+    event.addTrade("cleric", 2, ['minecraft:emerald'], Item.of('ars_nouveau:green_archwood_sapling', 5));
+    event.addTrade("cleric", 2, ['minecraft:emerald'], Item.of('ars_nouveau:purple_archwood_sapling', 5));
+    event.addTrade("cleric", 2, ['minecraft:emerald'], Item.of('ars_nouveau:red_archwood_sapling', 5));
+    event.addTrade("cleric", 2, ['minecraft:emerald'], Item.of('ars_elemental:yellow_archwood_sapling', 5));
     event.addTrade(
         "spacecatcustomprofessions:agronomancer", 1,
-        [TradeItem.of('minecraft:emerald', 1, 3)],
-        TradeItem.of('mysticalagriculture:inferium_essence', 1, 5)
+        [Item.of('minecraft:emerald', 3)],
+        Item.of('mysticalagriculture:inferium_essence', 5)
     );
     const agronomancerTrades = [
         {
@@ -123,10 +126,10 @@ MoreJSEvents.villagerTrades((event) => {
             "spacecatcustomprofessions:agronomancer",
             trade.level,
             [
-                TradeItem.of(trade.inputs[0].item, trade.inputs[0].count),
-                TradeItem.of(trade.inputs[1].item, trade.inputs[1].count)
+                Item.of(trade.inputs[0].item, trade.inputs[0].count),
+                Item.of(trade.inputs[1].item, trade.inputs[1].count)
             ],
-            TradeItem.of(trade.output.item, trade.output.count)
+            Item.of(trade.output.item, trade.output.count)
         );
     });
 
@@ -399,14 +402,14 @@ MoreJSEvents.villagerTrades((event) => {
         {
             level: 2,
             input1: 'productivebees:spawn_egg_blue_banded_bee',
-            input2: TradeItem.of('minecraft:emerald', 1, 3),
+            input2: Item.of('minecraft:emerald', 1, 3),
             output: 'productivebees:spawn_egg_neon_cuckoo_bee'
         },
         // Nomad Bee
         {
             level: 2,
             input1: 'productivebees:spawn_egg_ashy_mining_bee',
-            input2: TradeItem.of('minecraft:emerald', 1, 3),
+            input2: Item.of('minecraft:emerald', 1, 3),
             output: 'productivebees:spawn_egg_nomad_bee'
         },
         // Oily Bee
