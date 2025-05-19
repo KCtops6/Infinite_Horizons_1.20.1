@@ -1916,6 +1916,7 @@ Updated Integrated Crafting.
 Updated Integrated Dynamics.
 Updated Iron's Spells 'n Spellbooks.
 Updated JamLib.
+Updated LootJS: KubeJS Addon.
 Updated MineColonies.
 Updated ModernFix.
 Updated Moonlight Lib.
