@@ -1878,7 +1878,7 @@ Updated Sophisticated Storage.
 Updated Village Spawn Point.
 Updated Zeta.
 
-1.20.1-10.5b
+1.20.1-10.6
 Added Showcase Item.
 
 Updated Almost Unified.
@@ -1923,6 +1923,7 @@ Updated LootJS: KubeJS Addon.
 Updated Mekanism.
 Updated Mekanism Additions.
 Updated Mekanism Generators.
+Updated Mekanism Tools.
 Updated MineColonies.
 Updated ModernFix.
 Updated Moonlight Lib.
