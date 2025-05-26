@@ -4,6 +4,7 @@
     "kubejs",
     "crafttweaker",
     "create",
+    "mysticalagriculture",
     "supplementaries",
     "farmersdelight",
     "thermal",
@@ -38,7 +39,8 @@
     "forge:storage_blocks/raw_{material}",
     "forge:crops/{material}",
     "forge:seeds/{material}",
-    "forge:{material}"
+    "forge:{material}",
+    "kubejs:dragon_scales"
   ],
   "materials": [
     "aeternium",
