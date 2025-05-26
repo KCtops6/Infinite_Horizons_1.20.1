@@ -1881,6 +1881,9 @@ Updated Zeta.
 1.20.1-10.6
 Note, modpack loads with Apotheotic Creation and Create: Steam 'n' Rails disabled.
 
+Unified all dragon scales (Forbidden and Arcanus, Agradditions, Quark).
+Added recipe for dragon scale.
+
 Added Showcase Item.
 
 Updated Almost Unified.

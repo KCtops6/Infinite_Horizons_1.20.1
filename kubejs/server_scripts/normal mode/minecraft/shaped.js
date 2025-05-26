@@ -460,6 +460,20 @@ ServerEvents.recipes(event => {
             },
             output: 'kubejs:infinitium_block',
             count: 1
+        },
+        {
+            pattern: [
+                'OEO',
+                'ENE',
+                'OEO'
+            ],
+            keys: {
+                O: 'mysticalagriculture:obsidian_essence',
+                E: 'mysticalagriculture:end_essence',
+                N: 'mysticalagriculture:enderman_essence'
+            },
+            output: 'mysticalagradditions:dragon_scale',
+            count: 1
         }
     ];
 
