@@ -5,6 +5,7 @@
     "crafttweaker",
     "create",
     "mysticalagriculture",
+    "mysticalagradditions",
     "supplementaries",
     "farmersdelight",
     "thermal",
@@ -14,7 +15,9 @@
     "ae2",
     "extendedcrafting",
     "pamshc2crops",
-    "gtceu"
+    "gtceu",
+    "forbidden_arcanus",
+    "quark"
   ],
   "stoneStrata": [
     "stone",
@@ -39,8 +42,7 @@
     "forge:storage_blocks/raw_{material}",
     "forge:crops/{material}",
     "forge:seeds/{material}",
-    "forge:{material}",
-    "kubejs:dragon_scales"
+    "forge:{material}"
   ],
   "materials": [
     "aeternium",
@@ -62,6 +64,7 @@
     "constantan",
     "copper",
     "diamond",
+    "dragon_scales",
     "electrum",
     "elementium",
     "emerald",

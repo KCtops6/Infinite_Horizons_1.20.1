@@ -122,6 +122,13 @@ ServerEvents.tags('item', event => {
         'mysticalagradditions:dragon_scale', 'forbidden_arcanus:dragon_scale', 'quark:dragon_scale'
     ];
     scales.forEach(scale => {
-        event.add('kubejs:dragon_scales', scale);
+        event.add('forge:dragon_scales', scale);
+    });
+    const forbiddenArcanusScales = [
+        'forbidden_arcanus:aquatic_dragon_scale', 'forbidden_arcanus:golden_dragon_scale', 
+        'forbidden_arcanus:silver_dragon_scale'
+    ];
+    forbiddenArcanusScales.forEach(scale => {
+        event.remove('forge:dragon_scales', scale);
     });
 });
