@@ -1920,6 +1920,7 @@ Updated Iron's Spells 'n Spellbooks.
 Updated JamLib.
 Updated Just Enough Items (JEI).
 Updated LootJS: KubeJS Addon.
+Updated Mekanism.
 Updated MineColonies.
 Updated ModernFix.
 Updated Moonlight Lib.
