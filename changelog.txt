@@ -1922,6 +1922,7 @@ Updated Just Enough Items (JEI).
 Updated LootJS: KubeJS Addon.
 Updated Mekanism.
 Updated Mekanism Additions.
+Updated Mekanism Generators.
 Updated MineColonies.
 Updated ModernFix.
 Updated Moonlight Lib.
