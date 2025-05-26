@@ -474,6 +474,21 @@ ServerEvents.recipes(event => {
             },
             output: 'mysticalagradditions:dragon_scale',
             count: 1
+        },
+        {
+            pattern: [
+                'DSD',
+                'PSP',
+                'HDH'
+            ],
+            keys: {
+                D: 'mysticalagradditions:dragon_scale',
+                P: 'minecraft:popped_chorus_fruit',
+                H: 'minecraft:phantom_membrane',
+                S: 'minecraft:string'
+            },
+            output: 'minecraft:elytra',
+            count: 1
         }
     ];
 

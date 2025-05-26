@@ -1883,6 +1883,7 @@ Note, modpack loads with Apotheotic Creation and Create: Steam 'n' Rails disable
 
 Unified all dragon scales (Forbidden and Arcanus, Agradditions, Quark).
 Added recipe for dragon scale.
+Added recipe for elytra.
 
 Added Showcase Item.
 
