@@ -117,4 +117,11 @@ ServerEvents.tags('item', event => {
     nuggets.forEach(nugget => { // for each material...
         event.add(`forge:nuggets/${nugget}`, `kubejs:${nugget}_nugget`);    // ...we add the custom nugget for that material into that 'forge:nuggets/' tag.
     });
-})
+
+    const scales = [
+        'mysticalagradditions:dragon_scale', 'forbidden_arcanus:dragon_scale', 'quark:dragon_scale'
+    ];
+    scales.forEach(scale => {
+        event.add('kubejs:dragon_scales', scale);
+    });
+});
