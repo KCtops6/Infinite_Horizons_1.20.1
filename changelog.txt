@@ -1915,6 +1915,7 @@ Updated GroovyModLoader (GML).
 Updated GuideME.
 Updated Integrated Crafting.
 Updated Integrated Dynamics.
+Updated Integrated Terminals.
 Updated Iron's Spells 'n Spellbooks.
 Updated JamLib.
 Updated LootJS: KubeJS Addon.
