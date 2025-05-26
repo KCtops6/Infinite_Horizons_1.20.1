@@ -1879,6 +1879,8 @@ Updated Village Spawn Point.
 Updated Zeta.
 
 1.20.1-10.6
+Note, modpack loads with Apotheotic Creation and Create: Steam 'n' Rails disabled.
+
 Added Showcase Item.
 
 Updated Almost Unified.
