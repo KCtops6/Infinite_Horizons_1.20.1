@@ -1908,6 +1908,7 @@ Updated Extreme sound muffler - (Neo)Forge.
 Updated FancyMenu.
 Updated FramedBlocks.
 Updated FTB Chunks (Forge).
+Updated FTB Essentials (Forge & Fabric).
 Updated FTB Quests (Forge).
 Updated FTB Ranks (Forge).
 Updated GroovyModLoader (GML).
