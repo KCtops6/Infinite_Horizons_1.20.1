@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         { old: 'extendedcrafting:black_iron_ingot', new: 'kubejs:infinitium_ingot' },
         { old: 'botania:elementium_ingot', new: 'kubejs:elementium_ingot'},
         { old: 'botania:manasteel_ingot', new: 'kubejs:manasteel_ingot'},
-        { old: 'botania:terrasteel_ingot', new: 'kubejs:terrasteel_ingot'}
+        { old: 'botania:terrasteel_ingot', new: 'kubejs:terrasteel_ingot'},
     ];
     replaceInputs.forEach(input => { event.replaceInput({ input: input.old }, input.old, input.new); });
 

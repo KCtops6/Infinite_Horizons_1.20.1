@@ -1948,3 +1948,8 @@ Updated Structurize.
 Updated Supplementaries.
 Updated Tom's Simple Storage Mod.
 Updated Waystones.
+
+https://www.youtube.com/watch?v=9_VYCm6lMuU
+
+1.20.1-10.6.1
+Fixed andesite casing recipe (to require stone alloy instead of andesite alloy).

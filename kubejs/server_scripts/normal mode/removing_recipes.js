@@ -13,7 +13,8 @@ ServerEvents.recipes(event => {
         'ore_tree:redstone_tree_sapling', 'create:crafting/materials/andesite_alloy', 'create:crafting/materials/andesite_alloy_from_zinc',
         'create:mixing/andesite_alloy', 'create:mixing/andesite_alloy_from_zinc', 'farmersdelight:cutting/gravel', 'create:crushing/scrap_cobblestone_small',
         'extendedcrafting:ender_ingot', 'extendedcrafting:redstone_ingot', 'extendedcrafting:luminessence', 'extendedcrafting:black_iron_block',
-        'create:crushing/gravel', 'botania:livingwood_twig', 'botania:dreamwood_twig', 'create:crushing/tuff', 'create:crushing/tuff_recycling'
+        'create:crushing/gravel', 'botania:livingwood_twig', 'botania:dreamwood_twig', 'create:crushing/tuff', 'create:crushing/tuff_recycling',
+        'create:item_application/andesite_casing_from_log', 'create:item_application/andesite_casing_from_wood'
     ];
     identifications.forEach(identification => {
         event.remove({ id: identification });
