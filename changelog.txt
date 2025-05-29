@@ -1964,3 +1964,4 @@ Updated McJtyLib.
 Updated Mystical Agriculture.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
+Updated Sophisticated Storage.
