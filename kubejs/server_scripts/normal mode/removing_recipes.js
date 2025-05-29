@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
     // removing by output
     const outputs = [
         'mekanism:digital_miner', 'extendedcrafting:the_ultimate_block', 'extendedcrafting:the_ultimate_ingot', 
-        'extendedcrafting:the_ultimate_nugget', 'cookingforblockheads:crafting_book'
+        'extendedcrafting:the_ultimate_nugget', 'cookingforblockheads:crafting_book', 'create:andesite_alloy'
     ];
     outputs.forEach(output => {
         event.remove({ output: output });
