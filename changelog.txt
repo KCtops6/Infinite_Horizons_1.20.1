@@ -1953,3 +1953,10 @@ https://www.youtube.com/watch?v=9_VYCm6lMuU
 
 1.20.1-10.6.1
 Fixed andesite casing recipe (to require stone alloy instead of andesite alloy).
+
+1.20.1-10.7
+To obtain Immersive Engineering steel block, you can right click a KubeJS steel block with a hammer.
+
+Updated Balm.
+Updated Create: Connected.
+
