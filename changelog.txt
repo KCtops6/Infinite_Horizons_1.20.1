@@ -1962,3 +1962,4 @@ Updated Create: Connected.
 Updated Just Enough Items (JEI).
 Updated McJtyLib.
 Updated Mystical Agriculture.
+Updated Sophisticated Backpacks.
