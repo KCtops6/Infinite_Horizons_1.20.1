@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         'extendedcrafting:black_iron_ingot_uncraft', 'extendedcrafting:black_iron_ingot_uncraft', 'extendedcrafting:the_ultimate_catalyst',
         'extendedcrafting:the_ultimate_component', 'extendedcrafting:black_iron_slate', 'bountiful:crafting/bountyboard', 'cobblefordays:tier_1',
         'cobblefordays:tier_2', 'cobblefordays:tier_3', 'cobblefordays:tier_4', 'cobblefordays:tier_5', 'torchmaster:megatorch', 'projecte:dark_matter',
-        'projecte:red_matter', 'create:andesite_alloy', 'ore_tree:coal_tree_sapling', 'ore_tree:copper_tree_sapling', 'ore_tree:diamond_tree_sapling',
+        'projecte:red_matter', 'ore_tree:coal_tree_sapling', 'ore_tree:copper_tree_sapling', 'ore_tree:diamond_tree_sapling',
         'ore_tree:emerald_tree_sapling', 'ore_tree:gold_tree_sapling', 'ore_tree:iron_tree_sapling', 'ore_tree:lapis_tree_sapling', 'ore_tree:quartz_tree_sapling',
         'ore_tree:redstone_tree_sapling', 'create:crafting/materials/andesite_alloy', 'create:crafting/materials/andesite_alloy_from_zinc',
         'create:mixing/andesite_alloy', 'create:mixing/andesite_alloy_from_zinc', 'farmersdelight:cutting/gravel', 'create:crushing/scrap_cobblestone_small',
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
     // removing by output
     const outputs = [
         'mekanism:digital_miner', 'extendedcrafting:the_ultimate_block', 'extendedcrafting:the_ultimate_ingot', 
-        'extendedcrafting:the_ultimate_nugget', 'cookingforblockheads:crafting_book', 'create:andesite_alloy'
+        'extendedcrafting:the_ultimate_nugget', 'cookingforblockheads:crafting_book'
     ];
     outputs.forEach(output => {
         event.remove({ output: output });
