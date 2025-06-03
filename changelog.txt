@@ -1971,6 +1971,7 @@ Updated Integrated Scripting.
 Updated Integrated Tunnels.
 Updated Just Enough Items (JEI).
 Updated McJtyLib.
+Updated ModernFix.
 Updated Mystical Agriculture.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
