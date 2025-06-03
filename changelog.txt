@@ -1968,6 +1968,7 @@ Updated Farmer's Delight.
 Updated Integrated Crafting.
 Updated Integrated Dynamics.
 Updated Integrated Scripting.
+Updated Integrated Tunnels.
 Updated Just Enough Items (JEI).
 Updated McJtyLib.
 Updated Mystical Agriculture.
