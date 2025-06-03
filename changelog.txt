@@ -1966,6 +1966,7 @@ Updated Create: Connected.
 Updated Cyclops Core.
 Updated Farmer's Delight.
 Updated Integrated Crafting.
+Updated Integrated Dynamics.
 Updated Just Enough Items (JEI).
 Updated McJtyLib.
 Updated Mystical Agriculture.
