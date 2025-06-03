@@ -1959,6 +1959,7 @@ Added Ponder for KubeJS.
 
 To obtain Immersive Engineering steel block, you can right click a KubeJS steel block with a hammer.
 
+Updated Applied Energistics 2.
 Updated Balm.
 Updated Create: Connected.
 Updated Just Enough Items (JEI).
