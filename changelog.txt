@@ -1963,6 +1963,7 @@ Updated Applied Energistics 2.
 Updated Balm.
 Updated Common Capabilities.
 Updated Create: Connected.
+Updated Cyclops Core.
 Updated Just Enough Items (JEI).
 Updated McJtyLib.
 Updated Mystical Agriculture.
