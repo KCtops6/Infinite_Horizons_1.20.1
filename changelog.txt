@@ -1972,6 +1972,7 @@ Updated Integrated Tunnels.
 Updated Just Enough Items (JEI).
 Updated McJtyLib.
 Updated ModernFix.
+Updated Moonlight Lib.
 Updated Mystical Agriculture.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
