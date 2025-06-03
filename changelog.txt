@@ -1978,3 +1978,4 @@ Updated OpenBlocks Elevator.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
+Updated Structurize.
