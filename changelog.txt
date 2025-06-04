@@ -1958,6 +1958,7 @@ Fixed andesite casing recipe (to require stone alloy instead of andesite alloy).
 Added Ponder for KubeJS.
 
 To obtain Immersive Engineering steel block, you can right click a KubeJS steel block with a hammer.
+Fixed all errors regarding custom villager and their trades.
 
 Updated Applied Energistics 2.
 Updated Balm.
@@ -1979,3 +1980,5 @@ Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Structurize.
+
+1.20.1-10.8
