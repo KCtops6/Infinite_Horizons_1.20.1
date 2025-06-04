@@ -1,4 +1,4 @@
-//ignored: true
+//ignored: false
 MoreJSEvents.villagerTrades((event) => {
     const simpleTrades = 
     
