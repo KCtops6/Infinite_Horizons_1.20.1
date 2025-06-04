@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "psi"
+	group: "6F4C25734B575319"
+	id: "590A8853A49E43AD"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1267594C427FCF93"
+			tasks: [{
+				id: "0CDDCF775F0472D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1267594C427FCF93"]
+			id: "3929941CC883727C"
+			rewards: [
+				{
+					id: "1224AFA518B51102"
+					item: "projecte:alchemical_coal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3CE8F39D0487161C"
+					item: "minecraft:coal"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59357AC75A6ADBE9"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3929941CC883727C"]
+			id: "18ED72FBFE0F9E50"
+			rewards: [
+				{
+					id: "46C54E9160C16DF5"
+					item: "projecte:mobius_fuel"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3718666B50ED246F"
+					item: "projecte:alchemical_coal"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1745E63A0EDFA4F7"
+				item: "projecte:mobius_fuel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18ED72FBFE0F9E50"]
+			id: "0DD5F8FA98EE5491"
+			rewards: [
+				{
+					id: "57D80C7C13FCB862"
+					item: "projecte:aeternalis_fuel"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "327CAF4122A9180A"
+					item: "projecte:mobius_fuel"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "608EF9EEE2BAB065"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "5AAAD1DDC988FADA"
+			tasks: [{
+				id: "2BC2EC4A47943040"
+				item: "projecte:low_covalence_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "05FA28EEE74C697A"
+			tasks: [{
+				id: "6AFBEF57EE2B95D1"
+				item: "projecte:medium_covalence_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "6AB10A11978DC286"
+			tasks: [{
+				id: "0FFF6283B87F35D2"
+				item: "projecte:high_covalence_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"05FA28EEE74C697A"
+				"5AAAD1DDC988FADA"
+				"6AB10A11978DC286"
+			]
+			id: "2EC4F9338C0E6213"
+			tasks: [{
+				id: "4760C145590596D5"
+				item: "projecte:alchemical_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+	title: "Psi"
+}
