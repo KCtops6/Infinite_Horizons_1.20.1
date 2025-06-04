@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "psi"
 	group: "6F4C25734B575319"
+	icon: "projecte:transmutation_tablet"
 	id: "590A8853A49E43AD"
 	order_index: 5
 	quest_links: [ ]
@@ -47,8 +48,8 @@
 				item: "projecte:alchemical_coal"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3929941CC883727C"]
@@ -73,8 +74,8 @@
 				item: "projecte:mobius_fuel"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["18ED72FBFE0F9E50"]
@@ -99,8 +100,8 @@
 				item: "projecte:aeternalis_fuel"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			id: "5AAAD1DDC988FADA"
@@ -109,7 +110,7 @@
 				item: "projecte:low_covalence_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -4.0d
 		}
 		{
@@ -120,7 +121,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			id: "6AB10A11978DC286"
@@ -129,8 +130,8 @@
 				item: "projecte:high_covalence_dust"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -144,8 +145,2567 @@
 				item: "projecte:alchemical_chest"
 				type: "item"
 			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EC4F9338C0E6213"]
+			id: "4A9A9297AAB4C905"
+			tasks: [{
+				id: "0C75B790C68CFFAF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "projecte:alchemical_bags"
+					}
+				}
+				title: "Craft a ProjectE alchemical bag."
+				type: "item"
+			}]
 			x: -1.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["4A9A9297AAB4C905"]
+			id: "5FFD7E30C909F1BA"
+			tasks: [{
+				id: "4B95887AF09641D2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "projectexpansion:advanced_alchemical_chest"
+					}
+				}
+				title: "Craft an advanced alchemical chest."
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EC4F9338C0E6213"]
+			id: "64714093AAECE6CA"
+			tasks: [{
+				id: "1CF7DDDAB906D6A0"
+				item: "projecte:condenser_mk1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"64714093AAECE6CA"
+				"654B28A2F48D8C98"
+			]
+			id: "3DE96535A997F7B5"
+			tasks: [{
+				id: "262A30C6A00A74B0"
+				item: "projecte:condenser_mk2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DD5F8FA98EE5491"]
+			id: "49C4C21339D0AED9"
+			tasks: [{
+				id: "46F4818B9209D6F3"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			id: "654B28A2F48D8C98"
+			tasks: [{
+				id: "51FDA22C03CC01FB"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["654B28A2F48D8C98"]
+			id: "4868EABA1112B3FB"
+			tasks: [{
+				id: "22CA0AA7867E8690"
+				item: "projecte:dm_pedestal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18ED72FBFE0F9E50"]
+			hide_dependency_lines: true
+			id: "2F92325A312093DE"
+			tasks: [{
+				id: "788E9922AB082ABD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_ein"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F92325A312093DE"]
+			id: "451D59124BDC408B"
+			tasks: [{
+				id: "4E760BF56BC93F52"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_zwei"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["451D59124BDC408B"]
+			id: "50F263935C97FD03"
+			tasks: [{
+				id: "1B65AE7B875C3BDB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_drei"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["50F263935C97FD03"]
+			id: "52963C487C850837"
+			tasks: [{
+				id: "36B910A02283C9AD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_vier"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["52963C487C850837"]
+			id: "7AD12B315A20FAC9"
+			tasks: [{
+				id: "477051E5E44AE30D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_sphere"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7AD12B315A20FAC9"]
+			id: "03E05558FCC889D1"
+			tasks: [{
+				id: "4978A29365BF8FCD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_omega"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["32AEAE8653EF3DA0"]
+			id: "215E1C383F811853"
+			tasks: [{
+				id: "6D86EDBCD44577E4"
+				item: "projecte:iron_band"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["215E1C383F811853"]
+			id: "0E001BF0D7B10785"
+			tasks: [{
+				id: "467DF8DA888B669D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:harvest_goddess_band"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["215E1C383F811853"]
+			id: "0AACBC2231C5364E"
+			tasks: [{
+				id: "761E7D5B320D2CC7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:black_hole_band"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "7CD3DC2F47BE252A"
+			tasks: [{
+				id: "5C8A53E85631FA9A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:gem_of_eternal_density"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0AACBC2231C5364E"
+				"7CD3DC2F47BE252A"
+			]
+			id: "4EFB8E9DA9B84952"
+			tasks: [{
+				id: "02AD6290234D9101"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:void_ring"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["215E1C383F811853"]
+			id: "3D7DB436A44449B2"
+			tasks: [{
+				id: "725EB9F1A70251AA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:swiftwolf_rending_gale"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["215E1C383F811853"]
+			id: "51ABF284D31FFD42"
+			tasks: [{
+				id: "13BC217D77B6D780"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:ignition_ring"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"51ABF284D31FFD42"
+				"1E1D9FF3B788BBE4"
+				"0E001BF0D7B10785"
+				"3D7DB436A44449B2"
+			]
+			id: "33C021D66945D31F"
+			tasks: [{
+				id: "45DC73FAB6D6370A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:arcana_ring"
+					tag: {
+						Mode: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["215E1C383F811853"]
+			id: "1E1D9FF3B788BBE4"
+			tasks: [{
+				id: "0FF7E47C61A3296A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:zero_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"54B59FA0D730E401"
+				"1002156C899237E0"
+				"7C06ED632D377DD6"
+				"03E05558FCC889D1"
+			]
+			hide_dependency_lines: true
+			id: "0177C75B5C8D29EC"
+			tasks: [{
+				id: "79C38A95A1A50B4B"
+				item: "projecte:gem_helmet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "09937A4051999D1E"
+			tasks: [{
+				id: "32B209E44FA1BE76"
+				item: "projecte:dm_helmet"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09937A4051999D1E"]
+			hide_dependency_lines: true
+			id: "54B59FA0D730E401"
+			tasks: [{
+				id: "7B63DD3C6F390D5F"
+				item: "projecte:rm_helmet"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1002156C899237E0"
+			tasks: [{
+				id: "7625FC80AC0C09D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:evertide_amulet"
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7960D1037E053340"
+			tasks: [{
+				id: "7DF6B25EE4043ED6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:volcanite_amulet"
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7960D1037E053340"
+				"4258B521C4A55867"
+				"03E05558FCC889D1"
+				"1D24B0AB819E9E8D"
+			]
+			hide_dependency_lines: true
+			id: "3CAD16664D85E42B"
+			tasks: [{
+				id: "16680D5AB406A209"
+				item: "projecte:gem_chestplate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "28F3D75442D699AB"
+			tasks: [{
+				id: "12D7EFE47DC08C6F"
+				item: "projecte:dm_chestplate"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "3009D6A6848948F6"
+			tasks: [{
+				id: "76331960FF35ECE8"
+				item: "projecte:dm_leggings"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "7E358A920E8B908E"
+			tasks: [{
+				id: "6FCE5FA2DD96F164"
+				item: "projecte:dm_boots"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["28F3D75442D699AB"]
+			hide_dependency_lines: true
+			id: "4258B521C4A55867"
+			tasks: [{
+				id: "713BCC87DAFCEF77"
+				item: "projecte:rm_chestplate"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3009D6A6848948F6"]
+			hide_dependency_lines: true
+			id: "5AC0DA7B087347BF"
+			tasks: [{
+				id: "2912B2B0E1A45545"
+				item: "projecte:rm_leggings"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5AC0DA7B087347BF"
+				"03E05558FCC889D1"
+				"28E995979B6B164C"
+				"0AACBC2231C5364E"
+			]
+			hide_dependency_lines: true
+			id: "2EB1FE0D82B82978"
+			tasks: [{
+				id: "3BFDCA1AE2CF4916"
+				item: "projecte:gem_leggings"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E358A920E8B908E"]
+			hide_dependency_lines: true
+			id: "2FE4BA25B986A55C"
+			tasks: [{
+				id: "34A3C0D99F33A36B"
+				item: "projecte:rm_boots"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2FE4BA25B986A55C"
+				"3D7DB436A44449B2"
+				"03E05558FCC889D1"
+			]
+			hide_dependency_lines: true
+			id: "658D40AA4C7B89F1"
+			tasks: [{
+				id: "12E60CFCE6402651"
+				item: "projecte:gem_boots"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["654B28A2F48D8C98"]
+			hide_dependency_lines: true
+			id: "7C06ED632D377DD6"
+			tasks: [{
+				id: "7907F5168A15E595"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:soul_stone"
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "28E995979B6B164C"
+			tasks: [{
+				id: "08FEB9DA8D44CEFF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:watch_of_flowing_time"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["654B28A2F48D8C98"]
+			hide_dependency_lines: true
+			id: "1D24B0AB819E9E8D"
+			tasks: [{
+				id: "69205FF83A133DE0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:body_stone"
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "721B05B34081C6CC"
+			tasks: [{
+				id: "56C81A36E3A45102"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_pick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "037799116B225C14"
+			tasks: [{
+				id: "2771B9576BF63351"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_axe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "4E9302591242523B"
+			tasks: [{
+				id: "07DEBDA7F84CC346"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_shovel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "4DB98563464CBBB3"
+			tasks: [{
+				id: "79E566697AF7C517"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_hoe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "4A910FE239BAD2CB"
+			tasks: [{
+				id: "124C251D86557461"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_shears"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "7A17CBD61FA57BE7"
+			tasks: [{
+				id: "0FA8B6BE82723BF1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_hammer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49C4C21339D0AED9"]
+			hide_dependency_lines: true
+			id: "6E59492BE0B78B40"
+			tasks: [{
+				id: "070768C9EB6D2FAE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"721B05B34081C6CC"
+				"654B28A2F48D8C98"
+			]
+			hide_dependency_lines: true
+			id: "267CF93FD8484BDA"
+			tasks: [{
+				id: "6E3E004C951ADC41"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_pick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"037799116B225C14"
+				"654B28A2F48D8C98"
+			]
+			hide_dependency_lines: true
+			id: "74B74EA32FE9AB16"
+			tasks: [{
+				id: "375ABE0E347A998C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_axe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E9302591242523B"
+				"654B28A2F48D8C98"
+			]
+			hide_dependency_lines: true
+			id: "3FA4A8D935D1DEEB"
+			tasks: [{
+				id: "164B95D669064E63"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_shovel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7A17CBD61FA57BE7"
+				"654B28A2F48D8C98"
+			]
+			hide_dependency_lines: true
+			id: "3AD5E470831FDD8E"
+			tasks: [{
+				id: "3BAF178CA01F5D19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_hammer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"267CF93FD8484BDA"
+				"3AD5E470831FDD8E"
+				"3FA4A8D935D1DEEB"
+			]
+			id: "685E1263C50AD0D3"
+			tasks: [{
+				id: "54A49F8210815954"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_morning_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"54E994FFA6C7DC84"
+				"74B74EA32FE9AB16"
+				"1AEB17275639BC64"
+				"64AD687939DFDD01"
+			]
+			id: "17C07447711980E6"
+			tasks: [{
+				id: "2A8BEB775D702316"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_katar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A910FE239BAD2CB"
+				"654B28A2F48D8C98"
+			]
+			hide_dependency_lines: true
+			id: "54E994FFA6C7DC84"
+			tasks: [{
+				id: "7A0BCDD3910053A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_shears"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6E59492BE0B78B40"
+				"654B28A2F48D8C98"
+			]
+			hide_dependency_lines: true
+			id: "1AEB17275639BC64"
+			tasks: [{
+				id: "5CA4AD0FC6209E88"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4DB98563464CBBB3"
+				"654B28A2F48D8C98"
+			]
+			hide_dependency_lines: true
+			id: "64AD687939DFDD01"
+			tasks: [{
+				id: "081FEBA7922D7500"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_hoe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"05FA28EEE74C697A"
+				"5AAAD1DDC988FADA"
+				"6AB10A11978DC286"
+			]
+			id: "3011626839841753"
+			tasks: [{
+				id: "7C06FF1C80217962"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03E05558FCC889D1"]
+			id: "1295D4F41C0934B3"
+			tasks: [{
+				id: "748A4DB9FADB4FD9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_ein"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["654B28A2F48D8C98"]
+			hide_dependency_lines: true
+			id: "5E4122093EE6FAE2"
+			tasks: [{
+				id: "76CCD585C606F289"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"projectexpansion:alchemical_book_locations": { }
+					}
+					id: "projectexpansion:basic_alchemical_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E4122093EE6FAE2"]
+			id: "2B16C5A330BC972D"
+			tasks: [{
+				id: "39444DE22AC30546"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"projectexpansion:alchemical_book_locations": { }
+					}
+					id: "projectexpansion:advanced_alchemical_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B16C5A330BC972D"]
+			id: "1BBE89CB190B2807"
+			tasks: [{
+				id: "383C6769B4A4C64A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"projectexpansion:alchemical_book_locations": { }
+					}
+					id: "projectexpansion:master_alchemical_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BBE89CB190B2807"]
+			id: "7BADA119A6C2FA6D"
+			tasks: [{
+				id: "09958FC71B69E9E1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"projectexpansion:alchemical_book_locations": { }
+					}
+					id: "projectexpansion:arcane_alchemical_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1295D4F41C0934B3"]
+			id: "5342D60F46F28876"
+			tasks: [{
+				id: "75E3DFE16A9350B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_zwei"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5342D60F46F28876"]
+			id: "4D1F9C7111FD4525"
+			tasks: [{
+				id: "181DD601E7F378B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_drei"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4D1F9C7111FD4525"]
+			id: "3AC173479CB49DE9"
+			tasks: [{
+				id: "0A2121D2951805AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_vier"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3AC173479CB49DE9"]
+			id: "7AB7F19A6C690943"
+			tasks: [{
+				id: "2DE4E40606EDDCB6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_sphere"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7AB7F19A6C690943"]
+			id: "464CF0CDFD62C86D"
+			tasks: [{
+				id: "58C87634398F100E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:magnum_star_omega"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["464CF0CDFD62C86D"]
+			id: "420A841662474016"
+			tasks: [{
+				id: "433740347FB06FE2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_ein"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["420A841662474016"]
+			id: "74F6CE483E109C29"
+			tasks: [{
+				id: "77616303C262202A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_zwei"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["74F6CE483E109C29"]
+			id: "77783FA5E1B6AD6E"
+			tasks: [{
+				id: "42F987EE29A67797"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_drei"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77783FA5E1B6AD6E"]
+			id: "232D3C6322667930"
+			tasks: [{
+				id: "3BFAB022542169FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_vier"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["232D3C6322667930"]
+			id: "49CCB44728D465C1"
+			tasks: [{
+				id: "5210CF52F6D183F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_sphere"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["49CCB44728D465C1"]
+			id: "50D70C6BC2F5F523"
+			tasks: [{
+				id: "12036D644481C2BC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_omega"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["50D70C6BC2F5F523"]
+			id: "2AB1B0FE25B32B8D"
+			tasks: [{
+				id: "7A43E870A8229FB0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_ein"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2AB1B0FE25B32B8D"]
+			id: "7B2AA39393FFA86B"
+			tasks: [{
+				id: "4529A5E5ED9FDC3D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_zwei"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7B2AA39393FFA86B"]
+			id: "139DEA005C724FD0"
+			tasks: [{
+				id: "62B447BD4780AB64"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_drei"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["139DEA005C724FD0"]
+			id: "0E5091554EA4C3FE"
+			tasks: [{
+				id: "19E69AB77F95ADA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_vier"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0E5091554EA4C3FE"]
+			id: "5FBC96F94ED449C3"
+			tasks: [{
+				id: "7F304BADD8B6DCD1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_sphere"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FBC96F94ED449C3"]
+			id: "7656598884FCDAC9"
+			tasks: [{
+				id: "418F3A4B7FB8D969"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:gargantuan_star_omega"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1881542E5750AD06"
+				"383D60BD9FB3F3F1"
+				"6A568702E147D5EB"
+			]
+			id: "1EE47E3087487C05"
+			tasks: [{
+				id: "3BCEBC6EE991A0A2"
+				item: "projectexpansion:basic_power_flower"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"16976EA53E1A3307"
+				"71B2F0CB77C27756"
+				"691422E701DAC618"
+			]
+			id: "07749E433681DB4F"
+			tasks: [{
+				id: "6F291DFF1AB06608"
+				item: "projectexpansion:dark_power_flower"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1D955FB20006B407"
+				"4C7FBF22433311B4"
+				"36E4303EB393DDD2"
+			]
+			id: "289F4699B0DF25E4"
+			tasks: [{
+				id: "129A3370604B4A81"
+				item: "projectexpansion:red_power_flower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"233B30CE67E3A002"
+				"483DE615BD159452"
+				"1B8351FE1EA2A035"
+			]
+			id: "08C79213C13B4435"
+			tasks: [{
+				id: "1E2300A32F942DAF"
+				item: "projectexpansion:magenta_power_flower"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1EEF844DDAF611D3"
+				"07AC497EE2B1A9AE"
+				"3819AD20B0E1108A"
+			]
+			id: "3C6C78ACF6EB8127"
+			tasks: [{
+				id: "1EBE22AFA077CBD8"
+				item: "projectexpansion:pink_power_flower"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5C407C097E0E7580"
+				"37F105A302E3F4E2"
+				"7E31C1144ED95234"
+			]
+			id: "4316EE16FCED33DC"
+			tasks: [{
+				id: "0CA79DEBE98D602C"
+				item: "projectexpansion:purple_power_flower"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"44F063B4F01171F9"
+				"4C964E40E4238A0D"
+				"68406F1B0A1FA70C"
+			]
+			id: "6EC090D0ECB73627"
+			tasks: [{
+				id: "10C2AB936C8840B1"
+				item: "projectexpansion:violet_power_flower"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"24ABDF5F293F40EB"
+				"6B8A201D27D6C7C8"
+				"282646BF5B2EF7F0"
+			]
+			id: "3EDFB274ADC8CC47"
+			tasks: [{
+				id: "71A736D24124FA19"
+				item: "projectexpansion:blue_power_flower"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0DD5F8FA98EE5491"]
+			hide_dependency_lines: true
+			id: "1881542E5750AD06"
+			tasks: [{
+				id: "5A0B0548E1C7007C"
+				item: "projectexpansion:basic_relay"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0DD5F8FA98EE5491"]
+			hide_dependency_lines: true
+			id: "1802D80F04A29113"
+			tasks: [{
+				id: "7D008B7C7A94261D"
+				item: "projectexpansion:basic_collector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1802D80F04A29113"]
+			id: "6A568702E147D5EB"
+			tasks: [{
+				id: "4B10C16B7C742E8B"
+				item: "projectexpansion:basic_compressed_collector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1267594C427FCF93"]
+			id: "1E10AFFA75E52EDE"
+			tasks: [{
+				id: "2F0CCFB84A9C8116"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1E10AFFA75E52EDE"
+				"49C4C21339D0AED9"
+			]
+			id: "171E8CB9408DFFF9"
+			tasks: [{
+				id: "142C8704F08B1BD5"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"171E8CB9408DFFF9"
+				"64714093AAECE6CA"
+			]
+			hide_dependency_lines: true
+			id: "383D60BD9FB3F3F1"
+			tasks: [{
+				id: "1A6E108A484D1277"
+				item: "projectexpansion:basic_emc_link"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1881542E5750AD06"]
+			id: "71B2F0CB77C27756"
+			tasks: [{
+				id: "0796EB48C0474660"
+				item: "projectexpansion:dark_relay"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["383D60BD9FB3F3F1"]
+			id: "16976EA53E1A3307"
+			tasks: [{
+				id: "23A5FA31FA349325"
+				item: "projectexpansion:dark_emc_link"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["64A1FB4434E569C5"]
+			id: "691422E701DAC618"
+			tasks: [{
+				id: "1212E74657117B01"
+				item: "projectexpansion:dark_compressed_collector"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5036148F1290702C"]
+			id: "36E4303EB393DDD2"
+			tasks: [{
+				id: "76E32AB443E906BD"
+				item: "projectexpansion:red_compressed_collector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["037ACCEB1FDAC6E1"]
+			id: "1B8351FE1EA2A035"
+			tasks: [{
+				id: "6A601C08B6C96F3A"
+				item: "projectexpansion:magenta_compressed_collector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10F432DDB09B95B1"]
+			id: "3819AD20B0E1108A"
+			tasks: [{
+				id: "10884B804DBCD48C"
+				item: "projectexpansion:pink_compressed_collector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D795048DF5B97D5"]
+			id: "7E31C1144ED95234"
+			tasks: [{
+				id: "4C8186B4C0E111F4"
+				item: "projectexpansion:purple_compressed_collector"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78E644E714491F19"]
+			id: "68406F1B0A1FA70C"
+			tasks: [{
+				id: "2BEA206F7F2AB25B"
+				item: "projectexpansion:violet_compressed_collector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["478C1C72997EDE30"]
+			id: "282646BF5B2EF7F0"
+			tasks: [{
+				id: "26171FEA902206C8"
+				item: "projectexpansion:blue_compressed_collector"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04A82911C90774A7"]
+			id: "7265AD4EB7A19221"
+			tasks: [{
+				id: "064A74E05CDFD7A2"
+				item: "projectexpansion:cyan_compressed_collector"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22E944CDBA851418"]
+			id: "40ADC469BF4D53EB"
+			tasks: [{
+				id: "2EA41D9393203C68"
+				item: "projectexpansion:green_compressed_collector"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F970C5B4A769FDB"]
+			id: "7CB585E57A4098CC"
+			tasks: [{
+				id: "1C7B46E90D0A9181"
+				item: "projectexpansion:lime_compressed_collector"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FA2510F937AA8C2"]
+			id: "10D784A32082E456"
+			tasks: [{
+				id: "24D9AA8DD890D00A"
+				item: "projectexpansion:yellow_compressed_collector"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["411252FB515EA989"]
+			id: "2DC74AE1413BB03B"
+			tasks: [{
+				id: "5061AF3CC014A854"
+				item: "projectexpansion:orange_compressed_collector"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["18EA47DFEA0A1266"]
+			id: "17907FF22DB94036"
+			tasks: [{
+				id: "0E478FB6E9D750CD"
+				item: "projectexpansion:white_compressed_collector"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35EE1D86EA7F9BAB"]
+			id: "58DF72480294451E"
+			tasks: [{
+				id: "5CF024A277B98579"
+				item: "projectexpansion:fading_compressed_collector"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2749231C586B8260"]
+			id: "0400D47409806A1E"
+			tasks: [{
+				id: "4BC0BD5E0F01A2F1"
+				item: "projectexpansion:final_compressed_collector"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1802D80F04A29113"]
+			id: "64A1FB4434E569C5"
+			tasks: [{
+				id: "61AD3356B86E66AB"
+				item: "projectexpansion:dark_collector"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64A1FB4434E569C5"]
+			id: "5036148F1290702C"
+			tasks: [{
+				id: "3A7BE53D34B99E57"
+				item: "projectexpansion:red_collector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5036148F1290702C"]
+			id: "037ACCEB1FDAC6E1"
+			tasks: [{
+				id: "69237C33F80DA710"
+				item: "projectexpansion:magenta_collector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["037ACCEB1FDAC6E1"]
+			id: "10F432DDB09B95B1"
+			tasks: [{
+				id: "1BB0F5509CD382D9"
+				item: "projectexpansion:pink_collector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10F432DDB09B95B1"]
+			id: "1D795048DF5B97D5"
+			tasks: [{
+				id: "2C162575ACC3629D"
+				item: "projectexpansion:purple_collector"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D795048DF5B97D5"]
+			id: "78E644E714491F19"
+			tasks: [{
+				id: "346F6C043A08A6F7"
+				item: "projectexpansion:violet_collector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78E644E714491F19"]
+			id: "478C1C72997EDE30"
+			tasks: [{
+				id: "6772AECB7DF425F7"
+				item: "projectexpansion:blue_collector"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16976EA53E1A3307"]
+			id: "1D955FB20006B407"
+			tasks: [{
+				id: "7940B2A830A91143"
+				item: "projectexpansion:red_emc_link"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1D955FB20006B407"]
+			id: "233B30CE67E3A002"
+			tasks: [{
+				id: "303E5E0BD19D4B56"
+				item: "projectexpansion:magenta_emc_link"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["233B30CE67E3A002"]
+			id: "1EEF844DDAF611D3"
+			tasks: [{
+				id: "0E8BA7ABD5864F63"
+				item: "projectexpansion:pink_emc_link"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1EEF844DDAF611D3"]
+			id: "5C407C097E0E7580"
+			tasks: [{
+				id: "4B304B6BF588A5A8"
+				item: "projectexpansion:purple_emc_link"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5C407C097E0E7580"]
+			id: "44F063B4F01171F9"
+			tasks: [{
+				id: "5B40FCC87B8EB733"
+				item: "projectexpansion:violet_emc_link"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44F063B4F01171F9"]
+			id: "24ABDF5F293F40EB"
+			tasks: [{
+				id: "4A961F4BFCA6A6C8"
+				item: "projectexpansion:blue_emc_link"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["24ABDF5F293F40EB"]
+			id: "70A779C166C3971E"
+			tasks: [{
+				id: "7351BE6CE7ACF0F4"
+				item: "projectexpansion:cyan_emc_link"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70A779C166C3971E"]
+			id: "77358031801084C7"
+			tasks: [{
+				id: "37ABF2C08EA8576E"
+				item: "projectexpansion:green_emc_link"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["77358031801084C7"]
+			id: "183532424507EFD5"
+			tasks: [{
+				id: "22D012D133DE9C25"
+				item: "projectexpansion:lime_emc_link"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["183532424507EFD5"]
+			id: "203ED5065C1C7BEE"
+			tasks: [{
+				id: "713C46873A3B0344"
+				item: "projectexpansion:yellow_emc_link"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["203ED5065C1C7BEE"]
+			id: "190FCE71118E7008"
+			tasks: [{
+				id: "7B8207272347DFDB"
+				item: "projectexpansion:orange_emc_link"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["190FCE71118E7008"]
+			id: "69A5C178B290CC46"
+			tasks: [{
+				id: "4EAC86BE515B4640"
+				item: "projectexpansion:white_emc_link"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["69A5C178B290CC46"]
+			id: "7652036DFB96F8D6"
+			tasks: [{
+				id: "2BBFEF3C5B5C6D7C"
+				item: "projectexpansion:fading_emc_link"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7652036DFB96F8D6"
+				"5AEA33C146694B69"
+			]
+			id: "3D2A386BC891BA26"
+			tasks: [{
+				id: "0C3D0E7DA8921F0B"
+				item: "projectexpansion:final_emc_link"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["71B2F0CB77C27756"]
+			id: "4C7FBF22433311B4"
+			tasks: [{
+				id: "43246DA35F22505F"
+				item: "projectexpansion:red_relay"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["483DE615BD159452"]
+			id: "07AC497EE2B1A9AE"
+			tasks: [{
+				id: "2A894D41B2650A40"
+				item: "projectexpansion:pink_relay"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4C7FBF22433311B4"]
+			id: "483DE615BD159452"
+			tasks: [{
+				id: "3D1614E22AA5E1FF"
+				item: "projectexpansion:magenta_relay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["07AC497EE2B1A9AE"]
+			id: "37F105A302E3F4E2"
+			tasks: [{
+				id: "0356A61678FF5DF5"
+				item: "projectexpansion:purple_relay"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["37F105A302E3F4E2"]
+			id: "4C964E40E4238A0D"
+			tasks: [{
+				id: "4B6EC8BD3B6D0D34"
+				item: "projectexpansion:violet_relay"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4C964E40E4238A0D"]
+			id: "6B8A201D27D6C7C8"
+			tasks: [{
+				id: "4ECE04C56920C351"
+				item: "projectexpansion:blue_relay"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6B8A201D27D6C7C8"]
+			id: "014C380DAE4AFE44"
+			tasks: [{
+				id: "5430B053C04CE87F"
+				item: "projectexpansion:cyan_relay"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["014C380DAE4AFE44"]
+			id: "7A0D5FB5BB32862E"
+			tasks: [{
+				id: "3AFD405C9734DB01"
+				item: "projectexpansion:green_relay"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7A0D5FB5BB32862E"]
+			id: "59028A7426D14B7F"
+			tasks: [{
+				id: "2F4F3C58BD1EDB51"
+				item: "projectexpansion:lime_relay"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["59028A7426D14B7F"]
+			id: "3FDD7B43AB5D3FD4"
+			tasks: [{
+				id: "743DA95AFD7A66EA"
+				item: "projectexpansion:yellow_relay"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3FDD7B43AB5D3FD4"]
+			id: "58BF978D7FA15644"
+			tasks: [{
+				id: "630A13E32779D539"
+				item: "projectexpansion:orange_relay"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["58BF978D7FA15644"]
+			id: "6E4F1C5EF3548E34"
+			tasks: [{
+				id: "1B62205A0F4DBE18"
+				item: "projectexpansion:white_relay"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6E4F1C5EF3548E34"]
+			id: "4DC10F0060C03D45"
+			tasks: [{
+				id: "58369CB16DCAC0D6"
+				item: "projectexpansion:fading_relay"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4DC10F0060C03D45"
+				"5AEA33C146694B69"
+			]
+			id: "7FE770AD7396FE61"
+			tasks: [{
+				id: "296EFE931040238D"
+				item: "projectexpansion:final_relay"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0400D47409806A1E"
+				"7FE770AD7396FE61"
+			]
+			id: "20A5720D4A000586"
+			tasks: [{
+				id: "6912E686CAF9A293"
+				item: "projectexpansion:final_power_flower"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18EA47DFEA0A1266"]
+			id: "35EE1D86EA7F9BAB"
+			tasks: [{
+				id: "1D276BD7D16E47FF"
+				item: "projectexpansion:fading_collector"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["478C1C72997EDE30"]
+			id: "04A82911C90774A7"
+			tasks: [{
+				id: "79C08681491DEF4E"
+				item: "projectexpansion:cyan_collector"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04A82911C90774A7"]
+			id: "22E944CDBA851418"
+			tasks: [{
+				id: "7E4BBFEC82061189"
+				item: "projectexpansion:green_collector"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22E944CDBA851418"]
+			id: "0F970C5B4A769FDB"
+			tasks: [{
+				id: "6B2A7125707943C4"
+				item: "projectexpansion:lime_collector"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F970C5B4A769FDB"]
+			id: "2FA2510F937AA8C2"
+			tasks: [{
+				id: "1F5F3F430F4127C2"
+				item: "projectexpansion:yellow_collector"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FA2510F937AA8C2"]
+			id: "411252FB515EA989"
+			tasks: [{
+				id: "7A26708791990A9D"
+				item: "projectexpansion:orange_collector"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["411252FB515EA989"]
+			id: "18EA47DFEA0A1266"
+			tasks: [{
+				id: "004B614D3AEBF4C3"
+				item: "projectexpansion:white_collector"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"35EE1D86EA7F9BAB"
+				"5AEA33C146694B69"
+			]
+			id: "2749231C586B8260"
+			tasks: [{
+				id: "06CDD9A1C99E1BDF"
+				item: "projectexpansion:final_collector"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4DC10F0060C03D45"
+				"58DF72480294451E"
+				"7652036DFB96F8D6"
+			]
+			id: "4216FE252F9F6545"
+			tasks: [{
+				id: "51361587F8D54B11"
+				item: "projectexpansion:fading_power_flower"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7265AD4EB7A19221"
+				"70A779C166C3971E"
+				"014C380DAE4AFE44"
+			]
+			id: "0F1D9BCA59A76419"
+			tasks: [{
+				id: "161EDFC7C64DFA5D"
+				item: "projectexpansion:cyan_power_flower"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"40ADC469BF4D53EB"
+				"77358031801084C7"
+				"7A0D5FB5BB32862E"
+			]
+			id: "5B5245D8AE4BBB75"
+			tasks: [{
+				id: "230A13F125E3E4CF"
+				item: "projectexpansion:green_power_flower"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"183532424507EFD5"
+				"59028A7426D14B7F"
+				"7CB585E57A4098CC"
+			]
+			id: "5BC4EAB741D286EF"
+			tasks: [{
+				id: "0FB628D311E4316F"
+				item: "projectexpansion:lime_power_flower"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"10D784A32082E456"
+				"3FDD7B43AB5D3FD4"
+				"203ED5065C1C7BEE"
+			]
+			id: "14768F0FAABFEB57"
+			tasks: [{
+				id: "5AE54448276B2C81"
+				item: "projectexpansion:yellow_power_flower"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2DC74AE1413BB03B"
+				"58BF978D7FA15644"
+				"190FCE71118E7008"
+			]
+			id: "5B79A27A45903185"
+			tasks: [{
+				id: "0D29F45F159EF025"
+				item: "projectexpansion:orange_power_flower"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6E4F1C5EF3548E34"
+				"69A5C178B290CC46"
+				"17907FF22DB94036"
+			]
+			id: "18FFF67023E0B230"
+			tasks: [{
+				id: "6CC9D7F14E9BBE38"
+				item: "projectexpansion:white_power_flower"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["171E8CB9408DFFF9"]
+			id: "14757F551085B422"
+			tasks: [{
+				id: "43B984391D3EE093"
+				item: "projectexpansion:infinite_steak"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["171E8CB9408DFFF9"]
+			id: "6949AE25BB353E5C"
+			tasks: [{
+				id: "450679C5717004B8"
+				item: "projectexpansion:infinite_fuel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"50D70C6BC2F5F523"
+				"2156C9D818DCDE41"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5AEA33C146694B69"
+			tasks: [{
+				id: "19059ED4E5159117"
+				item: "projectexpansion:final_star_shard"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20A5720D4A000586"]
+			id: "2B2492E45335D5BD"
+			tasks: [{
+				id: "22F80B7DDA70A1DA"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2B2492E45335D5BD"
+				"5AEA33C146694B69"
+			]
+			id: "348EAB24E8D612AA"
+			tasks: [{
+				id: "4120572E3C30DCC6"
+				item: "projectexpansion:compact_sun"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["654B28A2F48D8C98"]
+			id: "7996CA750FB671D7"
+			tasks: [{
+				id: "59DC1E3D9094BD0E"
+				item: "projectexpansion:magenta_matter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7996CA750FB671D7"]
+			id: "06EFAE44374615D7"
+			tasks: [{
+				id: "2A614ECD7C519C5C"
+				item: "projectexpansion:pink_matter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06EFAE44374615D7"]
+			id: "0DE48912B7399818"
+			tasks: [{
+				id: "30B604F73B925E2C"
+				item: "projectexpansion:purple_matter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04102CEC2397036F"]
+			id: "2E00590F3F605D5B"
+			tasks: [{
+				id: "680366E09AFA0FAF"
+				item: "projectexpansion:blue_matter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DE48912B7399818"]
+			id: "04102CEC2397036F"
+			tasks: [{
+				id: "2F943B4662B7AE42"
+				item: "projectexpansion:violet_matter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E00590F3F605D5B"]
+			id: "4F2BA87BF2B05855"
+			tasks: [{
+				id: "4328B45F20598F11"
+				item: "projectexpansion:cyan_matter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F2BA87BF2B05855"]
+			id: "38429AB27EDD9F26"
+			tasks: [{
+				id: "296B0EBE0A556E7F"
+				item: "projectexpansion:green_matter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38429AB27EDD9F26"]
+			id: "0159E8FCDCFF80EA"
+			tasks: [{
+				id: "3AA2061F1E1C2BFA"
+				item: "projectexpansion:lime_matter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0159E8FCDCFF80EA"]
+			id: "65ACAAD79DB99E16"
+			tasks: [{
+				id: "06599F52F05D25B0"
+				item: "projectexpansion:yellow_matter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65ACAAD79DB99E16"]
+			id: "2259B6DEAE893A59"
+			tasks: [{
+				id: "09DEC43748BA1828"
+				item: "projectexpansion:orange_matter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2259B6DEAE893A59"]
+			id: "0AB0C882A3978A75"
+			tasks: [{
+				id: "4A35B8E58D012A80"
+				item: "projectexpansion:white_matter"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AB0C882A3978A75"]
+			id: "2156C9D818DCDE41"
+			tasks: [{
+				id: "73782218C108BFC4"
+				item: "projectexpansion:fading_matter"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04102CEC2397036F"]
+			id: "64B067A5503FF14F"
+			optional: true
+			tasks: [{
+				id: "4341B4830C48BC76"
+				item: {
+					Count: 1
+					id: "projectexpansion:knowledge_sharing_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7C06ED632D377DD6"
+				"1D24B0AB819E9E8D"
+			]
+			id: "256D28D32141B42E"
+			tasks: [{
+				id: "58EEB6DE4621D0F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:life_stone"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
 		}
 	]
 	title: "Psi"
