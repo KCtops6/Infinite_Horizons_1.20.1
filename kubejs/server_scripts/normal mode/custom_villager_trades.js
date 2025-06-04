@@ -4,11 +4,11 @@ MoreJSEvents.villagerTrades((event) => {
     
     event.addTrade("cleric", 2, [Item.of('minecraft:emerald', 3)], Item.of('minecraft:amethyst_shard', 7));
     event.addTrade("farmer", 2, [Item.of('minecraft:emerald', 2)], Item.of('minecraft:ink_sac', 16));
-    event.addTrade("cleric", 2, ['minecraft:emerald'], Item.of('ars_nouveau:blue_archwood_sapling', 5));
-    event.addTrade("cleric", 2, ['minecraft:emerald'], Item.of('ars_nouveau:green_archwood_sapling', 5));
-    event.addTrade("cleric", 2, ['minecraft:emerald'], Item.of('ars_nouveau:purple_archwood_sapling', 5));
-    event.addTrade("cleric", 2, ['minecraft:emerald'], Item.of('ars_nouveau:red_archwood_sapling', 5));
-    event.addTrade("cleric", 2, ['minecraft:emerald'], Item.of('ars_elemental:yellow_archwood_sapling', 5));
+    event.addTrade("cleric", 2, [Item.of('minecraft:emerald', 1)], Item.of('ars_nouveau:blue_archwood_sapling', 5));
+    event.addTrade("cleric", 2, [Item.of('minecraft:emerald', 1)], Item.of('ars_nouveau:green_archwood_sapling', 5));
+    event.addTrade("cleric", 2, [Item.of('minecraft:emerald', 1)], Item.of('ars_nouveau:purple_archwood_sapling', 5));
+    event.addTrade("cleric", 2, [Item.of('minecraft:emerald', 1)], Item.of('ars_nouveau:red_archwood_sapling', 5));
+    event.addTrade("cleric", 2, [Item.of('minecraft:emerald', 1)], Item.of('ars_elemental:yellow_archwood_sapling', 5));
     event.addTrade(
         "spacecatcustomprofessions:agronomancer", 1,
         [Item.of('minecraft:emerald', 3)],
@@ -178,245 +178,245 @@ MoreJSEvents.villagerTrades((event) => {
         // Ashy Mining Bee
         {
             level: 1,
-            input1: 'productivebees:gravel_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_ashy_mining_bee'
+            input1: Item.of('productivebees:gravel_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_ashy_mining_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:sand_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_ashy_mining_bee'
+            input1: Item.of('productivebees:sand_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_ashy_mining_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:coarse_dirt_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_ashy_mining_bee'
+            input1: Item.of('productivebees:coarse_dirt_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_ashy_mining_bee')
         },
         // Chocolate Mining Bee
         {
             level: 1,
-            input1: 'productivebees:gravel_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_chocolate_mining_bee'
+            input1: Item.of('productivebees:gravel_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_chocolate_mining_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:sand_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_chocolate_mining_bee'
+            input1: Item.of('productivebees:sand_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_chocolate_mining_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:coarse_dirt_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_chocolate_mining_bee'
+            input1: Item.of('productivebees:coarse_dirt_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_chocolate_mining_bee')
         },
         // Green Carpenter Bee
         {
             level: 1,
-            input1: 'productivebees:dark_oak_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_green_carpenter_bee'
+            input1: Item.of('productivebees:dark_oak_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_green_carpenter_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:oak_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_green_carpenter_bee'
+            input1: Item.of('productivebees:oak_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_green_carpenter_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:mangrove_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_green_carpenter_bee'
+            input1: Item.of('productivebees:mangrove_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_green_carpenter_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:jungle_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_green_carpenter_bee'
+            input1: Item.of('productivebees:jungle_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_green_carpenter_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:birch_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_green_carpenter_bee'
+            input1: Item.of('productivebees:birch_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_green_carpenter_bee')
         },
         // Yellow Carpenter Bee
         {
             level: 1,
-            input1: 'productivebees:dark_oak_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_yellow_black_carpenter_bee'
+            input1: Item.of('productivebees:dark_oak_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_yellow_black_carpenter_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:oak_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_yellow_black_carpenter_bee'
+            input1: Item.of('productivebees:oak_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_yellow_black_carpenter_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:birch_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_yellow_black_carpenter_bee'
+            input1: Item.of('productivebees:birch_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_yellow_black_carpenter_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:spruce_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_yellow_black_carpenter_bee'
+            input1: Item.of('productivebees:spruce_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_yellow_black_carpenter_bee')
         },
         // Resin Bee
         {
             level: 1,
-            input1: 'productivebees:spruce_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_resin_bee'
+            input1: Item.of('productivebees:spruce_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_resin_bee')
         },
         // Blue Banded Bee
         {
             level: 1,
-            input1: 'productivebees:dark_oak_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_blue_banded_bee'
+            input1: Item.of('productivebees:dark_oak_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_blue_banded_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:cherry_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_blue_banded_bee'
+            input1: Item.of('productivebees:cherry_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_blue_banded_bee')
         },
         {
             level: 1,
-            input1: 'productivebees:acacia_wood_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_blue_banded_bee'
+            input1: Item.of('productivebees:acacia_wood_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_blue_banded_bee')
         },
         // Mason Bee
         {
             level: 2,
-            input1: 'productivebees:stone_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_mason_bee'
+            input1: Item.of('productivebees:stone_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_mason_bee')
         },
         {
             level: 2,
-            input1: 'productivebees:sugar_cane_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_mason_bee'
+            input1: Item.of('productivebees:sugar_cane_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_mason_bee')
         },
         // Digger Bee
         {
             level: 2,
-            input1: 'productivebees:stone_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_digger_bee'
+            input1: Item.of('productivebees:stone_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_digger_bee')
         },
         {
             level: 2,
-            input1: 'productivebees:gravel_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_digger_bee'
+            input1: Item.of('productivebees:gravel_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_digger_bee')
         },
         // Leafcutter Bee
         {
             level: 1,
-            input1: 'productivebees:coarse_dirt_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_leafcutter_bee'
+            input1: Item.of('productivebees:coarse_dirt_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_leafcutter_bee')
         },
         // Sweat Bee
         {
             level: 2,
-            input1: 'productivebees:snow_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_sweat_bee'
+            input1: Item.of('productivebees:snow_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_sweat_bee')
         },
         // Reed Bee
         {
             level: 2,
-            input1: 'productivebees:sugar_cane_nest',
-            input2: 'productivebees:honey_treat',
-            output: 'productivebees:spawn_egg_reed_bee'
+            input1: Item.of('productivebees:sugar_cane_nest'),
+            input2: Item.of('productivebees:honey_treat'),
+            output: Item.of('productivebees:spawn_egg_reed_bee')
         },
         // Slimy Bee
         {
             level: 2,
-            input1: 'productivebees:slimy_nest',
-            input2: 'productivebees:honey_treat',
+            input1: Item.of('productivebees:slimy_nest'),
+            input2: Item.of('productivebees:honey_treat'),
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:slimy"}}')
         },
         // Glowing Bee
         {
             level: 3,
-            input1: 'productivebees:glowstone_nest',
-            input2: 'minecraft:glowstone_dust',
+            input1: Item.of('productivebees:glowstone_nest'),
+            input2: Item.of('minecraft:glowstone_dust'),
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:glowing"}}')
         },
         // Ghostly Bee
         {
             level: 3,
-            input1: 'productivebees:soul_sand_nest',
-            input2: 'minecraft:ghast_tear',
+            input1: Item.of('productivebees:soul_sand_nest'),
+            input2: Item.of('minecraft:ghast_tear'),
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:ghostly"}}')
         },
         // Crystalline Bee
         {
             level: 3,
-            input1: 'productivebees:nether_quartz_nest',
-            input2: 'minecraft:quartz',
+            input1: Item.of('productivebees:nether_quartz_nest'),
+            input2: Item.of('minecraft:quartz'),
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:crystalline"}}')
         },
         // Gold Bee
         {
             level: 4,
-            input1: 'productivebees:nether_gold_nest',
-            input2: 'minecraft:gold_ingot',
+            input1: Item.of('productivebees:nether_gold_nest'),
+            input2: Item.of('minecraft:gold_ingot'),
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:gold"}}')
         },
         // Magmatic Bee
         {
             level: 5,
-            input1: 'productivebees:nether_brick_nest',
-            input2: 'minecraft:magma_cream',
+            input1: Item.of('productivebees:nether_brick_nest'),
+            input2: Item.of('minecraft:magma_cream'),
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:magmatic"}}')
         },
         // Ender Bee
         {
             level: 5,
-            input1: 'productivebees:end_stone_nest',
-            input2: 'minecraft:popped_chorus_fruit',
+            input1: Item.of('productivebees:end_stone_nest'),
+            input2: Item.of('minecraft:popped_chorus_fruit'),
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:ender"}}')
         },
         // Draconic Bee
         {
             level: 5,
-            input1: 'productivebees:end_stone_nest',
-            input2: 'minecraft:dragon_breath',
+            input1: Item.of('productivebees:end_stone_nest'),
+            input2: Item.of('minecraft:dragon_breath'),
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:draconic"}}')
         },
         // Neon Cuckoo Bee
         {
             level: 2,
-            input1: 'productivebees:spawn_egg_blue_banded_bee',
-            input2: Item.of('minecraft:emerald', 1, 3),
-            output: 'productivebees:spawn_egg_neon_cuckoo_bee'
+            input1: Item.of('productivebees:spawn_egg_blue_banded_bee'),
+            input2: Item.of('minecraft:emerald', 3),
+            output: Item.of('productivebees:spawn_egg_neon_cuckoo_bee')
         },
         // Nomad Bee
         {
             level: 2,
-            input1: 'productivebees:spawn_egg_ashy_mining_bee',
-            input2: Item.of('minecraft:emerald', 1, 3),
-            output: 'productivebees:spawn_egg_nomad_bee'
+            input1: Item.of('productivebees:spawn_egg_ashy_mining_bee'),
+            input2: Item.of('minecraft:emerald', 3),
+            output: Item.of('productivebees:spawn_egg_nomad_bee')
         },
         // Oily Bee
         {
             level: 5,
             input1: Item.of('minecraft:fishing_rod', '{Damage:0}'),
-            input2: 'productivebees:honey_treat',
+            input2: Item.of('productivebees:honey_treat'),
             output: Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:oily"}}')
         },
     ];
