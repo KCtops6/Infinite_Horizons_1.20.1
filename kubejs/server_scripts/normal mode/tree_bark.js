@@ -1,0 +1,6 @@
+LootJS.modifiers(event => {
+    // You have a chance of getting tree bark when breaking log blocks.
+    event.addBlockModifier("#minecraft:overworld_natural_logs") // when breaking a natural log...
+        .matchTool("#minecraft:axes")   // ...with an axe...
+        .addLoot(LootEntry.of("farmersdelight:tree_bark").randomChance(0.25))   // ...you have a 25% chance of getting tree bark as an addition.
+})
