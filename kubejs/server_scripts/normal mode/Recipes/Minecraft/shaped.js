@@ -489,7 +489,7 @@ ServerEvents.recipes(event => {
             },
             output: 'minecraft:elytra',
             count: 1
-        },  /* Wooden Trowel*/ {
+        },  /* Wooden Trowel */ {
             pattern: [
                 ' A ',
                 'ABA',
@@ -498,7 +498,7 @@ ServerEvents.recipes(event => {
                 A: '#minecraft:planks',
                 B: 'minecraft:stick'
             }, output: 'kubejs:wooden_trowel', count: 1
-        }, /* Stone Trowel*/ {
+        }, /* Stone Trowel */ {
             pattern: [
                 ' A ',
                 'ABA',
@@ -507,7 +507,7 @@ ServerEvents.recipes(event => {
                 A: 'minecraft:cobblestone',
                 B: 'minecraft:stick'
             }, output: 'kubejs:stone_trowel', count: 1
-        }, /* Iron Trowel*/ {
+        }, /* Iron Trowel */ {
             pattern: [
                 ' A ',
                 'ABA',
@@ -516,7 +516,7 @@ ServerEvents.recipes(event => {
                 A: 'minecraft:iron_ingot',
                 B: 'minecraft:stick'
             }, output: 'kubejs:iron_trowel', count: 1
-        }, /* Diamond Trowel*/ {
+        }, /* Diamond Trowel */ {
             pattern: [
                 ' A ',
                 'ABA',
@@ -525,7 +525,7 @@ ServerEvents.recipes(event => {
                 A: 'minecraft:diamond',
                 B: 'minecraft:stick'
             }, output: 'kubejs:diamond_trowel', count: 1
-        }, /* Netherite Trowel*/ {
+        }, /* Netherite Trowel */ {
             pattern: [
                 ' A ',
                 'ABA',
@@ -534,6 +534,42 @@ ServerEvents.recipes(event => {
                 A: 'minecraft:netherite_ingot',
                 B: 'minecraft:stick'
             }, output: 'kubejs:netherite_trowel', count: 1
+        }, /* Stone Hammer */ {
+            pattern: [
+                'AAA',
+                'ABA',
+                ' B '
+            ], keys: {
+                A: 'minecraft:cobblestone',
+                B: 'minecraft:stick'
+            }, output: 'kubejs:stone_hammer', count: 1
+        }, /* Iron Hammer */ {
+            pattern: [
+                'AAA',
+                'ABA',
+                ' B '
+            ], keys: {
+                A: 'minecraft:iron_ingot',
+                B: 'minecraft:stick'
+            }, output: 'kubejs:iron_hammer', count: 1
+        }, /* Diamond Hammer */ {
+            pattern: [
+                'AAA',
+                'ABA',
+                ' B '
+            ], keys: {
+                A: 'minecraft:diamond',
+                B: 'minecraft:stick'
+            }, output: 'kubejs:diamond_hammer', count: 1
+        }, /* Netherite Hammer */ {
+            pattern: [
+                'AAA',
+                'ABA',
+                ' B '
+            ], keys: {
+                A: 'minecraft:netherite_ingot',
+                B: 'minecraft:stick'
+            }, output: 'kubejs:netherite_hammer', count: 1
         }
     ];
 
