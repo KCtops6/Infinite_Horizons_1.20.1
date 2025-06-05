@@ -1983,7 +1983,8 @@ Updated Structurize.
 
 1.20.1-10.8
 
-Removed Create: Steam 'n' Rails (until it works with Create 6.0).
+Removed Apotheotic Creation (until it works with Create 6.0+).
+Removed Create: Steam 'n' Rails (until it works with Create 6.0+).
 
 Added Psi (ProjectE) questline.
 
