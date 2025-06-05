@@ -1986,6 +1986,7 @@ Updated Structurize.
 Removed Apotheotic Creation (until it works with Create 6.0+).
 Removed Create: Steam 'n' Rails (until it works with Create 6.0+).
 
+Ported Infinite Horizons 2 features to this modpack.
 Added Psi (ProjectE) questline.
 
 Updated Supplementaries.

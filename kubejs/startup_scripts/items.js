@@ -7,7 +7,7 @@ StartupEvents.registry('item', e => {
         'void_flour', 'void_cake_base', 'void_cake', 'lava_infuser', 'nether_gemstone', 'magma_core', 'ancient_glyph', 'soul_prism', 'ashen_vessel',
         'purpur_lantern', 'dragon_eye_gem', 'voidshade_moss', 'dragonfire_relic', 'end_gateway_key', 'stargazer_lens', 'infinite_void_rune', 'void_glyph',
         'voidwalker_reagent', 'infernal_reagent', 'infernal_sigil', 'voidwalker_sigil', 'rune_of_the_end', 'rune_of_the_nether', 'wither_skeletal_contractor',
-        'e-logic_controller', 'ender_addon', 'nether_addon', 
+        'e-logic_controller', 'ender_addon', 'nether_addon', 'stone_pebble', 'andesite_pebble'
     ];
 
     const formatName = (id) => {
