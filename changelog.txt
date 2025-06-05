@@ -1984,3 +1984,5 @@ Updated Structurize.
 1.20.1-10.8
 
 Added Psi (ProjectE) questline.
+
+Updated Supplementaries.
