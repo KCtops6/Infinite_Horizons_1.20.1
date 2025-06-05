@@ -31,12 +31,12 @@ LootJS.modifiers((event) => {
             chance: 0.25,
             additionalLoot: 'ars_nouveau:mendosteen_pod'
         },
-        {
-            block: 'minecraft:grass_block',
-            toolTag: '#forge:tools/shovels',
-            chance: 0.25,
-            additionalLoot: 'twigs:pebble'
-        },
+        // {
+        //     block: 'minecraft:grass_block',
+        //     toolTag: '#forge:tools/shovels',
+        //     chance: 0.25,
+        //     additionalLoot: 'twigs:pebble'
+        // },
         {
             block: 'minecraft:dirt',
             toolTag: '#forge:tools/shovels',
