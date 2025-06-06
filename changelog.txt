@@ -1995,3 +1995,8 @@ Updated Beta questline.
 
 Updated Delightful.
 Updated Supplementaries.
+
+1.20.1-10.8.1
+
+Restored all andesite alloy recipes.
+In case you do not get trees in your starting village, you get saplings when you do original quest.
