@@ -489,8 +489,7 @@ ServerEvents.recipes(event => {
             },
             output: 'minecraft:elytra',
             count: 1
-        },
-        {
+        }, /* Wooden Trowel */ {
             pattern: [
                 ' A ',
                 'ABA',
@@ -502,8 +501,7 @@ ServerEvents.recipes(event => {
             },
             output: 'kubejs:wooden_trowel',
             count: 1
-        },
-        {
+        }, /* Stone Trowel */ {
             pattern: [
                 ' A ',
                 'ABA',
@@ -515,8 +513,7 @@ ServerEvents.recipes(event => {
             },
             output: 'kubejs:stone_trowel',
             count: 1
-        },
-        {
+        }, /* Iron Trowel */ {
             pattern: [
                 ' A ',
                 'ABA',
@@ -528,31 +525,7 @@ ServerEvents.recipes(event => {
             },
             output: 'kubejs:iron_trowel',
             count: 1
-        },
-        {
-            pattern: [
-                ' A ',
-                'ABA',
-                ' B '
-            ], keys: {
-                A: 'minecraft:diamond',
-                B: 'minecraft:stick'
-            }, output: 'kubejs:diamond_trowel', count: 1
-        },
-        {
-            pattern: [
-                ' A ',
-                'ABA',
-                ' B '
-            ],
-            keys: {
-                A: 'minecraft:netherite_ingot',
-                B: 'minecraft:stick'
-            },
-            output: 'kubejs:netherite_trowel',
-            count: 1
-        },
-        {
+        }, /* Stone Hammer */ {
             pattern: [
                 'AAA',
                 'ABA',
@@ -564,8 +537,7 @@ ServerEvents.recipes(event => {
             },
             output: 'kubejs:stone_hammer',
             count: 1
-        },
-        {
+        }, /* Iron Hammer */ {
             pattern: [
                 'AAA',
                 'ABA',
@@ -578,32 +550,6 @@ ServerEvents.recipes(event => {
             output: 'kubejs:iron_hammer',
             count: 1
         },
-        {
-            pattern: [
-                'AAA',
-                'ABA',
-                ' B '
-            ],
-            keys: {
-                A: 'minecraft:diamond',
-                B: 'minecraft:stick'
-            },
-            output: 'kubejs:diamond_hammer',
-            count: 1
-        },
-        {
-            pattern: [
-                'AAA',
-                'ABA',
-                ' B '
-            ],
-            keys: {
-                A: 'minecraft:netherite_ingot',
-                B: 'minecraft:stick'
-            },
-            output: 'kubejs:netherite_hammer',
-            count: 1
-        }
     ];
     shapedCraftingRecipes.forEach(recipe => {
         try {
@@ -666,4 +612,16 @@ ServerEvents.recipes(event => {
             }
         );
     });
+
+    let twoByTwo = [
+        { input: 'kubejs:stone_pebble', output: 'minecraft:cobblestone' },
+        { input: 'kubejs:andesite_pebble', output: 'minecraft:andesite' }
+    ]
+    twoByTwo.forEach(t => {
+        event.shaped(Item.of(t.output, 1), [
+            'AA ',
+            'AA ',
+            '   '
+        ], { A: t.input});
+    })
 });
