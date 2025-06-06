@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    const recipes = [
+    const shapedCraftingRecipes = [
         {
             pattern: [
                 'AAA',
@@ -489,34 +489,47 @@ ServerEvents.recipes(event => {
             },
             output: 'minecraft:elytra',
             count: 1
-        },  /* Wooden Trowel */ {
+        },
+        {
             pattern: [
                 ' A ',
                 'ABA',
                 ' B '
-            ], keys: {
+            ],
+            keys: {
                 A: '#minecraft:planks',
                 B: 'minecraft:stick'
-            }, output: 'kubejs:wooden_trowel', count: 1
-        }, /* Stone Trowel */ {
+            },
+            output: 'kubejs:wooden_trowel',
+            count: 1
+        },
+        {
             pattern: [
                 ' A ',
                 'ABA',
                 ' B '
-            ], keys: {
+            ],
+            keys: {
                 A: 'minecraft:cobblestone',
                 B: 'minecraft:stick'
-            }, output: 'kubejs:stone_trowel', count: 1
-        }, /* Iron Trowel */ {
+            },
+            output: 'kubejs:stone_trowel',
+            count: 1
+        },
+        {
             pattern: [
                 ' A ',
                 'ABA',
                 ' B '
-            ], keys: {
+            ],
+            keys: {
                 A: 'minecraft:iron_ingot',
                 B: 'minecraft:stick'
-            }, output: 'kubejs:iron_trowel', count: 1
-        }, /* Diamond Trowel */ {
+            },
+            output: 'kubejs:iron_trowel',
+            count: 1
+        },
+        {
             pattern: [
                 ' A ',
                 'ABA',
@@ -525,62 +538,84 @@ ServerEvents.recipes(event => {
                 A: 'minecraft:diamond',
                 B: 'minecraft:stick'
             }, output: 'kubejs:diamond_trowel', count: 1
-        }, /* Netherite Trowel */ {
+        },
+        {
             pattern: [
                 ' A ',
                 'ABA',
                 ' B '
-            ], keys: {
+            ],
+            keys: {
                 A: 'minecraft:netherite_ingot',
                 B: 'minecraft:stick'
-            }, output: 'kubejs:netherite_trowel', count: 1
-        }, /* Stone Hammer */ {
+            },
+            output: 'kubejs:netherite_trowel',
+            count: 1
+        },
+        {
             pattern: [
                 'AAA',
                 'ABA',
                 ' B '
-            ], keys: {
+            ],
+            keys: {
                 A: 'minecraft:cobblestone',
                 B: 'minecraft:stick'
-            }, output: 'kubejs:stone_hammer', count: 1
-        }, /* Iron Hammer */ {
+            },
+            output: 'kubejs:stone_hammer',
+            count: 1
+        },
+        {
             pattern: [
                 'AAA',
                 'ABA',
                 ' B '
-            ], keys: {
+            ],
+            keys: {
                 A: 'minecraft:iron_ingot',
                 B: 'minecraft:stick'
-            }, output: 'kubejs:iron_hammer', count: 1
-        }, /* Diamond Hammer */ {
+            },
+            output: 'kubejs:iron_hammer',
+            count: 1
+        },
+        {
             pattern: [
                 'AAA',
                 'ABA',
                 ' B '
-            ], keys: {
+            ],
+            keys: {
                 A: 'minecraft:diamond',
                 B: 'minecraft:stick'
-            }, output: 'kubejs:diamond_hammer', count: 1
-        }, /* Netherite Hammer */ {
+            },
+            output: 'kubejs:diamond_hammer',
+            count: 1
+        },
+        {
             pattern: [
                 'AAA',
                 'ABA',
                 ' B '
-            ], keys: {
+            ],
+            keys: {
                 A: 'minecraft:netherite_ingot',
                 B: 'minecraft:stick'
-            }, output: 'kubejs:netherite_hammer', count: 1
+            },
+            output: 'kubejs:netherite_hammer',
+            count: 1
         }
     ];
-
-    recipes.forEach(recipe => {
-        event.shaped(
-            Item.of(recipe.output, recipe.count),
-            recipe.pattern,
-            recipe.keys
-        );
+    shapedCraftingRecipes.forEach(recipe => {
+        try {
+            event.shaped(
+                Item.of(recipe.output, recipe.count),
+                recipe.pattern,
+                recipe.keys
+            );
+        } catch (e) {
+            console.error(`Failed to register recipe for ${recipe.output}:`, e);
+        }
     });
-
     const essenceIngotMappings = [
         { output: 'gtceu:antimony_ingot', essence: 'mysticalagriculture:antimony_essence'},
         { output: 'gtceu:battery_alloy_ingot', essence: 'mysticalagriculture:battery_alloy_essence'},

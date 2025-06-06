@@ -1,0 +1,1 @@
+global.material_tiers = ['wooden', 'stone', 'iron', 'diamond', 'netherite'];
