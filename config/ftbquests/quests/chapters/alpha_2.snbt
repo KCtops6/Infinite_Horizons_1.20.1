@@ -1640,7 +1640,7 @@
 				item: "kubejs:steel_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -3101,6 +3101,65 @@
 			title: "Cobblestone"
 			x: 4.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			id: "0E2936F6EEABE216"
+			tasks: [{
+				id: "114E25887971E813"
+				item: {
+					Count: 1
+					id: "kubejs:iron_trowel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56AE41FF2C03F86B"]
+			id: "18FE5F126CAAA79E"
+			tasks: [{
+				id: "7C0C5B807707B2B6"
+				item: {
+					Count: 1
+					id: "kubejs:stone_trowel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18FE5F126CAAA79E"]
+			icon: "minecraft:andesite"
+			id: "1F1132734F8912DB"
+			rewards: [{
+				id: "1A6ABD718935B97F"
+				item: "minecraft:andesite"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2EE0ADF4F7B6390D"
+					item: "kubejs:andesite_pebble"
+					type: "item"
+				}
+				{
+					id: "072E5F9D19259FC4"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
 		}
 	]
 	title: "Alpha"
