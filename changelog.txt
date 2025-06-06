@@ -1986,7 +1986,7 @@ Updated Structurize.
 Removed Apotheotic Creation (until it works with Create 6.0+).
 Removed Create: Steam 'n' Rails (until it works with Create 6.0+).
 
-Got rid of stone alloy and adopted Infinite Horizons 2 way of getting stone and andesite (watch tutorial).
+Got rid of stone alloy and adopted Infinite Horizons 2 way of getting stone and andesite (follow quests).
 Ported Infinite Horizons 2 items/textures to this modpack.
 Ported Infinite Horizons 2 block loot tables to Infinite Horizons.
 Added Psi (ProjectE) questline.

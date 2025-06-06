@@ -1161,6 +1161,12 @@
 		}
 		{
 			id: "73D50C93EBC09617"
+			rewards: [{
+				id: "14637D70D481C446"
+				item: "minecraft:oak_sapling"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AF51F60D6DF53FD"
 				title: "Welcome!"

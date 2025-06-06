@@ -90,23 +90,23 @@
         "isSelected": false
       },
       {
-        "path": "backups\\2025-5-29_16-30-0.zip",
+        "path": "backups\\2025-6-5_19-0-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-5-29_17-0-0.zip",
+        "path": "backups\\2025-6-5_19-30-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-5-29_17-30-0.zip",
+        "path": "backups\\2025-6-5_20-0-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-6-4_12-0-0.zip",
+        "path": "backups\\2025-6-5_20-30-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-6-4_12-30-0.zip",
+        "path": "backups\\2025-6-6_9-30-0.zip",
         "isSelected": false
       },
       {
@@ -1171,6 +1171,10 @@
       },
       {
         "path": "config\\ftbquests\\quests\\chapters\\power_surge.snbt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ftbquests\\quests\\chapters\\psi.snbt",
         "isSelected": true
       },
       {
@@ -3151,6 +3155,10 @@
       },
       {
         "path": "crash-reports\\crash-2025-05-26_15.47.05-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-06-04_18.06.49-fml.txt",
         "isSelected": false
       },
       {
@@ -20774,6 +20782,10 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\andesite_pebble.png",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\assets\\kubejs\\textures\\item\\apatite_dust.png",
         "isSelected": true
       },
@@ -20963,6 +20975,10 @@
       },
       {
         "path": "kubejs\\assets\\kubejs\\textures\\item\\dark_matter.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\deepslate_pebble.png",
         "isSelected": true
       },
       {
@@ -21214,11 +21230,19 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\iron_hammer.png",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\assets\\kubejs\\textures\\item\\iron_mesh.png",
         "isSelected": true
       },
       {
         "path": "kubejs\\assets\\kubejs\\textures\\item\\iron_plate.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\iron_trowel.png",
         "isSelected": true
       },
       {
@@ -21446,6 +21470,34 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\raw_aluminum.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\raw_lead.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\raw_nickel.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\raw_osmium.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\raw_silver.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\raw_tin.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\raw_uranium.png",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\assets\\kubejs\\textures\\item\\recorder.png",
         "isSelected": true
       },
@@ -21614,6 +21666,18 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\stone_hammer.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\stone_pebble.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\stone_trowel.png",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\assets\\kubejs\\textures\\item\\stray_catalyst.png",
         "isSelected": true
       },
@@ -21722,6 +21786,10 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\uranium_plate.png",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\assets\\kubejs\\textures\\item\\vanadium_steel_gear.png",
         "isSelected": true
       },
@@ -21779,6 +21847,10 @@
       },
       {
         "path": "kubejs\\assets\\kubejs\\textures\\item\\wooden_shield.png",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\kubejs\\textures\\item\\wooden_trowel.png",
         "isSelected": true
       },
       {
@@ -22502,19 +22574,19 @@
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\normal mode\\minecraft",
+        "path": "kubejs\\server_scripts\\normal mode\\LootJS",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\normal mode\\minecraft\\shaped.js",
+        "path": "kubejs\\server_scripts\\normal mode\\LootJS\\Modifiers",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\normal mode\\minecraft\\shapeless.js",
+        "path": "kubejs\\server_scripts\\normal mode\\LootJS\\Modifiers\\BlockLootModifier",
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\normal mode\\minecraft\\wandering_trader.js",
+        "path": "kubejs\\server_scripts\\normal mode\\LootJS\\Modifiers\\BlockLootModifier\\trowels.js",
         "isSelected": true
       },
       {
@@ -22523,6 +22595,26 @@
       },
       {
         "path": "kubejs\\server_scripts\\normal mode\\naturesaura\\ritual_of_the_forest.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\normal mode\\Recipes",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\normal mode\\Recipes\\Minecraft",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\normal mode\\Recipes\\Minecraft\\shaped.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\normal mode\\Recipes\\Minecraft\\shapeless.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\normal mode\\Recipes\\Minecraft\\wandering_trader.js",
         "isSelected": true
       },
       {
@@ -22718,6 +22810,10 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\server_scripts\\normal mode\\hammers.js",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\server_scripts\\normal mode\\motd.js",
         "isSelected": true
       },
@@ -22770,6 +22866,10 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\startup_scripts\\global_variables.js",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\startup_scripts\\items.js",
         "isSelected": true
       },
@@ -22778,7 +22878,15 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\startup_scripts\\material_list.js",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\startup_scripts\\replacingKubeJSDisplay.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\startup_scripts\\tools.js",
         "isSelected": true
       },
       {
@@ -23147,6 +23255,42 @@
       },
       {
         "path": "logs\\2025-06-03-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-04-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-04-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-04-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-04-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-04-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-05-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-05-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-05-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-05-4.log.gz",
         "isSelected": false
       },
       {
@@ -23702,10 +23846,6 @@
         "isSelected": true
       },
       {
-        "path": "mods\\apotheoticcreation-1.0.1.jar.disabled",
-        "isSelected": true
-      },
-      {
         "path": "mods\\ApothicAttributes-1.20.1-1.3.7.jar",
         "isSelected": true
       },
@@ -23990,7 +24130,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Delightful-1.20.1-3.7.1.jar",
+        "path": "mods\\Delightful-1.20.1-3.7.2.jar",
         "isSelected": true
       },
       {
@@ -24774,10 +24914,6 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Steam_Rails-1.6.7+forge-mc1.20.1.jar.disabled",
-        "isSelected": true
-      },
-      {
         "path": "mods\\structurize-1.20.1-1.0.773-snapshot.jar",
         "isSelected": true
       },
@@ -24798,7 +24934,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\supplementaries-1.20-3.1.30.jar",
+        "path": "mods\\supplementaries-1.20-3.1.31.jar",
         "isSelected": true
       },
       {
