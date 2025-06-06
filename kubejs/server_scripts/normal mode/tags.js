@@ -1,8 +1,4 @@
 ServerEvents.tags('item', event => {
-    // adding andesite alloy and new 'stone alloy' into custom tag.
-    event.add('forge:ingots/andesite_alloy', 'create:andesite_alloy');
-    event.add('forge:ingots/andesite_alloy', 'kubejs:stone_alloy');
-
     // merging the 'forge:dusts/endstone' and 'forge:dusts/end_stone' tags into the latter.
     event.removeAll('forge:dusts/endstone');    // Removing the endstone tag.
     event.add('forge:dusts/end_stone', [    // to the 'forge:dusts/end_stone' tag we add...
