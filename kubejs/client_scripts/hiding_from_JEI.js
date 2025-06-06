@@ -14,7 +14,6 @@ JEIEvents.hideItems(event => {
             'andesite_mesh', 'zinc_mesh', 'custom_mesh', 'advanced_brass_mesh', 'advanced_custom_mesh'
         ],
         'ae2': ['facade'],
-        'create': ['andesite_alloy'],
         'enderio': ['filled_soul_vial', 'broken_spawner'],
         'mekanism': ['digital_miner', 'creative_fluid_tank'],
         '#forge:ores_in_ground': [
