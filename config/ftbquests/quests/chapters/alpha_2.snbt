@@ -241,68 +241,9 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1095B567B96DDCF3"]
-			description: ["Collect pebbles by breaking dirt or grass blocks with a shovel for a small chance of finding them, or by processing dirt on a cutting board for a higher yield. Use these pebbles to craft cobblestone, an essential resource for building and crafting in the early stages of your superflat world adventure."]
-			id: "27BBBF57700A3F23"
-			rewards: [
-				{
-					id: "3E972F2A0CD0481A"
-					item: {
-						Count: 1
-						id: "minecraft:stone_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "721604EB0F7D29E5"
-					item: "pamhc2foodextended:blackberrycobbleritem"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			subtitle: "Gather Pebbles for Early Game Cobblestone"
-			tasks: [{
-				id: "04D9E1265479FA37"
-				item: "twigs:pebble"
-				type: "item"
-			}]
-			title: "Pebble Collection"
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["27BBBF57700A3F23"]
-			id: "1BD5834C4A3D2A7A"
-			rewards: [
-				{
-					count: 16
-					id: "318D95D078E1A1D2"
-					item: "minecraft:cobblestone"
-					random_bonus: 48
-					type: "item"
-				}
-				{
-					id: "473E56D9A33C7E80"
-					item: "pamhc2foodextended:peachcobbleritem"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "29F48776F1FC3891"
-				item: "minecraft:cobblestone"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
 			dependencies: [
 				"107C7B47643CFDF0"
-				"1BD5834C4A3D2A7A"
+				"56AE41FF2C03F86B"
 			]
 			id: "6A6C399AB9F1BBE0"
 			tasks: [{
@@ -402,8 +343,8 @@
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -507,11 +448,11 @@
 				item: "minecraft:experience_bottle"
 				type: "item"
 			}]
-			x: 3.25d
-			y: -1.75d
+			x: 2.0d
+			y: -2.75d
 		}
 		{
-			dependencies: ["1BD5834C4A3D2A7A"]
+			dependencies: ["56AE41FF2C03F86B"]
 			id: "65906C67930D8562"
 			rewards: [
 				{
@@ -3116,6 +3057,50 @@
 			]
 			x: 5.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1095B567B96DDCF3"]
+			icon: "minecraft:cobblestone"
+			id: "56AE41FF2C03F86B"
+			rewards: [
+				{
+					id: "4FAAF1BE6E7EA1AE"
+					item: "minecraft:cobblestone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "451D1B20340D355B"
+					item: "pamhc2foodextended:peachcobbleritem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4DABA5CD9B669E3B"
+					item: {
+						Count: 1
+						id: "kubejs:wooden_trowel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C5FACA228639370"
+					item: "kubejs:stone_pebble"
+					type: "item"
+				}
+				{
+					id: "259D76B1B9D444D9"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "Cobblestone"
+			x: 4.0d
+			y: -2.0d
 		}
 	]
 	title: "Alpha"
