@@ -67,7 +67,9 @@ ServerEvents.recipes(event => {
             inputs: ['thermal:blizz_powder', 'ars_nouveau:manipulation_essence'],
             output: 'minecraft:blaze_powder',
             count: 1
-        },
+        }, /** Stone Alloy to Andesite Alloy */ {
+            inputs: ['#kubejs:pebbles'], output: 'kubejs:stone_pebble', count: 1
+        }
     ];
     recipes.forEach(recipe => {
         event.shapeless(Item.of(recipe.output, recipe.count), recipe.inputs);
