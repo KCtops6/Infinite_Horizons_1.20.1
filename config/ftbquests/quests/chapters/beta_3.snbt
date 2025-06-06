@@ -9,10 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"423A4884BBF1FFFA"
-				"1AC649402EA13EB3"
-			]
+			dependencies: ["1AC649402EA13EB3"]
 			description: ["The Water Wheel allows you to harness flowing water to generate kinetic energy, powering your Create mod machinery efficiently and sustainably."]
 			id: "2F9B0013A2D20BA3"
 			rewards: [{
@@ -31,7 +28,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["423A4884BBF1FFFA"]
+			dependencies: ["513D936FBE83EC2D"]
 			id: "1AC649402EA13EB3"
 			tasks: [{
 				id: "3C176D81103AD394"
@@ -419,29 +416,6 @@
 			}]
 			x: 4.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["3949B38795D8BB00"]
-			id: "423A4884BBF1FFFA"
-			rewards: [
-				{
-					id: "17D7866082389DC3"
-					item: "create:goggles"
-					type: "item"
-				}
-				{
-					id: "0B83B365E40C3F5A"
-					item: "create:wrench"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1992E654BB8A2469"
-				item: "kubejs:stone_alloy"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["1A09937381BB310B"]
@@ -860,6 +834,20 @@
 			}]
 			x: 14.75d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1F1132734F8912DB"
+				"3949B38795D8BB00"
+			]
+			id: "513D936FBE83EC2D"
+			tasks: [{
+				id: "0135E6E9D06542D3"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Beta"
