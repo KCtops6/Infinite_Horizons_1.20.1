@@ -131,4 +131,9 @@ ServerEvents.tags('item', event => {
     forbiddenArcanusScales.forEach(scale => {
         event.remove('forge:dragon_scales', scale);
     });
+
+    const stonePebbles = ['twigs:pebble', 'botania:pebble', 'kubejs:stone_pebble'];
+    stonePebbles.forEach(s => {
+        event.add('kubejs:pebbles', s);
+    })
 });
