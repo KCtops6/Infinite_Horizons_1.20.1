@@ -1990,4 +1990,5 @@ Ported Infinite Horizons 2 items/textures to this modpack.
 Ported Infinite Horizons 2 block loot tables to Infinite Horizons.
 Added Psi (ProjectE) questline.
 
+Updated Delightful.
 Updated Supplementaries.
