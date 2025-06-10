@@ -5,14 +5,6 @@
 	group: "6F4C25734B575319"
 	icon: "minecraft:oak_log"
 	id: "1F0402920128C0A0"
-	images: [{
-		height: 0.5d
-		image: "jei:textures/jei/atlas/gui/icons/info.png"
-		rotation: 0.0d
-		width: 0.5d
-		x: 3.25d
-		y: -2.0d
-	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
