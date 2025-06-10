@@ -2002,3 +2002,5 @@ Restored all andesite alloy recipes.
 In case you do not get trees in your starting village, you get saplings when you do original quest.
 
 1.20.1-10.9
+
+Updated Applied Energistics 2.
