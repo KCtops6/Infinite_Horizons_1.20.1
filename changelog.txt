@@ -2003,6 +2003,8 @@ In case you do not get trees in your starting village, you get saplings when you
 
 1.20.1-10.9
 
+Added Integrated Dynamics (and addons) questline.
+
 Updated Alpha questline.
 
 Updated Applied Energistics 2.

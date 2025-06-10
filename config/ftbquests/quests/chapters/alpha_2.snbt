@@ -1684,37 +1684,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7A65E98B9FE221A7"]
-			description: ["Integrated Dynamics makes multiple mods easier to automate."]
-			id: "782330C4DF8652E5"
-			rewards: [
-				{
-					id: "767754AD797F7515"
-					item: "integrateddynamics:menril_sapling"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "2D848DB363AC5222"
-					item: "integrateddynamics:on_the_dynamics_of_integration"
-					type: "item"
-				}
-				{
-					id: "1A6F64719D1461DC"
-					item: "pamhc2foodextended:pizzasoupitem"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "537DDB068757EB9C"
-				item: "integrateddynamics:menril_sapling"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["441DBA8F34E2A24D"]
 			id: "6110DA7F466AC4B6"
 			tasks: [{
