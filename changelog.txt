@@ -2013,3 +2013,4 @@ Updated Create: Connected.
 Updated GeckoLib.
 Updated GuideME.
 Updated Integrated Dynamics.
+Updated Inventory Tweaks - ReFoxed.
