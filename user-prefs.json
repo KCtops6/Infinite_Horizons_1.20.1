@@ -90,19 +90,19 @@
         "isSelected": false
       },
       {
-        "path": "backups\\2025-6-5_19-0-0.zip",
+        "path": "backups\\2025-6-6_10-0-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-6-5_19-30-0.zip",
+        "path": "backups\\2025-6-6_10-30-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-6-5_20-0-0.zip",
+        "path": "backups\\2025-6-6_11-0-0.zip",
         "isSelected": false
       },
       {
-        "path": "backups\\2025-6-5_20-30-0.zip",
+        "path": "backups\\2025-6-6_11-30-0.zip",
         "isSelected": false
       },
       {
@@ -3243,6 +3243,14 @@
       },
       {
         "path": "ESM",
+        "isSelected": false
+      },
+      {
+        "path": "ESM\\New World",
+        "isSelected": false
+      },
+      {
+        "path": "ESM\\New World\\anchors.dat",
         "isSelected": false
       },
       {
@@ -18878,6 +18886,14 @@
         "isSelected": false
       },
       {
+        "path": "gtceu\\prospection_cache\\KCtops6_b6ca8b7a-a074-4089-8ae0-1c8c14e73031\\New_World_9fad4235-ccdd-448d-a298-21c03d9049e9",
+        "isSelected": false
+      },
+      {
+        "path": "gtceu\\prospection_cache\\KCtops6_b6ca8b7a-a074-4089-8ae0-1c8c14e73031\\New_World_9fad4235-ccdd-448d-a298-21c03d9049e9\\gtceu",
+        "isSelected": false
+      },
+      {
         "path": "gtceu\\prospection_cache\\KCtops6_b6ca8b7a-a074-4089-8ae0-1c8c14e73031\\Survival_World_4a870b2e-81a4-47cc-ae6c-d16bd1823e51",
         "isSelected": false
       },
@@ -20139,6 +20155,90 @@
       },
       {
         "path": "journeymap\\data\\sp\\New World (2)\\waypoints",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\biome",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\biome\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\biome\\1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\cache\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\cache\\r.1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\day",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\day\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\day\\1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\night",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\night\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\night\\1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\topo",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\topo\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\topo\\cache\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\topo\\cache\\r.1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\topo\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\overworld\\topo\\1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\waypoints",
         "isSelected": false
       },
       {
@@ -23127,6 +23227,46 @@
       },
       {
         "path": "local\\ftbchunks\\data\\cce60fcf-cdc9-46e5-9e37-8bb20881c68c\\dimensions.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\cff7c9bf-7579-4378-b0be-9d33a7b3cadc",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\cff7c9bf-7579-4378-b0be-9d33a7b3cadc\\minecraft_overworld",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\cff7c9bf-7579-4378-b0be-9d33a7b3cadc\\minecraft_overworld\\0EA60-0EA5F.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\cff7c9bf-7579-4378-b0be-9d33a7b3cadc\\minecraft_overworld\\0EA60-0EA60.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\cff7c9bf-7579-4378-b0be-9d33a7b3cadc\\minecraft_overworld\\0EA61-0EA60.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\cff7c9bf-7579-4378-b0be-9d33a7b3cadc\\minecraft_overworld\\dimension.regions",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\cff7c9bf-7579-4378-b0be-9d33a7b3cadc\\minecraft_overworld\\waypoints.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\cff7c9bf-7579-4378-b0be-9d33a7b3cadc\\biome_map.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\cff7c9bf-7579-4378-b0be-9d33a7b3cadc\\block_map.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\cff7c9bf-7579-4378-b0be-9d33a7b3cadc\\dimensions.txt",
         "isSelected": false
       },
       {
@@ -27987,6 +28127,674 @@
       },
       {
         "path": "saves\\New World (2)\\session.lock",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\advancements",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\advancements\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.json",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\starterkit",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\starterkit\\tracking.json",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\create_sa_mapvars.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\enderio_conduit_network.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\enderio_traveldata.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\gtceu_world_id.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\integratedcrafting_GlobalCounterData.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\integrateddynamics_GlobalCounterData.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\integrateddynamics_Labels.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\integrateddynamics_Networks.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\JMPlayerSettings.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\mfix_strongholds.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\modonomicon_book_states.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\random_sequences.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\TitaniumReward.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\waystones.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\data\\WorldUUID.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\datapacks",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM-1",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM-1\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM-1\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM-1\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM-1\\data\\enderio_conduit_network.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM-1\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM1",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM1\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM1\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM1\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM1\\data\\enderio_conduit_network.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\DIM1\\data\\raids_end.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\ae2",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\ae2\\spatial_storage",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\ae2\\spatial_storage\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\ae2\\spatial_storage\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\ae2\\spatial_storage\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\ae2\\spatial_storage\\data\\enderio_conduit_network.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\ae2\\spatial_storage\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\bloodmagic",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\bloodmagic\\dungeon",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\bloodmagic\\dungeon\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\bloodmagic\\dungeon\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\bloodmagic\\dungeon\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\bloodmagic\\dungeon\\data\\enderio_conduit_network.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\bloodmagic\\dungeon\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\compactmachines",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\compactmachines\\compact_world",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\compactmachines\\compact_world\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\compactmachines\\compact_world\\data\\an_redstone_signals.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\compactmachines\\compact_world\\data\\capabilities.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\compactmachines\\compact_world\\data\\enderio_conduit_network.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\compactmachines\\compact_world\\data\\raids.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\minecraft",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\minecraft\\server_faucet_test_level",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\minecraft\\server_faucet_test_level\\data",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\entities",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\entities\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\entities\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\entities\\r.1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\entities\\r.1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbchunks",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbchunks\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbessentials",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbessentials\\playerdata",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbessentials\\playerdata\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbquests",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbquests\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbteams",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbteams\\party",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbteams\\player",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbteams\\player\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbteams\\server",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\ftbteams\\ftbteams.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\integratedscripting",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\integratedscripting\\scripting-disks",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\integratedscripting\\integratedscripting.d.ts",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\playerdata",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\playerdata\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.cosarmor",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\playerdata\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\playerdata\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.dat_old",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\poi",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\poi\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\poi\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\poi\\r.-1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\poi\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\poi\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\poi\\r.0.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\poi\\r.1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\poi\\r.1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\poi\\r.1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\region",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\region\\r.-1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\region\\r.-1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\region\\r.-1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\region\\r.0.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\region\\r.0.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\region\\r.0.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\region\\r.1.-1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\region\\r.1.0.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\region\\r.1.1.mca",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\ftbranks",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\ftbranks\\players.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\ftbranks\\ranks.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\ftbranks\\README.txt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\bucketlib-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\cobblefordays-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\cofh_core-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\compactmachines-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\corpse-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\create-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\create_connected-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\create_enchantment_industry-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\curios-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\easy_villagers-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\elevatorid-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\extrastorage-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\forge-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\framedblocks-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\ftbchunks-world.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\ftbessentials.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\ftbultimine-server.snbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\immersiveengineering-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\irons_spellbooks-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\jei-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\journeymap-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\matc-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\mcjtylib-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\minecolonies-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\mob_grinding_utils-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\occultism-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\pamhc2crops.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\pamhc2trees.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\pipez-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\productivebees-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\productivetrees-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\redstone_arsenal-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\refinedcooking-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\refinedstorage-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\refinedstorageaddons-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\rftoolsbase-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\rftoolsutility-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\rsinfinitybooster-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\sebastrnlib-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\solapplepie-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\sophisticatedbackpacks-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\sophisticatedstorage-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\structurize-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\thermal-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\toms_storage-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\woodenbucket-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\xnet-server.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\serverconfig\\xnetgases.toml",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\stats",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\stats\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.json",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\icon.png",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\kubejs_persistent_data.nbt",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\level.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\level.dat_old",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\session.lock",
         "isSelected": false
       },
       {
