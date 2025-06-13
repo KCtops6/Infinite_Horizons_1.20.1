@@ -2006,8 +2006,10 @@ In case you do not get trees in your starting village, you get saplings when you
 Added Integrated Dynamics (and addons) questline.
 
 Updated Alpha questline.
+Updated Beta questline.
 
 Updated Applied Energistics 2.
+Updated BlockUI.
 Updated BucketLib.
 Updated Corpse.
 Updated Create.
