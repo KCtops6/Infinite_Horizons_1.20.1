@@ -841,6 +841,12 @@
 				"3949B38795D8BB00"
 			]
 			id: "513D936FBE83EC2D"
+			rewards: [{
+				advancement: "create:root"
+				criterion: ""
+				id: "481DDA80729860A4"
+				type: "advancement"
+			}]
 			tasks: [{
 				id: "0135E6E9D06542D3"
 				item: "create:andesite_alloy"
@@ -848,6 +854,17 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1AC649402EA13EB3"]
+			id: "391D591880F67FC1"
+			tasks: [{
+				id: "4A307F9727AC483E"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
 		}
 	]
 	title: "Beta"
