@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["718F1420B3E05E63"]
 			icon: "tconstruct:seared_brick"
 			id: "53DD9BB3FF690755"
 			rewards: [
@@ -56,7 +57,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -77,7 +78,7 @@
 				item: "tconstruct:seared_melter"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -91,8 +92,8 @@
 				item: "tconstruct:seared_fuel_tank"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["53DD9BB3FF690755"]
@@ -102,8 +103,8 @@
 				item: "tconstruct:seared_heater"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6DC6D03DF19C4DEE"]
@@ -113,7 +114,7 @@
 				item: "tconstruct:smeltery_controller"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -124,8 +125,8 @@
 				item: "tconstruct:seared_basin"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.5d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7D663C67A5690E65"]
@@ -135,7 +136,7 @@
 				item: "tconstruct:seared_faucet"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -158,8 +159,8 @@
 				item: "tconstruct:seared_table"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -0.5d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3D10B25318FC4476"]
@@ -169,7 +170,7 @@
 				item: "tconstruct:part_builder"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -181,17 +182,18 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["718F1420B3E05E63"]
 			id: "3D10B25318FC4476"
 			tasks: [{
 				id: "648BB8C3C8A9464F"
 				item: "tconstruct:pattern"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3D10B25318FC4476"]
@@ -202,7 +204,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -236,28 +238,99 @@
 			y: 0.0d
 		}
 		{
-			id: "7A711260A2727475"
-			tasks: [
+			dependencies: ["0A07E5D901F264B4"]
+			id: "0FD7DE14CC988306"
+			tasks: [{
+				id: "01459F01A304A1C5"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D10B25318FC4476"]
+			id: "2A89B4E2F7D67440"
+			tasks: [{
+				id: "20CBF9264B32B9C9"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"49E91496FA44C1A2"
+				"6DC6D03DF19C4DEE"
+			]
+			id: "6418F434C7D0B2C4"
+			tasks: [{
+				id: "2D02367E39B54015"
+				item: "tconstruct:foundry_controller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["718F1420B3E05E63"]
+			icon: "tconstruct:scorched_brick"
+			id: "49E91496FA44C1A2"
+			rewards: [
 				{
-					id: "5F9F2BD3196464DF"
-					item: "tconstruct:earth_slime_dirt"
+					id: "6FFFD3ADF2CD03BB"
+					item: "tconstruct:scorched_brick"
+					random_bonus: 2
 					type: "item"
 				}
 				{
-					id: "00C25F6BB4C74B84"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:trim_materials"
-						}
-					}
-					title: "Any #minecraft:trim_materials"
+					count: 3
+					id: "0974E5D3B6BB01B4"
+					item: "minecraft:magma_cream"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "77A120B21C1D3C08"
+					item: "minecraft:soul_sand"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "40E2053DE5429D4B"
+					item: "minecraft:gravel"
+					random_bonus: 2
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 1.5d
+			tasks: [
+				{
+					id: "729F44E2CF55FB9E"
+					item: "tconstruct:nether_grout"
+					type: "item"
+				}
+				{
+					id: "5194242B26035E7E"
+					item: "tconstruct:scorched_brick"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DC6D03DF19C4DEE"]
+			id: "7E9F8A8699DD73E2"
+			tasks: [{
+				id: "50F50B75FCF6634E"
+				item: "tconstruct:earth_slime_dirt"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
 		}
 	]
 	title: "Tinker's Construct"
