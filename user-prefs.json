@@ -90,7 +90,7 @@
         "isSelected": false
       },
       {
-        "path": "backups\\2025-6-6_10-0-0.zip",
+        "path": "backups\\2025-6-13_8-30-0.zip",
         "isSelected": false
       },
       {
@@ -106,7 +106,7 @@
         "isSelected": false
       },
       {
-        "path": "backups\\2025-6-6_9-30-0.zip",
+        "path": "backups\\2025-6-9_22-30-0.zip",
         "isSelected": false
       },
       {
@@ -1127,6 +1127,10 @@
       },
       {
         "path": "config\\ftbquests\\quests\\chapters\\industrial_foregoing.snbt",
+        "isSelected": true
+      },
+      {
+        "path": "config\\ftbquests\\quests\\chapters\\integrated_mods.snbt",
         "isSelected": true
       },
       {
@@ -18894,6 +18898,10 @@
         "isSelected": false
       },
       {
+        "path": "gtceu\\prospection_cache\\KCtops6_b6ca8b7a-a074-4089-8ae0-1c8c14e73031\\New_World_9fad4235-ccdd-448d-a298-21c03d9049e9\\gtceu\\fluids.nbt",
+        "isSelected": false
+      },
+      {
         "path": "gtceu\\prospection_cache\\KCtops6_b6ca8b7a-a074-4089-8ae0-1c8c14e73031\\Survival_World_4a870b2e-81a4-47cc-ae6c-d16bd1823e51",
         "isSelected": false
       },
@@ -20159,6 +20167,22 @@
       },
       {
         "path": "journeymap\\data\\sp\\New World (3)",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\addon-data",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\addon-data\\minecolonies",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\addon-data\\minecolonies\\overworld",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\sp\\New World (3)\\addon-data\\minecolonies\\overworld\\border.json",
         "isSelected": false
       },
       {
@@ -23434,6 +23458,22 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-06-06-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-09-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-09-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-06-10-1.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -24006,7 +24046,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\appliedenergistics2-forge-15.4.4.jar",
+        "path": "mods\\appliedenergistics2-forge-15.4.5.jar",
         "isSelected": true
       },
       {
@@ -24062,7 +24102,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\blockui-1.20.1-1.0.190-snapshot.jar",
+        "path": "mods\\blockui-1.20.1-1.0.193.jar",
         "isSelected": true
       },
       {
@@ -24094,7 +24134,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\bucketlib-1.20.1-2.3.7.0.jar",
+        "path": "mods\\bucketlib-1.20.1-2.3.7.1.jar",
         "isSelected": true
       },
       {
@@ -24178,7 +24218,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\corpse-forge-1.20.1-1.0.20.jar",
+        "path": "mods\\corpse-forge-1.20.1-1.0.21.jar",
         "isSelected": true
       },
       {
@@ -24198,7 +24238,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\create-1.20.1-6.0.4.jar",
+        "path": "mods\\create-1.20.1-6.0.6.jar",
         "isSelected": true
       },
       {
@@ -24226,7 +24266,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\create_connected-1.1.3-mc1.20.1-all.jar",
+        "path": "mods\\create_connected-1.1.4-mc1.20.1-all.jar",
         "isSelected": true
       },
       {
@@ -24462,7 +24502,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\geckolib-forge-1.20.1-4.7.1.2.jar",
+        "path": "mods\\geckolib-forge-1.20.1-4.7.1.3.jar",
         "isSelected": true
       },
       {
@@ -24486,7 +24526,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\guideme-20.1.7.jar",
+        "path": "mods\\guideme-20.1.8.jar",
         "isSelected": true
       },
       {
@@ -24538,7 +24578,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\IntegratedDynamics-1.20.1-1.27.1.jar",
+        "path": "mods\\IntegratedDynamics-1.20.1-1.27.3.jar",
         "isSelected": true
       },
       {
@@ -24554,7 +24594,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\invtweaks-1.20.1-1.2.0.jar",
+        "path": "mods\\invtweaks-1.20.1-1.2.1.jar",
         "isSelected": true
       },
       {
@@ -28378,6 +28418,14 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World (3)\\dimensions\\minecraft\\server_projectile_test_level",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (3)\\dimensions\\minecraft\\server_projectile_test_level\\data",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World (3)\\entities",
         "isSelected": false
       },
@@ -28466,11 +28514,11 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World (3)\\playerdata\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.cosarmor",
+        "path": "saves\\New World (3)\\playerdata\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031-3294570574184267144.dat",
         "isSelected": false
       },
       {
-        "path": "saves\\New World (3)\\playerdata\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.dat",
+        "path": "saves\\New World (3)\\playerdata\\b6ca8b7a-a074-4089-8ae0-1c8c14e73031.cosarmor",
         "isSelected": false
       },
       {
