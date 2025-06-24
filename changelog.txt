@@ -2020,6 +2020,10 @@ Updated Integrated Dynamics.
 Updated Inventory Tweaks - ReFoxed.
 
 1.20.1-11.0
+
+Added Mantle.
+Added Tinkers Construct.
+
 Updated Ars Nouveau.
 Updated BadOptimizations.
 Updated Create Mechanical Extruder.
