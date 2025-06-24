@@ -2034,3 +2034,4 @@ Updated GeckoLib.
 Updated GuideME.
 Updated Integrated Dynamics.
 Updated Integrated Terminals.
+Updated Integrated Tunnels.
