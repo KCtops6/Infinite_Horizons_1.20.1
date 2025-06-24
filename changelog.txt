@@ -2031,3 +2031,4 @@ Updated Entity Culling Fabric/Forge.
 Updated ExtendedAE.
 Updated FramedBlocks.
 Updated GeckoLib.
+Updated GuideME.
