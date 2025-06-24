@@ -2040,3 +2040,4 @@ Updated Mystical Agriculture.
 Updated Not Enough Animations.
 Updated Ponder for KubeJS.
 Updated Sophisticated Backpacks.
+Updated Sophisticated Core.
