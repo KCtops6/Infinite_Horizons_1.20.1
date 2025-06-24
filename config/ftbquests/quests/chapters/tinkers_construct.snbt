@@ -1,0 +1,264 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "126A1C64F6AE129F"
+	id: "3D9DA6C3D44CBEC2"
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "tconstruct:seared_brick"
+			id: "53DD9BB3FF690755"
+			rewards: [
+				{
+					id: "6472B7A65A9DEB26"
+					item: "tconstruct:seared_brick"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3F7EC0C4AC3B4A3E"
+					item: "minecraft:clay_ball"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "05741D92C97E54BC"
+					item: "minecraft:sand"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0FDD67D49A42ACAA"
+					item: "minecraft:gravel"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "290377319ECA8831"
+					item: "tconstruct:puny_smelting"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "26A7A091686520DE"
+					item: "tconstruct:grout"
+					type: "item"
+				}
+				{
+					id: "2BED932F8335C2B1"
+					item: "tconstruct:seared_brick"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23BA58E841331054"
+				"3ACDB3292C2D27EE"
+			]
+			dependency_requirement: "one_completed"
+			id: "7D663C67A5690E65"
+			rewards: [{
+				id: "17FA54B88F522EF6"
+				item: "tconstruct:seared_brick"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "77305AF2753D4D1C"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"53DD9BB3FF690755"
+				"32AEAE8653EF3DA0"
+			]
+			id: "23BA58E841331054"
+			tasks: [{
+				id: "2FC993DC21B46248"
+				item: "tconstruct:seared_fuel_tank"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53DD9BB3FF690755"]
+			id: "3ACDB3292C2D27EE"
+			tasks: [{
+				id: "14D42CC0443E99BC"
+				item: "tconstruct:seared_heater"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6DC6D03DF19C4DEE"]
+			id: "0C698FA1B534E2CC"
+			tasks: [{
+				id: "395BAD4962D1F291"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F7CF883959F2C09"]
+			id: "6DC6D03DF19C4DEE"
+			tasks: [{
+				id: "022E157EEA72259E"
+				item: "tconstruct:seared_basin"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D663C67A5690E65"]
+			id: "7F7CF883959F2C09"
+			tasks: [{
+				id: "000FB5220BB0BBF7"
+				item: "tconstruct:seared_faucet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F7CF883959F2C09"]
+			id: "0A07E5D901F264B4"
+			rewards: [
+				{
+					id: "1D0EC6D8E118F6C0"
+					item: "tconstruct:mighty_smelting"
+					type: "item"
+				}
+				{
+					id: "2DE6854F66562DB3"
+					item: "tconstruct:encyclopedia"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60AB30E2D5C23446"
+				item: "tconstruct:seared_table"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D10B25318FC4476"]
+			id: "41908311053A8B2F"
+			tasks: [{
+				id: "25706EF9F4F7D2D5"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41908311053A8B2F"]
+			id: "35981DC0C66FA87A"
+			tasks: [{
+				id: "0A60BBA2277F6D06"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "3D10B25318FC4476"
+			tasks: [{
+				id: "648BB8C3C8A9464F"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D10B25318FC4476"]
+			id: "0F129AF6374408F4"
+			tasks: [{
+				id: "7287771F7FA6B86F"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3D10B25318FC4476"
+				"41908311053A8B2F"
+			]
+			hide_dependent_lines: true
+			id: "6063FDF2AF16D53F"
+			tasks: [{
+				id: "67F69AB5C28BA41B"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1095B567B96DDCF3"]
+			id: "718F1420B3E05E63"
+			rewards: [{
+				id: "68F89222DCDA71D2"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7353BF37C72EFA86"
+				title: "Enter Tinker's Construct"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7A711260A2727475"
+			tasks: [
+				{
+					id: "5F9F2BD3196464DF"
+					item: "tconstruct:earth_slime_dirt"
+					type: "item"
+				}
+				{
+					id: "00C25F6BB4C74B84"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:trim_materials"
+						}
+					}
+					title: "Any #minecraft:trim_materials"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+	]
+	title: "Tinker's Construct"
+}
