@@ -2030,3 +2030,4 @@ Updated Cucumber Library.
 Updated Entity Culling Fabric/Forge.
 Updated ExtendedAE.
 Updated FramedBlocks.
+Updated GeckoLib.
