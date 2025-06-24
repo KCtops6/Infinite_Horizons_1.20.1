@@ -2028,3 +2028,4 @@ Updated Create: Connected.
 Updated Create: Enchantment Industry.
 Updated Cucumber Library.
 Updated Entity Culling Fabric/Forge.
+Updated ExtendedAE.
