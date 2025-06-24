@@ -2032,3 +2032,4 @@ Updated ExtendedAE.
 Updated FramedBlocks.
 Updated GeckoLib.
 Updated GuideME.
+Updated Integrated Dynamics.
