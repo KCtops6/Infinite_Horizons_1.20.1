@@ -329,8 +329,63 @@
 				item: "tconstruct:earth_slime_dirt"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E9F8A8699DD73E2"]
+			id: "6B9214B96072B4FD"
+			tasks: [{
+				id: "33E0C325C838378A"
+				item: "tconstruct:earth_slime_grass_seeds"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E9F8A8699DD73E2"]
+			id: "7E5A680E9A3CBBDC"
+			tasks: [{
+				id: "584DC9EA3A65D831"
+				item: "tconstruct:earth_slime_crystal"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E9F8A8699DD73E2"]
+			id: "450B8A01887644BE"
+			tasks: [{
+				id: "40FB78606A509691"
+				item: "tconstruct:earth_slime_tall_grass"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["450B8A01887644BE"]
+			id: "3ABD9C3DAD652D5E"
+			tasks: [{
+				id: "05F041490BB0C3A1"
+				item: "tconstruct:earth_cake"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E9F8A8699DD73E2"]
+			id: "0A670C136DDEC0FF"
+			tasks: [{
+				id: "41EB55A622DFE5BC"
+				item: "tconstruct:earth_slime_sapling"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
 		}
 	]
 	title: "Tinker's Construct"
