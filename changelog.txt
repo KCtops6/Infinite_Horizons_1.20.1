@@ -2027,6 +2027,7 @@ Added Tinkers Construct.
 Started Tinker's Construct questline.
 Added recipe for Tinker's Construct Ichor and Ender Slime Crystals.
 Added Create Sifting recipes for Tinkers Construct slimy seeds and saplings.
+Added shapeless crafting recipe for sky slime.
 
 Updated Ars Nouveau.
 Updated BadOptimizations.

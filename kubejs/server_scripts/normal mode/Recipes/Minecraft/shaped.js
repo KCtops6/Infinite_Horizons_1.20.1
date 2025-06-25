@@ -549,7 +549,7 @@ ServerEvents.recipes(event => {
             },
             output: 'kubejs:iron_hammer',
             count: 1
-        },
+        }
     ];
     shapedCraftingRecipes.forEach(recipe => {
         try {

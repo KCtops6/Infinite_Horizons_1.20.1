@@ -69,6 +69,13 @@ ServerEvents.recipes(event => {
             count: 1
         }, /** Stone Alloy to Andesite Alloy */ {
             inputs: ['#kubejs:pebbles'], output: 'kubejs:stone_pebble', count: 1
+        }, /* Sky Slime */ {
+            inputs: [
+                'mysticalagriculture:slime_essence',
+                'mysticalagriculture:slime_essence',
+                'mysticalagriculture:slime_essence',
+                'mysticalagriculture:air_essence'
+            ], output: 'tconstruct:sky_slime_ball', count: 8
         }
     ];
     recipes.forEach(recipe => {
