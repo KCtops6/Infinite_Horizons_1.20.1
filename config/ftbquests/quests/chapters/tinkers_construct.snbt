@@ -141,6 +141,7 @@
 		}
 		{
 			dependencies: ["7F7CF883959F2C09"]
+			hide_dependent_lines: true
 			id: "0A07E5D901F264B4"
 			rewards: [
 				{
@@ -240,12 +241,14 @@
 		{
 			dependencies: ["0A07E5D901F264B4"]
 			id: "0FD7DE14CC988306"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "01459F01A304A1C5"
 				item: "tconstruct:cast_chest"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.25d
 			y: -1.0d
 		}
 		{
@@ -261,17 +264,18 @@
 		}
 		{
 			dependencies: [
-				"49E91496FA44C1A2"
 				"6DC6D03DF19C4DEE"
+				"065A29C104B18EBD"
 			]
+			hide_dependent_lines: true
 			id: "6418F434C7D0B2C4"
 			tasks: [{
 				id: "2D02367E39B54015"
 				item: "tconstruct:foundry_controller"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["718F1420B3E05E63"]
@@ -318,8 +322,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 2.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6DC6D03DF19C4DEE"]
@@ -329,7 +333,7 @@
 				item: "tconstruct:earth_slime_dirt"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 1.0d
 		}
 		{
@@ -340,7 +344,7 @@
 				item: "tconstruct:earth_slime_grass_seeds"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -351,8 +355,8 @@
 				item: "tconstruct:earth_slime_crystal"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -5.0d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7E9F8A8699DD73E2"]
@@ -362,7 +366,7 @@
 				item: "tconstruct:earth_slime_tall_grass"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 2.0d
 		}
 		{
@@ -373,7 +377,7 @@
 				item: "tconstruct:earth_cake"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
@@ -384,7 +388,7 @@
 				item: "tconstruct:earth_slime_sapling"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: 1.0d
 		}
 		{
@@ -398,8 +402,8 @@
 				item: "tconstruct:sky_slime_ball"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 6.0d
+			x: 10.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -412,8 +416,8 @@
 				item: "tconstruct:sky_slime_dirt"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.0d
+			x: 11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["58A372F306ECAABD"]
@@ -423,8 +427,8 @@
 				item: "tconstruct:sky_slime_sapling"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 11.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["58A372F306ECAABD"]
@@ -434,8 +438,8 @@
 				item: "tconstruct:sky_slime_grass_seeds"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 4.0d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["58A372F306ECAABD"]
@@ -445,8 +449,8 @@
 				item: "tconstruct:sky_slime_crystal"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79292569D4AD0E2A"]
@@ -456,8 +460,8 @@
 				item: "tconstruct:sky_cake"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 6.0d
+			x: 12.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["58A372F306ECAABD"]
@@ -467,8 +471,8 @@
 				item: "tconstruct:sky_slime_tall_grass"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 11.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -481,8 +485,111 @@
 				item: "tconstruct:ichor_slime_crystal"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7E5A680E9A3CBBDC"
+				"0A07E5D901F264B4"
+			]
+			id: "01257C89DAE81AFF"
+			tasks: [{
+				id: "63513AF4F43850A6"
+				item: "tconstruct:ender_slime_crystal"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0C698FA1B534E2CC"
+				"59C561446EE0BF55"
+			]
+			hide_dependent_lines: true
+			id: "606B1A1A88E2A5D2"
+			tasks: [{
+				id: "2D06F6A720D87475"
+				item: "tconstruct:blazing_blood_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C17911C5F90647D"
+				"606B1A1A88E2A5D2"
+				"6418F434C7D0B2C4"
+			]
+			id: "6427087E628C085F"
+			tasks: [{
+				id: "669E5ADFB7187FED"
+				item: "tconstruct:ichor_slime_dirt"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6427087E628C085F"]
+			id: "2D5E14FB85F35F8A"
+			tasks: [{
+				id: "069F48AD896BC513"
+				item: "tconstruct:blood_slime_grass_seeds"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6427087E628C085F"]
+			id: "3EAF0442D967EF3D"
+			tasks: [{
+				id: "1D61EC1D4BD21B9A"
+				item: "tconstruct:blood_slime_sapling"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6C17911C5F90647D"
+				"606B1A1A88E2A5D2"
+				"6418F434C7D0B2C4"
+			]
+			id: "1FFF2E7CE78E1CAE"
+			tasks: [{
+				id: "15C53783AF47056D"
+				item: "tconstruct:ichor_cake"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["065A29C104B18EBD"]
+			id: "1D82D27EC2C27805"
+			tasks: [{
+				id: "30EE198E387C4B4F"
+				item: "tconstruct:scorched_alloyer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["49E91496FA44C1A2"]
+			id: "065A29C104B18EBD"
+			tasks: [{
+				id: "7E59394E2FEB0695"
+				item: "tconstruct:scorched_fuel_tank"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
 		}
 	]
 	title: "Tinker's Construct"
