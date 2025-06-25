@@ -1,3 +1,11 @@
+const mesh_mapping = [
+    { mesh: 'createsifter:string_mesh', multiplier: 1 },
+    { mesh: 'kubejs:copper_mesh', multiplier: 1.25 },
+    { mesh: 'kubejs:iron_mesh', multiplier: 1.5 },
+    { mesh: 'createsifter:brass_mesh', multiplier: 1.75 },
+    { mesh: 'kubejs:netherite_mesh', multiplier: 2 }
+]
+
 ServerEvents.recipes(event => {
     // removes all mesh recipes
     event.remove({ input: '#createsifter:meshes' })
@@ -1172,4 +1180,28 @@ ServerEvents.recipes(event => {
         Item.of('forbidden_arcanus:xpetrified_orb').withChance(0.4),
         Item.of('forbidden_arcanus:stellarite_piece').withChance(0.01),
     ], ['kubejs:darkstone_gravel','kubejs:netherite_mesh']);
+
+
+    mesh_mapping.forEach(m => {
+        // Earth Slime Dirt
+        event.recipes.createsifterSifting([
+            Item.of('tconstruct:earth_slime_grass_seeds').withChance(0.25 * m.multiplier),
+            Item.of('tconstruct:earth_slime_sapling').withChance(0.05 * m.multiplier)
+        ], ['tconstruct:earth_slime_dirt', m.mesh])
+        // Sky Slime Dirt
+        event.recipes.createsifterSifting([
+            Item.of('tconstruct:sky_slime_grass_seeds').withChance(0.25 * m.multiplier),
+            Item.of('tconstruct:sky_slime_sapling').withChance(0.05 * m.multiplier)
+        ], ['tconstruct:sky_slime_dirt', m.mesh])
+        // Ichor Slime Dirt
+        event.recipes.createsifterSifting([
+            Item.of('tconstruct:blood_slime_grass_seeds').withChance(0.25 * m.multiplier),
+            Item.of('tconstruct:blood_slime_sapling').withChance(0.05 * m.multiplier)
+        ], ['tconstruct:ichor_slime_dirt', m.mesh])
+        // Ender Slime Dirt
+        event.recipes.createsifterSifting([
+            Item.of('tconstruct:ender_slime_grass_seeds').withChance(0.25 * m.multiplier),
+            Item.of('tconstruct:ender_slime_sapling').withChance(0.05 * m.multiplier)
+        ], ['tconstruct:ender_slime_dirt', m.mesh])
+    })
 })
