@@ -387,6 +387,16 @@
 			x: 10.0d
 			y: 3.0d
 		}
+		{
+			id: "0C50F4D269A617B5"
+			tasks: [{
+				id: "55447E53C2DA09CF"
+				item: "minecraft:oak_wood"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
 	]
 	title: "Tinker's Construct"
 }
