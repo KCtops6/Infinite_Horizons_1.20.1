@@ -2039,6 +2039,7 @@ Updated Cucumber Library.
 Updated Entity Culling Fabric/Forge.
 Updated ExtendedAE.
 Updated FramedBlocks.
+Updated FTB Ultimine (Forge).
 Updated GeckoLib.
 Updated GuideME.
 Updated Integrated Dynamics.
