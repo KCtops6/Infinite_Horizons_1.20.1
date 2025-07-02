@@ -2024,8 +2024,6 @@ Updated Inventory Tweaks - ReFoxed.
 Added Mantle.
 Added Tinkers Construct.
 
-Readded Create: Steam 'n' Rails.
-
 Started Tinker's Construct questline.
 Added recipe for Tinker's Construct Ichor and Ender Slime Crystals.
 Added Create Sifting recipes for Tinkers Construct slimy seeds and saplings.
@@ -2054,3 +2052,7 @@ Updated Ponder for KubeJS.
 Updated Sophisticated Backpacks.
 Updated Sophisticated Core.
 Updated Sophisticated Storage.
+
+1.20.1-11.0.1
+
+Updated Create Encased.
