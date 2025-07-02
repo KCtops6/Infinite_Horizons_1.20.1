@@ -2060,3 +2060,4 @@ Updated Delightful.
 Updated Extended Crafting.
 Updated FancyMenu.
 Updated KubeJS Ars Nouveau.
+Updated ModernFix.
