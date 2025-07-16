@@ -549,6 +549,14 @@ ServerEvents.recipes(event => {
             },
             output: 'kubejs:iron_hammer',
             count: 1
+        }, /* Create Conveyor Belt from Thermal Rubber */ {
+            pattern: [
+                '   ',
+                'AAA',
+                'AAA'
+            ], keys: {
+                A: 'thermal:cured_rubber'
+            }, output: 'create:belt_connector', count: 3
         }
     ];
     shapedCraftingRecipes.forEach(recipe => {
