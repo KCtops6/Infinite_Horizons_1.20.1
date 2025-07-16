@@ -866,6 +866,17 @@
 			x: 2.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["2F9B0013A2D20BA3"]
+			id: "722DB1BEB0FDAA80"
+			tasks: [{
+				id: "1A409E338C0AE832"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
 	]
 	title: "Beta"
 }
