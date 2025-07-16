@@ -42,7 +42,8 @@
     "forge:storage_blocks/raw_{material}",
     "forge:crops/{material}",
     "forge:seeds/{material}",
-    "forge:{material}"
+    "forge:{material}",
+    "kubejs:{material}"
   ],
   "materials": [
     "aeternium",
@@ -88,6 +89,7 @@
     "obsidian",
     "onion",
     "osmium",
+    "pebbles",
     "peridot",
     "platinum",
     "potassium_nitrate",
