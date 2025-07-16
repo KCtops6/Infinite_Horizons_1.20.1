@@ -2065,3 +2065,7 @@ Updated Sophisticated Storage.
 Updated Stack Refill.
 Updated Structurize.
 Updated Supplementaries.
+
+1.20.1-11.0.2
+
+Fixed charged certus quartz recipes.

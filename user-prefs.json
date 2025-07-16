@@ -90,14 +90,6 @@
         "isSelected": false
       },
       {
-        "path": "backups\\2025-6-25_19-30-0.zip",
-        "isSelected": false
-      },
-      {
-        "path": "backups\\2025-6-25_20-0-0.zip",
-        "isSelected": false
-      },
-      {
         "path": "backups\\2025-6-25_20-30-0.zip",
         "isSelected": false
       },
@@ -107,6 +99,14 @@
       },
       {
         "path": "backups\\2025-6-25_21-30-0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "backups\\2025-6-27_14-30-0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "backups\\2025-7-2_20-30-0.zip",
         "isSelected": false
       },
       {
@@ -23658,6 +23658,14 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-06-27-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-07-02-1.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -24418,7 +24426,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Create Encased-1.20.1-1.7.1-fix2.jar",
+        "path": "mods\\Create Encased-1.20.1-1.7.2.jar",
         "isSelected": true
       },
       {
@@ -24494,7 +24502,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\Delightful-1.20.1-3.7.2.jar",
+        "path": "mods\\Delightful-1.20.1-3.7.3.jar",
         "isSelected": true
       },
       {
@@ -24582,7 +24590,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\ExtendedCrafting-1.20.1-6.0.8.jar",
+        "path": "mods\\ExtendedCrafting-1.20.1-6.0.9.jar",
         "isSelected": true
       },
       {
@@ -24598,7 +24606,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\fancymenu_forge_3.5.2_MC_1.20.1.jar",
+        "path": "mods\\fancymenu_forge_3.6.2_MC_1.20.1.jar",
         "isSelected": true
       },
       {
@@ -24962,7 +24970,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\modernfix-forge-5.23.1+mc1.20.1.jar",
+        "path": "mods\\modernfix-forge-5.24.0+mc1.20.1.jar",
         "isSelected": true
       },
       {
@@ -25258,7 +25266,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedstorage-1.20.1-1.3.51.1182.jar",
+        "path": "mods\\sophisticatedstorage-1.20.1-1.3.52.1187.jar",
         "isSelected": true
       },
       {
@@ -25270,7 +25278,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\stackrefill-1.20.1-4.7.jar",
+        "path": "mods\\stackrefill-1.20.1-4.9.jar",
         "isSelected": true
       },
       {
@@ -25282,7 +25290,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\structurize-1.20.1-1.0.773-snapshot.jar",
+        "path": "mods\\structurize-1.20.1-1.0.775-snapshot.jar",
         "isSelected": true
       },
       {
@@ -25302,7 +25310,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\supplementaries-1.20-3.1.31.jar",
+        "path": "mods\\supplementaries-1.20-3.1.34.jar",
         "isSelected": true
       },
       {
