@@ -48,4 +48,8 @@ ServerEvents.tags('item', event => {
     stonePebbles.forEach(s => {
         event.add('kubejs:pebbles', s);
     })
+    let gearboxes = ['create:gearbox', 'create:vertical_gearbox']
+    gearboxes.forEach(g => {
+        event.add('create:gearboxes', g)
+    })
 });
