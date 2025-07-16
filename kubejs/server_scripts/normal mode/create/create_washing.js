@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         results: [
             {
                 count: 3,
-                item: "twigs:pebble"
+                item: 'kubejs:stone_pebble'
             }
         ]
     });

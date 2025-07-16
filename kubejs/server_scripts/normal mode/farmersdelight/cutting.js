@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
                 item: 'minecraft:dirt'
             },
             {
-                item: 'twigs:pebble',
+                item: 'kubejs:stone_pebble',
                 chance: 0.75
             }
         ]
