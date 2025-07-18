@@ -2095,3 +2095,5 @@ Updated Sophisticated Storage.
 Updated Supplementaries.
 Updated Tinkers Construct.
 Updated ValkyrieLib.
+Updated Waystones.
+Updated Wooden Bucket.
