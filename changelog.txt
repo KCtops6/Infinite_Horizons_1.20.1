@@ -2075,3 +2075,4 @@ Added Create tag for basic gearboxes (horizontal and vertical).
 Added Create belt recipe with Thermal cured rubber.
 
 Updated Applied Energistics 2.
+Updated BadOptimizations.
