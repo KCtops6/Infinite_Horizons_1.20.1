@@ -2085,3 +2085,4 @@ Updated GregTech CEu Modern.
 Updated ImmediatelyFast.
 Updated Immersive Aircraft [Fabric/Forge].
 Updated Integrated Dynamics.
+Updated Mantle.
