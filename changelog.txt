@@ -2079,3 +2079,4 @@ Updated BadOptimizations.
 Updated Balm.
 Updated Create Encased.
 Updated Double Doors.
+Updated Ender IO.
