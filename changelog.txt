@@ -2077,6 +2077,7 @@ Updated Applied Energistics 2.
 Updated BadOptimizations.
 Updated Balm.
 Updated Create Encased.
+Updated Domum Ornamentum.
 Updated Double Doors.
 Updated Ender IO.
 Updated Entity Culling Fabric/Forge.
