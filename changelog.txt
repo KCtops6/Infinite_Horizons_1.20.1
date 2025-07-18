@@ -2081,3 +2081,4 @@ Updated Create Encased.
 Updated Double Doors.
 Updated Ender IO.
 Updated Entity Culling Fabric/Forge.
+Updated GregTech CEu Modern.
