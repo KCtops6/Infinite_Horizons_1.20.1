@@ -2077,3 +2077,4 @@ Added Create belt recipe with Thermal cured rubber.
 Updated Applied Energistics 2.
 Updated BadOptimizations.
 Updated Balm.
+Updated Create Encased.
