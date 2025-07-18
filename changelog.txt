@@ -2069,7 +2069,7 @@ Updated Supplementaries.
 1.20.1-11.1
 
 Fixed charged certus quartz recipes.
-All recipes that output pebbles now give twigs pebbles.
+All recipes that output pebbles now gives the Infinite Horizons pebbles.
 Updated Create (Beta) Questline.
 Added Create belt recipe with Thermal cured rubber.
 
