@@ -856,14 +856,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1AC649402EA13EB3"]
+			dependencies: ["2F9B0013A2D20BA3"]
 			id: "391D591880F67FC1"
 			tasks: [{
 				id: "4A307F9727AC483E"
 				item: "create:chain_conveyor"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -876,6 +876,24 @@
 			}]
 			x: 3.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["2F9B0013A2D20BA3"]
+			id: "29D77ED3EA9A072E"
+			tasks: [{
+				id: "1FC1B8DBFA6F508A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:gearboxes"
+					}
+				}
+				title: "Craft a Basic Create Gearbox."
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
 		}
 	]
 	title: "Beta"
