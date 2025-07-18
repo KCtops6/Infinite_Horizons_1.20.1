@@ -2090,3 +2090,4 @@ Updated MineColonies.
 Updated ModernFix.
 Updated Moonlight Lib.
 Updated Not Enough Animations.
+Updated Sophisticated Backpacks.
