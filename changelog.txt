@@ -2094,3 +2094,4 @@ Updated Sophisticated Core.
 Updated Sophisticated Storage.
 Updated Supplementaries.
 Updated Tinkers Construct.
+Updated ValkyrieLib.
