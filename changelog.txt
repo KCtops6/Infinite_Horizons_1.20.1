@@ -2078,3 +2078,4 @@ Updated Applied Energistics 2.
 Updated BadOptimizations.
 Updated Balm.
 Updated Create Encased.
+Updated Double Doors.
