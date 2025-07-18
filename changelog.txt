@@ -2083,3 +2083,4 @@ Updated Ender IO.
 Updated Entity Culling Fabric/Forge.
 Updated GregTech CEu Modern.
 Updated ImmediatelyFast.
+Updated Immersive Aircraft [Fabric/Forge].
