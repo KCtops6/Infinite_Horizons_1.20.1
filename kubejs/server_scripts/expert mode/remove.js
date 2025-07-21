@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         "industrialforegoing:animal_baby_seperator", "industrialforegoing:mob_crusher", "industrialforegoing:hydroponic_bed",
         "industrialforegoing:mob_duplicator", "industrialforegoing:material_stonework_factory", "enderio:alloy_smelting/dark_steel_ingot",
         "enderio:alloy_smelting/end_steel_ingot", "thermal:machine_frame", "thermal:energy_cell_frame",
-        "thermal:fluid_cell_frame"
+        "thermal:fluid_cell_frame", 'minecraft:shield'
     ];
     identifications.forEach(identification => {
         event.remove({ id: identification });
