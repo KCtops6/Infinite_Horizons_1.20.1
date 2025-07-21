@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modular_routeres"
+	group: "126A1C64F6AE129F"
+	id: "57F930CDCB212E10"
+	order_index: 27
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2260AD2796A36C0F"
+				"700D0FB31E0D600E"
+			]
+			description: ["Very useful mod in your quest for automation."]
+			icon: "modularrouters:modular_router"
+			id: "5582D00D2B0A91DB"
+			optional: true
+			rewards: [
+				{
+					id: "13FD93DF8B38B0BB"
+					item: "modularrouters:blank_module"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2775CFF63C55900C"
+					item: "modularrouters:modular_router"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "49ADF4EDC22AD938"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "modularrouters:book"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "60A71D1D215B2C5A"
+					item: "modularrouters:blank_module"
+					type: "item"
+				}
+				{
+					id: "21635A1444F1A068"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+			]
+			title: "Modular Routers"
+			x: 0.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["5582D00D2B0A91DB"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "21C262C4CDBD27F5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0800CEA83C41AFAA"
+				item: "modularrouters:blank_upgrade"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21C262C4CDBD27F5"]
+			id: "4EF5B3EA47FC0120"
+			rewards: [{
+				id: "58D9C9D22FC37543"
+				item: "modularrouters:augment_core"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "32A33C9649B1ED4F"
+				item: "modularrouters:augment_core"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5582D00D2B0A91DB"]
+			description: ["Modules are the core functionality of the mod.  The manual has useful information on it."]
+			hide_dependency_lines: true
+			id: "3A35C97EB1C6F7CD"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3D5C68368CC9C96D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "modularrouters:modules"
+					}
+				}
+				title: "Craft a Modular Routers Module."
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21C262C4CDBD27F5"]
+			hide_dependency_lines: true
+			id: "6D86E7396ED5C667"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3ABE7712482F637A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "modularrouters:upgrades"
+					}
+				}
+				title: "Craft a Modular Routers Upgrade"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EF5B3EA47FC0120"]
+			hide_dependency_lines: true
+			id: "0C66C97F2EB25502"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "17F89AAEEAF2F3C4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "modularrouters:augments"
+					}
+				}
+				title: "Craft a Modular Routers Augment."
+				type: "item"
+			}]
+			x: -0.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3A35C97EB1C6F7CD"]
+			description: ["Filters are useful for various modules.  Read more in the manual."]
+			hide_dependency_lines: true
+			id: "5D10AB791DAF6DA2"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "54434134A82DB746"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "modularrouters:filters"
+					}
+				}
+				title: "Craft a Modular Routers Filter."
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.5d
+		}
+	]
+	title: "Modular Routers"
+}
