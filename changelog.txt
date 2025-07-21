@@ -2103,3 +2103,4 @@ Updated Balm.
 Updated Crafting Tweaks.
 Updated Create Low-Heated.
 Updated FancyMenu.
+Updated GeckoLib.
