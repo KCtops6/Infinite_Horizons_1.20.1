@@ -52,4 +52,11 @@ ServerEvents.tags('item', event => {
     gearboxes.forEach(g => {
         event.add('create:gearboxes', g)
     })
+    let copperTools = [
+        'create_sa:copper_pickaxe', 'create_sa:copper_axe', 'create_sa:copper_sword',
+        'create_sa:copper_shovel', 'create_sa:copper_hoe'
+    ]
+    copperTools.forEach(t => {
+        event.add('create:copper_tools', t)
+    })
 });
