@@ -66,4 +66,11 @@ ServerEvents.tags('item', event => {
     copperArmor.forEach(a => {
         event.add('create:copper_armor', a)
     })
+    let lapisArmor = [
+        'mekanismtools:lapis_lazuli_helmet', 'mekanismtools:lapis_lazuli_chestplate',
+        'mekanismtools:lapis_lazuli_leggings', 'mekanismtools:lapis_lazuli_boots'
+    ]
+    lapisArmor.forEach(a => {
+        event.add('create:lapis_armor', a)
+    })
 });
