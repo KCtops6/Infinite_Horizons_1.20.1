@@ -409,12 +409,35 @@
 		{
 			dependencies: ["1BA42E7FC0C302FD"]
 			hide_dependency_lines: false
+			icon: "mysticalagriculture:stone_essence"
 			id: "7FF4CC850ECC3EB8"
-			tasks: [{
-				id: "7DD9EA559D5E246B"
-				item: "mysticalagriculture:stone_seeds"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "24FEDE1A0F06FD09"
+					item: "mysticalagriculture:stone_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0E79BF1CA81D4CCA"
+					item: "mysticalagriculture:stone_essence"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7DD9EA559D5E246B"
+					item: "mysticalagriculture:stone_seeds"
+					type: "item"
+				}
+				{
+					id: "49806F0E3FEC837F"
+					item: "mysticalagriculture:stone_essence"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 6.0d
 		}
