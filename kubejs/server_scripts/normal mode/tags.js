@@ -73,4 +73,11 @@ ServerEvents.tags('item', event => {
     lapisArmor.forEach(a => {
         event.add('create:lapis_armor', a)
     })
+    let lapisTools = [
+        'mekanismtools:lapis_lazuli_pickaxe', 'mekanismtools:lapis_lazuli_axe', 'mekanismtools:lapis_lazuli_shovel',
+        'mekanismtools:lapis_lazuli_hoe', 'mekanismtools:lapis_lazuli_sword'
+    ]
+    lapisTools.forEach(t => {
+        event.add('create:lapis_tools', t)
+    })
 });
