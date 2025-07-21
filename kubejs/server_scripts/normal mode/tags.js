@@ -59,4 +59,11 @@ ServerEvents.tags('item', event => {
     copperTools.forEach(t => {
         event.add('create:copper_tools', t)
     })
+    let copperArmor = [
+        'create_sa:copper_helmet', 'create_sa:copper_chestplate',
+        'create_sa:copper_leggings', 'create_sa:copper_boots'
+    ]
+    copperArmor.forEach(a => {
+        event.add('create:copper_armor', a)
+    })
 });
