@@ -202,8 +202,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 2.75d
+			x: 9.5d
+			y: 1.25d
 		}
 		{
 			dependencies: ["3CB2BFF30BA3EF65"]
@@ -863,8 +863,8 @@
 				item: "create:chain_conveyor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2F9B0013A2D20BA3"]
@@ -893,7 +893,289 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B2DCE5368BC4D89"]
+			description: ["Obtained by smelting soul sand."]
+			id: "2A3F0C05F26C731E"
+			optional: true
+			rewards: [
+				{
+					id: "1C7FF49B0A9FBFCE"
+					item: "create:scoria"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "03339F712A60FFE4"
+					item: "minecraft:soul_sand"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C4CBD15E1710A66"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E72C56136631B60"]
+			id: "0813808DE18EA1C9"
+			tasks: [{
+				id: "79F6D73364F53E6F"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2EA259532C16E78A"
+				"1773764CA8CA2EEA"
+			]
+			hide_dependency_lines: true
+			id: "1788C52EE00580A6"
+			optional: true
+			rewards: [
+				{
+					id: "7EB582EADDFD8C08"
+					item: "create:precision_mechanism"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5534D0ADF0A94B4A"
+					item: "minecraft:copper_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "45C0A4A9DC6EF456"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["7FF4CC850ECC3EB8"]
+			id: "5C4CBED9380E02E9"
+			optional: true
+			rewards: [
+				{
+					id: "32F2D8EF3FA12D66"
+					item: "create:asurine"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5B3533F10EA8AF2F"
+					item: "create:crushed_raw_zinc"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A3511581611A3ED"
+				item: "create:asurine"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FF4CC850ECC3EB8"]
+			id: "05F5B627BE410210"
+			optional: true
+			rewards: [
+				{
+					id: "23F2C38E48802D71"
+					item: "create:crimsite"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "39B98F382CDDAC74"
+					item: "create:crushed_raw_iron"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "690AB903F2946901"
+				item: "create:crimsite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FF4CC850ECC3EB8"]
+			id: "60D215F4AA5A1D53"
+			optional: true
+			rewards: [
+				{
+					id: "48046B93351AD314"
+					item: "create:ochrum"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "29BC0CAA577AF2AD"
+					item: "create:crushed_raw_gold"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B676791AB3B91BA"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FF4CC850ECC3EB8"]
+			id: "63EE1CFEBE18F303"
+			optional: true
+			rewards: [
+				{
+					id: "3E1E468D4F19F923"
+					item: "create:veridium"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2DB00CBA71D1D47D"
+					item: "create:crushed_raw_copper"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5102D91BAF36DDC7"
+				item: "create:veridium"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2A3F0C05F26C731E"]
+			id: "257C7F6CBAA77C36"
+			optional: true
+			rewards: [
+				{
+					id: "1A280403A2E82FF8"
+					item: "create:scorchia"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "759D1E5641A1E796"
+					item: "create:scoria"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0186730396F60C18"
+				item: "create:scorchia"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6014A13DF01D4487"
+				"22A166C0303A6C2C"
+			]
+			id: "34D06E78BB7678D6"
+			rewards: [
+				{
+					id: "3955FDE9343B833E"
+					item: "minecraft:copper_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4330FD18325DB410"
+					item: "minecraft:netherite_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A1343A72D3DF805"
+				item: "create_sa:copper_magnet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["722C7C33D23EB25A"]
+			id: "5E91E5D091F4ED77"
+			rewards: [{
+				id: "206D30D9F3C988EF"
+				item: "createaddition:biomass"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F9F20FBED3F200E"
+				item: "createaddition:biomass"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E91E5D091F4ED77"]
+			id: "59EB28CC09AA2F4A"
+			subtitle: "Decent Fuel Source"
+			tasks: [{
+				id: "4913916F2DBF7E73"
+				item: "createaddition:biomass_pellet"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E91E5D091F4ED77"]
+			id: "51B5C657B67333C2"
+			tasks: [{
+				amount: 1000L
+				fluid: "createaddition:bioethanol"
+				icon: "createaddition:bioethanol_bucket"
+				id: "1318CEC8F95C7436"
+				type: "fluid"
+			}]
+			x: 10.0d
+			y: 5.0d
 		}
 	]
 	title: "Beta"
