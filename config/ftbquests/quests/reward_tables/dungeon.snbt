@@ -1,0 +1,41 @@
+{
+	id: "46710C0ECD97A177"
+	loot_crate: {
+		color: 5592405
+		drops: {
+			boss: 0
+			monster: 10
+			passive: 0
+		}
+		string_id: "dungeon"
+	}
+	loot_size: 9
+	order_index: 2
+	rewards: [
+		{ item: "minecraft:rotten_flesh", random_bonus: 7, weight: 0.4f }
+		{ item: "minecraft:bone", random_bonus: 7, weight: 0.4f }
+		{ item: "minecraft:gunpowder", random_bonus: 7, weight: 0.4f }
+		{ item: "minecraft:string", random_bonus: 7, weight: 0.4f }
+		{ item: "minecraft:wheat", random_bonus: 3, weight: 0.16f }
+		{ item: "minecraft:bread", weight: 0.16f }
+		{ item: "minecraft:leather", random_bonus: 3, weight: 0.15503876f }
+		{ item: "minecraft:name_tag", weight: 0.15503876f }
+		{ item: "minecraft:coal", random_bonus: 3, weight: 0.12f }
+		{ item: "minecraft:redstone", random_bonus: 3, weight: 0.12f }
+		{ item: "minecraft:music_disc_13", weight: 0.11f }
+		{ item: "minecraft:music_disc_cat", weight: 0.11f }
+		{ item: "minecraft:iron_horse_armor", weight: 0.11f }
+		{ item: "minecraft:golden_apple", weight: 0.11f }
+		{ count: 2, item: "minecraft:beetroot_seeds", random_bonus: 2, weight: 0.08f }
+		{ count: 2, item: "minecraft:pumpkin_seeds", random_bonus: 2, weight: 0.08f }
+		{ count: 2, item: "minecraft:melon_seeds", random_bonus: 2, weight: 0.08f }
+		{ item: "minecraft:iron_ingot", random_bonus: 3, weight: 0.08f }
+		{ item: "minecraft:bucket", weight: 0.08f }
+		{ item: "minecraft:golden_horse_armor", weight: 0.07751938f }
+		{ item: "minecraft:gold_ingot", random_bonus: 3, weight: 0.04f }
+		{ item: "minecraft:diamond_horse_armor", weight: 0.04f }
+		{ item: "minecraft:music_disc_otherside", weight: 0.015503876f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.015503876f }
+	]
+	title: "Dungeon"
+}
