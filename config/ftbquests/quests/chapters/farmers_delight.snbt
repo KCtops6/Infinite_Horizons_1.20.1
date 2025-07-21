@@ -11,7 +11,7 @@
 		}
 	}
 	id: "22260B8522C7BDF5"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -991,6 +991,84 @@
 			}]
 			x: -3.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["1095B567B96DDCF3"]
+			description: ["Gather wood to craft a cutting board from the Farmer's Delight mod. This handy tool will allow you to process and prepare various resources, providing you with a solid foundation for your survival and growth in the superflat world."]
+			id: "107C7B47643CFDF0"
+			rewards: [
+				{
+					id: "545D9C6642372BC0"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BDC71F33194702F"
+					item: "farmersdelight:cooked_chicken_cuts"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Cutting Board for Early Game Resources"
+			tasks: [{
+				id: "51195BE44643C7B4"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "Cutting Board Creation"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["107C7B47643CFDF0"]
+			id: "2A75A5FFE0339B11"
+			tasks: [{
+				id: "3C46406917185173"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A75A5FFE0339B11"]
+			description: ["Best early game botany pot soil."]
+			icon: "farmersdelight:rich_soil"
+			id: "1EEAA2D1FC0EEDDD"
+			rewards: [
+				{
+					id: "7D0DD1F0B7D4DF4A"
+					item: "farmersdelight:rich_soil"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "080DB3664AE08BAB"
+					item: "pamhc2foodcore:carrotmuffinitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35DF458A9AEE619D"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "6ADC02E3F34BEBD5"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
 		}
 	]
 	title: "Farmer's Delight"

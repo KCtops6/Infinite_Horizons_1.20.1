@@ -2099,6 +2099,19 @@ Updated Waystones.
 Updated Wooden Bucket.
 
 1.20.1-11.2
+TODO - Remove twigs pebbles from gravel drops (shovel)
+Added Dungeon Loot Table (to simulate Dungeon loot).
+Remove vanilla crafting recipe for shield in Expert Mode (only can obtain through trading).
+Remove vanilla crafting recipe for iron armor in Expert Mode (only can obtain through trading).
+Removed everything that is not actually water from the water tag (like chocolate, caramel, etc...).
+Added alternative blasting recipe for Scorchia (from Scoria).
+
+Updated Alpha (Vanilla) quest line.
+Updated Beta (Create) quest line.
+Updated Gamma (Mystical Agriculture) quest line.
+Created Cooking for Blockheads quest line.
+Created Modular Routers quest line.
+
 Updated Balm.
 Updated Crafting Tweaks.
 Updated Create Low-Heated.
