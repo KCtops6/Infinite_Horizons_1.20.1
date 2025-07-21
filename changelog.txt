@@ -2106,3 +2106,4 @@ Updated FancyMenu.
 Updated GeckoLib.
 Updated Guard Villagers.
 Updated Integrated Dynamics.
+Updated Sophisticated Backpacks.
