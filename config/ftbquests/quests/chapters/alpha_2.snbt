@@ -146,39 +146,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1095B567B96DDCF3"]
-			description: ["Gather wood to craft a cutting board from the Farmer's Delight mod. This handy tool will allow you to process and prepare various resources, providing you with a solid foundation for your survival and growth in the superflat world."]
-			id: "107C7B47643CFDF0"
-			rewards: [
-				{
-					id: "545D9C6642372BC0"
-					item: {
-						Count: 1
-						id: "farmersdelight:iron_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5BDC71F33194702F"
-					item: "farmersdelight:cooked_chicken_cuts"
-					random_bonus: 4
-					type: "item"
-				}
-			]
-			subtitle: "Craft a Cutting Board for Early Game Resources"
-			tasks: [{
-				id: "51195BE44643C7B4"
-				item: "farmersdelight:cutting_board"
-				type: "item"
-			}]
-			title: "Cutting Board Creation"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
 			id: "21AEB9240306B778"
 			rewards: [{
 				id: "6CDFAF37F3FAAE9D"
@@ -219,7 +186,7 @@
 				type: "item"
 			}]
 			title: "Bark Harvesting"
-			x: 4.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -243,7 +210,7 @@
 		{
 			dependencies: [
 				"107C7B47643CFDF0"
-				"56AE41FF2C03F86B"
+				"4356ADD8978BB6C7"
 			]
 			id: "6A6C399AB9F1BBE0"
 			tasks: [{
@@ -251,8 +218,8 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6A6C399AB9F1BBE0"]
@@ -262,7 +229,7 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -273,8 +240,8 @@
 				item: "createsifter:dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
 			description: ["Infinite Horizons has what I call \"Integration Quests\", which are optional cross-mod compatibilities that make gameplay less tedious.  They are are the small-sized quests that branch from main quests.  Make sure to check them out during your gameplay."]
@@ -299,14 +266,29 @@
 			dependencies: ["6A6C399AB9F1BBE0"]
 			icon: "minecraft:iron_ingot"
 			id: "3949B38795D8BB00"
-			tasks: [
+			rewards: [
 				{
-					id: "57A2C0AE6FB07BEF"
-					item: "minecraft:iron_nugget"
+					id: "2A3ABBA50933B690"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
 					type: "item"
 				}
 				{
-					id: "061CFAB4F8372123"
+					count: 3
+					id: "251A987C419A7097"
+					item: "minecraft:gravel"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "697F74A66D09125D"
+					item: "create:crushed_raw_iron"
+					type: "item"
+				}
+				{
+					id: "3E85DA642F354450"
 					item: "minecraft:iron_ingot"
 					type: "item"
 				}
@@ -322,8 +304,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 13.0d
+			y: 2.0d
 		}
 		{
 			id: "1239D7413CD6DF9A"
@@ -435,8 +417,8 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: 4.25d
-			y: -1.25d
+			x: 1.25d
+			y: -2.25d
 		}
 		{
 			dependencies: ["6EA399742F8C544A"]
@@ -475,7 +457,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -529,7 +511,7 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -599,8 +581,8 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -619,7 +601,7 @@
 				type: "item"
 			}]
 			x: 9.75d
-			y: -3.25d
+			y: -2.25d
 		}
 		{
 			dependencies: ["491881AC8ADCAAFF"]
@@ -647,10 +629,14 @@
 				type: "item"
 			}]
 			x: 10.25d
-			y: -2.75d
+			y: -1.75d
 		}
 		{
-			dependencies: ["491881AC8ADCAAFF"]
+			dependencies: [
+				"491881AC8ADCAAFF"
+				"3949B38795D8BB00"
+			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "6F96D2E34D812C2E"
 			optional: true
@@ -674,12 +660,17 @@
 				title: "Obtain any Iron Armor."
 				type: "item"
 			}]
-			x: 9.75d
+			x: 8.5d
 			y: -2.75d
 		}
 		{
-			dependencies: ["491881AC8ADCAAFF"]
+			dependencies: [
+				"491881AC8ADCAAFF"
+				"3949B38795D8BB00"
+			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "61556CA9DB30623A"
 			optional: true
 			size: 0.5d
@@ -694,8 +685,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.25d
-			y: -3.25d
+			x: 7.5d
+			y: -2.75d
 		}
 		{
 			dependencies: ["6EA399742F8C544A"]
@@ -729,8 +720,8 @@
 				type: "item"
 			}]
 			title: "Early Redstone"
-			x: 3.75d
-			y: -1.25d
+			x: 0.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["6EA399742F8C544A"]
@@ -763,8 +754,8 @@
 				item: "minecraft:glowstone"
 				type: "item"
 			}]
-			x: 3.75d
-			y: -0.75d
+			x: 0.75d
+			y: -1.75d
 		}
 		{
 			dependencies: ["6EA399742F8C544A"]
@@ -797,8 +788,8 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 4.25d
-			y: -0.75d
+			x: 1.25d
+			y: -1.75d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -940,8 +931,8 @@
 				item: "minecraft:grindstone"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
@@ -951,7 +942,7 @@
 				item: "minecraft:smithing_table"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -1104,29 +1095,7 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3949B38795D8BB00"]
-			id: "5D67DA52563A36FB"
-			tasks: [{
-				id: "63BFB6501C2743B7"
-				item: "integrateddynamics:squeezer"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["107C7B47643CFDF0"]
-			id: "2A75A5FFE0339B11"
-			tasks: [{
-				id: "3C46406917185173"
-				item: "farmersdelight:straw"
-				type: "item"
-			}]
-			x: 5.0d
+			x: 8.0d
 			y: 1.0d
 		}
 		{
@@ -1156,7 +1125,7 @@
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -1243,7 +1212,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: -6.0d
 		}
 		{
@@ -1257,8 +1226,8 @@
 				item: "farmingforblockheads:feeding_trough"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -5.25d
+			x: 7.75d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1278,8 +1247,8 @@
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1299,8 +1268,8 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -6.0d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1313,8 +1282,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.0d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["228F23E3AC4880FC"]
@@ -1332,8 +1301,8 @@
 				item: "ironfurnaces:emerald_furnace"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -6.0d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1347,8 +1316,8 @@
 				item: "ironfurnaces:obsidian_furnace"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -6.0d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["32AEAE8653EF3DA0"]
@@ -1366,8 +1335,8 @@
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -4.0d
+			x: 11.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1381,8 +1350,8 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -2.0d
+			x: 11.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -1392,8 +1361,8 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -1403,8 +1372,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -8.0d
+			x: 8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1421,8 +1390,8 @@
 				type: "item"
 			}]
 			title: "Shifting Sands"
-			x: 12.0d
-			y: 0.0d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7B2DCE5368BC4D89"]
@@ -1432,8 +1401,8 @@
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 11.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1455,8 +1424,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -2.0d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["33A3E11BD0EB479B"]
@@ -1481,8 +1450,8 @@
 				item: "minecraft:glow_berries"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.0d
+			x: 14.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1511,8 +1480,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1549,7 +1518,7 @@
 				title: "Craft a Botany Pot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 13.0d
 			y: 4.0d
 		}
 		{
@@ -1560,8 +1529,8 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -4.0d
+			x: 13.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1581,8 +1550,8 @@
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -6.0d
+			x: 13.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["110517F6B8116C24"]
@@ -1625,8 +1594,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1670,308 +1639,6 @@
 			}]
 			x: 15.75d
 			y: -0.75d
-		}
-		{
-			dependencies: ["7B2DCE5368BC4D89"]
-			description: ["Obtained by smelting soul sand."]
-			id: "2A3F0C05F26C731E"
-			tasks: [{
-				id: "4C4CBD15E1710A66"
-				item: "create:scoria"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["441DBA8F34E2A24D"]
-			id: "6110DA7F466AC4B6"
-			tasks: [{
-				id: "1497C879866D64F4"
-				item: "cookingforblockheads:cooking_table"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["6110DA7F466AC4B6"]
-			id: "0BF8B11F416C9F88"
-			tasks: [{
-				id: "4F70A061CB265532"
-				item: "cookingforblockheads:oven"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["6110DA7F466AC4B6"]
-			id: "5CF9E62365A3014A"
-			tasks: [{
-				count: 2L
-				id: "6E8F6E7B053FB976"
-				item: "cookingforblockheads:fridge"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["6110DA7F466AC4B6"]
-			id: "1AC604B4485E8CF8"
-			tasks: [{
-				id: "3A74FD792779BEB1"
-				item: "cookingforblockheads:toaster"
-				type: "item"
-			}]
-			title: "All Toasters Toast Toast"
-			x: 11.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["0BF8B11F416C9F88"]
-			hide_dependency_lines: true
-			id: "51FE248AACA74E33"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "235CBE991CED0AE8"
-				item: "cookingforblockheads:heating_unit"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 5.75d
-		}
-		{
-			dependencies: ["5CF9E62365A3014A"]
-			hide_dependency_lines: true
-			id: "5878CB8AA40780E5"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "26714444356599BF"
-				item: "cookingforblockheads:preservation_chamber"
-				type: "item"
-			}]
-			x: 9.75d
-			y: 5.75d
-		}
-		{
-			dependencies: ["5CF9E62365A3014A"]
-			hide_dependency_lines: true
-			id: "31968CA23A85E26B"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "0F983779CC9932AD"
-				item: "cookingforblockheads:ice_unit"
-				type: "item"
-			}]
-			x: 10.25d
-			y: 5.75d
-		}
-		{
-			dependencies: ["6110DA7F466AC4B6"]
-			id: "230FF67FC825E8EF"
-			tasks: [{
-				id: "55222E465B794BDF"
-				item: "cookingforblockheads:cow_jar"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["6110DA7F466AC4B6"]
-			id: "3D5D9906465F238D"
-			tasks: [{
-				id: "4FCEEFCE352158E7"
-				item: "cookingforblockheads:counter"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["6110DA7F466AC4B6"]
-			id: "333F52E1DAB34020"
-			tasks: [{
-				id: "04A0C1450885FC49"
-				item: "cookingforblockheads:tool_rack"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"2260AD2796A36C0F"
-				"700D0FB31E0D600E"
-			]
-			description: ["Very useful mod in your quest for automation."]
-			icon: "modularrouters:modular_router"
-			id: "5582D00D2B0A91DB"
-			optional: true
-			rewards: [
-				{
-					id: "13FD93DF8B38B0BB"
-					item: "modularrouters:blank_module"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "2775CFF63C55900C"
-					item: "modularrouters:modular_router"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "49ADF4EDC22AD938"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "modularrouters:book"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "60A71D1D215B2C5A"
-					item: "modularrouters:blank_module"
-					type: "item"
-				}
-				{
-					id: "21635A1444F1A068"
-					item: "modularrouters:modular_router"
-					type: "item"
-				}
-			]
-			title: "Modular Routers"
-			x: 8.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["5582D00D2B0A91DB"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "21C262C4CDBD27F5"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "0800CEA83C41AFAA"
-				item: "modularrouters:blank_upgrade"
-				type: "item"
-			}]
-			x: 8.25d
-			y: -8.75d
-		}
-		{
-			dependencies: ["21C262C4CDBD27F5"]
-			id: "4EF5B3EA47FC0120"
-			rewards: [{
-				id: "58D9C9D22FC37543"
-				item: "modularrouters:augment_core"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "32A33C9649B1ED4F"
-				item: "modularrouters:augment_core"
-				type: "item"
-			}]
-			x: 7.75d
-			y: -8.75d
-		}
-		{
-			dependencies: ["5582D00D2B0A91DB"]
-			description: ["Modules are the core functionality of the mod.  The manual has useful information on it."]
-			hide_dependency_lines: true
-			id: "3A35C97EB1C6F7CD"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "3D5C68368CC9C96D"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "modularrouters:modules"
-					}
-				}
-				title: "Craft a Modular Routers Module."
-				type: "item"
-			}]
-			x: 8.75d
-			y: -8.25d
-		}
-		{
-			dependencies: ["21C262C4CDBD27F5"]
-			hide_dependency_lines: true
-			id: "6D86E7396ED5C667"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "3ABE7712482F637A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "modularrouters:upgrades"
-					}
-				}
-				title: "Craft a Modular Routers Upgrade"
-				type: "item"
-			}]
-			x: 8.75d
-			y: -8.75d
-		}
-		{
-			dependencies: ["4EF5B3EA47FC0120"]
-			hide_dependency_lines: true
-			id: "0C66C97F2EB25502"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "17F89AAEEAF2F3C4"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "modularrouters:augments"
-					}
-				}
-				title: "Craft a Modular Routers Augment."
-				type: "item"
-			}]
-			x: 7.25d
-			y: -8.75d
-		}
-		{
-			dependencies: ["3A35C97EB1C6F7CD"]
-			description: ["Filters are useful for various modules.  Read more in the manual."]
-			hide_dependency_lines: true
-			id: "5D10AB791DAF6DA2"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "54434134A82DB746"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "modularrouters:filters"
-					}
-				}
-				title: "Craft a Modular Routers Filter."
-				type: "item"
-			}]
-			x: 8.75d
-			y: -7.75d
 		}
 		{
 			dependencies: ["65309454388885A3"]
@@ -2041,8 +1708,8 @@
 				item: "minecraft:nether_wart"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.0d
+			x: 14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -2080,8 +1747,8 @@
 				item: "minecraft:crying_obsidian"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -4.0d
+			x: 12.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -2100,8 +1767,8 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -4.0d
+			x: 10.0d
+			y: -6.0d
 		}
 		{
 			description: ["Obtained either through Apotheosis Enchanting or Mekanism Antiprotonic Nucleosynthesizer. "]
@@ -2147,8 +1814,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: 2.0d
+			x: 16.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["433391CE678F39BF"]
@@ -2173,8 +1840,8 @@
 				item: "minecraft:brick"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4876AC4B509F2950"]
@@ -2202,8 +1869,8 @@
 				item: "chipped:mason_table"
 				type: "item"
 			}]
-			x: 7.25d
-			y: 2.75d
+			x: 14.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["433391CE678F39BF"]
@@ -2229,7 +1896,7 @@
 				type: "item"
 			}]
 			title: "Formerly Hardened Clay"
-			x: 9.0d
+			x: 13.0d
 			y: 3.0d
 		}
 		{
@@ -3001,40 +2668,6 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["2A75A5FFE0339B11"]
-			description: ["Best early game botany pot soil."]
-			icon: "farmersdelight:rich_soil"
-			id: "1EEAA2D1FC0EEDDD"
-			rewards: [
-				{
-					id: "7D0DD1F0B7D4DF4A"
-					item: "farmersdelight:rich_soil"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "080DB3664AE08BAB"
-					item: "pamhc2foodcore:carrotmuffinitem"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "35DF458A9AEE619D"
-					item: "farmersdelight:organic_compost"
-					type: "item"
-				}
-				{
-					id: "6ADC02E3F34BEBD5"
-					item: "farmersdelight:rich_soil"
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["1095B567B96DDCF3"]
 			icon: "minecraft:cobblestone"
 			id: "56AE41FF2C03F86B"
@@ -3076,7 +2709,7 @@
 			]
 			title: "Cobblestone"
 			x: 4.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
@@ -3110,7 +2743,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["18FE5F126CAAA79E"]
@@ -3134,8 +2767,245 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -4.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["56AE41FF2C03F86B"]
+			id: "4356ADD8978BB6C7"
+			rewards: [
+				{
+					id: "2A770DAE983A19BA"
+					item: {
+						Count: 1
+						id: "kubejs:stone_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "43336DF94F98E4F5"
+					item: "minecraft:cobblestone"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B9AD5AC582B1E3F"
+				item: {
+					Count: 1
+					id: "kubejs:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22A166C0303A6C2C"]
+			id: "46B5B20602A50628"
+			optional: true
+			rewards: [{
+				id: "0E6A327F6AF27EA6"
+				item: "minecraft:copper_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "create_sa:copper_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "75A89B14E75E2A45"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:copper_armor"
+					}
+				}
+				title: "Craft Copper Armor"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["22A166C0303A6C2C"]
+			id: "11DEDA7632AE417C"
+			optional: true
+			rewards: [{
+				id: "12E4BA5C0EEB2001"
+				item: "minecraft:copper_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "create_sa:copper_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "74CE55E710BA25E1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:copper_tools"
+					}
+				}
+				title: "Craft a Copper Tool"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2E27C65E12B61E06"]
+			icon: {
+				Count: 1
+				id: "mekanismtools:lapis_lazuli_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "703BB085459DC254"
+			optional: true
+			rewards: [{
+				id: "0916EDB5FC92ECCA"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "65778D87BFD7F340"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:lapis_tools"
+					}
+				}
+				title: "Craft a Lapis Tool"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["703BB085459DC254"]
+			icon: {
+				Count: 1
+				id: "mekanismtools:lapis_lazuli_paxel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7FDF7D77F7D341BF"
+			optional: true
+			rewards: [{
+				id: "5BF41FAA8515198B"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "1A1E0A0DB9753C99"
+				item: {
+					Count: 1
+					id: "mekanismtools:lapis_lazuli_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E27C65E12B61E06"]
+			icon: {
+				Count: 1
+				id: "mekanismtools:lapis_lazuli_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2E6FFACBD431A595"
+			optional: true
+			rewards: [{
+				id: "3FE33BC1BE0368D6"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "3BD1E2AA1D1993F0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:lapis_armor"
+					}
+				}
+				title: "Craft Lapis Armor"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2E27C65E12B61E06"
+				"61556CA9DB30623A"
+			]
+			icon: {
+				Count: 1
+				id: "mekanismtools:lapis_lazuli_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4786F4336E5D82FF"
+			optional: true
+			rewards: [{
+				id: "5ACE2F18349F2AAF"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "1001025CC8B08D7F"
+				item: {
+					Count: 1
+					id: "mekanismtools:lapis_lazuli_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: 3.5d
 		}
 	]
 	title: "Alpha"
