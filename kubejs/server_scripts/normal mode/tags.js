@@ -80,6 +80,7 @@ ServerEvents.tags('item', event => {
     lapisTools.forEach(t => {
         event.add('create:lapis_tools', t)
     })
+    event.add('forge:coal_coke', 'kubejs:coal_coke')
 });
 
 ServerEvents.tags('fluid', event => {
