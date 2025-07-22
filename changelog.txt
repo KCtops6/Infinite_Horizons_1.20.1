@@ -2115,6 +2115,7 @@ Created Modular Routers quest line.
 Updated Balm.
 Updated Crafting Tweaks.
 Updated Create Low-Heated.
+Updated Delightful.
 Updated FancyMenu.
 Updated GeckoLib.
 Updated Guard Villagers.
