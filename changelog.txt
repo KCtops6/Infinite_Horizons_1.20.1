@@ -2122,3 +2122,4 @@ Updated Guard Villagers.
 Updated Integrated Dynamics.
 Updated Sophisticated Backpacks.
 Updated Visual Workbench.
+Updated Waystones.
