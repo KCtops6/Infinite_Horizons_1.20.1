@@ -9,7 +9,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3949B38795D8BB00"]
+			dependencies: [
+				"3949B38795D8BB00"
+				"08D84D303B46BF2D"
+			]
 			description: ["The apiarist villager will make early game bee collecting much less tedious.  Check out the profession's trades!  You will certainly need more than one of these villagers."]
 			id: "4DC952C2B1F7E08F"
 			tasks: [{

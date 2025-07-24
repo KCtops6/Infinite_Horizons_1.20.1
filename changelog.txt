@@ -2105,6 +2105,8 @@ Remove vanilla crafting recipe for shield in Expert Mode (only can obtain throug
 Remove vanilla crafting recipe for iron armor in Expert Mode (only can obtain through trading).
 Removed everything that is not actually water from the water tag (like chocolate, caramel, etc...).
 Added alternative blasting recipe for Scorchia (from Scoria).
+Added KubeJS creosote oil.
+Added diorite and granite pebbles.
 
 Updated Alpha (Vanilla) quest line.
 Updated Beta (Create) quest line.

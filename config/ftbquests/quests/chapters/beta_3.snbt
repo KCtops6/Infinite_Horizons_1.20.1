@@ -202,7 +202,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 10.5d
 			y: 1.25d
 		}
 		{
@@ -328,7 +328,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
@@ -389,7 +389,7 @@
 				item: "kubejs:deepslate_gravel"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.0d
 			y: 2.0d
 		}
 		{
@@ -425,7 +425,7 @@
 				item: "kubejs:netherrack_gravel"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.0d
 			y: -2.0d
 		}
 		{
@@ -441,7 +441,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
+			x: 20.0d
 			y: -2.0d
 		}
 		{
@@ -756,7 +756,7 @@
 				item: "kubejs:end_stone_gravel"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.0d
 			y: 0.0d
 		}
 		{
@@ -1150,7 +1150,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5E91E5D091F4ED77"]
@@ -1161,11 +1161,14 @@
 				item: "createaddition:biomass_pellet"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["5E91E5D091F4ED77"]
+			dependencies: [
+				"5E91E5D091F4ED77"
+				"368BAD4228C734F1"
+			]
 			id: "51B5C657B67333C2"
 			tasks: [{
 				amount: 1000L
@@ -1174,8 +1177,267 @@
 				id: "1318CEC8F95C7436"
 				type: "fluid"
 			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["513D936FBE83EC2D"]
+			hide_dependency_lines: true
+			id: "5651A32F901695F2"
+			optional: true
+			rewards: [
+				{
+					id: "7FDC83B08ED8B3D9"
+					item: "minecraft:slime_ball"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0CD76AA93AD0A8B3"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "4AB2012D989717FC"
+				item: {
+					Count: 1
+					id: "create_sa:slime_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["513D936FBE83EC2D"]
+			hide_dependency_lines: true
+			id: "75F776FF73A697CF"
+			optional: true
+			rewards: [
+				{
+					id: "73655C81615190D0"
+					item: "minecraft:slime_ball"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "39DBCC5A65A2EFF6"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "78C3B100435AC259"
+				item: {
+					Count: 1
+					id: "create_sa:slime_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["513D936FBE83EC2D"]
+			hide_dependency_lines: true
+			id: "03AAFCB82D11D72B"
+			optional: true
+			rewards: [{
+				id: "39AB1BF2BCFAD96A"
+				item: "create:andesite_alloy"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "5CD8E6D9ACBF68D0"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"110517F6B8116C24"
+				"368BAD4228C734F1"
+			]
+			icon: "create:blaze_cake"
+			id: "5B3F5CF85D16FA74"
+			rewards: [
+				{
+					id: "0AAFC85FB5235350"
+					item: "create:blaze_cake"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5021B0CC3E0DD580"
+					item: "create:cinder_flour"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "508DA82A36FC0243"
+					item: "create:blaze_cake_base"
+					type: "item"
+				}
+				{
+					id: "579386BF7B01ABDF"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			title: "Blaze Cake"
 			x: 10.0d
-			y: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A09937381BB310B"]
+			id: "368BAD4228C734F1"
+			rewards: [{
+				id: "3368B2FB7300334B"
+				item: "create:cinder_flour"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "56AF199BEBFB0DB6"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["368BAD4228C734F1"]
+			id: "1C406B3FCD426171"
+			tasks: [{
+				id: "50807F258D5C41FB"
+				item: "create_confectionery:gingerdough"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1C406B3FCD426171"]
+			id: "6DDA2E915A767250"
+			tasks: [{
+				id: "1AFDD21B4805D894"
+				item: "create_confectionery:gingerbread"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1C406B3FCD426171"]
+			id: "081B4ED6C5505073"
+			tasks: [{
+				id: "48D8AF3B735DBF5D"
+				item: "create_confectionery:gingerbread_man"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F1560030AAF6516"]
+			hide_dependency_lines: true
+			id: "5826C36E7629C60C"
+			tasks: [{
+				id: "43107D4472326BEE"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5826C36E7629C60C"]
+			hide_dependency_lines: true
+			id: "7D2C3DE21B0CE84C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4F5C4CA61A8001B3"
+				item: {
+					Count: 1
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["5826C36E7629C60C"]
+			hide_dependency_lines: true
+			id: "77121F7B05854F93"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "54C6F1FFBF7051C4"
+				item: {
+					Count: 1
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["5826C36E7629C60C"]
+			hide_dependency_lines: true
+			id: "3F98CA1A7C4E077E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7A79CA7E3761F97B"
+				item: {
+					Count: 1
+					id: "create_sa:brass_exoskeleton_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.75d
+		}
+		{
+			id: "44C261FD3E792F3D"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F1560030AAF6516"]
+			hide_dependency_lines: true
+			id: "6DFA2D34AF267AAC"
+			tasks: [{
+				id: "7391F1187E2D18D5"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
 		}
 	]
 	title: "Beta"
