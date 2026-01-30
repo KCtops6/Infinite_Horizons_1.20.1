@@ -14,7 +14,8 @@ ServerEvents.recipes(event => {
         'extendedcrafting:ender_ingot', 'extendedcrafting:redstone_ingot', 'extendedcrafting:luminessence', 'extendedcrafting:black_iron_block',
         'create:crushing/gravel', 'botania:livingwood_twig', 'botania:dreamwood_twig', 'create:crushing/tuff', 'create:crushing/tuff_recycling',
         'create:crushing/crimsite_recycling', 'create:crushing/asurine_recycling', 'create:crushing/ochrum_recycling',
-        'create:crushing/veridium_recycling'
+        'create:crushing/veridium_recycling',
+        'delightful:integration/twigs/cutting/cobblestone'
     ];
     identifications.forEach(identification => {
         event.remove({ id: identification });
