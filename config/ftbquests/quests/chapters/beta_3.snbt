@@ -1456,6 +1456,17 @@
 			x: 14.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			id: "2B817D61869D4DA1"
+			tasks: [{
+				id: "5ED475B09D842E41"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
 	]
 	title: "Beta"
 }
