@@ -1,0 +1,14 @@
+{
+    "name": "Antimony",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+        "item": "gtceu:antimony_ingot"
+    },
+    "color": "c6b6fa",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_ingot",
+        "essence": "mysticalagriculture:item/essence_ingot",
+        "seeds": "mysticalagriculture:item/mystical_seeds"
+    }
+}

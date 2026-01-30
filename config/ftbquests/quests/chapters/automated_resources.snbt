@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "automated_resources"
+	group: "27094FD64355E5E1"
+	icon: "gtceu:stone_dust"
+	id: "69A426425D306003"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "37BB549DB8143DD5"
+			tasks: [{
+				id: "344637E9E1DF52B0"
+				item: "gtceu:lv_rock_crusher"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "30E52D85525DC69D"
+			tasks: [{
+				id: "55B9F1B4CF17B4C7"
+				item: "gtceu:lp_steam_rock_crusher"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30E52D85525DC69D"]
+			id: "6D5F89CB7F454961"
+			tasks: [{
+				id: "66CED4CF9B5A2343"
+				item: "gtceu:hp_steam_rock_crusher"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "202234798211BA19"
+			tasks: [{
+				id: "5457190CECC206F1"
+				item: "gtceu:mv_rock_crusher"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "2DABD3A8B1448DCB"
+			tasks: [{
+				id: "7A8EE9B13E6455CB"
+				item: "gtceu:hv_rock_crusher"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C8B0D0F28E7EE70"]
+			id: "707EE69CDC8BEE36"
+			tasks: [{
+				id: "18C79B22B214E417"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2DABD3A8B1448DCB"
+				"5C8B0D0F28E7EE70"
+			]
+			dependency_requirement: "one_completed"
+			id: "6E7EDF3D4CF17043"
+			tasks: [{
+				id: "6C951BCD666D6ABB"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2DABD3A8B1448DCB"
+				"5C8B0D0F28E7EE70"
+			]
+			dependency_requirement: "one_completed"
+			id: "5938BE950E9F2ACD"
+			tasks: [{
+				id: "595E3FDD027C9C76"
+				item: "gtceu:marble"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"202234798211BA19"
+				"2DABD3A8B1448DCB"
+				"5C8B0D0F28E7EE70"
+			]
+			dependency_requirement: "one_completed"
+			id: "0157699209D8526E"
+			tasks: [{
+				id: "4365B7CF0337BBB3"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"202234798211BA19"
+				"2DABD3A8B1448DCB"
+				"5C8B0D0F28E7EE70"
+			]
+			dependency_requirement: "one_completed"
+			id: "6D5F25856A622196"
+			tasks: [{
+				id: "74465D17DFA2C1A6"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"202234798211BA19"
+				"2DABD3A8B1448DCB"
+				"5C8B0D0F28E7EE70"
+			]
+			dependency_requirement: "one_completed"
+			id: "5EC750E30C7399EF"
+			tasks: [{
+				id: "3A0383B55F79B3E2"
+				item: "minecraft:granite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"202234798211BA19"
+				"5C8B0D0F28E7EE70"
+			]
+			id: "7783888853254016"
+			tasks: [{
+				id: "273E70470A23373A"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"202234798211BA19"
+				"5C8B0D0F28E7EE70"
+			]
+			id: "1DA73EED71829EE3"
+			tasks: [{
+				id: "66844420D77C96EC"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C8B0D0F28E7EE70"]
+			id: "29D00A8095C49006"
+			tasks: [{
+				id: "0B3007CEA3264C2F"
+				item: "gtceu:red_granite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "5C8B0D0F28E7EE70"
+			tasks: [{
+				id: "3A37439890AE3208"
+				item: "gtceu:ev_rock_crusher"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"30E52D85525DC69D"
+				"202234798211BA19"
+				"5C8B0D0F28E7EE70"
+				"37BB549DB8143DD5"
+				"2DABD3A8B1448DCB"
+			]
+			dependency_requirement: "one_completed"
+			id: "58E9EDD6D652F8D5"
+			tasks: [{
+				id: "2E3749C08C6661C2"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"30E52D85525DC69D"
+				"202234798211BA19"
+				"5C8B0D0F28E7EE70"
+				"37BB549DB8143DD5"
+				"2DABD3A8B1448DCB"
+			]
+			dependency_requirement: "one_completed"
+			id: "11130A334FD9D486"
+			tasks: [{
+				id: "1B8FB61602AF4E28"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "Cobbleworks"
+}

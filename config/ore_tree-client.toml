@@ -1,0 +1,6 @@
+
+#Client Settings
+["Particle Display"]
+	#Should a smoke particle be spawned when fail to catalyze?
+	particle = true
+

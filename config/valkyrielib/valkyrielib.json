@@ -1,0 +1,12 @@
+{
+  "ma:creative_tabs": {},
+  "ma:workspace": {
+    "bo:enabled": true
+  },
+  "ma:tab": {
+    "bo:enabled": true
+  },
+  "ma:tabz": {
+    "bo:enabled": true
+  }
+}

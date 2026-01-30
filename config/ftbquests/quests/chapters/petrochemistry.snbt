@@ -1,0 +1,242 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "petrochemistry"
+	group: "27094FD64355E5E1"
+	icon: "gtceu:rubber_foil"
+	id: "11754C16B626F2F0"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "466A87EA80101CC8"
+			tasks: [{
+				id: "6C0431080EE0D81F"
+				item: "gtceu:mv_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["468A3640D1A583D2"]
+			id: "2A707597BD4EF346"
+			tasks: [{
+				id: "1246845360B39951"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["466A87EA80101CC8"]
+			id: "468A3640D1A583D2"
+			tasks: [{
+				id: "0783CE57339D0CFC"
+				item: "gtceu:oil_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"76F11A53D6A29E93"
+				"6699FF672CCBE3A3"
+			]
+			hide_details_until_startable: true
+			id: "4A3B776DA0493721"
+			optional: true
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:diesel"
+				id: "4521C5B2F7CE5083"
+				type: "fluid"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A707597BD4EF346"]
+			id: "76F11A53D6A29E93"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:sulfuric_heavy_fuel"
+					id: "18231167A581E577"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:heavy_fuel"
+					id: "4094192AA1B2E6B8"
+					type: "fluid"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A707597BD4EF346"]
+			id: "6699FF672CCBE3A3"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:sulfuric_light_fuel"
+					id: "10AC02767917F05E"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:light_fuel"
+					id: "3B4D8625247783EF"
+					type: "fluid"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A3B776DA0493721"
+				"3A117559A1439818"
+			]
+			id: "55767E8EE7B8937D"
+			optional: true
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:cetane_boosted_diesel"
+				id: "0EB7D69964F2F093"
+				type: "fluid"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "3A117559A1439818"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:tetranitromethane"
+				id: "4CBC57C49C3C4DE8"
+				type: "fluid"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A707597BD4EF346"]
+			id: "622254D536E3B75F"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:sulfuric_naphtha"
+					id: "7CCC59D95955560B"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:naphtha"
+					id: "54438C5B3B30C98E"
+					type: "fluid"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A707597BD4EF346"]
+			id: "7A11B8A3ED9C048E"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:sulfuric_gas"
+				id: "6C91822D96DDE104"
+				type: "fluid"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7A11B8A3ED9C048E"
+				"358CD3E048345F9B"
+			]
+			id: "26C646F57DBADD76"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:refinery_gas"
+				id: "4AEC773E5601F924"
+				type: "fluid"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "358CD3E048345F9B"
+			optional: true
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:natural_gas"
+				id: "4D590CA3114890B9"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7979C8FA8647E043"]
+			id: "5B7459B29D854AD2"
+			tasks: [{
+				id: "056FEF09FDD4EC3A"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5D79C66275B0BBBA"]
+			id: "7979C8FA8647E043"
+			tasks: [{
+				id: "6FB18100ED848025"
+				item: "gtceu:iridium_chloride_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["70FACB24857450F5"]
+			id: "5D79C66275B0BBBA"
+			tasks: [{
+				id: "7063569526CACC5C"
+				item: "gtceu:iridium_metal_residue_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1D200E820BE725AD"]
+			id: "70FACB24857450F5"
+			tasks: [{
+				id: "447EFCA7EC5B8A64"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			id: "1D200E820BE725AD"
+			tasks: [{
+				id: "73F9E54EBE8F71C3"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+	]
+	title: "Petrochemistry"
+}

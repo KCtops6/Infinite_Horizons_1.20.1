@@ -1,0 +1,14 @@
+{
+    "name": "Red Alloy",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+        "item": "gtceu:red_alloy_ingot"
+    },
+    "color": "5e0c12",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_ingot",
+        "essence": "mysticalagriculture:item/essence_ingot",
+        "seeds": "mysticalagriculture:item/mystical_seeds"
+    }
+}

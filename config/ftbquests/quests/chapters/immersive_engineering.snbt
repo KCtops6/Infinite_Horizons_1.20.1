@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "126A1C64F6AE129F"
+	id: "7DFFAEF60DE9A364"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "12F9A2C125E78A88"
+			rewards: [{
+				id: "19809EED5C133903"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A94262EB83D2B51"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12F9A2C125E78A88"]
+			icon: "immersiveengineering:cokebrick"
+			id: "3BAF0158D3FA458C"
+			rewards: [
+				{
+					count: 3
+					id: "58BE0A2CE1624D43"
+					item: "minecraft:brick"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0A2873654447AC12"
+					item: "minecraft:clay_ball"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 27L
+					id: "30D0C31E02531F73"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5D33893992567C5C"
+					observe_type: 0
+					timer: 0L
+					title: "Assemble a Coke Oven"
+					to_observe: "immersiveengineering:coke_oven"
+					type: "observation"
+				}
+				{
+					id: "6781C18B91FEC472"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "Immersive Engineering"
+}

@@ -1,0 +1,974 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "omega"
+	group: "6F4C25734B575319"
+	icon: "minecraft:nether_star"
+	id: "7FC5992E6E109C96"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "64A5F87B83220C96"
+			tasks: [{
+				id: "1FF76FABF7AA651A"
+				item: "extendedcrafting:luminessence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2C884CE1513AD930"
+			rewards: [
+				{
+					count: 3
+					id: "4791662B3FE133F5"
+					item: "kubejs:infinitium_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5E1C582653972262"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "extendedcrafting:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21942AE6137369F8"
+					item: "pamhc2foodextended:teriyakichickenitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C1026BFF483C5A4"
+				item: "kubejs:infinitium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C884CE1513AD930"]
+			id: "1139A56D278BDBC7"
+			tasks: [{
+				id: "1669DA506E0F1422"
+				item: "kubejs:infinitium_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1139A56D278BDBC7"
+				"64A5F87B83220C96"
+			]
+			id: "5536426F337E84B5"
+			tasks: [{
+				id: "72946EBBA1214FDF"
+				item: "extendedcrafting:basic_component"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5536426F337E84B5"]
+			id: "681FE46669E75DB4"
+			tasks: [{
+				id: "17659A8096803656"
+				item: "extendedcrafting:basic_catalyst"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["681FE46669E75DB4"]
+			id: "63F47F2436ECEB83"
+			tasks: [{
+				id: "7174F050D447C6A2"
+				item: "extendedcrafting:basic_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2243575A17540BE5"]
+			id: "5C465C6881B98676"
+			tasks: [{
+				id: "48CB75CF9C37E58C"
+				item: "extendedcrafting:advanced_catalyst"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63F47F2436ECEB83"]
+			id: "2243575A17540BE5"
+			tasks: [{
+				id: "343651A825B573EC"
+				item: "extendedcrafting:advanced_component"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C465C6881B98676"]
+			id: "416C0D3EA9F2A2FA"
+			tasks: [{
+				id: "1E86D2716C869A9A"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["416C0D3EA9F2A2FA"]
+			id: "459C67AFBCDC881F"
+			tasks: [{
+				id: "51BD3E7B8D73EB27"
+				item: "extendedcrafting:elite_component"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22B4639B9B97F8FF"]
+			id: "1E5C763635B866BA"
+			tasks: [{
+				id: "6A5B8C880F9B8BF6"
+				item: "extendedcrafting:ultimate_component"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["459C67AFBCDC881F"]
+			id: "185EDB2CCDB3498A"
+			tasks: [{
+				id: "4C04CA09CC37AFA2"
+				item: "extendedcrafting:elite_catalyst"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["185EDB2CCDB3498A"]
+			id: "22B4639B9B97F8FF"
+			tasks: [{
+				id: "67B49EFFFB8954F2"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "3698AEF2511597CC"
+			tasks: [{
+				id: "1D4AF7B2F8A07102"
+				item: "extendedcrafting:redstone_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3698AEF2511597CC"]
+			id: "43D5CAB8C6E2D7F1"
+			tasks: [{
+				id: "1BDB4EECBBDCCAC5"
+				item: "extendedcrafting:redstone_component"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E5C763635B866BA"]
+			id: "19D031C39461430F"
+			tasks: [{
+				id: "0E9B61BC3EAEF398"
+				item: "extendedcrafting:ultimate_catalyst"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19D031C39461430F"]
+			id: "7940CC71F91F8CA3"
+			tasks: [{
+				id: "435AD3C6DE72C05B"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"43D5CAB8C6E2D7F1"
+				"63F47F2436ECEB83"
+				"1DFD115FF0FDA8CF"
+			]
+			hide_dependency_lines: true
+			id: "342E9786010A756F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4606E619F242F2C6"
+				item: "extendedcrafting:basic_auto_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.25d
+		}
+		{
+			dependencies: [
+				"416C0D3EA9F2A2FA"
+				"43D5CAB8C6E2D7F1"
+				"1DFD115FF0FDA8CF"
+			]
+			hide_dependency_lines: true
+			id: "26F5B945184B9EF8"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "09429EDCE4FA0A6A"
+				item: "extendedcrafting:advanced_auto_table"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"22B4639B9B97F8FF"
+				"43D5CAB8C6E2D7F1"
+			]
+			hide_dependency_lines: true
+			id: "7E53AC88BCDF9A3E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "491CC6A33776E8BD"
+				item: "extendedcrafting:elite_auto_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"7940CC71F91F8CA3"
+				"43D5CAB8C6E2D7F1"
+				"1DFD115FF0FDA8CF"
+			]
+			hide_dependency_lines: true
+			id: "02E6790AB4B114B1"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2B3CB7AEC4824A71"
+				item: "extendedcrafting:ultimate_auto_table"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["185EDB2CCDB3498A"]
+			description: ["Used for crafting the end-game paintings that you can use to actually access the nether and end."]
+			hide_dependent_lines: true
+			icon: "extendedcrafting:crafting_core"
+			id: "3F473B650E6B1D60"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "56C6FBD37B7644E0"
+					item: "extendedcrafting:pedestal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5709978494B31662"
+					item: "pamhc2foodextended:chickentendersitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C85B77248D16646"
+					item: "extendedcrafting:crafting_core"
+					type: "item"
+				}
+				{
+					id: "36F72FFACAE3A159"
+					item: "extendedcrafting:pedestal"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["416C0D3EA9F2A2FA"]
+			icon: "extendedcrafting:ender_crafter"
+			id: "175785DEF1188EA4"
+			rewards: [
+				{
+					id: "1311E4F33D87427D"
+					item: "extendedcrafting:ender_alternator"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2BF57851EE8DEB43"
+					item: "enderio:enderios"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "07D59537A5F8839C"
+					item: "extendedcrafting:ender_crafter"
+					type: "item"
+				}
+				{
+					id: "42ACEA7FA2BBE8AF"
+					item: "extendedcrafting:ender_alternator"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["175785DEF1188EA4"]
+			id: "24E681709D2932C6"
+			rewards: [
+				{
+					id: "7F897A2A16A0852E"
+					item: "extendedcrafting:ender_star"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "60B2424EE5075384"
+					item: "enderio:enderios"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "397236C2D6ECEF7B"
+				item: "extendedcrafting:ender_star"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["416C0D3EA9F2A2FA"]
+			icon: "extendedcrafting:flux_crafter"
+			id: "7652B63C6373BD2C"
+			rewards: [
+				{
+					id: "11029B595B78665A"
+					item: "extendedcrafting:flux_alternator"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1F5834A8A787D4A8"
+					item: "pamhc2foodextended:cheddarandsourcreampotatochipsitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B55C0B46B20DA8E"
+					item: "extendedcrafting:flux_crafter"
+					type: "item"
+				}
+				{
+					id: "45AB339798F34CE1"
+					item: "extendedcrafting:flux_alternator"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7652B63C6373BD2C"]
+			id: "33B18185AA735D79"
+			tasks: [{
+				id: "6E7D37D1A1554AA1"
+				item: "extendedcrafting:flux_star"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33B18185AA735D79"]
+			id: "31D020D1D27200A6"
+			tasks: [{
+				id: "0103A5CA38ECB4F0"
+				item: "extendedcrafting:enhanced_redstone_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22B4639B9B97F8FF"]
+			id: "61122E884D09DBC4"
+			rewards: [{
+				id: "3B98B3A8B59987BC"
+				item: "extendedcrafting:crystaltine_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F4625CECF4414A"
+				item: "extendedcrafting:crystaltine_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["61122E884D09DBC4"]
+			id: "1DFD115FF0FDA8CF"
+			rewards: [
+				{
+					count: 3
+					id: "6DB868FB7FF2DE46"
+					item: "extendedcrafting:crystaltine_component"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2E02C2AD15CF872D"
+					item: "extendedcrafting:crystaltine_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "49FBF492110CCA03"
+					item: "pamhc2foodcore:cottoncandyitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25D1ABB5934E39E1"
+				item: "extendedcrafting:crystaltine_component"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DFD115FF0FDA8CF"]
+			id: "707D1D613B2AD0A5"
+			tasks: [{
+				id: "4507612664491489"
+				item: "extendedcrafting:crystaltine_catalyst"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1DFD115FF0FDA8CF"
+				"7652B63C6373BD2C"
+				"43D5CAB8C6E2D7F1"
+			]
+			hide_dependency_lines: true
+			id: "04A5835F66FF145C"
+			optional: true
+			rewards: [
+				{
+					id: "23079F4FC4AD45BC"
+					item: "extendedcrafting:flux_alternator"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2CA869493BE5FB9F"
+					item: "pamhc2foodextended:chipsanddipitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "17B5EC20744872C1"
+				item: "extendedcrafting:auto_flux_crafter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["24E681709D2932C6"]
+			id: "41F69E9AD1AEBBBC"
+			rewards: [
+				{
+					id: "6A1EFA6CA69003B6"
+					item: "extendedcrafting:enhanced_ender_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "006F52555B11E297"
+					item: "extendedcrafting:ender_star"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0F7A15A56FE7C7BF"
+					item: "enderio:enderios"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "160E6937E68AFD71"
+				item: "extendedcrafting:enhanced_ender_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			id: "23064C079D2679F5"
+			tasks: [{
+				id: "6FB82AE4EE77DF45"
+				item: "extendedcrafting:ender_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23064C079D2679F5"]
+			id: "143AEEEC4599CD4F"
+			rewards: [
+				{
+					id: "03F20B42C6B7D0C8"
+					item: "extendedcrafting:ender_component"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2594B140855DE583"
+					item: "extendedcrafting:ender_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2AE5EA3051931D1F"
+					item: "enderio:enderios"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B5FC0F1250C4905"
+				item: "extendedcrafting:ender_component"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["143AEEEC4599CD4F"]
+			id: "199236E69521098F"
+			rewards: [
+				{
+					id: "11A3D8898E4D7D27"
+					item: "extendedcrafting:ender_catalyst"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "169664BAB299D22F"
+					item: "extendedcrafting:ender_component"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "39DD002EB8A0C848"
+					item: "enderio:enderios"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30C463462997DFC2"
+				item: "extendedcrafting:ender_catalyst"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41F69E9AD1AEBBBC"]
+			id: "3A0FBEE8D6D29D3D"
+			rewards: [
+				{
+					id: "633527A9AF1D39C0"
+					item: "extendedcrafting:enhanced_ender_component"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "71AC9CD4FF353461"
+					item: "extendedcrafting:enhanced_ender_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5CBAF6BBF8585D05"
+					item: "enderio:enderios"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A01A29DF80CDE6D"
+				item: "extendedcrafting:enhanced_ender_component"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A0FBEE8D6D29D3D"]
+			id: "7DA2B0F082026796"
+			rewards: [
+				{
+					id: "58397C7763AC32A0"
+					item: "extendedcrafting:enhanced_ender_catalyst"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "07F54442F76A57BD"
+					item: "extendedcrafting:enhanced_ender_component"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6FCAEEB522903586"
+					item: "enderio:enderios"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "584C7DED7037FEE0"
+				item: "extendedcrafting:enhanced_ender_catalyst"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"175785DEF1188EA4"
+				"1DFD115FF0FDA8CF"
+				"43D5CAB8C6E2D7F1"
+			]
+			hide_dependency_lines: true
+			id: "6D828E6A398E239C"
+			optional: true
+			rewards: [
+				{
+					id: "7FA16E925B763E25"
+					item: "extendedcrafting:ender_alternator"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "35D23A7355E78C65"
+					item: "enderio:enderios"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "341BAE9CBDC8F91C"
+				item: "extendedcrafting:auto_ender_crafter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["31D020D1D27200A6"]
+			id: "000C91683BFD9402"
+			tasks: [{
+				id: "6885B0E7394ED428"
+				item: "extendedcrafting:enhanced_redstone_component"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000C91683BFD9402"]
+			id: "57C138628BAAE561"
+			tasks: [{
+				id: "4FA5C4CF8B716DFA"
+				item: "extendedcrafting:enhanced_redstone_catalyst"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43D5CAB8C6E2D7F1"]
+			id: "067B1F6FB55E8A18"
+			tasks: [{
+				id: "1CFFF90B22401D73"
+				item: "extendedcrafting:enhanced_redstone_catalyst"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			description: [""]
+			id: "3CFBB751184445AB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "383909C953CBEB40"
+				item: "dimpaintings:overworld_painting"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"52C1BA2850761DD8"
+				"3437E62F52449103"
+				"2CC4DB7AB459B7B8"
+				"6084F734B09E26B5"
+				"0690EFEB771DDDB1"
+				"045494B71D8435C4"
+			]
+			description: ["Make sure you put this high enough in your world!"]
+			id: "7C09C391F5CB9F8C"
+			rewards: [{
+				id: "10EE6695484AC26E"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67512C1409FA3B59"
+				item: "dimpaintings:nether_painting"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1AB1AA448189839D"
+				"6D45754AEA9B09DD"
+				"0B3C7E69BF90AF72"
+				"5A22C313978C9305"
+				"3204AE3BB90D13AE"
+				"50D1E00FDCD01D79"
+			]
+			description: ["Make sure you put this high enough in your world!"]
+			id: "4EB74C5C82DD48D0"
+			rewards: [{
+				id: "6BB10D2828DEB688"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24C2708C6AE785A9"
+				item: "dimpaintings:end_painting"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "52C1BA2850761DD8"
+			tasks: [{
+				id: "0862F6EC1A9A349F"
+				item: "kubejs:rune_of_the_nether"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "3437E62F52449103"
+			tasks: [{
+				id: "648C780FA9CAAC7C"
+				item: "kubejs:infernal_sigil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "2CC4DB7AB459B7B8"
+			tasks: [{
+				id: "5AF63A62143242DB"
+				item: "kubejs:ancient_glyph"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "6084F734B09E26B5"
+			tasks: [{
+				id: "1FB4730BA02811CA"
+				item: "kubejs:wither_controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "0690EFEB771DDDB1"
+			tasks: [{
+				id: "5B46C612316034E0"
+				item: "kubejs:token_of_the_nether"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "1AB1AA448189839D"
+			tasks: [{
+				id: "7FF8B71327387A04"
+				item: "kubejs:rune_of_the_end"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "6D45754AEA9B09DD"
+			tasks: [{
+				id: "7402DF0405B8CF21"
+				item: "kubejs:voidwalker_sigil"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "0B3C7E69BF90AF72"
+			tasks: [{
+				id: "6DBBEC331630B871"
+				item: "kubejs:void_glyph"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "5A22C313978C9305"
+			tasks: [{
+				id: "40F01260562073C0"
+				item: "kubejs:ender_controller"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F473B650E6B1D60"]
+			id: "3204AE3BB90D13AE"
+			tasks: [{
+				id: "1D32C61CF579A2AF"
+				item: "kubejs:token_of_the_end"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3F473B650E6B1D60"
+				"2465DBD16F3EC4D3"
+			]
+			id: "045494B71D8435C4"
+			tasks: [{
+				id: "551F92E06445F91F"
+				item: "kubejs:nether_addon"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3F473B650E6B1D60"
+				"2465DBD16F3EC4D3"
+			]
+			id: "50D1E00FDCD01D79"
+			tasks: [{
+				id: "103FB7215361A3A7"
+				item: "kubejs:ender_addon"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+	]
+	subtitle: ["End Game Items"]
+	title: "Omega"
+}

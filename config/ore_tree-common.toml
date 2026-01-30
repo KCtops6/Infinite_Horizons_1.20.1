@@ -1,0 +1,57 @@
+#Growth possibility per randomTick on a coal ore tree, a higher value means a higher possibility.
+#Range: 0.0 ~ 1.0
+t_coal = 0.9
+#Growth possibility per randomTick on a copper ore tree, a higher value means a higher possibility.
+#Range: 0.0 ~ 1.0
+t_copper = 0.9
+#Growth possibility per randomTick on a diamond ore tree
+#Range: 0.0 ~ 1.0
+t_diamond = 0.5
+#Growth possibility per randomTick on an emerald ore tree
+#Range: 0.0 ~ 1.0
+t_emerald = 0.8
+#Growth possibility per randomTick on a gold ore tree
+#Range: 0.0 ~ 1.0
+t_gold = 0.8
+#Growth possibility per randomTick on an iron ore tree
+#Range: 0.0 ~ 1.0
+t_iron = 0.9
+#Growth possibility per randomTick on a lapis ore tree
+#Range: 0.0 ~ 1.0
+t_lapis = 0.7
+#Growth possibility per randomTick on a quartz ore tree
+#Range: 0.0 ~ 1.0
+t_quartz = 0.7
+#Growth possibility per randomTick on a redstone ore tree
+#Range: 0.0 ~ 1.0
+t_redstone = 0.7
+#Growth possibility when try to catalyze a coal ore tree, a higher value means a higher possibility.
+#Range: 0.0 ~ 1.0
+c_coal = 0.9
+#Growth possibility when try to catalyze a copper ore tree, a higher value means a higher possibility.
+#Range: 0.0 ~ 1.0
+c_copper = 0.9
+#Growth possibility when try to catalyze a diamond ore tree
+#Range: 0.0 ~ 1.0
+c_diamond = 0.4
+#Growth possibility when try to catalyze an emerald ore tree
+#Range: 0.0 ~ 1.0
+c_emerald = 0.7
+#Growth possibility when try to catalyze a gold ore tree
+#Range: 0.0 ~ 1.0
+c_gold = 0.7
+#Growth possibility when try to catalyze an iron ore tree
+#Range: 0.0 ~ 1.0
+c_iron = 0.9
+#Growth possibility when try to catalyze a lapis ore tree
+#Range: 0.0 ~ 1.0
+c_lapis = 0.7
+#Growth possibility when try to catalyze a quartz ore tree
+#Range: 0.0 ~ 1.0
+c_quartz = 0.7
+#Growth possibility when try to catalyze a redstone ore tree
+#Range: 0.0 ~ 1.0
+c_redstone = 0.8
+#Could ore trees be planted on dirts?
+dirtable = false
+

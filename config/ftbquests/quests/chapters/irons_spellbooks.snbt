@@ -1,0 +1,397 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "126A1C64F6AE129F"
+	id: "1A9C03C93B0D7777"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			id: "08971F6A8389375C"
+			tasks: [{
+				id: "016EC46C00CBFF30"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08971F6A8389375C"]
+			id: "470D6CF992BB0315"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "71D23CC382903D8A"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:arcane_essence"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["08971F6A8389375C"]
+			id: "3DF953463AAA64BD"
+			tasks: [{
+				id: "743BCBE9B7539B5E"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DF953463AAA64BD"]
+			id: "22869AC1ED51A523"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "25C77082B2BD21C2"
+				item: "irons_spellbooks:mana_ring"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"3DF953463AAA64BD"
+				"0E8A24843AD29391"
+			]
+			id: "61E4670DA9359B56"
+			tasks: [{
+				id: "463521E69AA7A52E"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"08971F6A8389375C"
+				"51751DE96026D275"
+			]
+			id: "5D16CCAF8D1C1B04"
+			tasks: [{
+				id: "21FD76905E6B9091"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "0E8A24843AD29391"
+			rewards: [{
+				id: "0DB838B7B3473EEC"
+				item: "irons_spellbooks:arcane_debris"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C9CB787D7BC720F"
+				item: "irons_spellbooks:arcane_salvage"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3DF953463AAA64BD"
+				"0E8A24843AD29391"
+			]
+			id: "2E02D362BE9132EE"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "36F8D57C81E39D9A"
+				item: "irons_spellbooks:weapon_parts"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2E02D362BE9132EE"]
+			id: "1F55C4C3D157C2E3"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2EB05B517E540BC6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:spellbreaker"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2E02D362BE9132EE"]
+			id: "1701B8E1C180D166"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0B154507F334F352"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:amethyst_rapier"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:echoing_strikes"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0E8A24843AD29391"]
+			id: "0664CAA159BDE302"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "059D28818B8985F5"
+				item: "irons_spellbooks:poisonward_ring"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["0E8A24843AD29391"]
+			id: "31FD7C4E270B0474"
+			size: 0.5d
+			tasks: [{
+				id: "5EAD02798EC859E4"
+				item: "irons_spellbooks:heavy_chain_necklace"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["0E8A24843AD29391"]
+			id: "29A871EECB7194A6"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2C3B3B089292FF10"
+				item: "irons_spellbooks:frostward_ring"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["0E8A24843AD29391"]
+			id: "411F3C1D13DAFA5A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "520A594626A3B3EC"
+				item: "irons_spellbooks:fireward_ring"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["0E8A24843AD29391"]
+			id: "5AADF1CF29A35321"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5477FE096E55BC4E"
+				item: "irons_spellbooks:cooldown_ring"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["0E8A24843AD29391"]
+			id: "7426984BA724E4A0"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "13E07C3BA42DA541"
+				item: "irons_spellbooks:conjurers_talisman"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["0E8A24843AD29391"]
+			id: "1E195552544ED784"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "69D21603EE515D8C"
+				item: "irons_spellbooks:concentration_amulet"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0E8A24843AD29391"]
+			id: "6D67F89D2931933E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5212A47DF55098E8"
+				item: "irons_spellbooks:cast_time_ring"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["0E8A24843AD29391"]
+			id: "73385376FBB4165F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4EBD0AFAE23CC803"
+				item: "irons_spellbooks:affinity_ring"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["5D16CCAF8D1C1B04"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:wandering_magician_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07E49F5859434CC4"
+			tasks: [{
+				id: "126F8FD40F5DA5B1"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "forge:armors"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "irons_spellbooks"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:not"
+								tag: {
+									items: [{
+										Count: 1b
+										id: "irons_spellbooks:tarnished_helmet"
+										tag: {
+											Damage: 0
+											ISB_Spells: {
+												data: [ ]
+												maxSpells: 1
+												mustEquip: 1b
+												spellWheel: 1b
+											}
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0E8A24843AD29391"
+				"25902780B7580B55"
+			]
+			id: "3A1F9D59D53C7A85"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0A2B0E4386C8F8CD"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:arcane_debris"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["08971F6A8389375C"]
+			description: ["Crafting using create mixing."]
+			id: "012E43C8CBB7FB9A"
+			tasks: [{
+				id: "56A9D685B4785179"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+	title: "Iron's Spellbooks"
+}

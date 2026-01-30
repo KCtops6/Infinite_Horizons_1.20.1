@@ -1,0 +1,1461 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beta_3"
+	group: "6F4C25734B575319"
+	icon: "create:wrench"
+	id: "586D9DC484439963"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1AC649402EA13EB3"]
+			description: ["The Water Wheel allows you to harness flowing water to generate kinetic energy, powering your Create mod machinery efficiently and sustainably."]
+			id: "2F9B0013A2D20BA3"
+			rewards: [{
+				id: "055C52A9285B76B8"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			subtitle: "Power Machines with Water-Driven Energy"
+			tasks: [{
+				id: "7BE3B6E3C6BBA451"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Turning the Tides"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["513D936FBE83EC2D"]
+			id: "1AC649402EA13EB3"
+			tasks: [{
+				id: "3C176D81103AD394"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9B0013A2D20BA3"]
+			id: "3CB2BFF30BA3EF65"
+			tasks: [{
+				id: "075510E234CCDD0B"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"37C31E5A1FB0A120"
+				"2E72C56136631B60"
+			]
+			description: [
+				"The Sifter allows you to separate valuable materials from raw resources, enhancing your ability to gather refined components with ease."
+				""
+				"You can get all possible resources from the lowest level string mesh, but more rare items are much easily accessible with a higher level of mesh."
+				""
+				"You should automate sieving gravel, sand, and dust at the very least before proceeding."
+			]
+			icon: "createsifter:sifter"
+			id: "0AC851170B41AD02"
+			rewards: [{
+				id: "110E5CD4C35434DF"
+				item: "create:belt_connector"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Efficient Resource Sorting"
+			tasks: [
+				{
+					id: "4B0576D20D1FD6F3"
+					item: "createsifter:sifter"
+					type: "item"
+				}
+				{
+					id: "25F26D577A9AE659"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createsifter:string_mesh"
+								}
+								{
+									Count: 1b
+									id: "kubejs:copper_mesh"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "kubejs:iron_mesh"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "createsifter:brass_mesh"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "kubejs:netherite_mesh"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Craft a Mesh"
+					type: "item"
+				}
+			]
+			title: "Separating the Essentials"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9B0013A2D20BA3"]
+			description: ["The Millstone grinds down raw materials, transforming them into valuable components for further crafting and refinement.  At the very least, you should automate gravel, sand, and dust before proceeding."]
+			id: "37C31E5A1FB0A120"
+			rewards: [{
+				id: "27FB68A717FD117C"
+				item: "create:belt_connector"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Processing Resources with the Millstone"
+			tasks: [{
+				id: "57B271F6ADBB360D"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Grinding Gears"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9B0013A2D20BA3"]
+			description: ["The Mechanical Extruder simplifies resource gathering by producing cobblestone efficiently, providing a steady supply for your construction and crafting needs.  You want to automate cobblestone and the other blocks this machine generates."]
+			id: "2E72C56136631B60"
+			rewards: [
+				{
+					id: "203DBEE0B242194C"
+					item: "create_mechanical_extruder:mechanical_extruder"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6E28ED23401C17CC"
+					item: "create:andesite_casing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6C759B9F7E141386"
+					item: "create:shaft"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Automated Cobblestone Generation"
+			tasks: [{
+				id: "00447991C929CF23"
+				item: "create_mechanical_extruder:mechanical_extruder"
+				type: "item"
+			}]
+			title: "Stone on Demand"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			id: "722C7C33D23EB25A"
+			tasks: [{
+				id: "0BC4691EEF3B4065"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"037B4AE6DF4451D4"
+				"722C7C33D23EB25A"
+			]
+			id: "110517F6B8116C24"
+			tasks: [{
+				id: "0761D8C186E7C127"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["722C7C33D23EB25A"]
+			description: ["Notably used in more easily creating stone alloy."]
+			icon: "createlowheated:basic_burner"
+			id: "0FC21F3D0BB23F33"
+			optional: true
+			size: 0.5d
+			tasks: [
+				{
+					id: "70F60B70306E4EB8"
+					item: "createlowheated:basic_burner"
+					type: "item"
+				}
+				{
+					id: "5CF5E2B38589833F"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			id: "33A3E11BD0EB479B"
+			tasks: [{
+				id: "3B62CD8A29419FAC"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "2DEA6DE1B9DFC162"
+			tasks: [{
+				id: "38BE629B39BEDC4E"
+				item: "kubejs:zinc_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2DEA6DE1B9DFC162"
+				"22A166C0303A6C2C"
+				"722C7C33D23EB25A"
+			]
+			id: "7C92DF666D71EF2C"
+			tasks: [{
+				id: "6B0CD946B88BBD04"
+				item: "kubejs:brass_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2509EFD6B376DEAF"
+				"7FF3C4BE6D0A1645"
+			]
+			id: "2EA259532C16E78A"
+			tasks: [{
+				id: "060878A1B36A52DB"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C92DF666D71EF2C"]
+			id: "2509EFD6B376DEAF"
+			tasks: [{
+				id: "7F70CBECA6AAB453"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"700D0FB31E0D600E"
+				"69385CCE6FF31DEB"
+			]
+			icon: "create:polished_rose_quartz"
+			id: "10D4FE2EBC3230F9"
+			tasks: [
+				{
+					id: "447567D9E5FC8607"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2043E394313D9E5B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:sandpaper"
+						}
+					}
+					title: "Craft Sand Paper"
+					type: "item"
+				}
+				{
+					id: "74AA9C225035B291"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10D4FE2EBC3230F9"]
+			id: "7FF3C4BE6D0A1645"
+			tasks: [{
+				id: "178AF0ABD64EB7FE"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EA259532C16E78A"]
+			id: "1A09937381BB310B"
+			tasks: [{
+				count: 2L
+				id: "4AE0216707747A82"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7FF3C4BE6D0A1645"
+				"7C92DF666D71EF2C"
+			]
+			id: "0F1560030AAF6516"
+			tasks: [{
+				id: "100D58180372333F"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0F1560030AAF6516"]
+			id: "1616F0FD5A80DD57"
+			tasks: [{
+				id: "2C8AF6CCB6BC16D4"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1616F0FD5A80DD57"]
+			id: "15A6AA83CF1F3C26"
+			tasks: [{
+				id: "2A4F29F8D2E19ED3"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2509EFD6B376DEAF"
+				"1616F0FD5A80DD57"
+			]
+			id: "2C98519E298BAA42"
+			tasks: [{
+				id: "22030472126560CD"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A09937381BB310B"]
+			id: "0E950E1B0283143A"
+			tasks: [{
+				id: "3EC0CDE20B1F8BB2"
+				item: "kubejs:deepslate_gravel"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"110517F6B8116C24"
+				"1773764CA8CA2EEA"
+			]
+			id: "08D09CCB9CE65E1E"
+			tasks: [{
+				id: "238B0BA1EA8EE73B"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			id: "1773764CA8CA2EEA"
+			tasks: [{
+				id: "789D073899E4287D"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A09937381BB310B"]
+			id: "4D8406023D00753A"
+			tasks: [{
+				id: "4C42FC758EF47BB9"
+				item: "kubejs:netherrack_gravel"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6014A13DF01D4487"]
+			description: ["The most all-around resource-profitable mesh in the modpack."]
+			id: "5936B3F704F61A9A"
+			tasks: [{
+				id: "2DD2EB0D0BE48D42"
+				item: {
+					Count: 1
+					id: "kubejs:netherite_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C92DF666D71EF2C"]
+			description: ["Less messy way for create fan functionality (heating, washing, haunting, etc...)"]
+			hide_dependency_lines: true
+			id: "4522CA1BF6A049EB"
+			optional: true
+			rewards: [
+				{
+					id: "27AD1366F3C00469"
+					item: "create_connected:empty_fan_catalyst"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2726E26487ECCAB1"
+					item: "kubejs:brass_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Compact Fan Setup"
+			tasks: [{
+				id: "255C1976A916E255"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DEA6DE1B9DFC162"]
+			description: ["Useful for decorating your base when normal framed blocks do not do the trick."]
+			hide_dependency_lines: true
+			id: "3FCB114502F035B9"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "327286FCBA273711"
+					item: "create_connected:copycat_block"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					id: "1A8E44E03D170CCE"
+					item: "kubejs:zinc_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				icon: "create_connected:copycat_block"
+				id: "4BCC2B8722EFE089"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create_connected:copycat_block"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_slab"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_beam"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_vertical_step"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_stairs"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_fence"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_fence_gate"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_wall"
+							}
+							{
+								Count: 1b
+								id: "create_connected:copycat_board"
+							}
+							{
+								Count: 1b
+								id: "create:copycat_step"
+							}
+						]
+					}
+				}
+				title: "Craft a Copycat Block."
+				type: "item"
+			}]
+			title: "Copycats"
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"22A166C0303A6C2C"
+				"3CB2BFF30BA3EF65"
+			]
+			icon: "create:mechanical_pump"
+			id: "7BB1A7FD141B7E57"
+			rewards: [
+				{
+					count: 8
+					id: "623E9E9092B9E0EF"
+					item: "create:fluid_pipe"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "769F3DCCF4C3CA08"
+					item: "minecraft:copper_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1A9720D329A81E64"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "754BDCFCB95174CA"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BB1A7FD141B7E57"]
+			hide_dependency_lines: true
+			id: "0BF30F51B56856A7"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2118671D7A726764"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["7BB1A7FD141B7E57"]
+			hide_dependency_lines: true
+			icon: "create:fluid_valve"
+			id: "7D581B6026F9268D"
+			optional: true
+			size: 0.5d
+			tasks: [
+				{
+					id: "2EC030E4CAE4AC50"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+				{
+					icon: "create:copper_valve_handle"
+					id: "1F6E9B34C5557E8C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:valve_handles"
+						}
+					}
+					title: "Craft a valve handle."
+					type: "item"
+				}
+			]
+			x: -0.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7BB1A7FD141B7E57"]
+			id: "0189245DDDC8CC79"
+			rewards: [
+				{
+					id: "7EC8D108F9E2E423"
+					item: "create:fluid_tank"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "230F9D069E1BD8A7"
+					item: "create:fluid_pipe"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40A193875BFED888"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7BB1A7FD141B7E57"
+				"2774E847C403831B"
+			]
+			id: "36E46917FEA3FB80"
+			rewards: [{
+				count: 3
+				id: "1600363861955408"
+				item: "create:fluid_pipe"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A4A55EFD94018CA"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7BB1A7FD141B7E57"
+				"2774E847C403831B"
+			]
+			id: "0E8F8B1F62CB8A46"
+			rewards: [{
+				count: 3
+				id: "796A41BB385A5211"
+				item: "create:fluid_pipe"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3357138C1E0749C6"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0189245DDDC8CC79"]
+			id: "7A61F4E88EC19587"
+			rewards: [
+				{
+					id: "19A1EF3EFEFAB9C6"
+					item: "create:steam_engine"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2D00637BD7F36DCE"
+					item: "create:fluid_tank"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38042CEAB8BA3DD3"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22A166C0303A6C2C"]
+			id: "2774E847C403831B"
+			rewards: [{
+				id: "492E6C8F5A2D4D28"
+				item: "create:copper_casing"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "45B689A0505E7FDB"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A09937381BB310B"]
+			description: ["Only useful to automate this if you want to get into Gregtech."]
+			id: "7ADACE156BAB2FB7"
+			tasks: [{
+				id: "4963833AB1445B22"
+				item: "kubejs:end_stone_gravel"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2EA259532C16E78A"
+				"1773764CA8CA2EEA"
+			]
+			hide_dependency_lines: true
+			id: "22601178534C9A2A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6693DB056381CF56"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"2EA259532C16E78A"
+				"1773764CA8CA2EEA"
+			]
+			hide_dependency_lines: true
+			id: "166F289009D91F4B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "41C6F790AE2FF555"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"2EA259532C16E78A"
+				"1773764CA8CA2EEA"
+			]
+			hide_dependency_lines: true
+			id: "10C80E65EF65B80B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0DF599E3E8A76E43"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"10D4FE2EBC3230F9"
+				"363E2BEA79219D62"
+			]
+			hide_dependency_lines: true
+			id: "215E17A093E50F6E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3950C610B3F62D3A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:rose_quartz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.75d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1F1132734F8912DB"
+				"3949B38795D8BB00"
+			]
+			id: "513D936FBE83EC2D"
+			rewards: [{
+				advancement: "create:root"
+				criterion: ""
+				id: "481DDA80729860A4"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "0135E6E9D06542D3"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9B0013A2D20BA3"]
+			id: "391D591880F67FC1"
+			tasks: [{
+				id: "4A307F9727AC483E"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F9B0013A2D20BA3"]
+			id: "722DB1BEB0FDAA80"
+			tasks: [{
+				id: "1A409E338C0AE832"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F9B0013A2D20BA3"]
+			id: "29D77ED3EA9A072E"
+			tasks: [{
+				id: "1FC1B8DBFA6F508A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:gearboxes"
+					}
+				}
+				title: "Craft a Basic Create Gearbox."
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B2DCE5368BC4D89"]
+			description: ["Obtained by smelting soul sand."]
+			id: "2A3F0C05F26C731E"
+			optional: true
+			rewards: [
+				{
+					id: "1C7FF49B0A9FBFCE"
+					item: "create:scoria"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "03339F712A60FFE4"
+					item: "minecraft:soul_sand"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C4CBD15E1710A66"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E72C56136631B60"]
+			id: "0813808DE18EA1C9"
+			tasks: [{
+				id: "79F6D73364F53E6F"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2EA259532C16E78A"
+				"1773764CA8CA2EEA"
+			]
+			hide_dependency_lines: true
+			id: "1788C52EE00580A6"
+			optional: true
+			rewards: [
+				{
+					id: "7EB582EADDFD8C08"
+					item: "create:precision_mechanism"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5534D0ADF0A94B4A"
+					item: "minecraft:copper_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "45C0A4A9DC6EF456"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["7FF4CC850ECC3EB8"]
+			id: "5C4CBED9380E02E9"
+			optional: true
+			rewards: [
+				{
+					id: "32F2D8EF3FA12D66"
+					item: "create:asurine"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5B3533F10EA8AF2F"
+					item: "create:crushed_raw_zinc"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A3511581611A3ED"
+				item: "create:asurine"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FF4CC850ECC3EB8"]
+			id: "05F5B627BE410210"
+			optional: true
+			rewards: [
+				{
+					id: "23F2C38E48802D71"
+					item: "create:crimsite"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "39B98F382CDDAC74"
+					item: "create:crushed_raw_iron"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "690AB903F2946901"
+				item: "create:crimsite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FF4CC850ECC3EB8"]
+			id: "60D215F4AA5A1D53"
+			optional: true
+			rewards: [
+				{
+					id: "48046B93351AD314"
+					item: "create:ochrum"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "29BC0CAA577AF2AD"
+					item: "create:crushed_raw_gold"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B676791AB3B91BA"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FF4CC850ECC3EB8"]
+			id: "63EE1CFEBE18F303"
+			optional: true
+			rewards: [
+				{
+					id: "3E1E468D4F19F923"
+					item: "create:veridium"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2DB00CBA71D1D47D"
+					item: "create:crushed_raw_copper"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5102D91BAF36DDC7"
+				item: "create:veridium"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2A3F0C05F26C731E"]
+			id: "257C7F6CBAA77C36"
+			optional: true
+			rewards: [
+				{
+					id: "1A280403A2E82FF8"
+					item: "create:scorchia"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "759D1E5641A1E796"
+					item: "create:scoria"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0186730396F60C18"
+				item: "create:scorchia"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6014A13DF01D4487"
+				"22A166C0303A6C2C"
+			]
+			id: "34D06E78BB7678D6"
+			rewards: [
+				{
+					id: "3955FDE9343B833E"
+					item: "minecraft:copper_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4330FD18325DB410"
+					item: "minecraft:netherite_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A1343A72D3DF805"
+				item: "create_sa:copper_magnet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["722C7C33D23EB25A"]
+			id: "5E91E5D091F4ED77"
+			rewards: [{
+				id: "206D30D9F3C988EF"
+				item: "createaddition:biomass"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F9F20FBED3F200E"
+				item: "createaddition:biomass"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E91E5D091F4ED77"]
+			id: "59EB28CC09AA2F4A"
+			subtitle: "Decent Fuel Source"
+			tasks: [{
+				id: "4913916F2DBF7E73"
+				item: "createaddition:biomass_pellet"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5E91E5D091F4ED77"
+				"368BAD4228C734F1"
+			]
+			id: "51B5C657B67333C2"
+			tasks: [{
+				amount: 1000L
+				fluid: "createaddition:bioethanol"
+				icon: "createaddition:bioethanol_bucket"
+				id: "1318CEC8F95C7436"
+				type: "fluid"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["513D936FBE83EC2D"]
+			hide_dependency_lines: true
+			id: "5651A32F901695F2"
+			optional: true
+			rewards: [
+				{
+					id: "7FDC83B08ED8B3D9"
+					item: "minecraft:slime_ball"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0CD76AA93AD0A8B3"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "4AB2012D989717FC"
+				item: {
+					Count: 1
+					id: "create_sa:slime_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["513D936FBE83EC2D"]
+			hide_dependency_lines: true
+			id: "75F776FF73A697CF"
+			optional: true
+			rewards: [
+				{
+					id: "73655C81615190D0"
+					item: "minecraft:slime_ball"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "39DBCC5A65A2EFF6"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "78C3B100435AC259"
+				item: {
+					Count: 1
+					id: "create_sa:slime_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["513D936FBE83EC2D"]
+			hide_dependency_lines: true
+			id: "03AAFCB82D11D72B"
+			optional: true
+			rewards: [{
+				id: "39AB1BF2BCFAD96A"
+				item: "create:andesite_alloy"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "5CD8E6D9ACBF68D0"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"110517F6B8116C24"
+				"368BAD4228C734F1"
+			]
+			icon: "create:blaze_cake"
+			id: "5B3F5CF85D16FA74"
+			rewards: [
+				{
+					id: "0AAFC85FB5235350"
+					item: "create:blaze_cake"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5021B0CC3E0DD580"
+					item: "create:cinder_flour"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "508DA82A36FC0243"
+					item: "create:blaze_cake_base"
+					type: "item"
+				}
+				{
+					id: "579386BF7B01ABDF"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			title: "Blaze Cake"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A09937381BB310B"]
+			id: "368BAD4228C734F1"
+			rewards: [{
+				id: "3368B2FB7300334B"
+				item: "create:cinder_flour"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "56AF199BEBFB0DB6"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["368BAD4228C734F1"]
+			id: "1C406B3FCD426171"
+			tasks: [{
+				id: "50807F258D5C41FB"
+				item: "create_confectionery:gingerdough"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1C406B3FCD426171"]
+			id: "6DDA2E915A767250"
+			tasks: [{
+				id: "1AFDD21B4805D894"
+				item: "create_confectionery:gingerbread"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1C406B3FCD426171"]
+			id: "081B4ED6C5505073"
+			tasks: [{
+				id: "48D8AF3B735DBF5D"
+				item: "create_confectionery:gingerbread_man"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F1560030AAF6516"]
+			hide_dependency_lines: true
+			id: "5826C36E7629C60C"
+			tasks: [{
+				id: "43107D4472326BEE"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5826C36E7629C60C"]
+			hide_dependency_lines: true
+			id: "7D2C3DE21B0CE84C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4F5C4CA61A8001B3"
+				item: {
+					Count: 1
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["5826C36E7629C60C"]
+			hide_dependency_lines: true
+			id: "77121F7B05854F93"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "54C6F1FFBF7051C4"
+				item: {
+					Count: 1
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["5826C36E7629C60C"]
+			hide_dependency_lines: true
+			id: "3F98CA1A7C4E077E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7A79CA7E3761F97B"
+				item: {
+					Count: 1
+					id: "create_sa:brass_exoskeleton_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["0F1560030AAF6516"]
+			hide_dependency_lines: true
+			id: "6DFA2D34AF267AAC"
+			tasks: [{
+				id: "7391F1187E2D18D5"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+	]
+	title: "Beta"
+}

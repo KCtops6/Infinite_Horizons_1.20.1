@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boundless_power"
+	group: "27094FD64355E5E1"
+	icon: "gtceu:tungsten_steel_gear"
+	id: "552AA1DC40037E08"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["459EC4386593E18C"]
+			icon: "gtceu:iv_machine_hull"
+			id: "1A7DAF1D3067492C"
+			tasks: [
+				{
+					id: "4ADEB7ABCD64D9EA"
+					item: "gtceu:iv_machine_casing"
+					type: "item"
+				}
+				{
+					id: "6224C666844B37DA"
+					item: "gtceu:iv_machine_hull"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A7DAF1D3067492C"
+				"1E7C42AE88A451F3"
+			]
+			id: "6BCB4CDDEDDF5ADD"
+			tasks: [{
+				id: "55973737D91A9E85"
+				item: "gtceu:iv_mixer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["459EC4386593E18C"]
+			id: "1E7C42AE88A451F3"
+			tasks: [{
+				id: "239D566FD96D8FA9"
+				item: "gtceu:iv_electric_motor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6BCB4CDDEDDF5ADD"
+				"0BAA5924ABF7C60E"
+			]
+			icon: "gtceu:rhodium_plated_palladium_ingot"
+			id: "06756BF1AC5D0FDC"
+			tasks: [
+				{
+					id: "4BF8644FCD01FC33"
+					item: "gtceu:rhodium_plated_palladium_dust"
+					type: "item"
+				}
+				{
+					id: "57E267C498F308CB"
+					item: "gtceu:hot_rhodium_plated_palladium_ingot"
+					type: "item"
+				}
+				{
+					id: "1FE3420279272DC3"
+					item: "gtceu:rhodium_plated_palladium_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Boundless Power"
+}

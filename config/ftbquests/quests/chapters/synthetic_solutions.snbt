@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "synthetic_solutions"
+	group: "27094FD64355E5E1"
+	icon: "gtceu:polyethylene_foil"
+	id: "0AAF4097AB0C94CD"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "77975336C777F8F4"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:ethylene"
+				icon: "gtceu:ethylene_bucket"
+				id: "15429E63A1DCC1EE"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77975336C777F8F4"]
+			id: "41CD9DF295D68A5D"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:polyethylene"
+				icon: "gtceu:polyethylene_bucket"
+				id: "7E9DD645AAA0E9DB"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41CD9DF295D68A5D"]
+			id: "4FF320B740A3A40A"
+			tasks: [{
+				id: "59B3CA5F2550A69D"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6FEBD63932C51503"
+				"4FF320B740A3A40A"
+			]
+			dependency_requirement: "one_completed"
+			id: "5B68A727EAAE4FA6"
+			tasks: [{
+				id: "7F7985EB7DBCEBC0"
+				item: "gtceu:polyethylene_foil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41CD9DF295D68A5D"]
+			id: "6FEBD63932C51503"
+			tasks: [{
+				id: "6FEE3AA0084A7844"
+				item: "gtceu:polyethylene_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Synthetic Solutions"
+}

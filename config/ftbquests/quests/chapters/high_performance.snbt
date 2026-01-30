@@ -1,0 +1,383 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "high_performance"
+	group: "27094FD64355E5E1"
+	icon: "gtceu:stainless_steel_gear"
+	id: "56A0232154562A0D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["41AD7999FA7A0C9F"]
+			icon: "gtceu:hv_machine_hull"
+			id: "378F20B7F4608CFD"
+			tasks: [
+				{
+					id: "3DFB6C7719FC7441"
+					item: "gtceu:hv_machine_casing"
+					type: "item"
+				}
+				{
+					id: "3CECAE1EB052590A"
+					item: "gtceu:hv_machine_hull"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"41AD7999FA7A0C9F"
+				"7D39F0145D3C1A88"
+				"7902E74CC506134E"
+			]
+			id: "64F32FA2C4CB5EE8"
+			tasks: [{
+				id: "20B05DDCA7AAB321"
+				item: "gtceu:hv_sensor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41AD7999FA7A0C9F"]
+			id: "7965E515967A2BF5"
+			tasks: [{
+				id: "0F248E2023A46B3E"
+				item: "gtceu:hv_electric_motor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7965E515967A2BF5"]
+			id: "38DFC15D4ACCF4A8"
+			tasks: [{
+				id: "29B4DF2436BC9FE8"
+				item: "gtceu:hv_conveyor_module"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7965E515967A2BF5"]
+			id: "5245C015781C5DF6"
+			tasks: [{
+				id: "0A524CD8AA9C8086"
+				item: "gtceu:hv_electric_pump"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4EE2A74AAB4E0DBA"
+				"378F20B7F4608CFD"
+			]
+			id: "04490489D15C8489"
+			tasks: [{
+				id: "34829EB386754432"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25942E4B88F80649"]
+			id: "4EE2A74AAB4E0DBA"
+			tasks: [{
+				id: "55149A63AF6CFF06"
+				item: "gtceu:hv_robot_arm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7965E515967A2BF5"]
+			id: "25942E4B88F80649"
+			tasks: [{
+				id: "3D0553E003EDA080"
+				item: "gtceu:hv_electric_piston"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7D39F0145D3C1A88"
+				"38DFC15D4ACCF4A8"
+				"378F20B7F4608CFD"
+				"5245C015781C5DF6"
+			]
+			id: "1537FA9409ABEA2A"
+			tasks: [{
+				id: "6244849A355E9ABB"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1537FA9409ABEA2A"]
+			id: "126758B6FE37731B"
+			tasks: [{
+				id: "54D965FF96C6FB51"
+				item: "gtceu:cyan_glass_lens"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"73495113C8FF1953"
+				"126758B6FE37731B"
+			]
+			icon: "gtceu:simple_soc"
+			id: "129CB10ABE6D446B"
+			tasks: [
+				{
+					id: "6945D18644E198B1"
+					item: "gtceu:simple_soc_wafer"
+					type: "item"
+				}
+				{
+					id: "45CF9F88C7364182"
+					item: "gtceu:simple_soc"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"129CB10ABE6D446B"
+				"482C32A62AE8173F"
+			]
+			id: "51C51039EAA9A75D"
+			tasks: [{
+				id: "546A97CDBFB9605A"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7965E515967A2BF5"
+				"378F20B7F4608CFD"
+			]
+			id: "79A14A6E8B0FA501"
+			tasks: [{
+				id: "149FB211C3E7DDF8"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"79A14A6E8B0FA501"
+				"482C32A62AE8173F"
+				"0D5C0E326E76F034"
+				"6C92BC729D4CB8B3"
+			]
+			id: "699EE554DF1DD891"
+			size: 3.5d
+			tasks: [{
+				id: "4B117C64DD7FCB8F"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"64F32FA2C4CB5EE8"
+				"378F20B7F4608CFD"
+				"1283B849E38BBAD5"
+			]
+			id: "34E81BF18B63A042"
+			tasks: [{
+				id: "10F73F3C22E85C29"
+				item: "gtceu:hv_scanner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7902E74CC506134E"
+				"7D39F0145D3C1A88"
+			]
+			id: "1283B849E38BBAD5"
+			tasks: [{
+				id: "5181CBBB8DB6DB62"
+				item: "gtceu:hv_emitter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["321CC81BFA991392"]
+			id: "0D5C0E326E76F034"
+			tasks: [{
+				id: "4F4223747011ACA6"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4FF320B740A3A40A"
+				"58491485CC04AC86"
+			]
+			dependency_requirement: "one_completed"
+			id: "321CC81BFA991392"
+			tasks: [{
+				id: "11DE4A170F4A1BD2"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2769D04D1EC38C7D"]
+			icon: "gtceu:blue_alloy_ingot"
+			id: "6C92BC729D4CB8B3"
+			tasks: [
+				{
+					id: "678569FD3D34E4CF"
+					item: "gtceu:blue_alloy_dust"
+					type: "item"
+				}
+				{
+					id: "399CA7B088C2D089"
+					item: "gtceu:blue_alloy_ingot"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"302B33F84C8A395A"
+				"41C840450F54907C"
+			]
+			id: "25878FC633864456"
+			tasks: [{
+				id: "2EADCD3D54BC1F2F"
+				item: "gtceu:black_bronze_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4508FC26C8FF9312"]
+			id: "31596A33A52DCFD8"
+			tasks: [{
+				id: "0D7576DA97D99C8A"
+				item: "gtceu:frostproof_machine_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"699EE554DF1DD891"
+				"5245C015781C5DF6"
+				"31596A33A52DCFD8"
+			]
+			id: "41C840450F54907C"
+			tasks: [{
+				id: "0C88DD53E6D9017C"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41C840450F54907C"]
+			icon: "gtceu:titanium_ingot"
+			id: "490E54D7DEF7F070"
+			tasks: [
+				{
+					id: "3C1A65C9143B2624"
+					item: "gtceu:rutile_dust"
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:titanium_tetrachloride"
+					icon: "gtceu:titanium_tetrachloride_bucket"
+					id: "28932F8FB7FC7DB4"
+					type: "fluid"
+				}
+				{
+					id: "4A8A2FE4CD0D5962"
+					item: "gtceu:hot_titanium_ingot"
+					type: "item"
+				}
+				{
+					id: "746A13F45E2B592F"
+					item: "gtceu:titanium_ingot"
+					type: "item"
+				}
+			]
+			title: "Strength in Lightness"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41C840450F54907C"]
+			id: "16D8DF824E9BBAA4"
+			tasks: [{
+				id: "5731B18F6AB277E5"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"04490489D15C8489"
+				"2A2466DB69F16358"
+				"648A672A10D40DDB"
+				"16D8DF824E9BBAA4"
+			]
+			id: "5903D238F908B86F"
+			tasks: [{
+				id: "5A8DCCE230270372"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+	]
+	title: "Peak Performance"
+}
