@@ -43,3 +43,4 @@ config/modernfix*
 config/moonlight*
 config/defaultworldtype/world-presets.txt
 config/defaultworldtype/biomes.txt
+config/powah.json5
