@@ -1,4 +1,4 @@
-let capitalize = str => str.charAt(0).toUpperCase() + str.slice(1)
+let capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
 const blocks = [
     'aluminum', 'apatite', 'brass',
     'bronze', 'cinnabar', 'constantan',
@@ -10,7 +10,7 @@ const blocks = [
     'signalum', 'silver', 'steel',
     'sulfur', 'terrasteel', 'tin',
     'uranium', 'zinc'
-]
+];
 StartupEvents.registry("block", (event) => {
     event.create("agronomancer_workbench")
         .displayName("Agronomancer's Workbench")
@@ -24,7 +24,7 @@ StartupEvents.registry("block", (event) => {
         .texture('north', 'kubejs:block/agronomancer_workbench_side')
         .texture('south', 'kubejs:block/agronomancer_workbench_side')
         .texture('east', 'kubejs:block/agronomancer_workbench_side')
-        .texture('west', 'kubejs:block/agronomancer_workbench_side')
+        .texture('west', 'kubejs:block/agronomancer_workbench_side');
     event.create("apiarist_workbench")
         .displayName("Apiarist's Workbench")
         .hardness(0.6)
@@ -37,7 +37,7 @@ StartupEvents.registry("block", (event) => {
         .texture('north', 'kubejs:block/apiarist_workbench_side')
         .texture('south', 'kubejs:block/apiarist_workbench_side')
         .texture('east', 'kubejs:block/apiarist_workbench_side')
-        .texture('west', 'kubejs:block/apiarist_workbench_side')
+        .texture('west', 'kubejs:block/apiarist_workbench_side');
     event.create("diatomite")
         .displayName("Diatomite")
         .hardness(0.6)
@@ -50,7 +50,7 @@ StartupEvents.registry("block", (event) => {
         .texture('east', 'kubejs:block/diatomite_side')
         .texture('west', 'kubejs:block/diatomite_side')
         .texture('north', 'kubejs:block/diatomite_side')
-        .texture('south', 'kubejs:block/diatomite_side')
+        .texture('south', 'kubejs:block/diatomite_side');
     event.create("andesite_gravel")
         .displayName("Andesite Gravel")
         .hardness(0.6)
@@ -58,7 +58,7 @@ StartupEvents.registry("block", (event) => {
         .gravelSoundType()
         .requiresTool(false)
         .tagBlock("mineable/shovel")
-        .textureAll('kubejs:block/andesite_gravel')
+        .textureAll('kubejs:block/andesite_gravel');
     event.create("basalt_gravel")
         .displayName("Basalt Gravel")
         .hardness(0.6)
@@ -66,7 +66,7 @@ StartupEvents.registry("block", (event) => {
         .gravelSoundType()
         .requiresTool(false)
         .tagBlock("mineable/shovel")
-        .textureAll('kubejs:block/basalt_gravel')
+        .textureAll('kubejs:block/basalt_gravel');
     event.create("deepslate_gravel")
         .displayName("Deepslate Gravel")
         .hardness(0.6)
@@ -74,7 +74,7 @@ StartupEvents.registry("block", (event) => {
         .gravelSoundType()
         .requiresTool(false)
         .tagBlock("mineable/shovel")
-        .textureAll('kubejs:block/deepslate_gravel')
+        .textureAll('kubejs:block/deepslate_gravel');
     event.create("diorite_gravel")
         .displayName("Diorite Gravel")
         .hardness(0.6)
@@ -82,7 +82,7 @@ StartupEvents.registry("block", (event) => {
         .gravelSoundType()
         .requiresTool(false)
         .tagBlock("mineable/shovel")
-        .textureAll('kubejs:block/diorite_gravel')
+        .textureAll('kubejs:block/diorite_gravel');
     event.create("end_stone_gravel")
         .displayName("End Stone Gravel")
         .hardness(0.6)
@@ -91,7 +91,7 @@ StartupEvents.registry("block", (event) => {
         .gravelSoundType()
         .requiresTool(false)
         .tagBlock("mineable/shovel")
-        .textureAll('kubejs:block/end_stone_gravel')
+        .textureAll('kubejs:block/end_stone_gravel');
     event.create("granite_gravel")
         .displayName("Granite Gravel")
         .hardness(0.6)
@@ -99,7 +99,7 @@ StartupEvents.registry("block", (event) => {
         .gravelSoundType()
         .requiresTool(false)
         .tagBlock("mineable/shovel")
-        .textureAll('kubejs:block/granite_gravel')
+        .textureAll('kubejs:block/granite_gravel');
     event.create("limestone_gravel")
         .displayName("Limestone Gravel")
         .hardness(0.6)
@@ -107,7 +107,7 @@ StartupEvents.registry("block", (event) => {
         .gravelSoundType()
         .requiresTool(false)
         .tagBlock("mineable/shovel")
-        .textureAll('kubejs:block/limestone_gravel')
+        .textureAll('kubejs:block/limestone_gravel');
     event.create("netherrack_gravel")
         .displayName("Netherrack Gravel")
         .hardness(0.6)
@@ -115,7 +115,7 @@ StartupEvents.registry("block", (event) => {
         .gravelSoundType()
         .requiresTool(false)
         .tagBlock("mineable/shovel")
-        .textureAll('kubejs:block/netherrack_gravel')
+        .textureAll('kubejs:block/netherrack_gravel');
     event.create("tuff_gravel")
         .displayName("Tuff Gravel")
         .hardness(0.6)
@@ -123,7 +123,7 @@ StartupEvents.registry("block", (event) => {
         .gravelSoundType()
         .requiresTool(false)
         .tagBlock("mineable/shovel")
-        .textureAll('kubejs:block/tuff_gravel')
+        .textureAll('kubejs:block/tuff_gravel');
     event.create("darkstone_gravel")
         .displayName("Darkstone Gravel")
         .hardness(0.6)
@@ -131,7 +131,7 @@ StartupEvents.registry("block", (event) => {
         .gravelSoundType()
         .requiresTool(false)
         .tagBlock("mineable/shovel")
-        .textureAll('kubejs:block/darkstone_gravel')
+        .textureAll('kubejs:block/darkstone_gravel');
     blocks.forEach(block => {
         event.create(`${block}_block`)
             .displayName(`${capitalize(block)} Block`)
@@ -141,5 +141,12 @@ StartupEvents.registry("block", (event) => {
             .requiresTool(true)
             .tagBlock('minecraft:mineable/pickaxe')
             .tagBlock('minecraft:needs_iron_tool');
-    })
-})
+    });
+
+    event.create('coal_coke_block')
+        .displayName('Block of Coal Coke')
+        .hardness(5.0)
+        .resistance(6.0)
+        .requiresTool(true)
+        .tagBlock('minecraft:mineable/pickaxe');
+});
