@@ -39,3 +39,7 @@ changelog.txt
 .mixin.out/
 .github/
 ESM/
+config/modernfix*
+config/moonlight*
+config/defaultworldtype/world-presets.txt
+config/defaultworldtype/biomes.txt
