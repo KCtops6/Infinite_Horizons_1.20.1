@@ -3,15 +3,10 @@ StartupEvents.registry('fluid', event => {
         .thickTexture(0x032620)
         .bucketColor(0x032620)
         .displayName('Liquid Ender Pearl')
-        .noBlock()
+        .noBlock();
     event.create('liquid_infinitium')
         .thickTexture(0x3b3e41)
         .bucketColor(0x3b3e41)
         .displayName('Liquid Infinitium')
-        .noBlock()
-    event.create('creosote_oil')
-        .thickTexture(0x2e1705)
-        .bucketColor(0x2e1705)
-        .displayName('Creosote Oil')
-        .noBlock()
-})
+        .noBlock();
+});
