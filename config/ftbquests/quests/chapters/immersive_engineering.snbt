@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3949B38795D8BB00"]
 			id: "12F9A2C125E78A88"
 			rewards: [{
 				id: "19809EED5C133903"
@@ -30,7 +31,7 @@
 		}
 		{
 			dependencies: ["12F9A2C125E78A88"]
-			icon: "immersiveengineering:cokebrick"
+			icon: "immersiveengineering:coke_oven"
 			id: "3BAF0158D3FA458C"
 			rewards: [
 				{
@@ -56,28 +57,521 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "immersiveengineering:hammer"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "5D33893992567C5C"
-					observe_type: 0
-					timer: 0L
-					title: "Assemble a Coke Oven"
-					to_observe: "immersiveengineering:coke_oven"
-					type: "observation"
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "34D40030AA05C10A"
+					type: "advancement"
+				}
+			]
+			title: "Coke Oven"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BAF0158D3FA458C"]
+			id: "16217872D47FF05F"
+			rewards: [{
+				id: "38963DE6CAF451B8"
+				item: "kubejs:coal_coke"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F4F1208D8907D95"
+				item: "kubejs:coal_coke"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12F9A2C125E78A88"]
+			icon: "immersiveengineering:blast_furnace"
+			id: "682C96E1F2832C77"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "12D9EBA99F9211DB"
+					item: "minecraft:nether_brick"
+					random_bonus: 2
+					type: "item"
 				}
 				{
-					id: "6781C18B91FEC472"
-					item: "immersiveengineering:coal_coke"
+					count: 3
+					id: "5A43913A37BCB481"
+					item: "minecraft:brick"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0DA97C03391351BF"
+					item: "minecraft:magma_block"
+					random_bonus: 2
 					type: "item"
 				}
 			]
+			tasks: [
+				{
+					count: 27L
+					id: "1F6421E2228AEA23"
+					item: "immersiveengineering:blastbrick"
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/mb_blastfurnace"
+					criterion: ""
+					id: "58A9ADD146522F09"
+					type: "advancement"
+				}
+			]
+			title: "Crude Blast Furnace"
 			x: 1.0d
-			y: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"16217872D47FF05F"
+				"682C96E1F2832C77"
+			]
+			id: "15421A3407EE051A"
+			rewards: [
+				{
+					id: "550325F7B6C78B6F"
+					item: "kubejs:steel_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/make_steel"
+					criterion: ""
+					id: "71FDA3318E4C6343"
+					type: "advancement"
+				}
+			]
+			tasks: [{
+				id: "7C3DBBBBA3DFEE35"
+				item: "kubejs:steel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15421A3407EE051A"]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "1801DC0B0932A2A2"
+			optional: true
+			rewards: [{
+				id: "2241B1BC1CD4F1F2"
+				item: "kubejs:steel_plate"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "116DD30D186DAC8F"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					id: "1E4BB7C6CBEFB44B"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "Improved Blast Furnace"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BAF0158D3FA458C"]
+			id: "0833858567AAA274"
+			rewards: [{
+				id: "06309E5EF8ED1B22"
+				item: "immersiveengineering:creosote_bucket"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "56B02A81310F914E"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0833858567AAA274"]
+			id: "224377F4F4E904EB"
+			rewards: [
+				{
+					count: 3
+					id: "25DA41EB6889DFC4"
+					item: "immersiveengineering:treated_wood_horizontal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3EBD4A31DA003072"
+					item: "immersiveengineering:creosote_bucket"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26B868B555EC7F4E"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["224377F4F4E904EB"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "183D61B65A8A40D6"
+			rewards: [
+				{
+					id: "44C6D3D03B3C8271"
+					item: "immersiveengineering:treated_wood_horizontal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "08F100EF16B19A28"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "electrode"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "586342F8F2B54E36"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "bannerpatterns"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E6DE88DA9608645"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "components"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "019409421DA480BD"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "specialBullet"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "274630EF7DD6DB18"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "bullet"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "298D51B9F43B085E"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "molds"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57DA64FDFD57523D"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1801DC0B0932A2A2"
+				"6322A7C96B063690"
+			]
+			id: "3BD62FB36300EC9D"
+			optional: true
+			tasks: [{
+				count: 2L
+				id: "38DEC8C863B52701"
+				item: "immersiveengineering:blastfurnace_preheater"
+				type: "item"
+			}]
+			title: "Blast Furnace Preheaters"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1795CEF898CA3022"]
+			hide_dependency_lines: true
+			id: "6322A7C96B063690"
+			optional: true
+			tasks: [{
+				id: "17CBA0C0A13608BB"
+				item: "immersiveengineering:furnace_heater"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1BCBDBB85C9A7EAB"
+				"2B817D61869D4DA1"
+				"1773764CA8CA2EEA"
+			]
+			dependency_requirement: "one_completed"
+			id: "1795CEF898CA3022"
+			rewards: [
+				{
+					id: "09FA3A5C23FA24B1"
+					item: "immersiveengineering:wirecoil_copper"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6B2DE4B19F50733A"
+					item: "immersiveengineering:wire_copper"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/connect_wire"
+					criterion: ""
+					id: "61050A05522FB83E"
+					type: "advancement"
+				}
+			]
+			tasks: [{
+				id: "41D8EC9BC375A631"
+				item: "immersiveengineering:wirecoil_copper"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			id: "1BCBDBB85C9A7EAB"
+			optional: true
+			tasks: [{
+				id: "6B28393E041F9560"
+				item: {
+					Count: 1
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1795CEF898CA3022"]
+			id: "5B4F1BF14A9FE3DA"
+			rewards: [{
+				id: "77F8D1B10E3B8245"
+				item: "immersiveengineering:wirecoil_copper"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E32564F8A845E87"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67F92C34A1C2309A"]
+			id: "0AA0B76FB5D80CC0"
+			rewards: [
+				{
+					id: "12B0554D817738B0"
+					item: "immersiveengineering:fluid_pipe"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/craft_heater"
+					criterion: ""
+					id: "390EEFA84E5EF329"
+					type: "advancement"
+				}
+			]
+			tasks: [{
+				id: "48040E490C6E1195"
+				item: "immersiveengineering:fluid_pump"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"12F9A2C125E78A88"
+				"3CB2BFF30BA3EF65"
+			]
+			dependency_requirement: "one_completed"
+			id: "67F92C34A1C2309A"
+			rewards: [{
+				count: 8
+				id: "3B6CB98D5818C752"
+				item: "immersiveengineering:fluid_pipe"
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "154EAAD3179DE637"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["183D61B65A8A40D6"]
+			id: "390C698AF80432F6"
+			rewards: [{
+				id: "3F343C5F995C5B37"
+				item: "immersiveengineering:cloche"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C4C3856AF049D5C"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["390C698AF80432F6"]
+			id: "1F65474758FD5025"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				advancement: "immersiveengineering:main/chorus_cloche"
+				criterion: ""
+				icon: "minecraft:chorus_fruit"
+				id: "4A67CE91F19B8CD0"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"5B4F1BF14A9FE3DA"
+				"224377F4F4E904EB"
+			]
+			id: "075ED2F6973F5812"
+			rewards: [{
+				id: "289ED29FAB61E6F4"
+				item: "immersiveengineering:treated_wood_horizontal"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "42ED530EF495444B"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1BCBDBB85C9A7EAB"
+				"2B817D61869D4DA1"
+				"1773764CA8CA2EEA"
+			]
+			dependency_requirement: "one_completed"
+			id: "61105858DC8672AB"
+			tasks: [{
+				id: "4D5D26EF48B28525"
+				item: "immersiveengineering:wirecoil_electrum"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1BCBDBB85C9A7EAB"
+				"2B817D61869D4DA1"
+				"1773764CA8CA2EEA"
+			]
+			dependency_requirement: "one_completed"
+			id: "2D94883A09DE786B"
+			tasks: [{
+				id: "7CC023FB5EA5ED39"
+				item: "immersiveengineering:wirecoil_steel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2D94883A09DE786B"
+				"183D61B65A8A40D6"
+			]
+			id: "11FE7B2A128C165C"
+			optional: true
+			tasks: [{
+				id: "4FEB73F533C91A1B"
+				item: "immersiveengineering:transformer_hv"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["61105858DC8672AB"]
+			id: "7BF60932943BDB9C"
+			optional: true
+			tasks: [{
+				id: "7E01B0ABA1AAC185"
+				item: "immersiveengineering:transformer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
 		}
 	]
 	title: "Immersive Engineering"
