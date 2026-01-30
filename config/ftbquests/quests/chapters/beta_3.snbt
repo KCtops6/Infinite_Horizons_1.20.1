@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "beta_3"
 	group: "6F4C25734B575319"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: "create:wrench"
 	id: "586D9DC484439963"
 	order_index: 1
@@ -12,11 +15,18 @@
 			dependencies: ["1AC649402EA13EB3"]
 			description: ["The Water Wheel allows you to harness flowing water to generate kinetic energy, powering your Create mod machinery efficiently and sustainably."]
 			id: "2F9B0013A2D20BA3"
-			rewards: [{
-				id: "055C52A9285B76B8"
-				item: "create:stressometer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "055C52A9285B76B8"
+					item: "create:stressometer"
+					type: "item"
+				}
+				{
+					id: "30523862EA430AA6"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
 			subtitle: "Power Machines with Water-Driven Energy"
 			tasks: [{
 				id: "7BE3B6E3C6BBA451"
@@ -863,12 +873,21 @@
 				"3949B38795D8BB00"
 			]
 			id: "513D936FBE83EC2D"
-			rewards: [{
-				advancement: "create:root"
-				criterion: ""
-				id: "481DDA80729860A4"
-				type: "advancement"
-			}]
+			rewards: [
+				{
+					id: "136B90BB3191DC63"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "56522782B5264759"
+					item: "minecraft:iron_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0135E6E9D06542D3"
 				item: "create:andesite_alloy"
@@ -1466,6 +1485,17 @@
 			}]
 			x: 1.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["722DB1BEB0FDAA80"]
+			id: "1265D023506C6E64"
+			tasks: [{
+				id: "47C4C8E23BC46ECC"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
 		}
 	]
 	title: "Beta"
