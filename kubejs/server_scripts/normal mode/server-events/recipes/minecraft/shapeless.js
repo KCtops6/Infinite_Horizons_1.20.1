@@ -146,4 +146,6 @@ ServerEvents.recipes(event => {
             }
         }
     });
+    event.shapeless('forbidden_arcanus:yellow_orchid', [
+        'minecraft:blue_orchid', 'kubejs:forbidden_transmutation_matter']).id('kubejs:yellow_orchid');
 });
