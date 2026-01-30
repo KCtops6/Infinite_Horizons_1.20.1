@@ -106,6 +106,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["73D50C93EBC09617"]
 			description: ["The Bounty Board offers quests and rewards for the daring adventurer—take a closer look to find new ways to earn valuable resources and test your skills."]
 			id: "4276F0ED03C3F87D"
 			rewards: [{
@@ -156,6 +157,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["73D50C93EBC09617"]
 			id: "21AEB9240306B778"
 			rewards: [{
 				id: "6CDFAF37F3FAAE9D"
@@ -333,6 +335,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["73D50C93EBC09617"]
 			id: "1239D7413CD6DF9A"
 			tasks: [{
 				id: "246E50DB581795CA"
@@ -1154,6 +1157,7 @@
 			y: -1.0d
 		}
 		{
+			hide_dependent_lines: true
 			id: "73D50C93EBC09617"
 			rewards: [{
 				count: 5
