@@ -26,6 +26,11 @@
 					item: "create:goggles"
 					type: "item"
 				}
+				{
+					id: "5C550005C9333184"
+					item: "create:wrench"
+					type: "item"
+				}
 			]
 			subtitle: "Power Machines with Water-Driven Energy"
 			tasks: [{
@@ -64,13 +69,7 @@
 				"37C31E5A1FB0A120"
 				"2E72C56136631B60"
 			]
-			description: [
-				"The Sifter allows you to separate valuable materials from raw resources, enhancing your ability to gather refined components with ease."
-				""
-				"You can get all possible resources from the lowest level string mesh, but more rare items are much easily accessible with a higher level of mesh."
-				""
-				"You should automate sieving gravel, sand, and dust at the very least before proceeding."
-			]
+			description: [""]
 			icon: "createsifter:sifter"
 			id: "0AC851170B41AD02"
 			rewards: [{
@@ -441,6 +440,13 @@
 		{
 			dependencies: ["3CB2BFF30BA3EF65"]
 			id: "1773764CA8CA2EEA"
+			rewards: [{
+				count: 3
+				id: "63661EE17447DE3A"
+				item: "create:andesite_alloy"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "789D073899E4287D"
 				item: "createaddition:rolling_mill"
@@ -1489,6 +1495,13 @@
 		{
 			dependencies: ["722DB1BEB0FDAA80"]
 			id: "1265D023506C6E64"
+			rewards: [{
+				count: 2
+				id: "2DFEFA99F1C9B8D3"
+				item: "create:andesite_funnel"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
 				id: "47C4C8E23BC46ECC"
 				item: "create:andesite_funnel"
