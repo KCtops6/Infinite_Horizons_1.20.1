@@ -672,4 +672,61 @@ ServerEvents.recipes(event => {
             ], { I: `kubejs:${i}_ingot` }).id(`kubejs:shaped/${i}_block_from_ingots`);
         }
     });
+
+    event.shaped(Item.of('create:andesite_funnel', 2), [
+        ' A ',
+        ' R ',
+        '   '
+    ], {
+        A: 'create:andesite_alloy',
+        R: 'kubejs:rubber_sheet'
+    }).id('kubejs:shaped/andesite_funnel_from_rubber');
+
+    event.shaped(Item.of('create:brass_funnel', 2), [
+        ' E ',
+        ' B ',
+        ' R '
+    ], {
+        E: 'create:electron_tube',
+        B: 'kubejs:brass_ingot',
+        R: 'kubejs:rubber_sheet'
+    }).id('kubejs:shaped/brass_funnel_from_rubber');
+
+    event.shaped('create:spout', [
+        ' C ',
+        ' R ',
+        '   '
+    ], {
+        C: 'create:copper_casing',
+        R: 'kubejs:rubber_sheet'
+    }).id('kubejs:shaped/spout_from_rubber');
+
+    event.shaped(Item.of('create:andesite_tunnel', 2), [
+        'AA ',
+        'RR ',
+        '   '
+    ], {
+        A: 'create:andesite_alloy',
+        R: 'kubejs:rubber_sheet'
+    }).id('kubejs:shaped/andesite_tunnel_from_rubber');
+
+    event.shaped(Item.of('create:brass_tunnel', 2), [
+        'E  ',
+        'BB ',
+        'RR '
+    ], {
+        E: 'create:electron_tube',
+        B: 'kubejs:brass_ingot',
+        R: 'kubejs:rubber_sheet'
+    }).id('kubejs:shaped/brass_tunnel_from_rubber');
+
+    event.shaped('create_enchantment_industry:printer', [
+        ' C ',
+        ' R ',
+        ' I '
+    ], {
+        C: 'create:copper_casing',
+        I: 'kubejs:iron_plate',
+        R: 'kubejs:rubber_sheet'
+    }).id('kubejs:shaped/printer_from_rubber');
 });
