@@ -26,8 +26,8 @@
 			image: "ftbchunks:textures/faces/minecraft/wandering_trader.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.0d
-			y: 4.0d
+			x: 2.00408d
+			y: 5.004080000000001d
 		}
 		{
 			height: 1.0d
@@ -37,6 +37,14 @@
 			width: 1.0d
 			x: -5.0d
 			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/blast_furnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 5.0d
 		}
 	]
 	order_index: 0
@@ -2771,8 +2779,8 @@
 				item: "minecraft:melon_seeds"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 2.00408d
+			y: 6.004080000000001d
 		}
 		{
 			dependencies: ["1E69978C3A1B8894"]
@@ -2782,8 +2790,8 @@
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 2.00408d
+			y: 7.004080000000001d
 		}
 		{
 			hide_dependent_lines: true
@@ -2796,8 +2804,8 @@
 				to_observe: "minecraft:wandering_trader"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 2.00408d
+			y: 5.004080000000001d
 		}
 		{
 			dependencies: ["6262C580B72FD2C5"]
@@ -2814,8 +2822,8 @@
 				item: "minecraft:lead"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 3.00408d
+			y: 5.004080000000001d
 		}
 		{
 			hide_dependent_lines: true
@@ -2864,6 +2872,24 @@
 			}]
 			x: 14.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["6262C580B72FD2C5"]
+			hide_dependency_lines: true
+			id: "1D782A701C958BA1"
+			rewards: [{
+				id: "1E568F23BA26E6F5"
+				item: "minecraft:sugar_cane"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E78ED64825AFB0C"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
 		}
 	]
 	title: "Alpha"
