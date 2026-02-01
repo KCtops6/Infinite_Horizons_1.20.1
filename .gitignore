@@ -44,3 +44,4 @@ config/moonlight*
 config/defaultworldtype/world-presets.txt
 config/defaultworldtype/biomes.txt
 config/powah.json5
+config/entity_model_features.json
