@@ -40,10 +40,20 @@
 		}
 		{
 			height: 1.0d
+			hover: ["Observe a Blast Furnace"]
 			image: "minecraft:block/blast_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
 			x: -2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Observe a Smithing Table"]
+			image: "minecraft:block/smithing_table_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
 			y: 5.0d
 		}
 	]
@@ -631,19 +641,7 @@
 			y: 1.25d
 		}
 		{
-			dependencies: ["3949B38795D8BB00"]
-			id: "491881AC8ADCAAFF"
-			tasks: [{
-				id: "4377B26982E0039E"
-				item: "minecraft:blast_furnace"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
 			dependencies: [
-				"491881AC8ADCAAFF"
 				"277B3F465501BEBF"
 				"62A3FFC17AFAA0D4"
 			]
@@ -661,10 +659,7 @@
 			y: -2.25d
 		}
 		{
-			dependencies: [
-				"491881AC8ADCAAFF"
-				"5D848CC085077117"
-			]
+			dependencies: ["5D848CC085077117"]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "237B8885CE4C7AE0"
@@ -693,10 +688,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"491881AC8ADCAAFF"
-				"3949B38795D8BB00"
-			]
+			dependencies: ["3949B38795D8BB00"]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "6F96D2E34D812C2E"
@@ -725,10 +717,7 @@
 			y: -2.75d
 		}
 		{
-			dependencies: [
-				"491881AC8ADCAAFF"
-				"3949B38795D8BB00"
-			]
+			dependencies: ["3949B38795D8BB00"]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -2889,6 +2878,499 @@
 				type: "item"
 			}]
 			x: 2.0d
+			y: 4.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "6EFE6EC0F08B4A00"
+			secret: true
+			size: 1.0E-4d
+			tasks: [{
+				id: "4D2A28A255AD33B2"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:blast_furnace"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6EFE6EC0F08B4A00"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "14BF8530EAC0452A"
+			rewards: [
+				{
+					count: 3
+					id: "60E237788FFBF2ED"
+					item: "minecraft:diamond"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5763C62FB0B6EB7E"
+					item: "minecraft:emerald"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5AD6F8BA75F1E006"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C80E08D14532359"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E85C333C5BDFD2C"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A0EED8D0CD45415"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain Diamond Armor"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EFE6EC0F08B4A00"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "421CA3763D7C0DF3"
+			rewards: [
+				{
+					count: 3
+					id: "69CBE3E76AF2D853"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2DDFD10C19DDDEF5"
+					item: "minecraft:emerald"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "774CAD2DC174A855"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "608932506E7B655C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F451B38AF25DF36"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76F092394658660D"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain Iron Armor"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EFE6EC0F08B4A00"]
+			icon: {
+				Count: 1
+				id: "minecraft:chainmail_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "44936A8A76C8DD1F"
+			rewards: [
+				{
+					count: 3
+					id: "22E84D9918C5D543"
+					item: "minecraft:chain"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6705AC7CA0E2D106"
+					item: "minecraft:emerald"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7258CE10990E576C"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27E6C3AEF661904F"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4976966DD275F910"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "227900CF2DF623CB"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain Chainmail Armor"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6EFE6EC0F08B4A00"
+				"6AC6BE4F99571681"
+			]
+			id: "00A7FBE838D780B5"
+			rewards: [{
+				count: 5
+				id: "17BEC0598800029D"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E4E9FDC3AFB7191"
+				item: "minecraft:bell"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6EFE6EC0F08B4A00"]
+			id: "114AEA87CA85A640"
+			rewards: [{
+				count: 5
+				id: "4DDC4537E9270C16"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E1D84510AC70930"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "6AC6BE4F99571681"
+			secret: true
+			size: 1.0E-4d
+			tasks: [{
+				id: "64BEBBF37A224812"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:smithing_table"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6AC6BE4F99571681"]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0463F26D57BE89BA"
+			rewards: [{
+				count: 5
+				id: "170E9C26783E3105"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "759A00B933D6156C"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F8DE312F85EB124"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C1A625B0C8EC4C5"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A0F09F2BBE19C33"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain Stone Tools"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6AC6BE4F99571681"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "248EE8101AAE29C9"
+			rewards: [{
+				count: 5
+				id: "6B45ED1EEF556294"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C2E5D2B23F4A2BF"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11625985DEF92528"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F45AC8CDE83DB36"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain Iron Tools"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6AC6BE4F99571681"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F75893C9407695F"
+			rewards: [{
+				count: 5
+				id: "2667FE0C68BFD0C4"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5065DA3748989FA8"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "227CBF4F5B761BF4"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13DE7A4905A253CA"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43EC14BFF7D002E8"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain Diamond Tools"
+			x: -5.0d
 			y: 4.0d
 		}
 	]
