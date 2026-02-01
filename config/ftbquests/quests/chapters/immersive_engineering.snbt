@@ -573,6 +573,21 @@
 			x: 7.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["12F9A2C125E78A88"]
+			id: "43EE360295551073"
+			tasks: [{
+				icon: "immersiveengineering:alloy_smelter"
+				id: "07ACB9FED5D887AC"
+				observe_type: 0
+				timer: 0L
+				title: "Construct an Alloy Kiln"
+				to_observe: "immersiveengineering:alloy_smelter"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
 	]
 	title: "Immersive Engineering"
 }
