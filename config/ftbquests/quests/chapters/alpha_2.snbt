@@ -26,10 +26,11 @@
 			image: "ftbchunks:textures/faces/minecraft/wandering_trader.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.00408d
-			y: 5.004080000000001d
+			x: 6.061905000000001d
+			y: 6.0057800000000015d
 		}
 		{
+			dependency: "73D50C93EBC09617"
 			height: 1.0d
 			hover: ["Observe a Bee"]
 			image: "minecraft:textures/entity_icon/bee/bee.png"
@@ -39,22 +40,74 @@
 			y: 0.0d
 		}
 		{
+			dependency: "73D50C93EBC09617"
 			height: 1.0d
 			hover: ["Observe a Blast Furnace"]
 			image: "minecraft:block/blast_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: 5.0d
+			x: -4.5578d
+			y: 6.0136d
 		}
 		{
+			dependency: "73D50C93EBC09617"
 			height: 1.0d
 			hover: ["Observe a Smithing Table"]
 			image: "minecraft:block/smithing_table_front"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: 5.0d
+			x: -5.9694d
+			y: 6.0102d
+		}
+		{
+			dependency: "73D50C93EBC09617"
+			height: 1.0d
+			hover: ["Observe a Cow"]
+			image: "minecraft:textures/entity_icon/cow/cow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependency: "73D50C93EBC09617"
+			height: 1.0d
+			hover: ["Observe a Chicken"]
+			image: "ftbchunks:textures/faces/minecraft/chicken.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependency: "73D50C93EBC09617"
+			height: 1.0d
+			hover: ["Observe a Pig"]
+			image: "minecraft:textures/entity_icon/pig/pig.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependency: "73D50C93EBC09617"
+			height: 1.0d
+			hover: ["Observe a Sheep"]
+			image: "ftbchunks:textures/faces/minecraft/sheep.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependency: "73D50C93EBC09617"
+			height: 1.0d
+			hover: ["Observe a Horse"]
+			image: "minecraft:textures/entity_icon/horse/horse_chestnut.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -1.0d
 		}
 	]
 	order_index: 0
@@ -240,7 +293,7 @@
 				type: "item"
 			}]
 			title: "Bark Harvesting"
-			x: 3.0d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -578,7 +631,7 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -639,24 +692,6 @@
 			}]
 			x: -1.25d
 			y: 1.25d
-		}
-		{
-			dependencies: [
-				"277B3F465501BEBF"
-				"62A3FFC17AFAA0D4"
-			]
-			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
-			id: "127241CE703A1DA7"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "5B78DC0C02A10870"
-				item: "minecraft:bell"
-				type: "item"
-			}]
-			x: 9.75d
-			y: -2.25d
 		}
 		{
 			dependencies: ["5D848CC085077117"]
@@ -986,18 +1021,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3949B38795D8BB00"]
-			hide_dependent_lines: true
-			id: "62A3FFC17AFAA0D4"
-			tasks: [{
-				id: "23369B156F184595"
-				item: "minecraft:smithing_table"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["1095B567B96DDCF3"]
 			id: "3FE8A0F232E7B79B"
 			tasks: [{
@@ -1193,18 +1216,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1095B567B96DDCF3"]
-			id: "5E36A391B5122F28"
-			tasks: [{
-				id: "1C60284FAA111560"
-				item: "minecraft:white_wool"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5E36A391B5122F28"]
+			dependencies: ["30B0D5F784749DB3"]
 			hide_dependency_lines: true
 			id: "6B72A89412441EF8"
 			optional: true
@@ -1247,8 +1259,8 @@
 				title: "Craft a sleeping bag."
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.75d
+			x: -4.0d
+			y: 1.75d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -1408,8 +1420,8 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -1471,8 +1483,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 5.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["33A3E11BD0EB479B"]
@@ -1969,38 +1981,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1095B567B96DDCF3"]
-			id: "1A5F98E448910415"
-			rewards: [
-				{
-					count: 3
-					id: "5613893420E3B7F2"
-					item: "minecraft:leather"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "29A0F3E79A710EC4"
-					item: "pamhc2foodextended:beefwellingtonitem"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "71E191FF341F4C0A"
-					item: "mekanismadditions:white_balloon"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3631273E01DC22FF"
-				item: "minecraft:leather"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["305CAD4BB78423E7"]
 			id: "70D7D0BFBE9182FF"
 			tasks: [{
@@ -2248,8 +2228,8 @@
 				title: "Craft a Lapis Tool"
 				type: "item"
 			}]
-			x: 5.75d
-			y: 4.0d
+			x: 8.75d
+			y: 3.0d
 		}
 		{
 			dependencies: ["703BB085459DC254"]
@@ -2280,8 +2260,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.25d
-			y: 4.0d
+			x: 9.25d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2E27C65E12B61E06"]
@@ -2313,8 +2293,8 @@
 				title: "Craft Lapis Armor"
 				type: "item"
 			}]
-			x: 5.75d
-			y: 4.5d
+			x: 8.75d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -2348,8 +2328,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.75d
-			y: 3.5d
+			x: 8.75d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -2397,8 +2377,8 @@
 				item: "minecraft:cobweb"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -2426,8 +2406,8 @@
 				item: "apotheosis:prismatic_web"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["08D84D303B46BF2D"]
@@ -2485,7 +2465,6 @@
 			dependencies: [
 				"5D848CC085077117"
 				"277B3F465501BEBF"
-				"62A3FFC17AFAA0D4"
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -2544,18 +2523,19 @@
 				item: "minecraft:heart_of_the_sea"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 9.0d
+			x: 9.06803d
+			y: 7.991495d
 		}
 		{
+			dependencies: ["6262C580B72FD2C5"]
 			id: "6A956A02FD58E257"
 			tasks: [{
 				id: "5076A3F724B60510"
 				item: "minecraft:nautilus_shell"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: 7.057825000000001d
+			y: 6.0017000000000005d
 		}
 		{
 			dependencies: [
@@ -2568,12 +2548,14 @@
 				item: "minecraft:conduit"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 8.0d
+			x: 9.06803d
+			y: 6.991495d
 		}
 		{
 			dependencies: ["6A956A02FD58E257"]
 			id: "7CF23A298727961A"
+			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "413064F5112E6D15"
 				item: {
@@ -2583,8 +2565,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: 7.807825000000001d
+			y: 6.0017000000000005d
 		}
 		{
 			dependencies: ["2A9A53C32599ECB6"]
@@ -2756,6 +2738,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["6262C580B72FD2C5"]
 			id: "1E69978C3A1B8894"
 			rewards: [{
 				id: "14F2CEF1C41C9136"
@@ -2768,8 +2751,8 @@
 				item: "minecraft:melon_seeds"
 				type: "item"
 			}]
-			x: 2.00408d
-			y: 6.004080000000001d
+			x: 6.061905000000001d
+			y: 7.0057800000000015d
 		}
 		{
 			dependencies: ["1E69978C3A1B8894"]
@@ -2779,8 +2762,8 @@
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
-			x: 2.00408d
-			y: 7.004080000000001d
+			x: 6.061905000000001d
+			y: 8.005780000000001d
 		}
 		{
 			hide_dependent_lines: true
@@ -2793,8 +2776,8 @@
 				to_observe: "minecraft:wandering_trader"
 				type: "observation"
 			}]
-			x: 2.00408d
-			y: 5.004080000000001d
+			x: 6.061905000000001d
+			y: 6.0057800000000015d
 		}
 		{
 			dependencies: ["6262C580B72FD2C5"]
@@ -2811,8 +2794,8 @@
 				item: "minecraft:lead"
 				type: "item"
 			}]
-			x: 3.00408d
-			y: 5.004080000000001d
+			x: 5.061905000000001d
+			y: 6.0017000000000005d
 		}
 		{
 			hide_dependent_lines: true
@@ -2877,8 +2860,8 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 6.057825000000001d
+			y: 5.0017000000000005d
 		}
 		{
 			hide_dependent_lines: true
@@ -2892,8 +2875,8 @@
 				to_observe: "minecraft:blast_furnace"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: -4.5578d
+			y: 6.0136d
 		}
 		{
 			dependencies: ["6EFE6EC0F08B4A00"]
@@ -2968,8 +2951,8 @@
 				}
 			]
 			title: "Obtain Diamond Armor"
-			x: -1.0d
-			y: 4.0d
+			x: -0.9694000000000003d
+			y: 5.0102d
 		}
 		{
 			dependencies: ["6EFE6EC0F08B4A00"]
@@ -3044,8 +3027,8 @@
 				}
 			]
 			title: "Obtain Iron Armor"
-			x: -2.0d
-			y: 4.0d
+			x: -1.9694000000000003d
+			y: 5.0102d
 		}
 		{
 			dependencies: ["6EFE6EC0F08B4A00"]
@@ -3073,6 +3056,7 @@
 					type: "item"
 				}
 			]
+			size: 0.5d
 			tasks: [
 				{
 					id: "7258CE10990E576C"
@@ -3120,8 +3104,8 @@
 				}
 			]
 			title: "Obtain Chainmail Armor"
-			x: -3.0d
-			y: 4.0d
+			x: -4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -3136,13 +3120,14 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [{
 				id: "4E4E9FDC3AFB7191"
 				item: "minecraft:bell"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 7.0d
+			x: -5.25d
+			y: 6.75d
 		}
 		{
 			dependencies: ["6EFE6EC0F08B4A00"]
@@ -3165,8 +3150,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -3180,8 +3165,8 @@
 				to_observe: "minecraft:smithing_table"
 				type: "observation"
 			}]
-			x: -6.0d
-			y: 5.0d
+			x: -5.9694d
+			y: 6.0102d
 		}
 		{
 			dependencies: ["6AC6BE4F99571681"]
@@ -3200,6 +3185,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [
 				{
 					id: "759A00B933D6156C"
@@ -3247,8 +3233,8 @@
 				}
 			]
 			title: "Obtain Stone Tools"
-			x: -7.0d
-			y: 4.0d
+			x: -6.25d
+			y: 5.25d
 		}
 		{
 			dependencies: ["6AC6BE4F99571681"]
@@ -3267,6 +3253,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [
 				{
 					id: "0C2E5D2B23F4A2BF"
@@ -3303,8 +3290,8 @@
 				}
 			]
 			title: "Obtain Iron Tools"
-			x: -6.0d
-			y: 4.0d
+			x: -5.75d
+			y: 5.25d
 		}
 		{
 			dependencies: ["6AC6BE4F99571681"]
@@ -3323,6 +3310,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [
 				{
 					id: "5065DA3748989FA8"
@@ -3370,8 +3358,177 @@
 				}
 			]
 			title: "Obtain Diamond Tools"
+			x: -5.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6262C580B72FD2C5"]
+			id: "26F6423FEC9344FF"
+			rewards: [{
+				id: "323B8CE17482C59E"
+				item: "minecraft:pumpkin_seeds"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "1215F95734ABA516"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: 5.057825000000001d
+			y: 6.9976199999999995d
+		}
+		{
+			dependencies: ["26F6423FEC9344FF"]
+			id: "45EEE26BEDE8BB98"
+			tasks: [{
+				id: "70983E8B60E8E9C4"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: 5.057825000000001d
+			y: 7.99762d
+		}
+		{
+			dependencies: ["6262C580B72FD2C5"]
+			id: "338A51CE97015805"
+			tasks: [{
+				id: "7983AF4DCE2F71F2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:coral_blocks/alive"
+					}
+				}
+				title: "Obtain Coral Blocks"
+				type: "item"
+			}]
+			x: 7.057825000000001d
+			y: 5.0017000000000005d
+		}
+		{
+			dependencies: ["6262C580B72FD2C5"]
+			id: "5539D8EB6ED072A3"
+			rewards: [
+				{
+					id: "13F43AD190F5A8AB"
+					item: "minecraft:cactus"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6F846D5C7EB3A0A9"
+					item: "pamhc2foodextended:cactusfruitpieitem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6521E7128109A3D6"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			x: 5.057825000000001d
+			y: 5.0017000000000005d
+		}
+		{
+			dependencies: [
+				"34772CE2E8E25A5E"
+				"7E1BC6AC70B963CA"
+			]
+			id: "55D1493191B4E1F1"
+			tasks: [{
+				id: "2A4F608691419A5D"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73D50C93EBC09617"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7E1BC6AC70B963CA"
+			secret: true
+			size: 0.001d
+			tasks: [{
+				id: "4CDE0AA216B55C35"
+				observe_type: 5
+				secret: true
+				timer: 0L
+				title: "Observe a Cow"
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2B6CF24762107E78"
+			secret: true
+			size: 0.001d
+			tasks: [{
+				id: "3F6029AA8AD98E77"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73D50C93EBC09617"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "52D688E13ABCD855"
+			secret: true
+			size: 0.001d
+			tasks: [{
+				id: "4DAC7A54BE56F300"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
 			x: -5.0d
-			y: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73D50C93EBC09617"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "30B0D5F784749DB3"
+			secret: true
+			size: 0.001d
+			tasks: [{
+				id: "77BE0647276F0AB5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:sheep"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "79E583BD8C246735"
+			secret: true
+			size: 1.0E-4d
+			tasks: [{
+				id: "6125281FDA1F2458"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:horse"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: -1.0d
 		}
 	]
 	title: "Alpha"
