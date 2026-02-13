@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
             tool: {
                 item: "kubejs:wooden_trowel"
             }
-        });
+        }).id(`wooden_trowel_on_${b.replace('minecraft:', '')}`);
 
         event.custom({
             type: "farmersdelight:cutting",
@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
             tool: {
                 item: "kubejs:stone_trowel"
             }
-        });
+        }).id(`stone_trowel_on_${b.replace('minecraft:', '')}`);
 
         event.custom({
             type: "farmersdelight:cutting",
@@ -153,18 +153,6 @@ ServerEvents.recipes(event => {
                     item: "kubejs:stone_pebble"
                 },
                 {
-                    chance: 0.5,
-                    item: "kubejs:andesite_pebble"
-                },
-                {
-                    chance: 0.5,
-                    item: "kubejs:diorite_pebble"
-                },
-                {
-                    chance: 0.5,
-                    item: "kubejs:granite_pebble"
-                },
-                {
                     chance: 0.25,
                     item: "kubejs:deepslate_pebble"
                 }
@@ -172,7 +160,7 @@ ServerEvents.recipes(event => {
             tool: {
                 item: "kubejs:iron_trowel"
             }
-        });
+        }).id(`iron_trowel_on_${b.replace('minecraft:', '')}`);
     });
 
     gravelBlocks.forEach(b => {
@@ -200,7 +188,7 @@ ServerEvents.recipes(event => {
             tool: {
                 item: "kubejs:stone_trowel"
             }
-        });
+        }).id(`stone_trowel_on_${b.replace('minecraft:', '')}`);
 
         event.custom({
             type: "farmersdelight:cutting",
@@ -226,7 +214,7 @@ ServerEvents.recipes(event => {
             tool: {
                 item: "kubejs:iron_trowel"
             }
-        });
+        }).id(`iron_trowel_on_${b.replace('minecraft:', '')}`);
     });
 
     event.custom({
