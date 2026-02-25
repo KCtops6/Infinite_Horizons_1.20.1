@@ -413,17 +413,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1A09937381BB310B"]
-			id: "0E950E1B0283143A"
-			tasks: [{
-				id: "3EC0CDE20B1F8BB2"
-				item: "kubejs:deepslate_gravel"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 2.0d
-		}
-		{
 			dependencies: [
 				"110517F6B8116C24"
 				"1773764CA8CA2EEA"
@@ -1509,6 +1498,23 @@
 			}]
 			x: 4.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["110517F6B8116C24"]
+			id: "4ABED82B18E58CC1"
+			tasks: [{
+				id: "765C8E8ADADDBB2D"
+				item: {
+					Count: 1
+					id: "create_sa:blazing_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
 		}
 	]
 	title: "Beta"
