@@ -17,8 +17,8 @@
 			image: "minecraft:block/bookshelf"
 			rotation: 0.0d
 			width: 0.6d
-			x: 3.0d
-			y: -1.0d
+			x: 4.040815d
+			y: -0.9846950000000021d
 		}
 		{
 			dependency: "73D50C93EBC09617"
@@ -26,8 +26,8 @@
 			image: "ftbchunks:textures/faces/minecraft/wandering_trader.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.061905000000001d
-			y: 6.0057800000000015d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			dependency: "73D50C93EBC09617"
@@ -38,26 +38,6 @@
 			width: 1.0d
 			x: -5.0d
 			y: 0.0d
-		}
-		{
-			dependency: "73D50C93EBC09617"
-			height: 1.0d
-			hover: ["Observe a Blast Furnace"]
-			image: "minecraft:block/blast_furnace_front_on"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5578d
-			y: 6.0136d
-		}
-		{
-			dependency: "73D50C93EBC09617"
-			height: 1.0d
-			hover: ["Observe a Smithing Table"]
-			image: "minecraft:block/smithing_table_front"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.9694d
-			y: 6.0102d
 		}
 		{
 			dependency: "73D50C93EBC09617"
@@ -160,8 +140,8 @@
 				type: "item"
 			}]
 			title: "Village Timber Hunt"
-			x: 1.0d
-			y: 0.0d
+			x: 2.0408150000000003d
+			y: 0.015304999999997904d
 		}
 		{
 			dependencies: ["2410A2F2F4822D70"]
@@ -197,8 +177,8 @@
 				type: "item"
 			}]
 			title: "Crafting Table Creation"
-			x: 2.0d
-			y: 0.0d
+			x: 3.0408150000000003d
+			y: 0.015304999999997904d
 		}
 		{
 			dependencies: ["73D50C93EBC09617"]
@@ -227,13 +207,12 @@
 				type: "observation"
 			}]
 			title: "Opportunities Await"
-			x: -2.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
 			description: ["Useful so you do not have to go on multiple villager's trading UI's."]
-			hide_dependency_lines: true
 			id: "31BBE9DCB2EB7E5D"
 			optional: true
 			rewards: [{
@@ -248,8 +227,8 @@
 				item: "tradingpost:trading_post"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: 2.0408150000000003d
+			y: 1.015304999999998d
 		}
 		{
 			dependencies: ["73D50C93EBC09617"]
@@ -270,11 +249,12 @@
 				id: "3B8B8F1D27B0B128"
 				observe_type: 0
 				timer: 0L
+				title: "Observe a Waystone"
 				to_observe: "waystones:waystone"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -293,26 +273,27 @@
 				type: "item"
 			}]
 			title: "Bark Harvesting"
-			x: 2.0d
-			y: 1.0d
+			x: 4.040815d
+			y: 1.015304999999998d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
-			hide_dependency_lines: true
 			id: "7A65E98B9FE221A7"
+			optional: true
 			rewards: [{
 				id: "46830940B0B721E8"
 				item: "minecraft:emerald"
 				random_bonus: 15
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [{
 				id: "67EAD6541B4F606C"
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: 3.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["4356ADD8978BB6C7"]
@@ -336,8 +317,8 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 9.040815d
+			y: 0.015304999999997904d
 		}
 		{
 			dependencies: ["6A6C399AB9F1BBE0"]
@@ -347,8 +328,8 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 13.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["133BCE410E613A4F"]
@@ -358,28 +339,8 @@
 				item: "createsifter:dust"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["73D50C93EBC09617"]
-			description: ["Infinite Horizons has what I call \"Integration Quests\", which are optional cross-mod compatibilities that make gameplay less tedious.  They are are the small-sized quests that branch from main quests.  Make sure to check them out during your gameplay."]
-			icon: "botania:cosmetic_questgiver_mark"
-			id: "4926DA2655814A7C"
-			rewards: [{
-				id: "04745CFD8E1D3225"
-				item: "minecraft:emerald"
-				random_bonus: 8
-				type: "item"
-			}]
-			subtitle: "Helpful Workarounds"
-			tasks: [{
-				id: "369068DF9C004ADC"
-				title: "Integration Quests"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: 0.0d
+			x: 14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6A6C399AB9F1BBE0"]
@@ -412,8 +373,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -2.0d
+			x: 9.040815d
+			y: -1.984695000000002d
 		}
 		{
 			dependencies: ["133BCE410E613A4F"]
@@ -423,8 +384,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 1.0d
+			x: 14.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["73D50C93EBC09617"]
@@ -434,124 +395,8 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["1095B567B96DDCF3"]
-			id: "6EA399742F8C544A"
-			tasks: [{
-				id: "2A89895F6E5F5520"
-				item: "minecraft:brewing_stand"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1095B567B96DDCF3"]
-			id: "43A0045BA51BDADE"
-			tasks: [{
-				id: "05986C2AEF6071B4"
-				item: "minecraft:smoker"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["43A0045BA51BDADE"]
-			hide_dependency_lines: true
-			id: "21EC3E863C731F5F"
-			optional: true
-			rewards: [{
-				id: "63610C1645591AAC"
-				item: "pamhc2foodextended:gourmetbeefburgeritem"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "5DBE802373FF99AE"
-				item: "workers:cattle_farmer_block"
-				type: "item"
-			}]
-			x: -1.25d
-			y: 0.75d
-		}
-		{
-			dependencies: ["43A0045BA51BDADE"]
-			hide_dependency_lines: true
-			id: "57926C25D6CBD186"
-			optional: true
-			rewards: [{
-				id: "7A720BA374D0C882"
-				item: "pamhc2foodcore:friedchickenitem"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "404AD7BAA3CAB928"
-				item: "workers:chicken_farmer_block"
-				type: "item"
-			}]
-			x: -0.75d
-			y: 0.75d
-		}
-		{
-			dependencies: ["6EA399742F8C544A"]
-			hide_dependency_lines: true
-			id: "6B6CB23D39BAD646"
-			rewards: [
-				{
-					count: 3
-					id: "7CC379B40E1070E3"
-					item: "minecraft:ender_pearl"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "1066D60D6F031AA9"
-					item: {
-						Count: 1
-						id: "apotheosis:ender_lead"
-						tag: {
-							Damage: 0
-							entity_data: { }
-						}
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "778709F5AC13F8C7"
-					item: "enderio:enderios"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "37779F1E54F2B217"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			x: 1.25d
-			y: -2.25d
-		}
-		{
-			dependencies: ["6EA399742F8C544A"]
-			hide_dependency_lines: true
-			id: "043C3E0B59D25377"
-			size: 0.5d
-			tasks: [{
-				id: "128AC4B0740A0D04"
-				item: "minecraft:experience_bottle"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.75d
 		}
 		{
 			dependencies: ["56AE41FF2C03F86B"]
@@ -576,15 +421,17 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 6.040815d
+			y: -0.9846950000000021d
 		}
 		{
 			dependencies: [
 				"3949B38795D8BB00"
 				"65906C67930D8562"
 			]
+			hide_dependency_lines: true
 			id: "4043238D8899D8A4"
+			optional: true
 			rewards: [
 				{
 					id: "28DFC6903F83D9A8"
@@ -600,13 +447,14 @@
 					type: "item"
 				}
 			]
+			size: 0.5d
 			tasks: [{
 				id: "01F491BEADA8F882"
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.0d
+			x: 9.790815d
+			y: -1.984695000000002d
 		}
 		{
 			dependencies: ["537C4411B628FDE7"]
@@ -631,8 +479,8 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 4.040815d
+			y: 2.015304999999998d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -650,490 +498,8 @@
 				title: "Craft a Functional Storage Drawer."
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["43A0045BA51BDADE"]
-			hide_dependency_lines: true
-			id: "306B79A4850AB109"
-			optional: true
-			rewards: [{
-				id: "157EC449F78E0434"
-				item: "pamhc2foodcore:porkpotpieitem"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "246BFFAF36A3DBC6"
-				item: "workers:swineherd_block"
-				type: "item"
-			}]
-			x: -0.75d
-			y: 1.25d
-		}
-		{
-			dependencies: ["43A0045BA51BDADE"]
-			hide_dependency_lines: true
-			id: "0E57559126B2EA2F"
-			optional: true
-			rewards: [{
-				id: "7F9D765BA2DCDEFE"
-				item: "farmersdelight:shepherds_pie"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "164332348179472B"
-				item: "workers:shepherd_block"
-				type: "item"
-			}]
-			x: -1.25d
-			y: 1.25d
-		}
-		{
-			dependencies: ["5D848CC085077117"]
-			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
-			id: "237B8885CE4C7AE0"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:diamond_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "17F82C7BAF1BB39E"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:armor/diamond"
-					}
-				}
-				title: "Obtain any Diamond Armor."
-				type: "item"
-			}]
-			x: 10.75d
-			y: -5.0d
-		}
-		{
-			dependencies: ["3949B38795D8BB00"]
-			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
-			id: "6F96D2E34D812C2E"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:iron_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "0A18614067C74A03"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:armor/iron"
-					}
-				}
-				title: "Obtain any Iron Armor."
-				type: "item"
-			}]
-			x: 7.75d
-			y: -2.75d
-		}
-		{
-			dependencies: ["3949B38795D8BB00"]
-			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "61556CA9DB30623A"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "7EDF98BC4C50A6A5"
-				item: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.25d
-			y: -2.75d
-		}
-		{
-			dependencies: ["6EA399742F8C544A"]
-			hide_dependency_lines: true
-			id: "010C9DBF87119054"
-			rewards: [
-				{
-					count: 3
-					id: "601787A6B8339674"
-					item: "minecraft:redstone"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "59643C6E977684A5"
-					item: "thermal:redstone_grenade"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "47F33B72C9A17E9A"
-					item: "createaddition:redstone_relay"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "363745A11D339701"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
-			title: "Early Redstone"
-			x: 0.75d
-			y: -2.25d
-		}
-		{
-			dependencies: ["6EA399742F8C544A"]
-			hide_dependency_lines: true
-			id: "086DBD45EF4E2EC7"
-			rewards: [
-				{
-					count: 3
-					id: "6BA856240645A14B"
-					item: "minecraft:glowstone_dust"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "07E801F97CDECB9D"
-					item: "pamhc2foodcore:glowberrysmoothieitem"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "6880592649EE29F7"
-					item: "pamhc2foodcore:glowberrypopsicleitem"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "7CD67670101448EF"
-				item: "minecraft:glowstone"
-				type: "item"
-			}]
-			x: 0.75d
-			y: -1.75d
-		}
-		{
-			dependencies: ["6EA399742F8C544A"]
-			hide_dependency_lines: true
-			id: "7BE7E2D2CA989393"
-			rewards: [
-				{
-					count: 3
-					id: "4245B21E0DAEAF50"
-					item: "minecraft:amethyst_shard"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "5AF78451382DE430"
-					item: "minecraft:budding_amethyst"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "49C933272ED1D89D"
-					item: "bloodmagic:amethystthrowingdagger"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "2C2CCB7A9E5D99F9"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
-			x: 1.25d
-			y: -1.75d
-		}
-		{
-			dependencies: ["1095B567B96DDCF3"]
-			id: "6ADA24A10896C917"
-			rewards: [
-				{
-					id: "147DBD43F1CA9372"
-					item: "minecraft:composter"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "2B4440DBAF9B9314"
-					item: {
-						Count: 1
-						id: "mekanismtools:lapis_lazuli_hoe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4F35DC765812E99E"
-					item: "pamhc2foodcore:toastitem"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7EEA0132B57FF18D"
-				item: "minecraft:composter"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6ADA24A10896C917"]
-			hide_dependency_lines: true
-			id: "085F3DE5CFBA04D0"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "21A80912F11F7CE7"
-				item: "workers:lumberjack_block"
-				type: "item"
-			}]
-			x: -0.25d
-			y: -1.25d
-		}
-		{
-			dependencies: ["6ADA24A10896C917"]
-			hide_dependency_lines: true
-			id: "2738071167D792BB"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "7F77CE2D79E23247"
-				item: "workers:farmer_block"
-				type: "item"
-			}]
-			x: 0.25d
-			y: -1.25d
-		}
-		{
-			dependencies: ["6ADA24A10896C917"]
-			hide_dependency_lines: true
-			id: "356EF06537754C77"
-			rewards: [
-				{
-					count: 3
-					id: "2839032F7FD069AE"
-					item: "minecraft:ink_sac"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "27319431CEFA75ED"
-					item: "supplementaries:antique_ink"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "5209D5ED0CBD8198"
-					item: "farmersdelight:squid_ink_pasta"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "08D3681A15DC4673"
-				item: "minecraft:ink_sac"
-				type: "item"
-			}]
-			x: -0.25d
-			y: -0.75d
-		}
-		{
-			dependencies: ["6ADA24A10896C917"]
-			hide_dependency_lines: true
-			id: "7AFA085404C09EB1"
-			rewards: [
-				{
-					count: 3
-					id: "117CBB4AF82D333C"
-					item: "farmersdelight:cake_slice"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "1669B43D4965A315"
-					item: "pamhc2foodextended:sprinklescupcakeitem"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "7DDB54E65B4BAB7C"
-					item: "pamhc2foodextended:redvelvetcupcakeitem"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "382AB26B2654DBE8"
-				item: "minecraft:cake"
-				type: "item"
-			}]
-			x: 0.25d
-			y: -0.75d
-		}
-		{
-			dependencies: ["65906C67930D8562"]
-			hide_dependent_lines: true
-			id: "277B3F465501BEBF"
-			tasks: [{
-				id: "0DB9DC111AED1F61"
-				item: "minecraft:grindstone"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["1095B567B96DDCF3"]
-			id: "3FE8A0F232E7B79B"
-			tasks: [{
-				id: "3F3D3099C9BCAB4A"
-				item: "minecraft:loom"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3FE8A0F232E7B79B"]
-			description: ["You wlil need more of these if you go the conventional villager route and do not use easy villagers."]
-			hide_dependency_lines: true
-			icon: "minecraft:red_bed"
-			id: "485B06C2365FE9BA"
-			rewards: [
-				{
-					id: "50EC5F5CC7FECF67"
-					item: "handcrafted:oak_fancy_bed"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "723D4D0A98C661D1"
-					item: "farmersdelight:mutton_wrap"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "24F7328272C2E8F5"
-					item: "handcrafted:oak_nightstand"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				icon: "minecraft:red_bed"
-				id: "2F3E0CC10E478CA0"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:beds"
-					}
-				}
-				title: "Obtain a bed."
-				type: "item"
-			}]
-			title: "Original Block Factory"
-			x: -0.75d
-			y: 1.75d
-		}
-		{
-			dependencies: ["3FE8A0F232E7B79B"]
-			description: ["You wlil need more of these if you go the conventional villager route and do not use easy villagers."]
-			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				id: "minecraft:shears"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "17426E46E690E244"
-			rewards: [
-				{
-					id: "227F255328361D79"
-					item: {
-						Count: 1
-						id: "minecraft:shears"
-						tag: {
-							Damage: 0
-						}
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "645FDC17EEAA0FF6"
-					item: "farmersdelight:mutton_wrap"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "3C94E6C8ACFB38FE"
-					item: "minecraft:white_wool"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:shears"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "1C719C6923B605D0"
-				item: {
-					Count: 1
-					id: "minecraft:shears"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -0.75d
-			y: 2.25d
+			x: 3.0408150000000003d
+			y: 1.015304999999998d
 		}
 		{
 			dependencies: ["6A6C399AB9F1BBE0"]
@@ -1170,8 +536,8 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 9.040815d
+			y: 1.015304999999998d
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
@@ -1194,8 +560,8 @@
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 8.040815d
+			y: -1.984695000000002d
 		}
 		{
 			hide_dependent_lines: true
@@ -1263,7 +629,10 @@
 			y: 1.75d
 		}
 		{
-			dependencies: ["0AC851170B41AD02"]
+			dependencies: [
+				"0AC851170B41AD02"
+				"182338376E9A5415"
+			]
 			description: ["Unlocks \"Gamma\" questline."]
 			id: "2260AD2796A36C0F"
 			tasks: [{
@@ -1271,8 +640,8 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -6.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2260AD2796A36C0F"]
@@ -1285,14 +654,15 @@
 				item: "farmingforblockheads:feeding_trough"
 				type: "item"
 			}]
-			x: 7.75d
-			y: -6.0d
+			x: 11.25d
+			y: 0.25d
 		}
 		{
 			dependencies: [
 				"2260AD2796A36C0F"
 				"4043238D8899D8A4"
 			]
+			hide_dependency_lines: true
 			id: "5846343034B4A132"
 			optional: true
 			rewards: [{
@@ -1301,19 +671,21 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [{
 				id: "4B4EA8FF69F124DB"
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.0d
+			x: 11.25d
+			y: -0.25d
 		}
 		{
 			dependencies: [
 				"5846343034B4A132"
 				"5D848CC085077117"
 			]
+			hide_dependency_lines: true
 			id: "228F23E3AC4880FC"
 			optional: true
 			rewards: [{
@@ -1322,18 +694,19 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [{
 				id: "5D39AA2CD880B876"
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.0d
+			x: 13.0d
+			y: -0.25d
 		}
 		{
 			dependencies: [
-				"65309454388885A3"
-				"0E950E1B0283143A"
+				"182338376E9A5415"
+				"0AC851170B41AD02"
 			]
 			id: "5D848CC085077117"
 			tasks: [{
@@ -1341,12 +714,16 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -5.0d
+			x: 13.040815d
+			y: -0.9846950000000021d
 		}
 		{
-			dependencies: ["228F23E3AC4880FC"]
+			dependencies: [
+				"228F23E3AC4880FC"
+				"1FFD16D39BDE1E10"
+			]
 			description: ["Emeralds should not be a problem..."]
+			hide_dependency_lines: true
 			id: "1D7DDF0DDD35A569"
 			optional: true
 			rewards: [{
@@ -1355,28 +732,31 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [{
 				id: "6D611B2AA1D83269"
 				item: "ironfurnaces:emerald_furnace"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -4.0d
+			x: 0.75d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"1D7DDF0DDD35A569"
 				"0A87B874851CD1B0"
 			]
+			hide_dependency_lines: true
 			id: "464102912B66AED7"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "5249E4970B802375"
 				item: "ironfurnaces:obsidian_furnace"
 				type: "item"
 			}]
 			x: 12.0d
-			y: -4.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["32AEAE8653EF3DA0"]
@@ -1395,12 +775,13 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"110517F6B8116C24"
 				"64FE1369D9DA79FF"
+				"4132CC5C94403FC1"
 			]
 			dependency_requirement: "one_completed"
 			id: "32AEAE8653EF3DA0"
@@ -1409,35 +790,44 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -10.0d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["0AC851170B41AD02"]
+			dependencies: [
+				"0AC851170B41AD02"
+				"1FFD16D39BDE1E10"
+			]
+			dependency_requirement: "one_completed"
 			id: "2E27C65E12B61E06"
 			tasks: [{
 				id: "23D1E2E574234AD6"
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["0AC851170B41AD02"]
+			dependencies: [
+				"0AC851170B41AD02"
+				"1FFD16D39BDE1E10"
+			]
+			dependency_requirement: "one_completed"
 			id: "700D0FB31E0D600E"
 			tasks: [{
 				id: "725FEE07380F662C"
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"37C31E5A1FB0A120"
 				"33A3E11BD0EB479B"
+				"133BCE410E613A4F"
 			]
 			description: ["By washing down Soul Sand, you can uncover valuable Nether Quartz, a resource essential for advanced crafting and technology."]
 			id: "7B2DCE5368BC4D89"
@@ -1449,8 +839,8 @@
 				type: "item"
 			}]
 			title: "Shifting Sands"
-			x: 11.0d
-			y: 1.0d
+			x: 16.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7B2DCE5368BC4D89"]
@@ -1460,8 +850,8 @@
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.0d
+			x: 17.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1483,8 +873,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 4.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["33A3E11BD0EB479B"]
@@ -1509,8 +899,8 @@
 				item: "minecraft:glow_berries"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 5.0d
+			x: 15.040815d
+			y: 9.015304999999998d
 		}
 		{
 			dependencies: [
@@ -1539,8 +929,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 13.040815d
+			y: 7.015304999999998d
 		}
 		{
 			dependencies: [
@@ -1577,8 +967,8 @@
 				title: "Craft a Botany Pot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.0d
+			x: 14.040815d
+			y: 8.015304999999998d
 		}
 		{
 			dependencies: ["4D8406023D00753A"]
@@ -1610,8 +1000,8 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -4.0d
+			x: 15.040815d
+			y: -3.984695000000002d
 		}
 		{
 			dependencies: [
@@ -1631,8 +1021,8 @@
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -4.0d
+			x: 14.040815d
+			y: -3.984695000000002d
 		}
 		{
 			dependencies: ["110517F6B8116C24"]
@@ -1664,8 +1054,8 @@
 				}
 			]
 			title: "Wither Skeleton Skulls"
-			x: 16.0d
-			y: 0.0d
+			x: 17.040815000000002d
+			y: 0.015304999999997904d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -1675,8 +1065,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1697,8 +1087,8 @@
 				item: "kubejs:steel_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["305CAD4BB78423E7"]
@@ -1718,11 +1108,10 @@
 				item: "mob_grinding_utils:wither_muffler"
 				type: "item"
 			}]
-			x: 15.75d
-			y: -0.75d
+			x: 16.790815000000002d
+			y: -0.7346950000000021d
 		}
 		{
-			dependencies: ["65309454388885A3"]
 			description: ["Useful for compressing your setups.  Highly recommend."]
 			id: "57E3AFC98283C7DA"
 			optional: true
@@ -1768,7 +1157,7 @@
 				title: "Craft a Compact Machine."
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: -3.0d
 		}
 		{
@@ -1789,8 +1178,8 @@
 				item: "minecraft:nether_wart"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 15.040815d
+			y: 7.015304999999998d
 		}
 		{
 			dependencies: [
@@ -1810,8 +1199,8 @@
 				item: "minecraft:wither_rose"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 0.0d
+			x: 18.040815000000002d
+			y: 0.015304999999997904d
 		}
 		{
 			dependencies: ["0A87B874851CD1B0"]
@@ -1828,8 +1217,8 @@
 				item: "minecraft:crying_obsidian"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -8.0d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1848,8 +1237,8 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -8.0d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
 			description: ["Obtained either through Apotheosis Enchanting or Mekanism Antiprotonic Nucleosynthesizer. "]
@@ -1895,8 +1284,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: 4.0d
+			x: 17.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["433391CE678F39BF"]
@@ -1921,8 +1310,8 @@
 				item: "minecraft:brick"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.0d
+			x: 13.040815d
+			y: 8.015304999999998d
 		}
 		{
 			dependencies: ["4876AC4B509F2950"]
@@ -1950,8 +1339,8 @@
 				item: "chipped:mason_table"
 				type: "item"
 			}]
-			x: 11.25d
-			y: 3.75d
+			x: 12.290815d
+			y: 7.765304999999998d
 		}
 		{
 			dependencies: ["433391CE678F39BF"]
@@ -1977,8 +1366,8 @@
 				type: "item"
 			}]
 			title: "Formerly Hardened Clay"
-			x: 13.0d
-			y: 3.0d
+			x: 14.040815d
+			y: 7.015304999999998d
 		}
 		{
 			dependencies: ["305CAD4BB78423E7"]
@@ -1988,8 +1377,8 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.0d
+			x: 17.040815000000002d
+			y: 1.015304999999998d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -2032,8 +1421,8 @@
 				}
 			]
 			title: "Cobblestone"
-			x: 4.0d
-			y: 0.0d
+			x: 5.040815d
+			y: 0.015304999999997904d
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
@@ -2049,8 +1438,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 10.040815d
+			y: -0.9846950000000021d
 		}
 		{
 			dependencies: ["56AE41FF2C03F86B"]
@@ -2066,8 +1455,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 5.040815d
+			y: -3.984695000000002d
 		}
 		{
 			dependencies: ["18FE5F126CAAA79E"]
@@ -2091,8 +1480,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -5.0d
+			x: 4.040815d
+			y: -4.984695000000002d
 		}
 		{
 			dependencies: ["56AE41FF2C03F86B"]
@@ -2129,207 +1518,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["22A166C0303A6C2C"]
-			id: "46B5B20602A50628"
-			optional: true
-			rewards: [{
-				id: "0E6A327F6AF27EA6"
-				item: "minecraft:copper_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "create_sa:copper_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "75A89B14E75E2A45"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "create:copper_armor"
-					}
-				}
-				title: "Craft Copper Armor"
-				type: "item"
-			}]
-			x: 5.75d
-			y: 1.75d
-		}
-		{
-			dependencies: ["22A166C0303A6C2C"]
-			id: "11DEDA7632AE417C"
-			optional: true
-			rewards: [{
-				id: "12E4BA5C0EEB2001"
-				item: "minecraft:copper_ingot"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "create_sa:copper_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "74CE55E710BA25E1"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "create:copper_tools"
-					}
-				}
-				title: "Craft a Copper Tool"
-				type: "item"
-			}]
-			x: 5.75d
-			y: 2.25d
-		}
-		{
-			dependencies: ["2E27C65E12B61E06"]
-			icon: {
-				Count: 1
-				id: "mekanismtools:lapis_lazuli_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "703BB085459DC254"
-			optional: true
-			rewards: [{
-				id: "0916EDB5FC92ECCA"
-				item: "minecraft:lapis_lazuli"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "65778D87BFD7F340"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "create:lapis_tools"
-					}
-				}
-				title: "Craft a Lapis Tool"
-				type: "item"
-			}]
-			x: 8.75d
-			y: 3.0d
-		}
-		{
-			dependencies: ["703BB085459DC254"]
-			icon: {
-				Count: 1
-				id: "mekanismtools:lapis_lazuli_paxel"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "7FDF7D77F7D341BF"
-			optional: true
-			rewards: [{
-				id: "5BF41FAA8515198B"
-				item: "minecraft:lapis_lazuli"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "1A1E0A0DB9753C99"
-				item: {
-					Count: 1
-					id: "mekanismtools:lapis_lazuli_paxel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.25d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2E27C65E12B61E06"]
-			icon: {
-				Count: 1
-				id: "mekanismtools:lapis_lazuli_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "2E6FFACBD431A595"
-			optional: true
-			rewards: [{
-				id: "3FE33BC1BE0368D6"
-				item: "minecraft:lapis_lazuli"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "3BD1E2AA1D1993F0"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "create:lapis_armor"
-					}
-				}
-				title: "Craft Lapis Armor"
-				type: "item"
-			}]
-			x: 8.75d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"2E27C65E12B61E06"
-				"61556CA9DB30623A"
-			]
-			icon: {
-				Count: 1
-				id: "mekanismtools:lapis_lazuli_shield"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "4786F4336E5D82FF"
-			optional: true
-			rewards: [{
-				id: "5ACE2F18349F2AAF"
-				item: "minecraft:lapis_lazuli"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "1001025CC8B08D7F"
-				item: {
-					Count: 1
-					id: "mekanismtools:lapis_lazuli_shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 8.75d
-			y: 2.5d
+			x: 7.040815d
+			y: 0.015304999999997904d
 		}
 		{
 			dependencies: [
@@ -2345,69 +1535,6 @@
 			}]
 			x: -6.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["08D84D303B46BF2D"]
-			hide_dependency_lines: true
-			id: "1AC7D791E7AF0A9F"
-			rewards: [
-				{
-					id: "1550FE7B8DEA3068"
-					item: "minecraft:cobweb"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "3D36F29E99BE0ED4"
-					item: "minecraft:honeycomb"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "5540F528813497C2"
-					item: "minecraft:string"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0FC990C028CAD32F"
-				item: "minecraft:cobweb"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"1AC7D791E7AF0A9F"
-				"1CD2B2DAD30A3AF8"
-			]
-			id: "32DEA9903B58A60B"
-			rewards: [
-				{
-					id: "45328EF0F62792AC"
-					item: "apotheosis:prismatic_web"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6EEA93EC6771AC52"
-					item: "minecraft:cobweb"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "658135EDDCD0B81E"
-				item: "apotheosis:prismatic_web"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 5.0d
 		}
 		{
 			dependencies: ["08D84D303B46BF2D"]
@@ -2458,63 +1585,8 @@
 				item: "minecraft:lodestone"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"5D848CC085077117"
-				"277B3F465501BEBF"
-			]
-			hide_dependency_lines: false
-			icon: {
-				Count: 1
-				id: "minecraft:diamond_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "37BC89CEF087A02F"
-			rewards: [{
-				id: "5C5E863AEF4F7307"
-				item: "minecraft:diamond"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "1806025A7B2636A3"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:tools/diamond"
-					}
-				}
-				title: "Craft a Diamond Tool"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["37BC89CEF087A02F"]
-			id: "33366338CBC6A316"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "6DB5FC0154DDF8FB"
-				item: {
-					Count: 1
-					id: "mekanismtools:diamond_paxel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 11.0d
-			y: -6.75d
+			x: 16.040815000000002d
+			y: -3.984695000000002d
 		}
 		{
 			id: "2D57CF7E0CA36CAB"
@@ -2523,8 +1595,8 @@
 				item: "minecraft:heart_of_the_sea"
 				type: "item"
 			}]
-			x: 9.06803d
-			y: 7.991495d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6262C580B72FD2C5"]
@@ -2534,8 +1606,8 @@
 				item: "minecraft:nautilus_shell"
 				type: "item"
 			}]
-			x: 7.057825000000001d
-			y: 6.0017000000000005d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -2548,8 +1620,8 @@
 				item: "minecraft:conduit"
 				type: "item"
 			}]
-			x: 9.06803d
-			y: 6.991495d
+			x: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6A956A02FD58E257"]
@@ -2565,8 +1637,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.807825000000001d
-			y: 6.0017000000000005d
+			x: 8.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2A9A53C32599ECB6"]
@@ -2576,8 +1648,8 @@
 				item: "gag:sacred_salt"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 15.040815d
+			y: 10.015304999999998d
 		}
 		{
 			dependencies: ["5FE9B299B6C3FD5E"]
@@ -2587,8 +1659,8 @@
 				item: "gag:sacred_balm"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 7.0d
+			x: 15.040815d
+			y: 11.015304999999998d
 		}
 		{
 			dependencies: ["5FE9B299B6C3FD5E"]
@@ -2598,11 +1670,12 @@
 				item: "gag:sacred_salve"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 7.0d
+			x: 16.040815000000002d
+			y: 11.015304999999998d
 		}
 		{
 			dependencies: ["3A6569F022E9D9AC"]
+			hide_dependency_lines: true
 			id: "303406E1804735C0"
 			optional: true
 			rewards: [
@@ -2625,8 +1698,8 @@
 				item: "crafting_on_a_stick:anvil"
 				type: "item"
 			}]
-			x: 6.25d
-			y: -1.25d
+			x: 7.290815d
+			y: -1.984695000000002d
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
@@ -2648,8 +1721,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 9.040815d
+			y: -2.984695000000002d
 		}
 		{
 			dependencies: ["133BCE410E613A4F"]
@@ -2667,7 +1740,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["750E93C060FF0D84"]
@@ -2685,7 +1758,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["18FE5F126CAAA79E"]
@@ -2709,8 +1782,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -5.0d
+			x: 5.040815d
+			y: -4.984695000000002d
 		}
 		{
 			dependencies: ["18FE5F126CAAA79E"]
@@ -2734,8 +1807,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -5.0d
+			x: 6.040815d
+			y: -4.984695000000002d
 		}
 		{
 			dependencies: ["6262C580B72FD2C5"]
@@ -2751,8 +1824,8 @@
 				item: "minecraft:melon_seeds"
 				type: "item"
 			}]
-			x: 6.061905000000001d
-			y: 7.0057800000000015d
+			x: 7.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1E69978C3A1B8894"]
@@ -2762,8 +1835,8 @@
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
-			x: 6.061905000000001d
-			y: 8.005780000000001d
+			x: 7.0d
+			y: 8.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -2776,8 +1849,8 @@
 				to_observe: "minecraft:wandering_trader"
 				type: "observation"
 			}]
-			x: 6.061905000000001d
-			y: 6.0057800000000015d
+			x: 7.1027200000000015d
+			y: 6.021084999999999d
 		}
 		{
 			dependencies: ["6262C580B72FD2C5"]
@@ -2794,8 +1867,8 @@
 				item: "minecraft:lead"
 				type: "item"
 			}]
-			x: 5.061905000000001d
-			y: 6.0017000000000005d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -2842,8 +1915,8 @@
 				item: "minecraft:glass_bottle"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.0d
+			x: 15.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6262C580B72FD2C5"]
@@ -2860,506 +1933,8 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: 6.057825000000001d
-			y: 5.0017000000000005d
-		}
-		{
-			hide_dependent_lines: true
-			id: "6EFE6EC0F08B4A00"
-			secret: true
-			size: 1.0E-4d
-			tasks: [{
-				id: "4D2A28A255AD33B2"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:blast_furnace"
-				type: "observation"
-			}]
-			x: -4.5578d
-			y: 6.0136d
-		}
-		{
-			dependencies: ["6EFE6EC0F08B4A00"]
-			icon: {
-				Count: 1
-				id: "minecraft:diamond_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "14BF8530EAC0452A"
-			rewards: [
-				{
-					count: 3
-					id: "60E237788FFBF2ED"
-					item: "minecraft:diamond"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "5763C62FB0B6EB7E"
-					item: "minecraft:emerald"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5AD6F8BA75F1E006"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7C80E08D14532359"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0E85C333C5BDFD2C"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2A0EED8D0CD45415"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Obtain Diamond Armor"
-			x: -0.9694000000000003d
-			y: 5.0102d
-		}
-		{
-			dependencies: ["6EFE6EC0F08B4A00"]
-			icon: {
-				Count: 1
-				id: "minecraft:iron_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "421CA3763D7C0DF3"
-			rewards: [
-				{
-					count: 3
-					id: "69CBE3E76AF2D853"
-					item: "minecraft:iron_ingot"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "2DDFD10C19DDDEF5"
-					item: "minecraft:emerald"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "774CAD2DC174A855"
-					item: {
-						Count: 1
-						id: "minecraft:iron_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "608932506E7B655C"
-					item: {
-						Count: 1
-						id: "minecraft:iron_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1F451B38AF25DF36"
-					item: {
-						Count: 1
-						id: "minecraft:iron_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "76F092394658660D"
-					item: {
-						Count: 1
-						id: "minecraft:iron_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Obtain Iron Armor"
-			x: -1.9694000000000003d
-			y: 5.0102d
-		}
-		{
-			dependencies: ["6EFE6EC0F08B4A00"]
-			icon: {
-				Count: 1
-				id: "minecraft:chainmail_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "44936A8A76C8DD1F"
-			rewards: [
-				{
-					count: 3
-					id: "22E84D9918C5D543"
-					item: "minecraft:chain"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "6705AC7CA0E2D106"
-					item: "minecraft:emerald"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [
-				{
-					id: "7258CE10990E576C"
-					item: {
-						Count: 1
-						id: "minecraft:chainmail_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "27E6C3AEF661904F"
-					item: {
-						Count: 1
-						id: "minecraft:chainmail_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4976966DD275F910"
-					item: {
-						Count: 1
-						id: "minecraft:chainmail_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "227900CF2DF623CB"
-					item: {
-						Count: 1
-						id: "minecraft:chainmail_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Obtain Chainmail Armor"
-			x: -4.5d
+			x: 7.0d
 			y: 5.0d
-		}
-		{
-			dependencies: [
-				"6EFE6EC0F08B4A00"
-				"6AC6BE4F99571681"
-			]
-			id: "00A7FBE838D780B5"
-			rewards: [{
-				count: 5
-				id: "17BEC0598800029D"
-				item: "minecraft:emerald"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "4E4E9FDC3AFB7191"
-				item: "minecraft:bell"
-				type: "item"
-			}]
-			x: -5.25d
-			y: 6.75d
-		}
-		{
-			dependencies: ["6EFE6EC0F08B4A00"]
-			id: "114AEA87CA85A640"
-			rewards: [{
-				count: 5
-				id: "4DDC4537E9270C16"
-				item: "minecraft:emerald"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E1D84510AC70930"
-				item: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			hide_dependent_lines: true
-			id: "6AC6BE4F99571681"
-			secret: true
-			size: 1.0E-4d
-			tasks: [{
-				id: "64BEBBF37A224812"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:smithing_table"
-				type: "observation"
-			}]
-			x: -5.9694d
-			y: 6.0102d
-		}
-		{
-			dependencies: ["6AC6BE4F99571681"]
-			icon: {
-				Count: 1
-				id: "minecraft:stone_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "0463F26D57BE89BA"
-			rewards: [{
-				count: 5
-				id: "170E9C26783E3105"
-				item: "minecraft:emerald"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [
-				{
-					id: "759A00B933D6156C"
-					item: {
-						Count: 1
-						id: "minecraft:stone_shovel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1F8DE312F85EB124"
-					item: {
-						Count: 1
-						id: "minecraft:stone_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3C1A625B0C8EC4C5"
-					item: {
-						Count: 1
-						id: "minecraft:stone_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1A0F09F2BBE19C33"
-					item: {
-						Count: 1
-						id: "minecraft:stone_hoe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Obtain Stone Tools"
-			x: -6.25d
-			y: 5.25d
-		}
-		{
-			dependencies: ["6AC6BE4F99571681"]
-			icon: {
-				Count: 1
-				id: "minecraft:iron_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "248EE8101AAE29C9"
-			rewards: [{
-				count: 5
-				id: "6B45ED1EEF556294"
-				item: "minecraft:emerald"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [
-				{
-					id: "0C2E5D2B23F4A2BF"
-					item: {
-						Count: 1
-						id: "minecraft:iron_shovel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "11625985DEF92528"
-					item: {
-						Count: 1
-						id: "minecraft:iron_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2F45AC8CDE83DB36"
-					item: {
-						Count: 1
-						id: "minecraft:iron_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Obtain Iron Tools"
-			x: -5.75d
-			y: 5.25d
-		}
-		{
-			dependencies: ["6AC6BE4F99571681"]
-			icon: {
-				Count: 1
-				id: "minecraft:diamond_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "7F75893C9407695F"
-			rewards: [{
-				count: 5
-				id: "2667FE0C68BFD0C4"
-				item: "minecraft:emerald"
-				random_bonus: 2
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [
-				{
-					id: "5065DA3748989FA8"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_shovel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "227CBF4F5B761BF4"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "13DE7A4905A253CA"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "43EC14BFF7D002E8"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_hoe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Obtain Diamond Tools"
-			x: -5.25d
-			y: 5.25d
 		}
 		{
 			dependencies: ["6262C580B72FD2C5"]
@@ -3375,8 +1950,8 @@
 				item: "minecraft:pumpkin_seeds"
 				type: "item"
 			}]
-			x: 5.057825000000001d
-			y: 6.9976199999999995d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["26F6423FEC9344FF"]
@@ -3386,8 +1961,8 @@
 				item: "minecraft:pumpkin"
 				type: "item"
 			}]
-			x: 5.057825000000001d
-			y: 7.99762d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6262C580B72FD2C5"]
@@ -3404,8 +1979,8 @@
 				title: "Obtain Coral Blocks"
 				type: "item"
 			}]
-			x: 7.057825000000001d
-			y: 5.0017000000000005d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6262C580B72FD2C5"]
@@ -3428,8 +2003,8 @@
 				item: "minecraft:cactus"
 				type: "item"
 			}]
-			x: 5.057825000000001d
-			y: 5.0017000000000005d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -3442,8 +2017,8 @@
 				item: "minecraft:book"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 4.040815d
+			y: 3.015304999999998d
 		}
 		{
 			dependencies: ["73D50C93EBC09617"]
@@ -3529,6 +2104,69 @@
 			}]
 			x: -5.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["0E2936F6EEABE216"]
+			icon: "minecraft:cobbled_deepslate"
+			id: "182338376E9A5415"
+			rewards: [{
+				id: "5E029BB4CEDEE237"
+				item: "minecraft:cobbled_deepslate"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50531178D8423C9B"
+					item: "kubejs:deepslate_pebble"
+					type: "item"
+				}
+				{
+					id: "46B5AB6B76146C1D"
+					item: "minecraft:cobbled_deepslate"
+					type: "item"
+				}
+			]
+			title: "Deepslate"
+			x: 12.040815d
+			y: -0.9846950000000021d
+		}
+		{
+			dependencies: ["73D50C93EBC09617"]
+			id: "1FFD16D39BDE1E10"
+			tasks: [{
+				id: "29B27EFC6F29EA0A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			id: "4132CC5C94403FC1"
+			rewards: [
+				{
+					id: "049477C46C9B0C21"
+					item: "minecraft:bucket"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0F9501F1FB0EA5E5"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B91E352EA33A941"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
 		}
 	]
 	title: "Alpha"
