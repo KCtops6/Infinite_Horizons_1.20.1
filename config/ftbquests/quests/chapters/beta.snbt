@@ -223,17 +223,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["0F7904AFEA14F4A4"]
-			id: "65309454388885A3"
-			tasks: [{
-				id: "77CE9C42AAD01112"
-				item: "minecraft:deepslate"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 7.0d
-		}
-		{
 			dependencies: [
 				"1FE1CE8D6DFD3C3B"
 				"58BF596101EB652D"
