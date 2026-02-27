@@ -1000,14 +1000,15 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 15.040815d
-			y: -3.984695000000002d
+			x: 15.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"464102912B66AED7"
 				"6014A13DF01D4487"
 			]
+			hide_dependency_lines: true
 			id: "4BC4D7E32058BFB5"
 			optional: true
 			rewards: [{
@@ -1016,13 +1017,14 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [{
 				id: "4E51DB96623E8A96"
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			x: 14.040815d
-			y: -3.984695000000002d
+			x: 15.0d
+			y: -4.75d
 		}
 		{
 			dependencies: ["110517F6B8116C24"]
@@ -1585,8 +1587,8 @@
 				item: "minecraft:lodestone"
 				type: "item"
 			}]
-			x: 16.040815000000002d
-			y: -3.984695000000002d
+			x: 16.0d
+			y: -4.0d
 		}
 		{
 			id: "2D57CF7E0CA36CAB"
