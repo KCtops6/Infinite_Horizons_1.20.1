@@ -289,6 +289,21 @@ ServerEvents.recipes(event => {
      * Netherrack
      */
     event.recipes.createsifterSifting([
+        Item.of('minecraft:raw_gold').withChance(0.125)
+    ], ['kubejs:netherrack_gravel', 'kubejs:copper_mesh']).id('kubejs/recipes/createsifterSifting/copper/netherrack');
+    event.recipes.createsifterSifting([
+        Item.of('minecraft:raw_gold').withChance(0.25)
+    ], ['kubejs:netherrack_gravel', 'kubejs:iron_mesh']).id('kubejs/recipes/createsifterSifting/iron/netherrack');
+    event.recipes.createsifterSifting([
+        Item.of('minecraft:raw_gold').withChance(0.375),
+        Item.of('kubejs:raw_uranium').withChance(0.125)
+    ], ['kubejs:netherrack_gravel', 'createsifter:brass_mesh']).id('kubejs/recipes/createsifterSifting/brass/netherrack');
+    event.recipes.createsifterSifting([
+        Item.of('minecraft:raw_gold').withChance(0.5),
+        Item.of('kubejs:raw_uranium').withChance(0.25),
+        Item.of('occultism:raw_iesnium').withChance(0.0625)
+    ], ['kubejs:netherrack_gravel', 'kubejs:netherite_mesh']).id('kubejs/recipes/createsifterSifting/netherite/netherrack');
+    event.recipes.createsifterSifting([
         Item.of('gtceu:raw_beryllium').withChance(0.25),
         Item.of('gtceu:raw_emerald').withChance(0.125),
         Item.of('gtceu:raw_thorium').withChance(0.0625),
