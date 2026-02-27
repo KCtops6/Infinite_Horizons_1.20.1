@@ -49,3 +49,5 @@ config/chat_heads.json5
 config/gtceu.yaml
 config/jade/*
 .vscode/
+config/expatternprovider-common.toml
+config/integrateddynamics-common.toml
