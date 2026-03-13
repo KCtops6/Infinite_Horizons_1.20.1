@@ -2,6 +2,9 @@ const materials = ['stone', 'iron', 'diamond', 'netherite'];
 const recipes = [
     { input: 'minecraft:cobblestone', output: 'minecraft:gravel'},
     { input: 'minecraft:gravel', output: 'minecraft:sand'},
+    { input: 'minecraft:andesite', output: 'kubejs:andesite_gravel'},
+    { input: 'minecraft:diorite', output: 'kubejs:diorite_gravel'},
+    { input: 'minecraft:granite', output: 'kubejs:granite_gravel'},
     { input: 'minecraft:sand', output: 'createsifter:dust'}
 ]
 LootJS.modifiers((event) => {
