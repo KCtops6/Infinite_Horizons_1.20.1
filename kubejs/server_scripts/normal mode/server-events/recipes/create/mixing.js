@@ -311,11 +311,11 @@ ServerEvents.recipes(event => {
     // lava
     event.custom({
         type: "create:mixing",
-        heatRequirement: "heated",
+        heatRequirement: "lowheated",
         ingredients: [
             {
                 count: 1,
-                item: 'twigs:pebble'
+                tag: 'kubejs:pebbles'
             }
         ],
         results: [
