@@ -51,3 +51,7 @@ config/jade/*
 .vscode/
 config/expatternprovider-common.toml
 config/integrateddynamics-common.toml
+config/create-stuff-additions.toml
+config/cupboard.json
+config/apotheosis/enchantments.cfg
+config/jei/ingredient-list-mod-sort-order.ini
