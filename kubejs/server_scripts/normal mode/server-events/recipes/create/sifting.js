@@ -426,6 +426,7 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:wheat_seeds').withChance(0.5),
         Item.of('minecraft:pumpkin_seeds').withChance(0.2),
         Item.of('minecraft:melon_seeds').withChance(0.2),
+        Item.of('minecraft:sweet_berry_bush').withChance(0.15),
         Item.of('farmersdelight:cabbage_seeds').withChance(0.1),
         Item.of('farmersdelight:tomato_seeds').withChance(0.1),
         Item.of('supplementaries:flax_seeds').withChance(0.1),
