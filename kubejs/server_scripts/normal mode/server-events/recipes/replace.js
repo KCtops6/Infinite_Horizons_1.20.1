@@ -26,4 +26,5 @@ ServerEvents.recipes(event => {
         { old: 'botania:terrasteel_block', new: 'kubejs:terrasteel_block'}
     ];
     replaceOutputs.forEach(outputs => { event.replaceOutput({ outputs: outputs.old }, outputs.old, outputs.new); });
+    event.replaceInput({ input: 'thermal:cured_rubber' }, 'thermal:cured_rubber', 'kubejs:raw_rubber');
 });

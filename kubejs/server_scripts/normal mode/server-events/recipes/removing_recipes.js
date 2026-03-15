@@ -41,4 +41,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'twigs:cobblestone_from_pebble' });
 
     event.remove({ id: 'create:milling/granite' });
+    event.remove({ input: 'mysticalagriculture:rubber_essence' });
 });

@@ -729,4 +729,11 @@ ServerEvents.recipes(event => {
         I: 'kubejs:iron_plate',
         R: 'kubejs:rubber_sheet'
     }).id('kubejs:shaped/printer_from_rubber');
+    event.shaped(Item.of('kubejs:raw_rubber', 8), [
+        'EEE',
+        '   ',
+        '   '
+    ], {
+        E: 'mysticalagriculture:rubber_essence'
+    }).id('kubejs:shaped/raw_rubber_from_essence');
 });
