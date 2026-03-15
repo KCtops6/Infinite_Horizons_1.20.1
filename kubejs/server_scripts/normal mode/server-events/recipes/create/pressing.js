@@ -22,9 +22,4 @@ ServerEvents.recipes(event => {
             ]
         });
     });
-    event.custom({
-        type: "create:pressing",
-        ingredients: [{ item: 'kubejs:raw_rubber' }],
-        results: [{ item: 'kubejs:rubber_sheet'}]
-    }).id('raw_rubber_to_rubber_sheet');
 });

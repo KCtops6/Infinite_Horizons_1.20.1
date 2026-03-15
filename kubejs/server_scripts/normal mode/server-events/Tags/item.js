@@ -98,5 +98,5 @@ ServerEvents.tags('item', event => {
     global.raw_ores.forEach(r => {
         event.add(`forge:raw_materials/${r}`, `kubejs:raw_${r}`);
     });
-    event.add('kubejs:raw_rubber', ['thermal:cured_rubber', 'kubejs:raw_rubber']);
+    event.add('forge:rubber', 'thermal:cured_rubber');
 });
