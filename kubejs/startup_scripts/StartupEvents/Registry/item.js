@@ -58,12 +58,8 @@ const ingots = [
 ];
 const plates = [
     'aluminum', 'brass', 'bronze',
-    'constantan', 'copper', 'electrum',
-    'enderium', 'gold', 'infinitium',
-    'invar', 'iron', 'lead',
-    'lumium', 'manasteel', 'netherite',
-    'nickel', 'signalum', 'silver', 'steel',
-    'terrasteel', 'tin', 'zinc'
+    'constantan', 'copper', 'electrum', 'gold', 'infinitium',
+    'invar', 'iron', 'lead', 'lumium', 'nickel', 'signalum', 'silver', 'steel', 'tin', 'zinc'
 ];
 const gems = [
     { id: 'apatite', displayName: 'Apatite'},
@@ -75,13 +71,9 @@ const gems = [
 ];
 const gears = [
     'bronze', 'constantan', 'copper',
-    'diamond', 'electrum', 'emerald',
-    'enderium', 'gold', 'invar',
+    'diamond', 'electrum', 'emerald', 'gold', 'invar',
     'iron', 'lapis', 'lead',
-    'lumium', 'manasteel', 'netherite',
-    'nickel', 'quartz', 'ruby', 
-    'sapphire', 'signalum', 'silver',
-    'terrasteel', 'tin'
+    'lumium', 'nickel', 'sapphire', 'signalum', 'silver', 'tin'
 ];
 const nuggets = [
     'brass', 'bronze', 'constantan',
