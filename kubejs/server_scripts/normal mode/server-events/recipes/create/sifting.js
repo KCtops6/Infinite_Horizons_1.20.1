@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:raw_copper').withChance(0.25),
         Item.of('minecraft:raw_iron').withChance(0.5),
         Item.of('kubejs:raw_aluminum').withChance(0.125),
-        Item.of('kubejs:raw_zinc').withChance(0.25),
+        Item.of('create:raw_zinc').withChance(0.25),
         Item.of('kubejs:raw_tin').withChance(0.25),
         Item.of('minecraft:coal').withChance(0.5),
         Item.of('kubejs:raw_aluminum').withChance(0.125)
@@ -69,13 +69,13 @@ ServerEvents.recipes(event => {
         Item.of('kubejs:raw_aluminum').withChance(0.25),
         Item.of('kubejs:raw_osmium').withChance(0.25),
         Item.of('kubejs:raw_tin').withChance(0.5),
-        Item.of('kubejs:raw_zinc').withChance(0.5),
+        Item.of('create:raw_zinc').withChance(0.5),
         Item.of('minecraft:lapis_lazuli').withChance(0.25),
         Item.of('minecraft:coal').withChance(0.75),
         Item.of('irons_spellbooks:raw_mithril').withChance(0.0625)
     ], ['minecraft:gravel','createsifter:brass_mesh']).id('kubejs/recipes/createsifterSifting/brass/gravel');
     event.recipes.createsifterSifting([
-        Item.of('kubejs:raw_zinc').withChance(0.25),
+        Item.of('create:raw_zinc').withChance(0.25),
         Item.of('kubejs:raw_aluminum').withChance(0.375),
         Item.of('kubejs:raw_tin').withChance(0.25),
         Item.of('kubejs:raw_osmium').withChance(0.5),
