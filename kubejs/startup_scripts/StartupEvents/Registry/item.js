@@ -37,24 +37,21 @@ const dusts = [
     'aluminum', 'apatite', 'brass',
     'bronze', 'charcoal', 'cinnabar',
     'constantan', 'coal', 'copper',
-    'diamond', 'electrum', 'elementium', 'emerald',
+    'diamond', 'electrum', 'emerald',
     'enderium', 'gold', 'invar',
     'iron', 'lapis', 'lead',
-    'lumium', 'manasteel', 'netherite', 'nickel',
+    'lumium', 'netherite', 'nickel',
     'niter', 'obsidian', 'osmium',
     'quartz', 'sapphire', 'signalum',
-    'silver', 'steel', 'sulfur',
-    'terrasteel', 'ruby', 'tin',
+    'silver', 'steel', 'sulfur', 'ruby', 'tin',
     'uranium', 'zinc'
 ];
 const ingots = [
     'aluminum', 'brass', 'bronze',
-    'constantan', 'electrum', 'elementium', 'enderium',
+    'constantan', 'electrum', 'enderium',
     'infinitium', 'invar', 'lead',
-    'lumium', 'manasteel', 'nickel',
-    'osmium', 'signalum', 'silver',
-    'steel', 'terrasteel',
-    'tin', 'uranium', 'zinc'
+    'lumium', 'nickel', 'osmium', 'signalum', 'silver',
+    'steel', 'tin', 'uranium', 'zinc'
 ];
 const plates = [
     'aluminum', 'brass', 'bronze',
@@ -78,9 +75,9 @@ const gears = [
 const nuggets = [
     'brass', 'bronze', 'constantan',
     'copper', 'electrum', 'enderium', 
-    'invar', 'lead', 'lumium', 'manasteel', 
+    'invar', 'lead', 'lumium',
     'netherite', 'nickel', 'osmium',
-    'signalum', 'silver', 'steel', 'terrasteel',
+    'signalum', 'silver', 'steel',
     'tin', 'uranium', 'zinc'
 ];
 StartupEvents.registry('item', event => {
