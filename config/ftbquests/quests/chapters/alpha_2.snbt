@@ -1115,6 +1115,7 @@
 			y: -0.7346950000000021d
 		}
 		{
+			dependencies: ["73D50C93EBC09617"]
 			description: ["Useful for compressing your setups.  Highly recommend."]
 			id: "57E3AFC98283C7DA"
 			optional: true
