@@ -148,4 +148,7 @@ ServerEvents.recipes(event => {
     });
     event.shapeless('forbidden_arcanus:yellow_orchid', [
         'minecraft:blue_orchid', 'kubejs:forbidden_transmutation_matter']).id('kubejs:yellow_orchid');
+    event.shapeless(Item.of('minecraft:pink_petals', 16), [
+        'minecraft:cherry_leaves', '#minecraft:shears'
+    ]).damageIngredient('#minecraft:shears');
 });
