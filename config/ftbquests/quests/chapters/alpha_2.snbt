@@ -23,6 +23,7 @@
 		{
 			dependency: "73D50C93EBC09617"
 			height: 1.0d
+			hover: ["Observe a Wandering Trader"]
 			image: "ftbchunks:textures/faces/minecraft/wandering_trader.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -560,8 +561,8 @@
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			x: 8.040815d
-			y: -1.984695000000002d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1700,8 +1701,8 @@
 				item: "crafting_on_a_stick:anvil"
 				type: "item"
 			}]
-			x: 7.290815d
-			y: -1.984695000000002d
+			x: 7.25d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
@@ -2169,6 +2170,88 @@
 			}]
 			x: 10.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			id: "722214981D4F15E4"
+			tasks: [{
+				id: "3132F9448F412AA5"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["722214981D4F15E4"]
+			description: ["You can obtain &lmoss clumps&r by shearing any &o\"mossy\"&r block like mossy cobblestone, mossy stone bricks, etc... Four moss clumps craft into a moss block."]
+			icon: "minecraft:moss_block"
+			id: "4A5D6FEC7D064229"
+			rewards: [{
+				id: "202D6E6A1448BAF7"
+				item: "minecraft:moss_block"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "37321253EC8CA19B"
+					item: "mossclump:moss_clump"
+					type: "item"
+				}
+				{
+					id: "4F0CBB1FF3BC12E0"
+					item: "minecraft:moss_block"
+					type: "item"
+				}
+			]
+			title: "Moss Blocks"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A5D6FEC7D064229"]
+			id: "0396E42FA9E438B6"
+			rewards: [
+				{
+					count: 3
+					id: "5FD509AA35723A1D"
+					item: "minecraft:azalea"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "631D35EACAB98A4B"
+					item: "minecraft:flowering_azalea"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3391908E3422D0A2"
+				item: "minecraft:azalea"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0396E42FA9E438B6"]
+			id: "332065193EFAF342"
+			tasks: [{
+				id: "11EB47660D2160E9"
+				item: "minecraft:rooted_dirt"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
 		}
 	]
 	title: "Alpha"
