@@ -37,53 +37,9 @@ const mesh_mapping = [
     { mesh: 'kubejs:netherite_mesh', multiplier: 2 }
 ];
 ServerEvents.recipes(event => {
-    event.remove({ input: '#createsifter:meshes' });
     /**
      * Gravel
      */
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:flint').withChance(0.5),
-        Item.of('kubejs:stone_pebble').withChance(0.75),
-        Item.of('kubejs:andesite_pebble').withChance(0.5),
-        Item.of('kubejs:diorite_pebble').withChance(0.5),
-        Item.of('kubejs:granite_pebble').withChance(0.5),
-        Item.of('minecraft:raw_copper').withChance(0.25)
-    ], ['minecraft:gravel','createsifter:string_mesh']).id('kubejs/recipes/createsifterSifting/string/gravel');
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:flint').withChance(0.25),
-        Item.of('minecraft:raw_copper').withChance(0.5),
-        Item.of('minecraft:raw_iron').withChance(0.25),
-        Item.of('minecraft:coal').withChance(0.25)
-    ], ['minecraft:gravel','kubejs:copper_mesh']).id('kubejs/recipes/createsifterSifting/copper/gravel');
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:raw_copper').withChance(0.25),
-        Item.of('minecraft:raw_iron').withChance(0.5),
-        Item.of('kubejs:raw_aluminum').withChance(0.125),
-        Item.of('create:raw_zinc').withChance(0.25),
-        Item.of('kubejs:raw_tin').withChance(0.25),
-        Item.of('minecraft:coal').withChance(0.5),
-        Item.of('kubejs:raw_aluminum').withChance(0.125)
-    ], ['minecraft:gravel','kubejs:iron_mesh']).id('kubejs/recipes/createsifterSifting/iron/gravel');
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:raw_iron').withChance(0.25),
-        Item.of('kubejs:raw_aluminum').withChance(0.25),
-        Item.of('kubejs:raw_osmium').withChance(0.25),
-        Item.of('kubejs:raw_tin').withChance(0.5),
-        Item.of('create:raw_zinc').withChance(0.5),
-        Item.of('minecraft:lapis_lazuli').withChance(0.25),
-        Item.of('minecraft:coal').withChance(0.75),
-        Item.of('irons_spellbooks:raw_mithril').withChance(0.0625)
-    ], ['minecraft:gravel','createsifter:brass_mesh']).id('kubejs/recipes/createsifterSifting/brass/gravel');
-    event.recipes.createsifterSifting([
-        Item.of('create:raw_zinc').withChance(0.25),
-        Item.of('kubejs:raw_aluminum').withChance(0.375),
-        Item.of('kubejs:raw_tin').withChance(0.25),
-        Item.of('kubejs:raw_osmium').withChance(0.5),
-        Item.of('minecraft:lapis_lazuli').withChance(0.5),
-        Item.of('minecraft:coal').withChance(0.5),
-        Item.of('minecraft:emerald').withChance(0.25),
-        Item.of('irons_spellbooks:raw_mithril').withChance(0.125)
-    ], ['minecraft:gravel','kubejs:netherite_mesh']).id('kubejs/recipes/createsifterSifting/netherite/gravel');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_coal').withChance(0.125)
     ], ['minecraft:gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsifterSifting/bronze/gravel');
@@ -166,103 +122,11 @@ ServerEvents.recipes(event => {
     /**
      * Dust
      */
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:bone_meal').withChance(0.25)
-    ], ['createsifter:dust','createsifter:string_mesh']).id('kubejs/recipes/createsifterSifting/string/dust')
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:bone_meal').withChance(0.5)
-    ], ['createsifter:dust','kubejs:copper_mesh']).id('kubejs/recipes/createsifterSifting/copper/dust')
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:bone_meal').withChance(0.25),
-        Item.of('minecraft:redstone').withChance(0.125)
-    ], ['createsifter:dust','kubejs:iron_mesh']).id('kubejs/recipes/createsifterSifting/iron/dust')
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:redstone').withChance(0.25),
-        Item.of('mysticalagriculture:prosperity_shard').withChance(0.125)
-    ], ['createsifter:dust','createsifter:brass_mesh']).id('kubejs/recipes/createsifterSifting/brass/dust')
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:redstone').withChance(0.5),
-        Item.of('mysticalagriculture:prosperity_shard').withChance(0.25),
-        Item.of('forbidden_arcanus:arcane_crystal_dust').withChance(0.125)
-    ], ['createsifter:dust','kubejs:netherite_mesh']).id('kubejs/recipes/createsifterSifting/netherite/dust')
-
-    /**
-     * Soul Sand
-     */
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:blaze_powder').withChance(0.125),
-        Item.of('mysticalagriculture:soul_dust').withChance(0.125)
-    ], ['minecraft:soul_sand','createsifter:string_mesh']).id('kubejs/recipes/createsifterSifting/string/soul_sand')
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:quartz').withChance(0.125),
-        Item.of('minecraft:blaze_powder').withChance(0.25),
-        Item.of('minecraft:glowstone_dust').withChance(0.125),
-        Item.of('mysticalagriculture:soul_dust').withChance(0.25)
-    ], ['minecraft:soul_sand','kubejs:copper_mesh']).id('kubejs/recipes/createsifterSifting/copper/soul_sand')
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:quartz').withChance(0.25),
-        Item.of('minecraft:blaze_powder').withChance(0.125),
-        Item.of('minecraft:glowstone_dust').withChance(0.25),
-        Item.of('mysticalagriculture:soul_dust').withChance(0.5),
-        Item.of('mysticalagriculture:soulium_dust').withChance(0.125)
-    ], ['minecraft:soul_sand','kubejs:iron_mesh']).id('kubejs/recipes/createsifterSifting/iron/soul_sand')
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:quartz').withChance(0.5),
-        Item.of('minecraft:glowstone_dust').withChance(0.5),
-        Item.of('minecraft:ghast_tear').withChance(0.125),
-        Item.of('mysticalagriculture:soul_dust').withChance(0.25),
-        Item.of('mysticalagriculture:soulium_dust').withChance(0.25)
-    ], ['minecraft:soul_sand','createsifter:brass_mesh']).id('kubejs/recipes/createsifterSifting/brass/soul_sand')
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:quartz').withChance(0.25),
-        Item.of('minecraft:glowstone_dust').withChance(0.25),
-        Item.of('minecraft:ghast_tear').withChance(0.25),
-        Item.of('mysticalagriculture:soul_dust').withChance(0.125),
-        Item.of('mysticalagriculture:soulium_dust').withChance(0.5),
-        Item.of('quark:soul_bead').withChance(0.125)
-    ], ['minecraft:soul_sand','kubejs:netherite_mesh']).id('kubejs/recipes/createsifterSifting/netherite/soul_sand')
     
+
     /**
      * Deepslate (gravel)
      */
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:raw_gold').withChance(0.25),
-        Item.of('kubejs:raw_aluminum').withChance(0.0625),
-        Item.of('kubejs:raw_lead').withChance(0.125),
-        Item.of('kubejs:raw_nickel').withChance(0.125),
-        Item.of('kubejs:raw_osmium').withChance(0.25),
-        Item.of('kubejs:raw_silver').withChance(0.125),
-        Item.of('minecraft:diamond').withChance(0.0625),
-        Item.of('powah:uraninite_raw').withChance(0.0625),
-        Item.of('irons_spellbooks:raw_mithril').withChance(0.0625)
-    ], ['kubejs:deepslate_gravel','kubejs:iron_mesh']).id('kubejs/recipes/createsifterSifting/iron/deepslate');
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:raw_gold').withChance(0.375),
-        Item.of('kubejs:raw_aluminum').withChance(0.125),
-        Item.of('kubejs:raw_lead').withChance(0.25),
-        Item.of('kubejs:raw_nickel').withChance(0.25),
-        Item.of('kubejs:raw_osmium').withChance(0.5),
-        Item.of('kubejs:raw_silver').withChance(0.25),
-        Item.of('kubejs:raw_uranium').withChance(0.125),
-        Item.of('minecraft:diamond').withChance(0.125),
-        Item.of('powah:uraninite_raw').withChance(0.125),
-        Item.of('irons_spellbooks:raw_mithril').withChance(0.125)
-    ], ['kubejs:deepslate_gravel','createsifter:brass_mesh']).id('kubejs/recipes/createsifterSifting/brass/deepslate');
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:raw_gold').withChance(0.5),
-        Item.of('kubejs:raw_aluminum').withChance(0.25),
-        Item.of('kubejs:raw_lead').withChance(0.5),
-        Item.of('kubejs:raw_nickel').withChance(0.5),
-        Item.of('kubejs:raw_osmium').withChance(0.25),
-        Item.of('kubejs:raw_silver').withChance(0.5),
-        Item.of('kubejs:raw_uranium').withChance(0.25),
-        Item.of('minecraft:diamond').withChance(0.25),
-        Item.of('powah:uraninite_raw').withChance(0.25),
-        Item.of('irons_spellbooks:raw_mithril').withChance(0.25)
-    ], ['kubejs:deepslate_gravel','kubejs:netherite_mesh']).id('kubejs/recipes/createsifterSifting/netherite/deepslate');
-
-
-
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_graphite').withChance(0.25),
         Item.of('gtceu:raw_diamond').withChance(0.125),
@@ -293,24 +157,6 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_lapis').withChance(0.0625)
     ], ['kubejs:calcite_gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsifterSifting/bronze/calcite')
 
-    /**
-     * Netherrack
-     */
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:raw_gold').withChance(0.125)
-    ], ['kubejs:netherrack_gravel', 'kubejs:copper_mesh']).id('kubejs/recipes/createsifterSifting/copper/netherrack');
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:raw_gold').withChance(0.25)
-    ], ['kubejs:netherrack_gravel', 'kubejs:iron_mesh']).id('kubejs/recipes/createsifterSifting/iron/netherrack');
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:raw_gold').withChance(0.375),
-        Item.of('kubejs:raw_uranium').withChance(0.125)
-    ], ['kubejs:netherrack_gravel', 'createsifter:brass_mesh']).id('kubejs/recipes/createsifterSifting/brass/netherrack');
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:raw_gold').withChance(0.5),
-        Item.of('kubejs:raw_uranium').withChance(0.25),
-        Item.of('occultism:raw_iesnium').withChance(0.0625)
-    ], ['kubejs:netherrack_gravel', 'kubejs:netherite_mesh']).id('kubejs/recipes/createsifterSifting/netherite/netherrack');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_beryllium').withChance(0.25),
         Item.of('gtceu:raw_emerald').withChance(0.125),
@@ -330,9 +176,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_sphalerite').withChance(0.0625)
     ], ['kubejs:netherrack_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsifterSifting/steel/netherrack')
 
-    /**
-     * End Stone
-     */
+    // End Stone Gravel
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_bauxite').withChance(0.125),
         Item.of('gtceu:raw_ilmenite').withChance(0.0625),
@@ -354,10 +198,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_uraninite').withChance(0.0625)
     ], ['kubejs:end_stone_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsifterSifting/steel/end_stone')
 
-
-    /**
-     * Basalt (gravel)
-     */
+    // Basalt Gravel
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_almandine').withChance(0.25),
         Item.of('gtceu:raw_pyrope').withChance(0.125),
@@ -374,9 +215,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_chromite').withChance(0.125)
     ], ['kubejs:basalt_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsifterSifting/steel/basalt')
 
-    /**
-     * Granite (gravel)
-     */
+    // Granite Gravel
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_goethite').withChance(0.25),
         Item.of('gtceu:raw_yellow_limonite').withChance(0.1),
@@ -398,7 +237,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_bornite').withChance(0.0625)
     ], ['kubejs:granite_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsifterSifting/steel/granite')
 
-
+    // Slimy Dirt
     mesh_mapping.forEach(m => {
         // Earth Slime Dirt
         event.recipes.createsifterSifting([
@@ -421,45 +260,4 @@ ServerEvents.recipes(event => {
             Item.of('tconstruct:ender_slime_sapling').withChance(0.05 * m.multiplier)
         ], ['tconstruct:ender_slime_dirt', m.mesh])
     })
-
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:wheat_seeds').withChance(0.5),
-        Item.of('minecraft:pumpkin_seeds').withChance(0.2),
-        Item.of('minecraft:melon_seeds').withChance(0.2),
-        Item.of('minecraft:sweet_berry_bush').withChance(0.15),
-        Item.of('farmersdelight:cabbage_seeds').withChance(0.1),
-        Item.of('farmersdelight:tomato_seeds').withChance(0.1),
-        Item.of('supplementaries:flax_seeds').withChance(0.1),
-        Item.of('delightful:cantaloupe_seeds').withChance(0.1),
-        Item.of('delightful:salmonberry_pips').withChance(0.1),
-        Item.of('occultism:datura_seeds').withChance(0.05),
-        Item.of('immersiveengineering:seed').withChance(0.15)
-    ], ['createsifter:string_mesh', 'minecraft:dirt']).id('kubejs:createsifterSifting/string/dirt');
-
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:big_dripleaf').withChance(0.15),
-        Item.of('minecraft:small_dripleaf').withChance(0.2),
-        Item.of('minecraft:flowering_azalea').withChance(0.1),
-        Item.of('minecraft:azalea').withChance(0.15),
-        Item.of('minecraft:spore_blossom').withChance(0.05)
-    ], ['createsifter:string_mesh', 'minecraft:moss_block']).id('kubejs:createsifterSifting/string/moss_block');
-
-    event.recipes.createsifterSifting([
-        Item.of('minecraft:allium').withChance(0.25),
-        Item.of('minecraft:azure_bluet').withChance(0.25),
-        Item.of('minecraft:blue_orchid').withChance(0.25),
-        Item.of('minecraft:cornflower').withChance(0.25),
-        Item.of('minecraft:dandelion').withChance(0.3),
-        Item.of('minecraft:lily_of_the_valley').withChance(0.25),
-        Item.of('minecraft:oxeye_daisy').withChance(0.25),
-        Item.of('minecraft:poppy').withChance(0.3),
-        Item.of('minecraft:orange_tulip').withChance(0.25),
-        Item.of('minecraft:pink_tulip').withChance(0.25),
-        Item.of('minecraft:red_tulip').withChance(0.25),
-        Item.of('minecraft:white_tulip').withChance(0.25),
-        Item.of('minecraft:lilac').withChance(0.2),
-        Item.of('minecraft:peony').withChance(0.2),
-        Item.of('minecraft:rose_bush').withChance(0.2),
-        Item.of('minecraft:sunflower').withChance(0.2),
-    ], ['createsifter:string_mesh', 'minecraft:grass_block']).id('kubejs:createsifterSifting/string/grass_block');
 })

@@ -42,4 +42,6 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'create:milling/granite' });
     event.remove({ input: 'mysticalagriculture:rubber_essence' });
+
+    event.remove({ id: /createsifter:sifting\/.*mesh/ });
 });
