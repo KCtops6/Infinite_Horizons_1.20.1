@@ -1,8 +1,8 @@
 global.ingots = [
     'aluminum', 'brass', 'bronze',
-    'constantan', 'electrum', 'elementium', 'enderium',
+    'constantan', 'electrum', 'enderium',
     'infinitium', 'invar', 'lead',
-    'lumium', 'manasteel', 'nickel',
+    'lumium', 'nickel',
     'osmium', 'signalum', 'silver',
     'steel', 'terrasteel',
     'tin', 'uranium', 'zinc'
@@ -11,14 +11,14 @@ global.dusts = [
     'aluminum', 'apatite', 'brass',
     'bronze', 'charcoal', 'cinnabar',
     'constantan', 'coal', 'copper',
-    'diamond', 'electrum', 'elementium', 'emerald',
+    'diamond', 'electrum', 'emerald',
     'enderium', 'gold', 'invar',
     'iron', 'lapis', 'lead',
-    'lumium', 'manasteel', 'netherite', 'nickel',
+    'lumium', 'netherite', 'nickel',
     'niter', 'obsidian', 'osmium',
     'quartz', 'sapphire', 'signalum',
     'silver', 'steel', 'sulfur',
-    'terrasteel', 'ruby', 'tin',
+    'ruby', 'tin',
     'uranium', 'zinc'
 ];
 global.plates = [
@@ -40,9 +40,9 @@ global.gears = [
 global.nuggets = [
     'aluminum', 'brass', 'bronze', 'constantan',
     'copper', 'electrum', 'enderium', 
-    'invar', 'lead', 'lumium', 'manasteel', 
+    'invar', 'lead', 'lumium',  
     'netherite', 'nickel', 'osmium',
-    'signalum', 'silver', 'steel', 'terrasteel',
+    'signalum', 'silver', 'steel', 
     'tin', 'uranium', 'zinc'
 ];
 global.raw_ores = [
@@ -52,13 +52,13 @@ global.raw_ores = [
 global.blocks = [
     'aluminum', 'apatite', 'brass',
     'bronze', 'cinnabar', 'constantan',
-    'copper', 'electrum', 'elementium', 'enderium',
+    'copper', 'electrum', 'enderium',
     'gold', 'infinitium', 'invar',
     'iron', 'lead', 'lumium',
-    'manasteel', 'nickel', 'niter',
+    'nickel', 'niter',
     'osmium', 'ruby', 'sapphire',
     'signalum', 'silver', 'steel',
-    'sulfur', 'terrasteel', 'tin',
+    'sulfur', 'tin',
     'uranium', 'zinc'
 ];
 global.raw_ore_blocks = [
@@ -73,41 +73,41 @@ global.plate_materials = [
     'constantan', 'copper', 'electrum',
     'enderium', 'gold', 'infinitium',
     'invar', 'iron', 'lead',
-    'lumium', 'manasteel', 'netherite',
+    'lumium', 'netherite',
     'nickel', 'signalum', 'silver', 'steel',
-    'terrasteel', 'tin', 'zinc'
+    'tin', 'zinc'
 ];
 global.block_materials = [
     'aluminum', 'apatite', 'brass',
     'bronze', 'cinnabar', 'constantan',
-    'copper', 'electrum', 'elementium', 'enderium',
+    'copper', 'electrum', 'enderium',
     'gold', 'infinitium', 'invar',
     'iron', 'lead', 'lumium',
-    'manasteel', 'nickel', 'niter',
+    'nickel', 'niter',
     'osmium', 'ruby', 'sapphire',
     'signalum', 'silver', 'steel',
-    'sulfur', 'terrasteel', 'tin',
+    'sulfur', 'tin',
     'uranium', 'zinc'
 ];
 global.dust_materials = [
     'aluminum', 'apatite', 'brass',
     'bronze', 'charcoal', 'cinnabar',
     'constantan', 'coal', 'copper',
-    'diamond', 'electrum', 'elementium', 'emerald',
+    'diamond', 'electrum', 'emerald',
     'enderium', 'gold', 'invar',
     'iron', 'lapis', 'lead',
-    'lumium', 'manasteel', 'netherite', 'nickel',
+    'lumium', 'netherite', 'nickel',
     'niter', 'obsidian', 'osmium',
     'quartz', 'sapphire', 'signalum',
     'silver', 'steel', 'sulfur',
-    'terrasteel', 'ruby', 'tin',
+    'ruby', 'tin',
     'uranium', 'zinc'
 ];
 global.ingot_materials = [    // materials that have ingots.
     'aluminum', 'brass', 'bronze',
-    'constantan', 'electrum', 'elementium', 'enderium',
+    'constantan', 'electrum', 'enderium',
     'infinitium', 'invar', 'lead',
-    'lumium', 'manasteel', 'nickel',
+    'lumium', 'nickel',
     'osmium', 'signalum', 'silver',
     'steel', 'terrasteel',
     'tin', 'uranium', 'zinc'
@@ -120,15 +120,15 @@ global.gear_materials = [ // materials that have gears.
     'diamond', 'electrum', 'emerald',
     'enderium', 'gold', 'invar',
     'iron', 'lapis', 'lead',
-    'lumium', 'manasteel', 'netherite',
+    'lumium', 'netherite',
     'nickel', 'quartz', 'ruby', 
     'sapphire', 'signalum', 'silver',
-    'terrasteel', 'tin'
+    'tin'
 ];
 global.nugget_materials = [   // materials that have nuggets.
     'brass', 'bronze', 'constantan',
     'copper', 'electrum', 'enderium', 
-    'invar', 'lead', 'lumium', 'manasteel', 
+    'invar', 'lead', 'lumium', 
     'netherite', 'nickel', 'osmium',
     'signalum', 'silver', 'steel', 'terrasteel',
     'tin', 'uranium', 'zinc'
