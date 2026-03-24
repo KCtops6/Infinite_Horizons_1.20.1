@@ -1,5 +1,12 @@
 ServerEvents.recipes(event => {
     event.recipes.createsifterSifting([
+        Item.of('kubejs:deepslate_pebble').withChance(0.75),
+        Item.of('kubejs:tuff_pebble').withChance(0.5),
+        Item.of('minecraft:glow_lichen').withChance(0.125),
+        Item.of('quark:glow_lichen_growth').withChance(0.0625),
+        Item.of('twigs:petrified_lichen').withChance(0.125)
+    ], ['kubejs:deepslate_gravel','createsifter:string_mesh']).id('kubejs/recipes/createsifterSifting/string/deepslate');
+    event.recipes.createsifterSifting([
         Item.of('minecraft:raw_gold').withChance(0.25),
         Item.of('kubejs:raw_aluminum').withChance(0.0625),
         Item.of('kubejs:raw_lead').withChance(0.125),
