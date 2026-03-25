@@ -1,16 +1,6 @@
-function createCatalyst(name) {
-    e.create(`${name}_catalyst`).displayName(`${capitalize(name)} Catalyst`).unstackable();
-}
 function capitalize(str) {
     return str.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 }
-const vanillaCatalysts = [
-    "pillager", "axolotl", "blaze", "camel", "dolphin", "drowned", "elder_guardian",
-    "evoker", "fox", "frog", "ghast", "glow_squid", "goat", "guardian", "hoglin",
-    "husk", "llama", "magma_cube", "mooshroom", "panda", "parrot", "piglin",
-    "polar_bear", "shulker", "slime", "squid", "stray", "turtle", "warden",
-    "wither_skeleton", "wolf", "basalz", "blitz", "blizz"
-];
 const items = [
     'chicken_fried_steak_ingot',
     'dark_matter', 'weak_echo_shard', 'mycellium_spores',
@@ -81,10 +71,6 @@ const nuggets = [
     'tin', 'uranium', 'zinc'
 ];
 StartupEvents.registry('item', event => {
-    function createCatalyst(name) {
-        event.create(`${name}_catalyst`).displayName(`${capitalize(name)} Catalyst`).unstackable();
-    }
-    vanillaCatalysts.forEach(createCatalyst);
     event.create('copper_mesh', 'createsifter:mesh')
         .displayName('Copper Mesh')
         .parentModel("createsifter:block/meshes/mesh")
@@ -152,4 +138,5 @@ StartupEvents.registry('item', event => {
         event.create(`raw_${r}`).displayName(`Raw ${capitalize(r)}`);
     });
     event.create('coal_coke').displayName('Coal Coke');
+    event.create('trial_core').displayName('Trial Core');
 })

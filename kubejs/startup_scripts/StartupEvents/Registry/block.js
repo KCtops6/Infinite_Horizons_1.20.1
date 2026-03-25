@@ -149,4 +149,13 @@ StartupEvents.registry("block", (event) => {
         .resistance(6.0)
         .requiresTool(true)
         .tagBlock('minecraft:mineable/pickaxe');
+
+    event.create('dormant_trial_spawner')
+        .displayName('Dormant Trial Spawner')
+        .mapColor('stone')
+        .soundType('metal')
+        .hardness(5.0)
+        .resistance(10.0)
+        .opaque(true)
+        .fullBlock(true);
 });
