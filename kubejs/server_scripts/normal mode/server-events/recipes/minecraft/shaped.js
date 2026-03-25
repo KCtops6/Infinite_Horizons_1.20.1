@@ -123,23 +123,6 @@ ServerEvents.recipes(event => {
         },
         {
             pattern: [
-                'DEF',
-                'CAC',
-                'BAB'
-            ],
-            keys: {
-                A:    'minecraft:dark_oak_log',
-                B:    'kubejs:brass_plate',
-                C:    'kubejs:gold_plate',
-                D:    'minecraft:candle',
-                E:    'minecraft:red_carpet',
-                F:    'minecraft:wither_skeleton_skull'
-            },
-            output: 'summoningrituals:altar',
-            count: 1
-        },
-        {
-            pattern: [
                 'DDD',
                 'BCB',
                 'ACA'
