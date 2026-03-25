@@ -56,3 +56,4 @@ config/cupboard.json
 config/apotheosis/enchantments.cfg
 config/jei/ingredient-list-mod-sort-order.ini
 config/rightclickharvest.json5
+config/jei/*
