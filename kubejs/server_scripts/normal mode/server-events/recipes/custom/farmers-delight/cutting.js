@@ -1,271 +1,79 @@
 ServerEvents.recipes(event => {
-    event.custom({
-        type: 'farmersdelight:cutting',
-        ingredients: [
-            {
-                item: 'botania:dreamwood'
-            }
-        ],
-        tool: { tag: 'forge:tools/knives' },
-        result : [
-            {
-                item: 'botania:dreamwood'
-            },
-            {
-                item: 'botania:dreamwood_twig',
-                chance: 0.75
-            }
-        ]
-    });
-
-    event.custom({
-        type: 'farmersdelight:cutting',
-        ingredients: [
-            {
-                item: 'botania:dreamwood_log'
-            }
-        ],
-        tool: { tag: 'forge:tools/knives' },
-        result : [
-            {
-                item: 'botania:dreamwood_log'
-            },
-            {
-                item: 'botania:dreamwood_twig',
-                chance: 0.75
-            }
-        ]
-    });
-
-    event.custom({
-        type: 'farmersdelight:cutting',
-        ingredients: [
-            {
-                item: 'botania:livingwood'
-            }
-        ],
-        tool: { tag: 'forge:tools/knives' },
-        result : [
-            {
-                item: 'botania:livingwood'
-            },
-            {
-                item: 'botania:livingwood_twig',
-                chance: 0.75
-            }
-        ]
-    });
-
-    event.custom({
-        type: 'farmersdelight:cutting',
-        ingredients: [
-            {
-                item: 'botania:livingwood_log'
-            }
-        ],
-        tool: { tag: 'forge:tools/knives' },
-        result : [
-            {
-                item: 'botania:livingwood_log'
-            },
-            {
-                item: 'botania:livingwood_twig',
-                chance: 0.75
-            }
-        ]
-    });
-
-    let dirtBlocks = ["minecraft:dirt", "minecraft:grass_block", "minecraft:dirt_path"];
-    let gravelBlocks = [
-        "minecraft:gravel", "kubejs:andesite_gravel", "kubejs:diorite_gravel", "kubejs:granite_gravel"
+    /**
+     * Helper function to create Farmer's Delight cutting recipes
+     * @param {string} input - The input item
+     * @param {string} tool - The tool (item or #tag)
+     * @param {Array} results - Array of result objects {item, count, chance}
+     */
+    const cutting = (input, tool, results) => {
+        let recipe = {
+            type: 'farmersdelight:cutting',
+            ingredients: [{ item: input }],
+            tool: tool.startsWith('#') ? { tag: tool.substring(1) } : { item: tool },
+            result: results.map(res => ({
+                item: res.item,
+                count: res.count || 1,
+                chance: res.chance || 1.0
+            }))
+        };
+        let idName = `${input.replace(':', '_')}_from${tool.replace(/[:#]/g, '_')}`;
+        event.custom(recipe).id(`kubejs:cutting/${idName}`);
+    };
+    const botaniaWoods = [
+        { main: 'botania:dreamwood', twig: 'botania:dreamwood_twig' },
+        { main: 'botania:dreamwood_log', twig: 'botania:dreamwood_twig' },
+        { main: 'botania:livingwood', twig: 'botania:livingwood_twig' },
+        { main: 'botania:livingwood_log', twig: 'botania:livingwood_twig' }
     ];
+    botaniaWoods.forEach(wood => {
+        cutting(wood.main, '#forge:tools/knives', [
+            { item: wood.main },
+            { item: wood.twig, chance: 0.75 }
+        ]);
+    });
+    let dirtBlocks = ["minecraft:dirt", "minecraft:grass_block", "minecraft:dirt_path"];
+    let gravelBlocks = ["minecraft:gravel", "kubejs:andesite_gravel", "kubejs:diorite_gravel", "kubejs:granite_gravel"];
     dirtBlocks.forEach(b => {
-        event.custom({
-            type: "farmersdelight:cutting",
-            ingredients: [
-                {
-                    item: b
-                }
-            ],
-            result: [
-                {
-                    chance: 0.75,
-                    item: "minecraft:dirt"
-                },
-                {
-                    chance: 0.25,
-                    item: "kubejs:stone_pebble"
-                }
-            ],
-            tool: {
-                item: "kubejs:wooden_trowel"
-            }
-        }).id(`wooden_trowel_on_${b.replace('minecraft:', '')}`);
-
-        event.custom({
-            type: "farmersdelight:cutting",
-            ingredients: [
-                {
-                    item: b
-                }
-            ],
-            result: [
-                {
-                    chance: 0.5,
-                    item: "minecraft:dirt"
-                },
-                {
-                    chance: 0.5,
-                    item: "kubejs:stone_pebble"
-                },
-                {
-                    chance: 0.25,
-                    item: "kubejs:andesite_pebble"
-                },
-                {
-                    chance: 0.25,
-                    item: "kubejs:diorite_pebble"
-                },
-                {
-                    chance: 0.25,
-                    item: "kubejs:granite_pebble"
-                }
-            ],
-            tool: {
-                item: "kubejs:stone_trowel"
-            }
-        }).id(`stone_trowel_on_${b.replace('minecraft:', '')}`);
-
-        event.custom({
-            type: "farmersdelight:cutting",
-            ingredients: [
-                {
-                    item: b
-                }
-            ],
-            result: [
-                {
-                    chance: 0.25,
-                    item: "minecraft:dirt"
-                },
-                {
-                    chance: 0.75,
-                    item: "kubejs:stone_pebble"
-                },
-                {
-                    chance: 0.25,
-                    item: "kubejs:deepslate_pebble"
-                }
-            ],
-            tool: {
-                item: "kubejs:iron_trowel"
-            }
-        }).id(`iron_trowel_on_${b.replace('minecraft:', '')}`);
+        cutting(b, 'kubejs:wooden_trowel', [
+            { item: "minecraft:dirt", chance: 0.75 },
+            { item: "kubejs:stone_pebble", chance: 0.25 }
+        ]);
+        cutting(b, 'kubejs:stone_trowel', [
+            { item: "minecraft:dirt", chance: 0.5 },
+            { item: "kubejs:stone_pebble", chance: 0.5 },
+            { item: "kubejs:andesite_pebble", chance: 0.25 },
+            { item: "kubejs:diorite_pebble", chance: 0.25 },
+            { item: "kubejs:granite_pebble", chance: 0.25 }
+        ]);
+        cutting(b, 'kubejs:iron_trowel', [
+            { item: "minecraft:dirt", chance: 0.25 },
+            { item: "kubejs:stone_pebble", chance: 0.75 },
+            { item: "kubejs:deepslate_pebble", chance: 0.25 }
+        ]);
     });
-
     gravelBlocks.forEach(b => {
-        event.custom({
-            type: "farmersdelight:cutting",
-            ingredients: [
-                {
-                    item: b
-                }
-            ],
-            result: [
-                {
-                    chance: 0.75,
-                    item: b
-                },
-                {
-                    chance: 0.5,
-                    item: "kubejs:stone_pebble"
-                },
-                {
-                    chance: 0.25,
-                    item: "minecraft:iron_nugget"
-                }
-            ],
-            tool: {
-                item: "kubejs:stone_trowel"
-            }
-        }).id(`stone_trowel_on_${b.replace('minecraft:', '')}`);
-
-        event.custom({
-            type: "farmersdelight:cutting",
-            ingredients: [
-                {
-                    item: b
-                }
-            ],
-            result: [
-                {
-                    chance: 0.5,
-                    item: b
-                },
-                {
-                    chance: 0.75,
-                    item: "kubejs:stone_pebble"
-                },
-                {
-                    chance: 0.5,
-                    item: "minecraft:iron_nugget"
-                }
-            ],
-            tool: {
-                item: "kubejs:iron_trowel"
-            }
-        }).id(`iron_trowel_on_${b.replace('minecraft:', '')}`);
+        cutting(b, 'kubejs:stone_trowel', [
+            { item: b, chance: 0.75 },
+            { item: "kubejs:stone_pebble", chance: 0.5 },
+            { item: "minecraft:iron_nugget", chance: 0.25 }
+        ]);
+        cutting(b, 'kubejs:iron_trowel', [
+            { item: b, chance: 0.5 },
+            { item: "kubejs:stone_pebble", chance: 0.75 },
+            { item: "minecraft:iron_nugget", chance: 0.5 }
+        ]);
     });
-
-    event.custom({
-        type: "farmersdelight:cutting",
-        ingredients: [
-            {
-                item: "kubejs:tuff_gravel"
-            }
-        ],
-        result: [
-            {
-                chance: 0.25,
-                item: "kubejs:tuff_gravel"
-            },
-            {
-                chance: 0.75,
-                item: "kubejs:tuff_pebble"
-            },
-            {
-                chance: 0.25,
-                item: "kubejs:deepslate_pebble"
-            }
-        ],
-        tool: {
-            item: "kubejs:iron_trowel"
-        }
-    });
-
-    event.custom({
-        type: "farmersdelight:cutting",
-        ingredients: [
-            {
-                item: "kubejs:deepslate_gravel"
-            }
-        ],
-        result: [
-            {
-                chance: 0.25,
-                item: "kubejs:deepslate_gravel"
-            },
-            {
-                chance: 0.75,
-                item: "kubejs:deepslate_pebble"
-            },
-            {
-                chance: 0.25,
-                item: "kubejs:tuff_pebble"
-            }
-        ],
-        tool: {
-            item: "kubejs:iron_trowel"
-        }
-    });
+    cutting('kubejs:tuff_gravel', 'kubejs:iron_trowel', [
+        { item: "kubejs:tuff_gravel", chance: 0.25 },
+        { item: "kubejs:tuff_pebble", chance: 0.75 },
+        { item: "kubejs:deepslate_pebble", chance: 0.25 }
+    ]);
+    cutting('kubejs:deepslate_gravel', 'kubejs:iron_trowel', [
+        { item: "kubejs:deepslate_gravel", chance: 0.25 },
+        { item: "kubejs:deepslate_pebble", chance: 0.75 },
+        { item: "kubejs:tuff_pebble", chance: 0.25 }
+    ]);
+    cutting('twigs:silt', '#forge:tools/shovels', [
+        { item: "twigs:silt_ball", count: 4 }
+    ]);
 });
