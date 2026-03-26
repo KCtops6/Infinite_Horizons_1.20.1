@@ -540,6 +540,15 @@ ServerEvents.recipes(event => {
             ], keys: {
                 A: 'thermal:cured_rubber'
             }, output: 'create:belt_connector', count: 3
+        }, {
+            pattern: [
+                'SA ',
+                'AS ',
+                '   '
+            ], keys: {
+                A: 'minecraft:andesite',
+                S: 'twigs:silt'
+            }, output: 'quark:shale', count: 4
         }
     ];
     shapedCraftingRecipes.forEach(recipe => {
