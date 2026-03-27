@@ -15,7 +15,7 @@
 	"prefixPortalCoordsInMessage": true,
 	// The radius around the portal to which the nether blocks can spread.
 	// min: 1, max: 100
-	"portalSpreadRadius": 30,
+	"portalSpreadRadius": 10,
 	// The delay in ticks in between the spread around the nether portal. 20 ticks = 1 second.
 	// min: 1, max: 72000
 	"spreadDelayTicks": 40,
