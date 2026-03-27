@@ -28,40 +28,24 @@ BlockEvents.rightClicked('minecraft:chest', event => {
     }
     server.runCommandSilent(setBlockCommand);
     item.count--;
-    //level.spawnParticles('minecraft:trial_spawner_detection', true, x + 0.5, y + 0.5, z + 0.5, 0.5, 0.5, 0.5, 20, 0.1);
     player.tell(Text.green(`The chest warps into a ${hasOminous ? '§5Ominous ' : ''}Trial Vault!`));
     event.cancel();
 });
 
-
-
 BlockEvents.rightClicked('minecraft:vault', event => {
     const { item, player, level, server, block, hand } = event;
-    
     if (item.empty && hand == 'main_hand') {
         const { x, y, z } = block;
         let nbt = block.getEntityData();
         let currentTime = level.time;
-
-        // Check if the vault has been used (has players in the list)
         let hasPlayers = nbt.server_data && nbt.server_data.rewarded_players && nbt.server_data.rewarded_players.length > 0;
-        
-        // Check custom cooldown (stored in NBT) to prevent chat spam
-        // 600 ticks = 30 seconds
         let lastReset = nbt.ForgeData ? nbt.ForgeData.last_reset : 0;
-
         if (hasPlayers && (currentTime - lastReset > 600)) {
-            // Reset the players
             server.runCommandSilent(`data modify block ${x} ${y} ${z} server_data.rewarded_players set value []`);
-            
-            // Set the cooldown timestamp so it can't be spammed
             server.runCommandSilent(`data merge block ${x} ${y} ${z} {ForgeData:{last_reset:${currentTime}L}}`);
-            
             level.spawnParticles('minecraft:trial_spawner_detection', true, x + 0.5, y + 1.2, z + 0.5, 0.2, 0.2, 0.2, 10, 0.05);
             player.tell(Text.aqua("The vault's memories have faded. You may use it again."));
         } else if (hasPlayers) {
-            // Optional: Tell them how much time is left if they click during cooldown
-            // Remove this 'else if' block if you want it to be completely silent
             let remaining = Math.ceil((600 - (currentTime - lastReset)) / 20);
             player.statusMessage(Text.yellow(`Vault is recharging... (${remaining}s)`));
         }
