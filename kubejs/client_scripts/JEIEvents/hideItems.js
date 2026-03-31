@@ -16,27 +16,32 @@ JEIEvents.hideItems(event => {
         'ae2': ['facade'],
         'enderio': ['filled_soul_vial', 'broken_spawner'],
         'mekanism': ['digital_miner', 'creative_fluid_tank'],
-        '#forge:ores_in_ground': [
-            'andesite', 'basalt', 'blackstone', 'deepslate', 'diorite', 'endstone', 'gravel',
-            'granite', 'marble', 'netherrack', 'red_granite', 'red_sand', 'sand',
-            'stone', 'tuff'
-        ],
-        'thermal': [
-            'ender_pearl_dust'
-        ],
-        'gtceu': [
-            'ender_pearl_dust'
-        ]
+        'thermal': ['ender_pearl_dust'],
+        'gtceu': ['ender_pearl_dust']
     };
+    const tagsToHide = [
+        '#forge:ores_in_ground/andesite', 
+        '#forge:ores_in_ground/basalt', 
+        '#forge:ores_in_ground/blackstone', 
+        '#forge:ores_in_ground/deepslate', 
+        '#forge:ores_in_ground/diorite', 
+        '#forge:ores_in_ground/endstone', 
+        '#forge:ores_in_ground/gravel',
+        '#forge:ores_in_ground/granite', 
+        '#forge:ores_in_ground/marble', 
+        '#forge:ores_in_ground/netherrack', 
+        '#forge:ores_in_ground/red_granite', 
+        '#forge:ores_in_ground/red_sand', 
+        '#forge:ores_in_ground/sand',
+        '#forge:ores_in_ground/stone', 
+        '#forge:ores_in_ground/tuff'
+    ];
     Object.entries(modsToHide).forEach(([mod, items]) => {
         items.forEach(item => {
-            const itemId = item.startsWith('#') ? item : `${mod}:${item}`;
-            try {
-                event.hide(itemId);
-                console.info(`Hiding: ${itemId}`);
-            } catch (error) {
-                console.error(`Failed to hide: ${itemId}`, error);
-            }
+            event.hide(`${mod}:${item}`);
         });
+    });
+    tagsToHide.forEach(tag => {
+        event.hide(Ingredient.of(tag));
     });
 });
