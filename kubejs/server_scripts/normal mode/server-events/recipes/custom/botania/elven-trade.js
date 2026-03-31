@@ -11,5 +11,5 @@ ServerEvents.recipes(event => {
                 item: "minecraft:dragon_breath"
             }
         ]
-    });
+    }).id('kubejs:botania/elven_trade/minecraft/dragon_breath');
 });

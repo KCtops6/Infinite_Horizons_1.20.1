@@ -95,36 +95,27 @@ ServerEvents.recipes(event => {
         uhv: 'europium'
     };
 
-    Object.entries(data).forEach(([tier, material]) => {
-        event.shapeless(`gtceu:${tier}_1a_energy_converter`, [
-            `gtceu:${material}_single_cable`,
-            `gtceu:${tier}_machine_hull`,
-            `#gtceu:circuits/${tier}`
-        ]);
-    });
+    const cableTypes = {
+        '1a': 'single',
+        '4a': 'quadruple',
+        '8a': 'octal',
+        '16a': 'hex'
+    };
 
-    Object.entries(data).forEach(([tier, material]) => {
-        event.shapeless(`gtceu:${tier}_4a_energy_converter`, [
-            `gtceu:${material}_quadruple_cable`,
-            `gtceu:${tier}_machine_hull`,
-            `#gtceu:circuits/${tier}`
-        ]);
-    });
+    Object.entries(cableTypes).forEach(([amp, gtName]) => {
+        Object.entries(data).forEach(([tier, material]) => {
+            let cable = `gtceu:${material}_${gtName}_cable`;
+            let converter = `gtceu:${tier}_${amp}_energy_converter`;
+            let circuit = tier === 'ulv' ? 'gtceu:vacuum_tube' : `#gtceu:circuits/${tier}`;
 
-    Object.entries(data).forEach(([tier, material]) => {
-        event.shapeless(`gtceu:${tier}_8a_energy_converter`, [
-            `gtceu:${material}_octal_cable`,
-            `gtceu:${tier}_machine_hull`,
-            `#gtceu:circuits/${tier}`
-        ]);
-    });
-
-    Object.entries(data).forEach(([tier, material]) => {
-        event.shapeless(`gtceu:${tier}_16a_energy_converter`, [
-            `gtceu:${material}_hex_cable`,
-            `gtceu:${tier}_machine_hull`,
-            `#gtceu:circuits/${tier}`
-        ]);
+            if (Item.exists(cable) && Item.exists(`gtceu:${tier}_machine_hull`)) {
+                event.shapeless(converter, [
+                    cable,
+                    `gtceu:${tier}_machine_hull`,
+                    circuit
+                ]).id(`kubejs:gtceu/converter_${tier}_${amp}`);
+            }
+        });
     });
     
     global.ingots.forEach(i => {

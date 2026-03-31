@@ -40,7 +40,6 @@ ServerEvents.recipes(event => {
         ]);
         cutting(b, 'kubejs:stone_trowel', [
             { item: "minecraft:dirt", chance: 0.5 },
-            { item: "kubejs:stone_pebble", chance: 0.5 },
             { item: "kubejs:andesite_pebble", chance: 0.25 },
             { item: "kubejs:diorite_pebble", chance: 0.25 },
             { item: "kubejs:granite_pebble", chance: 0.25 }

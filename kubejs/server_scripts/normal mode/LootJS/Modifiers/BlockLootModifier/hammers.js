@@ -1,4 +1,4 @@
-const materials = ['stone', 'iron', 'diamond', 'netherite'];
+const materials = ['stone', 'iron'];
 const recipes = [
     { input: 'minecraft:cobblestone', output: 'minecraft:gravel'},
     { input: 'minecraft:gravel', output: 'minecraft:sand'},
@@ -13,8 +13,7 @@ LootJS.modifiers((event) => {
             event
                 .addBlockLootModifier(r.input)
                 .matchEquip('mainhand', Item.of(`kubejs:${m}_hammer`))
-                .removeLoot(Ingredient.all)
-                .addLoot(r.output);
+                .replaceLoot(Ingredient.all, r.output); 
         })
     })
 })
