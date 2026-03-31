@@ -132,6 +132,14 @@ StartupEvents.registry("block", (event) => {
         .requiresTool(false)
         .tagBlock("mineable/shovel")
         .textureAll('kubejs:block/darkstone_gravel');
+    event.create("calcite_gravel")
+        .displayName("Calcite Gravel")
+        .hardness(0.6)
+        .resistance(0.6)
+        .gravelSoundType()
+        .requiresTool(false)
+        .tagBlock("mineable/shovel")
+        .textureAll('kubejs:block/calcite_gravel');
     blocks.forEach(block => {
         event.create(`${block}_block`)
             .displayName(`${capitalize(block)} Block`)
