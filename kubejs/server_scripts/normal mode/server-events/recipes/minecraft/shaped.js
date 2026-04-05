@@ -721,4 +721,14 @@ ServerEvents.recipes(event => {
         I: 'kubejs:iron_plate',
         R: 'kubejs:rubber_sheet'
     }).id('kubejs:shaped/printer_from_rubber');
+
+    event.shaped('kubejs:dormant_trial_spawner', [
+        'PIP',
+        'ICI',
+        'PIP'
+    ], {
+        C: 'kubejs:trial_core',
+        I: '#forge:ingots/netherite',
+        P: '#forge:plates/netherite'
+    }).id('kubejs:shaped/dormant_trial_spawner');
 });
