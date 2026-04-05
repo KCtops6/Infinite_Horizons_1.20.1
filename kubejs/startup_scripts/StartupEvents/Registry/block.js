@@ -165,5 +165,11 @@ StartupEvents.registry("block", (event) => {
         .hardness(5.0)
         .resistance(10.0)
         .opaque(true)
-        .fullBlock(true);
+        .fullBlock(true)
+        .texture('up', 'kubejs:block/dormant_trial_spawner_top')
+        .texture('down', 'kubejs:block/dormant_trial_spawner_botton')
+        .texture('north', 'kubejs:block/dormant_trial_spawner_side')
+        .texture('south', 'kubejs:block/dormant_trial_spawner_side')
+        .texture('east', 'kubejs:block/dormant_trial_spawner_side')
+        .texture('west', 'kubejs:block/dormant_trial_spawner_side');
 });
