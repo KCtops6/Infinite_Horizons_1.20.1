@@ -46,7 +46,7 @@ const ingots = [
 const plates = [
     'aluminum', 'brass', 'bronze',
     'constantan', 'copper', 'electrum', 'gold', 'infinitium',
-    'invar', 'iron', 'lead', 'lumium', 'nickel', 'signalum', 'silver', 'steel', 'tin', 'zinc'
+    'invar', 'iron', 'lead', 'lumium', 'netherite', 'nickel', 'signalum', 'silver', 'steel', 'tin', 'zinc'
 ];
 const gems = [
     { id: 'apatite', displayName: 'Apatite'},
