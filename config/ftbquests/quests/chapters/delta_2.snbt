@@ -1,0 +1,59 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "delta_2"
+	group: "6F4C25734B575319"
+	icon: "kubejs:trial_core"
+	id: "24A68DDB836D8E9E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5EBFC37464786F09"
+			tasks: [{
+				id: "08427E6CE7503941"
+				item: "kubejs:dormant_trial_spawner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["Trial Cores are a rare drop from Creepers, Enderman, Spiders, Skeletons, and Zombies."]
+			id: "72C17FB9872F894B"
+			rewards: [{
+				id: "478A7D394654ABDF"
+				item: "kubejs:trial_core"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "7356602312FC7D65"
+				item: "kubejs:trial_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5EBFC37464786F09"
+				"72C17FB9872F894B"
+			]
+			hide_dependent_lines: true
+			id: "100DEC7DE58FE84A"
+			tasks: [{
+				icon: "ntrials:trial_spawner"
+				id: "510B0B647801BE7B"
+				observe_type: 0
+				timer: 0L
+				title: "Create a Trial Spawner"
+				to_observe: "ntrials:trial_spawner"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Delta"
+}
