@@ -4,7 +4,10 @@ LootJS.modifiers((event) => {
         .randomChance(0.1)
         .matchMainHand(Item.of('create_sa:blazing_cleaver'))
         .addLoot('minecraft:wither_skeleton_skull');
-    event.addEntityLootModifier(/^minecraft:(zombie|skeleton|creeper|spider|enderman)$/)
-        .randomChance(1)
-        .addLoot(LootEntry.of('kubejs:trial_core'));
+    const OVER_WORLD_MOBS = ['zombie', 'skeleton', 'creeper', 'spider', 'enderman'];
+    OVER_WORLD_MOBS.forEach(mob => {
+        event.addEntityLootModifier(`minecraft:${mob}`)
+            .randomChance(1)
+            .addLoot(LootEntry.of('kubejs:trial_core'));
+    });
 });
