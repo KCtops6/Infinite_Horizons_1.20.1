@@ -40,8 +40,15 @@
 				"5EBFC37464786F09"
 				"72C17FB9872F894B"
 			]
+			description: ["Place a Dormant Trial Spawner and prepare the ground beneath it. Create a cross-pattern using a Block of Copper directly under the spawner and Chiseled Copper on the four adjacent cardinal sides. Place four identical Ritual Catalyst blocks in the remaining corner slots to determine which creature will be summoned. Once the sun sets, strike the spawner with a Trial Core to begin the encounter."]
 			hide_dependent_lines: true
 			id: "100DEC7DE58FE84A"
+			rewards: [{
+				id: "1C3C28EBA488BFF2"
+				item: "ntrials:trial_key"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				icon: "ntrials:trial_spawner"
 				id: "510B0B647801BE7B"
