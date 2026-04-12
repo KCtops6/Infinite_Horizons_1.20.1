@@ -60,3 +60,4 @@ config/jei/*
 config/attributefix.json
 config/createlowheated-common.toml
 config/supplementaries-common.toml
+BisectHosting.png
