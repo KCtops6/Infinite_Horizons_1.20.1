@@ -61,3 +61,4 @@ config/attributefix.json
 config/createlowheated-common.toml
 config/supplementaries-common.toml
 BisectHosting.png
+config/irons_spellbooks_spell_config/global_config.json
