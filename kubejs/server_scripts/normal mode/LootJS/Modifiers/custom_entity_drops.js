@@ -7,7 +7,7 @@ LootJS.modifiers((event) => {
     const OVER_WORLD_MOBS = ['zombie', 'skeleton', 'creeper', 'spider', 'enderman'];
     OVER_WORLD_MOBS.forEach(mob => {
         event.addEntityLootModifier(`minecraft:${mob}`)
-            .randomChance(1)
+            .randomChance(0.1)
             .addLoot(LootEntry.of('kubejs:trial_core'));
     });
 });
