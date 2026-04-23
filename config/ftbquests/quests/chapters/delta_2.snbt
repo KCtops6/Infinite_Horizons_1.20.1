@@ -61,6 +61,584 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "50681F2C435254D1"
+			rewards: [
+				{
+					count: 3
+					id: "0878B94D186BD5D2"
+					item: "minecraft:arrow"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7A40E2F20BC61ED6"
+					item: "minecraft:bone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7947C8FCD6606B0A"
+					item: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1964313252
+								-84653046
+								-1398821127
+								-1569551588
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUzOTFjNmU1MzVmN2FhNWEyYjZlZTZkMTM3ZjU5ZjJkN2M2MGRlZjg4ODUzYmE2MTFjZWIyZDE2YTdlN2M3MyJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 71718\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Stray\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "154C0A0E510E358A"
+				title: "Kill a Stray"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "3887B050C8C457F0"
+			rewards: [{
+				id: "697B612F5034FD00"
+				item: "minecraft:slime_ball"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								62437143
+								1757495694
+								-1099938715
+								-1620534173
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA2MWY5OGFhZmYxZTQwNmUwNmY2ZjEzZmZlMDYwMDU4NzNmM2QxZWFkZGIxYjU5ZTE5ZGRhMGVkOWZmYjI3MCJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 112527\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Slime\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "1D9F8FAEB8D6DD3B"
+				title: "Kill a Slime"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "45A752835DA3E7E7"
+			rewards: [
+				{
+					count: 3
+					id: "1C2517DF333E3E00"
+					item: "minecraft:rotten_flesh"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5DD54947007A4F5D"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4A58CE2A8A2AE9BE"
+					item: "minecraft:carrot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "78E22E15D490D79F"
+					item: "minecraft:potato"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-526141358
+								-427603480
+								-1707860872
+								1800045830
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA5NjE2NGY4MTk1MGE1Y2MwZTMzZTg3OTk5Zjk4Y2RlNzkyNTE3ZjRkN2Y5OWE2NDdhOWFlZGFiMjNhZTU4In19fQ=="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 41306\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Husk\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "67472B2AA3B89680"
+				title: "Kill a Husk"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "7EFE0663DE73A89D"
+			rewards: [
+				{
+					count: 3
+					id: "2CBD7D38D43E58B7"
+					item: "minecraft:rotten_flesh"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3A056BE22CFE6A9F"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4B427D4F75AB899F"
+					item: "minecraft:carrot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3E2DD2A2786C8FF2"
+					item: "minecraft:potato"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-526141358
+								-427603480
+								-1707860872
+								1800045830
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA5NjE2NGY4MTk1MGE1Y2MwZTMzZTg3OTk5Zjk4Y2RlNzkyNTE3ZjRkN2Y5OWE2NDdhOWFlZGFiMjNhZTU4In19fQ=="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 41306\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Husk\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "51F81AE1845E65DB"
+				title: "Kill a Husk"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "7AA64F582ECE34B4"
+			rewards: [{
+				id: "782686ADD16AEEE9"
+				item: "minecraft:gold_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1586908504
+								-426292680
+								-1946984613
+								524617965
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA1MzFiODJmYTY5ODRjMzAwNjgzZTcwZDY5NGYyM2JkNDAxNmYzZWMyMzY4MTQ2MGFjZmEyZTcxMjg2ZmM5ZSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 86304\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Piglin\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "18E10C59079EF341"
+				title: "Kill a Piglin"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "61CA02C1989749DB"
+			rewards: [{
+				id: "049755FFA1A47A30"
+				item: "minecraft:gold_block"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1495583819
+								509627582
+								-1550874603
+								2046378806
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzMDBlOTAyNzM0OWM0OTA3NDk3NDM4YmFjMjllM2E0Yzg3YTg0OGM1MGIzNGMyMTI0MjcyN2I1N2Y0ZTFjZiJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 38372\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Piglin Brute\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "5FA2834A0EEF286D"
+				title: "Kill a Piglin Brute"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "7D79D78FBDC7AF36"
+			rewards: [
+				{
+					count: 3
+					id: "0F94B51BC396B020"
+					item: "minecraft:gunpowder"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5C8D95959877C2A4"
+					item: "minecraft:ghast_tear"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1839469004
+								-956610941
+								-1922448717
+								2019495881
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA0ODQzNDIxYzIxOGQwNjM0NDU1ZmRiMWE2YzVmN2FlNWI4NTA5OGE1MGIxMmI5ZWQ5ZDkzMTBjODRkYzYxYiJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 117238\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Ghast\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "3D9E5B531AA329CC"
+				title: "Kill a Ghast"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "445802F427AF02F0"
+			rewards: [{
+				id: "6CCC222D78C2F35D"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								826054381
+								-1540144592
+								-1991960122
+								-1028526792
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU0YWFlMDA2NDllNjE3ZGRmOGVmMDUyNjQzNDViZmM4NjQwZTRhOGQ2ZDgzYzFhMzkyMzc3YWI3MWU2NDk2YiJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 106989\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Pillager (grayed)\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "558AD155F7DE8856"
+				title: "Kill a Pillager"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "4C8EEB0EEB984FAB"
+			rewards: [{
+				id: "7C97E316AB4A60F0"
+				item: "minecraft:saddle"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ravager"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								520102013
+								1535003450
+								-1604796681
+								-835899773
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM3M2UxNmZhMjkyNjg5OWNmMTg0MzQzNjBlMjE0NGY4NGVmMWViOTgxZjk5NjE0ODkxMjE0OGRkODdlMGIyYSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 56800\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Ravager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "73AF75155AEE082A"
+				title: "Kill a Ravager"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "7D563BE96195BEAB"
+			rewards: [{
+				count: 3
+				id: "1F96D1DA3A6D659D"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1053432760
+								-1750514720
+								-2123590235
+								-47542450
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY2ZmI4OWQxYzYzMWJkN2U3OWZlMTg1YmExYTY3MDU0MjVmNWMzMWE1ZmY2MjY1MjFlMzk1ZDRhNmY3ZTIifX19"
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 3861\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Vindicator\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "1616F7EADA3EC2FC"
+				title: "Kill a Vindicator"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "7F6970D6590FBF12"
+			rewards: [
+				{
+					count: 3
+					id: "2E4C60212081097F"
+					item: "minecraft:emerald_block"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6B64E25BC5756ADF"
+					item: "minecraft:totem_of_undying"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								270395103
+								-1326821974
+								-1814853546
+								887494179
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQzMzMyMmUyY2NiZDljNTVlZjQxZDk2ZjM4ZGJjNjY2YzgwMzA0NWIyNDM5MWFjOTM5MWRjY2FkN2NkIn19fQ=="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 71730\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Evoker\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "69108A7C2DFB3A2D"
+				title: "Kill an Evoker"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
 	]
 	title: "Delta"
 }
