@@ -1516,6 +1516,58 @@
 			x: 8.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["37C31E5A1FB0A120"]
+			id: "7DAB68DB87CB9B85"
+			rewards: [
+				{
+					id: "3E5C51A9BE35B4A3"
+					item: "create:wheat_flour"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "17BD197CCCFA1BF2"
+					item: "minecraft:wheat"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71CEB4807A858037"
+				item: "create:wheat_flour"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DAB68DB87CB9B85"]
+			id: "1FADC12C45773E6E"
+			rewards: [
+				{
+					id: "2FDE1F597C7D0C71"
+					item: "create:dough"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "747FF8A5846A5DC7"
+					item: "create:wheat_flour"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CBFB54D7C1883A6"
+				item: "create:dough"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
 	]
 	title: "Beta"
 }

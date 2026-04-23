@@ -5,7 +5,7 @@
 	group: "126A1C64F6AE129F"
 	icon: "rftoolsbase:smartwrench"
 	id: "2C2F74CA2B5AF7BC"
-	order_index: 25
+	order_index: 24
 	quest_links: [ ]
 	quests: [
 		{
