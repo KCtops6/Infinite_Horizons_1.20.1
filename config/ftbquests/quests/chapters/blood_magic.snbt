@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2260AD2796A36C0F"]
 			icon: "bloodmagic:altar"
 			id: "5FC58230DEEE116D"
 			tasks: [
