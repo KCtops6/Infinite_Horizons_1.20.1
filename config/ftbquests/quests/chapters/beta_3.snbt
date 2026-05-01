@@ -445,7 +445,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1A09937381BB310B"]
+			dependencies: [
+				"1A09937381BB310B"
+				"4C2B01F07C9A33D8"
+			]
 			id: "4D8406023D00753A"
 			tasks: [{
 				id: "4C42FC758EF47BB9"
@@ -932,7 +935,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7B2DCE5368BC4D89"]
 			description: ["Obtained by smelting soul sand."]
 			id: "2A3F0C05F26C731E"
 			optional: true
@@ -1567,6 +1569,42 @@
 			}]
 			x: 6.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["7C92DF666D71EF2C"]
+			id: "636DE0E04A19C4B0"
+			tasks: [{
+				id: "24B4AA7EB2B81A3E"
+				item: {
+					Count: 1
+					id: "createsifter:brass_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0AC851170B41AD02"
+				"182338376E9A5415"
+			]
+			description: ["Deepslate gravel gives you a bunch of more expensive resources compared to normal gravel."]
+			id: "426C7AF2A4441853"
+			rewards: [{
+				id: "0123A1274072A6A5"
+				item: "kubejs:deepslate_gravel"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "535B8EC55E6885A4"
+				item: "kubejs:deepslate_gravel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
 		}
 	]
 	title: "Beta"
