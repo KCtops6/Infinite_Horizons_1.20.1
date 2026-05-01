@@ -909,7 +909,6 @@
 			dependencies: [
 				"5D848CC085077117"
 				"27867F871BF6CA62"
-				"70D7D0BFBE9182FF"
 			]
 			hide_dependency_lines: true
 			id: "29B181EAF38C7CE1"
@@ -924,10 +923,7 @@
 			y: 5.25d
 		}
 		{
-			dependencies: [
-				"27867F871BF6CA62"
-				"70D7D0BFBE9182FF"
-			]
+			dependencies: ["27867F871BF6CA62"]
 			hide_dependency_lines: true
 			id: "52CEECC52E6644A0"
 			optional: true
