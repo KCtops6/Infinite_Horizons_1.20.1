@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6014A13DF01D4487"]
 			id: "5EBFC37464786F09"
 			tasks: [{
 				id: "08427E6CE7503941"
@@ -19,6 +20,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["73D50C93EBC09617"]
 			description: ["Trial Cores are a rare drop from Creepers, Enderman, Spiders, Skeletons, and Zombies."]
 			id: "72C17FB9872F894B"
 			rewards: [{
