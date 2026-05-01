@@ -8,89 +8,17 @@
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:oak_log"
 	id: "1F0402920128C0A0"
-	images: [
-		{
-			click: "https://github.com/KCtops6/Infinite_Horizons_1.20.1/wiki/Trowels"
-			dependency: "1095B567B96DDCF3"
-			height: 0.6d
-			hover: ["Learn about Trowels on the wiki"]
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 0.6d
-			x: 4.040815d
-			y: -0.9846950000000021d
-		}
-		{
-			dependency: "73D50C93EBC09617"
-			height: 1.0d
-			hover: ["Observe a Wandering Trader"]
-			image: "ftbchunks:textures/faces/minecraft/wandering_trader.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 7.0d
-			y: 6.0d
-		}
-		{
-			dependency: "73D50C93EBC09617"
-			height: 1.0d
-			hover: ["Observe a Bee"]
-			image: "minecraft:textures/entity_icon/bee/bee.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: 0.0d
-		}
-		{
-			dependency: "73D50C93EBC09617"
-			height: 1.0d
-			hover: ["Observe a Cow"]
-			image: "minecraft:textures/entity_icon/cow/cow.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			dependency: "73D50C93EBC09617"
-			height: 1.0d
-			hover: ["Observe a Chicken"]
-			image: "ftbchunks:textures/faces/minecraft/chicken.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -1.0d
-		}
-		{
-			dependency: "73D50C93EBC09617"
-			height: 1.0d
-			hover: ["Observe a Pig"]
-			image: "minecraft:textures/entity_icon/pig/pig.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: 1.0d
-		}
-		{
-			dependency: "73D50C93EBC09617"
-			height: 1.0d
-			hover: ["Observe a Sheep"]
-			image: "ftbchunks:textures/faces/minecraft/sheep.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 1.0d
-		}
-		{
-			dependency: "73D50C93EBC09617"
-			height: 1.0d
-			hover: ["Observe a Horse"]
-			image: "minecraft:textures/entity_icon/horse/horse_chestnut.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -1.0d
-		}
-	]
+	images: [{
+		click: "https://github.com/KCtops6/Infinite_Horizons_1.20.1/wiki/Trowels"
+		dependency: "1095B567B96DDCF3"
+		height: 0.6d
+		hover: ["Learn about Trowels on the wiki"]
+		image: "minecraft:block/bookshelf"
+		rotation: 0.0d
+		width: 0.6d
+		x: 4.040815d
+		y: -0.9846950000000021d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -208,8 +136,8 @@
 				type: "observation"
 			}]
 			title: "Opportunities Await"
-			x: -1.0d
-			y: 0.0d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -255,7 +183,7 @@
 				type: "observation"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -397,7 +325,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["56AE41FF2C03F86B"]
@@ -537,8 +465,8 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: 9.040815d
-			y: 1.015304999999998d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
@@ -583,57 +511,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["30B0D5F784749DB3"]
-			hide_dependency_lines: true
-			id: "6B72A89412441EF8"
-			optional: true
-			rewards: [
-				{
-					count: 2
-					id: "1661E0369ED11428"
-					item: "comforts:rope_and_nail"
-					type: "item"
-				}
-				{
-					id: "07D7D56417E9C394"
-					item: "comforts:hammock_white"
-					type: "item"
-				}
-				{
-					id: "3D1650F623C51647"
-					item: "minecraft:white_wool"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "5A835FD03C64AE61"
-					item: "pamhc2foodcore:muttonjerkyitem"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				icon: "comforts:sleeping_bag_white"
-				id: "103A9B4913862F51"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "comforts:sleeping_bags"
-					}
-				}
-				title: "Craft a sleeping bag."
-				type: "item"
-			}]
-			x: -4.0d
-			y: 1.75d
-		}
-		{
-			dependencies: [
-				"0AC851170B41AD02"
-				"182338376E9A5415"
-			]
+			dependencies: ["426C7AF2A4441853"]
 			description: ["Unlocks \"Gamma\" questline."]
 			id: "2260AD2796A36C0F"
 			tasks: [{
@@ -641,8 +519,8 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2260AD2796A36C0F"]
@@ -655,8 +533,8 @@
 				item: "farmingforblockheads:feeding_trough"
 				type: "item"
 			}]
-			x: 11.25d
-			y: 0.25d
+			x: 15.0d
+			y: 2.75d
 		}
 		{
 			dependencies: [
@@ -678,8 +556,8 @@
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
-			x: 11.25d
-			y: -0.25d
+			x: 14.25d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -701,22 +579,19 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -0.25d
+			x: 15.0d
+			y: -1.75d
 		}
 		{
-			dependencies: [
-				"182338376E9A5415"
-				"0AC851170B41AD02"
-			]
+			dependencies: ["426C7AF2A4441853"]
 			id: "5D848CC085077117"
 			tasks: [{
 				id: "4EC86680543BF073"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 13.040815d
-			y: -0.9846950000000021d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -825,34 +700,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"37C31E5A1FB0A120"
-				"33A3E11BD0EB479B"
-				"133BCE410E613A4F"
-			]
-			description: ["By washing down Soul Sand, you can uncover valuable Nether Quartz, a resource essential for advanced crafting and technology."]
-			id: "7B2DCE5368BC4D89"
-			subtitle: "Nether Quartz from the Depths"
-			tasks: [{
-				count: 16L
-				id: "2CDD7113A06009EE"
-				item: "minecraft:soul_sand"
-				type: "item"
-			}]
-			title: "Shifting Sands"
-			x: 16.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7B2DCE5368BC4D89"]
+			dependencies: ["307577AF1F361688"]
 			id: "69385CCE6FF31DEB"
 			tasks: [{
 				id: "5AED953FDCC10BC6"
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 4.0d
+			x: 16.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -875,7 +731,7 @@
 				}
 			]
 			x: 0.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["33A3E11BD0EB479B"]
@@ -972,7 +828,10 @@
 			y: 8.015304999999998d
 		}
 		{
-			dependencies: ["4D8406023D00753A"]
+			dependencies: [
+				"4D8406023D00753A"
+				"562729C766AB2ED8"
+			]
 			id: "6014A13DF01D4487"
 			rewards: [
 				{
@@ -1001,8 +860,8 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -4.0d
+			x: 16.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1024,41 +883,8 @@
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -4.75d
-		}
-		{
-			dependencies: ["110517F6B8116C24"]
-			description: ["Killing normal skeletons with a blazing cleaver can give wither skeleton skulls."]
-			icon: "minecraft:wither_skeleton_skull"
-			id: "305CAD4BB78423E7"
-			rewards: [{
-				id: "46CEF9382E6CD824"
-				item: "minecraft:wither_skeleton_skull"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "21989353EB8C3050"
-					item: {
-						Count: 1
-						id: "create_sa:blazing_cleaver"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "73E47E61C19018DE"
-					item: "minecraft:wither_skeleton_skull"
-					type: "item"
-				}
-			]
-			title: "Wither Skeleton Skulls"
-			x: 17.040815000000002d
-			y: 0.015304999999997904d
+			x: 16.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -1068,8 +894,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1090,11 +916,11 @@
 				item: "kubejs:steel_ingot"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -4.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["305CAD4BB78423E7"]
+			dependencies: ["2A0BC15D7F6B3A62"]
 			description: ["Useful for wither farms later on.  Note, you can just use super sound muffler though."]
 			hide_dependency_lines: true
 			id: "4853C19A6EE7B90D"
@@ -1111,8 +937,8 @@
 				item: "mob_grinding_utils:wither_muffler"
 				type: "item"
 			}]
-			x: 16.790815000000002d
-			y: -0.7346950000000021d
+			x: 16.75d
+			y: -5.0d
 		}
 		{
 			dependencies: ["73D50C93EBC09617"]
@@ -1161,7 +987,7 @@
 				title: "Craft a Compact Machine."
 				type: "item"
 			}]
-			x: -1.0d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -1184,27 +1010,6 @@
 			}]
 			x: 15.040815d
 			y: 7.015304999999998d
-		}
-		{
-			dependencies: [
-				"305CAD4BB78423E7"
-				"4D8C16662420211F"
-				"24AB91EB9A74B02F"
-			]
-			id: "438BDE348AB8DD19"
-			rewards: [{
-				id: "7D17D7105EDF8AF5"
-				item: "minecraft:wither_rose"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "71B74EEF2352D1D2"
-				item: "minecraft:wither_rose"
-				type: "item"
-			}]
-			x: 18.040815000000002d
-			y: 0.015304999999997904d
 		}
 		{
 			dependencies: ["0A87B874851CD1B0"]
@@ -1241,8 +1046,8 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -3.0d
+			x: 14.0d
+			y: -1.0d
 		}
 		{
 			description: ["Obtained either through Apotheosis Enchanting or Mekanism Antiprotonic Nucleosynthesizer. "]
@@ -1372,17 +1177,6 @@
 			title: "Formerly Hardened Clay"
 			x: 14.040815d
 			y: 7.015304999999998d
-		}
-		{
-			dependencies: ["305CAD4BB78423E7"]
-			id: "70D7D0BFBE9182FF"
-			tasks: [{
-				id: "107BE83A5DA3EF7E"
-				item: "minecraft:nether_star"
-				type: "item"
-			}]
-			x: 17.040815000000002d
-			y: 1.015304999999998d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -1526,10 +1320,7 @@
 			y: 0.015304999999997904d
 		}
 		{
-			dependencies: [
-				"2410A2F2F4822D70"
-				"4F2C62E6CE416624"
-			]
+			dependencies: ["2410A2F2F4822D70"]
 			hide_dependency_lines: true
 			id: "08D84D303B46BF2D"
 			tasks: [{
@@ -1589,8 +1380,8 @@
 				item: "minecraft:lodestone"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -4.0d
+			x: 17.0d
+			y: -3.0d
 		}
 		{
 			id: "2D57CF7E0CA36CAB"
@@ -1603,7 +1394,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6262C580B72FD2C5"]
 			id: "6A956A02FD58E257"
 			tasks: [{
 				id: "5076A3F724B60510"
@@ -1815,7 +1605,6 @@
 			y: -4.984695000000002d
 		}
 		{
-			dependencies: ["6262C580B72FD2C5"]
 			id: "1E69978C3A1B8894"
 			rewards: [{
 				id: "14F2CEF1C41C9136"
@@ -1843,21 +1632,6 @@
 			y: 8.0d
 		}
 		{
-			hide_dependent_lines: true
-			id: "6262C580B72FD2C5"
-			size: 1.0E-5d
-			tasks: [{
-				id: "7442727B301743E9"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:wandering_trader"
-				type: "observation"
-			}]
-			x: 7.1027200000000015d
-			y: 6.021084999999999d
-		}
-		{
-			dependencies: ["6262C580B72FD2C5"]
 			hide_dependency_lines: true
 			id: "3DE2544DFA9FD2E9"
 			rewards: [{
@@ -1875,25 +1649,7 @@
 			y: 6.0d
 		}
 		{
-			hide_dependent_lines: true
-			id: "4F2C62E6CE416624"
-			secret: true
-			size: 1.0E-5d
-			tasks: [{
-				id: "0DDECA14BF331F25"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:bee"
-				type: "observation"
-			}]
-			x: -5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"4F2C62E6CE416624"
-				"715B72B589E55A21"
-			]
+			dependencies: ["715B72B589E55A21"]
 			hide_dependency_lines: true
 			id: "3C273B51939E75E7"
 			tasks: [{
@@ -1923,7 +1679,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["6262C580B72FD2C5"]
 			hide_dependency_lines: true
 			id: "1D782A701C958BA1"
 			rewards: [{
@@ -1941,7 +1696,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["6262C580B72FD2C5"]
 			id: "26F6423FEC9344FF"
 			rewards: [{
 				id: "323B8CE17482C59E"
@@ -1969,7 +1723,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6262C580B72FD2C5"]
 			id: "338A51CE97015805"
 			tasks: [{
 				id: "7983AF4DCE2F71F2"
@@ -1987,7 +1740,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["6262C580B72FD2C5"]
 			id: "5539D8EB6ED072A3"
 			rewards: [
 				{
@@ -2011,10 +1763,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"34772CE2E8E25A5E"
-				"7E1BC6AC70B963CA"
-			]
+			dependencies: ["34772CE2E8E25A5E"]
 			id: "55D1493191B4E1F1"
 			tasks: [{
 				id: "2A4F608691419A5D"
@@ -2023,91 +1772,6 @@
 			}]
 			x: 4.040815d
 			y: 3.015304999999998d
-		}
-		{
-			dependencies: ["73D50C93EBC09617"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "7E1BC6AC70B963CA"
-			secret: true
-			size: 0.001d
-			tasks: [{
-				id: "4CDE0AA216B55C35"
-				observe_type: 5
-				secret: true
-				timer: 0L
-				title: "Observe a Cow"
-				to_observe: "minecraft:cow"
-				type: "observation"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "2B6CF24762107E78"
-			secret: true
-			size: 0.001d
-			tasks: [{
-				id: "3F6029AA8AD98E77"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:chicken"
-				type: "observation"
-			}]
-			x: -4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["73D50C93EBC09617"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "52D688E13ABCD855"
-			secret: true
-			size: 0.001d
-			tasks: [{
-				id: "4DAC7A54BE56F300"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:pig"
-				type: "observation"
-			}]
-			x: -5.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["73D50C93EBC09617"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "30B0D5F784749DB3"
-			secret: true
-			size: 0.001d
-			tasks: [{
-				id: "77BE0647276F0AB5"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:sheep"
-				type: "observation"
-			}]
-			x: -4.0d
-			y: 1.0d
-		}
-		{
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "79E583BD8C246735"
-			secret: true
-			size: 1.0E-4d
-			tasks: [{
-				id: "6125281FDA1F2458"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:horse"
-				type: "observation"
-			}]
-			x: -5.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["0E2936F6EEABE216"]
@@ -2132,8 +1796,8 @@
 				}
 			]
 			title: "Deepslate"
-			x: 12.040815d
-			y: -0.9846950000000021d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["73D50C93EBC09617"]
@@ -2253,6 +1917,296 @@
 			}]
 			x: 8.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["0A87B874851CD1B0"]
+			description: ["You can not go into the nether yet, but you can obtain some of the resources that comes from the dimension. Netherrack is the best example. You want to mass produce this for netherite."]
+			id: "4C2B01F07C9A33D8"
+			rewards: [{
+				id: "42714D35FD1CAF5B"
+				item: "minecraft:netherrack"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FC3A515C4B93143"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4C2B01F07C9A33D8"]
+			id: "1DFB65247CB3141C"
+			rewards: [
+				{
+					id: "046E766AAE90AFD4"
+					item: "minecraft:nether_brick"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1728E29106EA715D"
+					item: "minecraft:netherrack"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53939E5B7D93BEA9"
+				item: "minecraft:nether_brick"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4C2B01F07C9A33D8"]
+			description: ["Nether brick blocks are obtained in a similar way to netherrack. You can also craft them from netherrack though. This is the corner block for a blaze trial spawner."]
+			id: "6B3A8FFC9B7CD55C"
+			rewards: [
+				{
+					id: "7E8C1D330B36BD3D"
+					item: "minecraft:nether_bricks"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7DCC0AC4AE21FF26"
+					item: "quark:nether_brick_chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4110D9C17F6588AB"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4C2B01F07C9A33D8"]
+			description: ["Wheat crops convert to nether wart when placed near a nether portal."]
+			id: "3EB65847D01839D0"
+			rewards: [{
+				id: "4E6166895161E66F"
+				item: "minecraft:nether_wart"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E840C4006E15A4D"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"636DE0E04A19C4B0"
+				"4D8406023D00753A"
+			]
+			id: "562729C766AB2ED8"
+			rewards: [{
+				id: "7576BABB2C3EC667"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "278D4DFC064EEEED"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C2B01F07C9A33D8"]
+			id: "4D8521ABFF426F1B"
+			rewards: [{
+				id: "0990B698E97B81E3"
+				item: "minecraft:blackstone"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0128C4AC60D283AF"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4C2B01F07C9A33D8"]
+			id: "2A0BC15D7F6B3A62"
+			rewards: [{
+				id: "60863DFCB1D5943F"
+				item: "minecraft:coal"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "0215046D59026481"
+				title: "Kill a Wither Skeleton"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4C2B01F07C9A33D8"]
+			description: ["Soul sand is made by placing regular sand by a nether portal. You can then make a lot more quickly with create haunting."]
+			id: "307577AF1F361688"
+			rewards: [{
+				id: "40CD8D54C5A090FC"
+				item: "minecraft:soul_sand"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "436D4AC653E701FC"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"307577AF1F361688"
+				"2A0BC15D7F6B3A62"
+			]
+			description: ["Either cheese this or gear up for this fight."]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1296138055
+							1896236761
+							-1766810299
+							286369195
+						]
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNiNmJiNTNlMzNkYjJjMTlhZTg4YjVjZTdlMjRlOGI1ZjMxMzdjNDExYjRmNzA0ZjBhZWJkNWRlZWUxNTY5NCJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Lore: [
+							"{\"text\":\"Custom Head ID: 79591\",\"color\":\"gray\",\"italic\":false}"
+							"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+						]
+						Name: "{\"text\":\"Wither\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+					}
+				}
+			}
+			id: "2B954C67AED782DD"
+			rewards: [{
+				id: "6BBD8FCDFFCB0534"
+				item: "minecraft:wither_rose"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1296138055
+									1896236761
+									-1766810299
+									286369195
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNiNmJiNTNlMzNkYjJjMTlhZTg4YjVjZTdlMjRlOGI1ZjMxMzdjNDExYjRmNzA0ZjBhZWJkNWRlZWUxNTY5NCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 79591\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Wither\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
+					id: "4CEC286E9ECF4781"
+					title: "Kill the Wither"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "36B6F27C270B7A06"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1FFD16D39BDE1E10"]
+			id: "216605D56EC990F3"
+			rewards: [{
+				id: "4BC461A4DAC2F6D6"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								716333062
+								-607564695
+								-1321581293
+								-633659308
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWUwMTFhYWM4MTcyNTlmMmI0OGRhM2U1ZWYyNjYwOTQ3MDM4NjY2MDhiM2Q3ZDE3NTQ0MzJiZjI0OWNkMjIzNCJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 65745\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Wandering Trader\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "34E6791022F0BD6B"
+				observe_type: 5
+				timer: 0L
+				title: "Interface with a Wandering Trader"
+				to_observe: "minecraft:wandering_trader"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 4.0d
 		}
 	]
 	title: "Alpha"
