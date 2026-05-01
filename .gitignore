@@ -65,3 +65,5 @@ config/irons_spellbooks_spell_config/global_config.json
 config/bloodmagic-common.toml
 config/industrialforegoing/machine-resource-production.toml
 config/farmersdelight*
+config/justenoughbreeding-offsets.json
+config/apotheosis/names.cfg
