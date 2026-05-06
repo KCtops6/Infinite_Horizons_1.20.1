@@ -67,3 +67,8 @@ config/industrialforegoing/machine-resource-production.toml
 config/farmersdelight*
 config/justenoughbreeding-offsets.json
 config/apotheosis/names.cfg
+config/alltheleaks.json
+config/canary.properties
+config/cull-less-leaves.json
+config/fancymenu/ui_themes/
+config/jecalculation/
