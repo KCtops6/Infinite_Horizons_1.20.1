@@ -12,10 +12,26 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1AC649402EA13EB3"]
+			dependencies: [
+				"1AC649402EA13EB3"
+				"2DC5C9586D6CD142"
+			]
 			description: ["The Water Wheel allows you to harness flowing water to generate kinetic energy, powering your Create mod machinery efficiently and sustainably."]
 			id: "2F9B0013A2D20BA3"
 			rewards: [
+				{
+					id: "40BD3E1B6C31601B"
+					item: "create:water_wheel"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 24
+					id: "26873D674AEF3974"
+					item: "create:shaft"
+					random_bonus: 16
+					type: "item"
+				}
 				{
 					id: "055C52A9285B76B8"
 					item: "create:stressometer"
@@ -45,6 +61,21 @@
 		{
 			dependencies: ["513D936FBE83EC2D"]
 			id: "1AC649402EA13EB3"
+			rewards: [
+				{
+					id: "2451AE3EF92C646E"
+					item: "create:andesite_casing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "35A2691C9ED0D2A8"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3C176D81103AD394"
 				item: "create:andesite_casing"
@@ -935,6 +966,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["307577AF1F361688"]
 			description: ["Obtained by smelting soul sand."]
 			id: "2A3F0C05F26C731E"
 			optional: true
@@ -1605,6 +1637,33 @@
 			}]
 			x: 6.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["513D936FBE83EC2D"]
+			id: "2DC5C9586D6CD142"
+			rewards: [
+				{
+					count: 8
+					id: "65628D1A67FB2B30"
+					item: "create:shaft"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2C0C2935741BEC14"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A7C44B0A6ADBE6C"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 	title: "Beta"
