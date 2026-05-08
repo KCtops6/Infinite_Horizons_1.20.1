@@ -15,7 +15,8 @@ ServerEvents.recipes(event => {
         'create:crushing/gravel', 'botania:livingwood_twig', 'botania:dreamwood_twig', 'create:crushing/tuff', 'create:crushing/tuff_recycling',
         'create:crushing/crimsite_recycling', 'create:crushing/asurine_recycling', 'create:crushing/ochrum_recycling',
         'create:crushing/veridium_recycling',
-        'delightful:integration/twigs/cutting/cobblestone'
+        'delightful:integration/twigs/cutting/cobblestone', 'create:crafting/appliances/dough',
+        'enderio:iron_gear'
     ];
     identifications.forEach(identification => {
         event.remove({ id: identification });
@@ -45,5 +46,5 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: /createsifter:sifting\/.*mesh/ });
 
-    event.remove({ id: 'create:crafting/appliances/dough' });
+    event.remove({ id: /thermal:parts\/.*gear/ });
 });
