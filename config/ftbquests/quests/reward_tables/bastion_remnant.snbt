@@ -1,0 +1,89 @@
+{
+	id: "103E3C4FD533710D"
+	loot_crate: {
+		color: 3355443
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "bastion_remnant"
+	}
+	loot_size: 9
+	order_index: 15
+	rewards: [
+		{ item: "minecraft:lodestone" }
+		{ count: 5, item: "minecraft:arrow", random_bonus: 12, weight: 0.2f }
+		{ count: 2, item: "minecraft:magma_cream", random_bonus: 4, weight: 0.15384616f }
+		{ item: "minecraft:gilded_blackstone", random_bonus: 11, weight: 0.15384616f }
+		{ count: 2, item: "minecraft:iron_nugget", random_bonus: 6, weight: 0.2f }
+		{ count: 2, item: "minecraft:gold_nugget", random_bonus: 6, weight: 0.2f }
+		{ item: "minecraft:string", random_bonus: 5, weight: 0.2f }
+		{ item: "minecraft:leather", random_bonus: 2, weight: 0.2f }
+		{ count: 4, item: "minecraft:obsidian", random_bonus: 2, weight: 0.07692308f }
+		{ item: "minecraft:spectral_arrow", random_bonus: 21, weight: 0.11235955f }
+		{ count: 4, item: "minecraft:iron_ingot", random_bonus: 5, weight: 0.1f }
+		{ count: 4, item: "minecraft:gold_ingot", random_bonus: 5, weight: 0.1f }
+		{ count: 3, item: "minecraft:crying_obsidian", random_bonus: 5, weight: 0.1f }
+		{ count: 6, item: "minecraft:golden_carrot", random_bonus: 11, weight: 0.13483146f }
+		{ item: "minecraft:ancient_debris", weight: 0.13483146f }
+		{ item: "minecraft:netherite_upgrade_smithing_template", weight: 0.1f }
+		{ item: "minecraft:snout_armor_trim_smithing_template", weight: 0.083333336f }
+		{ item: "minecraft:gilded_blackstone", random_bonus: 4, weight: 0.15384616f }
+		{ item: "minecraft:golden_apple", weight: 0.1011236f }
+		{ item: "minecraft:music_disc_pigstep", weight: 0.056179777f }
+		{ item: "minecraft:netherite_scrap", weight: 0.04494382f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+	]
+	title: "Bastion Remnant"
+}

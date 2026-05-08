@@ -1,0 +1,51 @@
+{
+	id: "5D9C3E1B8F2A4C6D"
+	loot_crate: {
+		color: 3026478
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "ancient_city"
+	}
+	loot_size: 10
+	order_index: 3
+	rewards: [
+		{ count: 6, item: "minecraft:coal", random_bonus: 9, weight: 0.08333333f }
+		{ item: "minecraft:bone", random_bonus: 14, weight: 0.05952381f }
+		{ item: "minecraft:soul_torch", random_bonus: 14, weight: 0.05952381f }
+		{ count: 3, item: "minecraft:book", random_bonus: 7, weight: 0.05952381f }
+		{ item: "minecraft:disc_fragment_5", random_bonus: 2, weight: 0.04761905f }
+		{ item: "minecraft:echo_shard", random_bonus: 2, weight: 0.04761905f }
+		{ item: "minecraft:amethyst_shard", random_bonus: 14, weight: 0.03571429f }
+		{ item: "minecraft:glow_berries", random_bonus: 14, weight: 0.03571429f }
+		{ count: 4, item: "minecraft:sculk", random_bonus: 6, weight: 0.03571429f }
+		{ item: "minecraft:candle", random_bonus: 3, weight: 0.03571429f }
+		{ item: "minecraft:experience_bottle", random_bonus: 2, weight: 0.03571429f }
+		{ item: "minecraft:sculk_sensor", random_bonus: 2, weight: 0.03571429f }
+		{ item: "minecraft:leather", random_bonus: 4, weight: 0.02380952f }
+		{ item: "minecraft:sculk_catalyst", random_bonus: 1, weight: 0.02380952f }
+		{ item: "minecraft:compass", weight: 0.02380952f }
+		{ item: "minecraft:music_disc_13", weight: 0.02380952f }
+		{ item: "minecraft:music_disc_cat", weight: 0.02380952f }
+		{ item: "minecraft:lead", weight: 0.02380952f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.02380952f
+		}
+		{ item: "minecraft:diamond_horse_armor", weight: 0.02380952f }
+		{ item: "minecraft:enchanted_golden_apple", random_bonus: 1, weight: 0.01190476f }
+		{ item: "minecraft:music_disc_otherside", weight: 0.01190476f }
+		{ item: "minecraft:ward_armor_trim_smithing_template", weight: 0.05f }
+		{ item: "minecraft:silence_armor_trim_smithing_template", weight: 0.0125f }
+	]
+	title: "Ancient City"
+}

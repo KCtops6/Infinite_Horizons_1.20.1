@@ -1,0 +1,47 @@
+{
+	id: "6B2D86C9E9A58A77"
+	loot_crate: {
+		color: 2445951
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "buried_treasure"
+	}
+	loot_size: 9
+	order_index: 5
+	rewards: [
+		{ item: "minecraft:heart_of_the_sea" }
+		{ item: "minecraft:iron_ingot", random_bonus: 3, weight: 0.5714286f }
+		{ item: "minecraft:gold_ingot", random_bonus: 3, weight: 0.2857143f }
+		{ count: 2, item: "minecraft:cooked_cod", random_bonus: 2, weight: 0.5f }
+		{ count: 2, item: "minecraft:cooked_salmon", random_bonus: 2, weight: 0.5f }
+		{ item: "minecraft:tnt", random_bonus: 1, weight: 0.14285715f }
+		{ count: 4, item: "minecraft:emerald", random_bonus: 4, weight: 0.33333334f }
+		{ item: "minecraft:prismarine_crystals", random_bonus: 4, weight: 0.33333334f }
+		{ item: "minecraft:diamond", random_bonus: 1, weight: 0.33333334f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.33333334f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.33333334f
+		}
+	]
+	title: "Buried Treasure"
+}

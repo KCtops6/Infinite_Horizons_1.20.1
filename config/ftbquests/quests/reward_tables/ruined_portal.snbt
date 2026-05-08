@@ -1,0 +1,134 @@
+{
+	id: "4361D1957FF6734D"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "ruined_portal"
+	}
+	loot_size: 9
+	order_index: 13
+	rewards: [
+		{ item: "minecraft:lodestone", random_bonus: 1, weight: 0.6666667f }
+		{ count: 9, item: "minecraft:iron_nugget", random_bonus: 9, weight: 0.10050251f }
+		{ item: "minecraft:flint", random_bonus: 3, weight: 0.10050251f }
+		{ item: "minecraft:obsidian", random_bonus: 1, weight: 0.10050251f }
+		{ item: "minecraft:fire_charge", weight: 0.10050251f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.10050251f
+		}
+		{ count: 4, item: "minecraft:gold_nugget", random_bonus: 20, weight: 0.03768844f }
+		{ item: "minecraft:golden_apple", weight: 0.03768844f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03768844f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03768844f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03768844f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03768844f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03768844f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03768844f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03768844f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03768844f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03768844f
+		}
+		{ count: 4, item: "minecraft:glistering_melon_slice", random_bonus: 8, weight: 0.012562814f }
+		{ count: 4, item: "minecraft:golden_carrot", random_bonus: 8, weight: 0.012562814f }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 6, weight: 0.012562814f }
+		{ item: "minecraft:clock", weight: 0.012562814f }
+		{ item: "minecraft:light_weighted_pressure_plate", weight: 0.012562814f }
+		{ item: "minecraft:golden_horse_armor", weight: 0.012562814f }
+		{ item: "minecraft:gold_block", random_bonus: 1, weight: 0.0025125628f }
+		{ item: "minecraft:bell", weight: 0.0025125628f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.0025125628f }
+	]
+	title: "Ruined Portal"
+}

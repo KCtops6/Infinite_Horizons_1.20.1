@@ -1,0 +1,30 @@
+{
+	id: "484F377A57ECDE4D"
+	loot_crate: {
+		color: 4881954
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "jungle_temple"
+	}
+	loot_size: 9
+	order_index: 10
+	rewards: [
+		{ count: 4, item: "minecraft:bone", random_bonus: 2, weight: 0.2247191f }
+		{ count: 3, item: "minecraft:rotten_flesh", random_bonus: 4, weight: 0.17977528f }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 5, weight: 0.16853933f }
+		{ item: "minecraft:bamboo", random_bonus: 2, weight: 0.16853933f }
+		{ item: "minecraft:iron_ingot", random_bonus: 4, weight: 0.11235955f }
+		{ count: 2, item: "minecraft:wild_armor_trim_smithing_template", weight: 0.33333334f }
+		{ item: "minecraft:leather", random_bonus: 4, weight: 0.033707865f }
+		{ item: "minecraft:diamond", random_bonus: 2, weight: 0.033707865f }
+		{ item: "minecraft:emerald", random_bonus: 2, weight: 0.02247191f }
+		{ item: "minecraft:iron_horse_armor", weight: 0.011235955f }
+		{ item: "minecraft:golden_horse_armor", weight: 0.011235955f }
+		{ item: "minecraft:diamond_horse_armor", weight: 0.011235955f }
+	]
+	title: "Jungle Temple"
+}

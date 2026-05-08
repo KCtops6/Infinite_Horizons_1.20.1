@@ -10,4 +10,13 @@ LootJS.modifiers((event) => {
             .randomChance(0.1)
             .addLoot(LootEntry.of('kubejs:trial_core'));
     });
+    global.crateConfig.forEach(entry => {
+        let crateItem = Item.of('ftbquests:lootcrate', { "type": entry.crate });
+        entry.rules.forEach(rule => {
+            rule.mobs.forEach(mobInput => {
+                let mobId = mobInput.includes(':') ? mobInput : `minecraft:${mobInput}`;
+                event.addEntityLootModifier(mobId).randomChance(rule.chance).addLoot(crateItem);
+            });
+        });
+    });
 });

@@ -1,0 +1,97 @@
+{
+	id: "6F2A8D3C1B9E4A7D"
+	loot_crate: {
+		color: 4473924
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "stronghold"
+	}
+	loot_size: 9
+	order_index: 7
+	rewards: [
+		{ item: "minecraft:apple", random_bonus: 2, weight: 0.14851485f }
+		{ item: "minecraft:bread", random_bonus: 2, weight: 0.14851485f }
+		{ item: "minecraft:iron_ingot", random_bonus: 4, weight: 0.0990099f }
+		{ item: "minecraft:ender_pearl", weight: 0.0990099f }
+		{ count: 4, item: "minecraft:redstone", random_bonus: 5, weight: 0.04950495f }
+		{ item: "minecraft:gold_ingot", random_bonus: 2, weight: 0.04950495f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.04950495f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.04950495f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.04950495f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.04950495f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.04950495f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.04950495f
+		}
+		{ item: "minecraft:eye_armor_trim_smithing_template", weight: 0.1f }
+		{ item: "minecraft:diamond", random_bonus: 2, weight: 0.02970297f }
+		{ item: "minecraft:leather", random_bonus: 4, weight: 0.00990099f }
+		{ item: "minecraft:music_disc_otherside", weight: 0.00990099f }
+		{ item: "minecraft:iron_horse_armor", weight: 0.00990099f }
+		{ item: "minecraft:golden_apple", weight: 0.00990099f }
+		{ item: "minecraft:golden_horse_armor", weight: 0.00990099f }
+		{ item: "minecraft:diamond_horse_armor", weight: 0.00990099f }
+		{ item: "minecraft:eye_armor_trim_smithing_template" }
+		{ count: 2, item: "minecraft:paper", random_bonus: 5, weight: 0.3846154f }
+		{ item: "minecraft:book", random_bonus: 2, weight: 0.3846154f }
+		{ item: "minecraft:compass", weight: 0.01923077f }
+		{ item: "minecraft:map", weight: 0.01923077f }
+	]
+	title: "Stronghold"
+}

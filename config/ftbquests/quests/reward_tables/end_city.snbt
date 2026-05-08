@@ -1,0 +1,204 @@
+{
+	id: "358AE0BB51880C69"
+	loot_crate: {
+		color: 14725355
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "end_city"
+	}
+	loot_size: 9
+	order_index: 19
+	rewards: [
+		{ count: 2, item: "minecraft:iron_ingot", random_bonus: 5, weight: 0.16666667f }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 5, weight: 0.14814815f }
+		{ count: 2, item: "minecraft:emerald", random_bonus: 4, weight: 0.12962963f }
+		{ count: 2, item: "minecraft:diamond", random_bonus: 5, weight: 0.09259259f }
+		{ item: "minecraft:end_rod", random_bonus: 3, weight: 0.09259259f }
+		{ item: "minecraft:spire_armor_trim_smithing_template", weight: 0.06666667f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.027777778f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.027777778f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.027777778f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.027777778f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.027777778f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.027777778f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.027777778f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.027777778f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.027777778f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.018518519f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.018518519f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.018518519f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.018518519f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.018518519f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.018518519f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.018518519f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.018518519f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.018518519f
+		}
+	]
+	title: "End City"
+}

@@ -1,0 +1,35 @@
+{
+	id: "49C1215600B2D800"
+	loot_crate: {
+		color: 15395562
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "igloo"
+	}
+	loot_size: 9
+	order_index: 9
+	rewards: [
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:coal", random_bonus: 3, weight: 0.23809524f }
+		{ item: "minecraft:apple", random_bonus: 2, weight: 0.23809524f }
+		{ count: 2, item: "minecraft:wheat", random_bonus: 1, weight: 0.15873016f }
+		{ item: "minecraft:gold_nugget", random_bonus: 2, weight: 0.15873016f }
+		{ item: "minecraft:rotten_flesh", weight: 0.15873016f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:stone_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.03174603f
+		}
+		{ item: "minecraft:emerald", weight: 0.015873017f }
+	]
+	title: "Igloo"
+}

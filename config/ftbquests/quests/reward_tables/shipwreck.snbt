@@ -1,0 +1,71 @@
+{
+	id: "52C22B11F55EE6B7"
+	loot_crate: {
+		color: 10053171
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "shipwreck"
+	}
+	loot_size: 9
+	order_index: 14
+	rewards: [
+		{ item: "minecraft:paper", random_bonus: 11, weight: 0.0952381f }
+		{ count: 8, item: "minecraft:wheat", random_bonus: 13, weight: 0.083333336f }
+		{ count: 4, item: "minecraft:carrot", random_bonus: 4, weight: 0.083333336f }
+		{ count: 2, item: "minecraft:poisonous_potato", random_bonus: 4, weight: 0.083333336f }
+		{ count: 2, item: "minecraft:potato", random_bonus: 4, weight: 0.083333336f }
+		{ item: "minecraft:moss_block", random_bonus: 3, weight: 0.083333336f }
+		{ count: 2, item: "minecraft:coal", random_bonus: 6, weight: 0.071428575f }
+		{ count: 5, item: "minecraft:rotten_flesh", random_bonus: 19, weight: 0.05952381f }
+		{ item: "minecraft:gunpowder", random_bonus: 4, weight: 0.035714287f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.035714287f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.035714287f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:leather_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.035714287f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.035714287f
+		}
+		{ count: 2, item: "minecraft:coast_armor_trim_smithing_template", weight: 0.16666667f }
+		{ item: "minecraft:bamboo", random_bonus: 2, weight: 0.023809524f }
+		{ item: "minecraft:pumpkin", random_bonus: 2, weight: 0.023809524f }
+		{ item: "minecraft:tnt", random_bonus: 1, weight: 0.011904762f }
+	]
+	title: "Shipwreck"
+}

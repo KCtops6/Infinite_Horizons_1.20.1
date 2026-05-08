@@ -1,0 +1,23 @@
+{
+	id: "2A4C6D5D9C3E1B8F"
+	loot_crate: {
+		color: 11528191
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "ancient_city_ice_box"
+	}
+	loot_size: 10
+	order_index: 4
+	rewards: [
+		{ count: 2, item: "minecraft:snowball", random_bonus: 4, weight: 0.44444445f }
+		{ count: 2, item: "minecraft:packed_ice", random_bonus: 4, weight: 0.22222222f }
+		{ item: "minecraft:baked_potato", random_bonus: 9, weight: 0.11111111f }
+		{ item: "minecraft:golden_carrot", random_bonus: 9, weight: 0.11111111f }
+		{ count: 2, item: "minecraft:suspicious_stew", random_bonus: 4, weight: 0.11111111f }
+	]
+	title: "Ancient City Ice Box"
+}

@@ -1,0 +1,43 @@
+{
+	id: "5B130117D4949364"
+	loot_crate: {
+		color: 13872242
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "desert_pyramid"
+	}
+	loot_size: 9
+	order_index: 8
+	rewards: [
+		{ item: "minecraft:bone", random_bonus: 7, weight: 0.30121458f }
+		{ item: "minecraft:rotten_flesh", random_bonus: 7, weight: 0.30121458f }
+		{ item: "minecraft:gunpowder", random_bonus: 7, weight: 0.2f }
+		{ item: "minecraft:sand", random_bonus: 7, weight: 0.2f }
+		{ item: "minecraft:string", random_bonus: 7, weight: 0.2f }
+		{ item: "minecraft:spider_eye", random_bonus: 2, weight: 0.10121457f }
+		{ item: "minecraft:leather", random_bonus: 4, weight: 0.08097166f }
+		{ item: "minecraft:golden_apple", weight: 0.08097166f }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 5, weight: 0.060728744f }
+		{ item: "minecraft:iron_ingot", random_bonus: 4, weight: 0.060728744f }
+		{ item: "minecraft:emerald", random_bonus: 2, weight: 0.060728744f }
+		{ item: "minecraft:iron_horse_armor", weight: 0.060728744f }
+		{ count: 2, item: "minecraft:dune_armor_trim_smithing_template", weight: 0.14285715f }
+		{ item: "minecraft:golden_horse_armor", weight: 0.04048583f }
+		{ item: "minecraft:diamond", random_bonus: 2, weight: 0.020242915f }
+		{ item: "minecraft:diamond_horse_armor", weight: 0.020242915f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.008097166f }
+		{ item: "minecraft:archer_pottery_sherd", weight: 0.125f }
+		{ item: "minecraft:emerald", weight: 0.125f }
+		{ item: "minecraft:gunpowder", weight: 0.125f }
+		{ item: "minecraft:miner_pottery_sherd", weight: 0.125f }
+		{ item: "minecraft:prize_pottery_sherd", weight: 0.125f }
+		{ item: "minecraft:skull_pottery_sherd", weight: 0.125f }
+		{ item: "minecraft:tnt", weight: 0.125f }
+		{ item: "minecraft:diamond", weight: 0.125f }
+	]
+	title: "Desert Pyramid"
+}

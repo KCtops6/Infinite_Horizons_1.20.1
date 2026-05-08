@@ -1,0 +1,38 @@
+{
+	id: "6B18A5EBCB30816E"
+	loot_crate: {
+		color: 8344351
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "hoglin_stable"
+	}
+	loot_size: 9
+	order_index: 16
+	rewards: [
+		{ item: "minecraft:saddle", weight: 0.12f }
+		{ count: 6, item: "minecraft:golden_carrot", random_bonus: 11, weight: 0.13483146f }
+		{ item: "minecraft:cooked_porkchop", weight: 0.23076923f }
+		{ item: "minecraft:porkchop", random_bonus: 4, weight: 0.0875f }
+		{ count: 5, item: "minecraft:arrow", random_bonus: 12, weight: 0.15384616f }
+		{ count: 3, item: "minecraft:string", random_bonus: 5, weight: 0.15384616f }
+		{ count: 2, item: "minecraft:gold_nugget", random_bonus: 6, weight: 0.15384616f }
+		{ count: 2, item: "minecraft:crimson_fungus", random_bonus: 5, weight: 0.071428575f }
+		{ count: 2, item: "minecraft:crimson_nylium", random_bonus: 5, weight: 0.071428575f }
+		{ count: 2, item: "minecraft:crimson_roots", random_bonus: 5, weight: 0.071428575f }
+		{ count: 3, item: "minecraft:glowstone", random_bonus: 3, weight: 0.071428575f }
+		{ count: 2, item: "minecraft:soul_sand", random_bonus: 5, weight: 0.071428575f }
+		{ count: 2, item: "minecraft:gilded_blackstone", random_bonus: 3, weight: 0.071428575f }
+		{ item: "minecraft:leather", random_bonus: 2, weight: 0.071428575f }
+		{ item: "minecraft:ancient_debris", weight: 0.13483146f }
+		{ item: "minecraft:netherite_scrap", weight: 0.08f }
+		{ item: "minecraft:netherite_upgrade_smithing_template", weight: 0.1f }
+		{ item: "minecraft:snout_armor_trim_smithing_template", weight: 0.083333336f }
+		{ item: "minecraft:golden_apple", weight: 0.1f }
+		{ count: 2, item: "minecraft:gold_block", random_bonus: 2, weight: 0.16f }
+	]
+	title: "Hoglin Stable"
+}

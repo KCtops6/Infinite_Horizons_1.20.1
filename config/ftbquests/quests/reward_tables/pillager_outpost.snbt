@@ -1,0 +1,38 @@
+{
+	id: "4FE8C042EBDE6AC1"
+	loot_crate: {
+		color: 5451574
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "pillager_outpost"
+	}
+	loot_size: 9
+	order_index: 11
+	rewards: [
+		{ count: 2, item: "minecraft:dark_oak_log", random_bonus: 1 }
+		{ count: 3, item: "minecraft:wheat", random_bonus: 2, weight: 0.4117647f }
+		{ item: "minecraft:experience_bottle", weight: 0.3181818f }
+		{ count: 3, item: "minecraft:carrot", random_bonus: 2, weight: 0.29411766f }
+		{ count: 2, item: "minecraft:potato", random_bonus: 3, weight: 0.29411766f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:goat_horn" }
+		{ count: 2, item: "minecraft:arrow", random_bonus: 5, weight: 0.18181819f }
+		{ item: "minecraft:string", random_bonus: 5, weight: 0.18181819f }
+		{ item: "minecraft:tripwire_hook", random_bonus: 2, weight: 0.13636364f }
+		{ item: "minecraft:iron_ingot", random_bonus: 2, weight: 0.13636364f }
+		{ count: 2, item: "minecraft:sentry_armor_trim_smithing_template", weight: 0.25f }
+	]
+	title: "Pillager Outpost"
+}

@@ -1,0 +1,116 @@
+{
+	id: "672DB4576C07EFB9"
+	loot_crate: {
+		color: 16766720
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "bastion_treasure"
+	}
+	loot_size: 9
+	order_index: 17
+	rewards: [
+		{ item: "minecraft:gold_block", random_bonus: 2 }
+		{ item: "minecraft:netherite_upgrade_smithing_template" }
+		{ item: "minecraft:ancient_debris", random_bonus: 1, weight: 0.17391305f }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 6, weight: 0.13043478f }
+		{ item: "minecraft:iron_ingot", random_bonus: 4, weight: 0.13043478f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.08695652f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.08695652f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.08695652f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.08695652f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.08695652f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.08695652f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.08695652f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.08695652f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.08695652f
+		}
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.08695652f }
+		{ item: "minecraft:netherite_ingot", weight: 0.04347826f }
+		{ item: "minecraft:snout_armor_trim_smithing_template", weight: 0.083333336f }
+	]
+	title: "Bastion Treasure"
+}

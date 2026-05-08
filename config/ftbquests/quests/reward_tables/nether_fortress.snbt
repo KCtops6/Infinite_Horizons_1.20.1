@@ -1,0 +1,58 @@
+{
+	id: "595353C3891CA455"
+	loot_crate: {
+		color: 6104374
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "nether_fortress"
+	}
+	loot_size: 9
+	order_index: 18
+	rewards: [
+		{ item: "minecraft:nether_wart", random_bonus: 4, weight: 0.15463917f }
+		{ item: "minecraft:gold_ingot", random_bonus: 2, weight: 0.15463917f }
+		{ item: "minecraft:iron_ingot", random_bonus: 4, weight: 0.15463917f }
+		{ item: "minecraft:diamond", random_bonus: 2, weight: 0.15463917f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.15463917f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.15463917f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.15463917f
+		}
+		{ item: "minecraft:rib_armor_trim_smithing_template", weight: 0.14285715f }
+		{ item: "minecraft:golden_horse_armor", weight: 0.10309278f }
+		{ item: "minecraft:iron_horse_armor", weight: 0.05154639f }
+		{ item: "minecraft:diamond_horse_armor", weight: 0.030927835f }
+		{ item: "minecraft:obsidian", random_bonus: 3, weight: 0.020618556f }
+		{ item: "minecraft:golden_apple", weight: 0.020618556f }
+	]
+	title: "Nether Fortress"
+}

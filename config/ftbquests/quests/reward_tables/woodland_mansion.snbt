@@ -1,0 +1,68 @@
+{
+	id: "3F803D304DF6F04F"
+	loot_crate: {
+		color: 4926752
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "woodland_mansion"
+	}
+	loot_size: 9
+	order_index: 12
+	rewards: [
+		{ item: "minecraft:bone", random_bonus: 7, weight: 0.25f }
+		{ item: "minecraft:gunpowder", random_bonus: 7, weight: 0.25f }
+		{ item: "minecraft:rotten_flesh", random_bonus: 7, weight: 0.25f }
+		{ item: "minecraft:string", random_bonus: 7, weight: 0.25f }
+		{ item: "minecraft:vex_armor_trim_smithing_template", weight: 0.5f }
+		{ item: "minecraft:lead", weight: 0.18691589f }
+		{ item: "minecraft:music_disc_13", weight: 0.14018692f }
+		{ item: "minecraft:music_disc_cat", weight: 0.14018692f }
+		{ item: "minecraft:golden_apple", weight: 0.14018692f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.14018692f
+		}
+		{ item: "minecraft:wheat", random_bonus: 3, weight: 0.11428571f }
+		{ item: "minecraft:bread", weight: 0.11428571f }
+		{ item: "minecraft:coal", random_bonus: 3, weight: 0.08571429f }
+		{ item: "minecraft:redstone", random_bonus: 3, weight: 0.08571429f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:chainmail_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.093457945f
+		}
+		{ count: 2, item: "minecraft:beetroot_seeds", random_bonus: 2, weight: 0.05714286f }
+		{ count: 2, item: "minecraft:melon_seeds", random_bonus: 2, weight: 0.05714286f }
+		{ count: 2, item: "minecraft:pumpkin_seeds", random_bonus: 2, weight: 0.05714286f }
+		{ item: "minecraft:iron_ingot", random_bonus: 3, weight: 0.05714286f }
+		{ item: "minecraft:bucket", weight: 0.05714286f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.046728972f
+		}
+		{ item: "minecraft:gold_ingot", random_bonus: 3, weight: 0.028571429f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.018691588f }
+	]
+	title: "Woodland Mansion"
+}

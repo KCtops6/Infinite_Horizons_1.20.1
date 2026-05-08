@@ -1,0 +1,47 @@
+{
+	id: "788667FF5CC0D8B8"
+	loot_crate: {
+		color: 9145227
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "mineshaft"
+	}
+	loot_size: 9
+	order_index: 6
+	rewards: [
+		{ count: 4, item: "minecraft:rail", random_bonus: 4, weight: 0.4f }
+		{ item: "minecraft:torch", random_bonus: 15, weight: 0.3f }
+		{ item: "minecraft:name_tag", weight: 0.4225352f }
+		{ count: 3, item: "minecraft:glow_berries", random_bonus: 3, weight: 0.15306123f }
+		{ item: "minecraft:bread", random_bonus: 2, weight: 0.15306123f }
+		{ item: "minecraft:golden_apple", weight: 0.28169015f }
+		{ count: 3, item: "minecraft:coal", random_bonus: 5, weight: 0.10204082f }
+		{ count: 2, item: "minecraft:beetroot_seeds", random_bonus: 2, weight: 0.10204082f }
+		{ count: 2, item: "minecraft:melon_seeds", random_bonus: 2, weight: 0.10204082f }
+		{ count: 2, item: "minecraft:pumpkin_seeds", random_bonus: 2, weight: 0.10204082f }
+		{ item: "minecraft:iron_ingot", random_bonus: 4, weight: 0.10204082f }
+		{ item: "minecraft:activator_rail", random_bonus: 3, weight: 0.1f }
+		{ item: "minecraft:detector_rail", random_bonus: 3, weight: 0.1f }
+		{ item: "minecraft:powered_rail", random_bonus: 3, weight: 0.1f }
+		{ count: 4, item: "minecraft:lapis_lazuli", random_bonus: 5, weight: 0.05102041f }
+		{ count: 4, item: "minecraft:redstone", random_bonus: 5, weight: 0.05102041f }
+		{ item: "minecraft:gold_ingot", random_bonus: 2, weight: 0.05102041f }
+		{ item: "minecraft:diamond", random_bonus: 1, weight: 0.030612245f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.07042254f
+		}
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.014084507f }
+	]
+	title: "Mineshaft"
+}
