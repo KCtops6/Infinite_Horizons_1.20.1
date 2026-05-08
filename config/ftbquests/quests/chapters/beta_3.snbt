@@ -93,7 +93,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -223,7 +223,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -237,7 +237,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["722C7C33D23EB25A"]
@@ -276,7 +276,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -455,7 +455,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3CB2BFF30BA3EF65"]
@@ -473,7 +473,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -534,7 +534,7 @@
 				type: "item"
 			}]
 			x: 2.75d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2DEA6DE1B9DFC162"]
@@ -651,7 +651,7 @@
 				}
 			]
 			x: 0.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7BB1A7FD141B7E57"]
@@ -665,7 +665,7 @@
 				type: "item"
 			}]
 			x: -0.75d
-			y: 4.25d
+			y: 6.25d
 		}
 		{
 			dependencies: ["7BB1A7FD141B7E57"]
@@ -695,7 +695,7 @@
 				}
 			]
 			x: -0.75d
-			y: 3.75d
+			y: 5.75d
 		}
 		{
 			dependencies: ["7BB1A7FD141B7E57"]
@@ -721,7 +721,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -742,7 +742,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -763,7 +763,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0189245DDDC8CC79"]
@@ -789,7 +789,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["22A166C0303A6C2C"]
@@ -806,7 +806,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1A09937381BB310B"]
@@ -991,7 +991,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2E72C56136631B60"]
@@ -1067,7 +1067,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7FF4CC850ECC3EB8"]
@@ -1094,7 +1094,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7FF4CC850ECC3EB8"]
@@ -1121,7 +1121,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7FF4CC850ECC3EB8"]
@@ -1148,7 +1148,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2A3F0C05F26C731E"]
@@ -1175,7 +1175,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -1203,7 +1203,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["722C7C33D23EB25A"]
@@ -1220,7 +1220,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5E91E5D091F4ED77"]
@@ -1232,7 +1232,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1247,8 +1247,8 @@
 				id: "1318CEC8F95C7436"
 				type: "fluid"
 			}]
-			x: 13.0d
-			y: 6.0d
+			x: 13.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["513D936FBE83EC2D"]
@@ -1374,7 +1374,7 @@
 			]
 			title: "Blaze Cake"
 			x: 10.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1A09937381BB310B"]
@@ -1391,7 +1391,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["368BAD4228C734F1"]
@@ -1402,7 +1402,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1C406B3FCD426171"]
@@ -1413,7 +1413,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1C406B3FCD426171"]
@@ -1424,7 +1424,7 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0F1560030AAF6516"]
@@ -1513,7 +1513,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["722DB1BEB0FDAA80"]
@@ -1548,7 +1548,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["37C31E5A1FB0A120"]
@@ -1664,6 +1664,39 @@
 			}]
 			x: 1.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["722DB1BEB0FDAA80"]
+			id: "7523CB3F04B335F8"
+			rewards: [
+				{
+					id: "005C7F8F1223C8B2"
+					item: "create:andesite_tunnel"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0528F7D479578CB3"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5868C1CB4B5B4B0E"
+					item: "minecraft:dried_kelp"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28B63650F50CCE36"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 	]
 	title: "Beta"
