@@ -646,7 +646,7 @@ ServerEvents.recipes(event => {
         'RRR',
         'RRR',
         '   '
-    ], { R: 'kubejs:rubber_sheet' }).id('belt_from_rubber');
+    ], { R: 'thermal:cured_rubber' }).id('belt_from_rubber');
     global.ingots.forEach(i => {
         if (global.nuggets.includes(i)) {
             event.shaped(`kubejs:${i}_ingot`, [
@@ -671,7 +671,7 @@ ServerEvents.recipes(event => {
         '   '
     ], {
         A: 'create:andesite_alloy',
-        R: 'kubejs:rubber_sheet'
+        R: 'thermal:cured_rubber'
     }).id('kubejs:shaped/andesite_funnel_from_rubber');
 
     event.shaped(Item.of('create:brass_funnel', 2), [
@@ -681,7 +681,7 @@ ServerEvents.recipes(event => {
     ], {
         E: 'create:electron_tube',
         B: 'kubejs:brass_ingot',
-        R: 'kubejs:rubber_sheet'
+        R: 'thermal:cured_rubber'
     }).id('kubejs:shaped/brass_funnel_from_rubber');
 
     event.shaped('create:spout', [
@@ -690,7 +690,7 @@ ServerEvents.recipes(event => {
         '   '
     ], {
         C: 'create:copper_casing',
-        R: 'kubejs:rubber_sheet'
+        R: 'thermal:cured_rubber'
     }).id('kubejs:shaped/spout_from_rubber');
 
     event.shaped(Item.of('create:andesite_tunnel', 2), [
@@ -699,7 +699,7 @@ ServerEvents.recipes(event => {
         '   '
     ], {
         A: 'create:andesite_alloy',
-        R: 'kubejs:rubber_sheet'
+        R: 'thermal:cured_rubber'
     }).id('kubejs:shaped/andesite_tunnel_from_rubber');
 
     event.shaped(Item.of('create:brass_tunnel', 2), [
@@ -709,7 +709,7 @@ ServerEvents.recipes(event => {
     ], {
         E: 'create:electron_tube',
         B: 'kubejs:brass_ingot',
-        R: 'kubejs:rubber_sheet'
+        R: 'thermal:cured_rubber'
     }).id('kubejs:shaped/brass_tunnel_from_rubber');
 
     event.shaped('create_enchantment_industry:printer', [
@@ -719,7 +719,7 @@ ServerEvents.recipes(event => {
     ], {
         C: 'create:copper_casing',
         I: 'kubejs:iron_plate',
-        R: 'kubejs:rubber_sheet'
+        R: 'thermal:cured_rubber'
     }).id('kubejs:shaped/printer_from_rubber');
 
     event.shaped('kubejs:dormant_trial_spawner', [
