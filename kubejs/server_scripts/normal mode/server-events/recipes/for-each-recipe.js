@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         if (recipe.getOriginalRecipeIngredients().size() == 2) {
             let ingredientsJSON = [];
             recipe.getOriginalRecipeIngredients().forEach(i => {
-                if (!i.test(GRINDER)) {
+                if (!i.test(GRINDER) && recipe.originalRecipeResult.id != 'pamhc2foodcore:flouritem') {
                     ingredientsJSON.push(i.toJson());
                 }
             });
