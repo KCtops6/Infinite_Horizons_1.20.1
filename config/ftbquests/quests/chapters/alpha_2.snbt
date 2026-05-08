@@ -662,6 +662,21 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "32AEAE8653EF3DA0"
+			rewards: [
+				{
+					id: "1270D5B9D2729294"
+					item: "minecraft:lava_bucket"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "13B99CC5723669ED"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "52CC35DA6AB72A0F"
 				item: "minecraft:lava_bucket"
@@ -692,6 +707,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "700D0FB31E0D600E"
+			rewards: [{
+				id: "14242496263DA0B9"
+				item: "minecraft:redstone"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				id: "725FEE07380F662C"
 				item: "minecraft:redstone"
@@ -1840,6 +1861,27 @@
 		{
 			dependencies: ["3949B38795D8BB00"]
 			id: "722214981D4F15E4"
+			rewards: [
+				{
+					id: "03702ED84B1AFF04"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "04564DA615C8AFF9"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3132F9448F412AA5"
 				item: {
