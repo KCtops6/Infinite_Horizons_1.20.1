@@ -8,28 +8,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7585E627F8C20301"
-			tasks: [{
-				id: "0AF792F3C4E09E1D"
-				item: "minecraft:enchanting_table"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7585E627F8C20301"]
-			id: "6CE64A8D7446F9F7"
-			tasks: [{
-				id: "40498AB3CFE3447E"
-				item: "minecraft:bookshelf"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6CE64A8D7446F9F7"]
+			dependencies: [
+				"6CE64A8D7446F9F7"
+				"5B4ED6EF523BFCBB"
+			]
 			id: "13043585CEAD557E"
 			tasks: [{
 				id: "3ED647979BA845DA"
@@ -111,7 +93,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["6CE64A8D7446F9F7"]
+			dependencies: [
+				"6CE64A8D7446F9F7"
+				"5B4ED6EF523BFCBB"
+			]
 			id: "596107DCB0479EBB"
 			tasks: [{
 				id: "65E9C65E5899FD28"
@@ -199,7 +184,11 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7585E627F8C20301"]
+			dependencies: [
+				"55D1493191B4E1F1"
+				"182338376E9A5415"
+				"5B4ED6EF523BFCBB"
+			]
 			id: "5DD29D3C2DC4295B"
 			tasks: [{
 				id: "748F8454EABD27AC"
