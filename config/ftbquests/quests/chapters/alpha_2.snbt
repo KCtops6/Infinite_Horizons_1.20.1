@@ -208,6 +208,7 @@
 		{
 			dependencies: ["1095B567B96DDCF3"]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "7A65E98B9FE221A7"
 			optional: true
 			rewards: [{
@@ -1073,6 +1074,7 @@
 		}
 		{
 			description: ["Obtained either through Apotheosis Enchanting or Mekanism Antiprotonic Nucleosynthesizer. "]
+			hide_dependency_lines: true
 			id: "7C6EB6C21F6C0103"
 			rewards: [
 				{
@@ -1115,7 +1117,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: -6.0d
 			y: 6.0d
 		}
 		{
@@ -1406,24 +1408,26 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["3FE3424A09F9D5F0"]
 			id: "2D57CF7E0CA36CAB"
 			tasks: [{
 				id: "5E61CAA19F7393DE"
 				item: "minecraft:heart_of_the_sea"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 8.0d
+			x: -6.0d
+			y: 5.0d
 		}
 		{
+			dependencies: ["216605D56EC990F3"]
 			id: "6A956A02FD58E257"
 			tasks: [{
 				id: "5076A3F724B60510"
 				item: "minecraft:nautilus_shell"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1436,8 +1440,8 @@
 				item: "minecraft:conduit"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 7.0d
+			x: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6A956A02FD58E257"]
@@ -1453,8 +1457,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.75d
-			y: 6.0d
+			x: -4.0d
+			y: 5.75d
 		}
 		{
 			dependencies: ["2A9A53C32599ECB6"]
@@ -1627,6 +1631,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["7A65E98B9FE221A7"]
 			id: "1E69978C3A1B8894"
 			rewards: [{
 				id: "14F2CEF1C41C9136"
@@ -1639,8 +1644,8 @@
 				item: "minecraft:melon_seeds"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1E69978C3A1B8894"]
@@ -1650,10 +1655,11 @@
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 8.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["216605D56EC990F3"]
 			hide_dependency_lines: true
 			id: "3DE2544DFA9FD2E9"
 			rewards: [{
@@ -1667,8 +1673,8 @@
 				item: "minecraft:lead"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["715B72B589E55A21"]
@@ -1701,6 +1707,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["216605D56EC990F3"]
 			hide_dependency_lines: true
 			id: "1D782A701C958BA1"
 			rewards: [{
@@ -1714,10 +1721,11 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["7A65E98B9FE221A7"]
 			id: "26F6423FEC9344FF"
 			rewards: [{
 				id: "323B8CE17482C59E"
@@ -1730,8 +1738,8 @@
 				item: "minecraft:pumpkin_seeds"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.0d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["26F6423FEC9344FF"]
@@ -1741,10 +1749,11 @@
 				item: "minecraft:pumpkin"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: -1.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["216605D56EC990F3"]
 			id: "338A51CE97015805"
 			tasks: [{
 				id: "7983AF4DCE2F71F2"
@@ -1758,10 +1767,11 @@
 				title: "Obtain Coral Blocks"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["216605D56EC990F3"]
 			id: "5539D8EB6ED072A3"
 			rewards: [
 				{
@@ -1781,8 +1791,8 @@
 				item: "minecraft:cactus"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["34772CE2E8E25A5E"]
@@ -2207,6 +2217,7 @@
 		}
 		{
 			dependencies: ["1FFD16D39BDE1E10"]
+			hide_dependent_lines: true
 			id: "216605D56EC990F3"
 			rewards: [{
 				id: "4BC461A4DAC2F6D6"
@@ -2248,8 +2259,8 @@
 				to_observe: "minecraft:wandering_trader"
 				type: "observation"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
@@ -2270,6 +2281,115 @@
 			}]
 			x: 3.25d
 			y: -0.75d
+		}
+		{
+			dependencies: ["216605D56EC990F3"]
+			id: "54B3937177E58793"
+			tasks: [{
+				id: "43B159C89C95E12C"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A65E98B9FE221A7"]
+			id: "3C841E4B3865F02C"
+			rewards: [{
+				id: "41389E303435A883"
+				item: "minecraft:spruce_sapling"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4623C7CFE1338EB9"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A65E98B9FE221A7"]
+			id: "58B94AA2D998B466"
+			rewards: [{
+				id: "14A3EB257953EEFA"
+				item: "minecraft:birch_sapling"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "564B8D913463D859"
+				item: "minecraft:birch_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A65E98B9FE221A7"]
+			id: "1C1F8F882F2F4431"
+			rewards: [{
+				id: "77159CD93CE2184B"
+				item: "minecraft:jungle_sapling"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A3C7F8905A50F73"
+				item: "minecraft:jungle_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A65E98B9FE221A7"]
+			id: "6087DE09A2E88B41"
+			rewards: [{
+				id: "3E95AB61898C05A6"
+				item: "minecraft:acacia_sapling"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D7CC52EBADD40FA"
+				item: "minecraft:acacia_sapling"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A65E98B9FE221A7"]
+			id: "7D3B8049838FD5CC"
+			rewards: [{
+				count: 4
+				id: "1C0E13068165C3AE"
+				item: "minecraft:dark_oak_sapling"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5F517E790E416B2B"
+				item: "minecraft:dark_oak_sapling"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["55D1493191B4E1F1"]
+			id: "6CE64A8D7446F9F7"
+			tasks: [{
+				id: "40498AB3CFE3447E"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
 		}
 	]
 	title: "Alpha"
