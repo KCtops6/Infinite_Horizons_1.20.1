@@ -72,3 +72,5 @@ config/canary.properties
 config/cull-less-leaves.json
 config/fancymenu/ui_themes/
 config/jecalculation/
+config/sophisticated*
+config/productivevillagers-common.toml
