@@ -11,5 +11,5 @@ ServerEvents.recipes(event => {
         Item.of('delightful:salmonberry_pips').withChance(0.1),
         Item.of('occultism:datura_seeds').withChance(0.05),
         Item.of('immersiveengineering:seed').withChance(0.15)
-    ], ['createsifter:string_mesh', 'minecraft:dirt']).id('kubejs:createsifterSifting/string/dirt');
+    ], ['createsifter:string_mesh', 'minecraft:dirt']).id('kubejs:createsiftersifting/string/dirt');
 });

@@ -4,5 +4,5 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:chorus_flower').withChance(0.1),
         Item.of('quark:chorus_weeds').withChance(0.25),
         Item.of('quark:chorus_twist').withChance(0.25)
-    ], ['kubejs:end_stone_gravel','kubejs:string_mesh']).id('kubejs/recipes/createsifterSifting/string/end_stone');
+    ], ['kubejs:end_stone_gravel','kubejs:string_mesh']).id('kubejs:recipes/createsiftersifting/string/end_stone');
 });

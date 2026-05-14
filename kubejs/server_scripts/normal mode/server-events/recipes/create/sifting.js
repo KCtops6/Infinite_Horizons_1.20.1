@@ -8,10 +8,10 @@ const mesh_mapping = [
 ServerEvents.recipes(event => {
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_coal').withChance(0.125)
-    ], ['minecraft:gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsifterSifting/bronze/gravel');
+    ], ['minecraft:gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/gravel');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_coal').withChance(0.25)
-    ], ['minecraft:gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsifterSifting/steel/gravel');
+    ], ['minecraft:gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsiftersifting/steel/gravel');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_coal').withChance(0.125),
 
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_salt').withChance(0.125),
         Item.of('gtceu:raw_lepidolite').withChance(0.0625),
         Item.of('gtceu:raw_spodumene').withChance(0.0625)
-    ], ['minecraft:gravel','kubejs:aluminum_mesh']).id('kubejs/recipes/createsifterSifting/aluminum/gravel');
+    ], ['minecraft:gravel','kubejs:aluminum_mesh']).id('kubejs/recipes/createsiftersifting/aluminum/gravel');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_graphite').withChance(0.25),
         Item.of('gtceu:raw_diamond').withChance(0.125),
@@ -33,18 +33,18 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_nickel').withChance(0.125),
         Item.of('gtceu:raw_cobaltite').withChance(0.125),
         Item.of('gtceu:raw_pentlandite').withChance(0.0625)
-    ], ['kubejs:deepslate_gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsifterSifting/bronze/soul_sand');
+    ], ['kubejs:deepslate_gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/soul_sand');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_galena').withChance(0.25),
         Item.of('gtceu:raw_silver').withChance(0.125),
         Item.of('gtceu:raw_lead').withChance(0.0625)
-    ], ['kubejs:limestone_gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsifterSifting/bronze/limestone');
+    ], ['kubejs:limestone_gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/limestone');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_calcite'),
         Item.of('gtceu:raw_lazurite').withChance(0.25),
         Item.of('gtceu:raw_sodalite').withChance(0.125),
         Item.of('gtceu:raw_lapis').withChance(0.0625)
-    ], ['kubejs:calcite_gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsifterSifting/bronze/calcite');
+    ], ['kubejs:calcite_gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/calcite');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_beryllium').withChance(0.25),
         Item.of('gtceu:raw_emerald').withChance(0.125),
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_sulfur').withChance(0.25),
         Item.of('gtceu:raw_pyrite').withChance(0.125),
         Item.of('gtceu:raw_sphalerite').withChance(0.0625)
-    ], ['kubejs:netherrack_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsifterSifting/steel/netherrack');
+    ], ['kubejs:netherrack_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsiftersifting/steel/netherrack');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_bauxite').withChance(0.125),
         Item.of('gtceu:raw_ilmenite').withChance(0.0625),
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_plutonium').withChance(0.0625),
         Item.of('gtceu:raw_pitchblende').withChance(0.25),
         Item.of('gtceu:raw_uraninite').withChance(0.0625)
-    ], ['kubejs:end_stone_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsifterSifting/steel/end_stone');
+    ], ['kubejs:end_stone_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsiftersifting/steel/end_stone');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_almandine').withChance(0.25),
         Item.of('gtceu:raw_pyrope').withChance(0.125),
@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_magnetite').withChance(0.25),
         Item.of('gtceu:raw_vanadium_magnetite').withChance(0.125),
         Item.of('gtceu:raw_chromite').withChance(0.125)
-    ], ['kubejs:basalt_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsifterSifting/steel/basalt');
+    ], ['kubejs:basalt_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsiftersifting/steel/basalt');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_goethite').withChance(0.25),
         Item.of('gtceu:raw_yellow_limonite').withChance(0.1),
@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_topaz').withChance(0.125),
         Item.of('gtceu:raw_chalcocite').withChance(0.125),
         Item.of('gtceu:raw_bornite').withChance(0.0625)
-    ], ['kubejs:granite_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsifterSifting/steel/granite');
+    ], ['kubejs:granite_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsiftersifting/steel/granite');
     if (Platform.isLoaded('tconstruct')) {
         mesh_mapping.forEach(m => {
             event.recipes.createsifterSifting([

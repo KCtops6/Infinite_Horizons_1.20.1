@@ -16,5 +16,5 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:peony').withChance(0.2),
         Item.of('minecraft:rose_bush').withChance(0.2),
         Item.of('minecraft:sunflower').withChance(0.2),
-    ], ['createsifter:string_mesh', 'minecraft:grass_block']).id('kubejs:createsifterSifting/string/grass_block');
+    ], ['createsifter:string_mesh', 'minecraft:grass_block']).id('kubejs:createsiftersifting/string/grass_block');
 });
