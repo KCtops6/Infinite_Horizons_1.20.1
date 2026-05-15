@@ -687,10 +687,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"0AC851170B41AD02"
-				"1FFD16D39BDE1E10"
-			]
+			dependencies: ["0AC851170B41AD02"]
 			dependency_requirement: "one_completed"
 			id: "2E27C65E12B61E06"
 			tasks: [{
@@ -698,14 +695,11 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"0AC851170B41AD02"
-				"1FFD16D39BDE1E10"
-			]
+			dependencies: ["0AC851170B41AD02"]
 			dependency_requirement: "one_completed"
 			id: "700D0FB31E0D600E"
 			rewards: [{
@@ -719,7 +713,7 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -753,7 +747,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
@@ -939,7 +933,7 @@
 				item: "kubejs:steel_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
@@ -1645,8 +1639,8 @@
 				item: "minecraft:melon_seeds"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: -4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1E69978C3A1B8894"]
@@ -1656,8 +1650,8 @@
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: -4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["216605D56EC990F3"]
@@ -1674,8 +1668,8 @@
 				item: "minecraft:lead"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["715B72B589E55A21"]
@@ -1739,8 +1733,8 @@
 				item: "minecraft:pumpkin_seeds"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.0d
+			x: -5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["26F6423FEC9344FF"]
@@ -1750,8 +1744,8 @@
 				item: "minecraft:pumpkin"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.0d
+			x: -5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["216605D56EC990F3"]
@@ -2260,7 +2254,7 @@
 				to_observe: "minecraft:wandering_trader"
 				type: "observation"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
@@ -2391,6 +2385,968 @@
 			}]
 			x: 4.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["1FFD16D39BDE1E10"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1308100620
+							-591901970
+							-1944174963
+							44723277
+						]
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2YTUzZmM3MDdjZTFmZjg4YTU3NmVmNDAyMDBjZThkNDlmYWU0YWNhZDFlM2IzNzg5YzdkMWNjMWNjNTQxYSJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Lore: [
+							"{\"text\":\"Custom Head ID: 32909\",\"color\":\"gray\",\"italic\":false}"
+							"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+						]
+						Name: "{\"text\":\"Librarian Villager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+					}
+				}
+			}
+			id: "6F8F13B52E400F52"
+			rewards: [{
+				id: "72BF509C43231057"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "496AFC4DCDEAB384"
+					item: "minecraft:lectern"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1308100620
+									-591901970
+									-1944174963
+									44723277
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2YTUzZmM3MDdjZTFmZjg4YTU3NmVmNDAyMDBjZThkNDlmYWU0YWNhZDFlM2IzNzg5YzdkMWNjMWNjNTQxYSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 32909\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Librarian Villager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
+					id: "7B0839DE5170E414"
+					observe_type: 0
+					timer: 0L
+					title: "Interface with a Librarian"
+					to_observe: "villager"
+					type: "observation"
+				}
+			]
+			title: "Interface with a Librarian"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6F8F13B52E400F52"]
+			id: "466A183FA1FB6DD0"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3A1E79C263A52F62"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1FFD16D39BDE1E10"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1354700788
+							-1924379148
+							-1966899325
+							-29117384
+						]
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjUyMmRiOTJmMTg4ZWJjNzcxM2NmMzViNGNiYWVkMWNmZTI2NDJhNTk4NmMzYmRlOTkzZjVjZmIzNzI3NjY0YyJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Lore: [
+							"{\"text\":\"Custom Head ID: 32853\",\"color\":\"gray\",\"italic\":false}"
+							"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+						]
+						Name: "{\"text\":\"Armorer Villager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+					}
+				}
+			}
+			id: "0ACA489DD3F4F710"
+			rewards: [{
+				id: "0C7D61AE144ADA86"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26AFAB25919590B3"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1354700788
+									-1924379148
+									-1966899325
+									-29117384
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjUyMmRiOTJmMTg4ZWJjNzcxM2NmMzViNGNiYWVkMWNmZTI2NDJhNTk4NmMzYmRlOTkzZjVjZmIzNzI3NjY0YyJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 32853\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Armorer Villager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
+					id: "4FF9BFDA1AE91294"
+					observe_type: 5
+					timer: 0L
+					title: "Interface with an Armorer"
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+			]
+			title: "Interface with an Armorer"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "1CFD187B5CEC5165"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4534BD7B043F4C82"
+				item: {
+					Count: 1
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "7825B0033A22A7D8"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "02D6323FBDB6B148"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "36FF8AD441666F19"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4C32EAD4B2C8B4C9"
+				item: {
+					Count: 1
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "014B67B48F24B517"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "32D18F4BBDC05057"
+				item: {
+					Count: 1
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.25d
+		}
+		{
+			dependencies: [
+				"0ACA489DD3F4F710"
+				"2D5DD09E7C0A6DF3"
+				"2EA321833307A421"
+			]
+			dependency_requirement: "one_completed"
+			id: "7DCB7CF9643073D6"
+			tasks: [{
+				id: "06FF938B0125EA90"
+				item: "minecraft:bell"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "2EA21E243381B873"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "365E735C3CFF38A9"
+				item: {
+					Count: 1
+					id: "minecraft:chainmail_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "1E3E4C82097AAACD"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "279D47AFFE5E9E14"
+				item: {
+					Count: 1
+					id: "minecraft:chainmail_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "1F8F8EFFD0C1E9AE"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2036A1ADFDB5B798"
+				item: {
+					Count: 1
+					id: "minecraft:chainmail_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "1BAD27D5CA2D7EB8"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "11ADED5DFF0E89D0"
+				item: {
+					Count: 1
+					id: "minecraft:chainmail_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "1FBC031374A0C44C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "53DE40CB177D7BCD"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "35B0F33EADDC65E3"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "14568E22375BA74C"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "57DE2AB9EB5B25FF"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "69401F68378862D5"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "19294BDB0B190C03"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "110DE62A8D5536AC"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0ACA489DD3F4F710"]
+			hide_dependency_lines: true
+			id: "7DE750669ABF498C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "16FC4CB269B61956"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["216605D56EC990F3"]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1976539057
+							1300843208
+							-1797130145
+							-1407940838
+						]
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmYTA3ZmQxMjQ0ZWI4OTQ1ZjRlZGVkZDAwNDI2NzUwYjc3ZWY1ZGZiYWYwM2VkNzc1NjMzNDU5ZWNlNDE1YSJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Lore: [
+							"{\"text\":\"Custom Head ID: 32937\",\"color\":\"gray\",\"italic\":false}"
+							"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+						]
+						Name: "{\"text\":\"Toolsmith Villager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+					}
+				}
+			}
+			id: "2D5DD09E7C0A6DF3"
+			rewards: [{
+				id: "69260F0FF4838830"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64F59F9555A1BDD8"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1976539057
+									1300843208
+									-1797130145
+									-1407940838
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmYTA3ZmQxMjQ0ZWI4OTQ1ZjRlZGVkZDAwNDI2NzUwYjc3ZWY1ZGZiYWYwM2VkNzc1NjMzNDU5ZWNlNDE1YSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 32937\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Toolsmith Villager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
+					id: "049F9D2008D13417"
+					observe_type: 5
+					timer: 0L
+					title: "Interface with a Toolsmith"
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+			]
+			title: "Interface with a Toolsmith"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2D5DD09E7C0A6DF3"]
+			hide_dependency_lines: true
+			id: "67950717A527CA92"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6F5F7777BA791C2C"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["2D5DD09E7C0A6DF3"]
+			hide_dependency_lines: true
+			id: "757EF8FCC8853E4A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5367A5899B851DAB"
+				item: {
+					Count: 1
+					id: "minecraft:stone_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["2D5DD09E7C0A6DF3"]
+			hide_dependency_lines: true
+			id: "25E13F0F18C1DBAD"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6AA9774A769607C1"
+				item: {
+					Count: 1
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["2D5DD09E7C0A6DF3"]
+			hide_dependency_lines: true
+			id: "783659AD69BD80D2"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "37E344A67244F5F8"
+				item: {
+					Count: 1
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["2D5DD09E7C0A6DF3"]
+			hide_dependency_lines: true
+			id: "5555E9D0946ED843"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2BD1C6DD9509EAD6"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["2D5DD09E7C0A6DF3"]
+			hide_dependency_lines: true
+			id: "145B9F0E0227AF1F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5B8EE59943CB2450"
+				item: {
+					Count: 1
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 7.75d
+		}
+		{
+			dependencies: [
+				"2D5DD09E7C0A6DF3"
+				"2EA321833307A421"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "0F66A4B2A0C811E5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "386AFE4E4130B2F0"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["2D5DD09E7C0A6DF3"]
+			hide_dependency_lines: true
+			id: "744F4B202BE1CCAB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "30647104648531AB"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["2D5DD09E7C0A6DF3"]
+			hide_dependency_lines: true
+			id: "1D7C32AB926BD28D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "296B045B445A2701"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 8.75d
+		}
+		{
+			dependencies: [
+				"2D5DD09E7C0A6DF3"
+				"2EA321833307A421"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "7241D25DA0458817"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7909FE55404BDBD9"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["1FFD16D39BDE1E10"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-439290820
+							1490504688
+							-1345720966
+							448215692
+						]
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU0MDliOTU4YmM0ZmUwNDVlOTVkMzI1ZTZlOTdhNTMzMTM3ZTMzZmVjNzA0MmFjMDI3YjMwYmI2OTNhOWQ0MiJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Lore: [
+							"{\"text\":\"Custom Head ID: 32944\",\"color\":\"gray\",\"italic\":false}"
+							"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+						]
+						Name: "{\"text\":\"Weaponsmith Villager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+					}
+				}
+			}
+			id: "2EA321833307A421"
+			rewards: [{
+				id: "391B9EB9DA95AAF8"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73088216FA71BBE7"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-439290820
+									1490504688
+									-1345720966
+									448215692
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU0MDliOTU4YmM0ZmUwNDVlOTVkMzI1ZTZlOTdhNTMzMTM3ZTMzZmVjNzA0MmFjMDI3YjMwYmI2OTNhOWQ0MiJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 32944\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Weaponsmith Villager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
+					id: "42B47A8A083B17A7"
+					observe_type: 5
+					timer: 0L
+					title: "Interface with a Villager"
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+			]
+			title: "Interface with a Villager"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2D5DD09E7C0A6DF3"]
+			hide_dependency_lines: true
+			id: "249B6CA2CF13B1B5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "24D0C4E7326CE565"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["2EA321833307A421"]
+			hide_dependency_lines: true
+			id: "01B4EA538B137DC5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "33DDE75A9E7DF343"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["2EA321833307A421"]
+			hide_dependency_lines: true
+			id: "6611B02876D102FD"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0ED6FDD16328EBAB"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["1FFD16D39BDE1E10"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-542516121
+							-2137961608
+							-1682243381
+							1278528344
+						]
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQyNDhkZDA2ODAzMDVhZDczYjIxNGU4YzZiMDAwOTRlMjdhNGRkZDgwMzQ2NzY5MjFmOTA1MTMwYjg1OGJkYiJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Lore: [
+							"{\"text\":\"Custom Head ID: 32867\",\"color\":\"gray\",\"italic\":false}"
+							"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+						]
+						Name: "{\"text\":\"Cartographer Villager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+					}
+				}
+			}
+			id: "1F62EA1666E8BB2B"
+			rewards: [{
+				id: "420C5D2F70F0D4D0"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "57C8BA9A2C33B010"
+					item: "minecraft:cartography_table"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-542516121
+									-2137961608
+									-1682243381
+									1278528344
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQyNDhkZDA2ODAzMDVhZDczYjIxNGU4YzZiMDAwOTRlMjdhNGRkZDgwMzQ2NzY5MjFmOTA1MTMwYjg1OGJkYiJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 32867\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Cartographer Villager\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
+					id: "3D5BBC4E71828280"
+					observe_type: 5
+					timer: 0L
+					title: "Interface with a Cartographer"
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+			]
+			title: "Interface with a Cartographer"
+			x: 4.0d
+			y: 6.0d
 		}
 	]
 	title: "Alpha"
