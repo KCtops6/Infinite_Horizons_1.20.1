@@ -69,7 +69,7 @@ global.crateConfig = [
         rules: [ { mobs: ['husk'], chance: 0.1 }]
     },
     {
-        crate: 'jungle_pyramid',
+        crate: 'jungle_temple',
         rules: [ { mobs: ['skeleton'], chance: 0.05 }]
     },
     {
