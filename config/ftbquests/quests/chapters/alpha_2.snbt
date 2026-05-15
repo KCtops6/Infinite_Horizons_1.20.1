@@ -521,7 +521,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 9.0d
 			y: 2.0d
 		}
 		{
@@ -535,8 +535,8 @@
 				item: "farmingforblockheads:feeding_trough"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.75d
+			x: 9.75d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -558,8 +558,8 @@
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
-			x: 14.25d
-			y: 2.0d
+			x: 9.0d
+			y: 1.25d
 		}
 		{
 			dependencies: [
@@ -779,8 +779,8 @@
 				item: "minecraft:glow_berries"
 				type: "item"
 			}]
-			x: 15.040815d
-			y: 9.015304999999998d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -917,8 +917,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -939,8 +939,8 @@
 				item: "kubejs:steel_ingot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2A0BC15D7F6B3A62"]
@@ -1073,6 +1073,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["3FE3424A09F9D5F0"]
 			description: ["Obtained either through Apotheosis Enchanting or Mekanism Antiprotonic Nucleosynthesizer. "]
 			hide_dependency_lines: true
 			id: "7C6EB6C21F6C0103"
@@ -1468,8 +1469,8 @@
 				item: "gag:sacred_salt"
 				type: "item"
 			}]
-			x: 15.040815d
-			y: 10.015304999999998d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5FE9B299B6C3FD5E"]
@@ -1479,8 +1480,8 @@
 				item: "gag:sacred_balm"
 				type: "item"
 			}]
-			x: 15.040815d
-			y: 11.015304999999998d
+			x: 9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5FE9B299B6C3FD5E"]
@@ -1490,8 +1491,8 @@
 				item: "gag:sacred_salve"
 				type: "item"
 			}]
-			x: 16.040815000000002d
-			y: 11.015304999999998d
+			x: 10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3A6569F022E9D9AC"]
