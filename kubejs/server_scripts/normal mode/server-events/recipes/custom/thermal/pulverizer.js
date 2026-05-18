@@ -44,4 +44,18 @@ ServerEvents.recipes(event => {
     ],
     energy_mod: 0.5
   }).id(`kubejs:thermal/pulverizer/kubejs/end_stone_gravel`);
+
+  event.custom({
+    type: "thermal:pulverizer",
+    ingredient: {
+      item: 'minecraft:netherrack'
+    },
+    result: [
+      {
+        item: 'kubejs:netherrack_gravel',
+        count: 1
+      }
+    ],
+    energy_mod: 0.5
+  }).id(`kubejs:thermal/pulverizer/kubejs/netherrack_gravel`);
 });
