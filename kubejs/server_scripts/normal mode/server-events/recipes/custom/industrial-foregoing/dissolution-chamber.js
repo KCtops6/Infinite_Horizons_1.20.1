@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
             item: "kubejs:nether_addon",
         },
         processingTime: 10000
-    });
+    }).id('kubejs:industrialforegoing/dissolution_chamber/kubejs/nether_addon');
     // end addon
     event.custom({
         type: "industrialforegoing:dissolution_chamber",
@@ -70,5 +70,5 @@ ServerEvents.recipes(event => {
             item: "kubejs:ender_addon",
         },
         processingTime: 20000
-    });
+    }).id('kubejs:industrialforegoing/dissolution_chamber/kubejs/end_addon');
 });

@@ -16,5 +16,5 @@ ServerEvents.recipes(event => {
                 whitelist: {}
             }
         ]
-    });
+    }).id('kubejs:industrialforegoing/laser_drill_fluid/kubejs/liquid_infinitium');
 });
