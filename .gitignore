@@ -78,6 +78,12 @@ moonlight-global-datapacks/
 config/de/
 config/apotheosis/
 config/ars_elemental/
+config/NoChatReports/
+config/pickupnotifier/
+config/quark_emotes/
+config/spark/
+config/valkyrielib/
+config/villagernames/
 config/almostunified/debug.json
 config/almostunified/debug.json.bak
 config/almostunified/duplicates.json
