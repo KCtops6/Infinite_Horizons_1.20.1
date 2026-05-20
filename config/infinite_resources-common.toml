@@ -1,0 +1,38 @@
+
+#Infinite Resources Unification Configuration
+[materials]
+	#Enable/Disable all unified items for steel (Ingot, Nugget, Dust, Plate)
+	enable_steel = true
+	#Enable/Disable all unified items for brass (Ingot, Nugget, Dust, Plate)
+	enable_brass = true
+	#Enable/Disable all unified items for bronze (Ingot, Nugget, Dust, Plate)
+	enable_bronze = true
+	#Enable/Disable all unified items for tin (Ingot, Nugget, Dust, Plate)
+	enable_tin = true
+	#Enable/Disable all unified items for lead (Ingot, Nugget, Dust, Plate)
+	enable_lead = true
+	#Enable/Disable all unified items for silver (Ingot, Nugget, Dust, Plate)
+	enable_silver = true
+	#Enable/Disable all unified items for nickel (Ingot, Nugget, Dust, Plate)
+	enable_nickel = true
+	#Enable/Disable all unified items for aluminum (Ingot, Nugget, Dust, Plate)
+	enable_aluminum = true
+	#Enable/Disable all unified items for zinc (Ingot, Nugget, Dust, Plate)
+	enable_zinc = true
+	#Enable/Disable all unified items for invar (Ingot, Nugget, Dust, Plate)
+	enable_invar = true
+	#Enable/Disable all unified items for electrum (Ingot, Nugget, Dust, Plate)
+	enable_electrum = true
+	#Enable/Disable all unified items for constantan (Ingot, Nugget, Dust, Plate)
+	enable_constantan = true
+	#Enable/Disable all unified items for iron (Ingot, Nugget, Dust, Plate)
+	enable_iron = true
+	#Enable/Disable all unified items for gold (Ingot, Nugget, Dust, Plate)
+	enable_gold = true
+	#Enable/Disable all unified items for diamond (Ingot, Nugget, Dust, Plate)
+	enable_diamond = true
+	#Enable/Disable all unified items for emerald (Ingot, Nugget, Dust, Plate)
+	enable_emerald = true
+	#Enable/Disable all unified items for lapis (Ingot, Nugget, Dust, Plate)
+	enable_lapis = true
+
