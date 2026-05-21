@@ -1,6 +1,7 @@
 {
   "modPriorities": [
     "minecraft",
+    "infinite_resources",
     "kubejs",
     "crafttweaker",
     "create",
