@@ -8,22 +8,22 @@ ServerEvents.recipes(event => {
     ], ['kubejs:deepslate_gravel','createsifter:string_mesh']).id('kubejs:recipes/createsiftersifting/string/deepslate');
     event.recipes.createsifterSifting([
         Item.of('minecraft:raw_gold').withChance(0.25),
-        Item.of('kubejs:raw_aluminum').withChance(0.0625),
-        Item.of('kubejs:raw_lead').withChance(0.125),
-        Item.of('kubejs:raw_nickel').withChance(0.125),
+        Item.of('infinite_horizons:raw_aluminum').withChance(0.0625),
+        Item.of('infinite_horizons:raw_lead').withChance(0.125),
+        Item.of('infinite_horizons:raw_nickel').withChance(0.125),
         Item.of('kubejs:raw_osmium').withChance(0.25),
-        Item.of('kubejs:raw_silver').withChance(0.125),
+        Item.of('infinite_horizons:raw_silver').withChance(0.125),
         Item.of('minecraft:diamond').withChance(0.0625),
         Item.of('powah:uraninite_raw').withChance(0.0625),
         Item.of('irons_spellbooks:raw_mithril').withChance(0.0625)
     ], ['kubejs:deepslate_gravel','kubejs:iron_mesh']).id('kubejs:recipes/createsiftersifting/iron/deepslate');
     event.recipes.createsifterSifting([
         Item.of('minecraft:raw_gold').withChance(0.375),
-        Item.of('kubejs:raw_aluminum').withChance(0.125),
-        Item.of('kubejs:raw_lead').withChance(0.25),
-        Item.of('kubejs:raw_nickel').withChance(0.25),
+        Item.of('infinite_horizons:raw_aluminum').withChance(0.125),
+        Item.of('infinite_horizons:raw_lead').withChance(0.25),
+        Item.of('infinite_horizons:raw_nickel').withChance(0.25),
         Item.of('kubejs:raw_osmium').withChance(0.5),
-        Item.of('kubejs:raw_silver').withChance(0.25),
+        Item.of('infinite_horizons:raw_silver').withChance(0.25),
         Item.of('kubejs:raw_uranium').withChance(0.125),
         Item.of('minecraft:diamond').withChance(0.125),
         Item.of('powah:uraninite_raw').withChance(0.125),
@@ -31,11 +31,11 @@ ServerEvents.recipes(event => {
     ], ['kubejs:deepslate_gravel','createsifter:brass_mesh']).id('kubejs:recipes/createsiftersifting/brass/deepslate');
     event.recipes.createsifterSifting([
         Item.of('minecraft:raw_gold').withChance(0.5),
-        Item.of('kubejs:raw_aluminum').withChance(0.25),
-        Item.of('kubejs:raw_lead').withChance(0.5),
-        Item.of('kubejs:raw_nickel').withChance(0.5),
+        Item.of('infinite_horizons:raw_aluminum').withChance(0.25),
+        Item.of('infinite_horizons:raw_lead').withChance(0.5),
+        Item.of('infinite_horizons:raw_nickel').withChance(0.5),
         Item.of('kubejs:raw_osmium').withChance(0.25),
-        Item.of('kubejs:raw_silver').withChance(0.5),
+        Item.of('infinite_horizons:raw_silver').withChance(0.5),
         Item.of('kubejs:raw_uranium').withChance(0.25),
         Item.of('minecraft:diamond').withChance(0.25),
         Item.of('powah:uraninite_raw').withChance(0.25),
