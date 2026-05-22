@@ -279,32 +279,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["0AC851170B41AD02"]
-			id: "2DEA6DE1B9DFC162"
-			tasks: [{
-				id: "38BE629B39BEDC4E"
-				item: "kubejs:zinc_ingot"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"2DEA6DE1B9DFC162"
-				"22A166C0303A6C2C"
-				"722C7C33D23EB25A"
-			]
-			id: "7C92DF666D71EF2C"
-			tasks: [{
-				id: "6B0CD946B88BBD04"
-				item: "kubejs:brass_ingot"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 0.0d
-		}
-		{
 			dependencies: [
 				"2509EFD6B376DEAF"
 				"7FF3C4BE6D0A1645"
@@ -319,7 +293,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7C92DF666D71EF2C"]
+			dependencies: ["1E18AC13521A431D"]
 			id: "2509EFD6B376DEAF"
 			tasks: [{
 				id: "7F70CBECA6AAB453"
@@ -394,10 +368,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"7FF3C4BE6D0A1645"
-				"7C92DF666D71EF2C"
-			]
+			dependencies: ["7FF3C4BE6D0A1645"]
 			id: "0F1560030AAF6516"
 			tasks: [{
 				id: "100D58180372333F"
@@ -506,7 +477,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7C92DF666D71EF2C"]
+			dependencies: ["1E18AC13521A431D"]
 			description: ["Less messy way for create fan functionality (heating, washing, haunting, etc...)"]
 			hide_dependency_lines: true
 			id: "4522CA1BF6A049EB"
@@ -537,7 +508,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2DEA6DE1B9DFC162"]
+			dependencies: ["76B6486AB13C5984"]
 			description: ["Useful for decorating your base when normal framed blocks do not do the trick."]
 			hide_dependency_lines: true
 			id: "3FCB114502F035B9"
@@ -1603,7 +1574,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7C92DF666D71EF2C"]
+			dependencies: ["1E18AC13521A431D"]
 			id: "636DE0E04A19C4B0"
 			tasks: [{
 				id: "24B4AA7EB2B81A3E"
@@ -1697,6 +1668,31 @@
 			}]
 			x: 3.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "76B6486AB13C5984"
+			tasks: [{
+				id: "74D39C99BA5B3B5A"
+				item: "infinite_resources:zinc_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"76B6486AB13C5984"
+				"722C7C33D23EB25A"
+			]
+			id: "1E18AC13521A431D"
+			tasks: [{
+				id: "7FFF054655D0DCE8"
+				item: "infinite_resources:brass_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
 		}
 	]
 	title: "Beta"
