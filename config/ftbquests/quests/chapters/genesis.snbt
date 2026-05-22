@@ -459,7 +459,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["567A2F4C34FFD146"]
 			id: "79A1E7D81A0D15A8"
 			rewards: [{
 				id: "10A2F9ED10641E5D"
@@ -476,10 +475,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"567A2F4C34FFD146"
-				"087B67D19167A2E5"
-			]
+			dependencies: ["087B67D19167A2E5"]
 			description: ["You're telling me that I'm supposed to make a computer out of lightbulbs?"]
 			icon: "gtceu:vacuum_tube"
 			id: "4B3DA5DF6A398B5D"
