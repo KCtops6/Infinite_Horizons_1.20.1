@@ -1,194 +1,209 @@
 
-#Infinite Resources Granular Unification Configuration
+#Infinite Resources Granular Configuration
 [materials]
 
 	[materials.iron]
-		#Enable/Disable JEI visibility and pickup functionality for: iron dust
+		#Enable/Disable JEI visibility and functionality for: iron dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: iron plate
+		#Enable/Disable JEI visibility and functionality for: iron plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: iron gear
+		#Enable/Disable JEI visibility and functionality for: iron gear
 		enable_gear = true
 
 	[materials.gold]
-		#Enable/Disable JEI visibility and pickup functionality for: gold dust
+		#Enable/Disable JEI visibility and functionality for: gold dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: gold plate
+		#Enable/Disable JEI visibility and functionality for: gold plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: gold gear
+		#Enable/Disable JEI visibility and functionality for: gold gear
 		enable_gear = true
 
 	[materials.diamond]
-		#Enable/Disable JEI visibility and pickup functionality for: diamond nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: diamond dust
+		#Enable/Disable JEI visibility and functionality for: diamond dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: diamond plate
+		#Enable/Disable JEI visibility and functionality for: diamond plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: diamond gear
+		#Enable/Disable JEI visibility and functionality for: diamond gear
 		enable_gear = true
+		#Texture style selection for diamond_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.emerald]
-		#Enable/Disable JEI visibility and pickup functionality for: emerald nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: emerald dust
+		#Enable/Disable JEI visibility and functionality for: emerald dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: emerald plate
+		#Enable/Disable JEI visibility and functionality for: emerald plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: emerald gear
+		#Enable/Disable JEI visibility and functionality for: emerald gear
 		enable_gear = true
+		#Texture style selection for emerald_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.lapis]
-		#Enable/Disable JEI visibility and pickup functionality for: lapis nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: lapis dust
+		#Enable/Disable JEI visibility and functionality for: lapis dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: lapis plate
+		#Enable/Disable JEI visibility and functionality for: lapis plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: lapis gear
+		#Enable/Disable JEI visibility and functionality for: lapis gear
 		enable_gear = true
+		#Texture style selection for lapis_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.steel]
-		#Enable/Disable JEI visibility and pickup functionality for: steel ingot
+		#Enable/Disable JEI visibility and functionality for: steel ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: steel nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: steel dust
+		#Enable/Disable JEI visibility and functionality for: steel dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: steel plate
+		#Enable/Disable JEI visibility and functionality for: steel plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: steel gear
+		#Enable/Disable JEI visibility and functionality for: steel gear
 		enable_gear = true
+		#Texture style selection for steel_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.brass]
-		#Enable/Disable JEI visibility and pickup functionality for: brass ingot
+		#Enable/Disable JEI visibility and functionality for: brass ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: brass nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: brass dust
+		#Enable/Disable JEI visibility and functionality for: brass dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: brass plate
+		#Enable/Disable JEI visibility and functionality for: brass plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: brass gear
+		#Enable/Disable JEI visibility and functionality for: brass gear
 		enable_gear = true
+		#Texture style selection for brass_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.bronze]
-		#Enable/Disable JEI visibility and pickup functionality for: bronze ingot
+		#Enable/Disable JEI visibility and functionality for: bronze ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: bronze nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: bronze dust
+		#Enable/Disable JEI visibility and functionality for: bronze dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: bronze plate
+		#Enable/Disable JEI visibility and functionality for: bronze plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: bronze gear
+		#Enable/Disable JEI visibility and functionality for: bronze gear
 		enable_gear = true
+		#Texture style selection for bronze_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.tin]
-		#Enable/Disable JEI visibility and pickup functionality for: tin ingot
+		#Enable/Disable JEI visibility and functionality for: tin ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: tin nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: tin dust
+		#Enable/Disable JEI visibility and functionality for: tin dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: tin plate
+		#Enable/Disable JEI visibility and functionality for: tin plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: tin gear
+		#Enable/Disable JEI visibility and functionality for: tin gear
 		enable_gear = true
+		#Texture style selection for tin_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.lead]
-		#Enable/Disable JEI visibility and pickup functionality for: lead ingot
+		#Enable/Disable JEI visibility and functionality for: lead ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: lead nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: lead dust
+		#Enable/Disable JEI visibility and functionality for: lead dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: lead plate
+		#Enable/Disable JEI visibility and functionality for: lead plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: lead gear
+		#Enable/Disable JEI visibility and functionality for: lead gear
 		enable_gear = true
+		#Texture style selection for lead_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.silver]
-		#Enable/Disable JEI visibility and pickup functionality for: silver ingot
+		#Enable/Disable JEI visibility and functionality for: silver ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: silver nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: silver dust
+		#Enable/Disable JEI visibility and functionality for: silver dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: silver plate
+		#Enable/Disable JEI visibility and functionality for: silver plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: silver gear
+		#Enable/Disable JEI visibility and functionality for: silver gear
 		enable_gear = true
+		#Texture style selection for silver_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.nickel]
-		#Enable/Disable JEI visibility and pickup functionality for: nickel ingot
+		#Enable/Disable JEI visibility and functionality for: nickel ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: nickel nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: nickel dust
+		#Enable/Disable JEI visibility and functionality for: nickel dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: nickel plate
+		#Enable/Disable JEI visibility and functionality for: nickel plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: nickel gear
+		#Enable/Disable JEI visibility and functionality for: nickel gear
 		enable_gear = true
+		#Texture style selection for nickel_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.aluminum]
-		#Enable/Disable JEI visibility and pickup functionality for: aluminum ingot
+		#Enable/Disable JEI visibility and functionality for: aluminum ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: aluminum nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: aluminum dust
+		#Enable/Disable JEI visibility and functionality for: aluminum dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: aluminum plate
+		#Enable/Disable JEI visibility and functionality for: aluminum plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: aluminum gear
+		#Enable/Disable JEI visibility and functionality for: aluminum gear
 		enable_gear = true
+		#Texture style selection for aluminum_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.zinc]
-		#Enable/Disable JEI visibility and pickup functionality for: zinc ingot
+		#Enable/Disable JEI visibility and functionality for: zinc ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: zinc nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: zinc dust
+		#Enable/Disable JEI visibility and functionality for: zinc dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: zinc plate
+		#Enable/Disable JEI visibility and functionality for: zinc plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: zinc gear
+		#Enable/Disable JEI visibility and functionality for: zinc gear
 		enable_gear = true
+		#Texture style selection for zinc_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.invar]
-		#Enable/Disable JEI visibility and pickup functionality for: invar ingot
+		#Enable/Disable JEI visibility and functionality for: invar ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: invar nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: invar dust
+		#Enable/Disable JEI visibility and functionality for: invar dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: invar plate
+		#Enable/Disable JEI visibility and functionality for: invar plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: invar gear
+		#Enable/Disable JEI visibility and functionality for: invar gear
 		enable_gear = true
+		#Texture style selection for invar_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.electrum]
-		#Enable/Disable JEI visibility and pickup functionality for: electrum ingot
+		#Enable/Disable JEI visibility and functionality for: electrum ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: electrum nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: electrum dust
+		#Enable/Disable JEI visibility and functionality for: electrum dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: electrum plate
+		#Enable/Disable JEI visibility and functionality for: electrum plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: electrum gear
+		#Enable/Disable JEI visibility and functionality for: electrum gear
 		enable_gear = true
+		#Texture style selection for electrum_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
 	[materials.constantan]
-		#Enable/Disable JEI visibility and pickup functionality for: constantan ingot
+		#Enable/Disable JEI visibility and functionality for: constantan ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and pickup functionality for: constantan nugget
-		enable_nugget = true
-		#Enable/Disable JEI visibility and pickup functionality for: constantan dust
+		#Enable/Disable JEI visibility and functionality for: constantan dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and pickup functionality for: constantan plate
+		#Enable/Disable JEI visibility and functionality for: constantan plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and pickup functionality for: constantan gear
+		#Enable/Disable JEI visibility and functionality for: constantan gear
 		enable_gear = true
+		#Texture style selection for constantan_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
 
