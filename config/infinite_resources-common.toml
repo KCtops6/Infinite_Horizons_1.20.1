@@ -1,5 +1,5 @@
 
-#Infinite Resources Granular Configuration
+#Infinite Resources Granular Unification Configuration
 [materials]
 
 	[materials.iron]
@@ -102,6 +102,11 @@
 		#Texture style selection for tin_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable JEI visibility and functionality for raw_tin
+		enable_raw = true
+		#Texture style selection for raw_tin. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		raw_ore_texture_style = "IRON"
 
 	[materials.lead]
 		#Enable/Disable JEI visibility and functionality for: lead ingot
@@ -115,6 +120,11 @@
 		#Texture style selection for lead_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable JEI visibility and functionality for raw_lead
+		enable_raw = true
+		#Texture style selection for raw_lead. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		raw_ore_texture_style = "IRON"
 
 	[materials.silver]
 		#Enable/Disable JEI visibility and functionality for: silver ingot
@@ -128,6 +138,11 @@
 		#Texture style selection for silver_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable JEI visibility and functionality for raw_silver
+		enable_raw = true
+		#Texture style selection for raw_silver. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		raw_ore_texture_style = "IRON"
 
 	[materials.nickel]
 		#Enable/Disable JEI visibility and functionality for: nickel ingot
@@ -141,6 +156,11 @@
 		#Texture style selection for nickel_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable JEI visibility and functionality for raw_nickel
+		enable_raw = true
+		#Texture style selection for raw_nickel. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		raw_ore_texture_style = "IRON"
 
 	[materials.aluminum]
 		#Enable/Disable JEI visibility and functionality for: aluminum ingot
@@ -154,6 +174,11 @@
 		#Texture style selection for aluminum_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable JEI visibility and functionality for raw_aluminum
+		enable_raw = true
+		#Texture style selection for raw_aluminum. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		raw_ore_texture_style = "IRON"
 
 	[materials.zinc]
 		#Enable/Disable JEI visibility and functionality for: zinc ingot
@@ -167,6 +192,11 @@
 		#Texture style selection for zinc_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable JEI visibility and functionality for raw_zinc
+		enable_raw = true
+		#Texture style selection for raw_zinc. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		raw_ore_texture_style = "IRON"
 
 	[materials.invar]
 		#Enable/Disable JEI visibility and functionality for: invar ingot
