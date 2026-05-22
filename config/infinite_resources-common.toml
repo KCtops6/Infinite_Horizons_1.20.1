@@ -1,38 +1,194 @@
 
-#Infinite Resources Unification Configuration
+#Infinite Resources Granular Unification Configuration
 [materials]
-	#Enable/Disable all unified items for steel (Ingot, Nugget, Dust, Plate)
-	enable_steel = true
-	#Enable/Disable all unified items for brass (Ingot, Nugget, Dust, Plate)
-	enable_brass = true
-	#Enable/Disable all unified items for bronze (Ingot, Nugget, Dust, Plate)
-	enable_bronze = true
-	#Enable/Disable all unified items for tin (Ingot, Nugget, Dust, Plate)
-	enable_tin = true
-	#Enable/Disable all unified items for lead (Ingot, Nugget, Dust, Plate)
-	enable_lead = true
-	#Enable/Disable all unified items for silver (Ingot, Nugget, Dust, Plate)
-	enable_silver = true
-	#Enable/Disable all unified items for nickel (Ingot, Nugget, Dust, Plate)
-	enable_nickel = true
-	#Enable/Disable all unified items for aluminum (Ingot, Nugget, Dust, Plate)
-	enable_aluminum = true
-	#Enable/Disable all unified items for zinc (Ingot, Nugget, Dust, Plate)
-	enable_zinc = true
-	#Enable/Disable all unified items for invar (Ingot, Nugget, Dust, Plate)
-	enable_invar = true
-	#Enable/Disable all unified items for electrum (Ingot, Nugget, Dust, Plate)
-	enable_electrum = true
-	#Enable/Disable all unified items for constantan (Ingot, Nugget, Dust, Plate)
-	enable_constantan = true
-	#Enable/Disable all unified items for iron (Ingot, Nugget, Dust, Plate)
-	enable_iron = true
-	#Enable/Disable all unified items for gold (Ingot, Nugget, Dust, Plate)
-	enable_gold = true
-	#Enable/Disable all unified items for diamond (Ingot, Nugget, Dust, Plate)
-	enable_diamond = true
-	#Enable/Disable all unified items for emerald (Ingot, Nugget, Dust, Plate)
-	enable_emerald = true
-	#Enable/Disable all unified items for lapis (Ingot, Nugget, Dust, Plate)
-	enable_lapis = true
+
+	[materials.iron]
+		#Enable/Disable JEI visibility and pickup functionality for: iron dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: iron plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: iron gear
+		enable_gear = true
+
+	[materials.gold]
+		#Enable/Disable JEI visibility and pickup functionality for: gold dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: gold plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: gold gear
+		enable_gear = true
+
+	[materials.diamond]
+		#Enable/Disable JEI visibility and pickup functionality for: diamond nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: diamond dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: diamond plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: diamond gear
+		enable_gear = true
+
+	[materials.emerald]
+		#Enable/Disable JEI visibility and pickup functionality for: emerald nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: emerald dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: emerald plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: emerald gear
+		enable_gear = true
+
+	[materials.lapis]
+		#Enable/Disable JEI visibility and pickup functionality for: lapis nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: lapis dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: lapis plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: lapis gear
+		enable_gear = true
+
+	[materials.steel]
+		#Enable/Disable JEI visibility and pickup functionality for: steel ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: steel nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: steel dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: steel plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: steel gear
+		enable_gear = true
+
+	[materials.brass]
+		#Enable/Disable JEI visibility and pickup functionality for: brass ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: brass nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: brass dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: brass plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: brass gear
+		enable_gear = true
+
+	[materials.bronze]
+		#Enable/Disable JEI visibility and pickup functionality for: bronze ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: bronze nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: bronze dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: bronze plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: bronze gear
+		enable_gear = true
+
+	[materials.tin]
+		#Enable/Disable JEI visibility and pickup functionality for: tin ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: tin nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: tin dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: tin plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: tin gear
+		enable_gear = true
+
+	[materials.lead]
+		#Enable/Disable JEI visibility and pickup functionality for: lead ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: lead nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: lead dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: lead plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: lead gear
+		enable_gear = true
+
+	[materials.silver]
+		#Enable/Disable JEI visibility and pickup functionality for: silver ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: silver nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: silver dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: silver plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: silver gear
+		enable_gear = true
+
+	[materials.nickel]
+		#Enable/Disable JEI visibility and pickup functionality for: nickel ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: nickel nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: nickel dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: nickel plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: nickel gear
+		enable_gear = true
+
+	[materials.aluminum]
+		#Enable/Disable JEI visibility and pickup functionality for: aluminum ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: aluminum nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: aluminum dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: aluminum plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: aluminum gear
+		enable_gear = true
+
+	[materials.zinc]
+		#Enable/Disable JEI visibility and pickup functionality for: zinc ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: zinc nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: zinc dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: zinc plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: zinc gear
+		enable_gear = true
+
+	[materials.invar]
+		#Enable/Disable JEI visibility and pickup functionality for: invar ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: invar nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: invar dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: invar plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: invar gear
+		enable_gear = true
+
+	[materials.electrum]
+		#Enable/Disable JEI visibility and pickup functionality for: electrum ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: electrum nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: electrum dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: electrum plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: electrum gear
+		enable_gear = true
+
+	[materials.constantan]
+		#Enable/Disable JEI visibility and pickup functionality for: constantan ingot
+		enable_ingot = true
+		#Enable/Disable JEI visibility and pickup functionality for: constantan nugget
+		enable_nugget = true
+		#Enable/Disable JEI visibility and pickup functionality for: constantan dust
+		enable_dust = true
+		#Enable/Disable JEI visibility and pickup functionality for: constantan plate
+		enable_plate = true
+		#Enable/Disable JEI visibility and pickup functionality for: constantan gear
+		enable_gear = true
 
