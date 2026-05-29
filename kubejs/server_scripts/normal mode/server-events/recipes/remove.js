@@ -47,4 +47,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: /createsifter:sifting\/.*mesh/ });
 
     event.remove({ id: /thermal:parts\/.*gear/ });
+
+    event.remove({ id: 'projecte:philosophers_stone' });
+    event.remove({ id: 'projecte:philosophers_stone_alt' });
 });
