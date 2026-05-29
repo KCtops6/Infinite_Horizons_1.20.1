@@ -1,239 +1,564 @@
 
-#Infinite Resources Granular Unification Configuration
+#Infinite Resources Configuration Profile
 [materials]
 
 	[materials.iron]
-		#Enable/Disable JEI visibility and functionality for: iron dust
+		#Enable/Disable iron dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: iron plate
+		#Enable/Disable iron plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: iron gear
-		enable_gear = true
 
 	[materials.gold]
-		#Enable/Disable JEI visibility and functionality for: gold dust
+		#Enable/Disable gold dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: gold plate
+		#Enable/Disable gold plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: gold gear
-		enable_gear = true
 
 	[materials.diamond]
-		#Enable/Disable JEI visibility and functionality for: diamond dust
+		#Enable/Disable diamond dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: diamond plate
+		#Enable/Disable diamond plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: diamond gear
-		enable_gear = true
 		#Texture style selection for diamond_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 
 	[materials.emerald]
-		#Enable/Disable JEI visibility and functionality for: emerald dust
+		#Enable/Disable emerald dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: emerald plate
+		#Enable/Disable emerald plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: emerald gear
-		enable_gear = true
 		#Texture style selection for emerald_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 
 	[materials.lapis]
-		#Enable/Disable JEI visibility and functionality for: lapis dust
+		#Enable/Disable lapis dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: lapis plate
+		#Enable/Disable lapis plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: lapis gear
-		enable_gear = true
 		#Texture style selection for lapis_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 
 	[materials.steel]
-		#Enable/Disable JEI visibility and functionality for: steel ingot
+		#Enable/Disable steel ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: steel dust
+		#Enable/Disable steel dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: steel plate
+		#Enable/Disable steel plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: steel gear
-		enable_gear = true
 		#Texture style selection for steel_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 
 	[materials.brass]
-		#Enable/Disable JEI visibility and functionality for: brass ingot
+		#Enable/Disable brass ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: brass dust
+		#Enable/Disable brass dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: brass plate
+		#Enable/Disable brass plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: brass gear
-		enable_gear = true
 		#Texture style selection for brass_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 
 	[materials.bronze]
-		#Enable/Disable JEI visibility and functionality for: bronze ingot
+		#Enable/Disable bronze ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: bronze dust
+		#Enable/Disable bronze dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: bronze plate
+		#Enable/Disable bronze plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: bronze gear
-		enable_gear = true
 		#Texture style selection for bronze_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 
 	[materials.tin]
-		#Enable/Disable JEI visibility and functionality for: tin ingot
+		#Enable/Disable tin ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: tin dust
+		#Enable/Disable tin dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: tin plate
+		#Enable/Disable tin plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: tin gear
-		enable_gear = true
 		#Texture style selection for tin_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
-		#Enable/Disable JEI visibility and functionality for raw_tin
+		#Enable/Disable raw_tin
 		enable_raw = true
 		#Texture style selection for raw_tin. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
 
 	[materials.lead]
-		#Enable/Disable JEI visibility and functionality for: lead ingot
+		#Enable/Disable lead ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: lead dust
+		#Enable/Disable lead dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: lead plate
+		#Enable/Disable lead plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: lead gear
-		enable_gear = true
 		#Texture style selection for lead_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
-		#Enable/Disable JEI visibility and functionality for raw_lead
+		#Enable/Disable raw_lead
 		enable_raw = true
 		#Texture style selection for raw_lead. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
 
 	[materials.silver]
-		#Enable/Disable JEI visibility and functionality for: silver ingot
+		#Enable/Disable silver ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: silver dust
+		#Enable/Disable silver dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: silver plate
+		#Enable/Disable silver plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: silver gear
-		enable_gear = true
 		#Texture style selection for silver_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
-		#Enable/Disable JEI visibility and functionality for raw_silver
+		#Enable/Disable raw_silver
 		enable_raw = true
 		#Texture style selection for raw_silver. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
 
 	[materials.nickel]
-		#Enable/Disable JEI visibility and functionality for: nickel ingot
+		#Enable/Disable nickel ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: nickel dust
+		#Enable/Disable nickel dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: nickel plate
+		#Enable/Disable nickel plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: nickel gear
-		enable_gear = true
 		#Texture style selection for nickel_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
-		#Enable/Disable JEI visibility and functionality for raw_nickel
+		#Enable/Disable raw_nickel
 		enable_raw = true
 		#Texture style selection for raw_nickel. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
 
 	[materials.aluminum]
-		#Enable/Disable JEI visibility and functionality for: aluminum ingot
+		#Enable/Disable aluminum ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: aluminum dust
+		#Enable/Disable aluminum dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: aluminum plate
+		#Enable/Disable aluminum plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: aluminum gear
-		enable_gear = true
 		#Texture style selection for aluminum_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
-		#Enable/Disable JEI visibility and functionality for raw_aluminum
+		#Enable/Disable raw_aluminum
 		enable_raw = true
 		#Texture style selection for raw_aluminum. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
 
 	[materials.zinc]
-		#Enable/Disable JEI visibility and functionality for: zinc ingot
+		#Enable/Disable zinc ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: zinc dust
+		#Enable/Disable zinc dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: zinc plate
+		#Enable/Disable zinc plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: zinc gear
-		enable_gear = true
 		#Texture style selection for zinc_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
-		#Enable/Disable JEI visibility and functionality for raw_zinc
+		#Enable/Disable raw_zinc
 		enable_raw = true
 		#Texture style selection for raw_zinc. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
 
 	[materials.invar]
-		#Enable/Disable JEI visibility and functionality for: invar ingot
+		#Enable/Disable invar ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: invar dust
+		#Enable/Disable invar dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: invar plate
+		#Enable/Disable invar plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: invar gear
-		enable_gear = true
 		#Texture style selection for invar_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 
 	[materials.electrum]
-		#Enable/Disable JEI visibility and functionality for: electrum ingot
+		#Enable/Disable electrum ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: electrum dust
+		#Enable/Disable electrum dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: electrum plate
+		#Enable/Disable electrum plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: electrum gear
-		enable_gear = true
 		#Texture style selection for electrum_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 
 	[materials.constantan]
-		#Enable/Disable JEI visibility and functionality for: constantan ingot
+		#Enable/Disable constantan ingot
 		enable_ingot = true
-		#Enable/Disable JEI visibility and functionality for: constantan dust
+		#Enable/Disable constantan dust
 		enable_dust = true
-		#Enable/Disable JEI visibility and functionality for: constantan plate
+		#Enable/Disable constantan plate
 		enable_plate = true
-		#Enable/Disable JEI visibility and functionality for: constantan gear
-		enable_gear = true
 		#Texture style selection for constantan_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+
+	[materials.ruby]
+		#Enable/Disable ruby_gem
+		enable_gem = true
+		#Texture silhouette layout for ruby_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "EMERALD"
+		#Texture style selection for ruby_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable ruby dust
+		enable_dust = true
+		#Enable/Disable ruby plate
+		enable_plate = true
+
+	[materials.sapphire]
+		#Enable/Disable sapphire_gem
+		enable_gem = true
+		#Texture silhouette layout for sapphire_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "EMERALD"
+		#Texture style selection for sapphire_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable sapphire dust
+		enable_dust = true
+		#Enable/Disable sapphire plate
+		enable_plate = true
+
+	[materials.topaz]
+		#Enable/Disable topaz_gem
+		enable_gem = true
+		#Texture silhouette layout for topaz_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "DIAMOND"
+		#Texture style selection for topaz_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable topaz dust
+		enable_dust = true
+		#Enable/Disable topaz plate
+		enable_plate = true
+
+	[materials.amethyst]
+		#Enable/Disable amethyst_gem
+		enable_gem = true
+		#Texture silhouette layout for amethyst_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "AMETHYST"
+		#Texture style selection for amethyst_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable amethyst dust
+		enable_dust = true
+		#Enable/Disable amethyst plate
+		enable_plate = true
+
+	[materials.opal]
+		#Enable/Disable opal_gem
+		enable_gem = true
+		#Texture silhouette layout for opal_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "QUARTZ"
+		#Texture style selection for opal_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable opal dust
+		enable_dust = true
+		#Enable/Disable opal plate
+		enable_plate = true
+
+	[materials.aquamarine]
+		#Enable/Disable aquamarine_gem
+		enable_gem = true
+		#Texture silhouette layout for aquamarine_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "QUARTZ"
+		#Texture style selection for aquamarine_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable aquamarine dust
+		enable_dust = true
+		#Enable/Disable aquamarine plate
+		enable_plate = true
+
+	[materials.peridot]
+		#Enable/Disable peridot_gem
+		enable_gem = true
+		#Texture silhouette layout for peridot_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "EMERALD"
+		#Texture style selection for peridot_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable peridot dust
+		enable_dust = true
+		#Enable/Disable peridot plate
+		enable_plate = true
+
+	[materials.garnet]
+		#Enable/Disable garnet_gem
+		enable_gem = true
+		#Texture silhouette layout for garnet_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "DIAMOND"
+		#Texture style selection for garnet_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable garnet dust
+		enable_dust = true
+		#Enable/Disable garnet plate
+		enable_plate = true
+
+	[materials.jade]
+		#Enable/Disable jade_gem
+		enable_gem = true
+		#Texture silhouette layout for jade_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "EMERALD"
+		#Texture style selection for jade_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable jade dust
+		enable_dust = true
+		#Enable/Disable jade plate
+		enable_plate = true
+
+	[materials.tourmaline]
+		#Enable/Disable tourmaline_gem
+		enable_gem = true
+		#Texture silhouette layout for tourmaline_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "DIAMOND"
+		#Texture style selection for tourmaline_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable tourmaline dust
+		enable_dust = true
+		#Enable/Disable tourmaline plate
+		enable_plate = true
+
+	[materials.citrine]
+		#Enable/Disable citrine_gem
+		enable_gem = true
+		#Texture silhouette layout for citrine_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "QUARTZ"
+		#Texture style selection for citrine_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable citrine dust
+		enable_dust = true
+		#Enable/Disable citrine plate
+		enable_plate = true
+
+	[materials.tanzanite]
+		#Enable/Disable tanzanite_gem
+		enable_gem = true
+		#Texture silhouette layout for tanzanite_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "AMETHYST"
+		#Texture style selection for tanzanite_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable tanzanite dust
+		enable_dust = true
+		#Enable/Disable tanzanite plate
+		enable_plate = true
+
+	[materials.amber]
+		#Enable/Disable amber_gem
+		enable_gem = true
+		#Texture silhouette layout for amber_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "LAPIS"
+		#Texture style selection for amber_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable amber dust
+		enable_dust = true
+		#Enable/Disable amber plate
+		enable_plate = true
+
+	[materials.malachite]
+		#Enable/Disable malachite_gem
+		enable_gem = true
+		#Texture silhouette layout for malachite_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "LAPIS"
+		#Texture style selection for malachite_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable malachite dust
+		enable_dust = true
+		#Enable/Disable malachite plate
+		enable_plate = true
+
+	[materials.onyx]
+		#Enable/Disable onyx_gem
+		enable_gem = true
+		#Texture silhouette layout for onyx_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "DIAMOND"
+		#Texture style selection for onyx_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable onyx dust
+		enable_dust = true
+		#Enable/Disable onyx plate
+		enable_plate = true
+
+	[materials.jasper]
+		#Enable/Disable jasper_gem
+		enable_gem = true
+		#Texture silhouette layout for jasper_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "LAPIS"
+		#Texture style selection for jasper_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable jasper dust
+		enable_dust = true
+		#Enable/Disable jasper plate
+		enable_plate = true
+
+	[materials.agate]
+		#Enable/Disable agate_gem
+		enable_gem = true
+		#Texture silhouette layout for agate_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "QUARTZ"
+		#Texture style selection for agate_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable agate dust
+		enable_dust = true
+		#Enable/Disable agate plate
+		enable_plate = true
+
+	[materials.turquoise]
+		#Enable/Disable turquoise_gem
+		enable_gem = true
+		#Texture silhouette layout for turquoise_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "LAPIS"
+		#Texture style selection for turquoise_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable turquoise dust
+		enable_dust = true
+		#Enable/Disable turquoise plate
+		enable_plate = true
+
+	[materials.tigerseye]
+		#Enable/Disable tigerseye_gem
+		enable_gem = true
+		#Texture silhouette layout for tigerseye_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "LAPIS"
+		#Texture style selection for tigerseye_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable tigerseye dust
+		enable_dust = true
+		#Enable/Disable tigerseye plate
+		enable_plate = true
+
+	[materials.moonstone]
+		#Enable/Disable moonstone_gem
+		enable_gem = true
+		#Texture silhouette layout for moonstone_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "AMETHYST"
+		#Texture style selection for moonstone_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable moonstone dust
+		enable_dust = true
+		#Enable/Disable moonstone plate
+		enable_plate = true
+
+	[materials.sunstone]
+		#Enable/Disable sunstone_gem
+		enable_gem = true
+		#Texture silhouette layout for sunstone_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "QUARTZ"
+		#Texture style selection for sunstone_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable sunstone dust
+		enable_dust = true
+		#Enable/Disable sunstone plate
+		enable_plate = true
+
+	[materials.morganite]
+		#Enable/Disable morganite_gem
+		enable_gem = true
+		#Texture silhouette layout for morganite_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "DIAMOND"
+		#Texture style selection for morganite_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable morganite dust
+		enable_dust = true
+		#Enable/Disable morganite plate
+		enable_plate = true
+
+	[materials.iolite]
+		#Enable/Disable iolite_gem
+		enable_gem = true
+		#Texture silhouette layout for iolite_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "AMETHYST"
+		#Texture style selection for iolite_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable iolite dust
+		enable_dust = true
+		#Enable/Disable iolite plate
+		enable_plate = true
+
+	[materials.alexandrite]
+		#Enable/Disable alexandrite_gem
+		enable_gem = true
+		#Texture silhouette layout for alexandrite_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "EMERALD"
+		#Texture style selection for alexandrite_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable alexandrite dust
+		enable_dust = true
+		#Enable/Disable alexandrite plate
+		enable_plate = true
+
+	[materials.carnelian]
+		#Enable/Disable carnelian_gem
+		enable_gem = true
+		#Texture silhouette layout for carnelian_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "DIAMOND"
+		#Texture style selection for carnelian_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable carnelian dust
+		enable_dust = true
+		#Enable/Disable carnelian plate
+		enable_plate = true
+
+	[materials.copper]
+		#Texture style selection for copper_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable copper dust
+		enable_dust = true
+		#Enable/Disable copper plate
+		enable_plate = true
 
