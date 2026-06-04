@@ -552,22 +552,6 @@ ServerEvents.recipes(event => {
             }
         );
     });
-
-    let twoByTwo = [
-        { input: 'kubejs:stone_pebble', output: 'minecraft:cobblestone' },
-        { input: 'kubejs:andesite_pebble', output: 'minecraft:andesite' },
-        { input: 'kubejs:deepslate_pebble', output: 'minecraft:cobbled_deepslate' },
-        { input: 'kubejs:diorite_pebble', output: 'minecraft:diorite' },
-        { input: 'kubejs:granite_pebble', output: 'minecraft:granite' },
-        { input: 'kubejs:tuff_pebble', output: 'minecraft:tuff' }
-    ]
-    twoByTwo.forEach(t => {
-        event.shaped(Item.of(t.output, 1), [
-            'AA ',
-            'AA ',
-            '   '
-        ], { A: t.input});
-    })
     let gregtech_mesh_recipes = [
         { long_rod: 'bronze', fine_wire: 'copper', mesh: 'bronze'},
         { long_rod: 'steel', fine_wire: 'steel', mesh: 'steel'}
