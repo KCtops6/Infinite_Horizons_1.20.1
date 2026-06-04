@@ -655,4 +655,22 @@ ServerEvents.recipes(event => {
         I: '#forge:ingots/netherite',
         P: '#forge:plates/netherite'
     }).id('kubejs:shaped/dormant_trial_spawner');
+
+    event.shaped(Item.of('quark:permafrost', 20), [
+        'SSS',
+        'SIS',
+        'SSS'
+    ], {
+        S: 'mysticalagriculture:stone_essence',
+        I: 'mysticalagriculture:ice_essence'
+    }).id('kubejs:shaped/quark/permafrost');
+
+    event.shaped(Item.of('quark:jasper', 20), [
+        'SSS',
+        'SIS',
+        'SSS'
+    ], {
+        S: 'mysticalagriculture:stone_essence',
+        I: 'mysticalagriculture:fire_essence'
+    }).id('kubejs:shaped/quark/jasper');
 });
