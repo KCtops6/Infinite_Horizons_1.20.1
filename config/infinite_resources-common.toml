@@ -562,3 +562,28 @@
 		#Enable/Disable copper plate
 		enable_plate = true
 
+	[materials.osmium]
+		#Enable/Disable osmium ingot
+		enable_ingot = true
+		#Texture style selection for osmium_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable osmium dust
+		enable_dust = true
+		#Enable/Disable osmium plate
+		enable_plate = true
+		#Enable/Disable raw_osmium
+		enable_raw = true
+		#Texture style selection for raw_osmium. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		raw_ore_texture_style = "IRON"
+
+	[materials.obsidian]
+		#Texture style selection for obsidian_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable obsidian dust
+		enable_dust = true
+		#Enable/Disable obsidian plate
+		enable_plate = true
+
