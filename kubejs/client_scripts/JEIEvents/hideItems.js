@@ -17,7 +17,12 @@ JEIEvents.hideItems(event => {
         'enderio': ['filled_soul_vial', 'broken_spawner'],
         'mekanism': ['digital_miner', 'creative_fluid_tank'],
         'thermal': ['ender_pearl_dust'],
-        'gtceu': ['ender_pearl_dust']
+        'gtceu': ['ender_pearl_dust'],
+        'kubejs': [
+            'wooden_trowel', 'stone_trowel', 'iron_trowel', 'stone_hammer', 'iron_hammer', 
+            'stone_pebble', 'andesite_pebble', 'diorite_pebble', 'granite_pebble', 
+            'deepslate_pebble', 'tuff_pebble'
+        ]
     };
     const tagsToHide = [
         '#forge:ores_in_ground/andesite', 
