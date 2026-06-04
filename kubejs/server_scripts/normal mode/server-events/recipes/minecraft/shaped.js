@@ -472,66 +472,6 @@ ServerEvents.recipes(event => {
             },
             output: 'minecraft:elytra',
             count: 1
-        }, /* Wooden Trowel */ {
-            pattern: [
-                ' A ',
-                'ABA',
-                ' B '
-            ],
-            keys: {
-                A: '#minecraft:planks',
-                B: 'minecraft:stick'
-            },
-            output: 'kubejs:wooden_trowel',
-            count: 1
-        }, /* Stone Trowel */ {
-            pattern: [
-                ' A ',
-                'ABA',
-                ' B '
-            ],
-            keys: {
-                A: 'minecraft:cobblestone',
-                B: 'minecraft:stick'
-            },
-            output: 'kubejs:stone_trowel',
-            count: 1
-        }, /* Iron Trowel */ {
-            pattern: [
-                ' A ',
-                'ABA',
-                ' B '
-            ],
-            keys: {
-                A: 'minecraft:iron_ingot',
-                B: 'minecraft:stick'
-            },
-            output: 'kubejs:iron_trowel',
-            count: 1
-        }, /* Stone Hammer */ {
-            pattern: [
-                'AAA',
-                'ABA',
-                ' B '
-            ],
-            keys: {
-                A: 'minecraft:cobblestone',
-                B: 'minecraft:stick'
-            },
-            output: 'kubejs:stone_hammer',
-            count: 1
-        }, /* Iron Hammer */ {
-            pattern: [
-                'AAA',
-                'ABA',
-                ' B '
-            ],
-            keys: {
-                A: 'minecraft:iron_ingot',
-                B: 'minecraft:stick'
-            },
-            output: 'kubejs:iron_hammer',
-            count: 1
         }, /* Create Conveyor Belt from Thermal Rubber */ {
             pattern: [
                 '   ',
