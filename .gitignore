@@ -103,3 +103,12 @@ config/thermal-client.toml
 config/visualworkbench-client.toml
 config/workers-common.toml
 config/zeta-common.toml
+config/starterkit.json5
+config/torchmaster.toml
+config/transition.json
+config/trashcans-common.toml
+config/treeharvester.json5
+config/trender.json
+config/villagernames.json5
+config/villagersrespawn-common.toml
+config/villagespawnpoint.json5
