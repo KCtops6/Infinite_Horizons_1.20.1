@@ -137,8 +137,8 @@
 			id: "15421A3407EE051A"
 			rewards: [
 				{
-					id: "550325F7B6C78B6F"
-					item: "kubejs:steel_ingot"
+					id: "5A428B198E611818"
+					item: "infinite_resources:steel_ingot"
 					random_bonus: 2
 					type: "item"
 				}
@@ -150,8 +150,8 @@
 				}
 			]
 			tasks: [{
-				id: "7C3DBBBBA3DFEE35"
-				item: "kubejs:steel_ingot"
+				id: "7B53C8E4FECB2651"
+				item: "infinite_resources:steel_ingot"
 				type: "item"
 			}]
 			x: 3.0d

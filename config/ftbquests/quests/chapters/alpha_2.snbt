@@ -384,8 +384,8 @@
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			x: 9.790815d
-			y: -1.984695000000002d
+			x: 8.25d
+			y: -2.0d
 		}
 		{
 			dependencies: ["537C4411B628FDE7"]
@@ -581,8 +581,8 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -1.75d
+			x: 16.0d
+			y: -2.75d
 		}
 		{
 			dependencies: ["426C7AF2A4441853"]
@@ -592,8 +592,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -1.0d
+			x: 16.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -633,8 +633,8 @@
 				item: "ironfurnaces:obsidian_furnace"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.25d
+			x: 13.0d
+			y: -3.25d
 		}
 		{
 			dependencies: ["32AEAE8653EF3DA0"]
@@ -652,8 +652,8 @@
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.0d
+			x: 13.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -683,8 +683,8 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -3.0d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -713,8 +713,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["307577AF1F361688"]
@@ -724,8 +724,8 @@
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -7.0d
+			x: 17.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -878,7 +878,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -901,7 +901,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -3.75d
+			y: -4.75d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -932,8 +932,8 @@
 				item: "mob_grinding_utils:wither_muffler"
 				type: "item"
 			}]
-			x: 16.75d
-			y: -5.0d
+			x: 17.75d
+			y: -6.0d
 		}
 		{
 			dependencies: ["73D50C93EBC09617"]
@@ -1021,8 +1021,8 @@
 				item: "minecraft:crying_obsidian"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.0d
+			x: 13.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1041,8 +1041,8 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -1.0d
+			x: 15.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3FE3424A09F9D5F0"]
@@ -1378,7 +1378,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3FE3424A09F9D5F0"]
@@ -1838,8 +1838,8 @@
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -3.0d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
@@ -1959,8 +1959,8 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -6.0d
+			x: 16.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4C2B01F07C9A33D8"]
@@ -1985,8 +1985,8 @@
 				item: "minecraft:nether_brick"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -7.0d
+			x: 16.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4C2B01F07C9A33D8"]
@@ -2010,8 +2010,8 @@
 				item: "minecraft:nether_bricks"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -7.0d
+			x: 15.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4C2B01F07C9A33D8"]
@@ -2028,8 +2028,8 @@
 				item: "minecraft:nether_wart"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -6.0d
+			x: 15.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -2049,7 +2049,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4C2B01F07C9A33D8"]
@@ -2065,8 +2065,8 @@
 				item: "minecraft:blackstone"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -5.0d
+			x: 16.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4C2B01F07C9A33D8"]
@@ -2085,8 +2085,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 16.0d
-			y: -5.0d
+			x: 17.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4C2B01F07C9A33D8"]
@@ -2103,8 +2103,8 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -6.0d
+			x: 17.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -2185,8 +2185,8 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: -6.0d
+			x: 18.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1FFD16D39BDE1E10"]
@@ -3325,6 +3325,20 @@
 			title: "Interface with a Cartographer"
 			x: 4.0d
 			y: 6.0d
+		}
+		{
+			dependencies: [
+				"700D0FB31E0D600E"
+				"3949B38795D8BB00"
+			]
+			id: "7C8B00EACF7EFA22"
+			tasks: [{
+				id: "093863BF55EF8A51"
+				item: "minecraft:piston"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
 		}
 	]
 	title: "Alpha"

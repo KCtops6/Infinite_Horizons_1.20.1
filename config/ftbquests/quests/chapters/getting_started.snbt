@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "347D8BCADE6C05D9"
+	id: "0447F95F50B94065"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3CB7E6733750B998"]
+			id: "08088452F82B6775"
+			tasks: [{
+				id: "10A917B9F1D4C9CF"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4876AC4B509F2950"
+				"223DB95E20E8C6C6"
+			]
+			icon: "gtceu:firebrick"
+			id: "3CB7E6733750B998"
+			tasks: [
+				{
+					id: "5286693E03B866D9"
+					item: "gtceu:fireclay_dust"
+					type: "item"
+				}
+				{
+					id: "03A08800F7F02DDC"
+					item: "gtceu:compressed_fireclay"
+					type: "item"
+				}
+				{
+					id: "5AA60D639E5E739D"
+					item: "gtceu:firebrick"
+					type: "item"
+				}
+				{
+					id: "60EF4048670C9D01"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			title: "Firebricks"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7C8B00EACF7EFA22"
+				"3D4CDA0CD2A9EB76"
+				"47E9374FF7B69B0B"
+			]
+			id: "223DB95E20E8C6C6"
+			tasks: [{
+				id: "28579EF8BEA229CB"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "3D4CDA0CD2A9EB76"
+			tasks: [{
+				id: "57D46E13BC9B8833"
+				item: "infinite_resources:bronze_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "47E9374FF7B69B0B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_hammer"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "4FB0CF08F855754B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:tools/crafting_hammers"
+					}
+				}
+				title: "Craft a Gregtech Hammer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08088452F82B6775"]
+			id: "2E7BD4BF7E17C0B2"
+			tasks: [{
+				id: "5E57BA2A2E104097"
+				item: "infinite_resources:steel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+	]
+	title: "Getting Started"
+}
