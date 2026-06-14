@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
   event.custom({
     type: "thermal:pulverizer",
     ingredient: {
-      tag: "naturesaura:gold_leaf"
+      item: "naturesaura:gold_leaf"
     },
     result: [
       {
