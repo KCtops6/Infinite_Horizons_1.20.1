@@ -598,10 +598,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"2C2A8E2246290F78"
-				"16720D525CA83F44"
-			]
+			dependencies: ["16720D525CA83F44"]
 			hide_dependency_lines: true
 			id: "5990E44C3F3DABB7"
 			rewards: [
@@ -634,10 +631,7 @@
 			y: -6.75d
 		}
 		{
-			dependencies: [
-				"2C2A8E2246290F78"
-				"2A40F0CDC55BA891"
-			]
+			dependencies: ["2A40F0CDC55BA891"]
 			hide_dependency_lines: true
 			id: "24F6D8F86C42DA51"
 			rewards: [
