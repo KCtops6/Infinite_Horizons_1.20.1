@@ -2042,7 +2042,6 @@
 			y: 9.25d
 		}
 		{
-			dependencies: ["6565029A30829779"]
 			hide_dependency_lines: true
 			icon: "mysticalagriculture:mystical_flower_seeds"
 			id: "75C68EC20820F3E5"
