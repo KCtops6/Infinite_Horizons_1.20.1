@@ -140,7 +140,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1095B567B96DDCF3"]
+			dependencies: ["1FFD16D39BDE1E10"]
 			description: ["Useful so you do not have to go on multiple villager's trading UI's."]
 			id: "31BBE9DCB2EB7E5D"
 			optional: true
@@ -156,8 +156,8 @@
 				item: "tradingpost:trading_post"
 				type: "item"
 			}]
-			x: 2.0408150000000003d
-			y: 1.015304999999998d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["73D50C93EBC09617"]
@@ -656,37 +656,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"110517F6B8116C24"
-				"64FE1369D9DA79FF"
-				"4132CC5C94403FC1"
-			]
-			dependency_requirement: "one_completed"
-			id: "32AEAE8653EF3DA0"
-			rewards: [
-				{
-					id: "1270D5B9D2729294"
-					item: "minecraft:lava_bucket"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "13B99CC5723669ED"
-					item: "minecraft:iron_ingot"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "52CC35DA6AB72A0F"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["0AC851170B41AD02"]
 			dependency_requirement: "one_completed"
 			id: "2E27C65E12B61E06"
@@ -986,10 +955,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"4D8C16662420211F"
-				"24AB91EB9A74B02F"
-			]
 			id: "151F64D5A9293978"
 			rewards: [{
 				count: 5
@@ -1177,6 +1142,7 @@
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
+			description: ["Breaking dirt/grass block with a trowel gives pebbles. You can also use a cutting board for this task."]
 			icon: "minecraft:cobblestone"
 			id: "56AE41FF2C03F86B"
 			rewards: [
@@ -3339,6 +3305,64 @@
 			}]
 			x: 10.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["722214981D4F15E4"]
+			id: "39783C098E2CA19A"
+			rewards: [{
+				id: "0351B06CA012B871"
+				item: "minecraft:grass"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "015B88F1EF900D79"
+				item: "minecraft:grass"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4132CC5C94403FC1"]
+			id: "3485B02D7E46842F"
+			tasks: [{
+				id: "7555A4B76C2C6FB1"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"110517F6B8116C24"
+				"4132CC5C94403FC1"
+			]
+			dependency_requirement: "one_completed"
+			id: "32AEAE8653EF3DA0"
+			rewards: [
+				{
+					id: "1270D5B9D2729294"
+					item: "minecraft:lava_bucket"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "13B99CC5723669ED"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52CC35DA6AB72A0F"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
 		}
 	]
 	title: "Alpha"
