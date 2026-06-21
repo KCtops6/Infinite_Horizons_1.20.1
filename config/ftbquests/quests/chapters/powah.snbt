@@ -477,10 +477,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"415471CBF6A5D507"
-				"00204A27B1AB1C4D"
-			]
+			dependencies: ["00204A27B1AB1C4D"]
 			hide_dependency_lines: true
 			id: "2384584B46745DD7"
 			optional: true
