@@ -226,10 +226,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"037B4AE6DF4451D4"
-				"722C7C33D23EB25A"
-			]
+			dependencies: ["722C7C33D23EB25A"]
 			id: "110517F6B8116C24"
 			tasks: [{
 				id: "0761D8C186E7C127"
@@ -1014,7 +1011,6 @@
 			y: -1.25d
 		}
 		{
-			dependencies: ["7FF4CC850ECC3EB8"]
 			id: "5C4CBED9380E02E9"
 			optional: true
 			rewards: [
@@ -1041,7 +1037,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["7FF4CC850ECC3EB8"]
 			id: "05F5B627BE410210"
 			optional: true
 			rewards: [
@@ -1068,7 +1063,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["7FF4CC850ECC3EB8"]
 			id: "60D215F4AA5A1D53"
 			optional: true
 			rewards: [
@@ -1095,7 +1089,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["7FF4CC850ECC3EB8"]
 			id: "63EE1CFEBE18F303"
 			optional: true
 			rewards: [
