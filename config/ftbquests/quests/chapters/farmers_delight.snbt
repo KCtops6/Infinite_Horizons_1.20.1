@@ -335,7 +335,7 @@
 			id: "1ACFBE088174E165"
 			tasks: [{
 				id: "69B27CCB4604F937"
-				item: "delightful:pumpkin_pie_slice"
+				item: "farmersdelight:pumpkin_pie_slice"
 				type: "item"
 			}]
 			x: 4.5d
