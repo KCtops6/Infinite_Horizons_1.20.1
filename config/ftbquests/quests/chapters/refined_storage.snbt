@@ -445,10 +445,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"2F097F805A79F4BC"
-				"7BC01DF5B4543043"
-			]
+			dependencies: ["7BC01DF5B4543043"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "11F67C8430DF1652"
