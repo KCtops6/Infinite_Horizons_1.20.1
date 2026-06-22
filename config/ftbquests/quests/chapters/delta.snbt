@@ -5,26 +5,20 @@
 	group: "6F4C25734B575319"
 	icon: "minecraft:honeycomb"
 	id: "0EF883FB41222D8E"
+	images: [{
+		click: "https://github.com/KCtops6/Infinite_Horizons_1.20.1/wiki/Productive-Bees"
+		height: 1.0d
+		hover: ["Check out the Wiki!"]
+		image: "productivebees:block/advanced_beehive/oak_beehive_front_down_honey"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -1.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"3949B38795D8BB00"
-				"08D84D303B46BF2D"
-			]
-			description: ["The apiarist villager will make early game bee collecting much less tedious.  Check out the profession's trades!  You will certainly need more than one of these villagers."]
-			id: "4DC952C2B1F7E08F"
-			tasks: [{
-				id: "0415DA2163C73237"
-				item: "kubejs:apiarist_workbench"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			id: "4FDC0E2A0889D32D"
 			tasks: [{
 				id: "5CB754713CE6867F"
@@ -35,7 +29,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			id: "49F150A55974C589"
 			tasks: [{
 				id: "4DA25E4FD70F3236"
@@ -68,7 +61,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			id: "37FC509665310A74"
 			tasks: [{
 				id: "732AAF3E75B91898"
@@ -79,7 +71,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			id: "359A90CB5EB27F6E"
 			tasks: [{
 				id: "59DE2D9C0AFA1378"
@@ -90,7 +81,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			icon: {
 				Count: 1
 				id: "productivebees:configurable_honeycomb"
@@ -222,7 +212,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			id: "7104AEC2B2F6449D"
 			tasks: [{
 				id: "613BDE1B63110691"
@@ -255,7 +244,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			id: "7304250D323EA36F"
 			tasks: [{
 				id: "7230EDB6A993ED8C"
@@ -332,7 +320,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			id: "7B01DEBAEE5AB103"
 			tasks: [{
 				id: "7796E73FA4489FEF"
@@ -406,7 +393,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			id: "03AAF0F42D9C039D"
 			tasks: [{
 				id: "17D2A4495224811D"
@@ -425,7 +411,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			icon: {
 				Count: 1
 				id: "productivebees:spawn_egg_configurable_bee"
@@ -468,7 +453,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			id: "5D585072376CF5AD"
 			rewards: [{
 				id: "2DBCFCF0DA2E7A3F"
@@ -573,7 +557,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			icon: {
 				Count: 1
 				id: "productivebees:spawn_egg_configurable_bee"
@@ -956,7 +939,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			icon: {
 				Count: 1
 				id: "productivebees:spawn_egg_configurable_bee"
@@ -1065,7 +1047,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["4DC952C2B1F7E08F"]
 			id: "7EAB55C5F6DFD352"
 			tasks: [{
 				id: "692778F52F92A923"
