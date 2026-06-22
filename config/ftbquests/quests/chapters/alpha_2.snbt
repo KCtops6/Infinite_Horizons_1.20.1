@@ -955,23 +955,6 @@
 			y: -3.0d
 		}
 		{
-			id: "151F64D5A9293978"
-			rewards: [{
-				count: 5
-				id: "4F69776FB4902AFD"
-				item: "minecraft:nether_wart"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "67C63C633E856244"
-				item: "minecraft:nether_wart"
-				type: "item"
-			}]
-			x: 15.040815d
-			y: 7.015304999999998d
-		}
-		{
 			dependencies: ["0A87B874851CD1B0"]
 			description: ["Easiest to obtain with Create Haunting."]
 			id: "48119CC0091EF834"
