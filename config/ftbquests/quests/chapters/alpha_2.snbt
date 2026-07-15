@@ -8,17 +8,29 @@
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:oak_log"
 	id: "1F0402920128C0A0"
-	images: [{
-		click: "https://github.com/KCtops6/Infinite_Horizons_1.20.1/wiki/Trowels"
-		dependency: "1095B567B96DDCF3"
-		height: 0.6d
-		hover: ["Learn about Trowels on the wiki"]
-		image: "minecraft:block/bookshelf"
-		rotation: 0.0d
-		width: 0.6d
-		x: 5.0d
-		y: 1.0d
-	}]
+	images: [
+		{
+			click: "https://github.com/KCtops6/Infinite_Horizons_1.20.1/wiki/Trowels"
+			dependency: "1095B567B96DDCF3"
+			height: 0.6d
+			hover: ["Learn about Trowels on the wiki"]
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 0.6d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			click: "https://www.youtube.com/channel/UCJ7gq2fPgKFPZ409Yxy3-sQ/"
+			height: 1.0d
+			hover: ["Check out my YouTube!"]
+			image: "supplementaries:textures/gui/book/icon/youtube.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
