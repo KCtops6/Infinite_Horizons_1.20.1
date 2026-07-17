@@ -34,40 +34,40 @@ ServerEvents.recipes(event => {
     let dirtBlocks = ["minecraft:dirt", "minecraft:grass_block", "minecraft:dirt_path"];
     let gravelBlocks = ["minecraft:gravel", "kubejs:andesite_gravel", "kubejs:diorite_gravel", "kubejs:granite_gravel"];
     dirtBlocks.forEach(b => {
-        cutting(b, 'kubejs:wooden_trowel', [
+        cutting(b, 'infinite_horizons_tweaks:wooden_trowel', [
             { item: "minecraft:dirt", chance: 0.75 },
             { item: "kubejs:stone_pebble", chance: 0.25 }
         ]);
-        cutting(b, 'kubejs:stone_trowel', [
+        cutting(b, 'infinite_horizons_tweaks:stone_trowel', [
             { item: "minecraft:dirt", chance: 0.5 },
             { item: "kubejs:andesite_pebble", chance: 0.25 },
             { item: "kubejs:diorite_pebble", chance: 0.25 },
             { item: "kubejs:granite_pebble", chance: 0.25 }
         ]);
-        cutting(b, 'kubejs:iron_trowel', [
+        cutting(b, 'infinite_horizons_tweaks:iron_trowel', [
             { item: "minecraft:dirt", chance: 0.25 },
             { item: "kubejs:stone_pebble", chance: 0.75 },
             { item: "kubejs:deepslate_pebble", chance: 0.25 }
         ]);
     });
     gravelBlocks.forEach(b => {
-        cutting(b, 'kubejs:stone_trowel', [
+        cutting(b, 'infinite_horizons_tweaks:stone_trowel', [
             { item: b, chance: 0.75 },
             { item: "kubejs:stone_pebble", chance: 0.5 },
             { item: "minecraft:iron_nugget", chance: 0.25 }
         ]);
-        cutting(b, 'kubejs:iron_trowel', [
+        cutting(b, 'infinite_horizons_tweaks:iron_trowel', [
             { item: b, chance: 0.5 },
             { item: "kubejs:stone_pebble", chance: 0.75 },
             { item: "minecraft:iron_nugget", chance: 0.5 }
         ]);
     });
-    cutting('kubejs:tuff_gravel', 'kubejs:iron_trowel', [
+    cutting('kubejs:tuff_gravel', 'infinite_horizons_tweaks:iron_trowel', [
         { item: "kubejs:tuff_gravel", chance: 0.25 },
         { item: "kubejs:tuff_pebble", chance: 0.75 },
         { item: "kubejs:deepslate_pebble", chance: 0.25 }
     ]);
-    cutting('kubejs:deepslate_gravel', 'kubejs:iron_trowel', [
+    cutting('kubejs:deepslate_gravel', 'infinite_horizons_tweaks:iron_trowel', [
         { item: "kubejs:deepslate_gravel", chance: 0.25 },
         { item: "kubejs:deepslate_pebble", chance: 0.75 },
         { item: "kubejs:tuff_pebble", chance: 0.25 }
