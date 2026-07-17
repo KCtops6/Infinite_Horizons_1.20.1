@@ -917,8 +917,9 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["73D50C93EBC09617"]
+			dependencies: ["182338376E9A5415"]
 			description: ["Useful for compressing your setups.  Highly recommend."]
+			hide_dependency_lines: true
 			id: "57E3AFC98283C7DA"
 			optional: true
 			rewards: [{
@@ -926,6 +927,7 @@
 				item: "compactmachines:personal_shrinking_device"
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [{
 				id: "7E3EDCD4DBBBF919"
 				item: {
@@ -963,8 +965,8 @@
 				title: "Craft a Compact Machine."
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: 11.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["0A87B874851CD1B0"]
