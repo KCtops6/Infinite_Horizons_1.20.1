@@ -1,6 +1,14 @@
+// kubejs/server_scripts/milling-recipes.js
 ServerEvents.recipes(event => {
-    // Simple crushing input to output mappings (no chanced outputs)
-    const recipes = [
+
+    var isModLoaded = function(itemIdOrModId) {
+        if (!itemIdOrModId) return false;
+        var namespace = itemIdOrModId.indexOf(':') > -1 ? itemIdOrModId.split(':')[0] : itemIdOrModId;
+        if (namespace === 'minecraft' || namespace === 'kubejs') return true;
+        return Platform.isLoaded(namespace);
+    };
+
+    var recipes = [
         { input: 'minecraft:andesite', output: 'kubejs:andesite_gravel' },
         { input: 'minecraft:diorite', output: 'kubejs:diorite_gravel' },
         { input: 'minecraft:granite', output: 'kubejs:granite_gravel' },
@@ -15,53 +23,74 @@ ServerEvents.recipes(event => {
     ];
 
     recipes.forEach(recipe => {
-        event.custom({
-            type: "create:milling",
-            ingredients: [{ item: recipe.input }],
-            processingTime: 800,
-            results: [{ item: recipe.output }]
-        }).id(`kubejs:milling/${recipe.output.replace(':', '_')}`);
+        try {
+            var inputItem = recipe.input;
+            var outputItem = recipe.output;
+
+            if (isModLoaded(inputItem) && isModLoaded(outputItem)) {
+                var cleanID = outputItem.replace(':', '_');
+                event.custom({
+                    type: "create:milling",
+                    ingredients: [{ item: inputItem }],
+                    processingTime: 800,
+                    results: [{ item: outputItem }]
+                }).id(`kubejs:milling/${cleanID}`);
+            }
+        } catch (e) {
+            console.warn(`[KubeJS] Failed to safely register milling recipe for ${recipe.input}: ${e}`);
+        }
     });
 
-    // Pam's HarvestCraft ground meats
-    const meats = ['rabbit', 'mutton', 'pork', 'beef', 'chicken'];
-    meats.forEach(meat => {
-        event.custom({
-            type: "create:milling",
-            ingredients: [{ tag: `forge:raw_${meat}` }],
-            processingTime: 800,
-            results: [{ item: `pamhc2foodcore:ground${meat}item` }]
+    if (isModLoaded('pamhc2foodcore')) {
+        var meats = ['rabbit', 'mutton', 'pork', 'beef', 'chicken'];
+        meats.forEach(meat => {
+            try {
+                event.custom({
+                    type: "create:milling",
+                    ingredients: [{ tag: `forge:raw_${meat}` }],
+                    processingTime: 800,
+                    results: [{ item: `pamhc2foodcore:ground${meat}item` }]
+                }).id(`kubejs:milling/ground_${meat}`);
+            } catch (e) {
+                console.warn(`[KubeJS] Failed to register Pam's meat recipe for ${meat}: ${e}`);
+            }
         });
-    });
+    }
 
-    // Fish milling
-    event.custom({
-        type: "create:milling",
-        ingredients: [{ tag: 'forge:fishes' }],
-        processingTime: 800,
-        results: [{ item: 'pamhc2foodcore:groundfishitem' }]
-    });
+    if (isModLoaded('pamhc2foodcore')) {
+        try {
+            event.custom({
+                type: "create:milling",
+                ingredients: [{ tag: 'forge:fishes' }],
+                processingTime: 800,
+                results: [{ item: 'pamhc2foodcore:groundfishitem' }]
+            }).id('kubejs:milling/ground_fish');
+        } catch (e) {
+            console.warn(`[KubeJS] Failed to register ground fish milling: ${e}`);
+        }
+    }
 
-    // Calcite milling
-    event.custom({
-        type: "create:milling",
-        ingredients: [{ item: 'minecraft:calcite' }],
-        processingTime: 800,
-        results: [{ item: 'gtceu:raw_calcite' }]
-    });
+    if (isModLoaded('gtceu')) {
+        try {
+            event.custom({
+                type: "create:milling",
+                ingredients: [{ item: 'minecraft:calcite' }],
+                processingTime: 800,
+                results: [{ item: 'gtceu:raw_calcite' }]
+            }).id('kubejs:milling/calcite_to_gt_raw_calcite');
+        } catch (e) {
+            console.warn(`[KubeJS] Failed to register Calcite to GregTech Calcite recipe: ${e}`);
+        }
+    }
 
-    event.custom({
-        type: "create:milling",
-        ingredients: [
-            {
-                item: 'kubejs:granite_gravel'
-            }
-        ],
-        processingTime: 800,
-        results: [
-            {
-                item: 'minecraft:red_sand'
-            }
-        ]
-    }).id('milling/granite_gravel_to_red_sand');
+    try {
+        event.custom({
+            type: "create:milling",
+            ingredients: [{ item: 'kubejs:granite_gravel' }],
+            processingTime: 800,
+            results: [{ item: 'minecraft:red_sand' }]
+        }).id('kubejs:milling/granite_gravel_to_red_sand');
+    } catch (e) {
+        console.warn(`[KubeJS] Failed to register granite gravel to red sand recipe: ${e}`);
+    }
 });
