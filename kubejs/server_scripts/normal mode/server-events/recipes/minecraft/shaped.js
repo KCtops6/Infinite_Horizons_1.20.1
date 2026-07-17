@@ -303,7 +303,7 @@ ServerEvents.recipes(event => {
             ],
             keys: {
                 A: 'minecraft:iron_nugget', 
-                B: 'twigs:pebble'
+                B: 'infinite_horizons_tweaks:stone_pebble'
             },
             output: 'kubejs:stone_alloy',
             count: 1
