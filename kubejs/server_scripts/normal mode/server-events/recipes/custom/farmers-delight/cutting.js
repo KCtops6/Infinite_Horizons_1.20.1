@@ -36,41 +36,41 @@ ServerEvents.recipes(event => {
     dirtBlocks.forEach(b => {
         cutting(b, 'infinite_horizons_tweaks:wooden_trowel', [
             { item: "minecraft:dirt", chance: 0.75 },
-            { item: "kubejs:stone_pebble", chance: 0.25 }
+            { item: "infinite_horizons_tweaks:stone_pebble", chance: 0.25 }
         ]);
         cutting(b, 'infinite_horizons_tweaks:stone_trowel', [
             { item: "minecraft:dirt", chance: 0.5 },
-            { item: "kubejs:andesite_pebble", chance: 0.25 },
-            { item: "kubejs:diorite_pebble", chance: 0.25 },
-            { item: "kubejs:granite_pebble", chance: 0.25 }
+            { item: "infinite_horizons_tweaks:andesite_pebble", chance: 0.25 },
+            { item: "infinite_horizons_tweaks:diorite_pebble", chance: 0.25 },
+            { item: "infinite_horizons_tweaks:granite_pebble", chance: 0.25 }
         ]);
         cutting(b, 'infinite_horizons_tweaks:iron_trowel', [
             { item: "minecraft:dirt", chance: 0.25 },
-            { item: "kubejs:stone_pebble", chance: 0.75 },
-            { item: "kubejs:deepslate_pebble", chance: 0.25 }
+            { item: "infinite_horizons_tweaks:stone_pebble", chance: 0.75 },
+            { item: "infinite_horizons_tweaks:deepslate_pebble", chance: 0.25 }
         ]);
     });
     gravelBlocks.forEach(b => {
         cutting(b, 'infinite_horizons_tweaks:stone_trowel', [
             { item: b, chance: 0.75 },
-            { item: "kubejs:stone_pebble", chance: 0.5 },
+            { item: "infinite_horizons_tweaks:stone_pebble", chance: 0.5 },
             { item: "minecraft:iron_nugget", chance: 0.25 }
         ]);
         cutting(b, 'infinite_horizons_tweaks:iron_trowel', [
             { item: b, chance: 0.5 },
-            { item: "kubejs:stone_pebble", chance: 0.75 },
+            { item: "infinite_horizons_tweaks:stone_pebble", chance: 0.75 },
             { item: "minecraft:iron_nugget", chance: 0.5 }
         ]);
     });
     cutting('kubejs:tuff_gravel', 'infinite_horizons_tweaks:iron_trowel', [
-        { item: "kubejs:tuff_gravel", chance: 0.25 },
-        { item: "kubejs:tuff_pebble", chance: 0.75 },
-        { item: "kubejs:deepslate_pebble", chance: 0.25 }
+        { item: "infinite_horizons_tweaks:tuff_gravel", chance: 0.25 },
+        { item: "infinite_horizons_tweaks:tuff_pebble", chance: 0.75 },
+        { item: "infinite_horizons_tweaks:deepslate_pebble", chance: 0.25 }
     ]);
     cutting('kubejs:deepslate_gravel', 'infinite_horizons_tweaks:iron_trowel', [
-        { item: "kubejs:deepslate_gravel", chance: 0.25 },
-        { item: "kubejs:deepslate_pebble", chance: 0.75 },
-        { item: "kubejs:tuff_pebble", chance: 0.25 }
+        { item: "infinite_horizons_tweaks:deepslate_gravel", chance: 0.25 },
+        { item: "infinite_horizons_tweaks:deepslate_pebble", chance: 0.75 },
+        { item: "infinite_horizons_tweaks:tuff_pebble", chance: 0.25 }
     ]);
     cutting('twigs:silt', '#forge:tools/shovels', [
         { item: "twigs:silt_ball", count: 4 }
