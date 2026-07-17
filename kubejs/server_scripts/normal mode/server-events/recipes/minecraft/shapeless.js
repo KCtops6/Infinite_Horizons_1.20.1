@@ -142,4 +142,9 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('minecraft:pink_petals', 16), [
         'minecraft:cherry_leaves', '#minecraft:shears'
     ]).damageIngredient('#minecraft:shears');
+    event.shapeless('infinite_horizons_tweaks:wooden_trowel', [ 'kubejs:wooden_trowel' ]);
+    event.shapeless('infinite_horizons_tweaks:stone_trowel', [ 'kubejs:stone_trowel' ]);
+    event.shapeless('infinite_horizons_tweaks:iron_trowel', [ 'kubejs:iron_trowel' ]);
+    event.shapeless('infinite_horizons_tweaks:stone_hammer', [ 'kubejs:stone_hammer' ]);
+    event.shapeless('infinite_horizons_tweaks:iron_hammer', [ 'kubejs:iron_hammer' ]);
 });
