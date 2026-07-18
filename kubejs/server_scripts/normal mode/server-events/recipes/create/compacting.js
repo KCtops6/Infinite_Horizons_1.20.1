@@ -36,4 +36,20 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+    event.custom({
+        type: "create:compacting",
+        heatRequirement: "heated",
+        ingredients: [
+            {
+                count: 4,
+                item: 'minecraft:soul_sand'
+            }
+        ],
+        results: [
+            {
+                item: 'mysticalagriculture:soulstone'
+            }
+        ]
+    });
 });

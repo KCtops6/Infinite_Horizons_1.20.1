@@ -407,19 +407,6 @@ ServerEvents.recipes(event => {
         },
         {
             pattern: [
-                'SSS',
-                'SNS',
-                'SSS'
-            ],
-            keys: {
-                S: 'mysticalagriculture:stone_essence',
-                N: 'mysticalagriculture:nether_essence'
-            },
-            output: 'mysticalagriculture:soulstone_cobble',
-            count: 24
-        },
-        {
-            pattern: [
                 'AFA',
                 'FBF',
                 'AFA'
