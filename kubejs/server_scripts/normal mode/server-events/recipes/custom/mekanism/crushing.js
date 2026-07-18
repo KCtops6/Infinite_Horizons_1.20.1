@@ -22,4 +22,16 @@ ServerEvents.recipes(event => {
             item: "kubejs:netherrack_gravel"
         }
     }).id('kubejs:mekanism/crushing/kubejs/netherrack_gravel');
+
+    event.custom({
+        type: "mekanism:crushing",
+        input: {
+            ingredient: {
+                item: "minecraft:sand"
+            }
+        },
+        output: {
+            item: "createsifter:dust"
+        }
+    }).id('kubejs:mekanism/crushing/createsifter/dust');
 });

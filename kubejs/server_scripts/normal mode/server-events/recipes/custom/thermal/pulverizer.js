@@ -58,4 +58,18 @@ ServerEvents.recipes(event => {
     ],
     energy_mod: 0.5
   }).id(`kubejs:thermal/pulverizer/kubejs/netherrack_gravel`);
+
+  event.custom({
+    type: "thermal:pulverizer",
+    ingredient: {
+      item: 'minecraft:sand'
+    },
+    result: [
+      {
+        item: 'createsifter:dust',
+        count: 1
+      }
+    ],
+    energy_mod: 0.5
+  }).id(`kubejs:thermal/pulverizer/createsifter/dust`);
 });

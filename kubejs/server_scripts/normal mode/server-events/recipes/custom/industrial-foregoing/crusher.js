@@ -17,4 +17,13 @@ ServerEvents.recipes(event => {
             item: "kubejs:end_stone_gravel"
         }
     }).id('kubejs:industrialforegoing/crusher/kubejs/end_stone_gravel');
+    event.custom({
+        type: "industrialforegoing:crusher",
+        input: {
+            item: "minecraft:sand"
+        },
+        output: {
+            item: "createsifter:dust"
+        }
+    }).id('kubejs:industrialforegoing/createsifter/dust');
 });
