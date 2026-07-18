@@ -1206,7 +1206,7 @@
 				id: "7C0C5B807707B2B6"
 				item: {
 					Count: 1
-					id: "kubejs:stone_trowel"
+					id: "infinite_horizons_tweaks:stone_trowel"
 					tag: {
 						Damage: 0
 					}
@@ -1229,7 +1229,7 @@
 			tasks: [
 				{
 					id: "2EE0ADF4F7B6390D"
-					item: "kubejs:andesite_pebble"
+					item: "infinite_horizons_tweaks:andesite_pebble"
 					type: "item"
 				}
 				{
@@ -1529,7 +1529,7 @@
 			tasks: [
 				{
 					id: "163700B583A73B8E"
-					item: "kubejs:diorite_pebble"
+					item: "infinite_horizons_tweaks:diorite_pebble"
 					type: "item"
 				}
 				{
@@ -1554,7 +1554,7 @@
 			tasks: [
 				{
 					id: "61780B74916FB270"
-					item: "kubejs:granite_pebble"
+					item: "infinite_horizons_tweaks:granite_pebble"
 					type: "item"
 				}
 				{
@@ -1754,7 +1754,7 @@
 			tasks: [
 				{
 					id: "50531178D8423C9B"
-					item: "kubejs:deepslate_pebble"
+					item: "infinite_horizons_tweaks:deepslate_pebble"
 					type: "item"
 				}
 				{
