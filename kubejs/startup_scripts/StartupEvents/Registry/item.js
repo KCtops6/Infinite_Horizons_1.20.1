@@ -2,14 +2,12 @@ function capitalize(str) {
     return str.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 }
 const items = [
-    'chicken_fried_steak_ingot',
-    'dark_matter', 'weak_echo_shard', 'mycellium_spores',
+    'chicken_fried_steak_ingot', 'mycellium_spores',
     'red_mushroom_spores', 'brown_mushroom_spores', 'crimson_nylium_spores',
     'warped_nylium_spores', 'desert_temple_dungeon_key', 'explorer_map',
-    'forbidden_transmutation_matter', 'jungle_temple_dungeon_key', 'mekanism_mystery_box',
-    'netherite_wire',
-    'stone_alloy', 'stronghold_dungeon_key', 'void_flour',
-    'void_cake_base', 'void_cake', 'infinite_void_rune', 'ancient_glyph',
+    'forbidden_transmutation_matter', 
+    'netherite_wire', 'stone_alloy', 'void_flour',
+    'void_cake_base', 'void_cake', 'ancient_glyph',
     'void_glyph', 'voidwalker_reagent', 'infernal_reagent',
     'infernal_sigil', 'voidwalker_sigil', 'rune_of_the_end',
     'rune_of_the_nether', 'wither_skeletal_contractor', 'e-logic_controller',
