@@ -285,18 +285,6 @@ ServerEvents.recipes(event => {
         },
         {
             pattern: [
-                'AAA',
-                'AAA',
-                'AAA'
-            ],
-            keys: {
-                A: 'kubejs:dark_matter'
-            },
-            output: 'kubejs:weak_echo_shard',
-            count: 1
-        },
-        {
-            pattern: [
                 'AB ', 
                 'BA ',
                 '   '  
@@ -345,37 +333,6 @@ ServerEvents.recipes(event => {
                 B: 'createaddition:copper_wire'
             },
             output: 'kubejs:copper_mesh',
-            count: 1
-        },
-        {
-            pattern: [
-                'YYY', 
-                'GCS',
-                'OOO'  
-            ],
-            keys: {
-                C:  'minecraft:crafting_table',
-                G:  'minecraft:glass_bottle',
-                O:  'minecraft:oak_planks',
-                S:  Item.of('minecraft:shears', '{Damage:0}'),
-                Y:  'minecraft:yellow_wool'
-            },
-            output: 'kubejs:apiarist_workbench',
-            count: 1
-        },
-        {
-            pattern: [
-                'RRR', 
-                'GCG',
-                'SSS'  
-            ],
-            keys: {
-                C:  'minecraft:crafting_table',
-                G:  'minecraft:gold_ingot',
-                R:  'minecraft:red_wool',
-                S:  'minecraft:stone'
-            },
-            output: 'kubejs:agronomancer_workbench',
             count: 1
         },
         {

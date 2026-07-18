@@ -1,12 +1,4 @@
 MoreJSEvents.wandererTrades((event) => {
-    const dungeonKeys = [
-        'kubejs:desert_temple_dungeon_key',
-        'kubejs:jungle_temple_dungeon_key',
-        'kubejs:stronghold_dungeon_key'
-    ];
-    dungeonKeys.forEach((key) => {
-        event.addTrade(2, '25x minecraft:emerald', key);
-    });
     event.addTrade(2, ['25x minecraft:emerald'], 'kubejs:explorer_map');
     const musicDiscs = [
         'minecraft:music_disc_otherside',
@@ -41,19 +33,6 @@ MoreJSEvents.wandererTrades((event) => {
     potterySherds.forEach((sherd) => {
         event.addTrade(2, ['minecraft:emerald'], sherd);
     });
-    /**
-     * DUNGEON SMITHING TEMPLATES
-     * 'kubejs:desert_temple_dungeon_key'
-     * 'kubejs:jungle_temple_dungeon_key'
-     * 'kubejs:stronghold_dungeon_key'
-     * 'kubejs:explorer_map'
-     * 'minecraft:wild_armor_trim_smithing_template'
-     * 'minecraft:dune_armor_trim_smithing_template'
-     * 'minecraft:eye_armor_trim_smithing_template'
-     */
-    event.addTrade(2, ['kubejs:explorer_map', 'kubejs:desert_temple_dungeon_key'], 'minecraft:dune_armor_trim_smithing_template');
-    event.addTrade(2, ['kubejs:explorer_map', 'kubejs:jungle_temple_dungeon_key'], 'minecraft:wild_armor_trim_smithing_template');
-    event.addTrade(2, ['kubejs:explorer_map', 'kubejs:stronghold_dungeon_key'], 'minecraft:eye_armor_trim_smithing_template');
     event.addTrade(2, ['5x minecraft:emerald', Item.of('minecraft:brush', '{Damage:0}')], 'minecraft:sniffer_egg');
     const sandTemplates = [
         'minecraft:wayfinder_armor_trim_smithing_template',
