@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["73D50C93EBC09617"]
 			id: "33ED4CA7F1D80A46"
 			rewards: [{
 				id: "4652FEFA6CB0DB9F"
@@ -186,7 +187,7 @@
 			]
 			title: "Prudentium Essence"
 			x: 0.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["42C6CCD9309BA93F"]
@@ -604,6 +605,162 @@
 				type: "item"
 			}]
 			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31D4748EBD343757"]
+			icon: "mysticalagriculture:tertium_essence"
+			id: "60EB09562149A162"
+			rewards: [{
+				id: "5D292A0504B96CD1"
+				item: "mysticalagriculture:tertium_essence"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "255A743607DC4DA9"
+					item: {
+						Count: 1
+						id: "matc:prudentium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "385D1778FA4725CA"
+					item: "mysticalagriculture:tertium_essence"
+					type: "item"
+				}
+			]
+			title: "Tertium Essence"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60EB09562149A162"]
+			icon: "mysticalagriculture:imperium_essence"
+			id: "3792E16CCC1B4A60"
+			rewards: [{
+				id: "0AD1E514BB9EC916"
+				item: "mysticalagriculture:imperium_essence"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1BE566C9908F9FA9"
+					item: {
+						Count: 1
+						id: "matc:tertium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FEA523C0144A14B"
+					item: "mysticalagriculture:imperium_essence"
+					type: "item"
+				}
+			]
+			title: "Imperium Essence"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3792E16CCC1B4A60"]
+			icon: "mysticalagriculture:supremium_essence"
+			id: "770DAADBB16638F3"
+			rewards: [{
+				id: "7CE484BDCDEBB842"
+				item: "mysticalagriculture:supremium_essence"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61BC13D364A6FBE8"
+					item: {
+						Count: 1
+						id: "matc:imperium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FAEA9B9BE487BBB"
+					item: "mysticalagriculture:supremium_essence"
+					type: "item"
+				}
+			]
+			title: "Supremium Essence"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"770DAADBB16638F3"
+				"46DB11596FD1CDA5"
+				"554B514522FCB1F8"
+			]
+			id: "375FE904595BEA08"
+			tasks: [{
+				id: "16C9903F4AB854C3"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B954C67AED782DD"]
+			id: "46DB11596FD1CDA5"
+			tasks: [{
+				id: "51BBC4459224B88F"
+				item: "mysticalagriculture:cognizant_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5AC2B8D12DDB6E95"]
+			icon: "mysticalagriculture:awakening_altar"
+			id: "554B514522FCB1F8"
+			tasks: [
+				{
+					id: "65932073A0649972"
+					item: "mysticalagriculture:awakening_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3879BB3D16826033"
+					item: "mysticalagriculture:awakening_pedestal"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"307577AF1F361688"
+				"110517F6B8116C24"
+			]
+			id: "5AC2B8D12DDB6E95"
+			tasks: [{
+				id: "5367D0E05443AF67"
+				item: "mysticalagriculture:soulstone"
+				type: "item"
+			}]
+			x: -3.0d
 			y: -4.0d
 		}
 	]
