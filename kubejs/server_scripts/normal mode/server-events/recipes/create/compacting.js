@@ -42,8 +42,8 @@ ServerEvents.recipes(event => {
         heatRequirement: "heated",
         ingredients: [
             {
-                count: 4,
-                item: 'minecraft:soul_sand'
+                item: 'minecraft:soul_sand',
+                count: 4
             }
         ],
         results: [
