@@ -3361,6 +3361,31 @@
 			x: 12.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["216605D56EC990F3"]
+			description: ["Can also be obtained via loot crates."]
+			id: "5201C253ABE19AA8"
+			rewards: [{
+				id: "5848AECFB1C644F2"
+				item: "minecraft:decorated_pot"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "286EDCE4E450ED58"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:decorated_pot_sherds"
+					}
+				}
+				title: "Any #minecraft:decorated_pot_sherds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
 	]
 	title: "Alpha"
 }
