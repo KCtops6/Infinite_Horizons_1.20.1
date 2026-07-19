@@ -245,20 +245,6 @@
 		#Enable/Disable topaz plate
 		enable_plate = true
 
-	[materials.amethyst]
-		#Enable/Disable amethyst_gem
-		enable_gem = true
-		#Texture silhouette layout for amethyst_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
-		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
-		gem_texture_style = "AMETHYST"
-		#Texture style selection for amethyst_nugget. Options: IRON, GOLD, COPPER
-		#Allowed Values: IRON, GOLD, COPPER
-		nugget_texture_style = "IRON"
-		#Enable/Disable amethyst dust
-		enable_dust = true
-		#Enable/Disable amethyst plate
-		enable_plate = true
-
 	[materials.opal]
 		#Enable/Disable opal_gem
 		enable_gem = true
@@ -586,4 +572,20 @@
 		enable_dust = true
 		#Enable/Disable obsidian plate
 		enable_plate = true
+
+	[materials.uranium]
+		#Enable/Disable uranium ingot
+		enable_ingot = true
+		#Texture style selection for uranium_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable uranium dust
+		enable_dust = true
+		#Enable/Disable uranium plate
+		enable_plate = true
+		#Enable/Disable raw_uranium
+		enable_raw = true
+		#Texture style selection for raw_uranium. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		raw_ore_texture_style = "IRON"
 
