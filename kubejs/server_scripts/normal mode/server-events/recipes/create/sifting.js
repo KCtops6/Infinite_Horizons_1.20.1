@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_topaz').withChance(0.125),
         Item.of('gtceu:raw_chalcocite').withChance(0.125),
         Item.of('gtceu:raw_bornite').withChance(0.0625)
-    ], ['kubejs:granite_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsiftersifting/steel/granite');
+    ], ['infinite_horizons_tweaks:granite_gravel','kubejs:steel_mesh']).id('kubejs/recipes/createsiftersifting/steel/granite');
     if (Platform.isLoaded('tconstruct')) {
         mesh_mapping.forEach(m => {
             event.recipes.createsifterSifting([

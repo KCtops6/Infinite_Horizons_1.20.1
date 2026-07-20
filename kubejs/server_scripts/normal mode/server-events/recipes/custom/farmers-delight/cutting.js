@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
         ]);
     });
     let dirtBlocks = ["minecraft:dirt", "minecraft:grass_block", "minecraft:dirt_path"];
-    let gravelBlocks = ["minecraft:gravel", "kubejs:andesite_gravel", "kubejs:diorite_gravel", "kubejs:granite_gravel"];
+    let gravelBlocks = ["minecraft:gravel", "infinite_horizons_tweaks:andesite_gravel", "infinite_horizons_tweaks:diorite_gravel", "infinite_horizons_tweaks:granite_gravel"];
     dirtBlocks.forEach(b => {
         cutting(b, 'infinite_horizons_tweaks:wooden_trowel', [
             { item: "minecraft:dirt", chance: 0.75 },

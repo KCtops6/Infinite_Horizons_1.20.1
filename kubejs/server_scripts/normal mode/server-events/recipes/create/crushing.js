@@ -1,9 +1,9 @@
 ServerEvents.recipes(event => {
     // 1. Simple crushing input to output mappings
     const recipes = [
-        { input: 'minecraft:andesite', output: 'kubejs:andesite_gravel' },
-        { input: 'minecraft:diorite', output: 'kubejs:diorite_gravel' },
-        { input: 'minecraft:granite', output: 'kubejs:granite_gravel' },
+        { input: 'minecraft:andesite', output: 'infinite_horizons_tweaks:andesite_gravel' },
+        { input: 'minecraft:diorite', output: 'infinite_horizons_tweaks:diorite_gravel' },
+        { input: 'minecraft:granite', output: 'infinite_horizons_tweaks:granite_gravel' },
         { input: 'minecraft:gravel', output: 'minecraft:sand' },
         { input: 'minecraft:tuff', output: 'kubejs:tuff_gravel' },
         { input: 'minecraft:sand', output: 'createsifter:dust' },
