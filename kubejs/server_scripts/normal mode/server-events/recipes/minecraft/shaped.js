@@ -498,7 +498,8 @@ ServerEvents.recipes(event => {
     });
     let gregtech_mesh_recipes = [
         { long_rod: 'bronze', fine_wire: 'copper', mesh: 'bronze'},
-        { long_rod: 'steel', fine_wire: 'steel', mesh: 'steel'}
+        { long_rod: 'steel', fine_wire: 'steel', mesh: 'steel'},
+        { long_rod: 'aluminium', fine_wire: 'aluminium', mesh: 'aluminum'}
     ]
     gregtech_mesh_recipes.forEach(r => {
         event.shaped(Item.of(`kubejs:${r.mesh}_mesh`, 1), [
