@@ -44,7 +44,11 @@ ServerEvents.tags('item', event => {
     forbidden_arcanus_scales.forEach(scale => {
         event.remove('forge:dragon_scales', scale);
     });
-    let stone_pebbles = ['twigs:pebble', 'botania:pebble', 'kubejs:stone_pebble'];
+    let stone_pebbles = [
+        'infinite_horizons_tweaks:stone_pebble', 'infinite_horizons_tweaks:andesite_pebble',
+        'infinite_horizons_tweaks:diorite_pebble', 'infinite_horizons_tweaks:granite_pebble',
+        'infinite_horizons_tweaks:deepslate_pebble', 'infinite_horizons_tweaks:tuff_pebble'
+    ];
     stone_pebbles.forEach(s => {
         event.add('kubejs:pebbles', s);
     });
