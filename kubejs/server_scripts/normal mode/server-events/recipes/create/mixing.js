@@ -176,9 +176,9 @@ ServerEvents.recipes(event => {
     event.custom({
         type: "create:mixing",
         heatRequirement: "lowheated",
-        ingredients: [{ count: 1, tag: 'kubejs:pebbles' }],
+        ingredients: [{ count: 1, item: 'infinite_horizons_tweaks:stone_pebble' }],
         results: [{ amount: 25, fluid: 'minecraft:lava' }]
-    }).id('kubejs:mixing/lava_from_pebbles');
+    }).id('kubejs:mixing/lava_from_stone_pebble');
 
     // 15. Liquid Ender Pearl
     event.custom({
