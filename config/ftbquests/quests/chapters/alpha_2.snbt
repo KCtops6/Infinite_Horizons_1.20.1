@@ -2033,6 +2033,7 @@
 		}
 		{
 			dependencies: ["4C2B01F07C9A33D8"]
+			description: ["Skeletons that wander by a nether portal turn into wither skeletons after some time. I am sure you can come up with a rudimentary mob farm from this..."]
 			id: "2A0BC15D7F6B3A62"
 			rewards: [{
 				id: "60863DFCB1D5943F"
