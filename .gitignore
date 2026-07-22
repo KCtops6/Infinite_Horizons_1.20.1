@@ -96,7 +96,6 @@ config/sodiumdynamiclights-client.toml
 config/solapplepie-client.toml
 config/solcarrot-client.toml
 config/structurize-client.toml
-config/supplementaries-client.toml
 config/tconstruct*
 config/theoneprobe-client.toml
 config/thermal-client.toml
