@@ -19,6 +19,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Infinitium is a pack-specific late-game material and one of the key progression items in this modpack. It is used for several important endgame crafting goals, so do not treat it as a trivial reward."]
 			id: "2C884CE1513AD930"
 			rewards: [
 				{
