@@ -10,7 +10,7 @@
 	netherMaxY = 120
 	#Amount of seconds between being able to teleport (Default: 4)
 	#Range: > 0
-	teleportCooldown = 4
+	teleportCooldown = 1
 	#Disable nether portal creation (Default: false)
 	disableNetherPortal = false
 
