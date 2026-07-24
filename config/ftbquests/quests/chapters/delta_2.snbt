@@ -21,7 +21,7 @@
 		}
 		{
 			dependencies: ["73D50C93EBC09617"]
-			description: ["Trial Cores are a rare drop from Creepers, Enderman, Spiders, Skeletons, and Zombies."]
+			description: ["Trial Cores are a major pack-specific progression item. They are used to activate dormant trial spawners and should be treated as key progression resources rather than ordinary mob loot. If you are farming them, think of them as progression keys."]
 			id: "72C17FB9872F894B"
 			rewards: [{
 				id: "478A7D394654ABDF"
@@ -42,7 +42,7 @@
 				"5EBFC37464786F09"
 				"72C17FB9872F894B"
 			]
-			description: ["Place a Dormant Trial Spawner and prepare the ground beneath it. Create a cross-pattern using a Block of Copper directly under the spawner and Chiseled Copper on the four adjacent cardinal sides. Place four identical Ritual Catalyst blocks in the remaining corner slots to determine which creature will be summoned. Once the sun sets, strike the spawner with a Trial Core to begin the encounter."]
+			description: ["This is a pack-specific challenge mechanic. Place the dormant spawner, prepare the structure, and use a Trial Core to start the encounter. The ritual layout matters, so read the quest text carefully before you begin."]
 			hide_dependent_lines: true
 			id: "100DEC7DE58FE84A"
 			rewards: [{
