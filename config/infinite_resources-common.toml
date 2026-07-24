@@ -589,3 +589,36 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
 
+	[materials.lumium]
+		#Enable/Disable lumium ingot
+		enable_ingot = true
+		#Texture style selection for lumium_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable lumium dust
+		enable_dust = true
+		#Enable/Disable lumium plate
+		enable_plate = true
+
+	[materials.signalum]
+		#Enable/Disable signalum ingot
+		enable_ingot = true
+		#Texture style selection for signalum_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable signalum dust
+		enable_dust = true
+		#Enable/Disable signalum plate
+		enable_plate = true
+
+	[materials.enderium]
+		#Enable/Disable enderium ingot
+		enable_ingot = true
+		#Texture style selection for enderium_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable enderium dust
+		enable_dust = true
+		#Enable/Disable enderium plate
+		enable_plate = true
+
