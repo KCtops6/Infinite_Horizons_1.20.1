@@ -262,6 +262,7 @@
 				"142A4A259C15DF7A"
 				"3E2B57A91A695529"
 				"79388FC89FFDECF0"
+				"335B25AE96ACFDEF"
 			]
 			id: "5283A5A253BF4055"
 			tasks: [{
@@ -269,8 +270,8 @@
 				item: "thermal:machine_crystallizer"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -624,8 +625,8 @@
 				item: "thermal:device_potion_diffuser"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -678,36 +679,6 @@
 		}
 		{
 			dependencies: [
-				"4A62ED10A9034276"
-				"6E5D6B6EC244CA99"
-			]
-			id: "0CB69F705FB26917"
-			optional: true
-			tasks: [{
-				id: "4C5B24550262658E"
-				item: "thermal:fluid_duct"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"6E5D6B6EC244CA99"
-				"040962296076CFC8"
-			]
-			id: "19AD8BB6A5E0F1EC"
-			optional: true
-			tasks: [{
-				id: "566673BE54A29AC0"
-				item: "thermal:fluid_duct_windowed"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
 				"69385CCE6FF31DEB"
 				"0A87B874851CD1B0"
 			]
@@ -719,6 +690,28 @@
 			}]
 			x: 4.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1699001DFD79CE62"]
+			id: "335B25AE96ACFDEF"
+			tasks: [{
+				id: "1014FF31F2E379C9"
+				item: "infinite_resources:signalum_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["335B25AE96ACFDEF"]
+			id: "4B49799A19433236"
+			tasks: [{
+				id: "490224DDEAAA74B1"
+				item: "thermal:item_buffer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	title: "Thermal"
