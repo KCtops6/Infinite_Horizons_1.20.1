@@ -16,7 +16,7 @@
 				"1AC649402EA13EB3"
 				"2DC5C9586D6CD142"
 			]
-			description: ["The Water Wheel allows you to harness flowing water to generate kinetic energy, powering your Create mod machinery efficiently and sustainably."]
+			description: ["The Water Wheel is your first major Create power source, so build it early if you want your machines to feel reliable instead of manual. It is the foundation for most of the Create progression in this pack."]
 			id: "2F9B0013A2D20BA3"
 			rewards: [
 				{
@@ -100,7 +100,7 @@
 				"37C31E5A1FB0A120"
 				"2E72C56136631B60"
 			]
-			description: [""]
+			description: ["This pack adds custom mesh tiers for Create Sifting. Copper, Iron, and Netherite meshes are not cosmetic upgrades; they are progression tools that unlock different results and are expected by several pack recipes. If you are unsure which mesh to use, start simple and upgrade as your setup improves."]
 			icon: "createsifter:sifter"
 			id: "0AC851170B41AD02"
 			rewards: [{
@@ -160,7 +160,7 @@
 		}
 		{
 			dependencies: ["2F9B0013A2D20BA3"]
-			description: ["The Millstone grinds down raw materials, transforming them into valuable components for further crafting and refinement.  At the very least, you should automate gravel, sand, and dust before proceeding."]
+			description: ["The Millstone is one of the best early automation tools in the Create line because it turns raw materials into useful intermediate products. Automate gravel, sand, and dust as soon as you can so the rest of your setup becomes smoother."]
 			id: "37C31E5A1FB0A120"
 			rewards: [{
 				id: "27FB68A717FD117C"
@@ -180,7 +180,7 @@
 		}
 		{
 			dependencies: ["2F9B0013A2D20BA3"]
-			description: ["The Mechanical Extruder simplifies resource gathering by producing cobblestone efficiently, providing a steady supply for your construction and crafting needs.  You want to automate cobblestone and the other blocks this machine generates."]
+			description: ["The Mechanical Extruder is a strong early automation step because it gives you a steady supply of cobblestone and related blocks. If you want to save time later, automate it as soon as you can."]
 			id: "2E72C56136631B60"
 			rewards: [
 				{
