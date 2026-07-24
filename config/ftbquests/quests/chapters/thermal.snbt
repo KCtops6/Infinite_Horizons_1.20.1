@@ -17,7 +17,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -27,8 +27,8 @@
 				item: "infinite_resources:tin_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -58,7 +58,7 @@
 				item: "thermal:rf_coil"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -383,8 +383,8 @@
 				item: "thermal:dynamo_disenchantment"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["142A4A259C15DF7A"]
@@ -417,7 +417,7 @@
 				item: "thermal:redstone_servo"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -677,14 +677,48 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"4A62ED10A9034276"
+				"6E5D6B6EC244CA99"
+			]
 			id: "0CB69F705FB26917"
+			optional: true
 			tasks: [{
 				id: "4C5B24550262658E"
 				item: "thermal:fluid_duct"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6E5D6B6EC244CA99"
+				"040962296076CFC8"
+			]
+			id: "19AD8BB6A5E0F1EC"
+			optional: true
+			tasks: [{
+				id: "566673BE54A29AC0"
+				item: "thermal:fluid_duct_windowed"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"69385CCE6FF31DEB"
+				"0A87B874851CD1B0"
+			]
+			id: "040962296076CFC8"
+			tasks: [{
+				id: "7E56FAF6FAA5FA34"
+				item: "thermal:obsidian_glass"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "Thermal"
