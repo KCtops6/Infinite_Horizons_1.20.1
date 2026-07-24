@@ -549,7 +549,7 @@ ServerEvents.recipes(event => {
         ' R '
     ], {
         E: 'create:electron_tube',
-        B: 'kubejs:brass_ingot',
+        B: 'infinite_resources:brass_ingot',
         R: 'thermal:cured_rubber'
     }).id('kubejs:shaped/brass_funnel_from_rubber');
 
@@ -577,7 +577,7 @@ ServerEvents.recipes(event => {
         'RR '
     ], {
         E: 'create:electron_tube',
-        B: 'kubejs:brass_ingot',
+        B: 'infinite_resources:brass_ingot',
         R: 'thermal:cured_rubber'
     }).id('kubejs:shaped/brass_tunnel_from_rubber');
 
@@ -587,7 +587,7 @@ ServerEvents.recipes(event => {
         ' I '
     ], {
         C: 'create:copper_casing',
-        I: 'kubejs:iron_plate',
+        I: 'infinite_resources:iron_plate',
         R: 'thermal:cured_rubber'
     }).id('kubejs:shaped/printer_from_rubber');
 
