@@ -36,7 +36,7 @@
 	quests: [
 		{
 			dependencies: ["73D50C93EBC09617"]
-			description: ["Complete the quest to gather wood from the village's trees. Follow the tasks to find and harvest the precious resource. Use the collected wood to advance in your superflat world adventure."]
+			description: ["Wood is your first real progression step in this pack, so do not rush past it. Gather wood, build your early tools, and use the village as your initial supply base."]
 			id: "2410A2F2F4822D70"
 			rewards: [
 				{
@@ -199,7 +199,7 @@
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
-			description: ["Learn to obtain tree bark from logs, a valuable early game resource. Gain bark by either breaking logs with an axe for a chance drop or stripping logs on a cutting board for a guaranteed yield. Use the collected bark for crafting paper and other essential items to aid your survival and progress in the superflat world."]
+			description: ["Tree bark is an early-game resource that helps you keep moving without relying on one single food or crafting path. Gather it early and keep a steady stock for later crafting."]
 			id: "537C4411B628FDE7"
 			rewards: [{
 				id: "2B2BC30E3D536DDB"
@@ -1139,7 +1139,7 @@
 		}
 		{
 			dependencies: ["1095B567B96DDCF3"]
-			description: ["Breaking dirt/grass block with a trowel gives pebbles. You can also use a cutting board for this task."]
+			description: ["Pebbles are one of the pack's early progression tools, and they feed into the stone and resource loop that becomes important very quickly. Use your trowel or a cutting board to collect them early."]
 			icon: "minecraft:cobblestone"
 			id: "56AE41FF2C03F86B"
 			rewards: [
@@ -1201,6 +1201,7 @@
 		}
 		{
 			dependencies: ["56AE41FF2C03F86B"]
+			description: ["Upgrading your trowel is a meaningful step because it improves your access to the pack's stone and pebble progression loop. Do not skip this if you want smoother early automation."]
 			id: "18FE5F126CAAA79E"
 			tasks: [{
 				id: "7C0C5B807707B2B6"
