@@ -3,12 +3,21 @@
 	default_quest_shape: ""
 	filename: "thermal"
 	group: "126A1C64F6AE129F"
+	icon: {
+		Count: 1
+		id: "thermal:wrench"
+		tag: { }
+	}
 	id: "47FC24AC457D0BE8"
 	order_index: 26
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0AB87A49C8CF47D0"]
+			dependencies: [
+				"14E45F12147F6F36"
+				"1584AEAD06AB2580"
+				"3949B38795D8BB00"
+			]
 			hide_dependent_lines: true
 			id: "3E2B57A91A695529"
 			tasks: [{
@@ -18,17 +27,6 @@
 			}]
 			x: 1.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["0AC851170B41AD02"]
-			id: "0AB87A49C8CF47D0"
-			tasks: [{
-				id: "1CDDD075DCFDA06E"
-				item: "infinite_resources:tin_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -105,28 +103,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["0A7D6681C604B852"]
-			id: "4AC3A322B287707E"
-			tasks: [{
-				id: "76E9EE1990A93D55"
-				item: "infinite_resources:invar_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0AC851170B41AD02"]
-			id: "0A7D6681C604B852"
-			tasks: [{
-				id: "170687B0FB71697C"
-				item: "infinite_resources:nickel_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 6.0d
-		}
-		{
 			dependencies: [
 				"142A4A259C15DF7A"
 				"3E2B57A91A695529"
@@ -156,22 +132,11 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["0A7D6681C604B852"]
-			id: "79388FC89FFDECF0"
-			tasks: [{
-				id: "5E56612E8E3A2733"
-				item: "infinite_resources:constantan_ingot"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.0d
-		}
-		{
 			dependencies: [
 				"142A4A259C15DF7A"
 				"3E2B57A91A695529"
 				"79388FC89FFDECF0"
-				"6E5D6B6EC244CA99"
+				"3D4CDA0CD2A9EB76"
 			]
 			id: "701A6D48FCEE7769"
 			tasks: [{
@@ -181,17 +146,6 @@
 			}]
 			x: 4.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["0AB87A49C8CF47D0"]
-			id: "6E5D6B6EC244CA99"
-			tasks: [{
-				id: "5042464D8387B0D0"
-				item: "infinite_resources:bronze_ingot"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -275,31 +229,6 @@
 		}
 		{
 			dependencies: [
-				"1699001DFD79CE62"
-				"2260AD2796A36C0F"
-			]
-			id: "0869ADE5117542E7"
-			tasks: [{
-				id: "6447B632D437F3C9"
-				item: "infinite_resources:electrum_ingot"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0AC851170B41AD02"]
-			id: "1699001DFD79CE62"
-			tasks: [{
-				id: "38AE7D84DA7E17F8"
-				item: "infinite_resources:silver_ingot"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
 				"0869ADE5117542E7"
 				"142A4A259C15DF7A"
 			]
@@ -325,10 +254,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"6E5D6B6EC244CA99"
-				"142A4A259C15DF7A"
-			]
+			dependencies: ["142A4A259C15DF7A"]
 			id: "370BB3918DF2300F"
 			optional: true
 			tasks: [{
@@ -629,17 +555,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["0AC851170B41AD02"]
-			id: "4A62ED10A9034276"
-			tasks: [{
-				id: "3F783D7CA26A05F4"
-				item: "infinite_resources:lead_ingot"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["4A62ED10A9034276"]
 			id: "336D603C5669A692"
 			optional: true
@@ -725,10 +640,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"0AB87A49C8CF47D0"
-				"1699001DFD79CE62"
-			]
+			dependencies: ["1699001DFD79CE62"]
 			id: "6D4C2A0DEE96F5E1"
 			tasks: [{
 				id: "5701075B5F454241"
@@ -829,10 +741,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"335B25AE96ACFDEF"
-				"0AB87A49C8CF47D0"
-			]
+			dependencies: ["335B25AE96ACFDEF"]
 			hide_dependency_lines: true
 			id: "3FEAC39B9F34DCD2"
 			optional: true
@@ -882,7 +791,6 @@
 			dependencies: [
 				"4AC3A322B287707E"
 				"5801C93CB9C49250"
-				"6E5D6B6EC244CA99"
 			]
 			hide_dependency_lines: true
 			id: "27F449496CC4B633"

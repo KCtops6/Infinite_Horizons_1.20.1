@@ -582,7 +582,7 @@
 				type: "item"
 			}]
 			title: "Copycats"
-			x: 8.0d
+			x: 9.0d
 			y: -0.75d
 		}
 		{
@@ -896,25 +896,14 @@
 		}
 		{
 			dependencies: ["2F9B0013A2D20BA3"]
-			id: "391D591880F67FC1"
-			tasks: [{
-				id: "4A307F9727AC483E"
-				item: "create:chain_conveyor"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2F9B0013A2D20BA3"]
 			id: "722DB1BEB0FDAA80"
 			tasks: [{
 				id: "1A409E338C0AE832"
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2F9B0013A2D20BA3"]
@@ -1503,8 +1492,8 @@
 				item: "create:andesite_funnel"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["110517F6B8116C24"]
@@ -1546,7 +1535,7 @@
 				item: "create:wheat_flour"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -1572,8 +1561,8 @@
 				item: "create:dough"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1E18AC13521A431D"]
@@ -1609,7 +1598,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["513D936FBE83EC2D"]
@@ -1668,8 +1657,8 @@
 				item: "create:andesite_tunnel"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -1679,7 +1668,7 @@
 				item: "infinite_resources:zinc_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -1695,6 +1684,100 @@
 			}]
 			x: 10.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["426C7AF2A4441853"]
+			id: "1699001DFD79CE62"
+			tasks: [{
+				id: "38AE7D84DA7E17F8"
+				item: "infinite_resources:silver_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "14E45F12147F6F36"
+			tasks: [{
+				id: "40268BD1A9EABEA0"
+				item: "infinite_resources:tin_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"14E45F12147F6F36"
+				"22A166C0303A6C2C"
+			]
+			id: "3D4CDA0CD2A9EB76"
+			tasks: [{
+				id: "57D46E13BC9B8833"
+				item: "infinite_resources:bronze_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["426C7AF2A4441853"]
+			id: "4A62ED10A9034276"
+			tasks: [{
+				id: "3F783D7CA26A05F4"
+				item: "infinite_resources:lead_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1699001DFD79CE62"
+				"2260AD2796A36C0F"
+			]
+			id: "0869ADE5117542E7"
+			tasks: [{
+				id: "6447B632D437F3C9"
+				item: "infinite_resources:electrum_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["426C7AF2A4441853"]
+			id: "0A7D6681C604B852"
+			tasks: [{
+				id: "170687B0FB71697C"
+				item: "infinite_resources:nickel_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A7D6681C604B852"]
+			id: "79388FC89FFDECF0"
+			tasks: [{
+				id: "5E56612E8E3A2733"
+				item: "infinite_resources:constantan_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A7D6681C604B852"]
+			id: "4AC3A322B287707E"
+			tasks: [{
+				id: "76E9EE1990A93D55"
+				item: "infinite_resources:invar_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
 		}
 	]
 	title: "Beta"

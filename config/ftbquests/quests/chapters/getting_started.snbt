@@ -15,8 +15,8 @@
 				item: "gtceu:primitive_blast_furnace"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -48,35 +48,29 @@
 				}
 			]
 			title: "Firebricks"
-			x: 0.0d
-			y: -0.5d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"7C8B00EACF7EFA22"
-				"3D4CDA0CD2A9EB76"
-				"47E9374FF7B69B0B"
+				"719E9DF28F7C54E2"
+				"0F10340208F619F7"
+				"1E3C8154AFE8CCAB"
 			]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "223DB95E20E8C6C6"
 			tasks: [{
 				id: "28579EF8BEA229CB"
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			id: "3D4CDA0CD2A9EB76"
-			tasks: [{
-				id: "57D46E13BC9B8833"
-				item: "infinite_resources:bronze_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.5d
-		}
-		{
+			dependencies: ["3949B38795D8BB00"]
 			hide_dependent_lines: true
 			id: "47E9374FF7B69B0B"
 			tasks: [{
@@ -108,7 +102,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["08088452F82B6775"]
@@ -118,8 +112,365 @@
 				item: "infinite_resources:steel_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47E9374FF7B69B0B"]
+			hide_dependent_lines: true
+			id: "0B0664C08BB997BB"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_wrench"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							Mode: 2b
+						}
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "40514F248582B7B0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/wrenches"
+					}
+				}
+				title: "Craft a Gregtech Wrench"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"73A6EB123E4904CC"
+				"689912EEE1694DCE"
+			]
+			id: "19C6DA5CC1A90AE6"
+			tasks: [{
+				id: "7EBF4922480A724B"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B2A699613CA7763"]
+			id: "5ACDC2C1AD2DC18D"
+			tasks: [{
+				id: "56782C172D88D73C"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"719E9DF28F7C54E2"
+				"0F10340208F619F7"
+				"1E3C8154AFE8CCAB"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "3B2A699613CA7763"
+			tasks: [{
+				id: "11612DB94D356C06"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5ACDC2C1AD2DC18D"
+				"73DAEE5216F1CDD7"
+			]
+			id: "73A6EB123E4904CC"
+			tasks: [{
+				id: "00215B7BFAB828DF"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"361C1EB916E8BEA3"
+				"2260737E750BC2C3"
+			]
+			id: "73DAEE5216F1CDD7"
+			tasks: [{
+				id: "376283702D555FAF"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["755313D357781AD2"]
+			hide_dependent_lines: true
+			id: "361C1EB916E8BEA3"
+			tasks: [{
+				id: "3736E66EE48980F7"
+				item: "gtceu:plate_casting_mold"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3B2A699613CA7763"
+				"6BBFA49CF232F6D6"
+			]
+			id: "2260737E750BC2C3"
+			tasks: [{
+				id: "13710480414202B7"
+				item: "gtceu:raw_rubber_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"26CF31D9853FC630"
+				"54CFA3843E397D02"
+			]
+			id: "6BBFA49CF232F6D6"
+			tasks: [{
+				id: "1B6590F30BCBB651"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"719E9DF28F7C54E2"
+				"0F10340208F619F7"
+				"1E3C8154AFE8CCAB"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "26CF31D9853FC630"
+			tasks: [{
+				id: "018F4FF25755EC70"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0B0664C08BB997BB"
+				"3D4CDA0CD2A9EB76"
+			]
+			hide_dependent_lines: true
+			id: "719E9DF28F7C54E2"
+			tasks: [{
+				id: "15D2262A786185FD"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D4CDA0CD2A9EB76"]
+			hide_dependent_lines: true
+			id: "0F10340208F619F7"
+			tasks: [{
+				id: "66C593E5EA7B53A0"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3D4CDA0CD2A9EB76"
+				"1699001DFD79CE62"
+			]
+			hide_dependent_lines: true
+			id: "1E3C8154AFE8CCAB"
+			tasks: [{
+				id: "0EC34D5881BE6986"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"719E9DF28F7C54E2"
+				"0F10340208F619F7"
+				"1E3C8154AFE8CCAB"
+			]
+			dependency_requirement: "one_completed"
+			id: "336302EB02A1D8FF"
+			tasks: [{
+				id: "09297BC66CBE949B"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"719E9DF28F7C54E2"
+				"0F10340208F619F7"
+				"1E3C8154AFE8CCAB"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "35204F4DDAC73824"
+			tasks: [{
+				id: "70FA16E166F2815F"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"719E9DF28F7C54E2"
+				"0F10340208F619F7"
+				"1E3C8154AFE8CCAB"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "69FA6EF44ADB1DA1"
+			tasks: [{
+				id: "157B1EB311D005CE"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"719E9DF28F7C54E2"
+				"0F10340208F619F7"
+				"1E3C8154AFE8CCAB"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "32BFA2126FED0AF7"
+			tasks: [{
+				id: "248BCDA26A7CB5CC"
+				item: "gtceu:lp_steam_rock_crusher"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A65E98B9FE221A7"]
+			id: "059E07461F5ED40A"
+			tasks: [{
+				id: "7F1D53B30B90C1F3"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"059E07461F5ED40A"
+				"50DC97DAA1140517"
+			]
+			dependency_requirement: "one_completed"
+			id: "54CFA3843E397D02"
+			tasks: [{
+				id: "6011ED1256F86F02"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E7BD4BF7E17C0B2"]
+			id: "689912EEE1694DCE"
+			tasks: [{
+				id: "5F597623FD810822"
+				item: "infinite_resources:steel_plate"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47E9374FF7B69B0B"]
+			hide_dependent_lines: true
+			id: "1EBCE448E55DF404"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_file"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				id: "30457C9A9872C354"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/files"
+					}
+				}
+				title: "Craft a Gregtech File"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"689912EEE1694DCE"
+				"1EBCE448E55DF404"
+			]
+			id: "755313D357781AD2"
+			tasks: [{
+				id: "54BCF54B09B4D2B3"
+				item: "gtceu:empty_mold"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
 		}
 	]
 	title: "Getting Started"
