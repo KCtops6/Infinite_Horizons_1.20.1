@@ -317,7 +317,7 @@
 
 	[materials.tourmaline]
 		#Enable/Disable tourmaline_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for tourmaline_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "DIAMOND"
@@ -325,13 +325,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable tourmaline dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable tourmaline plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.citrine]
 		#Enable/Disable citrine_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for citrine_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "QUARTZ"
@@ -339,9 +339,9 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable citrine dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable citrine plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.tanzanite]
 		#Enable/Disable tanzanite_gem
@@ -387,7 +387,7 @@
 
 	[materials.onyx]
 		#Enable/Disable onyx_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for onyx_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "DIAMOND"
@@ -395,13 +395,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable onyx dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable onyx plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.jasper]
 		#Enable/Disable jasper_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for jasper_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "LAPIS"
@@ -409,13 +409,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable jasper dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable jasper plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.agate]
 		#Enable/Disable agate_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for agate_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "QUARTZ"
@@ -423,13 +423,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable agate dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable agate plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.turquoise]
 		#Enable/Disable turquoise_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for turquoise_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "LAPIS"
@@ -437,13 +437,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable turquoise dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable turquoise plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.tigerseye]
 		#Enable/Disable tigerseye_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for tigerseye_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "LAPIS"
@@ -451,13 +451,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable tigerseye dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable tigerseye plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.moonstone]
 		#Enable/Disable moonstone_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for moonstone_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "AMETHYST"
@@ -465,13 +465,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable moonstone dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable moonstone plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.sunstone]
 		#Enable/Disable sunstone_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for sunstone_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "QUARTZ"
@@ -479,13 +479,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable sunstone dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable sunstone plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.morganite]
 		#Enable/Disable morganite_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for morganite_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "DIAMOND"
@@ -493,13 +493,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable morganite dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable morganite plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.iolite]
 		#Enable/Disable iolite_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for iolite_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "AMETHYST"
@@ -507,13 +507,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable iolite dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable iolite plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.alexandrite]
 		#Enable/Disable alexandrite_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for alexandrite_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "EMERALD"
@@ -521,13 +521,13 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable alexandrite dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable alexandrite plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.carnelian]
 		#Enable/Disable carnelian_gem
-		enable_gem = true
+		enable_gem = false
 		#Texture silhouette layout for carnelian_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
 		gem_texture_style = "DIAMOND"
@@ -535,9 +535,9 @@
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
 		#Enable/Disable carnelian dust
-		enable_dust = true
+		enable_dust = false
 		#Enable/Disable carnelian plate
-		enable_plate = true
+		enable_plate = false
 
 	[materials.copper]
 		#Texture style selection for copper_nugget. Options: IRON, GOLD, COPPER
