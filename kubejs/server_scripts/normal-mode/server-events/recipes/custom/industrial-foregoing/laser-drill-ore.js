@@ -18,6 +18,25 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:industrialforegoing/laser_drill_ore/kubejs/sulfur_gem');
+    event.custom({
+        type: "industrialforegoing:laser_drill_ore",
+        catalyst: {
+            item: "industrialforegoing:laser_lens13"
+        },
+        output: {
+            item: 'powah:uraninite_raw'
+        },
+        pointer: 0,
+        rarity: [
+            {
+                blacklist: {},
+                depth_max: 32,
+                depth_min: -64,
+                weight: 4,
+                whitelist: {}
+            }
+        ]
+    }).id('kubejs:industrialforegoing/laser_drill_ore/powah/uraninite_raw');
     function gtceuLaserOre(color, material, minDepth, maxDepth, weight) {
         let lensItem = (color === "white") ? "gtceu:glass_lens" : `gtceu:${color}_glass_lens`;
         event.custom({
