@@ -111,3 +111,4 @@ config/trender.json
 config/villagernames.json5
 config/villagersrespawn-common.toml
 config/villagespawnpoint.json5
+config/Mekanism/client.toml
