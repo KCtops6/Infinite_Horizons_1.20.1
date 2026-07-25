@@ -713,6 +713,255 @@
 			x: 0.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["4A62ED10A9034276"]
+			id: "50C8C7B0E71E325D"
+			tasks: [{
+				id: "376078874CA3F158"
+				item: "infinite_resources:enderium_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0AB87A49C8CF47D0"
+				"1699001DFD79CE62"
+			]
+			id: "6D4C2A0DEE96F5E1"
+			tasks: [{
+				id: "5701075B5F454241"
+				item: "infinite_resources:lumium_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E21D9806A178EC6"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "0E52D0EEA3EB5C65"
+			tasks: [{
+				id: "3B5CC1928CE77607"
+				item: "thermal:xp_storage_augment"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"142A4A259C15DF7A"
+				"1699001DFD79CE62"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "424F57DB8C04FEBC"
+			optional: true
+			tasks: [{
+				id: "61A2FBE4B1318809"
+				item: "thermal:rf_coil_augment"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"142A4A259C15DF7A"
+				"1699001DFD79CE62"
+			]
+			hide_dependency_lines: true
+			id: "05AD8A997BC9FA66"
+			optional: true
+			tasks: [{
+				id: "3442FBD5A9B68DC7"
+				item: "thermal:rf_coil_storage_augment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CD501E988CA4C3B"]
+			id: "3E21D9806A178EC6"
+			tasks: [{
+				id: "30A3D6C3316FBA8C"
+				item: {
+					Count: 1
+					id: "thermal:xp_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"142A4A259C15DF7A"
+				"1699001DFD79CE62"
+			]
+			hide_dependency_lines: true
+			id: "3FB94C867FF597F8"
+			optional: true
+			tasks: [{
+				id: "5E368375913AFEBF"
+				item: "thermal:rf_coil_xfer_augment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B01EB7A34E02536"]
+			hide_dependency_lines: true
+			id: "5A8A79A661E2DD5B"
+			optional: true
+			tasks: [{
+				id: "3582EC47CFF51DDE"
+				item: "thermal:fluid_tank_augment"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"335B25AE96ACFDEF"
+				"0AB87A49C8CF47D0"
+			]
+			hide_dependency_lines: true
+			id: "3FEAC39B9F34DCD2"
+			optional: true
+			tasks: [{
+				id: "2B4D7D5647FAD693"
+				item: "thermal:item_filter_augment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"142A4A259C15DF7A"
+				"4A62ED10A9034276"
+				"0869ADE5117542E7"
+			]
+			hide_dependency_lines: true
+			id: "4DF5AB20F93036CF"
+			optional: true
+			tasks: [{
+				id: "0DA60FA521EBC577"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"142A4A259C15DF7A"
+				"6D4C2A0DEE96F5E1"
+				"0A7D6681C604B852"
+			]
+			hide_dependency_lines: true
+			id: "2D9D8223E330E38D"
+			optional: true
+			tasks: [{
+				id: "1856EAC89F00FC46"
+				item: "thermal:machine_efficiency_augment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4AC3A322B287707E"
+				"5801C93CB9C49250"
+				"6E5D6B6EC244CA99"
+			]
+			hide_dependency_lines: true
+			id: "27F449496CC4B633"
+			optional: true
+			tasks: [{
+				id: "40EA553D49F5FDE0"
+				item: "thermal:machine_output_augment"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4A62ED10A9034276"
+				"5801C93CB9C49250"
+				"79388FC89FFDECF0"
+			]
+			hide_dependency_lines: true
+			id: "6DF974860219C9C7"
+			optional: true
+			tasks: [{
+				id: "66C90DE8F3CB2C2C"
+				item: "thermal:machine_catalyst_augment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"335B25AE96ACFDEF"
+				"5801C93CB9C49250"
+				"79388FC89FFDECF0"
+			]
+			hide_dependency_lines: true
+			id: "5A243CE192A708B0"
+			optional: true
+			tasks: [{
+				id: "04B8EFECBEA10D36"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3E2B57A91A695529"
+				"5539D8EB6ED072A3"
+				"3949B38795D8BB00"
+			]
+			hide_dependency_lines: true
+			id: "1342E01919F58B4D"
+			optional: true
+			tasks: [{
+				id: "6F594853BD175919"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"335B25AE96ACFDEF"
+				"040962296076CFC8"
+			]
+			hide_dependency_lines: true
+			id: "5AADDC9810CB12DE"
+			optional: true
+			tasks: [{
+				id: "6D5ECB59403B4BE7"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
 	]
 	title: "Thermal"
 }
