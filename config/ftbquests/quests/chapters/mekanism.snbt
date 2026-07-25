@@ -8,7 +8,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["12336F02D7B96A2A"]
+			dependencies: [
+				"61E0345D4D0CCE5A"
+				"700D0FB31E0D600E"
+			]
 			id: "418B59D5AC2B522A"
 			tasks: [{
 				id: "0FECADBF493EEFD7"
@@ -27,23 +30,8 @@
 				item: "mekanismgenerators:heat_generator"
 				type: "item"
 			}]
-			x: -0.25d
-			y: -0.75d
-		}
-		{
-			dependencies: ["6551C7B584F3DB74"]
-			dependency_requirement: "one_completed"
-			id: "12336F02D7B96A2A"
-			tasks: [{
-				icon: "thermal:lightning_charge"
-				id: "3025A233B984C711"
-				max_input: 1000L
-				title: "Generate energy for Mekanism machines."
-				type: "forge_energy"
-				value: 1000L
-			}]
 			x: 0.0d
-			y: 0.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["418B59D5AC2B522A"]
@@ -684,6 +672,17 @@
 			}]
 			x: 1.0d
 			y: -1.25d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "61E0345D4D0CCE5A"
+			tasks: [{
+				id: "3367F60D0D8274EF"
+				item: "infinite_resources:osmium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Mekanism"
