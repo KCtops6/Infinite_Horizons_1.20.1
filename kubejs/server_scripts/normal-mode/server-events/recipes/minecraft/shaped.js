@@ -618,4 +618,12 @@ ServerEvents.recipes(event => {
         S: 'mysticalagriculture:stone_essence',
         I: 'mysticalagriculture:fire_essence'
     }).id('kubejs:shaped/quark/jasper');
+
+    event.shaped(Item.of('create:limestone', 1), [
+        'PP ',
+        'PP ',
+        '   '
+    ], {
+        P: 'kubejs:limestone_pebble'
+    }).id('kubejs:shaped/create/limestone');
 });

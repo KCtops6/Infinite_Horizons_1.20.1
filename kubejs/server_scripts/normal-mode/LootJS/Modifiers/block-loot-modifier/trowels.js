@@ -63,6 +63,7 @@ LootJS.modifiers(event => {
         .addLoot("infinite_horizons_tweaks:diorite_pebble")
         .randomChance(0.25)
         .addLoot("infinite_horizons_tweaks:deepslate_pebble")
+        .addLoot("kubejs:limestone_pebble")
         .randomChance(0.75)
         .removeLoot("minecraft:dirt");
     event.addBlockLootModifier("minecraft:grass_block")
@@ -76,6 +77,7 @@ LootJS.modifiers(event => {
         .addLoot("infinite_horizons_tweaks:diorite_pebble")
         .randomChance(0.25)
         .addLoot("infinite_horizons_tweaks:deepslate_pebble")
+        .addLoot("kubejs:limestone_pebble")
         .randomChance(0.75)
         .removeLoot("minecraft:dirt");
     event.addBlockLootModifier("minecraft:dirt_path")
@@ -89,6 +91,7 @@ LootJS.modifiers(event => {
         .addLoot("infinite_horizons_tweaks:diorite_pebble")
         .randomChance(0.25)
         .addLoot("infinite_horizons_tweaks:deepslate_pebble")
+        .addLoot("kubejs:limestone_pebble")
         .randomChance(0.75)
         .removeLoot("minecraft:dirt");
 
@@ -134,7 +137,7 @@ LootJS.modifiers(event => {
         .addLoot('infinite_horizons_tweaks:stone_pebble')
         .randomChance(0.5)
         .addLoot('minecraft:iron_nugget')
-        .removeLoot("kubejs:andesite_gravel")
+        .removeLoot("kubejs:andesite_gravel");
     event.addBlockLootModifier("kubejs:granite_gravel")
         .matchEquip('mainhand', 'infinite_horizons_tweaks:iron_trowel')
         .randomChance(0.75)

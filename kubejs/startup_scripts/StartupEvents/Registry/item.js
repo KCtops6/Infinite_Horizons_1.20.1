@@ -13,7 +13,7 @@ const items = [
     'rune_of_the_nether', 'wither_skeletal_contractor', 'e-logic_controller',
     'ender_addon', 'nether_addon', 'stone_pebble',
     'andesite_pebble', 'diorite_pebble', 'granite_pebble',
-    'deepslate_pebble', 'tuff_pebble'
+    'deepslate_pebble', 'tuff_pebble', 'limestone_pebble'
 ];
 const formatName = (id) => {
     return id.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -24,7 +24,7 @@ const glowing_items = [
 const dusts = [
     'aluminum', 'apatite', 'brass',
     'bronze', 'charcoal', 'cinnabar',
-    'constantan', 'coal', 'copper',
+    'constantan', 'corral', 'copper',
     'diamond', 'electrum', 'emerald',
     'enderium', 'gold', 'invar',
     'iron', 'lapis', 'lead',
