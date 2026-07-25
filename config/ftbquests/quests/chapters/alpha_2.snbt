@@ -3399,6 +3399,17 @@
 			x: 9.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["1FADC12C45773E6E"]
+			id: "50DC97DAA1140517"
+			tasks: [{
+				id: "42A4DE2A45436215"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
 	]
 	title: "Alpha"
 }
