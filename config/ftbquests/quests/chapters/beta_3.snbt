@@ -963,15 +963,23 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["2E72C56136631B60"]
+			dependencies: ["0E2936F6EEABE216"]
+			icon: "create:limestone"
 			id: "0813808DE18EA1C9"
-			tasks: [{
-				id: "79F6D73364F53E6F"
-				item: "create:limestone"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.0d
+			tasks: [
+				{
+					id: "594654E747003B66"
+					item: "kubejs:limestone_pebble"
+					type: "item"
+				}
+				{
+					id: "79F6D73364F53E6F"
+					item: "create:limestone"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
