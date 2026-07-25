@@ -136,7 +136,7 @@
 				"333D339196950DA1"
 				"725F9F0B240529EB"
 			]
-			description: ["This item is a pack-specific progression material introduced to connect Forbidden & Arcanus to the rest of the modpack. It is an important bridge item, not just a side reward."]
+			description: ["This item is a pack specific progression material introduced to connect Forbidden & Arcanus to the rest of the modpack. It is an important bridge item, not just a side reward."]
 			id: "579D880CEB670BC6"
 			tasks: [{
 				id: "75B1D86F9E856019"
