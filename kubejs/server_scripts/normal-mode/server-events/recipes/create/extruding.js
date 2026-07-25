@@ -15,6 +15,9 @@ ServerEvents.recipes(event => {
     event.recipes.create_mechanical_extruder.extruding(Item.of('minecraft:granite'),
         [ Fluid.of('minecraft:lava'), Fluid.of('minecraft:water') ]
     ).catalyst('minecraft:granite').requiredBonks(2).id('kubejs/create_mechanical_extruder/granite');
+    event.recipes.create_mechanical_extruder.extruding(Item.of('create:limestone'),
+        [ Fluid.of('minecraft:lava'), Fluid.of('minecraft:water') ]
+    ).catalyst('create:limestone').requiredBonks(2).id('kubejs/create_mechanical_extruder/limestone');
     event.recipes.create_mechanical_extruder.extruding(Item.of('minecraft:cobbled_deepslate'),
         [ Fluid.of('minecraft:lava'), Fluid.of('minecraft:water') ]
     ).catalyst('minecraft:cobbled_deepslate').requiredBonks(3).id('kubejs/create_mechanical_extruder/cobbled_deepslate');
