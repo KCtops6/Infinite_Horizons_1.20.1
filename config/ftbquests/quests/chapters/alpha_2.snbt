@@ -286,40 +286,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6A6C399AB9F1BBE0"]
-			icon: "minecraft:iron_ingot"
-			id: "3949B38795D8BB00"
-			rewards: [
-				{
-					id: "2A3ABBA50933B690"
-					item: "minecraft:iron_ingot"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "251A987C419A7097"
-					item: "minecraft:gravel"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "10E76F216FB646FB"
-					item: "minecraft:iron_nugget"
-					type: "item"
-				}
-				{
-					id: "7C7C0C4761C7BD46"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-			]
-			x: 9.040815d
-			y: -1.984695000000002d
-		}
-		{
 			dependencies: ["133BCE410E613A4F"]
 			id: "1584AEAD06AB2580"
 			tasks: [{
@@ -1706,30 +1672,6 @@
 			}]
 			x: -5.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["216605D56EC990F3"]
-			id: "5539D8EB6ED072A3"
-			rewards: [
-				{
-					id: "13F43AD190F5A8AB"
-					item: "minecraft:cactus"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "6F846D5C7EB3A0A9"
-					item: "pamhc2foodextended:cactusfruitpieitem"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6521E7128109A3D6"
-				item: "minecraft:cactus"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.0d
 		}
 		{
 			dependencies: ["34772CE2E8E25A5E"]
@@ -3387,6 +3329,75 @@
 			}]
 			x: 1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["1FFD16D39BDE1E10"]
+			id: "3CD501E988CA4C3B"
+			tasks: [{
+				id: "78B78424E5910105"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["216605D56EC990F3"]
+			id: "5539D8EB6ED072A3"
+			rewards: [
+				{
+					id: "13F43AD190F5A8AB"
+					item: "minecraft:cactus"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6F846D5C7EB3A0A9"
+					item: "pamhc2foodextended:cactusfruitpieitem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6521E7128109A3D6"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A6C399AB9F1BBE0"]
+			icon: "minecraft:iron_ingot"
+			id: "3949B38795D8BB00"
+			rewards: [
+				{
+					id: "2A3ABBA50933B690"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "251A987C419A7097"
+					item: "minecraft:gravel"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "10E76F216FB646FB"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "7C7C0C4761C7BD46"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
 		}
 	]
 	title: "Alpha"
