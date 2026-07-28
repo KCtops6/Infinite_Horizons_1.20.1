@@ -304,7 +304,7 @@ ServerEvents.recipes(event => {
             ],
             keys: {
                 A: 'minecraft:stick', 
-                B: 'kubejs:netherite_wire'
+                B: 'infinite_resources:netherite_wire'
             },
             output: 'kubejs:netherite_mesh',
             count: 1
@@ -317,7 +317,7 @@ ServerEvents.recipes(event => {
             ],
             keys: {
                 A: 'minecraft:stick', 
-                B: 'createaddition:iron_wire'
+                B: 'infinite_resources:iron_wire'
             },
             output: 'kubejs:iron_mesh',
             count: 1
@@ -330,7 +330,7 @@ ServerEvents.recipes(event => {
             ],
             keys: {
                 A: 'minecraft:stick', 
-                B: 'createaddition:copper_wire'
+                B: 'infinite_resources:copper_wire'
             },
             output: 'kubejs:copper_mesh',
             count: 1
