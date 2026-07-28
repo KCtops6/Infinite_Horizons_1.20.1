@@ -124,3 +124,5 @@ config/jamlib/
 config/justzoom/
 config/konkrete/
 config/Mekanism/additions-client.toml
+config/servercore
+config/titanium
