@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:raw_nickel').withChance(0.125),
         Item.of('gtceu:raw_cobaltite').withChance(0.125),
         Item.of('gtceu:raw_pentlandite').withChance(0.0625)
-    ], ['kubejs:deepslate_gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/soul_sand');
+    ], ['infinite_horizons_tweaks:deepslate_gravel','kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/soul_sand');
     event.recipes.createsifterSifting([
         Item.of('gtceu:raw_galena').withChance(0.25),
         Item.of('gtceu:raw_silver').withChance(0.125),
