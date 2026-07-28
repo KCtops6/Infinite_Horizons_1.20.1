@@ -304,7 +304,7 @@ ServerEvents.recipes(event => {
             ],
             keys: {
                 A: 'minecraft:stick', 
-                B: 'infinite_resources:netherite_wire'
+                B: 'kubejs:netherite_wire'
             },
             output: 'kubejs:netherite_mesh',
             count: 1
