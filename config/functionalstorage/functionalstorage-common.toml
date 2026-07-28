@@ -8,13 +8,13 @@
 	#Every how many ticks the drawer upgrades will work
 	UPGRADE_TICK = 4
 	#How many items the pulling upgrade will try to pull
-	UPGRADE_PULL_ITEMS = 4
+	UPGRADE_PULL_ITEMS = 8
 	#How much fluid (in mb) the pulling upgrade will try to pull
-	UPGRADE_PULL_FLUID = 500
+	UPGRADE_PULL_FLUID = 1000
 	#How many items the pushing upgrade will try to pull
-	UPGRADE_PUSH_ITEMS = 4
+	UPGRADE_PUSH_ITEMS = 8
 	#How much fluid (in mb) the pushing upgrade will try to pull
-	UPGRADE_PUSH_FLUID = 500
+	UPGRADE_PUSH_FLUID = 1000
 	#How many items the collector upgrade will try to pull
-	UPGRADE_COLLECTOR_ITEMS = 4
+	UPGRADE_COLLECTOR_ITEMS = 8
 
