@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
         'create:crushing/crimsite_recycling', 'create:crushing/asurine_recycling', 'create:crushing/ochrum_recycling',
         'create:crushing/veridium_recycling',
         'delightful:integration/twigs/cutting/cobblestone', 'create:crafting/appliances/dough',
-        'enderio:iron_gear'
+        'enderio:iron_gear', 'createsifter:brass_mesh'
     ];
     identifications.forEach(identification => {
         event.remove({ id: identification });

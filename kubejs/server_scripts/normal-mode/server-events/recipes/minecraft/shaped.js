@@ -330,6 +330,19 @@ ServerEvents.recipes(event => {
             ],
             keys: {
                 A: 'minecraft:stick', 
+                B: 'infinite_resources:brass_wire'
+            },
+            output: 'createsifter:brass_mesh',
+            count: 1
+        },
+        {
+            pattern: [
+                'ABA', 
+                'BBB',
+                'ABA'  
+            ],
+            keys: {
+                A: 'minecraft:stick', 
                 B: 'infinite_resources:copper_wire'
             },
             output: 'kubejs:copper_mesh',
