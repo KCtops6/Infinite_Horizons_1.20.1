@@ -117,3 +117,10 @@ config/tradingpost-server.toml
 config/rightclickharvest-common.toml
 config/toastcontrol-common.toml
 config/resourceful-config-web.json
+config/craftingtweaks/grids/
+config/functionalstorage/functionalstorage-client.toml
+config/jade/
+config/jamlib/
+config/justzoom/
+config/konkrete/
+config/Mekanism/additions-client.toml
