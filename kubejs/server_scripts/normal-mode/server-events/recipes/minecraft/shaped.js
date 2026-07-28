@@ -476,7 +476,7 @@ ServerEvents.recipes(event => {
         { sapling: 'ore_tree:emerald_tree_sapling', essence: 'mysticalagriculture:emerald_essence' },
         { sapling: 'ore_tree:gold_tree_sapling', essence: 'mysticalagriculture:gold_essence' },
         { sapling: 'ore_tree:iron_tree_sapling', essence: 'mysticalagriculture:iron_essence' },
-        { sapling: 'ore_tree:lapis_tree_sapling', essence: 'mysticalagriculture:lapis_essence' },
+        { sapling: 'ore_tree:lapis_tree_sapling', essence: 'mysticalagriculture:lapis_lazuli_essence' },
         { sapling: 'ore_tree:quartz_tree_sapling', essence: 'mysticalagriculture:nether_quartz_essence' },
         { sapling: 'ore_tree:redstone_tree_sapling', essence: 'mysticalagriculture:redstone_essence' }
     ];
