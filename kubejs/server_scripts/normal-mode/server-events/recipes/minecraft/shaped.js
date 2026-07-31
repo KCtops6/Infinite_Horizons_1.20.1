@@ -144,7 +144,7 @@ ServerEvents.recipes(event => {
             ],
             keys: {
                 A: 'projecte:aeternalis_fuel',
-                I: 'mysticalagradditions:insanium_gemstone'
+                I: 'minecraft:nether_star'
             },
             output: 'projecte:dark_matter',
             count: 1
