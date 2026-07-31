@@ -4,14 +4,14 @@ ServerEvents.recipes(event => {
         {
             energy: 50000,
             mob: 'minecraft:wither',
-            experience: 50,
+            experience: 10,
             input: 'kubejs:wither_skeletal_contractor',
             output: 'kubejs:wither_controller'
         },
         {
             energy: 50000,
             mob: 'minecraft:enderman',
-            experience: 100,
+            experience: 15,
             input: 'kubejs:e-logic_controller',
             output: 'kubejs:ender_controller'
         }
