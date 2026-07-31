@@ -50,6 +50,6 @@ ServerEvents.recipes(event => {
             count: 1,
             item: "kubejs:void_glyph"
         },
-        sourceCost: 20000
+        sourceCost: 10000
     });
 });
