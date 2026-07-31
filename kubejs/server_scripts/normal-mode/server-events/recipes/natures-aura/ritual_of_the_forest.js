@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
                 'minecraft:chorus_flower',
                 'minecraft:chorus_flower'
             ],
-            sapling: 'minecraft:chorus_flower',
+            sapling: 'minecraft:warped_fungus',
             time: 2000
         }
     ];
