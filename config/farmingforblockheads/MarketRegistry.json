@@ -24,12 +24,69 @@
         "icon": {
           "item": "minecraft:egg"
         }
+      },
+      "gregtech": {
+        "name": "Gregtech",
+        "icon": {
+          "item": "gtceu:rubber_sapling"
+        }
+      },
+      "integrateddynamics": {
+        "name": "Integrated Dynamics",
+        "icon": {
+          "item": "integrateddynamics:menril_sapling"
+        }
       }
     },
     "customEntries": [
       {
         "output": {
+          "item": "minecraft:allay_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:armadillo_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:axolotl_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:bat_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
           "item": "minecraft:bee_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:camel_spawn_egg"
         },
         "payment": {
           "item": "minecraft:emerald"
@@ -47,7 +104,61 @@
       },
       {
         "output": {
+          "item": "minecraft:cod_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
           "item": "minecraft:cow_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:frog_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:glow_squid_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:mooshroom_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:ocelot_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:parrot_spawn_egg"
         },
         "payment": {
           "item": "minecraft:emerald"
@@ -65,7 +176,16 @@
       },
       {
         "output": {
-          "item": "minecraft:sheep_spawn_egg"
+          "item": "minecraft:rabbit_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:salmon_spawn_egg"
         },
         "payment": {
           "item": "minecraft:emerald"
@@ -92,7 +212,34 @@
       },
       {
         "output": {
-          "item": "minecraft:sweet_berries"
+          "item": "minecraft:squid_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:tadpole_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:tropical_fish_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "misc"
+      },
+      {
+        "output": {
+          "item": "minecraft:turtle_spawn_egg"
         },
         "payment": {
           "item": "minecraft:emerald"
@@ -106,7 +253,7 @@
         "payment": {
           "item": "minecraft:emerald"
         },
-        "category": "misc"
+        "category": "gregtech"
       },
       {
         "output": {
@@ -115,7 +262,7 @@
         "payment": {
           "item": "minecraft:emerald"
         },
-        "category": "misc"
+        "category": "integrateddynamics"
       }
     ]
   }
