@@ -227,7 +227,7 @@
 		}
 		{
 			dependencies: ["722C7C33D23EB25A"]
-			description: ["You can right click an empty blaze burner on a nether portal block (purple portal, not the obsidian) to get a filled blaze burner."]
+			description: ["You can left click an empty blaze burner on a nether portal block (purple portal, not the obsidian) to get a filled blaze burner."]
 			id: "110517F6B8116C24"
 			tasks: [{
 				id: "0761D8C186E7C127"
