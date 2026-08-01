@@ -138,3 +138,5 @@ config/incontrol/placeevents.json
 config/incontrol/rightclicks.json
 config/incontrol/spawner.json
 config/incontrol/summonaid.json
+config/xnet-client.toml
+config/wikilookup-common.toml
