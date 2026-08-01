@@ -126,3 +126,15 @@ config/konkrete/
 config/Mekanism/additions-client.toml
 config/servercore
 config/titanium
+config/incontrol/areas.json
+config/incontrol/breakevents.json
+config/incontrol/effects.json
+config/incontrol/events.json
+config/incontrol/experience.json
+config/incontrol/leftclicks.json
+config/incontrol/loot.json
+config/incontrol/phases.json
+config/incontrol/placeevents.json
+config/incontrol/rightclicks.json
+config/incontrol/spawner.json
+config/incontrol/summonaid.json
