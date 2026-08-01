@@ -50,15 +50,6 @@
       },
       {
         "output": {
-          "item": "minecraft:armadillo_spawn_egg"
-        },
-        "payment": {
-          "item": "minecraft:emerald"
-        },
-        "category": "misc"
-      },
-      {
-        "output": {
           "item": "minecraft:axolotl_spawn_egg"
         },
         "payment": {
