@@ -1080,6 +1080,50 @@
 			x: 6.0d
 			y: -2.75d
 		}
+		{
+			dependencies: ["4DA617A45B1DDFCE"]
+			id: "202753F234C4D2D2"
+			tasks: [{
+				id: "6957CB67E48FB647"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0EC0E90250221658"]
+			id: "31D5BB0D345DB065"
+			tasks: [{
+				id: "3B8A86B99F48240C"
+				item: "bloodmagic:ingot_hellforged"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31D5BB0D345DB065"]
+			id: "4DA617A45B1DDFCE"
+			tasks: [{
+				id: "32488115B9A4D979"
+				item: "bloodmagic:dungeon_metal"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59B16CD9262DAD72"]
+			id: "0EC0E90250221658"
+			tasks: [{
+				id: "450DAEDB35D01008"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
 	]
 	title: "Blood Magic"
 }
