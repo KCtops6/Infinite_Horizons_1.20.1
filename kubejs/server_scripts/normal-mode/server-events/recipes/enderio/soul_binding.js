@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     const recipes = [
         {
             energy: 50000,
-            mob: 'minecraft:wither',
+            mob: 'minecraft:wither_skeleton',
             experience: 10,
             input: 'kubejs:wither_skeletal_contractor',
             output: 'kubejs:wither_controller'
