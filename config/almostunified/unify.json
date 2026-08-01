@@ -45,6 +45,7 @@
     "forge:crops/{material}",
     "forge:seeds/{material}",
     "forge:{material}",
+    "forge:double_plates/{material}",
     "kubejs:{material}"
   ],
   "materials": [
