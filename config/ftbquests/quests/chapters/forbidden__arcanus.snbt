@@ -417,7 +417,10 @@
 			y: -0.25d
 		}
 		{
-			dependencies: ["47958B03F6CEA5D2"]
+			dependencies: [
+				"47958B03F6CEA5D2"
+				"7C65C1CF7071E340"
+			]
 			id: "30F3C5B9AFD9F12E"
 			optional: true
 			size: 0.5d
@@ -848,6 +851,21 @@
 			}]
 			x: 0.0d
 			y: -0.75d
+		}
+		{
+			dependencies: [
+				"2B07FCC00FBA7F8E"
+				"2B954C67AED782DD"
+			]
+			hide_dependent_lines: true
+			id: "7C65C1CF7071E340"
+			tasks: [{
+				id: "2FBD710BDF210C7C"
+				item: "forbidden_arcanus:dark_nether_star"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
 		}
 	]
 	title: "Forbidden and Arcanus"
