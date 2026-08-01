@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
             }
         ],
         reagent: {
-            item: "arsnouveau:glyph_wither"
+            item: "ars_nouveau:glyph_wither"
         },
         output: {
             count: 1,
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
             }
         ],
         reagent: {
-            item: "arsnouveau:glyph_linger"
+            item: "ars_nouveau:glyph_linger"
         },
         output: {
             count: 1,
