@@ -948,6 +948,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["3E7A78636DF03BA0"]
 			id: "3204AE3BB90D13AE"
 			tasks: [{
 				id: "1D32C61CF579A2AF"
