@@ -30,6 +30,28 @@
 			x: -1.0d
 			y: 0.0d
 		}
+		{
+			click: "https://github.com/KCtops6/Infinite_Horizons_1.20.1/wiki/Spore-&-Fungal-Cultivation-Guide"
+			dependency: "0AC851170B41AD02"
+			height: 0.75d
+			hover: ["Check out the GitHub Wiki for Spores!"]
+			image: "supplementaries:textures/gui/book/icon/github.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 13.0d
+			y: -9.5d
+		}
+		{
+			click: "https://github.com/KCtops6/Infinite_Horizons_1.20.1/wiki/Nether-Portal-Spread-&-Corruption-Guide"
+			dependency: "4C2B01F07C9A33D8"
+			height: 0.75d
+			hover: ["Check out the GitHub Wiki for Nether Portal Spread!"]
+			image: "supplementaries:textures/gui/book/icon/github.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 16.0d
+			y: -7.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -559,8 +581,8 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -2.75d
+			x: 13.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["426C7AF2A4441853"]
@@ -570,7 +592,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 13.0d
 			y: -2.0d
 		}
 		{
@@ -672,7 +694,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -720,8 +742,8 @@
 				item: "minecraft:glow_berries"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -824,7 +846,7 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: -4.0d
 		}
 		{
@@ -847,7 +869,7 @@
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: -4.75d
 		}
 		{
@@ -879,8 +901,8 @@
 				item: "mob_grinding_utils:wither_muffler"
 				type: "item"
 			}]
-			x: 17.75d
-			y: -6.0d
+			x: 18.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["182338376E9A5415"]
@@ -969,8 +991,8 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.0d
+			x: 14.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3FE3424A09F9D5F0"]
@@ -1307,7 +1329,7 @@
 				item: "minecraft:lodestone"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 19.0d
 			y: -4.0d
 		}
 		{
@@ -1371,8 +1393,8 @@
 				item: "gag:sacred_salt"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -6.0d
+			x: 6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5FE9B299B6C3FD5E"]
@@ -1382,7 +1404,7 @@
 				item: "gag:sacred_balm"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 5.0d
 			y: -7.0d
 		}
 		{
@@ -1393,8 +1415,8 @@
 				item: "gag:sacred_salve"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -7.0d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3A6569F022E9D9AC"]
@@ -1853,6 +1875,7 @@
 		{
 			dependencies: ["0A87B874851CD1B0"]
 			description: ["You can not go into the nether yet, but you can obtain some of the resources that comes from the dimension. Netherrack is the best example. You want to mass produce this for netherite."]
+			hide_dependent_lines: true
 			id: "4C2B01F07C9A33D8"
 			rewards: [{
 				id: "42714D35FD1CAF5B"
@@ -1865,8 +1888,8 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -7.0d
+			x: 15.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4C2B01F07C9A33D8"]
@@ -1916,7 +1939,7 @@
 				item: "minecraft:nether_bricks"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 17.0d
 			y: -8.0d
 		}
 		{
@@ -1934,7 +1957,7 @@
 				item: "minecraft:nether_wart"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 13.0d
 			y: -7.0d
 		}
 		{
@@ -1954,7 +1977,7 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 17.0d
 			y: -4.0d
 		}
 		{
@@ -1971,8 +1994,8 @@
 				item: "minecraft:blackstone"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -6.0d
+			x: 13.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4C2B01F07C9A33D8"]
@@ -1993,7 +2016,7 @@
 				value: 1L
 			}]
 			x: 17.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4C2B01F07C9A33D8"]
@@ -2011,7 +2034,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -2093,7 +2116,7 @@
 				}
 			]
 			x: 18.0d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1FFD16D39BDE1E10"]
@@ -3407,8 +3430,150 @@
 				item: "minecraft:slime_ball"
 				type: "item"
 			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C2B01F07C9A33D8"]
+			id: "70DA310702244B25"
+			tasks: [{
+				id: "5F62AE5DD6011A52"
+				item: "minecraft:nether_wart_block"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["70DA310702244B25"]
+			id: "3F7C3764FF66B23C"
+			tasks: [{
+				id: "7CF4A20FA3219B65"
+				item: "kubejs:crimson_nylium_spores"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3F7C3764FF66B23C"]
+			id: "2F52D8576ABBCADB"
+			tasks: [{
+				id: "6026B77941EFCD4A"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4C2B01F07C9A33D8"]
+			id: "30EFDD78BBD00830"
+			tasks: [{
+				id: "3134DE7556022DBA"
+				item: "minecraft:warped_wart_block"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["06A392891A0BF83A"]
+			id: "13ABFBBEC3477ADF"
+			tasks: [{
+				id: "77B872B89A55C94D"
+				item: "minecraft:warped_fungus"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["30EFDD78BBD00830"]
+			id: "06A392891A0BF83A"
+			tasks: [{
+				id: "731ECDA7C57142A4"
+				item: "kubejs:warped_nylium_spores"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "4DEDA6AE3122037B"
+			tasks: [{
+				id: "7032ED25D920DAC8"
+				item: "kubejs:mycellium_spores"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4DEDA6AE3122037B"]
+			id: "5A4839029FBC0C49"
+			tasks: [{
+				icon: "minecraft:mycelium"
+				id: "0092C8A66D67E072"
+				observe_type: 0
+				timer: 0L
+				title: "Observe Mycelium"
+				to_observe: "minecraft:mycelium"
+				type: "observation"
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "09BDC6E852A6E2B7"
+			tasks: [{
+				id: "61CA503C9B70238B"
+				item: "kubejs:red_mushroom_spores"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"2C2D5CFB7A9A1F1C"
+				"5A4839029FBC0C49"
+			]
+			id: "059DEE889F3D44BF"
+			tasks: [{
+				id: "5A5DDF47FCB563B5"
+				item: "minecraft:brown_mushroom"
+				type: "item"
+			}]
 			x: 12.0d
-			y: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "2C2D5CFB7A9A1F1C"
+			tasks: [{
+				id: "375F7C6E9F3BE34A"
+				item: "kubejs:brown_mushroom_spores"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"09BDC6E852A6E2B7"
+				"5A4839029FBC0C49"
+			]
+			id: "7117C1570ECB8884"
+			tasks: [{
+				id: "5DE4F84CCEBEA1F0"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
 		}
 	]
 	title: "Alpha"
