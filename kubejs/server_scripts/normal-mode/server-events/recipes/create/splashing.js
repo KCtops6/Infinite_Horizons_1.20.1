@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         results: [
             {
                 count: 3,
-                item: 'kubejs:stone_pebble'
+                item: 'infinite_horizons_tweaks:stone_pebble'
             }
         ]
     });
