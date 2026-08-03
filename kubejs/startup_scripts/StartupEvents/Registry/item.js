@@ -4,16 +4,14 @@ function capitalize(str) {
 const items = [
     'chicken_fried_steak_ingot', 'mycellium_spores',
     'red_mushroom_spores', 'brown_mushroom_spores', 'crimson_nylium_spores',
-    'warped_nylium_spores', 'desert_temple_dungeon_key', 'explorer_map',
+    'warped_nylium_spores', 'explorer_map',
     'forbidden_transmutation_matter', 
     'netherite_wire', 'stone_alloy', 'void_flour',
     'void_cake_base', 'void_cake', 'ancient_glyph',
     'void_glyph', 'voidwalker_reagent', 'infernal_reagent',
     'infernal_sigil', 'voidwalker_sigil', 'rune_of_the_end',
     'rune_of_the_nether', 'wither_skeletal_contractor', 'e-logic_controller',
-    'ender_addon', 'nether_addon', 'stone_pebble',
-    'andesite_pebble', 'diorite_pebble', 'granite_pebble',
-    'deepslate_pebble', 'tuff_pebble', 'limestone_pebble'
+    'ender_addon', 'nether_addon', 'limestone_pebble'
 ];
 const formatName = (id) => {
     return id.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -127,9 +125,6 @@ StartupEvents.registry('item', event => {
     nuggets.forEach(nugget => {
         event.create(`${nugget}_nugget`).displayName(`${capitalize(nugget)} Nugget`);
     });
-    event.create('wooden_trowel', 'shovel').tier('wood');
-    event.create('stone_trowel', 'shovel').tier('stone');
-    event.create('iron_trowel', 'shovel').tier('iron');
     event.create('stone_hammer', 'pickaxe').tier('stone');
     event.create('iron_hammer', 'pickaxe').tier('iron');
     global.raw_ores.forEach(r => {
