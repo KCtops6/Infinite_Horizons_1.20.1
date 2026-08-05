@@ -145,4 +145,5 @@ ServerEvents.recipes(event => {
     event.shapeless('infinite_horizons_tweaks:iron_trowel', [ 'kubejs:iron_trowel' ]);
     event.shapeless('infinite_horizons_tweaks:stone_hammer', [ 'kubejs:stone_hammer' ]);
     event.shapeless('infinite_horizons_tweaks:iron_hammer', [ 'kubejs:iron_hammer' ]);
+    event.shapeless('bountiful:decree', [ 'bountiful:decree' ]);
 });
