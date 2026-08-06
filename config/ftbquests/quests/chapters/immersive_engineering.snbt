@@ -3,20 +3,221 @@
 	default_quest_shape: ""
 	filename: "immersive_engineering"
 	group: "126A1C64F6AE129F"
-	id: "7DFFAEF60DE9A364"
+	id: "4F2BCE46F5E57F0F"
 	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3949B38795D8BB00"]
-			id: "12F9A2C125E78A88"
-			rewards: [{
-				id: "19809EED5C133903"
-				item: "immersiveengineering:manual"
+			dependencies: ["4ABC4F3E4E645904"]
+			id: "762D036EA94572D3"
+			tasks: [{
+				id: "58C0F658C155C4E7"
+				item: "immersiveengineering:mold_plate"
 				type: "item"
 			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4ABC4F3E4E645904"]
+			id: "0E2FB6C57899F2D5"
 			tasks: [{
-				id: "4A94262EB83D2B51"
+				id: "4436F5C2F9810051"
+				item: "immersiveengineering:mold_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4ABC4F3E4E645904"]
+			id: "3B795114330750C7"
+			tasks: [{
+				id: "0D0D77CA6C15A3F7"
+				item: "immersiveengineering:mold_rod"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4ABC4F3E4E645904"]
+			id: "1D9016EF7B4EBBBD"
+			tasks: [{
+				id: "73E60A1A4E25C460"
+				item: "immersiveengineering:mold_bullet_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ABC4F3E4E645904"]
+			id: "13215E58CA139F17"
+			tasks: [{
+				id: "757B9C5D0F00E75D"
+				item: "immersiveengineering:mold_wire"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ABC4F3E4E645904"]
+			id: "267EC3E797611092"
+			tasks: [{
+				id: "4392E6C3D23D6E43"
+				item: "immersiveengineering:mold_packing_4"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ABC4F3E4E645904"]
+			id: "52BBBD43159D638C"
+			tasks: [{
+				id: "77CBBB7CE28713DB"
+				item: "immersiveengineering:mold_packing_9"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4ABC4F3E4E645904"]
+			id: "5AD0A3256183BD3A"
+			tasks: [{
+				id: "284D0403750141DD"
+				item: "immersiveengineering:mold_unpacking"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["050A7A7C88808BC3"]
+			id: "17F9915F34D8B6E3"
+			tasks: [{
+				id: "587B6F98DD8E06B5"
+				item: "immersiveengineering:stick_treated"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["347773DC08DDC102"]
+			id: "050A7A7C88808BC3"
+			tasks: [{
+				id: "5CB7E7E284A35DF8"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["273BF3680C5CE1FD"]
+			hide_dependent_lines: true
+			id: "4ABC4F3E4E645904"
+			tasks: [{
+				id: "1AFA3135FEB24AF6"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5A1A5213A080166B"
+				"1773764CA8CA2EEA"
+			]
+			dependency_requirement: "one_completed"
+			id: "405D44FB4BD8A4BD"
+			tasks: [{
+				id: "7913058F084EA597"
+				item: "immersiveengineering:wirecoil_copper"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"72F56780E0A57438"
+				"19436F9A49D528E9"
+			]
+			hide_dependent_lines: true
+			id: "273BF3680C5CE1FD"
+			tasks: [{
+				id: "70D49D357DC18A9D"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17F9915F34D8B6E3"]
+			id: "72F56780E0A57438"
+			tasks: [{
+				id: "1BF114FB5AAC4C44"
+				item: "immersiveengineering:craftingtable"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17F9915F34D8B6E3"]
+			id: "19436F9A49D528E9"
+			tasks: [{
+				id: "4E057F92AABCBEC7"
+				item: "immersiveengineering:treated_fence"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["347773DC08DDC102"]
+			id: "4DF7F3B65DA1EB7F"
+			tasks: [{
+				id: "2ABCF9B332323206"
+				item: "infinite_resources:coal_coke"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["209ECAC4446AEBD3"]
+			id: "347773DC08DDC102"
+			tasks: [{
+				icon: "immersiveengineering:coke_oven"
+				id: "3444F0DF67B55994"
+				observe_type: 0
+				timer: 0L
+				title: "Construct a Coke Oven"
+				to_observe: "immersiveengineering:coke_oven"
+				type: "observation"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3949B38795D8BB00"]
+			id: "209ECAC4446AEBD3"
+			tasks: [{
+				id: "2D540B27BF49F957"
 				item: {
 					Count: 1
 					id: "immersiveengineering:hammer"
@@ -26,366 +227,15 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -9.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["12F9A2C125E78A88"]
-			icon: "immersiveengineering:coke_oven"
-			id: "3BAF0158D3FA458C"
-			rewards: [
-				{
-					count: 3
-					id: "58BE0A2CE1624D43"
-					item: "minecraft:brick"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "0A2873654447AC12"
-					item: "minecraft:clay_ball"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 27L
-					id: "30D0C31E02531F73"
-					item: "immersiveengineering:cokebrick"
-					type: "item"
-				}
-				{
-					advancement: "immersiveengineering:main/mb_cokeoven"
-					criterion: ""
-					id: "34D40030AA05C10A"
-					type: "advancement"
-				}
-			]
-			title: "Coke Oven"
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3BAF0158D3FA458C"]
-			id: "16217872D47FF05F"
-			rewards: [{
-				id: "38963DE6CAF451B8"
-				item: "kubejs:coal_coke"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "4F4F1208D8907D95"
-				item: "kubejs:coal_coke"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["12F9A2C125E78A88"]
-			icon: "immersiveengineering:blast_furnace"
-			id: "682C96E1F2832C77"
-			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "12D9EBA99F9211DB"
-					item: "minecraft:nether_brick"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "5A43913A37BCB481"
-					item: "minecraft:brick"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "0DA97C03391351BF"
-					item: "minecraft:magma_block"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 27L
-					id: "1F6421E2228AEA23"
-					item: "immersiveengineering:blastbrick"
-					type: "item"
-				}
-				{
-					advancement: "immersiveengineering:main/mb_blastfurnace"
-					criterion: ""
-					id: "58A9ADD146522F09"
-					type: "advancement"
-				}
-			]
-			title: "Crude Blast Furnace"
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"16217872D47FF05F"
-				"682C96E1F2832C77"
-			]
-			id: "15421A3407EE051A"
-			rewards: [
-				{
-					id: "5A428B198E611818"
-					item: "infinite_resources:steel_ingot"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					advancement: "immersiveengineering:main/make_steel"
-					criterion: ""
-					id: "71FDA3318E4C6343"
-					type: "advancement"
-				}
-			]
-			tasks: [{
-				id: "7B53C8E4FECB2651"
-				item: "infinite_resources:steel_ingot"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["15421A3407EE051A"]
-			icon: "immersiveengineering:advanced_blast_furnace"
-			id: "1801DC0B0932A2A2"
-			optional: true
-			rewards: [{
-				id: "2241B1BC1CD4F1F2"
-				item: "kubejs:steel_plate"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "116DD30D186DAC8F"
-					item: "immersiveengineering:blastbrick_reinforced"
-					type: "item"
-				}
-				{
-					id: "1E4BB7C6CBEFB44B"
-					item: "minecraft:hopper"
-					type: "item"
-				}
-			]
-			title: "Improved Blast Furnace"
-			x: 3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["3BAF0158D3FA458C"]
-			id: "0833858567AAA274"
-			rewards: [{
-				id: "06309E5EF8ED1B22"
-				item: "immersiveengineering:creosote_bucket"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "56B02A81310F914E"
-				item: "immersiveengineering:creosote_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0833858567AAA274"]
-			id: "224377F4F4E904EB"
-			rewards: [
-				{
-					count: 3
-					id: "25DA41EB6889DFC4"
-					item: "immersiveengineering:treated_wood_horizontal"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "3EBD4A31DA003072"
-					item: "immersiveengineering:creosote_bucket"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "26B868B555EC7F4E"
-				item: "immersiveengineering:treated_wood_horizontal"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["224377F4F4E904EB"]
-			hide_dependency_lines: false
-			hide_dependent_lines: true
-			id: "183D61B65A8A40D6"
-			rewards: [
-				{
-					id: "44C6D3D03B3C8271"
-					item: "immersiveengineering:treated_wood_horizontal"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "08F100EF16B19A28"
-					item: {
-						Count: 1
-						id: "immersiveengineering:blueprint"
-						tag: {
-							blueprint: "electrode"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "586342F8F2B54E36"
-					item: {
-						Count: 1
-						id: "immersiveengineering:blueprint"
-						tag: {
-							blueprint: "bannerpatterns"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5E6DE88DA9608645"
-					item: {
-						Count: 1
-						id: "immersiveengineering:blueprint"
-						tag: {
-							blueprint: "components"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "019409421DA480BD"
-					item: {
-						Count: 1
-						id: "immersiveengineering:blueprint"
-						tag: {
-							blueprint: "specialBullet"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "274630EF7DD6DB18"
-					item: {
-						Count: 1
-						id: "immersiveengineering:blueprint"
-						tag: {
-							blueprint: "bullet"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "298D51B9F43B085E"
-					item: {
-						Count: 1
-						id: "immersiveengineering:blueprint"
-						tag: {
-							blueprint: "molds"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "57DA64FDFD57523D"
-				item: "immersiveengineering:workbench"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"1801DC0B0932A2A2"
-				"6322A7C96B063690"
-			]
-			id: "3BD62FB36300EC9D"
-			optional: true
-			tasks: [{
-				count: 2L
-				id: "38DEC8C863B52701"
-				item: "immersiveengineering:blastfurnace_preheater"
-				type: "item"
-			}]
-			title: "Blast Furnace Preheaters"
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["1795CEF898CA3022"]
-			hide_dependency_lines: true
-			id: "6322A7C96B063690"
-			optional: true
-			tasks: [{
-				id: "17CBA0C0A13608BB"
-				item: "immersiveengineering:furnace_heater"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"1BCBDBB85C9A7EAB"
-				"2B817D61869D4DA1"
-				"1773764CA8CA2EEA"
-			]
-			dependency_requirement: "one_completed"
-			id: "1795CEF898CA3022"
-			rewards: [
-				{
-					id: "09FA3A5C23FA24B1"
-					item: "immersiveengineering:wirecoil_copper"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "6B2DE4B19F50733A"
-					item: "immersiveengineering:wire_copper"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					advancement: "immersiveengineering:main/connect_wire"
-					criterion: ""
-					id: "61050A05522FB83E"
-					type: "advancement"
-				}
-			]
-			tasks: [{
-				id: "41D8EC9BC375A631"
-				item: "immersiveengineering:wirecoil_copper"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 4.0d
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
-			id: "1BCBDBB85C9A7EAB"
+			id: "5A1A5213A080166B"
 			optional: true
 			tasks: [{
-				id: "6B28393E041F9560"
+				id: "44443F8B93739735"
 				item: {
 					Count: 1
 					id: "immersiveengineering:wirecutter"
@@ -395,198 +245,660 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1795CEF898CA3022"]
-			id: "5B4F1BF14A9FE3DA"
-			rewards: [{
-				id: "77F8D1B10E3B8245"
-				item: "immersiveengineering:wirecoil_copper"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "3E32564F8A845E87"
-				item: "immersiveengineering:dynamo"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["67F92C34A1C2309A"]
-			id: "0AA0B76FB5D80CC0"
-			rewards: [
-				{
-					id: "12B0554D817738B0"
-					item: "immersiveengineering:fluid_pipe"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					advancement: "immersiveengineering:main/craft_heater"
-					criterion: ""
-					id: "390EEFA84E5EF329"
-					type: "advancement"
-				}
-			]
-			tasks: [{
-				id: "48040E490C6E1195"
-				item: "immersiveengineering:fluid_pump"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
+			x: -9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
-				"12F9A2C125E78A88"
-				"3CB2BFF30BA3EF65"
-			]
-			dependency_requirement: "one_completed"
-			id: "67F92C34A1C2309A"
-			rewards: [{
-				count: 8
-				id: "3B6CB98D5818C752"
-				item: "immersiveengineering:fluid_pipe"
-				random_bonus: 16
-				type: "item"
-			}]
-			tasks: [{
-				id: "154EAAD3179DE637"
-				item: "immersiveengineering:fluid_pipe"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["183D61B65A8A40D6"]
-			id: "390C698AF80432F6"
-			rewards: [{
-				id: "3F343C5F995C5B37"
-				item: "immersiveengineering:cloche"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "4C4C3856AF049D5C"
-				item: "immersiveengineering:cloche"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["390C698AF80432F6"]
-			id: "1F65474758FD5025"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				advancement: "immersiveengineering:main/chorus_cloche"
-				criterion: ""
-				icon: "minecraft:chorus_fruit"
-				id: "4A67CE91F19B8CD0"
-				type: "advancement"
-			}]
-			x: 2.0d
-			y: 5.75d
-		}
-		{
-			dependencies: [
-				"5B4F1BF14A9FE3DA"
-				"224377F4F4E904EB"
-			]
-			id: "075ED2F6973F5812"
-			rewards: [{
-				id: "289ED29FAB61E6F4"
-				item: "immersiveengineering:treated_wood_horizontal"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "42ED530EF495444B"
-				item: "immersiveengineering:windmill"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"1BCBDBB85C9A7EAB"
-				"2B817D61869D4DA1"
+				"5A1A5213A080166B"
 				"1773764CA8CA2EEA"
 			]
 			dependency_requirement: "one_completed"
-			id: "61105858DC8672AB"
+			id: "40A48ACDAF17B25A"
 			tasks: [{
-				id: "4D5D26EF48B28525"
+				id: "54FD7BC39E69B88C"
 				item: "immersiveengineering:wirecoil_electrum"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.0d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
-				"1BCBDBB85C9A7EAB"
-				"2B817D61869D4DA1"
+				"5A1A5213A080166B"
 				"1773764CA8CA2EEA"
 			]
 			dependency_requirement: "one_completed"
-			id: "2D94883A09DE786B"
+			id: "6D98F13DC97C3AD5"
 			tasks: [{
-				id: "7CC023FB5EA5ED39"
+				id: "4B414873C8B62C70"
 				item: "immersiveengineering:wirecoil_steel"
 				type: "item"
 			}]
-			x: 8.0d
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["405D44FB4BD8A4BD"]
+			hide_dependent_lines: true
+			id: "72A5524B8C484564"
+			tasks: [{
+				id: "3FA3ED4BF47A9826"
+				item: "immersiveengineering:furnace_heater"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["405D44FB4BD8A4BD"]
+			id: "4AC254B8BF3C0BD5"
+			tasks: [{
+				id: "517C5F524B49451D"
+				item: "immersiveengineering:coil_lv"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["40A48ACDAF17B25A"]
+			id: "4954D2A91A8D2174"
+			tasks: [{
+				id: "4AB98061E9E06C50"
+				item: "immersiveengineering:coil_mv"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D98F13DC97C3AD5"]
+			id: "1A4CC761465FC778"
+			tasks: [{
+				id: "4D52C746288ED2AB"
+				item: "immersiveengineering:coil_hv"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4AC254B8BF3C0BD5"]
+			id: "381ED550481C94BF"
+			tasks: [{
+				id: "5A41ABFC11B5019D"
+				item: "immersiveengineering:turntable"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"22A166C0303A6C2C"
+				"3CB2BFF30BA3EF65"
+			]
+			hide_dependent_lines: true
+			id: "3EC1A8530D4C64BD"
+			tasks: [{
+				id: "6B0044AB15ADD565"
+				item: "immersiveengineering:component_iron"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3EC1A8530D4C64BD"
+				"4AC254B8BF3C0BD5"
+			]
+			id: "0A5747CC40303E4E"
+			tasks: [{
+				id: "2C47750B92D70664"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["273BF3680C5CE1FD"]
+			id: "2DB5D08CA519C1E5"
+			tasks: [{
+				id: "274606E77C00F504"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DB5D08CA519C1E5"]
+			id: "1955FA4896CD716A"
+			tasks: [{
+				id: "12DBC2504D3B2B7E"
+				item: "immersiveengineering:light_bulb"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2DB5D08CA519C1E5"]
+			id: "0D5FBE1756F97408"
+			tasks: [{
+				id: "167BD1B8F45C94F2"
+				item: "immersiveengineering:electron_tube"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5595569EB935AF33"
+				"2DB5D08CA519C1E5"
+			]
+			id: "74DE27F84B3349C6"
+			tasks: [{
+				id: "1A00250125CAAA9B"
+				item: "immersiveengineering:circuit_board"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"762D036EA94572D3"
+				"70721E4289E5130A"
+			]
+			hide_dependency_lines: true
+			id: "5595569EB935AF33"
+			tasks: [{
+				id: "780AD8D93ED21A89"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"74DE27F84B3349C6"
+				"0D5FBE1756F97408"
+			]
+			id: "355FF7EEA4195E29"
+			tasks: [{
+				id: "17610191AE373A4B"
+				item: "immersiveengineering:logic_unit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D5FBE1756F97408"]
+			id: "431E953AC68BB465"
+			tasks: [{
+				id: "44E05EE6DFFA44EF"
+				item: "immersiveengineering:charging_station"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1955FA4896CD716A"
+				"3EC1A8530D4C64BD"
+			]
+			id: "083626FF31C43571"
+			tasks: [{
+				id: "4B6E56C05B9AE879"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1955FA4896CD716A"]
+			id: "442C064E3E1D3275"
+			tasks: [{
+				id: "53B5DE16C7D36F41"
+				item: "immersiveengineering:electric_lantern"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1955FA4896CD716A"
+				"3EC1A8530D4C64BD"
+			]
+			id: "391EDAC3D656E6FF"
+			tasks: [{
+				id: "6E01301E47D4AFF0"
+				item: "immersiveengineering:floodlight"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["235ACBD7C99AC92A"]
+			hide_dependent_lines: true
+			id: "3081506FAD2A1CFA"
+			tasks: [{
+				id: "6B97E504ED03CF7E"
+				item: "immersiveengineering:component_steel"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DF7F3B65DA1EB7F"]
+			id: "471682308534D8FC"
+			tasks: [{
+				icon: "immersiveengineering:blast_furnace"
+				id: "17EE588948D8D67D"
+				observe_type: 0
+				timer: 0L
+				title: "Construct a Crude Blast Furnace"
+				to_observe: "immersiveengineering:blast_furnace"
+				type: "observation"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["471682308534D8FC"]
+			id: "235ACBD7C99AC92A"
+			tasks: [{
+				id: "0F6B8807C25CA6E0"
+				item: "infinite_resources:steel_ingot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["235ACBD7C99AC92A"]
+			id: "3CEA769768EB14C8"
+			tasks: [{
+				icon: "immersiveengineering:advanced_blast_furnace"
+				id: "39FC5DA1214A2C1B"
+				observe_type: 0
+				timer: 0L
+				title: "Construct an Improved Blast Furnace"
+				to_observe: "immersiveengineering:advanced_blast_furnace"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3CEA769768EB14C8"
+				"72A5524B8C484564"
+			]
+			id: "66096B4C64AE8755"
+			tasks: [{
+				id: "73B7D15F7F1F127E"
+				item: "immersiveengineering:blastfurnace_preheater"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"22A166C0303A6C2C"
+				"3CB2BFF30BA3EF65"
+				"700D0FB31E0D600E"
+			]
+			id: "60C6C108E6C51240"
+			tasks: [{
+				id: "2FD7B75898A96B8E"
+				item: "immersiveengineering:rs_engineering"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3081506FAD2A1CFA"
+				"0869ADE5117542E7"
+			]
+			id: "1E2B6DE9272C2D74"
+			tasks: [{
+				id: "743D378B7CC6BA10"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3EC1A8530D4C64BD"
+				"22A166C0303A6C2C"
+			]
+			id: "73E294117A2206AD"
+			tasks: [{
+				id: "72C1B57120D8FAF8"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F8DE4865E5B9316"
+				"60C6C108E6C51240"
+				"73E294117A2206AD"
+				"235ACBD7C99AC92A"
+				"209ECAC4446AEBD3"
+			]
+			hide_dependency_lines: true
+			id: "00482267C418D97E"
+			tasks: [{
+				icon: "immersiveengineering:squeezer"
+				id: "399537F5EECAA962"
+				observe_type: 0
+				timer: 0L
+				title: "Construct a Squeezer"
+				to_observe: "immersiveengineering:squeezer"
+				type: "observation"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F8DE4865E5B9316"
+				"60C6C108E6C51240"
+				"73E294117A2206AD"
+				"235ACBD7C99AC92A"
+				"209ECAC4446AEBD3"
+			]
+			hide_dependency_lines: true
+			id: "3EA8BAE9CF63C3E2"
+			tasks: [{
+				icon: "immersiveengineering:fermenter"
+				id: "050567F179DF858E"
+				observe_type: 0
+				timer: 0L
+				title: "Construct a Fermenter"
+				to_observe: "immersiveengineering:fermenter"
+				type: "observation"
+			}]
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3EA8BAE9CF63C3E2"
+				"00482267C418D97E"
+			]
+			id: "70721E4289E5130A"
+			tasks: [{
+				icon: "immersiveengineering:refinery"
+				id: "63103A8EA9A64031"
+				observe_type: 0
+				timer: 0L
+				title: "Construct a Refinery"
+				to_observe: "immersiveengineering:refinery"
+				type: "observation"
+			}]
+			x: -15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			id: "0F8DE4865E5B9316"
+			tasks: [{
+				id: "7AC2CC3359A52675"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			x: -8.0d
 			y: 4.0d
 		}
 		{
 			dependencies: [
-				"2D94883A09DE786B"
-				"183D61B65A8A40D6"
+				"762D036EA94572D3"
+				"0E2FB6C57899F2D5"
+				"52BBBD43159D638C"
+				"267EC3E797611092"
+				"1D9016EF7B4EBBBD"
+				"5AD0A3256183BD3A"
+				"13215E58CA139F17"
+				"3B795114330750C7"
+				"209ECAC4446AEBD3"
 			]
-			id: "11FE7B2A128C165C"
-			optional: true
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "70BA9A99D3D2726B"
 			tasks: [{
-				id: "4FEB73F533C91A1B"
-				item: "immersiveengineering:transformer_hv"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["61105858DC8672AB"]
-			id: "7BF60932943BDB9C"
-			optional: true
-			tasks: [{
-				id: "7E01B0ABA1AAC185"
-				item: "immersiveengineering:transformer"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["12F9A2C125E78A88"]
-			id: "43EE360295551073"
-			tasks: [{
-				icon: "immersiveengineering:alloy_smelter"
-				id: "07ACB9FED5D887AC"
+				icon: "immersiveengineering:metal_press"
+				id: "3EC0EF5019DDF136"
 				observe_type: 0
 				timer: 0L
-				title: "Construct an Alloy Kiln"
-				to_observe: "immersiveengineering:alloy_smelter"
+				title: "Construct a Metal Press"
+				to_observe: "immersiveengineering:metal_press"
 				type: "observation"
 			}]
-			x: 0.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"209ECAC4446AEBD3"
+				"60C6C108E6C51240"
+				"73E294117A2206AD"
+				"235ACBD7C99AC92A"
+			]
+			hide_dependency_lines: true
+			id: "4BEA141BC80B0139"
+			tasks: [{
+				icon: "immersiveengineering:crusher"
+				id: "61E81A4DBDA92E11"
+				observe_type: 0
+				timer: 0L
+				title: "Construct a Crusher"
+				to_observe: "immersiveengineering:crusher"
+				type: "observation"
+			}]
+			x: -14.0d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0F8DE4865E5B9316"
+				"3EC1A8530D4C64BD"
+			]
+			id: "323A4CEA41C8B2F9"
+			tasks: [{
+				id: "7DE3E0CC5B358859"
+				item: "immersiveengineering:fluid_pump"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3EC1A8530D4C64BD"
+				"0F8DE4865E5B9316"
+			]
+			id: "15BA94D6AD637C7A"
+			tasks: [{
+				id: "6B4E91058D8E259F"
+				item: "immersiveengineering:fluid_sorter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1E2B6DE9272C2D74"
+				"60C6C108E6C51240"
+				"73E294117A2206AD"
+				"3CEA769768EB14C8"
+				"62AEEFFD69A7E514"
+			]
+			hide_dependency_lines: true
+			id: "604975578BACFBC7"
+			tasks: [{
+				icon: "immersiveengineering:arc_furnace"
+				id: "745C7BBEB365FD94"
+				observe_type: 0
+				timer: 0L
+				title: "Construct an Arc Furnace"
+				to_observe: "minecraft:air"
+				type: "observation"
+			}]
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"70BA9A99D3D2726B"
+				"7856973790AB6C78"
+			]
+			id: "62AEEFFD69A7E514"
+			tasks: [{
+				id: "11F783CEAC9A0698"
+				item: {
+					Count: 1
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A84680F143C60E9"]
+			id: "7856973790AB6C78"
+			tasks: [{
+				id: "6747E114E54D92D5"
+				item: "immersiveengineering:ingot_hop_graphite"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00482267C418D97E"]
+			id: "6A84680F143C60E9"
+			tasks: [{
+				id: "0A41FD4C87234CC2"
+				item: "immersiveengineering:dust_hop_graphite"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1E2B6DE9272C2D74"
+				"60C6C108E6C51240"
+				"73E294117A2206AD"
+			]
+			hide_dependency_lines: true
+			id: "4D349FDB7CB3DFFD"
+			tasks: [{
+				icon: "immersiveengineering:sawmill"
+				id: "6AD10794429FA1DE"
+				observe_type: 0
+				timer: 0L
+				title: "Construct a Sawmill"
+				to_observe: "immersiveengineering:sawmill"
+				type: "observation"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"60C6C108E6C51240"
+				"73E294117A2206AD"
+				"235ACBD7C99AC92A"
+			]
+			hide_dependency_lines: true
+			id: "2746627181274F52"
+			tasks: [{
+				icon: "immersiveengineering:assembler"
+				id: "60FDD6E7E8E0C959"
+				observe_type: 0
+				timer: 0L
+				title: "Construct an Assembler"
+				to_observe: "immersiveengineering:assembler"
+				type: "observation"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"050A7A7C88808BC3"
+				"1E2B6DE9272C2D74"
+				"60C6C108E6C51240"
+				"73E294117A2206AD"
+			]
+			hide_dependency_lines: true
+			id: "039F0D9261394490"
+			tasks: [{
+				icon: "immersiveengineering:auto_workbench"
+				id: "1C8F0B6117962102"
+				observe_type: 0
+				timer: 0L
+				title: "Construct an Automated Engineer's Workbench"
+				to_observe: "immersiveengineering:auto_workbench"
+				type: "observation"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"323A4CEA41C8B2F9"
+				"60C6C108E6C51240"
+				"73E294117A2206AD"
+			]
+			hide_dependency_lines: true
+			id: "76B63C4F15D3233D"
+			tasks: [{
+				icon: "immersiveengineering:bottling_machine"
+				id: "5160DB5719AA6294"
+				observe_type: 0
+				timer: 0L
+				title: "Construct a Bottling Machine"
+				to_observe: "immersiveengineering:bottling_machine"
+				type: "observation"
+			}]
+			x: -14.0d
+			y: -2.0d
 		}
 	]
 	title: "Immersive Engineering"
