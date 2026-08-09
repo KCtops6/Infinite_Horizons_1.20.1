@@ -46,7 +46,6 @@ config/defaultworldtype/biomes.txt
 config/powah.json5
 config/entity_model_features.json
 config/chat_heads.json5
-config/gtceu.yaml
 config/jade/*
 .vscode/
 config/expatternprovider-common.toml
