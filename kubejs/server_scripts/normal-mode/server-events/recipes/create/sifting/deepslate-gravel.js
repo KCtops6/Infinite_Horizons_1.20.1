@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         Item.of('infinite_resources:raw_aluminum').withChance(0.25),
         Item.of('infinite_resources:raw_lead').withChance(0.5),
         Item.of('infinite_resources:raw_nickel').withChance(0.5),
-        Item.of('kubejs:raw_osmium').withChance(0.25),
+        Item.of('infinite_resources:raw_osmium').withChance(0.25),
         Item.of('infinite_resources:raw_silver').withChance(0.5),
         Item.of('infinite_resources:raw_uranium').withChance(0.25),
         Item.of('minecraft:diamond').withChance(0.25),
