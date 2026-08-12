@@ -138,21 +138,6 @@
 		}
 		{
 			dependencies: [
-				"5A1A5213A080166B"
-				"1773764CA8CA2EEA"
-			]
-			dependency_requirement: "one_completed"
-			id: "405D44FB4BD8A4BD"
-			tasks: [{
-				id: "7913058F084EA597"
-				item: "immersiveengineering:wirecoil_copper"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -5.0d
-		}
-		{
-			dependencies: [
 				"72F56780E0A57438"
 				"19436F9A49D528E9"
 			]
@@ -233,110 +218,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3949B38795D8BB00"]
-			id: "5A1A5213A080166B"
-			optional: true
-			tasks: [{
-				id: "44443F8B93739735"
-				item: {
-					Count: 1
-					id: "immersiveengineering:wirecutter"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -9.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"5A1A5213A080166B"
-				"1773764CA8CA2EEA"
-			]
-			dependency_requirement: "one_completed"
-			id: "40A48ACDAF17B25A"
-			tasks: [{
-				id: "54FD7BC39E69B88C"
-				item: "immersiveengineering:wirecoil_electrum"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"5A1A5213A080166B"
-				"1773764CA8CA2EEA"
-			]
-			dependency_requirement: "one_completed"
-			id: "6D98F13DC97C3AD5"
-			tasks: [{
-				id: "4B414873C8B62C70"
-				item: "immersiveengineering:wirecoil_steel"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["405D44FB4BD8A4BD"]
-			hide_dependent_lines: true
-			id: "72A5524B8C484564"
-			tasks: [{
-				id: "3FA3ED4BF47A9826"
-				item: "immersiveengineering:furnace_heater"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["405D44FB4BD8A4BD"]
-			id: "4AC254B8BF3C0BD5"
-			tasks: [{
-				id: "517C5F524B49451D"
-				item: "immersiveengineering:coil_lv"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["40A48ACDAF17B25A"]
-			id: "4954D2A91A8D2174"
-			tasks: [{
-				id: "4AB98061E9E06C50"
-				item: "immersiveengineering:coil_mv"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["6D98F13DC97C3AD5"]
-			id: "1A4CC761465FC778"
-			tasks: [{
-				id: "4D52C746288ED2AB"
-				item: "immersiveengineering:coil_hv"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4AC254B8BF3C0BD5"]
-			id: "381ED550481C94BF"
-			tasks: [{
-				id: "5A41ABFC11B5019D"
-				item: "immersiveengineering:turntable"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -6.0d
-		}
-		{
 			dependencies: [
 				"22A166C0303A6C2C"
 				"3CB2BFF30BA3EF65"
@@ -350,20 +231,6 @@
 			}]
 			x: -11.0d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"3EC1A8530D4C64BD"
-				"4AC254B8BF3C0BD5"
-			]
-			id: "0A5747CC40303E4E"
-			tasks: [{
-				id: "2C47750B92D70664"
-				item: "immersiveengineering:dynamo"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -6.0d
 		}
 		{
 			dependencies: ["273BF3680C5CE1FD"]
@@ -552,10 +419,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"3CEA769768EB14C8"
-				"72A5524B8C484564"
-			]
+			dependencies: ["3CEA769768EB14C8"]
 			id: "66096B4C64AE8755"
 			tasks: [{
 				id: "73B7D15F7F1F127E"
@@ -678,7 +542,7 @@
 				item: "immersiveengineering:fluid_pipe"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.0d
 			y: 3.0d
 		}
 		{
@@ -740,7 +604,7 @@
 				item: "immersiveengineering:fluid_pump"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: 3.0d
 		}
 		{
@@ -754,7 +618,7 @@
 				item: "immersiveengineering:fluid_sorter"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -963,7 +827,7 @@
 				type: "item"
 			}]
 			x: -19.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1102,7 +966,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["00D5777E656DAA30"]
+			dependencies: [
+				"00D5777E656DAA30"
+				"4F308037BC126955"
+			]
 			id: "31DE192D3EFD34EF"
 			optional: true
 			tasks: [{
@@ -1114,7 +981,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["38366033168B23BB"]
+			dependencies: [
+				"38366033168B23BB"
+				"4F308037BC126955"
+			]
 			id: "3646281AD49607DD"
 			optional: true
 			tasks: [{
@@ -1224,6 +1094,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["73D50C93EBC09617"]
 			id: "55710AADAA7339AD"
 			tasks: [{
 				id: "7DBBD1664133C63D"
@@ -1232,6 +1103,218 @@
 			}]
 			x: -11.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["4F308037BC126955"]
+			id: "5A51D04DD053AD68"
+			tasks: [{
+				id: "00E874565051C93F"
+				item: "immersiveengineering:ersatz_leather"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3081506FAD2A1CFA"]
+			id: "5A3933BC183703EF"
+			tasks: [{
+				id: "62F930FC281A4C2F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+						}
+					}
+					id: "immersiveengineering:revolver"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5A3933BC183703EF"
+				"273BF3680C5CE1FD"
+			]
+			id: "4B8FACF38011D1BE"
+			tasks: [{
+				id: "5BF75085AF28B3A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 8
+						}
+					}
+					id: "immersiveengineering:speedloader"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"273BF3680C5CE1FD"
+				"5A3933BC183703EF"
+			]
+			id: "50E9734EE846B1B4"
+			tasks: [{
+				id: "3707D05859193A1C"
+				item: "immersiveengineering:toolupgrade_revolver_bayonet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5A3933BC183703EF"
+				"273BF3680C5CE1FD"
+			]
+			id: "6E4F00DC75B730CE"
+			tasks: [{
+				id: "2C52F04C77998638"
+				item: "immersiveengineering:toolupgrade_revolver_magazine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5A3933BC183703EF"
+				"273BF3680C5CE1FD"
+			]
+			id: "52417FA0545DA3DF"
+			tasks: [{
+				id: "302E08F24D3E24BC"
+				item: "immersiveengineering:toolupgrade_revolver_electro"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3075034D45B59B9E"
+				"4EE55CE09CB6B2EB"
+			]
+			hide_dependency_lines: true
+			id: "1D03D6D84791DEB0"
+			tasks: [{
+				id: "77D498B3DE9F2EFC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "immersiveengineering:railgun"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D03D6D84791DEB0"]
+			id: "729D17302538B3C7"
+			tasks: [{
+				id: "7B922A1133455160"
+				item: "immersiveengineering:toolupgrade_railgun_capacitors"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5A3933BC183703EF"
+				"1D03D6D84791DEB0"
+			]
+			dependency_requirement: "one_completed"
+			id: "41F0FC9DF922D670"
+			tasks: [{
+				id: "0A79A410AE6B4A61"
+				item: "immersiveengineering:toolupgrade_railgun_scope"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "3075034D45B59B9E"
+			tasks: [{
+				id: "2F38FC897690FA9C"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["332680F4235646AD"]
+			id: "5E78198378AF0F43"
+			tasks: [{
+				id: "3DC000B8193F6EAD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "immersiveengineering:chemthrower"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3EC1A8530D4C64BD"
+				"1E2B6DE9272C2D74"
+			]
+			hide_dependency_lines: true
+			id: "053125909663B5F1"
+			tasks: [{
+				id: "004D054F53E88E82"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "immersiveengineering:drill"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F8DE4865E5B9316"]
+			hide_dependency_lines: true
+			id: "332680F4235646AD"
+			tasks: [{
+				id: "5F6CA17304C6BCC9"
+				item: "immersiveengineering:toolupgrade_drill_waterproof"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "Immersive Engineering"
