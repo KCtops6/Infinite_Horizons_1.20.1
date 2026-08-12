@@ -15,8 +15,8 @@
 				item: "immersiveengineering:mold_plate"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: -18.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4ABC4F3E4E645904"]
@@ -26,8 +26,8 @@
 				item: "immersiveengineering:mold_gear"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: -17.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4ABC4F3E4E645904"]
@@ -37,8 +37,8 @@
 				item: "immersiveengineering:mold_rod"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: -16.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4ABC4F3E4E645904"]
@@ -48,8 +48,8 @@
 				item: "immersiveengineering:mold_bullet_casing"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -18.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4ABC4F3E4E645904"]
@@ -59,8 +59,8 @@
 				item: "immersiveengineering:mold_wire"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -17.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4ABC4F3E4E645904"]
@@ -70,8 +70,8 @@
 				item: "immersiveengineering:mold_packing_4"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -16.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4ABC4F3E4E645904"]
@@ -81,8 +81,8 @@
 				item: "immersiveengineering:mold_packing_9"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -18.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4ABC4F3E4E645904"]
@@ -92,8 +92,8 @@
 				item: "immersiveengineering:mold_unpacking"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -17.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["050A7A7C88808BC3"]
@@ -108,6 +108,7 @@
 		}
 		{
 			dependencies: ["347773DC08DDC102"]
+			hide_dependent_lines: true
 			id: "050A7A7C88808BC3"
 			tasks: [{
 				id: "5CB7E7E284A35DF8"
@@ -132,8 +133,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -15.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -215,6 +216,7 @@
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
+			hide_dependent_lines: true
 			id: "209ECAC4446AEBD3"
 			tasks: [{
 				id: "2D540B27BF49F957"
@@ -524,6 +526,7 @@
 		}
 		{
 			dependencies: ["471682308534D8FC"]
+			hide_dependent_lines: true
 			id: "235ACBD7C99AC92A"
 			tasks: [{
 				id: "0F6B8807C25CA6E0"
@@ -545,8 +548,8 @@
 				to_observe: "immersiveengineering:advanced_blast_furnace"
 				type: "observation"
 			}]
-			x: -10.0d
-			y: 2.0d
+			x: -11.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -559,8 +562,8 @@
 				item: "immersiveengineering:blastfurnace_preheater"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 3.0d
+			x: -11.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -675,8 +678,8 @@
 				item: "immersiveengineering:fluid_pipe"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 4.0d
+			x: -7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -692,7 +695,6 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "70BA9A99D3D2726B"
 			tasks: [{
 				icon: "immersiveengineering:metal_press"
@@ -703,8 +705,8 @@
 				to_observe: "immersiveengineering:metal_press"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -17.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -724,8 +726,8 @@
 				to_observe: "immersiveengineering:crusher"
 				type: "observation"
 			}]
-			x: -14.0d
-			y: -1.0d
+			x: -11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -738,8 +740,8 @@
 				item: "immersiveengineering:fluid_pump"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -752,8 +754,8 @@
 				item: "immersiveengineering:fluid_sorter"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.0d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -824,6 +826,7 @@
 				"1E2B6DE9272C2D74"
 				"60C6C108E6C51240"
 				"73E294117A2206AD"
+				"209ECAC4446AEBD3"
 			]
 			hide_dependency_lines: true
 			id: "4D349FDB7CB3DFFD"
@@ -836,8 +839,8 @@
 				to_observe: "immersiveengineering:sawmill"
 				type: "observation"
 			}]
-			x: -15.0d
-			y: -1.0d
+			x: -13.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -856,8 +859,8 @@
 				to_observe: "immersiveengineering:assembler"
 				type: "observation"
 			}]
-			x: -15.0d
-			y: -2.0d
+			x: -12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -865,6 +868,7 @@
 				"1E2B6DE9272C2D74"
 				"60C6C108E6C51240"
 				"73E294117A2206AD"
+				"209ECAC4446AEBD3"
 			]
 			hide_dependency_lines: true
 			id: "039F0D9261394490"
@@ -877,14 +881,15 @@
 				to_observe: "immersiveengineering:auto_workbench"
 				type: "observation"
 			}]
-			x: -14.0d
-			y: 2.0d
+			x: -12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"323A4CEA41C8B2F9"
 				"60C6C108E6C51240"
 				"73E294117A2206AD"
+				"209ECAC4446AEBD3"
 			]
 			hide_dependency_lines: true
 			id: "76B63C4F15D3233D"
@@ -897,8 +902,336 @@
 				to_observe: "immersiveengineering:bottling_machine"
 				type: "observation"
 			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"604975578BACFBC7"
+				"746C90EF71540450"
+			]
+			dependency_requirement: "one_completed"
+			id: "331452994D773410"
+			tasks: [{
+				id: "361E30F60504DAD4"
+				item: "immersiveengineering:insulating_glass"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["209ECAC4446AEBD3"]
+			id: "746C90EF71540450"
+			optional: true
+			tasks: [{
+				icon: "immersiveengineering:alloy_smelter"
+				id: "14BEC792CBC815E0"
+				observe_type: 0
+				timer: 0L
+				title: "Construct an Alloy Kiln"
+				to_observe: "immersiveengineering:alloy_smelter"
+				type: "observation"
+			}]
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"68B6573E542633B2"
+				"441DBA8F34E2A24D"
+			]
+			id: "4EC2BA65DE82846F"
+			tasks: [{
+				id: "2837920056CA1F50"
+				item: "immersiveengineering:connector_hv"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"331452994D773410"
+				"68B6573E542633B2"
+				"4EC2BA65DE82846F"
+			]
+			id: "504DC534D0136DD8"
+			tasks: [{
+				id: "2B31318F55C913BD"
+				item: "immersiveengineering:connector_hv_relay"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4EC2BA65DE82846F"
+				"235ACBD7C99AC92A"
+			]
+			id: "02980DB9C5FD2296"
+			tasks: [{
+				id: "21AE69F9EABB4D09"
+				item: "immersiveengineering:wirecoil_steel"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["02980DB9C5FD2296"]
+			id: "0A5A16F97F4617A9"
+			tasks: [{
+				id: "46572686C72E1FB8"
+				item: "immersiveengineering:coil_hv"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0A5A16F97F4617A9"
+				"00D5777E656DAA30"
+			]
+			id: "65AD523EF79B4165"
+			tasks: [{
+				id: "65CFAE7DFB40E491"
+				item: "immersiveengineering:transformer_hv"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7EF00564A1B4F6E5"]
+			id: "00D5777E656DAA30"
+			tasks: [{
+				id: "5662BC5759E0C22B"
+				item: "immersiveengineering:wirecoil_electrum"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00D5777E656DAA30"]
+			id: "4EE55CE09CB6B2EB"
+			tasks: [{
+				id: "028170A7AA440377"
+				item: "immersiveengineering:coil_mv"
+				type: "item"
+			}]
 			x: -14.0d
-			y: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4EE55CE09CB6B2EB"
+				"38366033168B23BB"
+			]
+			id: "3DCCF7C6B4E3E520"
+			tasks: [{
+				id: "3F8B6E911F466718"
+				item: "immersiveengineering:transformer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0869ADE5117542E7"
+				"441DBA8F34E2A24D"
+			]
+			id: "7EF00564A1B4F6E5"
+			tasks: [{
+				id: "658F3FAD2804A539"
+				item: "immersiveengineering:connector_mv"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7EF00564A1B4F6E5"]
+			id: "7576D577CA6A96E9"
+			tasks: [{
+				id: "335F00C6FA77309D"
+				item: "immersiveengineering:connector_mv_relay"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B380D07645899F1"]
+			id: "38366033168B23BB"
+			tasks: [{
+				id: "16EA95B562D2BA4B"
+				item: "immersiveengineering:wirecoil_copper"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"22A166C0303A6C2C"
+				"441DBA8F34E2A24D"
+			]
+			id: "7B380D07645899F1"
+			tasks: [{
+				id: "3E097FC8124CD7F0"
+				item: "immersiveengineering:connector_lv"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B380D07645899F1"]
+			id: "6C75F85F802E0A88"
+			tasks: [{
+				id: "2948D25892727C5B"
+				item: "immersiveengineering:connector_lv_relay"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00D5777E656DAA30"]
+			id: "31DE192D3EFD34EF"
+			optional: true
+			tasks: [{
+				id: "68036C9AF095B8B9"
+				item: "immersiveengineering:wirecoil_electrum_ins"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38366033168B23BB"]
+			id: "3646281AD49607DD"
+			optional: true
+			tasks: [{
+				id: "4B2785D7F2906F3A"
+				item: "immersiveengineering:wirecoil_copper_ins"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"38366033168B23BB"
+				"235ACBD7C99AC92A"
+			]
+			id: "118AD79D3E73AEEF"
+			tasks: [{
+				id: "58F55A8F32FA2CB5"
+				item: "immersiveengineering:electromagnet"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["38366033168B23BB"]
+			id: "2E7157AABC426F9A"
+			tasks: [{
+				id: "0E89DD260AD39588"
+				item: "immersiveengineering:coil_lv"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2E7157AABC426F9A"]
+			id: "69195169E25CD477"
+			tasks: [{
+				id: "7E4C0A10AD052EB7"
+				item: "immersiveengineering:turntable"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E7157AABC426F9A"]
+			id: "7747897E9A7DC097"
+			tasks: [{
+				id: "5F1915847116CED6"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7747897E9A7DC097"
+				"050A7A7C88808BC3"
+			]
+			id: "31F6283C1E58334B"
+			tasks: [{
+				id: "1A412E1BAC9F12E8"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"31F6283C1E58334B"
+				"4F308037BC126955"
+			]
+			id: "3139D8FDE2E8F5CF"
+			tasks: [{
+				id: "67675971A1B57831"
+				item: "immersiveengineering:windmill_sail"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["05650AC62A1211C2"]
+			hide_dependent_lines: true
+			id: "4F308037BC126955"
+			tasks: [{
+				id: "2790351B2EB5928E"
+				item: "immersiveengineering:hemp_fabric"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55710AADAA7339AD"]
+			id: "05650AC62A1211C2"
+			tasks: [{
+				id: "6E5B418783CA91A6"
+				item: "immersiveengineering:hemp_fiber"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			id: "55710AADAA7339AD"
+			tasks: [{
+				id: "7DBBD1664133C63D"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
 		}
 	]
 	title: "Immersive Engineering"
