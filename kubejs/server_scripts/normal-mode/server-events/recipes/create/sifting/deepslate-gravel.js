@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:diamond').withChance(0.25),
         Item.of('powah:uraninite_raw').withChance(0.25),
         Item.of('irons_spellbooks:raw_mithril').withChance(0.25),
-        Item.of('forbidden_arcanus:arcane_crystal').withChance(0.125)
+        Item.of('forbidden_arcanus:arcane_crystal').withChance(0.125),
+        Item.of('forbidden_arcanus:rune').withChance(0.0625)
     ], ['infinite_horizons_tweaks:deepslate_gravel','kubejs:netherite_mesh']).id('kubejs:recipes/createsiftersifting/netherite/deepslate');
 });
