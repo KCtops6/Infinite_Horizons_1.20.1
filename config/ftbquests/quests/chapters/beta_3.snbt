@@ -1779,6 +1779,17 @@
 			x: 8.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "68B6573E542633B2"
+			tasks: [{
+				id: "6B89E0C5A4DA6F34"
+				item: "infinite_resources:aluminum_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
 	]
 	title: "Beta"
 }
