@@ -10,7 +10,6 @@ ServerEvents.recipes(event => {
     ], ['createsifter:dust','kubejs:iron_mesh']).id('kubejs:recipes/createsiftersifting/iron/dust');
     event.recipes.createsifterSifting([
         Item.of('minecraft:redstone').withChance(0.5),
-        Item.of('mysticalagriculture:prosperity_shard').withChance(0.5),
-        Item.of('forbidden_arcanus:arcane_crystal_dust').withChance(0.125)
+        Item.of('mysticalagriculture:prosperity_shard').withChance(0.5)
     ], ['createsifter:dust','createsifter:brass_mesh']).id('kubejs:recipes/createsiftersifting/brass/dust');
 });
