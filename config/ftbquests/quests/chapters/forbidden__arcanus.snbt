@@ -9,17 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "5D3B08E08C06BAB8"
-			tasks: [{
-				id: "1C32992B5297E5E1"
-				item: "forbidden_arcanus:arcane_crystal"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5D3B08E08C06BAB8"]
+			dependencies: ["13EF0057FFD9C2E9"]
 			id: "48EB03102CD69805"
 			tasks: [{
 				id: "73DE8FAD71F96247"
@@ -207,6 +197,10 @@
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"3949B38795D8BB00"
+				"0A87B874851CD1B0"
+			]
 			icon: "forbidden_arcanus:obsidian_ingot"
 			id: "2B07FCC00FBA7F8E"
 			tasks: [
@@ -830,7 +824,7 @@
 		{
 			dependencies: [
 				"363E2BEA79219D62"
-				"5D3B08E08C06BAB8"
+				"13EF0057FFD9C2E9"
 			]
 			hide_dependency_lines: true
 			id: "629D7F47AFA4BB7E"
@@ -866,6 +860,28 @@
 			}]
 			x: 1.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["48EB03102CD69805"]
+			id: "05E14A9FB862D2D5"
+			tasks: [{
+				id: "0AA6763620012DDB"
+				item: "forbidden_arcanus:arcane_bone_meal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["426C7AF2A4441853"]
+			id: "13EF0057FFD9C2E9"
+			tasks: [{
+				id: "2F46DCF95FADFD67"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Forbidden and Arcanus"
