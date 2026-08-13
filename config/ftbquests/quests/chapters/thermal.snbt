@@ -870,6 +870,420 @@
 			x: -1.0d
 			y: -4.5d
 		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "25A3630EBA75CDDF"
+			tasks: [{
+				id: "5EBFE615EF82FB86"
+				item: "thermal:basalz_rod"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25A3630EBA75CDDF"]
+			id: "503F24833F350335"
+			tasks: [{
+				id: "2088181E7CFE3FCD"
+				item: "thermal:basalz_powder"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "74DF0D773C05D1B3"
+			tasks: [{
+				id: "67339ED032D1E02C"
+				item: "thermal:blitz_rod"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74DF0D773C05D1B3"]
+			id: "599FC909CE9866E8"
+			tasks: [{
+				id: "51A0334A8A849034"
+				item: "thermal:blitz_powder"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["100DEC7DE58FE84A"]
+			id: "452B9621B48DF3F0"
+			tasks: [{
+				id: "07CD174289D5F0B1"
+				item: "thermal:blizz_rod"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["452B9621B48DF3F0"]
+			id: "6250305273A237E3"
+			tasks: [{
+				id: "1A6C7053C2A6970C"
+				item: "thermal:blizz_powder"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"25A3630EBA75CDDF"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:basalz_essence"
+			id: "79A0706C18DB6925"
+			optional: true
+			rewards: [
+				{
+					id: "6807ABB44DDCB397"
+					item: "mysticalagriculture:basalz_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "51C3CCC9C0F9CCAC"
+					item: "mysticalagriculture:basalz_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "114874184E73F25D"
+					item: "mysticalagriculture:basalz_seeds"
+					type: "item"
+				}
+				{
+					id: "38F279D9B47C02CD"
+					item: "mysticalagriculture:basalz_essence"
+					type: "item"
+				}
+			]
+			x: -7.25d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"74DF0D773C05D1B3"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:blitz_essence"
+			id: "54932553E80B80C1"
+			optional: true
+			rewards: [
+				{
+					id: "536B1B50AA45684B"
+					item: "mysticalagriculture:blitz_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3F79B743E9CAD3E3"
+					item: "mysticalagriculture:blitz_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "43996B2C422587C2"
+					item: "mysticalagriculture:blitz_seeds"
+					type: "item"
+				}
+				{
+					id: "0549AA3808D92EDC"
+					item: "mysticalagriculture:blitz_essence"
+					type: "item"
+				}
+			]
+			x: -7.25d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"452B9621B48DF3F0"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:blizz_essence"
+			id: "1D1A3A82077AB32A"
+			optional: true
+			rewards: [
+				{
+					id: "1ADC536FE8190C64"
+					item: "mysticalagriculture:blizz_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "51E8A413E2498041"
+					item: "mysticalagriculture:blizz_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "4D0E43FEFD14DFAC"
+					item: "mysticalagriculture:blizz_seeds"
+					type: "item"
+				}
+				{
+					id: "38880936FED5D455"
+					item: "mysticalagriculture:blizz_essence"
+					type: "item"
+				}
+			]
+			x: -7.25d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"50C8C7B0E71E325D"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:enderium_essence"
+			id: "7A537B9AFE415866"
+			optional: true
+			rewards: [
+				{
+					id: "440EDE893C9EDB6B"
+					item: "mysticalagriculture:enderium_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "420AF81EA15E63DD"
+					item: "mysticalagriculture:enderium_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "0FDF4E96560FCD41"
+					item: "mysticalagriculture:enderium_seeds"
+					type: "item"
+				}
+				{
+					id: "6AE1887B8F49860C"
+					item: "mysticalagriculture:enderium_essence"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.75d
+		}
+		{
+			dependencies: [
+				"5D848CC085077117"
+				"700D0FB31E0D600E"
+			]
+			id: "4C402D9601BCCB78"
+			tasks: [{
+				id: "6B5550E7E88E5765"
+				item: "redstone_arsenal:flux_gem"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"700D0FB31E0D600E"
+				"0869ADE5117542E7"
+			]
+			id: "62A989F968B42C74"
+			tasks: [{
+				id: "4224E2E715BDDAFE"
+				item: "redstone_arsenal:flux_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"4C402D9601BCCB78"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:flux_infused_gem_essence"
+			id: "30B0CA3547A1E12F"
+			optional: true
+			rewards: [
+				{
+					id: "458CB6A8C36F6347"
+					item: "mysticalagriculture:flux_infused_gem_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "47F1E5DD65F57B1A"
+					item: "mysticalagriculture:flux_infused_gem_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "6FDD372174C9461A"
+					item: "mysticalagriculture:flux_infused_gem_seeds"
+					type: "item"
+				}
+				{
+					id: "27CB27F87532696D"
+					item: "mysticalagriculture:flux_infused_gem_essence"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"62A989F968B42C74"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:flux_infused_ingot_essence"
+			id: "50F8BE5B6A354B2F"
+			optional: true
+			rewards: [
+				{
+					id: "3DEB3BEEAAC08D73"
+					item: "mysticalagriculture:flux_infused_ingot_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "024E53C276FD8099"
+					item: "mysticalagriculture:flux_infused_ingot_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "24F2249E520B363B"
+					item: "mysticalagriculture:flux_infused_ingot_seeds"
+					type: "item"
+				}
+				{
+					id: "4E8D2F96BFBA9DAD"
+					item: "mysticalagriculture:flux_infused_ingot_essence"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"6D4C2A0DEE96F5E1"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:lumium_essence"
+			id: "04DABA08AC37F661"
+			optional: true
+			rewards: [
+				{
+					id: "4DD2BD61B5BB4450"
+					item: "mysticalagriculture:lumium_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2553292B5D036512"
+					item: "mysticalagriculture:lumium_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "5ADE7D692AB68EC1"
+					item: "mysticalagriculture:lumium_seeds"
+					type: "item"
+				}
+				{
+					id: "1F8AEE46AF05256B"
+					item: "mysticalagriculture:lumium_essence"
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"335B25AE96ACFDEF"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:signalum_essence"
+			id: "10789EB2CE3619C4"
+			optional: true
+			rewards: [
+				{
+					id: "7E9B3381876BDE36"
+					item: "mysticalagriculture:signalum_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1DC10DE45D11E3D0"
+					item: "mysticalagriculture:signalum_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "7AFE79946DD32B88"
+					item: "mysticalagriculture:signalum_seeds"
+					type: "item"
+				}
+				{
+					id: "4B83843F6B505FF1"
+					item: "mysticalagriculture:signalum_essence"
+					type: "item"
+				}
+			]
+			x: -0.75d
+			y: 4.0d
+		}
 	]
 	title: "Thermal"
 }
