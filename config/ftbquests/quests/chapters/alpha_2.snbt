@@ -686,17 +686,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["307577AF1F361688"]
-			id: "69385CCE6FF31DEB"
-			tasks: [{
-				id: "5AED953FDCC10BC6"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
-			x: 17.0d
-			y: -7.0d
-		}
-		{
 			dependencies: [
 				"2E27C65E12B61E06"
 				"33A3E11BD0EB479B"
@@ -3389,40 +3378,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6A6C399AB9F1BBE0"]
-			icon: "minecraft:iron_ingot"
-			id: "3949B38795D8BB00"
-			rewards: [
-				{
-					id: "2A3ABBA50933B690"
-					item: "minecraft:iron_ingot"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "251A987C419A7097"
-					item: "minecraft:gravel"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "10E76F216FB646FB"
-					item: "minecraft:iron_nugget"
-					type: "item"
-				}
-				{
-					id: "7C7C0C4761C7BD46"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["1FADC12C45773E6E"]
 			id: "50DC97DAA1140517"
 			tasks: [{
@@ -3574,6 +3529,51 @@
 			}]
 			x: 10.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["6A6C399AB9F1BBE0"]
+			icon: "minecraft:iron_ingot"
+			id: "3949B38795D8BB00"
+			rewards: [
+				{
+					id: "2A3ABBA50933B690"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "251A987C419A7097"
+					item: "minecraft:gravel"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "10E76F216FB646FB"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "7C7C0C4761C7BD46"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["307577AF1F361688"]
+			id: "69385CCE6FF31DEB"
+			tasks: [{
+				id: "5AED953FDCC10BC6"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.0d
 		}
 	]
 	title: "Alpha"
