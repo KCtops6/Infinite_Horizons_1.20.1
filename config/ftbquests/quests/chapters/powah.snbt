@@ -267,181 +267,6 @@
 			y: -1.25d
 		}
 		{
-			dependencies: ["4A998FEAA714CFA4"]
-			hide_dependency_lines: true
-			id: "55430AA1A7357150"
-			optional: true
-			rewards: [
-				{
-					count: 5
-					id: "18B4FA8D0BB40F1E"
-					item: "mysticalagriculture:energized_steel_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "52BAA6F0FD7F3565"
-					item: "mysticalagriculture:imperium_farmland"
-					type: "item"
-				}
-				{
-					id: "3735A557CC1FC4D4"
-					item: "mysticalagriculture:energized_steel_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "6C672B0FDBF8C0A5"
-				item: "mysticalagriculture:energized_steel_seeds"
-				type: "item"
-			}]
-			x: 5.75d
-			y: -2.0d
-		}
-		{
-			dependencies: ["603EB590FEB70BDB"]
-			hide_dependency_lines: true
-			id: "2E6A30075DF7872E"
-			optional: true
-			rewards: [
-				{
-					id: "2A3FE5C05C12EA54"
-					item: "mysticalagriculture:blazing_crystal_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "4ECB07B9563937B2"
-					item: "mysticalagriculture:blazing_crystal_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "69012DDA6561C234"
-					item: "mysticalagriculture:imperium_farmland"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "20B9800585ECA1AE"
-				item: "mysticalagriculture:blazing_crystal_seeds"
-				type: "item"
-			}]
-			x: 5.75d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2AED91EE2560B012"]
-			hide_dependency_lines: true
-			id: "45D632FE8F2382B1"
-			optional: true
-			rewards: [
-				{
-					id: "4E54D6255B2A3C7D"
-					item: "mysticalagriculture:niotic_crystal_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "39AAA1D3F46A92C9"
-					item: "mysticalagriculture:niotic_crystal_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "1CA446BFC07F6714"
-					item: "mysticalagriculture:supremium_farmland"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "209076A3FE6FB28B"
-				item: "mysticalagriculture:niotic_crystal_seeds"
-				type: "item"
-			}]
-			x: 5.75d
-			y: 0.0d
-		}
-		{
-			dependencies: ["343CAC4CE1235C0A"]
-			hide_dependency_lines: true
-			id: "756BDC996CB86C28"
-			optional: true
-			rewards: [
-				{
-					id: "7F4A6504B2D2A13F"
-					item: "mysticalagriculture:spirited_crystal_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "1791B403B2BA7F71"
-					item: "mysticalagriculture:spirited_crystal_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "0A8DBB24741C7EF1"
-					item: "mysticalagriculture:supremium_farmland"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "09A7385804FA4192"
-				item: "mysticalagriculture:spirited_crystal_seeds"
-				type: "item"
-			}]
-			x: 5.75d
-			y: 1.0d
-		}
-		{
-			dependencies: ["540329442EDB4177"]
-			hide_dependency_lines: true
-			id: "4F835E5D00CEF294"
-			optional: true
-			rewards: [
-				{
-					id: "0961019623C06150"
-					item: "mysticalagriculture:nitro_crystal_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "1AE1D7DEF177C558"
-					item: "mysticalagriculture:nitro_crystal_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "53CD4B7EBCFA2CC9"
-					item: "mysticalagradditions:insanium_farmland"
-					type: "item"
-				}
-				{
-					id: "127DD36B9817AE29"
-					item: "mysticalagradditions:nitro_crystal_crux"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "4F1E518EF58184A7"
-				item: "mysticalagriculture:nitro_crystal_seeds"
-				type: "item"
-			}]
-			x: 7.75d
-			y: -1.0d
-		}
-		{
 			dependencies: ["7C5EB8071E64881D"]
 			icon: "powah:uraninite"
 			id: "00204A27B1AB1C4D"
@@ -509,6 +334,166 @@
 			}]
 			x: 3.75d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"603EB590FEB70BDB"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:blazing_crystal_essence"
+			id: "70A9DE1B8BBB854F"
+			optional: true
+			rewards: [
+				{
+					id: "4B5D03A285BC2957"
+					item: "mysticalagriculture:blazing_crystal_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "149C405E3854C5FA"
+					item: "mysticalagriculture:blazing_crystal_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "7ADE1852AB5FF5B2"
+					item: "mysticalagriculture:blazing_crystal_seeds"
+					type: "item"
+				}
+				{
+					id: "7912507A501B9802"
+					item: "mysticalagriculture:blazing_crystal_essence"
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"4A998FEAA714CFA4"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:energized_steel_essence"
+			id: "50E561371C2180BE"
+			optional: true
+			rewards: [
+				{
+					id: "54D897F9EBCDB177"
+					item: "mysticalagriculture:energized_steel_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "788F59BB5DAFDFED"
+					item: "mysticalagriculture:energized_steel_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "6DE3A21DF65D56F4"
+					item: "mysticalagriculture:energized_steel_seeds"
+					type: "item"
+				}
+				{
+					id: "57B78B0F8EE583D4"
+					item: "mysticalagriculture:energized_steel_essence"
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"2AED91EE2560B012"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:niotic_crystal_essence"
+			id: "0FBC3AB7B968A107"
+			optional: true
+			rewards: [
+				{
+					id: "039D45C2AD63CF07"
+					item: "mysticalagriculture:niotic_crystal_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "210FC8192D2AD8C2"
+					item: "mysticalagriculture:niotic_crystal_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "394C62FCCCF05B0A"
+					item: "mysticalagriculture:niotic_crystal_seeds"
+					type: "item"
+				}
+				{
+					id: "6BD9906868BEDAFD"
+					item: "mysticalagriculture:niotic_crystal_essence"
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"540329442EDB4177"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:nitro_crystal_essence"
+			id: "439ECA299D07601D"
+			optional: true
+			rewards: [
+				{
+					id: "76DBC0CC4555FA70"
+					item: "mysticalagriculture:nitro_crystal_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "145F121A6BFAC169"
+					item: "mysticalagriculture:nitro_crystal_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "4C440E199C350FAB"
+					item: "mysticalagriculture:nitro_crystal_seeds"
+					type: "item"
+				}
+				{
+					id: "5B09C916C6E3C8D5"
+					item: "mysticalagriculture:nitro_crystal_essence"
+					type: "item"
+				}
+			]
+			x: 7.75d
+			y: -1.0d
 		}
 	]
 	title: "Powah!"
