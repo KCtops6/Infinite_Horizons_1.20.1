@@ -516,32 +516,6 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["301E86183E9E6B07"]
-			id: "23B3D34FC2286798"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "4B91C6DCA299B558"
-				item: "mysticalagriculture:gaia_spirit_seeds"
-				type: "item"
-			}]
-			x: 7.25d
-			y: 9.75d
-		}
-		{
-			dependencies: ["1DFDB61E832B6699"]
-			id: "776DE045E7605C17"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "30FFFED8C8841C19"
-				item: "mysticalagriculture:elementium_seeds"
-				type: "item"
-			}]
-			x: 6.25d
-			y: 8.25d
-		}
-		{
 			dependencies: ["54781E0285A2CC4C"]
 			id: "379D34EC6621923E"
 			optional: true
@@ -553,19 +527,6 @@
 			}]
 			x: 7.25d
 			y: 6.25d
-		}
-		{
-			dependencies: ["445116D90D69F2B8"]
-			id: "7C440EA01B903CA3"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "344B4606F8A94A3C"
-				item: "mysticalagriculture:manasteel_seeds"
-				type: "item"
-			}]
-			x: 6.25d
-			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -2074,6 +2035,126 @@
 			}]
 			x: 1.0d
 			y: 0.75d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"1DFDB61E832B6699"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:elementium_essence"
+			id: "267F8831604C8DC3"
+			optional: true
+			rewards: [
+				{
+					id: "1D9F89AB2E3CC191"
+					item: "mysticalagriculture:elementium_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "49E1114BAD61DC4B"
+					item: "mysticalagriculture:elementium_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "0759953C0A22A52E"
+					item: "mysticalagriculture:elementium_seeds"
+					type: "item"
+				}
+				{
+					id: "67F6FFC1A967947E"
+					item: "mysticalagriculture:elementium_essence"
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"301E86183E9E6B07"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:gaia_spirit_essence"
+			id: "67D1ACD959B88312"
+			optional: true
+			rewards: [
+				{
+					id: "7C125C3F7CA6F228"
+					item: "mysticalagriculture:gaia_spirit_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "20A914AE9ADD308F"
+					item: "mysticalagriculture:gaia_spirit_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "561DBDB82013D6A7"
+					item: "mysticalagriculture:gaia_spirit_seeds"
+					type: "item"
+				}
+				{
+					id: "46D41470645065F6"
+					item: "mysticalagriculture:gaia_spirit_essence"
+					type: "item"
+				}
+			]
+			x: 7.25d
+			y: 9.75d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"445116D90D69F2B8"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:manasteel_essence"
+			id: "3911B3B7610B3414"
+			optional: true
+			rewards: [
+				{
+					id: "56A12D0E4AD73D0E"
+					item: "mysticalagriculture:manasteel_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1A1FA89F5341253A"
+					item: "mysticalagriculture:manasteel_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "4197983FE57B9EA8"
+					item: "mysticalagriculture:manasteel_seeds"
+					type: "item"
+				}
+				{
+					id: "49BEDF89E714B505"
+					item: "mysticalagriculture:manasteel_essence"
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: -0.75d
 		}
 	]
 	title: "Botania"
