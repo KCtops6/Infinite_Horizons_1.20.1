@@ -46,6 +46,11 @@ BlockEvents.rightClicked('kubejs:dormant_trial_spawner', event => {
         TRIAL_CONFIG['ars_nouveau:purple_archwood_wood'] = { mob: 'ars_nouveau:wilden_hunter'};
         TRIAL_CONFIG['ars_nouveau:red_archwood_wood'] = { mob: 'ars_nouveau:wilden_stalker'};
     }
+    if (Platform.isLoaded('thermal')) {
+        TRIAL_CONFIG['thermal:slag_block'] = { mob: 'thermal:basalz' };
+        TRIAL_CONFIG['kubejs:niter_block'] = { mob: 'thermal:blitz' };
+        TRIAL_CONFIG['minecraft:snow_block'] = { mob: 'thermal:blizz'}
+    }
     if (item.id !== 'kubejs:trial_core') return;
     const TIME = level.getDayTime() % 24000;
     if (TIME < 13000 || TIME > 23000) {
