@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
         Item.of('infinite_resources:raw_silver').withChance(0.125),
         Item.of('minecraft:diamond').withChance(0.0625),
         Item.of('powah:uraninite_raw').withChance(0.0625),
+        Item.of('mekanism:fluorite_gem').withChance(0.125),
         Item.of('irons_spellbooks:raw_mithril').withChance(0.0625)
     ], ['infinite_horizons_tweaks:deepslate_gravel','kubejs:iron_mesh']).id('kubejs:recipes/createsiftersifting/iron/deepslate');
     event.recipes.createsifterSifting([
@@ -27,6 +28,7 @@ ServerEvents.recipes(event => {
         Item.of('infinite_resources:raw_uranium').withChance(0.125),
         Item.of('minecraft:diamond').withChance(0.125),
         Item.of('powah:uraninite_raw').withChance(0.125),
+        Item.of('mekanism:fluorite_gem').withChance(0.25),
         Item.of('irons_spellbooks:raw_mithril').withChance(0.125)
     ], ['infinite_horizons_tweaks:deepslate_gravel','createsifter:brass_mesh']).id('kubejs:recipes/createsiftersifting/brass/deepslate');
     event.recipes.createsifterSifting([
@@ -39,6 +41,7 @@ ServerEvents.recipes(event => {
         Item.of('infinite_resources:raw_uranium').withChance(0.25),
         Item.of('minecraft:diamond').withChance(0.25),
         Item.of('powah:uraninite_raw').withChance(0.25),
+        Item.of('mekanism:fluorite_gem').withChance(0.375),
         Item.of('irons_spellbooks:raw_mithril').withChance(0.25),
         Item.of('forbidden_arcanus:arcane_crystal').withChance(0.125),
         Item.of('forbidden_arcanus:rune').withChance(0.0625)
