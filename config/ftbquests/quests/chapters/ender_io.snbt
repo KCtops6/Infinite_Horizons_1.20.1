@@ -98,39 +98,6 @@
 		}
 		{
 			dependencies: ["352C1AA348A4FDB9"]
-			id: "71691EC96FC119DE"
-			optional: true
-			rewards: [
-				{
-					id: "76DBCCBF7D8E5100"
-					item: "mysticalagriculture:grains_of_infinity_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "43E27E508A306AC2"
-					item: "mysticalagriculture:grains_of_infinity_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "20D97F56FE0C8CDD"
-					item: "mysticalagriculture:prudentium_farmland"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "468BC8A4E2D1C879"
-				item: "mysticalagriculture:grains_of_infinity_seeds"
-				type: "item"
-			}]
-			x: -1.75d
-			y: 1.0d
-		}
-		{
-			dependencies: ["352C1AA348A4FDB9"]
 			id: "1B728B6A6A47A7BB"
 			tasks: [{
 				id: "22F14142A7CC392B"
@@ -278,45 +245,6 @@
 			}]
 			x: -1.25d
 			y: 0.25d
-		}
-		{
-			dependencies: ["79A1C49DCA5A913E"]
-			id: "716632E10490DCA3"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "130BBAC009BEBB05"
-				item: "mysticalagriculture:dark_steel_seeds"
-				type: "item"
-			}]
-			x: 1.25d
-			y: -0.75d
-		}
-		{
-			dependencies: ["726D12A03C52D262"]
-			id: "0E519330BDB7FC3F"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "57A9EDF9C9C73A6E"
-				item: "mysticalagriculture:end_steel_seeds"
-				type: "item"
-			}]
-			x: 1.25d
-			y: -1.25d
-		}
-		{
-			dependencies: ["644FFA061CE0F228"]
-			id: "39237DD46FBEEE86"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "7B623D74E43DA9F8"
-				item: "mysticalagriculture:energetic_alloy_seeds"
-				type: "item"
-			}]
-			x: 0.25d
-			y: 1.75d
 		}
 		{
 			dependencies: ["353BA5991D363836"]
@@ -510,19 +438,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["418C4C765AC0B171"]
-			id: "385718A5BBCD176B"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "268F7C245CCD4C29"
-				item: "mysticalagriculture:pulsating_alloy_seeds"
-				type: "item"
-			}]
-			x: 1.25d
-			y: -2.0d
-		}
-		{
 			dependencies: ["04E0285D1BDA2650"]
 			id: "28FFD098E04560D1"
 			tasks: [{
@@ -668,19 +583,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["7767F0C5A3227D3B"]
-			id: "4F0657763450A8BF"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "49D45992D75EEE43"
-				item: "mysticalagriculture:copper_alloy_seeds"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.75d
-		}
-		{
 			dependencies: ["246ECED1A2E53E00"]
 			id: "4F8326F3339F7C38"
 			optional: true
@@ -810,19 +712,6 @@
 		}
 		{
 			dependencies: ["30BBC7FD7DC283E6"]
-			id: "5515400FAF99E9E2"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "12CD8D5CAD5EED55"
-				item: "mysticalagriculture:redstone_alloy_seeds"
-				type: "item"
-			}]
-			x: -1.75d
-			y: -1.0d
-		}
-		{
-			dependencies: ["30BBC7FD7DC283E6"]
 			id: "0D0AE2A21FBC8712"
 			tasks: [{
 				id: "286C264DC33A146A"
@@ -831,6 +720,326 @@
 			}]
 			x: -1.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"352C1AA348A4FDB9"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:grains_of_infinity_essence"
+			id: "61CE6CAD7B11FA1C"
+			optional: true
+			rewards: [
+				{
+					id: "3027D7B6408C59D4"
+					item: "mysticalagriculture:grains_of_infinity_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3DCDF4DD1F21CB12"
+					item: "mysticalagriculture:grains_of_infinity_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "04DBB52BC3E79B20"
+					item: "mysticalagriculture:grains_of_infinity_seeds"
+					type: "item"
+				}
+				{
+					id: "76B010DFF5A9D136"
+					item: "mysticalagriculture:grains_of_infinity_essence"
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"2015883799B26409"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:conductive_alloy_essence"
+			id: "2B4821005F6805B3"
+			optional: true
+			rewards: [
+				{
+					id: "3A2DBAFC5BAEBF5D"
+					item: "mysticalagriculture:conductive_alloy_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "793E02633A90783B"
+					item: "mysticalagriculture:conductive_alloy_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "1FDFD6379CBB6E3A"
+					item: "mysticalagriculture:conductive_alloy_seeds"
+					type: "item"
+				}
+				{
+					id: "71366D462617F14B"
+					item: "mysticalagriculture:conductive_alloy_essence"
+					type: "item"
+				}
+			]
+			x: -1.25d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"7767F0C5A3227D3B"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:copper_alloy_essence"
+			id: "65171CFF161051F2"
+			optional: true
+			rewards: [
+				{
+					id: "39A769487BF0B7AF"
+					item: "mysticalagriculture:copper_alloy_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4B6E6E7FEAD7A440"
+					item: "mysticalagriculture:copper_alloy_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "4C012689D5B1B787"
+					item: "mysticalagriculture:copper_alloy_seeds"
+					type: "item"
+				}
+				{
+					id: "4EDAFCE5DD8CB849"
+					item: "mysticalagriculture:copper_alloy_essence"
+					type: "item"
+				}
+			]
+			x: -0.25d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"79A1C49DCA5A913E"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:dark_steel_essence"
+			id: "60BCD8CBE0A26A74"
+			optional: true
+			rewards: [
+				{
+					id: "1FE228C49C7ED0C7"
+					item: "mysticalagriculture:dark_steel_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7748F97AB76C3885"
+					item: "mysticalagriculture:dark_steel_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "68DB703A25B3B7FA"
+					item: "mysticalagriculture:dark_steel_seeds"
+					type: "item"
+				}
+				{
+					id: "30199E6B3B55E3F3"
+					item: "mysticalagriculture:dark_steel_essence"
+					type: "item"
+				}
+			]
+			x: 1.25d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"726D12A03C52D262"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:end_steel_essence"
+			id: "4E4A025742E37C6F"
+			optional: true
+			rewards: [
+				{
+					id: "5376059957D9960D"
+					item: "mysticalagriculture:end_steel_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "64D00CACD8061CE7"
+					item: "mysticalagriculture:end_steel_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "3C8824795527F655"
+					item: "mysticalagriculture:end_steel_seeds"
+					type: "item"
+				}
+				{
+					id: "17781969EE7F0758"
+					item: "mysticalagriculture:end_steel_essence"
+					type: "item"
+				}
+			]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"644FFA061CE0F228"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:energetic_alloy_essence"
+			id: "31ACD24F65D47843"
+			optional: true
+			rewards: [
+				{
+					id: "64445353A2DB42C9"
+					item: "mysticalagriculture:energetic_alloy_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2AB505780C228470"
+					item: "mysticalagriculture:energetic_alloy_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "09EC39CCB1954153"
+					item: "mysticalagriculture:energetic_alloy_seeds"
+					type: "item"
+				}
+				{
+					id: "243DD2F606455E6E"
+					item: "mysticalagriculture:energetic_alloy_essence"
+					type: "item"
+				}
+			]
+			x: 0.25d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"418C4C765AC0B171"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:pulsating_alloy_essence"
+			id: "09D4CBE602758E35"
+			optional: true
+			rewards: [
+				{
+					id: "4059904134672A46"
+					item: "mysticalagriculture:pulsating_alloy_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1BA5ECCA46126E52"
+					item: "mysticalagriculture:pulsating_alloy_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "70DF37721F1A9717"
+					item: "mysticalagriculture:pulsating_alloy_seeds"
+					type: "item"
+				}
+				{
+					id: "101EEA3208393C45"
+					item: "mysticalagriculture:pulsating_alloy_essence"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"30BBC7FD7DC283E6"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:redstone_alloy_essence"
+			id: "253F2151F12E7F7F"
+			optional: true
+			rewards: [
+				{
+					id: "1F56456D3B6FDAD6"
+					item: "mysticalagriculture:redstone_alloy_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1856C048668E5788"
+					item: "mysticalagriculture:redstone_alloy_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "23F52706554EAA12"
+					item: "mysticalagriculture:redstone_alloy_seeds"
+					type: "item"
+				}
+				{
+					id: "0A02E90ED4BE96F5"
+					item: "mysticalagriculture:redstone_alloy_essence"
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: -1.0d
 		}
 	]
 	title: "Ender IO"
