@@ -666,6 +666,46 @@
 			x: 2.0d
 			y: -5.0d
 		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"300A316F55E81B89"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:menril_essence"
+			id: "21356406E33DD0EC"
+			optional: true
+			rewards: [
+				{
+					id: "185BC8761A2E2DE4"
+					item: "mysticalagriculture:menril_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5861A6B4A28F3F66"
+					item: "mysticalagriculture:menril_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "7F7EB187586BA2D0"
+					item: "mysticalagriculture:menril_seeds"
+					type: "item"
+				}
+				{
+					id: "7877147786BF3F29"
+					item: "mysticalagriculture:menril_essence"
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 0.0d
+		}
 	]
 	title: "Integrated Mods"
 }
