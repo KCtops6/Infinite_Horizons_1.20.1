@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["50DC97DAA1140517"]
 			id: "2DFBB0336A4694C8"
 			tasks: [{
 				id: "7945B7ED0F9558A3"
@@ -18,6 +19,10 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"3949B38795D8BB00"
+				"69385CCE6FF31DEB"
+			]
 			id: "7BC01DF5B4543043"
 			tasks: [{
 				id: "62422963D6001031"
@@ -443,40 +448,6 @@
 			}]
 			x: 4.0d
 			y: 9.0d
-		}
-		{
-			dependencies: ["7BC01DF5B4543043"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "11F67C8430DF1652"
-			rewards: [
-				{
-					id: "05A5DF2DF30E6FFA"
-					item: "mysticalagriculture:quartz_enriched_iron_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 5
-					id: "5DEFB85AD7E9071E"
-					item: "mysticalagriculture:quartz_enriched_iron_essence"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "2D56580E10FCD2A7"
-					item: "mysticalagriculture:tertium_farmland"
-					type: "item"
-				}
-			]
-			size: 0.5d
-			tasks: [{
-				id: "0385009815F8761E"
-				item: "mysticalagriculture:quartz_enriched_iron_seeds"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.75d
 		}
 		{
 			dependencies: [
@@ -1090,6 +1061,46 @@
 			}]
 			x: 9.0d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"7BC01DF5B4543043"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:quartz_enriched_iron_essence"
+			id: "28152096A277E1BF"
+			optional: true
+			rewards: [
+				{
+					id: "48FE99F63721A216"
+					item: "mysticalagriculture:quartz_enriched_iron_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "667994182CF51AD4"
+					item: "mysticalagriculture:quartz_enriched_iron_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "18D224F06ADE3A48"
+					item: "mysticalagriculture:quartz_enriched_iron_seeds"
+					type: "item"
+				}
+				{
+					id: "3457DF911ED1069D"
+					item: "mysticalagriculture:quartz_enriched_iron_essence"
+					type: "item"
+				}
+			]
+			x: -0.75d
+			y: 0.0d
 		}
 	]
 	title: "Refined Storage"
