@@ -1580,27 +1580,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"0AC851170B41AD02"
-				"182338376E9A5415"
-			]
-			description: ["Deepslate gravel gives you a bunch of more expensive resources compared to normal gravel."]
-			id: "426C7AF2A4441853"
-			rewards: [{
-				id: "0123A1274072A6A5"
-				item: "kubejs:deepslate_gravel"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "535B8EC55E6885A4"
-				item: "kubejs:deepslate_gravel"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["513D936FBE83EC2D"]
 			id: "2DC5C9586D6CD142"
 			rewards: [
@@ -1789,6 +1768,27 @@
 			}]
 			x: 6.0d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0AC851170B41AD02"
+				"182338376E9A5415"
+			]
+			description: ["Deepslate gravel gives you a bunch of more expensive resources compared to normal gravel."]
+			id: "426C7AF2A4441853"
+			rewards: [{
+				id: "0123A1274072A6A5"
+				item: "kubejs:deepslate_gravel"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "535B8EC55E6885A4"
+				item: "kubejs:deepslate_gravel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
 		}
 	]
 	title: "Beta"
