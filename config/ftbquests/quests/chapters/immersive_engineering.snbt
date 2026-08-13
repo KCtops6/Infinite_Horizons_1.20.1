@@ -1316,6 +1316,46 @@
 			x: 0.0d
 			y: 6.0d
 		}
+		{
+			dependencies: [
+				"1D87275915B5E2E1"
+				"7856973790AB6C78"
+			]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:hop_graphite_essence"
+			id: "3FE3493731C534B5"
+			optional: true
+			rewards: [
+				{
+					id: "639F02D4DEB59844"
+					item: "mysticalagriculture:hop_graphite_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7B64C777C3732AAB"
+					item: "mysticalagriculture:hop_graphite_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "17CDFC2AA14946F7"
+					item: "mysticalagriculture:hop_graphite_seeds"
+					type: "item"
+				}
+				{
+					id: "47918F1A1258D5F6"
+					item: "mysticalagriculture:hop_graphite_essence"
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: -0.75d
+		}
 	]
 	title: "Immersive Engineering"
 }
