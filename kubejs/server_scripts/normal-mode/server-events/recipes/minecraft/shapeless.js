@@ -18,11 +18,6 @@ ServerEvents.recipes(event => {
             count: 1
         },
         {
-            inputs: ['createaddition:gold_wire', 'minecraft:netherite_scrap'],
-            output: 'kubejs:netherite_wire',
-            count: 1
-        },
-        {
             inputs: [
                 'mysticalagriculture:end_essence',
                 Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:overworld"}').toJson()

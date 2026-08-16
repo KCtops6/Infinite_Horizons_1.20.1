@@ -18,4 +18,14 @@ ServerEvents.recipes(event => {
             }
         });
     });
+    event.custom({
+        type: "createaddition:rolling",
+        input: {
+            item: 'kubejs:netherite_plate'
+        },
+        result: {
+            item: 'kubejs:netherite_wire',
+            count: 2
+        }
+    });
 });
