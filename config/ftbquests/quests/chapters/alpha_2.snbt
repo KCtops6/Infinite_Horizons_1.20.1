@@ -3765,6 +3765,20 @@
 			x: 11.0d
 			y: -11.0d
 		}
+		{
+			dependencies: [
+				"700D0FB31E0D600E"
+				"2B808ED2E36BDE06"
+			]
+			id: "00361015E2A9BD97"
+			tasks: [{
+				id: "611D4CCFB6BE0D69"
+				item: "minecraft:dispenser"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
 	]
 	title: "Alpha"
 }
