@@ -480,21 +480,12 @@
 			hide_dependency_lines: true
 			id: "4522CA1BF6A049EB"
 			optional: true
-			rewards: [
-				{
-					id: "27AD1366F3C00469"
-					item: "create_connected:empty_fan_catalyst"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "2726E26487ECCAB1"
-					item: "kubejs:brass_ingot"
-					random_bonus: 2
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "27AD1366F3C00469"
+				item: "create_connected:empty_fan_catalyst"
+				random_bonus: 2
+				type: "item"
+			}]
 			size: 0.5d
 			subtitle: "Compact Fan Setup"
 			tasks: [{
@@ -1009,6 +1000,10 @@
 			y: -1.25d
 		}
 		{
+			dependencies: [
+				"3860C369EFED9A6A"
+				"2C4246FE0F55E116"
+			]
 			id: "5C4CBED9380E02E9"
 			optional: true
 			rewards: [
@@ -1035,6 +1030,10 @@
 			y: 8.0d
 		}
 		{
+			dependencies: [
+				"3860C369EFED9A6A"
+				"5907ED4F3349FC3F"
+			]
 			id: "05F5B627BE410210"
 			optional: true
 			rewards: [
@@ -1061,6 +1060,10 @@
 			y: 8.0d
 		}
 		{
+			dependencies: [
+				"3860C369EFED9A6A"
+				"538CE0072EE6CCF7"
+			]
 			id: "60D215F4AA5A1D53"
 			optional: true
 			rewards: [
@@ -1087,6 +1090,10 @@
 			y: 9.0d
 		}
 		{
+			dependencies: [
+				"3860C369EFED9A6A"
+				"10AB2B8FBECE5C7A"
+			]
 			id: "63EE1CFEBE18F303"
 			optional: true
 			rewards: [
@@ -1789,6 +1796,227 @@
 			}]
 			x: 6.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["3A2D9AD05F37A029"]
+			id: "60FB08A4E6A8F592"
+			tasks: [{
+				id: "1B2559A123A34E1D"
+				item: "create:redstone_requester"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7B78742498760C12"
+				"13215F5E19372FBA"
+			]
+			id: "3A2D9AD05F37A029"
+			tasks: [{
+				id: "792833CE280C3B66"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CB2BFF30BA3EF65"]
+			hide_dependency_lines: true
+			id: "7B78742498760C12"
+			tasks: [{
+				id: "48B17FB24CC4F26E"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7B78742498760C12"
+				"50DC97DAA1140517"
+			]
+			id: "59B797324301FE46"
+			tasks: [{
+				id: "4487DB672DB34F6F"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B78742498760C12"]
+			id: "50A9DAEEBB41B181"
+			tasks: [{
+				id: "1C67B3B7B3ACF624"
+				item: "create_connected:item_silo"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3CB2BFF30BA3EF65"
+				"22A166C0303A6C2C"
+			]
+			hide_dependency_lines: true
+			id: "13215F5E19372FBA"
+			tasks: [{
+				id: "5FFD2A3CBE78D904"
+				item: "create:transmitter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13215F5E19372FBA"]
+			id: "73457572B5785FAC"
+			tasks: [{
+				id: "13F68CC637E44567"
+				item: "create:display_link"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13215F5E19372FBA"]
+			id: "74353F30795B8525"
+			tasks: [{
+				id: "54D149046881877A"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13215F5E19372FBA"]
+			id: "543C4CC4FA998E06"
+			tasks: [{
+				id: "1DDF6197DFE37D75"
+				item: "create_connected:redstone_link_wildcard"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1616F0FD5A80DD57"]
+			id: "03E346ACC774A3DC"
+			tasks: [{
+				id: "444AA8820607D25B"
+				item: "create_connected:kinetic_battery"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0189245DDDC8CC79"]
+			id: "1FD4B98B594C0248"
+			tasks: [{
+				id: "5BC4AA3094E9F9CE"
+				item: "create_connected:fluid_vessel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FF3C4BE6D0A1645"]
+			id: "3B9F9EB04967478B"
+			tasks: [{
+				id: "64A87D01B9DFB957"
+				item: "create_connected:inventory_access_port"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B9F9EB04967478B"]
+			id: "139A58C961A812A1"
+			tasks: [{
+				id: "3B81F1FB495D652F"
+				item: "create_connected:inventory_bridge"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E18AC13521A431D"]
+			id: "6B2E7F8DCE25FC59"
+			tasks: [{
+				id: "2C35E419FDD3919F"
+				item: "create_connected:brass_chute"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF3C4BE6D0A1645"]
+			id: "4DC91305CE3FA6A6"
+			tasks: [{
+				id: "194E53520B8DE74D"
+				item: "create:display_board"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4DC91305CE3FA6A6"]
+			id: "04DF44F2711214C3"
+			tasks: [{
+				id: "728F232E14C31C14"
+				item: "create_connected:dashboard"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FF3C4BE6D0A1645"]
+			hide_dependency_lines: true
+			id: "570E6669439AC4F7"
+			tasks: [{
+				id: "6E7FA6C6F48355F2"
+				item: "create_connected:control_chip"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["570E6669439AC4F7"]
+			id: "74D4FEAC91388A0D"
+			tasks: [{
+				id: "2CECD325C720E379"
+				item: "create_connected:sequenced_pulse_generator"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74353F30795B8525"]
+			id: "388E8091FCD3F476"
+			tasks: [{
+				id: "37A53B0C4825F32D"
+				item: "create_connected:linked_transmitter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
 		}
 	]
 	title: "Beta"
