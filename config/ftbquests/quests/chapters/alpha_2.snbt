@@ -1635,8 +1635,8 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: -6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7A65E98B9FE221A7"]
@@ -3574,6 +3574,196 @@
 			}]
 			x: 17.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["2260AD2796A36C0F"]
+			id: "24D91A8AA3A58FAE"
+			tasks: [{
+				id: "1F87221D4A95D79F"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4132CC5C94403FC1"]
+			id: "47AB6EF5B70EF962"
+			tasks: [{
+				id: "00E93768323ADA08"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["73D50C93EBC09617"]
+			id: "4BA3272D120B8788"
+			tasks: [{
+				id: "3C6D1EF58471717C"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2260AD2796A36C0F"]
+			id: "0ADC6F9E59DA22BE"
+			tasks: [{
+				id: "176E335F1A4C3036"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73D50C93EBC09617"]
+			id: "537E7F6B5079EA55"
+			tasks: [{
+				id: "40AD001D1AB3C2F6"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["537E7F6B5079EA55"]
+			id: "28A2363AC152B5F8"
+			tasks: [{
+				id: "4D25724A26B5B52D"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28A2363AC152B5F8"]
+			id: "1717D6152F7E859D"
+			tasks: [{
+				id: "3A4D22FA6F76208A"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73D50C93EBC09617"]
+			id: "01A11BEB8BF1FCF1"
+			tasks: [{
+				id: "724D884F5B4A0026"
+				item: "minecraft:rabbit_foot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D782A701C958BA1"]
+			id: "7E1FD4822A929591"
+			tasks: [{
+				id: "2425A240629D9155"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1EECE22686517B75"]
+			id: "02AF8D363D8A7406"
+			tasks: [{
+				id: "768DEC7E36492A41"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C2B01F07C9A33D8"]
+			id: "1EECE22686517B75"
+			tasks: [{
+				id: "5D0E8DD976F48271"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4C2B01F07C9A33D8"]
+			id: "423D1F924D77DFBA"
+			tasks: [{
+				id: "45167A42969BB439"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["73D50C93EBC09617"]
+			id: "0E4C88CE17C384CE"
+			tasks: [{
+				id: "018872A59E43B3DE"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"45EEE26BEDE8BB98"
+				"7E1FD4822A929591"
+				"5F7A974B68BBA447"
+			]
+			id: "52F949D95DD8FD35"
+			tasks: [{
+				id: "6C29789645083BE4"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["73D50C93EBC09617"]
+			id: "5F7A974B68BBA447"
+			tasks: [{
+				id: "37E7DF128DA0D7FA"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"059DEE889F3D44BF"
+				"7117C1570ECB8884"
+			]
+			dependency_requirement: "one_completed"
+			id: "76F2CC19E39D61FF"
+			tasks: [{
+				id: "16B87A53AA23B6C5"
+				item: "minecraft:mushroom_stew"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -11.0d
 		}
 	]
 	title: "Alpha"
