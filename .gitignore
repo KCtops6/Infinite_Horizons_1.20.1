@@ -140,3 +140,4 @@ config/incontrol/summonaid.json
 config/xnet-client.toml
 config/wikilookup-common.toml
 config/sidebar_buttons.json
+config/necronomicon.json5
