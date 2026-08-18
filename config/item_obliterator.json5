@@ -22,7 +22,8 @@
     "mysticalagradditions:molten_tertium_bucket",
     "mysticalagradditions:molten_imperium_bucket",
     "mysticalagradditions:molten_supremium_bucket",
-    "mysticalagradditions:molten_soulium_bucket"
+    "mysticalagradditions:molten_soulium_bucket",
+    "gtceu:lv_scanner"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
