@@ -1679,8 +1679,8 @@
 				item: "infinite_resources:silver_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -1691,7 +1691,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1705,7 +1705,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["426C7AF2A4441853"]
@@ -1716,7 +1716,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1729,8 +1729,8 @@
 				item: "infinite_resources:electrum_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.0d
+			x: 5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["426C7AF2A4441853"]
@@ -1740,8 +1740,8 @@
 				item: "infinite_resources:nickel_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0A7D6681C604B852"]
@@ -1751,8 +1751,8 @@
 				item: "infinite_resources:constantan_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0A7D6681C604B852"]
@@ -1762,8 +1762,8 @@
 				item: "infinite_resources:invar_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0AC851170B41AD02"]
@@ -1773,8 +1773,8 @@
 				item: "infinite_resources:aluminum_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1795,7 +1795,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3A2D9AD05F37A029"]
@@ -2017,6 +2017,17 @@
 			}]
 			x: -6.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			id: "74985D6FF3B906B0"
+			tasks: [{
+				id: "684783C453E0EA38"
+				item: "infinite_horizons_tweaks:granite_gravel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 	title: "Beta"
