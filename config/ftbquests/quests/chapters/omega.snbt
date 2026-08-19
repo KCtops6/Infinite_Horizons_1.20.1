@@ -881,10 +881,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"3E7A78636DF03BA0"
-				"4A7E637EFA960909"
-			]
+			dependencies: ["4A7E637EFA960909"]
 			id: "0690EFEB771DDDB1"
 			tasks: [{
 				id: "5B46C612316034E0"
@@ -948,7 +945,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["3E7A78636DF03BA0"]
 			id: "3204AE3BB90D13AE"
 			tasks: [{
 				id: "1D32C61CF579A2AF"
