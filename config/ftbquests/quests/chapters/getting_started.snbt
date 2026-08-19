@@ -15,8 +15,8 @@
 				item: "gtceu:primitive_blast_furnace"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.5d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -48,8 +48,8 @@
 				}
 			]
 			title: "Firebricks"
-			x: 8.0d
-			y: 1.5d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -66,8 +66,8 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3949B38795D8BB00"]
@@ -101,8 +101,8 @@
 				title: "Craft a Gregtech Hammer"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["08088452F82B6775"]
@@ -112,8 +112,8 @@
 				item: "infinite_resources:steel_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.5d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["47E9374FF7B69B0B"]
@@ -149,8 +149,8 @@
 				title: "Craft a Gregtech Wrench"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -163,8 +163,8 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 17.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3B2A699613CA7763"]
@@ -174,8 +174,8 @@
 				item: "gtceu:red_alloy_ingot"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 15.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -191,8 +191,8 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -205,8 +205,8 @@
 				item: "gtceu:red_alloy_single_cable"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.0d
+			x: 16.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -219,8 +219,8 @@
 				item: "gtceu:rubber_plate"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["755313D357781AD2"]
@@ -231,8 +231,8 @@
 				item: "gtceu:plate_casting_mold"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.5d
+			x: 17.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -245,8 +245,8 @@
 				item: "gtceu:raw_rubber_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -259,8 +259,8 @@
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -276,8 +276,8 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -291,8 +291,8 @@
 				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3D4CDA0CD2A9EB76"]
@@ -303,8 +303,8 @@
 				item: "gtceu:lp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -318,8 +318,8 @@
 				item: "gtceu:lp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -334,8 +334,8 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -351,8 +351,8 @@
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -368,8 +368,8 @@
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -385,8 +385,8 @@
 				item: "gtceu:lp_steam_rock_crusher"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7A65E98B9FE221A7"]
@@ -396,8 +396,8 @@
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -411,8 +411,8 @@
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2E7BD4BF7E17C0B2"]
@@ -422,8 +422,8 @@
 				item: "infinite_resources:steel_plate"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 1.5d
+			x: 17.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["47E9374FF7B69B0B"]
@@ -455,8 +455,8 @@
 				title: "Craft a Gregtech File"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -469,9 +469,96 @@
 				item: "gtceu:empty_mold"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.5d
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["174A03A3A307D74E"]
+			hide_dependent_lines: true
+			id: "2A53254A678BE73E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_wire_cutter"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "379D827E64A79008"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:tools/crafting_wire_cutters"
+					}
+				}
+				title: "Craft any Wire Cutters"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EBCE448E55DF404"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "174A03A3A307D74E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:iron_screwdriver"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				id: "789A92D0E3A25B1D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:tools/crafting_screwdrivers"
+					}
+				}
+				title: "Craft any Screwdrivers"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2A53254A678BE73E"
+				"0AC851170B41AD02"
+			]
+			id: "774C49D02530F062"
+			tasks: [{
+				id: "1A7D93726D63AFDE"
+				item: {
+					Count: 1
+					id: "kubejs:bronze_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
 		}
 	]
-	title: "Getting Started"
+	title: "Steam Age"
 }
