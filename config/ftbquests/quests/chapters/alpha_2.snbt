@@ -3779,6 +3779,25 @@
 			x: 12.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["722214981D4F15E4"]
+			id: "2EAC5C9267F66043"
+			tasks: [{
+				icon: "minecraft:oak_leaves"
+				id: "159EA8262842FCFC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:leaves"
+					}
+				}
+				title: "Obtain any Leaves"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
 	]
 	title: "Alpha"
 }
