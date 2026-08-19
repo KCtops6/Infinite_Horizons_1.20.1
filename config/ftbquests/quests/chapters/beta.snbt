@@ -2236,40 +2236,6 @@
 		}
 		{
 			dependencies: ["1D87275915B5E2E1"]
-			icon: "mysticalagriculture:fluix_essence"
-			id: "6E62AE18AB9AAE44"
-			rewards: [
-				{
-					id: "0B456133012943AE"
-					item: "mysticalagriculture:fluix_essence"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "515BF4D4539EE3D3"
-					item: "mysticalagriculture:fluix_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6A58438041A48D3B"
-					item: "mysticalagriculture:fluix_seeds"
-					type: "item"
-				}
-				{
-					id: "686237CE001E145E"
-					item: "mysticalagriculture:fluix_essence"
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1D87275915B5E2E1"]
 			icon: "mysticalagriculture:ghast_essence"
 			id: "30B0C685E534F48E"
 			rewards: [
