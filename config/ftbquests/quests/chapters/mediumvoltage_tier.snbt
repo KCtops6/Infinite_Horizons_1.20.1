@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mediumvoltage_tier"
+	group: "347D8BCADE6C05D9"
+	id: "69052E78F759E36D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["22DC3E4D5BDDD918"]
+			id: "7E7B213BD775D494"
+			tasks: [
+				{
+					id: "4F1AECFDC5D78339"
+					item: "gtceu:mv_machine_casing"
+					type: "item"
+				}
+				{
+					id: "7CD58C3BDC5A752D"
+					item: "gtceu:mv_machine_hull"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0FBACFA1971DECEC"
+			tasks: [{
+				id: "495E234F2AFE2B0E"
+				item: "gtceu:copper_single_wire"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FBACFA1971DECEC"]
+			id: "22DC3E4D5BDDD918"
+			tasks: [{
+				id: "1E9EEA797A2C1695"
+				item: "gtceu:copper_single_cable"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EF7A0F0E3F5F166"]
+			id: "70827D04D6776686"
+			tasks: [{
+				id: "32505161A594BE29"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3AE30AF0BC2ADD6B"]
+			id: "4EF7A0F0E3F5F166"
+			tasks: [{
+				id: "7C4CAC47C751E8D9"
+				item: "gtceu:ilc_chip"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1E0836B1CB5400AA"
+				"739D950547BB0072"
+			]
+			id: "3AE30AF0BC2ADD6B"
+			tasks: [{
+				id: "2F201637C28BBB43"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "1E0836B1CB5400AA"
+			tasks: [{
+				id: "78863227456EF8B1"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1D5DC363F52471C5"
+				"04873F877E8E0BEF"
+			]
+			id: "739D950547BB0072"
+			tasks: [{
+				id: "048709B5F46BAFCA"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "1D5DC363F52471C5"
+			tasks: [{
+				id: "7F6159CC5193F905"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "04873F877E8E0BEF"
+			tasks: [{
+				id: "7859EA2AA06D38D3"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+	]
+	title: "Medium-Voltage Tier"
+}
