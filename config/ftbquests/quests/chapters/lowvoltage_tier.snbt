@@ -896,6 +896,94 @@
 			x: 22.0d
 			y: 3.0d
 		}
+		{
+			dependencies: [
+				"4AC3A322B287707E"
+				"4B8F425D6033962E"
+				"0D7ECDABEB186FAA"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "362EBBC2B79A9C7A"
+			tasks: [
+				{
+					id: "0482E45212BBE669"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "7C29D182AB4E7CB9"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "56B8265AB61F38B6"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4C36B58D183064A3"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "242D2BDA7F9E9A7E"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "5944AC5485E079F1"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "19EC1658921A6709"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "2DA760CC70129A1A"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6E55A80F00621173"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5E37F987C8A404E1"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3B2A699613CA7763"]
+			id: "0D7ECDABEB186FAA"
+			tasks: [{
+				id: "0CC4C0BE66B79455"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["362EBBC2B79A9C7A"]
+			id: "351471826895D58A"
+			tasks: [{
+				id: "595D251B5F25DB51"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
 	]
 	title: "Low-Voltage Tier"
 }
