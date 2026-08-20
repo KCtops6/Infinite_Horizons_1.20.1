@@ -26,4 +26,22 @@ ServerEvents.recipes(event => {
             item: "createsifter:dust"
         }
     }).id('kubejs:industrialforegoing/createsifter/dust');
+    event.custom({
+        type: "industrialforegoing:crusher",
+        input: {
+            item: "minecraft:deepslate"
+        },
+        output: {
+            item: "minecraft:cobbled_deepslate"
+        }
+    }).id('kubejs:industrialforegoing/minecraft/cobbled_deepslate');
+    event.custom({
+        type: "industrialforegoing:crusher",
+        input: {
+            item: "minecraft:cobbled_deepslate"
+        },
+        output: {
+            item: "infinite_horizons_tweaks:deepslate_gravel"
+        }
+    }).id('kubejs:industrialforegoing/infinite_horizons_tweaks/deepslate_gravel');
 });
