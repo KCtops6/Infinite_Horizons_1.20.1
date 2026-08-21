@@ -1,0 +1,213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "laserio"
+	group: "126A1C64F6AE129F"
+	id: "79C4B81798D9AD38"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["17947B6DF6ADAE7B"]
+			id: "41B8F4518DFD5D1D"
+			tasks: [{
+				id: "472D828849C680CF"
+				item: "laserio:laser_connector"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41B8F4518DFD5D1D"]
+			hide_dependent_lines: true
+			id: "5074FD431B152145"
+			rewards: [
+				{
+					id: "45190EDC1D48B670"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+						id: "laserio:card_holder"
+					}
+					type: "item"
+				}
+				{
+					id: "05787FFB300025B6"
+					item: "laserio:card_cloner"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16C2D700A8CD6B3A"
+				item: "laserio:laser_node"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41B8F4518DFD5D1D"]
+			id: "5DDE41127692C9FB"
+			tasks: [{
+				id: "672266B7998CFA1A"
+				item: "laserio:laser_connector_advanced"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2260AD2796A36C0F"
+				"700D0FB31E0D600E"
+				"433391CE678F39BF"
+				"69385CCE6FF31DEB"
+			]
+			icon: "laserio:logic_chip"
+			id: "17947B6DF6ADAE7B"
+			rewards: [{
+				id: "7E282956439BD984"
+				item: "laserio:laser_wrench"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B98958AE3575414"
+					item: "laserio:logic_chip_raw"
+					type: "item"
+				}
+				{
+					id: "1853688859EA8D52"
+					item: "laserio:logic_chip"
+					type: "item"
+				}
+			]
+			title: "Logic Chip"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5074FD431B152145"]
+			id: "2E9FF1755C2668F3"
+			tasks: [{
+				id: "4120446010789455"
+				item: "laserio:card_item"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5074FD431B152145"]
+			id: "0B6CAA36EFE4F702"
+			tasks: [{
+				id: "29F1D931A79375E0"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5074FD431B152145"]
+			id: "0A605B9A719A2115"
+			tasks: [{
+				id: "18792D7ADFAA71E0"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5074FD431B152145"]
+			id: "400421ADF0F94EF4"
+			tasks: [{
+				id: "02A8B7F7E1DD23D2"
+				item: "laserio:card_redstone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"400421ADF0F94EF4"
+				"0A605B9A719A2115"
+				"0B6CAA36EFE4F702"
+				"2E9FF1755C2668F3"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2DA5F362FA4DD5C8"
+			tasks: [{
+				id: "7004EE8CF017591D"
+				item: "laserio:filter_basic"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DA5F362FA4DD5C8"]
+			id: "1534CE30AFA64799"
+			tasks: [{
+				id: "78974EF58F80666F"
+				item: "laserio:filter_count"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DA5F362FA4DD5C8"]
+			id: "4BD5314DEC408550"
+			tasks: [{
+				id: "7698B253A3A73B0B"
+				item: "laserio:filter_tag"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DA5F362FA4DD5C8"]
+			id: "721E42073907ADF7"
+			tasks: [{
+				id: "043CDFBA27F9B3F3"
+				item: "laserio:filter_mod"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2DA5F362FA4DD5C8"]
+			id: "417D789402167CED"
+			tasks: [{
+				id: "7338254AF377DB7F"
+				item: "laserio:filter_nbt"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "62F00385DD33E26F"
+			tasks: [{
+				id: "4CA46AD7B2D6E43E"
+				item: "laserio:overclocker_card"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+	]
+	title: "LaserIO"
+}
