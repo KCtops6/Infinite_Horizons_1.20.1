@@ -513,18 +513,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["426C7AF2A4441853"]
-			description: ["Unlocks \"Gamma\" questline."]
-			id: "2260AD2796A36C0F"
-			tasks: [{
-				id: "2DD3AD2DB0436BE7"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["2260AD2796A36C0F"]
 			hide_dependency_lines: true
 			id: "7C0E83F2ABFD39A1"
@@ -668,24 +656,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0AC851170B41AD02"]
-			dependency_requirement: "one_completed"
-			id: "700D0FB31E0D600E"
-			rewards: [{
-				id: "14242496263DA0B9"
-				item: "minecraft:redstone"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "725FEE07380F662C"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -2.0d
-		}
-		{
 			dependencies: [
 				"2E27C65E12B61E06"
 				"33A3E11BD0EB479B"
@@ -733,36 +703,6 @@
 			}]
 			x: 6.0d
 			y: -6.0d
-		}
-		{
-			dependencies: [
-				"133BCE410E613A4F"
-				"33A3E11BD0EB479B"
-			]
-			id: "433391CE678F39BF"
-			rewards: [
-				{
-					count: 7
-					id: "1BC62BAB05F28173"
-					item: "minecraft:clay_ball"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "7A6C957A0544D531"
-					item: "pamhc2foodcore:friesitem"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 64L
-				id: "15A8622ABB86CF27"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
-			x: 12.040815d
-			y: 6.015304999999998d
 		}
 		{
 			dependencies: [
@@ -3565,17 +3505,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["307577AF1F361688"]
-			id: "69385CCE6FF31DEB"
-			tasks: [{
-				id: "5AED953FDCC10BC6"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
-			x: 17.0d
-			y: -7.0d
-		}
-		{
 			dependencies: ["2260AD2796A36C0F"]
 			id: "24D91A8AA3A58FAE"
 			tasks: [{
@@ -3797,6 +3726,77 @@
 			}]
 			x: 7.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["307577AF1F361688"]
+			id: "69385CCE6FF31DEB"
+			tasks: [{
+				id: "5AED953FDCC10BC6"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"133BCE410E613A4F"
+				"33A3E11BD0EB479B"
+			]
+			id: "433391CE678F39BF"
+			rewards: [
+				{
+					count: 7
+					id: "1BC62BAB05F28173"
+					item: "minecraft:clay_ball"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7A6C957A0544D531"
+					item: "pamhc2foodcore:friesitem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "15A8622ABB86CF27"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["426C7AF2A4441853"]
+			description: ["Unlocks \"Gamma\" questline."]
+			id: "2260AD2796A36C0F"
+			tasks: [{
+				id: "2DD3AD2DB0436BE7"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AC851170B41AD02"]
+			dependency_requirement: "one_completed"
+			id: "700D0FB31E0D600E"
+			rewards: [{
+				id: "14242496263DA0B9"
+				item: "minecraft:redstone"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "725FEE07380F662C"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
 		}
 	]
 	title: "Alpha"
