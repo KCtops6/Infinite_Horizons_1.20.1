@@ -41,14 +41,4 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:emerald').withChance(0.25),
         Item.of('irons_spellbooks:raw_mithril').withChance(0.125)
     ], ['minecraft:gravel','kubejs:netherite_mesh']).id('kubejs:recipes/createsiftersifting/netherite/gravel');
-    event.recipes.createsifterSifting([
-        Item.of('infinite_resources:raw_zinc').withChance(0.25),
-        Item.of('infinite_resources:raw_aluminum').withChance(0.375),
-        Item.of('infinite_resources:raw_tin').withChance(0.25),
-        Item.of('infinite_resources:raw_osmium').withChance(0.5),
-        Item.of('minecraft:lapis_lazuli').withChance(0.5),
-        Item.of('minecraft:coal').withChance(0.5),
-        Item.of('minecraft:emerald').withChance(0.25),
-        Item.of('irons_spellbooks:raw_mithril').withChance(0.125)
-    ], ['minecraft:gravel','kubejs:netherite_mesh']).id('kubejs:recipes/createsiftersifting/netherite/gravel');
 });
