@@ -377,8 +377,8 @@
 				item: "gtceu:lv_extruder"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
