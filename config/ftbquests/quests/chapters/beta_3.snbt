@@ -2029,6 +2029,18 @@
 			x: 5.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["3D4CDA0CD2A9EB76"]
+			description: ["Only check off this quest if you have Gregtech installed and if you want to go through the mod."]
+			id: "04FC2EA9B15A0D85"
+			tasks: [{
+				id: "4CCF84B2BC0D088D"
+				title: "Enter Gregtech"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
 	]
 	title: "Beta"
 }
