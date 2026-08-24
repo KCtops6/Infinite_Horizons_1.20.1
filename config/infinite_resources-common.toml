@@ -622,3 +622,12 @@
 		#Enable/Disable enderium plate
 		enable_plate = true
 
+	[materials.coal]
+		#Texture style selection for coal_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable coal dust
+		enable_dust = true
+		#Enable/Disable coal plate
+		enable_plate = true
+
