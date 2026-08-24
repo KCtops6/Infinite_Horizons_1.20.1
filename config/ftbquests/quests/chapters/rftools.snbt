@@ -9,6 +9,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"3949B38795D8BB00"
+				"2260AD2796A36C0F"
+			]
 			id: "7E071C387359F0AA"
 			rewards: [
 				{
@@ -91,6 +95,17 @@
 			y: -4.0d
 		}
 		{
+			dependencies: [
+				"1584AEAD06AB2580"
+				"02AF8D363D8A7406"
+				"3949B38795D8BB00"
+				"2E27C65E12B61E06"
+				"1CD2B2DAD30A3AF8"
+				"2260AD2796A36C0F"
+				"700D0FB31E0D600E"
+				"69385CCE6FF31DEB"
+				"1FFD16D39BDE1E10"
+			]
 			id: "79BA192045EFDABC"
 			rewards: [{
 				count: 7
@@ -137,6 +152,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2260AD2796A36C0F"]
 			id: "0D03A5DC5338BB22"
 			tasks: [{
 				id: "43943C5145F81B45"
