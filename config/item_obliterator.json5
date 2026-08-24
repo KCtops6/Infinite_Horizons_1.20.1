@@ -23,7 +23,12 @@
     "mysticalagradditions:molten_imperium_bucket",
     "mysticalagradditions:molten_supremium_bucket",
     "mysticalagradditions:molten_soulium_bucket",
-    "gtceu:lv_scanner"
+    "gtceu:lv_scanner",
+    "enderio:sentient_ender",
+    "enderio:ender_resonator",
+    "enderio:frank_n_zombie",
+    "enderio:skeletal_contractor",
+    "enderio:guardian_diode"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
