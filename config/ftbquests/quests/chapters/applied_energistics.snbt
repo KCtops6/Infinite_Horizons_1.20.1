@@ -385,41 +385,104 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"1D87275915B5E2E1"
-				"7E104F66DADC78FA"
-			]
-			icon: "mysticalagriculture:fluix_essence"
-			id: "6E62AE18AB9AAE44"
-			rewards: [
-				{
-					id: "0B456133012943AE"
-					item: "mysticalagriculture:fluix_essence"
-					random_bonus: 2
-					type: "item"
+			dependencies: ["04750F8867882336"]
+			id: "34030EF0A6EC874F"
+			tasks: [{
+				icon: "ae2:fluix_covered_dense_cable"
+				id: "3BAD368EFFD37034"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:covered_dense_cable"
+					}
 				}
-				{
-					count: 3
-					id: "515BF4D4539EE3D3"
-					item: "mysticalagriculture:fluix_seeds"
-					random_bonus: 2
-					type: "item"
+				title: "Craft a ME Covered Dense Cable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0BC23AF4240CBD92"]
+			id: "04750F8867882336"
+			tasks: [{
+				icon: "ae2:fluix_covered_cable"
+				id: "1FB64FB0C75D3F0E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:covered_cable"
+					}
 				}
-			]
-			tasks: [
-				{
-					id: "6A58438041A48D3B"
-					item: "mysticalagriculture:fluix_seeds"
-					type: "item"
+				title: "Craft a ME Covered Cable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E104F66DADC78FA"]
+			id: "0BC23AF4240CBD92"
+			tasks: [{
+				icon: "ae2:fluix_glass_cable"
+				id: "710E6F6BCD9EC545"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:glass_cable"
+					}
 				}
-				{
-					id: "686237CE001E145E"
-					item: "mysticalagriculture:fluix_essence"
-					type: "item"
-				}
-			]
+				title: "Craft a ME Glass Cable"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["04750F8867882336"]
+			id: "25D57DA9C4FEA95C"
+			tasks: [{
+				icon: "ae2:fluix_smart_cable"
+				id: "73A30803AD37F135"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:smart_cable"
+					}
+				}
+				title: "Craft a ME Smart Cable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"34030EF0A6EC874F"
+				"25D57DA9C4FEA95C"
+			]
+			dependency_requirement: "one_completed"
+			icon: "ae2:fluix_smart_dense_cable"
+			id: "3C68A28996D9BFEA"
+			tasks: [{
+				icon: "ae2:fluix_smart_dense_cable"
+				id: "66BA0F454BA85D0A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:smart_dense_cable"
+					}
+				}
+				title: "Craft a ME Smart Dense Cable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
 		}
 	]
 	title: "Applied Energistics"
