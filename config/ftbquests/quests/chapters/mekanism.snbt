@@ -749,6 +749,39 @@
 			x: 8.0d
 			y: -6.75d
 		}
+		{
+			dependencies: ["3C7AA7518E0F12D7"]
+			id: "48497069CA605615"
+			tasks: [{
+				id: "2C6D91C58B42514E"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["418B59D5AC2B522A"]
+			id: "3C7AA7518E0F12D7"
+			tasks: [{
+				id: "69499A1FCDF58858"
+				item: "infinite_resources:steel_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07449CDEF763F484"]
+			id: "32F8E2E74FCDC054"
+			tasks: [{
+				id: "06252695A6BD1573"
+				item: "mekanism:advanced_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
 	]
 	title: "Mekanism"
 }
