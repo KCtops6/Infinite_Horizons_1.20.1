@@ -865,8 +865,8 @@
 				item: "immersiveengineering:transformer_hv"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 8.0d
+			x: -16.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7EF00564A1B4F6E5"]
@@ -876,7 +876,7 @@
 				item: "immersiveengineering:wirecoil_electrum"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -13.0d
 			y: 6.0d
 		}
 		{
@@ -887,7 +887,7 @@
 				item: "immersiveengineering:coil_mv"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -12.0d
 			y: 7.0d
 		}
 		{
@@ -901,8 +901,8 @@
 				item: "immersiveengineering:transformer"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 8.0d
+			x: -10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -915,7 +915,7 @@
 				item: "immersiveengineering:connector_mv"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -13.0d
 			y: 5.0d
 		}
 		{
@@ -926,7 +926,7 @@
 				item: "immersiveengineering:connector_mv_relay"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -14.0d
 			y: 5.0d
 		}
 		{
@@ -937,7 +937,7 @@
 				item: "immersiveengineering:wirecoil_copper"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -7.0d
 			y: 6.0d
 		}
 		{
@@ -951,7 +951,7 @@
 				item: "immersiveengineering:connector_lv"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -7.0d
 			y: 5.0d
 		}
 		{
@@ -962,7 +962,7 @@
 				item: "immersiveengineering:connector_lv_relay"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -8.0d
 			y: 5.0d
 		}
 		{
@@ -977,7 +977,7 @@
 				item: "immersiveengineering:wirecoil_electrum_ins"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -14.0d
 			y: 6.0d
 		}
 		{
@@ -992,7 +992,7 @@
 				item: "immersiveengineering:wirecoil_copper_ins"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -8.0d
 			y: 6.0d
 		}
 		{
@@ -1006,7 +1006,7 @@
 				item: "immersiveengineering:electromagnet"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -6.0d
 			y: 5.0d
 		}
 		{
@@ -1017,7 +1017,7 @@
 				item: "immersiveengineering:coil_lv"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -7.0d
 			y: 7.0d
 		}
 		{
@@ -1028,8 +1028,8 @@
 				item: "immersiveengineering:turntable"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 6.0d
+			x: -6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2E7157AABC426F9A"]
@@ -1039,7 +1039,7 @@
 				item: "immersiveengineering:dynamo"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -5.0d
 			y: 7.0d
 		}
 		{
@@ -1053,7 +1053,7 @@
 				item: "immersiveengineering:windmill"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -4.0d
 			y: 6.0d
 		}
 		{
@@ -1067,7 +1067,7 @@
 				item: "immersiveengineering:windmill_sail"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -3.0d
 			y: 6.0d
 		}
 		{
@@ -1251,13 +1251,17 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"411A3BE4FB164B05"
+				"02980DB9C5FD2296"
+			]
 			id: "3075034D45B59B9E"
 			tasks: [{
 				id: "2F38FC897690FA9C"
 				item: "immersiveengineering:capacitor_hv"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -19.0d
 			y: 6.0d
 		}
 		{
@@ -1355,6 +1359,43 @@
 			]
 			x: -16.0d
 			y: -0.75d
+		}
+		{
+			dependencies: [
+				"700D0FB31E0D600E"
+				"4132CC5C94403FC1"
+			]
+			hide_dependent_lines: true
+			id: "411A3BE4FB164B05"
+			tasks: [{
+				id: "1289D0BAB4362A89"
+				item: "immersiveengineering:redstone_acid_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38366033168B23BB"]
+			id: "423DD5D7DFCE6090"
+			tasks: [{
+				id: "0191EE44A40D2EF2"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00D5777E656DAA30"]
+			id: "4D24323523793076"
+			tasks: [{
+				id: "572DFC5445C59BBE"
+				item: "immersiveengineering:capacitor_mv"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
 		}
 	]
 	title: "Immersive Engineering"
