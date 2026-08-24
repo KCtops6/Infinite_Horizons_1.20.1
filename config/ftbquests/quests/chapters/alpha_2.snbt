@@ -3798,6 +3798,32 @@
 			x: 11.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["2410A2F2F4822D70"]
+			id: "0EDD7FEAEDA22DC5"
+			tasks: [{
+				icon: "minecraft:bedrock"
+				id: "2948011DB40D5070"
+				observe_type: 0
+				timer: 0L
+				title: "Observe Bedrock"
+				to_observe: "minecraft:bedrock"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["182338376E9A5415"]
+			id: "1C8ECF4F8D74AC30"
+			tasks: [{
+				id: "048AA4E568E60E1E"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
 	]
 	title: "Alpha"
 }
