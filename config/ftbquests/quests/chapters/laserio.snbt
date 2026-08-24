@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "laserio"
 	group: "126A1C64F6AE129F"
+	icon: "laserio:laser_node"
 	id: "79C4B81798D9AD38"
 	order_index: 19
 	quest_links: [ ]
@@ -199,14 +200,32 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"400421ADF0F94EF4"
+				"0A605B9A719A2115"
+				"0B6CAA36EFE4F702"
+				"2E9FF1755C2668F3"
+			]
+			hide_dependency_lines: true
 			id: "62F00385DD33E26F"
 			tasks: [{
 				id: "4CA46AD7B2D6E43E"
 				item: "laserio:overclocker_card"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5074FD431B152145"]
+			id: "687B010A9C5E2CBD"
+			tasks: [{
+				id: "541044A9D470EFAF"
+				item: "laserio:overclocker_node"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
 		}
 	]
 	title: "LaserIO"
