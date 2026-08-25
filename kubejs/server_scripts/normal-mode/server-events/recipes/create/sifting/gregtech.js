@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
             Item.of('gtceu:raw_lapis').withChance(0.0059),
             Item.of('gtceu:raw_pollucite').withChance(0.0030),
             Item.of('gtceu:raw_bentonite').withChance(0.0030)
-        ], ['kubejs:deepslate_gravel', 'kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/deepslate');
+        ], ['infinite_horizons_tweaks:deepslate_gravel', 'kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/deepslate');
         event.recipes.createsifterSifting([
             Item.of('gtceu:raw_chalcopyrite').withChance(0.0213),
             Item.of('gtceu:raw_redstone').withChance(0.0177),
