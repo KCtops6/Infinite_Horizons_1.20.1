@@ -38,12 +38,12 @@ ServerEvents.recipes(event => {
     },
     result: [
       {
-        item: 'kubejs:end_stone_gravel',
+        item: 'infinite_horizons_tweaks:end_stone_gravel',
         count: 1
       }
     ],
     energy_mod: 0.5
-  }).id(`kubejs:thermal/pulverizer/kubejs/end_stone_gravel`);
+  }).id(`kubejs:thermal/pulverizer/infinite_horizons_tweaks/end_stone_gravel`);
 
   event.custom({
     type: "thermal:pulverizer",
@@ -52,12 +52,12 @@ ServerEvents.recipes(event => {
     },
     result: [
       {
-        item: 'kubejs:netherrack_gravel',
+        item: 'infinite_horizons_tweaks:netherrack_gravel',
         count: 1
       }
     ],
     energy_mod: 0.5
-  }).id(`kubejs:thermal/pulverizer/kubejs/netherrack_gravel`);
+  }).id(`kubejs:thermal/pulverizer/infinite_horizons_tweaks/netherrack_gravel`);
 
   event.custom({
     type: "thermal:pulverizer",

@@ -25,8 +25,8 @@ ServerEvents.recipes(event => {
 
     // 2. Netherrack and End Stone
     const flours = [
-        { input: 'minecraft:end_stone', output1: 'kubejs:end_stone_gravel', output2: 'kubejs:void_flour'},
-        { input: 'minecraft:netherrack', output1: 'kubejs:netherrack_gravel', output2: 'create:cinder_flour'}
+        { input: 'minecraft:end_stone', output1: 'infinite_horizons_tweaks:end_stone_gravel', output2: 'kubejs:void_flour'},
+        { input: 'minecraft:netherrack', output1: 'infinite_horizons_tweaks:netherrack_gravel', output2: 'create:cinder_flour'}
     ];
 
     flours.forEach(flour => {

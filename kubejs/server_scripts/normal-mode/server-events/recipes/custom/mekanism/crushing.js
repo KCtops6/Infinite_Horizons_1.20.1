@@ -7,9 +7,9 @@ ServerEvents.recipes(event => {
             }
         },
         output: {
-            item: "kubejs:end_stone_gravel"
+            item: "infinite_horizons_tweaks:end_stone_gravel"
         }
-    }).id('kubejs:mekanism/crushing/kubejs/end_stone_gravel');
+    }).id('kubejs:mekanism/crushing/infinite_horizons_tweaks/end_stone_gravel');
 
     event.custom({
         type: "mekanism:crushing",
@@ -19,9 +19,9 @@ ServerEvents.recipes(event => {
             }
         },
         output: {
-            item: "kubejs:netherrack_gravel"
+            item: "infinite_horizons_tweaks:netherrack_gravel"
         }
-    }).id('kubejs:mekanism/crushing/kubejs/netherrack_gravel');
+    }).id('kubejs:mekanism/crushing/infinite_horizons_tweaks/netherrack_gravel');
 
     event.custom({
         type: "mekanism:crushing",

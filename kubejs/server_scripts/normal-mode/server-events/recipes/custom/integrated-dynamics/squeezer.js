@@ -7,11 +7,11 @@ ServerEvents.recipes(event => {
         result: {
             items: [
                 {
-                    item: "kubejs:end_stone_gravel"
+                    item: "infinite_horizons_tweaks:end_stone_gravel"
                 }
             ]
         }
-    }).id('kubejs:integrateddynamics/squeezer/kubejs/end_stone_gravel');
+    }).id('kubejs:integrateddynamics/squeezer/infinite_horizons_tweaks/end_stone_gravel');
 
     event.custom({
         type: "integrateddynamics:squeezer",
@@ -21,9 +21,9 @@ ServerEvents.recipes(event => {
         result: {
             items: [
                 {
-                    item: "kubejs:netherrack_gravel"
+                    item: "infinite_horizons_tweaks:netherrack_gravel"
                 }
             ]
         }
-    }).id('kubejs:integrateddynamics/squeezer/kubejs/netherrack_gravel');
+    }).id('kubejs:integrateddynamics/squeezer/infinite_horizons_tweaks/netherrack_gravel');
 });

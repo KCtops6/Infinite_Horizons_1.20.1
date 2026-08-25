@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
             Item.of('gtceu:raw_alunite').withChance(0.0035),
             Item.of('gtceu:raw_emerald').withChance(0.0017),
             Item.of('gtceu:raw_barite').withChance(0.0014)
-        ], ['kubejs:netherrack_gravel', 'kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/netherrack');
+        ], ['infinite_horizons_tweaks:netherrack_gravel', 'kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/netherrack');
         event.recipes.createsifterSifting([
             Item.of('gtceu:raw_sulfur').withChance(0.0174),
             Item.of('gtceu:raw_tetrahedrite').withChance(0.0139),
@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
             Item.of('gtceu:raw_cooperite').withChance(0.0031),
             Item.of('gtceu:raw_platinum').withChance(0.0031),
             Item.of('gtceu:raw_palladium').withChance(0.0016)
-        ], ['kubejs:end_stone_gravel', 'kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/end_stone');
+        ], ['infinite_horizons_tweaks:end_stone_gravel', 'kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/end_stone');
     } else {
         Console.log('Gregtech not loaded...skipping sifting recipes.');
     }

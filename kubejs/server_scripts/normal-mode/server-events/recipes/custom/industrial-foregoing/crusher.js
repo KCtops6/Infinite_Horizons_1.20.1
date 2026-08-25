@@ -5,18 +5,18 @@ ServerEvents.recipes(event => {
             item: "minecraft:netherrack"
         },
         output: {
-            item: "kubejs:netherrack_gravel"
+            item: "infinite_horizons_tweaks:netherrack_gravel"
         }
-    }).id('kubejs:industrialforegoing/crusher/kubejs/netherrack_gravel');
+    }).id('kubejs:industrialforegoing/crusher/infinite_horizons_tweaks/netherrack_gravel');
     event.custom({
         type: "industrialforegoing:crusher",
         input: {
             item: "minecraft:end_stone"
         },
         output: {
-            item: "kubejs:end_stone_gravel"
+            item: "infinite_horizons_tweaks:end_stone_gravel"
         }
-    }).id('kubejs:industrialforegoing/crusher/kubejs/end_stone_gravel');
+    }).id('kubejs:industrialforegoing/crusher/infinite_horizons_tweaks/end_stone_gravel');
     event.custom({
         type: "industrialforegoing:crusher",
         input: {

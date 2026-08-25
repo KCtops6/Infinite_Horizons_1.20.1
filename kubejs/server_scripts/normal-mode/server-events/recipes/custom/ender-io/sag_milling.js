@@ -8,10 +8,10 @@ ServerEvents.recipes(event => {
         outputs: [
             {
                 chance: 1.0,
-                item: "kubejs:end_stone_gravel"
+                item: "infinite_horizons_tweaks:end_stone_gravel"
             }
         ]
-    }).id('kubejs:enderio/sag_milling/kubejs/end_stone_gravel');
+    }).id('kubejs:enderio/sag_milling/infinite_horizons_tweaks/end_stone_gravel');
 
     event.custom({
         type: "enderio:sag_milling",
@@ -22,8 +22,8 @@ ServerEvents.recipes(event => {
         outputs: [
             {
                 chance: 1.0,
-                item: "kubejs:netherrack_gravel"
+                item: "infinite_horizons_tweaks:netherrack_gravel"
             }
         ]
-    }).id('kubejs:enderio/sag_milling/kubejs/netherrack_gravel');
+    }).id('kubejs:enderio/sag_milling/infinite_horizons_tweaks/netherrack_gravel');
 });

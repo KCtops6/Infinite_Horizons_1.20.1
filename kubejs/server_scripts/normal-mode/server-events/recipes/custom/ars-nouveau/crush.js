@@ -2,9 +2,9 @@ ServerEvents.recipes(event => {
     const recipes = [
         { input: 'minecraft:sand', output: 'createsifter:dust'},
         { input: 'minecraft:gravel', output: 'minecraft:sand'},
-        { input: 'minecraft:netherrack', output: 'kubejs:netherrack_gravel'},
+        { input: 'minecraft:netherrack', output: 'infinite_horizons_tweaks:netherrack_gravel'},
         { input: 'minecraft:basalt', output: 'kubejs:basalt_gravel'},
-        { input: 'minecraft:end_stone', output: 'kubejs:end_stone_gravel'}
+        { input: 'minecraft:end_stone', output: 'infinite_horizons_tweaks:end_stone_gravel'}
     ]
 
     recipes.forEach(recipe => {
