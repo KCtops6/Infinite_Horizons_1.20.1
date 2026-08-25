@@ -10,7 +10,6 @@ ServerEvents.recipes(event => {
         { input: 'minecraft:cobbled_deepslate', output: 'infinite_horizons_tweaks:deepslate_gravel' },
         { input: 'minecraft:basalt', output: 'kubejs:basalt_gravel' },
         { input: 'create:limestone', output: 'kubejs:limestone_gravel' },
-        { input: 'forbidden_arcanus:darkstone', output: 'kubejs:darkstone_gravel' },
         { input: 'minecraft:ender_pearl', output: 'kubejs:ender_pearl_dust' }
     ];
 
