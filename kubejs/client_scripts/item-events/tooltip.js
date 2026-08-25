@@ -99,4 +99,19 @@ ItemEvents.tooltip(event => {
             }
         });
     });
+
+    var marked_for_removal = [
+        'kubejs:andesite_gravel', 'kubejs:deepslate_gravel', 'kubejs:diorite_gravel',
+        'kubejs:end_stone_gravel', 'kubejs:darkstone_gravel', 'kubejs:calcite_gravel',
+        'kubejs:coal_coke', 'kubejs:sapphire_gear', 'kubejs:emerald_gear',
+        'kubejs:explorer_map', 'kubejs:stone_alloy', 'kubejs:terrasteel_block',
+        'kubejs:elementium_block', 'kubejs:manasteel_block', 'kubejs:wooden_trowel',
+        'kubejs:stone_trowel', 'kubejs:iron_trowel', 'kubejs:stone_hammer',
+        'kubejs:iron_hammer', 'kubejs:stone_pebble', 'kubejs:andesite_pebble',
+        'kubejs:diorite_pebble', 'kubejs:granite_pebble', 'kubejs:deepslate_pebble',
+        'kubejs:tuff_pebble'
+    ];
+    marked_for_removal.forEach(m => {
+        event.add(m, Text.red('Marked for removal in v16.1'));
+    });
 });
