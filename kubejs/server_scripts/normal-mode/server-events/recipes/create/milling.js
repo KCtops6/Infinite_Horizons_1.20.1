@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
     try {
         event.custom({
             type: "create:milling",
-            ingredients: [{ item: 'kubejs:granite_gravel' }],
+            ingredients: [{ item: 'infinite_horizons_tweaks:granite_gravel' }],
             processingTime: 800,
             results: [{ item: 'minecraft:red_sand' }]
         }).id('kubejs:milling/granite_gravel_to_red_sand');
