@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         { input: 'minecraft:diorite', output: 'infinite_horizons_tweaks:diorite_gravel' },
         { input: 'minecraft:granite', output: 'infinite_horizons_tweaks:granite_gravel' },
         { input: 'minecraft:gravel', output: 'minecraft:sand' },
-        { input: 'minecraft:tuff', output: 'kubejs:tuff_gravel' },
+        { input: 'minecraft:tuff', output: 'infinite_horizons_tweaks:tuff_gravel' },
         { input: 'minecraft:sand', output: 'createsifter:dust' },
         { input: 'minecraft:cobbled_deepslate', output: 'infinite_horizons_tweaks:deepslate_gravel' },
         { input: 'minecraft:basalt', output: 'kubejs:basalt_gravel' },

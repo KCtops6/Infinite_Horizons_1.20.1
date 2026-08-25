@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
             { item: "minecraft:iron_nugget", chance: 0.5 }
         ]);
     });
-    cutting('kubejs:tuff_gravel', 'infinite_horizons_tweaks:iron_trowel', [
+    cutting('infinite_horizons_tweaks:tuff_gravel', 'infinite_horizons_tweaks:iron_trowel', [
         { item: "infinite_horizons_tweaks:tuff_gravel", chance: 0.25 },
         { item: "infinite_horizons_tweaks:tuff_pebble", chance: 0.75 },
         { item: "infinite_horizons_tweaks:deepslate_pebble", chance: 0.25 },
