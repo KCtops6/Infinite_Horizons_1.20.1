@@ -79,10 +79,6 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:coal_coke', 'kubejs:coal_coke');
     event.add('forge:storage_blocks/coal_coke', 'kubejs:coal_coke_block');
-    event.remove('forge:coal_coke', [
-        'immersiveengineering:coal_coke',
-        'thermal:coal_coke'
-    ]);
     event.remove('forge:storage_blocks/coal_coke', [
         'immersiveengineering:coke',
         'thermal:coal_coke_block'
