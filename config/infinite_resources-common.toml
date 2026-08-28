@@ -631,3 +631,12 @@
 		#Enable/Disable coal plate
 		enable_plate = true
 
+	[materials.netherite]
+		#Texture style selection for netherite_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable netherite dust
+		enable_dust = true
+		#Enable/Disable netherite plate
+		enable_plate = true
+
