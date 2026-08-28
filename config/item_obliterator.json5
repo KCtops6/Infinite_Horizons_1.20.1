@@ -57,7 +57,9 @@
     "createsifter:zinc_mesh",
     "createsifter:custom_mesh",
     "createsifter:advanced_brass_mesh",
-    "createsifter:advanced_custom_mesh"
+    "createsifter:advanced_custom_mesh",
+    "thermal:quartz_gear",
+    "thermal:ruby_gear"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
