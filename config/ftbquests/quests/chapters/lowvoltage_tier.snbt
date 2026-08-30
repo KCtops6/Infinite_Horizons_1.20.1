@@ -212,14 +212,15 @@
 		}
 		{
 			dependencies: ["51443B2F193B143B"]
+			hide_dependent_lines: true
 			id: "00E4101E67DDF863"
 			tasks: [{
 				id: "7C13656CD32FB4E2"
 				item: "gtceu:lv_canner"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -264,6 +265,7 @@
 		}
 		{
 			dependencies: ["47F2E20C4CC2A93B"]
+			hide_dependent_lines: true
 			id: "629D23FFE813FD62"
 			tasks: [{
 				id: "22089B9ED02EA5DD"
@@ -328,6 +330,7 @@
 		}
 		{
 			dependencies: ["4B8F425D6033962E"]
+			hide_dependent_lines: true
 			id: "357D0CC1DDE05D6B"
 			tasks: [{
 				id: "10D3797E919A4488"
@@ -982,6 +985,216 @@
 				type: "item"
 			}]
 			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4994FF73155BFE9E"]
+			description: ["This is useful in an chemical bath setup to obtain extra &lgold&r (&ofrom bornite, chalcopyrite, copper, magnetite, and silver ores&r), &llithium&r (&ofrom tungstate ore&r), &lpaladium&r (&ofrom platinum and sheldonite ores&r), &lplatinum&r (&ofrom nickel ore&r), and &lsilver&r (&ofrom galena and gold ores&r)."]
+			id: "7CAE3721AC2179A5"
+			rewards: [
+				{
+					count: 3
+					id: "19559C827350A1A5"
+					item: "gtceu:raw_cinnabar"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4D38C34C12CA17F7"
+					item: "gtceu:raw_redstone"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:mercury"
+				id: "6CD768428608AEEE"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["774C49D02530F062"]
+			id: "4994FF73155BFE9E"
+			tasks: [{
+				id: "7E7CA41399C8AA1F"
+				item: "gtceu:raw_cinnabar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"357D0CC1DDE05D6B"
+				"33FA74503A81E08C"
+			]
+			description: [
+				"This is useful in an chemical bath setup to obtain extra &lcadmium&r (&ofrom tetrahedrite ore&r), &lcinnabar&r (&ofrom stibnite ore&r), &lcobalt&r (&ofrom cobaltite and pentlandite ores&r), &lcobalt oxide&r (&ofrom limonite ore&r), &lcobaltite&r (&ofrom cobalt ore&r), &lgallium&r (&ofrom bauxite ore&r), &lgold&r (&ofrom iron ore&r) &lrutile&r (&ofrom aluminium ore&r), &lzinc&r (&ofrom sphalerite and tin ores&r), and &lzincite&r (&ofrom malachite ore&r)"
+				""
+				"This is the only way to obtain &lilmenite slag dust&r from &oilmenite ore&r."
+			]
+			id: "69D452D1561BD22B"
+			rewards: [{
+				count: 3
+				id: "5EC1D7F203E13BC4"
+				item: "gtceu:sodium_bisulfate_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:sodium_persulfate"
+				id: "6A15A2E81ADCCAF0"
+				type: "fluid"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["629D23FFE813FD62"]
+			id: "33FA74503A81E08C"
+			tasks: [{
+				id: "2A171D57462FE989"
+				item: "gtceu:sodium_bisulfate_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3DFEA264C9CAF462"
+				"00E4101E67DDF863"
+			]
+			id: "7343EC8A62DB65B1"
+			tasks: [
+				{
+					id: "43AC46C8D12DD674"
+					item: "gtceu:lv_battery_hull"
+					type: "item"
+				}
+				{
+					id: "600BC55D97927528"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:batteries/lv"
+						}
+					}
+					title: "Any #gtceu:batteries/lv"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"2BFC277A6B219224"
+				"4A62ED10A9034276"
+			]
+			hide_dependent_lines: true
+			id: "3DFEA264C9CAF462"
+			tasks: [{
+				id: "0682DEBDC445BCAC"
+				item: "gtceu:battery_alloy_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0CECD5F4196F5328"]
+			description: ["You can obtain &lantimony&r by ore processing &orealgar,&r &ostibnite,&r and &otetrahedrite&r &oores.&r"]
+			id: "2BFC277A6B219224"
+			rewards: [{
+				id: "6F60DFE94FF40839"
+				item: "gtceu:antimony_dust"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CDA19BD152DE718"
+				item: "gtceu:antimony_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"07A71908359A0CA1"
+				"4B8F425D6033962E"
+			]
+			hide_dependent_lines: true
+			id: "0CECD5F4196F5328"
+			tasks: [{
+				id: "441FAE4ADF694421"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3DFEA264C9CAF462"
+				"00E4101E67DDF863"
+			]
+			id: "52009B04D6EEBCCF"
+			tasks: [
+				{
+					id: "63A0B81692840E7B"
+					item: "gtceu:mv_battery_hull"
+					type: "item"
+				}
+				{
+					id: "13A78A8676634E50"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:batteries/mv"
+						}
+					}
+					title: "Any #gtceu:batteries/mv"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"3DFEA264C9CAF462"
+				"00E4101E67DDF863"
+			]
+			id: "2E0FB754944CED05"
+			tasks: [
+				{
+					id: "3B829FE1DA3C38E5"
+					item: "gtceu:hv_battery_hull"
+					type: "item"
+				}
+				{
+					id: "328FC1174906C0C4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:batteries/hv"
+						}
+					}
+					title: "Any #gtceu:batteries/hv"
+					type: "item"
+				}
+			]
+			x: 11.0d
 			y: 9.5d
 		}
 	]
