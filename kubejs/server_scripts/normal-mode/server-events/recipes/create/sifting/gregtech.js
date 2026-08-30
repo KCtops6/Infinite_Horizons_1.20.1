@@ -65,7 +65,9 @@ ServerEvents.recipes(event => {
             Item.of('gtceu:raw_sodalite').withChance(0.0059),
             Item.of('gtceu:raw_lapis').withChance(0.0059),
             Item.of('gtceu:raw_pollucite').withChance(0.0030),
-            Item.of('gtceu:raw_bentonite').withChance(0.0030)
+            Item.of('gtceu:raw_bentonite').withChance(0.0030),
+            Item.of('gtceu:raw_kyanite').withChance(0.0030),
+            Item.of('gtceu:raw_mica').withChance(0.0030)
         ], ['infinite_horizons_tweaks:deepslate_gravel', 'kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/deepslate');
         event.recipes.createsifterSifting([
             Item.of('gtceu:raw_chalcopyrite').withChance(0.0213),
@@ -95,6 +97,7 @@ ServerEvents.recipes(event => {
             Item.of('gtceu:raw_neodymium').withChance(0.0042),
             Item.of('gtceu:raw_topaz').withChance(0.0037),
             Item.of('gtceu:raw_alunite').withChance(0.0035),
+            Item.of('gtceu:raw_cinnabar').withChance(0.0024),
             Item.of('gtceu:raw_emerald').withChance(0.0017),
             Item.of('gtceu:raw_barite').withChance(0.0014)
         ], ['infinite_horizons_tweaks:netherrack_gravel', 'kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/netherrack');
