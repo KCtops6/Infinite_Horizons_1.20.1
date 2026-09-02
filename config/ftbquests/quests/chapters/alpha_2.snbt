@@ -3824,6 +3824,17 @@
 			x: 12.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["133BCE410E613A4F"]
+			id: "527C12D25E4D8D87"
+			tasks: [{
+				id: "62E23769075D0F73"
+				item: "minecraft:sandstone"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
 	]
 	title: "Alpha"
 }
