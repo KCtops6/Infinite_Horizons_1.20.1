@@ -13,4 +13,18 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+    event.custom({
+        type: "create:haunting",
+        ingredients: [
+            {
+                item: 'minecraft:sandstone'
+            }
+        ],
+        results: [
+            {
+                item: 'mysticalagriculture:soulstone'
+            }
+        ]
+    });
 });
